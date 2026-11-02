@@ -42,32 +42,51 @@ Columns: Measure | Ingredient | Prep | Mise Grouping. Keep it to one printed pag
 
 - `item` is the **shopping name**: Title Case, no prep words, no quantity words. `Yellow Onion` not `chopped yellow onion`. Match names already used in other recipes (grep `recipes/` for the word first) so the shopping list merges them.
 - `prep` holds the knife work and notes: `Peeled & minced`, `Removed from casing`.
-- `group` is the mise grouping: `1 -> Ginger Scallion Sauce`. Leave empty when there is one component.
+- `group` is the mise grouping and is **always filled in**: number the direction steps (`**1. Sweat the onion**`, `**2. Stew the cauliflower**`) and give every ingredient the step where it is first used, as `1 -> Sweat the onion`. An ingredient used in two steps gets `2 -> Stew (then 4 -> Finish)`. Sub-recipes (sauce, rub, dough) are their own numbered groups. This is what tells the cook which bowl each item goes in, so it applies to single-component recipes too.
 - `qty`/`unit` must reflect the measure so shopping lists add correctly. Count-type things (`1 Baguette`, `3 heads Bibb Lettuce`) use `each` or a descriptive counter.
 - `section`: set it when the keyword fallback in `data/store_sections.yaml` would get it wrong. Valid sections are listed in that file.
 - `shop: false` for Water, and for "for serving" extras the family said not to shop.
 
 ## 5. Directions
 
-Markdown. Short bold component headings (`**Day 1**`, `**Make the sauce**`) are good, but an H2/H3 structure is not required. Bullets for steps. Keep temperatures, times and doneness cues. Refer to mise groups by name ("Combine everything from `1 -> Ginger Scallion Sauce`").
+Markdown. Numbered bold step headings as paragraphs (`**1. Sweat the onion**`, `**2. Make the sauce**`; multi-day recipes can use `**Day 1**` above them) and bullets inside each step. Keep temperatures, times and doneness cues. Refer to mise groups by number and name ("Combine everything from `1 -> Ginger Scallion Sauce`").
+
+**Temperatures for techniques.** The family cooks with infrared and probe thermometers, so vague heat words get a number on first use: "over medium-high heat (pan surface 375-425°F)", "sweat (200-250°F, no color)", "a bare simmer (180-190°F)", "fry at 325°F", "braise at 300°F until 200°F internal". Use `data/techniques.yaml` for the house targets; the site and the Google Doc also append a "Technique temperatures" box automatically for any glossary term that appears. When you can fetch a reputable technique page (Serious Eats, ThermoWorks, King Arthur, AmazingRibs, USDA FSIS), link it in the direction text; if you can't fetch, don't invent a URL.
 
 ## 6. Times
 
 `prep`, `cook`, `rest`, `total` in whole minutes. `rest` covers brining, marinating, resting, cooling. `total` is wall-clock from start to serving (not the sum, when steps overlap or span days). Use `null` for unknown, never 0 as a placeholder.
 
-## 7. Write the file, validate, build, commit
+## 7. Write the file, then nutrition, then the Google Doc (all three, every time)
 
 ```bash
 python3 scripts/validate.py recipes/<slug>.md
+```
+
+**Nutrition (whole recipe), before committing.** Follow the `nutrition` skill:
+
+```bash
+python3 scripts/nutrition.py --check <slug>          # lists foods not in the canonical table
+bash scripts/usda_fetch.sh                            # once per session; local USDA copy
+python3 scripts/usda_lookup.py search "..."           # find the record, then `row ...` to append it
+python3 scripts/nutrition.py --write <slug>
+python3 scripts/nutrition_check.py
+```
+
+If a food is ambiguous in a way that materially changes the numbers (bone-in vs boneless, raw vs cooked, a branded item with no USDA record, how much of a brine or frying oil is consumed), do not guess: present the person 2-3 options with the source for each (USDA record names and ids, manufacturer label) and the resulting calories, ask which to use, then add the chosen row to `data/canonical_ingredients.csv` with its source so the question is never asked again. Small assumptions: proceed, state them in the line note.
+
+**Google Doc, always.** Follow the `drive-export` skill (render HTML, create the doc in the right folder, write `drive_doc_id` back). The build regenerates `docs/DOC_MAP.md` from it.
+
+```bash
 python3 scripts/build.py
 git add -A && git commit -m "Add <Title>" && git push -u origin main
 ```
 
-Then tell the person the recipe is live at `https://thomasfamilybot.github.io/chef/r/<slug>.html` and, if they want a Google Doc copy, follow the `drive-export` skill.
+Tell the person: the site link `https://thomasfamilybot.github.io/chef/r/<slug>.html`, the Google Doc link, the whole-recipe nutrition totals, and any assumptions or estimates in the nutrition lines.
 
-## 8. Nutrition
+## 8. If the person later edits the Google Doc
 
-Do **not** calculate nutrition during intake unless asked. When asked, follow the `nutrition` skill.
+They will say "doc updated, update the app" with the doc link. Follow the `drive-sync` skill.
 
 ## Example front matter
 

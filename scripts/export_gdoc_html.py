@@ -5,7 +5,9 @@ Drive's create_file with contentMimeType=text/html converts this into a Google D
 import sys, html, pathlib, argparse
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import markdown
-from chef_lib import load_recipe
+from chef_lib import load_recipe, load_techniques
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from build import find_techniques
 
 def t(v):
     return "—" if v is None else f"{v} min"
@@ -24,6 +26,10 @@ def render(path):
         f"<tr><td>{e(str(i['measure']))}</td><td>{e(i['item'])}</td><td>{e(i.get('prep') or '')}</td><td>{e(i.get('group') or '')}</td></tr>"
         for i in r["ingredients"])
     body = markdown.markdown(r["body_md"], extensions=["sane_lists"])
+    techs = find_techniques(r["body_md"], load_techniques())
+    if techs:
+        body += "<p><b>Technique temperatures</b></p><ul>" + "".join(
+            f"<li><b>{e(g['term'].capitalize())}</b>: {e(g['temp'])}" + (f" <a href=\"{e(g['url'])}\">ref</a>" if g.get('url') else "") + "</li>" for g in techs) + "</ul>"
     n = r.get("nutrition")
     if n:
         tot = n["totals"]; s = n.get("servings") or r.get("servings") or 1

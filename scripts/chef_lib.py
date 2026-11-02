@@ -96,3 +96,8 @@ def load_menus():
 def load_pairings():
     p = DATA / "pairings.yaml"
     return yaml.safe_load(open(p)) if p.exists() else []
+
+
+def load_techniques():
+    p = DATA / "techniques.yaml"
+    return yaml.safe_load(open(p)) if p.exists() else []

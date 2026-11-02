@@ -13,6 +13,7 @@
     <button class="btn add" data-slug="{{ r.slug }}">+ Shopping list</button>
     <button class="btn" onclick="window.print()">Print</button>
     <a class="btn" href="https://github.com/ThomasFamilyBot/Chef/edit/main/recipes/{{ r.slug }}.md">Edit</a>
+    {% if r.drive_doc_id %}<a class="btn" href="https://docs.google.com/document/d/{{ r.drive_doc_id }}/edit">Google Doc</a>{% endif %}
     <span class="tags">{% for t in r.tags or [] %}<span class="tag">{{ t }}</span>{% endfor %}</span>
   </div>
 </header>
@@ -29,6 +30,12 @@
 <section class="directions">
   <h2>Directions</h2>
   {{ r.body_html|safe }}
+  {% if r.techniques %}
+  <div class="techbox">
+    <h3>Technique temperatures</h3>
+    <ul class="small">{% for g in r.techniques %}<li><b>{{ g.term|capitalize }}</b>: {{ g.temp }}{% if g.url %} <a href="{{ g.url }}">ref</a>{% endif %}</li>{% endfor %}</ul>
+  </div>
+  {% endif %}
 </section>
 
 {% if r.pairs or r.menus %}

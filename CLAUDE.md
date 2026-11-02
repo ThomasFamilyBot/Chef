@@ -9,6 +9,8 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `data/canonical_ingredients.csv` — the canonical nutrition table (per 1 oz by weight). Never overwrite a row silently.
 - `data/store_sections.yaml` — ordered grocery-store sections + keyword fallbacks for ingredients that don't declare a section.
 - `data/shopping_templates/*.yaml` — recurring lists (e.g. house staples) that can be added to any shopping list.
+- `data/techniques.yaml` — technique glossary (sweat, sauté, medium-high, simmer, fry…) with target temperatures; auto-appended to recipe pages and Docs.
+- `docs/DOC_MAP.md` — generated map of recipe ↔ Google Doc ↔ site page.
 - `data/menus.yaml` — menus / run of show (library slugs + not-yet-written dishes). `data/pairings.yaml` — "pairs well with" links with reasons.
 - `scripts/validate.py` — checks every recipe against the format. Run it before committing.
 - `scripts/build.py` — builds the site into `dist/`.
@@ -18,12 +20,19 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `scripts/usda_fetch.sh` + `scripts/usda_lookup.py` — local copy of USDA SR Legacy; `search`, `show`, and `row` (emits a ready canonical CSV row with FDC id, URL and portion weights).
 - `scripts/set_override.py` — set a per-ingredient nutrition override in a recipe (exclude / fraction / oz) with a note.
 - `site/` — templates and static assets for the site.
-- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`.
+- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`, `drive-sync`.
 
 ## When asked to add / convert a recipe
 
 Follow `.claude/skills/recipe-intake/SKILL.md` exactly. It covers the questions to ask the uploader
-(reference text, hyperlink), unit rules, abbreviations, ingredient naming, store sections, and the file format.
+(reference text, hyperlink), unit rules, abbreviations, ingredient naming, mise groupings, technique temperatures, store sections, and the file format.
+**Adding a recipe is a four-part job, every time, without being asked:** (1) the recipe file, (2) whole-recipe nutrition
+(`nutrition` skill; new foods go into the canonical table with a source), (3) a Google Doc copy (`drive-export` skill), (4) validate, build, commit, push.
+Report all four in the final message.
+
+## When the family edits a Google Doc and says "doc updated, update the app"
+
+Follow `.claude/skills/drive-sync/SKILL.md`: find the recipe by the doc id, read the doc, update the recipe file, recompute nutrition, rebuild.
 
 ## When asked for nutrition
 

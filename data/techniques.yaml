@@ -1,0 +1,93 @@
+# Technique glossary: when a recipe's directions use one of these terms, the site and the Google Doc
+# add a "Technique temperatures" box with the target temperature, so an infrared thermometer or a
+# Thermapen can be used instead of guessing. Pan-surface temperatures are read with an infrared gun on
+# the dry pan or the oil; liquid and internal temperatures with a probe. Sources are named; add a
+# specific URL in `url` when a session can fetch and verify one.
+- term: sweat
+  aliases: [sweat the, sweating]
+  temp: "Low heat. Pan surface 200-250°F. Vegetables soften and turn translucent with no browning; a lid traps steam."
+  source: Serious Eats (The Food Lab); ThermoWorks blog
+- term: sauté
+  aliases: [saute, sautéed, sauteed]
+  temp: "Medium-high. Pan surface 350-400°F, oil shimmering. Food sizzles on contact and browns."
+  source: Serious Eats; ThermoWorks blog
+- term: medium-low heat
+  aliases: [medium-low, med low, med-low]
+  temp: "Pan surface about 250-300°F."
+  source: ThermoWorks blog (pan temperature guide)
+- term: medium heat
+  aliases: [over medium, on medium, medium flame]
+  temp: "Pan surface about 300-350°F."
+  source: ThermoWorks blog (pan temperature guide)
+- term: medium-high heat
+  aliases: [medium-high, medium high, med-high, med high]
+  temp: "Pan surface about 375-425°F; oil shimmers and just starts to wisp."
+  source: ThermoWorks blog (pan temperature guide)
+- term: high heat
+  aliases: [over high, on high]
+  temp: "Pan surface 450-500°F+; oil smokes within seconds."
+  source: ThermoWorks blog (pan temperature guide)
+- term: sear
+  aliases: [searing, seared, brown the, brown all sides, browning]
+  temp: "Pan surface 450-500°F, or grill grate 500°F+. Dry the surface first; don't move the meat for 2-3 min."
+  source: Serious Eats (The Food Lab, searing)
+- term: simmer
+  aliases: [simmering, low simmer, gentle simmer, bare simmer]
+  temp: "Liquid 185-205°F: small bubbles breaking the surface every second or two. A bare simmer is 180-190°F."
+  source: ThermoWorks blog; Serious Eats
+- term: boil
+  aliases: [boiling, bring to a boil, rolling boil]
+  temp: "212°F at sea level (San Francisco is sea level). Rolling boil is continuous large bubbles."
+  source: Basic physics; ThermoWorks blog
+- term: poach
+  aliases: [poaching, poached]
+  temp: "Liquid 160-180°F, no bubbles breaking the surface."
+  source: Serious Eats
+- term: deep fry
+  aliases: [deep-fry, deep frying, fry in batches, fry until golden, frying oil, fry the, fry for, fryer, frying]
+  temp: "Oil 325-375°F. Bone-in chicken 300-325°F for 12-15 min per batch; fries and small items 350-375°F. Oil drops 25-50°F when food goes in, so start at the top of the range."
+  source: Serious Eats (fried chicken, French fries); ThermoWorks blog
+- term: braise
+  aliases: [braising, braised]
+  temp: "Oven 275-325°F; the liquid should sit at 180-200°F, a bare simmer, not a boil. Done when a skewer slides in with no resistance (collagen fully rendered above ~190°F internal)."
+  source: Serious Eats (The Food Lab, braising)
+- term: roast
+  aliases: [roasting, roasted]
+  temp: "Moderate roast 350-400°F; high roast 425-475°F. Check internal temperature rather than time."
+  source: Serious Eats
+- term: broil
+  aliases: [broiler, under the broiler]
+  temp: "Element 500-550°F+; food 3-4 inches from the element. Watch continuously; it goes from brown to black in under a minute."
+  source: Serious Eats
+- term: caramelize
+  aliases: [caramelized onions, caramelize the onions, deep golden]
+  temp: "Onions: medium-low, pan surface 250-300°F, 30-45+ minutes, stirring. Sugar: 320-350°F (light amber to amber)."
+  source: Serious Eats (caramelized onions); ThermoWorks blog (sugar stages)
+- term: reduce
+  aliases: [reducing, reduced by half, until reduced]
+  temp: "Steady simmer 190-205°F in a wide pan; the wider the pan the faster it reduces."
+  source: Serious Eats
+- term: rest the meat
+  aliases: [let rest, let it rest, rest the pork, rest the lamb, rest the chicken, rest the beef, rest the steak, rest the brisket, resting]
+  temp: "Carryover cooking raises internal temperature 5-10°F in roasts and 2-5°F in steaks and chops. Pull early and rest until the probe reading stops rising."
+  source: ThermoWorks blog (carryover cooking); Serious Eats
+- term: toast the spices
+  aliases: [toast spices, until fragrant, bloom the spices, bloom]
+  temp: "Medium, pan surface 300-325°F, 30-60 seconds until fragrant. Spices scorch above ~350°F."
+  source: Serious Eats
+- term: temper
+  aliases: [tempering, temper the yolks, temper the eggs]
+  temp: "Custards and ice cream bases: whisk hot liquid into the yolks slowly, then cook to 170-175°F; eggs scramble above ~180°F."
+  source: Serious Eats (ice cream base); ThermoWorks blog
+- term: smoke
+  aliases: [smoker, smoking, smoked at, indirect]
+  temp: "Pit 225-275°F for low-and-slow; 250-275°F is the sweet spot for pork and beef. Thin blue smoke, never white."
+  source: AmazingRibs.com (Meathead); ThermoWorks blog
+- term: proof
+  aliases: [proofing, let rise, bulk rise, rise until doubled]
+  temp: "Dough 75-80°F ambient for a standard rise; a cold oven with the light on runs ~80-85°F; refrigerator retard 38-40°F."
+  source: King Arthur Baking; Serious Eats
+- term: internal temperature
+  aliases: [internal temp, until done, cooked through, instant-read, thermometer]
+  temp: "USDA minimums: poultry 165°F; ground meat 160°F; whole cuts of beef, pork and lamb 145°F with a 3-minute rest; fish 145°F. Chef's targets: chicken thighs 175-185°F, pork shoulder and brisket 200-205°F, medium-rare beef or lamb 130-135°F."
+  source: USDA FSIS safe minimum internal temperature chart; Serious Eats
