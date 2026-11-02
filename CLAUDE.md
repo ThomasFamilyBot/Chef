@@ -12,6 +12,10 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `scripts/validate.py` — checks every recipe against the format. Run it before committing.
 - `scripts/build.py` — builds the site into `dist/`.
 - `scripts/export_gdoc_html.py` — renders a recipe as HTML in the family's Google Doc template layout, for writing back to Drive.
+- `scripts/nutrition.py` — computes a recipe's nutrition from the canonical table (`--check`, `--write <slug>`, `--all`).
+- `scripts/nutrition_check.py` — sanity checks on the table and on computed recipes (ranges, Atwater consistency, portion weights, per-serving plausibility). Run after any nutrition change.
+- `scripts/usda_fetch.sh` + `scripts/usda_lookup.py` — local copy of USDA SR Legacy; `search`, `show`, and `row` (emits a ready canonical CSV row with FDC id, URL and portion weights).
+- `scripts/set_override.py` — set a per-ingredient nutrition override in a recipe (exclude / fraction / oz) with a note.
 - `site/` — templates and static assets for the site.
 - `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`.
 
