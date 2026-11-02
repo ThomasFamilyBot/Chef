@@ -5,6 +5,7 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 
 | Date | Recipe | Trashed doc id | Replaced by | Why |
 |---|---|---|---|---|
+| 2026-11-02 | cauliflower-soup | 1bBiBAcnOpBV94cys2zWf07Zz4J9MHjpEzqbs710beR8 | 1tkhLVMuoNAFIbDa3_ZnNe0uREi9RW0CKR_yDSE8tY0c | stray duplicate from an earlier run, not referenced anywhere; trashed at the family's request |
 | 2026-11-02 | ad-hoc-fried-chicken | 1VtOgGytKs2s56MwRV_YgMQbWcGqueJvFITBzutU4KBw | 1jzRu3mRUggx_hZ8WGkX_PtRTFecz0pNshpRTv_JP-zg | full refresh: nutrition now calories, protein g, fat g only |
 | 2026-11-02 | alleged-freds-tri-tip-marinade | 1qqdTWASg8CtpI7tctD4V8fx6pruf88MJHDTKP3OOfRs | 1JLqi2-fQwH4BHU_0HYr1sPhd2eTHr5HieQ_xTnuCznk | full refresh: nutrition now calories, protein g, fat g only |
 | 2026-11-02 | amatriciana | 1zPbGNlR2R_CPAAzOWuIIoV6Jnbh-ReYsjjtiDixejyQ | 15Yb6EoN2YxiCrqSGAkK2W_udNPRrBeG7tXqDmGTnGrI | full refresh: nutrition now calories, protein g, fat g only |
