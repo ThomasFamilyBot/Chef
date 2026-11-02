@@ -1,0 +1,379 @@
+# Foods that recipes use but data/canonical_ingredients.csv does not yet hold.
+# For each: add a row to the CSV (per 1 oz by weight) from USDA FoodData Central (SR Legacy or
+# Foundation; record fdc_id + source_url), with `portions` (grams per cup / TBLS / each / clove /
+# bunch / sprig / head ...) from the USDA food portions for that record, and `aliases` = the recipe
+# item names below (semicolon-separated) so scripts/nutrition.py can match them.
+# Never edit the existing custom rows (Shrimp, Chicken Thigh). Remove entries here once sourced.
+- canonical: Pork shoulder (Boston butt), bone-in, raw
+  aliases: [Pork Butt, bone-in]
+  usda_hint: "Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean and fat, raw"; edible_yield ~0.75 for bone-in
+- canonical: Pork shoulder, boneless, raw
+  aliases: [Pork Shoulder, boneless]
+  usda_hint: same cut, boneless (yield 1.0)
+- canonical: Pork loin chop, bone-in, raw
+  aliases: [Pork Loin Chops, bone-in, Pork Chops]
+  usda_hint: "Pork, fresh, loin, center loin (chops), bone-in, separable lean and fat, raw"; portions each≈ 8 oz chop
+- canonical: Beef short ribs, bone-in, raw
+  aliases: [Beef Short Ribs, bone-in]
+  usda_hint: "Beef, chuck, short ribs, boneless, separable lean and fat, raw" + bone yield ~0.6
+- canonical: Beef brisket, whole, raw
+  aliases: [Brisket]
+  usda_hint: "Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, raw"
+- canonical: Beef oxtail, raw
+  aliases: [Oxtail]
+  usda_hint: oxtail record if present, else bone-in beef with yield note
+- canonical: Beef tri-tip roast, raw
+  aliases: [Tri-Tip]
+  usda_hint: canonical table already has Tri-Tip per oz; add portions each≈2.5 lb
+- canonical: Lamb shoulder, bone-in, raw
+  aliases: [Lamb Shoulder, bone-in]
+  usda_hint: "Lamb, domestic, shoulder, whole (arm and blade), separable lean and fat, raw"; yield ~0.75
+- canonical: Lamb shoulder, boneless, raw
+  aliases: [Lamb Shoulder, boneless]
+- canonical: Lamb leg, whole, raw
+  aliases: [Leg of Lamb]
+  usda_hint: "Lamb, domestic, leg, whole (shank and sirloin), separable lean and fat, raw"; portions each≈ 7 lb bone-in, yield ~0.75
+- canonical: Lamb sausage (merguez), raw
+  aliases: [Merguez Sausage]
+  usda_hint: lamb sausage or "Sausage, Italian, pork, raw" as nearest; label as estimate if so
+- canonical: Chicken, whole, raw
+  aliases: [Whole Chicken, Chicken Pieces, bone-in skin-on, Chicken Thighs & Legs, bone-in skin-on]
+  usda_hint: "Chicken, broilers or fryers, meat and skin, raw" with bone yield ~0.7 for whole; each piece ≈ 6 oz
+- canonical: Turkey, ground, raw
+  aliases: [Ground Turkey]
+  usda_hint: "Turkey, ground, raw" (93/7)
+- canonical: Turkey breast, ground, raw
+  aliases: [Ground Turkey Breast]
+- canonical: Turkey necks, raw
+  aliases: [Turkey Necks]
+  usda_hint: "Turkey, neck, meat only, raw"; each≈ 8 oz
+- canonical: Italian sausage, pork, raw
+  aliases: [Sweet Italian Sausage]
+- canonical: Bacon, raw
+  aliases: [Bacon, Smoked Bacon]
+  usda_hint: "Pork, cured, bacon, unprepared"; portions slice≈ 28 g
+- canonical: Pancetta
+  aliases: [Pancetta]
+- canonical: Salt pork
+  aliases: [Salt Pork]
+- canonical: Oysters, raw
+  aliases: [Oysters]
+  usda_hint: "Mollusks, oyster, eastern, wild, raw"; each≈ 25 g meat
+- canonical: Clams, canned
+  aliases: [Baby Clams, 7.5 oz can]
+  usda_hint: "Mollusks, clam, mixed species, canned, drained solids"; can=7.5 oz drained weight note
+- canonical: Anchovy fillets, canned in oil
+  aliases: [Anchovy Fillets]
+  usda_hint: each≈ 4 g
+- canonical: Eggs, whole, raw
+  aliases: [Eggs]
+  usda_hint: each=50 g (large)
+- canonical: Egg yolk, raw
+  aliases: [Egg Yolks]
+  usda_hint: each=17 g
+- canonical: Butter, unsalted
+  aliases: [Unsalted Butter]
+  usda_hint: cup=227; TBLS=14.2
+- canonical: Milk, whole
+  aliases: [Whole Milk]
+  usda_hint: cup=244
+- canonical: Cream, heavy whipping
+  aliases: [Heavy Cream]
+  usda_hint: cup=238
+- canonical: Buttermilk, low-fat
+  aliases: [Buttermilk]
+  usda_hint: cup=245
+- canonical: Sour cream
+  aliases: [Sour Cream]
+  usda_hint: container=16 oz
+- canonical: Sweetened condensed milk
+  aliases: [Sweetened Condensed Milk]
+  usda_hint: cup=306
+- canonical: Parmesan, grated
+  aliases: [Parmesan]
+  usda_hint: cup=100 (grated); TBLS=5
+- canonical: Feta
+  aliases: [Feta]
+- canonical: Fontina
+  aliases: [Fontina]
+- canonical: Gorgonzola (blue cheese)
+  aliases: [Gorgonzola, Blue Cheese]
+- canonical: Swiss cheese
+  aliases: [Swiss Cheese]
+  usda_hint: cup shredded=108
+- canonical: Cheddar
+  aliases: [Cheddar Cheese]
+  usda_hint: each (block)=8 oz
+- canonical: Robiola (soft ripened cheese)
+  aliases: [Robiola]
+  usda_hint: nearest soft-ripened cow cheese (brie/camembert); label estimate
+- canonical: Cheese tortellini, fresh
+  aliases: [Cheese Tortellini]
+  usda_hint: manufacturer label if USDA lacks it
+- canonical: Pasta, dry
+  aliases: [Pasta, Spaghetti, Linguine, Fettuccine, Penne, Fusilli]
+  usda_hint: "Pasta, dry, enriched"
+- canonical: Ramen noodles, dried
+  aliases: [Dried Ramen Noodles]
+  usda_hint: instant/dry noodle record or manufacturer; note it
+- canonical: Soup dumplings, frozen (pork)
+  aliases: [Soup Dumplings, frozen]
+  usda_hint: manufacturer label; package≈ 16 oz
+- canonical: Rice, white, long-grain, raw
+  aliases: [White Rice]
+  usda_hint: cup=185
+- canonical: Cornmeal / polenta, dry
+  aliases: [Cornmeal, Polenta]
+  usda_hint: cup=122
+- canonical: Flour, all-purpose
+  aliases: [All-Purpose Flour, Wondra Flour]
+  usda_hint: cup=125
+- canonical: Flour, bread
+  aliases: [Bread Flour]
+- canonical: Flour, whole wheat
+  aliases: [Whole Wheat Flour]
+- canonical: Sourdough starter / preferment (flour+water 1:1)
+  aliases: [Sourdough Starter, Sourdough Preferment]
+  usda_hint: compute as half flour by weight; label estimate
+- canonical: Bread crumbs, dry
+  aliases: [Dried Bread Crumbs]
+  usda_hint: cup=108
+- canonical: Bread, Italian / white loaf
+  aliases: [Crusty Italian Bread, White Bread, Baguette]
+  usda_hint: loaf≈ 450 g; each (baguette)≈ 250 g
+- canonical: Sugar, granulated
+  aliases: [Granulated Sugar, Unrefined Cane Sugar, Decorative Sugar Crystals]
+  usda_hint: cup=200; tsp=4.2
+- canonical: Sugar, brown
+  aliases: [Brown Sugar, Dark Brown Sugar]
+  usda_hint: cup packed=220
+- canonical: Sugar, powdered
+  aliases: [Powdered Sugar]
+- canonical: Honey
+  aliases: [Honey]
+  usda_hint: tsp=7; bottle=12 oz
+- canonical: Maple syrup
+  aliases: [Maple Syrup]
+  usda_hint: cup=315
+- canonical: Molasses
+  aliases: [Molasses]
+  usda_hint: TBLS=20
+- canonical: Chocolate, dark (60-69%)
+  aliases: [Dark Chocolate (62%), Bittersweet Chocolate]
+- canonical: Chocolate, milk
+  aliases: [Milk Chocolate]
+- canonical: Cocoa powder, unsweetened
+  aliases: [Cocoa Powder, Dutch Process Cocoa Powder]
+  usda_hint: TBLS=5.4
+- canonical: Marshmallows (Peeps)
+  aliases: [Peeps]
+  usda_hint: each≈ 10 g
+- canonical: Vanilla extract
+  aliases: [Vanilla Extract, Orange Extract]
+  usda_hint: tsp=4.2
+- canonical: Vanilla bean
+  aliases: [Vanilla Bean]
+  usda_hint: negligible; each=0 kcal note
+- canonical: Baking powder / soda
+  aliases: [Baking Powder, Baking Soda]
+  usda_hint: zero macros
+- canonical: Olive oil
+  aliases: [Olive Oil, Extra-Virgin Olive Oil]
+  usda_hint: cup=216; TBLS=13.5
+- canonical: Vegetable / neutral oil
+  aliases: [Neutral Oil, Grapeseed Oil, Peanut Oil]
+  usda_hint: cup=218
+- canonical: Vinegar (balsamic)
+  aliases: [Balsamic Vinegar]
+  usda_hint: cup=255
+- canonical: Vinegar (wine / cider / white / champagne / sherry / rice)
+  aliases: [Red Wine Vinegar, White Vinegar, Champagne Vinegar, Sherry Vinegar, Rice Vinegar, unseasoned]
+  usda_hint: "Vinegar, red wine" cup=239
+- canonical: Soy sauce
+  aliases: [Soy Sauce, Soy Sauce, low sodium, Light Soy Sauce, Tamari]
+  usda_hint: cup=255
+- canonical: Worcestershire sauce
+  aliases: [Worcestershire Sauce]
+- canonical: Mustard, Dijon
+  aliases: [Dijon Mustard]
+  usda_hint: TBLS=15
+- canonical: Hot sauce
+  aliases: [Hot Sauce]
+- canonical: BBQ sauce
+  aliases: [BBQ Sauce]
+  usda_hint: bottle=18 oz
+- canonical: Ranch dressing
+  aliases: [Ranch Dressing]
+  usda_hint: bottle=16 fl oz; cup=235
+- canonical: Pizza sauce
+  aliases: [Pizza Sauce]
+- canonical: Harissa
+  aliases: [Harissa]
+  usda_hint: manufacturer label
+- canonical: Gochujang / ssamjang
+  aliases: [Kochujang, Ssamjang]
+  usda_hint: manufacturer label; TBLS=18
+- canonical: Kimchi
+  aliases: [Kimchi]
+  usda_hint: cup=150; container=16 oz
+- canonical: Vegemite
+  aliases: [Vegemite]
+  usda_hint: manufacturer label
+- canonical: Cuttlefish / squid ink
+  aliases: [Cuttlefish Ink]
+  usda_hint: negligible; estimate
+- canonical: Capers
+  aliases: [Capers]
+- canonical: Olives, black
+  aliases: [Black Olives]
+  usda_hint: cup sliced=135
+- canonical: Pickles, dill
+  aliases: [Pickles]
+  usda_hint: jar=24 oz
+- canonical: Tomatoes, crushed, canned
+  aliases: [Crushed Tomatoes, 15 oz can, Crushed Tomatoes, 28 oz can, Whole Peeled Tomatoes, 15 oz can, Whole Plum Tomatoes, fire roasted, 28 oz can, San Marzano Tomatoes, 35 oz can]
+  usda_hint: "Tomatoes, red, ripe, canned, packed in tomato juice"
+- canonical: Tomato paste
+  aliases: [Tomato Paste]
+  usda_hint: TBLS=16; can=6 oz
+- canonical: Tomatoes, cherry, raw
+  aliases: [Cherry Tomatoes]
+- canonical: Chili beans, canned
+  aliases: [Prepared Chili Beans]
+  usda_hint: "Beans, baked/chili style, canned"; can=15 oz
+- canonical: Beans, cannellini, dried
+  aliases: [Cannellini Beans, dried]
+  usda_hint: "Beans, white, mature seeds, raw"
+- canonical: Stock, chicken
+  aliases: [Chicken Stock, Chicken Stock, low sodium, Chicken Broth, low sodium, Lamb or Chicken Stock, low sodium]
+  usda_hint: "Soup, chicken broth, ready-to-serve"; cup=240; can=14.5 fl oz
+- canonical: Stock, beef
+  aliases: [Beef Stock]
+- canonical: Wine, red, table
+  aliases: [Dry Red Wine]
+  usda_hint: cup=235; bottle=750
+- canonical: Wine, white, table
+  aliases: [Dry White Wine]
+- canonical: Beer, regular
+  aliases: [Beer]
+  usda_hint: bottle=12 fl oz=356 g
+- canonical: Root beer
+  aliases: [Root Beer]
+- canonical: Tequila (80 proof distilled spirit)
+  aliases: [Silver Tequila, 100% agave]
+  usda_hint: "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof"
+- canonical: Orange liqueur (Cointreau / Grand Marnier)
+  aliases: [Cointreau, Grand Marnier]
+  usda_hint: "Alcoholic beverage, liqueur, coffee" is not right; use manufacturer label (Cointreau ~ 95 kcal/oz)
+- canonical: Coffee, brewed
+  aliases: [Brewed Dark Roast Coffee]
+- canonical: Coffee, ground (dry)
+  aliases: [Coffee, coarse ground]
+  usda_hint: negligible; note
+- canonical: Juice, orange
+  aliases: [Orange Juice]
+  usda_hint: cup=248
+- canonical: Juice, carrot
+  aliases: [Carrot Juice]
+- canonical: Juice, lime
+  aliases: [Lime Juice]
+- canonical: Juice, apple
+  aliases: [Apple Juice]
+- canonical: Onion, yellow, raw
+  aliases: [Yellow Onion]
+  usda_hint: each (large)=150; cup chopped=160
+- canonical: Onion, red, raw
+  aliases: [Red Onion]
+- canonical: Onions, pearl, raw
+  aliases: [Pearl Onions]
+  usda_hint: each=7
+- canonical: Shallot, raw
+  aliases: [Shallot]
+  usda_hint: each=40; TBLS chopped=10
+- canonical: Scallions, raw
+  aliases: [Scallions]
+  usda_hint: each=15; bunch=100
+- canonical: Garlic, raw
+  aliases: [Garlic]
+  usda_hint: clove=3; head=40; tsp minced=2.8
+- canonical: Ginger root, raw
+  aliases: [Ginger]
+  usda_hint: TBLS=6; cup=96
+- canonical: Carrots, raw
+  aliases: [Carrots]
+  usda_hint: each=61
+- canonical: Celery, raw
+  aliases: [Celery]
+  usda_hint: stalk=40
+- canonical: Peppers, sweet, raw
+  aliases: [Bell Pepper, Red Bell Pepper, Yellow Bell Pepper]
+  usda_hint: each=120
+- canonical: Jalapeño, raw
+  aliases: [Jalapeño, Red Jalapeño]
+  usda_hint: each=14
+- canonical: Chiles, dried (ancho, de árbol)
+  aliases: [Dried Ancho Chile, Chiles de Árbol]
+  usda_hint: "Peppers, ancho, dried" each=17; de árbol cup≈ 30 g
+- canonical: Mushrooms, white, raw
+  aliases: [White Button Mushrooms]
+- canonical: Mushrooms, shiitake, raw
+  aliases: [Shiitake Mushrooms]
+- canonical: Broccoli, raw
+  aliases: [Broccoli]
+  usda_hint: bunch=600
+- canonical: Squash, winter (delicata), raw
+  aliases: [Delicata Squash]
+- canonical: Cucumber, raw
+  aliases: [Cucumbers]
+  usda_hint: each=300
+- canonical: Lettuce, romaine / Bibb
+  aliases: [Romaine Lettuce, Bibb Lettuce]
+  usda_hint: head romaine=626; head Bibb=160
+- canonical: Greens, mixed / arugula
+  aliases: [Mixed Greens, Arugula]
+  usda_hint: bag=5 oz
+- canonical: Apples, raw
+  aliases: [Apples]
+  usda_hint: each=180
+- canonical: Oranges, raw (zest/juice use)
+  aliases: [Orange]
+  usda_hint: each=130 (count only what's used; zest ≈ 0)
+- canonical: Lemon, raw
+  aliases: [Lemon]
+  usda_hint: each=58 (juice ≈ 47 g)
+- canonical: Lime, raw
+  aliases: [Lime]
+  usda_hint: each=67
+- canonical: Berries, mixed, raw
+  aliases: [Berries]
+  usda_hint: container=6 oz
+- canonical: Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage)
+  aliases: [Flat-Leaf Parsley, Cilantro, Basil, Mint, Fresh Thyme, Fresh Rosemary, Fresh Sage, Fresh Herbs]
+  usda_hint: "Parsley, fresh" as representative; sprig=1; TBLS=4; cup=30; bunch=60
+- canonical: Bay leaf
+  aliases: [Bay Leaves]
+  usda_hint: leaf=0.6; each=0.6
+- canonical: Spices, ground (generic)
+  aliases: [Cayenne, Chili Powder, Ancho Chili Powder, Paprika, Smoked Paprika, Ground Cumin, Ground Cinnamon, Cinnamon, Ground Allspice, Ground Cloves, Ground Fennel Seed, Garlic Powder, Onion Powder, Granulated Garlic, Dry Mustard Powder, Nutmeg, Dried Oregano, Dried Basil, Dried Thyme, Dried Parsley, Herbes de Provence, Red Pepper Flakes, Curing Salt, Seeds or Spices]
+  usda_hint: one row per spice is better where it's used in TBLS quantities (chili powder, paprika, cumin, garlic powder, onion powder); the tsp-only ones can share a "Spices, generic" row with tsp=2.3 g
+- canonical: Spices, whole (peppercorn, coriander, fennel, mustard seed, cloves, star anise, cinnamon stick)
+  aliases: [Black Peppercorns, Coriander Seeds, Fennel Seeds, Mustard Seeds, Whole Cloves, Star Anise, Cinnamon Sticks]
+  usda_hint: tsp=2; cup≈ 100; each (star anise)=1; stick=3
+- canonical: Salt
+  aliases: [Kosher Salt, Sea Salt, Coarse Sea Salt, Flaky Sea Salt, Garlic Salt, Truffle Salt]
+  usda_hint: zero macros; row exists so lines map (cup=280; TBLS=15; tsp=5)
+- canonical: Pepper, black, ground
+  aliases: [Black Pepper]
+  usda_hint: tsp=2.3; TBLS=7 (count calories; small)
+- canonical: Saffron
+  aliases: [Saffron]
+- canonical: Seaweed, dried (laver/nori)
+  aliases: [Dried Seaweed]
+- canonical: Agar
+  aliases: [Agar]
+- canonical: Pumpkin bushi (Noma)
+  aliases: [Noma Pumpkin Bushi]
+  usda_hint: garnish; exclude
+- canonical: Non-food / equipment
+  aliases: [10" Round Baking Pan, Stockpot, Parchment Paper, Post Oak Wood Chunks, Lamb-Fat Yorkshire Puddings, Pizza Toppings]
+  usda_hint: state=non-food

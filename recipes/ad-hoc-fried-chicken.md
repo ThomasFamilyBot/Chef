@@ -13,102 +13,103 @@ times:
   total: 915
 tags: [chicken, main, project]
 source_doc: https://docs.google.com/document/d/1ci1Z8cK252hEvIFmhwqLy00zMxIDygyGYg3H-T5wDkg/edit
-drive_doc_id: null
+drive_doc_id: 1qbewHwyQDLf4V6kFFYWGFPtFQKAyJsXbVM3fWcEUpxM
 ingredients:
-  - measure: 5 lb
-    item: Whole Chicken
-    prep: Cut into 4 breast quarters, 2 legs / thighs / wings. Brined (see Fried Chicken Brine)
-    qty: 5
-    unit: lb
-  - measure: 5 quarts
-    item: Peanut Oil
-    qty: 5
-    unit: quart
-    section: Oils, Vinegars & Condiments
-  - measure: 1 quart
-    item: Buttermilk
-    qty: 1
-    unit: quart
-  - measure: To taste
-    item: Kosher Salt
-    prep: For seasoning the buttermilk
-    qty: 1
-    unit: to taste
-  - measure: To taste
-    item: Black Pepper
-    prep: For seasoning the buttermilk
-    qty: 1
-    unit: to taste
-  - measure: 6 cups (1.6 lb)
-    item: All-Purpose Flour
-    group: 1 -> Dredge
-    qty: 6
-    unit: cup
-  - measure: 1/4 cup
-    item: Garlic Powder
-    group: 1 -> Dredge
-    qty: 0.25
-    unit: cup
-  - measure: 1/4 cup
-    item: Onion Powder
-    group: 1 -> Dredge
-    qty: 0.25
-    unit: cup
-  - measure: 1 TBLS + 1 tsp
-    item: Paprika
-    group: 1 -> Dredge
-    qty: 4
-    unit: tsp
-  - measure: 1 TBLS + 1 tsp
-    item: Cayenne
-    group: 1 -> Dredge
-    qty: 4
-    unit: tsp
-  - measure: 1 TBLS + 1 tsp
-    item: Kosher Salt
-    group: 1 -> Dredge
-    qty: 4
-    unit: tsp
-  - measure: 1 tsp
-    item: Black Pepper
-    group: 1 -> Dredge
-    qty: 1
-    unit: tsp
-  - measure: To taste
-    item: Flaky Sea Salt
-    prep: Fleur de sel or fine sea salt, for finishing
-    qty: 1
-    unit: to taste
-  - measure: 1 bunch
-    item: Fresh Rosemary
-    prep: For frying the sprigs
-    qty: 1
-    unit: bunch
-  - measure: 1 bunch
-    item: Fresh Thyme
-    prep: For frying the sprigs
-    qty: 1
-    unit: bunch
-  - measure: 1 roll
-    item: Parchment Paper
-    qty: 1
-    unit: each
-    section: Household
-  - measure: 2 bottles
-    item: BBQ Sauce
-    prep: For serving
-    qty: 2
-    unit: bottle
-  - measure: 2 bottles
-    item: Ranch Dressing
-    prep: For serving
-    qty: 2
-    unit: bottle
-  - measure: 2 bottles
-    item: Honey
-    prep: For serving
-    qty: 2
-    unit: bottle
+- measure: 5 lb
+  item: Whole Chicken
+  prep: Cut into 4 breast quarters, 2 legs / thighs / wings. Brined (see Fried Chicken Brine)
+  qty: 5
+  unit: lb
+- measure: 5 quarts
+  item: Peanut Oil
+  qty: 5
+  unit: quart
+  section: Oils, Vinegars & Condiments
+- measure: 1 quart
+  item: Buttermilk
+  qty: 1
+  unit: quart
+- measure: To taste
+  item: Kosher Salt
+  prep: For seasoning the buttermilk
+  qty: 1
+  unit: to taste
+- measure: To taste
+  item: Black Pepper
+  prep: For seasoning the buttermilk
+  qty: 1
+  unit: to taste
+- measure: 6 cups (1.6 lb)
+  item: All-Purpose Flour
+  group: 1 -> Dredge
+  qty: 6
+  unit: cup
+- measure: 1/4 cup
+  item: Garlic Powder
+  group: 1 -> Dredge
+  qty: 0.25
+  unit: cup
+- measure: 1/4 cup
+  item: Onion Powder
+  group: 1 -> Dredge
+  qty: 0.25
+  unit: cup
+- measure: 1 TBLS + 1 tsp
+  item: Paprika
+  group: 1 -> Dredge
+  qty: 4
+  unit: tsp
+- measure: 1 TBLS + 1 tsp
+  item: Cayenne
+  group: 1 -> Dredge
+  qty: 4
+  unit: tsp
+- measure: 1 TBLS + 1 tsp
+  item: Kosher Salt
+  group: 1 -> Dredge
+  qty: 4
+  unit: tsp
+- measure: 1 tsp
+  item: Black Pepper
+  group: 1 -> Dredge
+  qty: 1
+  unit: tsp
+- measure: To taste
+  item: Flaky Sea Salt
+  prep: Fleur de sel or fine sea salt, for finishing
+  qty: 1
+  unit: to taste
+- measure: 1 bunch
+  item: Fresh Rosemary
+  prep: For frying the sprigs
+  qty: 1
+  unit: bunch
+- measure: 1 bunch
+  item: Fresh Thyme
+  prep: For frying the sprigs
+  qty: 1
+  unit: bunch
+- measure: 1 roll
+  item: Parchment Paper
+  qty: 1
+  unit: each
+  section: Household
+  nutrition: exclude
+- measure: 2 bottles
+  item: BBQ Sauce
+  prep: For serving
+  qty: 2
+  unit: bottle
+- measure: 2 bottles
+  item: Ranch Dressing
+  prep: For serving
+  qty: 2
+  unit: bottle
+- measure: 2 bottles
+  item: Honey
+  prep: For serving
+  qty: 2
+  unit: bottle
 nutrition: null
 ---
 5 lb and double fryer = 1 hr 15 min total.

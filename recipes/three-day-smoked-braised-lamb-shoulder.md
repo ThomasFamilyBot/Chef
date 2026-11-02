@@ -13,131 +13,134 @@ tags: [lamb, main, smoker, project, three-day]
 source_doc: https://drive.google.com/file/d/1g1gjZXRKno-gZwfgjYZSl4MDBqW9Zsh8/view
 drive_doc_id: null
 ingredients:
-  - measure: 5 1/2-6 1/2 lb
-    item: Lamb Shoulder, bone-in
-    group: A - dry-brined lamb
-    qty: 6.5
-    unit: lb
-  - measure: 25 g, plus more
-    item: Kosher Salt
-    prep: Diamond Crystal; weighing preferred
-    group: A / D
-    qty: 25
-    unit: g
-  - measure: 2 tsp, plus more
-    item: Black Pepper
-    group: A / D
-    qty: 2
-    unit: tsp
-  - measure: 2 large
-    item: Yellow Onion
-    prep: Quartered
-    group: B - smoked aromatics
-    qty: 2
-    unit: each
-  - measure: 4
-    item: Shallot
-    prep: Halved
-    group: B - smoked aromatics
-    qty: 4
-    unit: each
-  - measure: 1 head
-    item: Garlic
-    prep: Halved crosswise
-    group: B - smoked aromatics
-    qty: 1
-    unit: head
-  - measure: 2 TBLS
-    item: Neutral Oil
-    group: B - smoked aromatics
-    qty: 2
-    unit: TBLS
-  - measure: 2 small chunks
-    item: Post Oak Wood Chunks
-    group: B - smoke
-    qty: 2
-    unit: each
-    section: Household
-  - measure: 1 bottle (25 fl oz)
-    item: Dry Red Wine
-    group: C - braise
-    qty: 1
-    unit: bottle
-  - measure: 4 cups, plus more if needed
-    item: Lamb or Chicken Stock, low sodium
-    group: C - braise
-    qty: 4
-    unit: cup
-    section: Canned & Jarred
-  - measure: 1/4 cup
-    item: Balsamic Vinegar
-    group: C - braise
-    qty: 0.25
-    unit: cup
-  - measure: 2 sprigs
-    item: Fresh Rosemary
-    group: C - braise
-    qty: 2
-    unit: sprig
-  - measure: 6 sprigs
-    item: Fresh Thyme
-    group: C - braise
-    qty: 6
-    unit: sprig
-  - measure: 2
-    item: Bay Leaves
-    group: C - braise
-    qty: 2
-    unit: leaf
-  - measure: 2 oz (4 TBLS)
-    item: Unsalted Butter
-    prep: Cold, cubed
-    group: D - finished jus
-    qty: 2
-    unit: oz
-  - measure: 3 TBLS, divided
-    item: Red Wine Vinegar
-    prep: To taste
-    group: D / E
-    qty: 3
-    unit: TBLS
-  - measure: 1 cup, loosely packed
-    item: Mint
-    prep: Leaves
-    group: E - herb garnish
-    qty: 1
-    unit: bunch
-  - measure: 1 cup, loosely packed
-    item: Flat-Leaf Parsley
-    prep: Leaves
-    group: E - herb garnish
-    qty: 1
-    unit: bunch
-  - measure: 1 small
-    item: Shallot
-    prep: Very finely minced
-    group: E - herb garnish
-    qty: 1
-    unit: each
-  - measure: 2 TBLS
-    item: Extra-Virgin Olive Oil
-    group: E - herb garnish
-    qty: 2
-    unit: TBLS
-  - measure: As needed
-    item: Noma Pumpkin Bushi
-    prep: For fine grating
-    group: F - service
-    qty: 1
-    unit: each
-    section: International
-  - measure: 7
-    item: Lamb-Fat Yorkshire Puddings
-    prep: Or as planned by host (separate recipe)
-    group: F - service
-    qty: 7
-    unit: each
-    shop: false
+- measure: 5 1/2-6 1/2 lb
+  item: Lamb Shoulder, bone-in
+  group: A - dry-brined lamb
+  qty: 6.5
+  unit: lb
+- measure: 25 g, plus more
+  item: Kosher Salt
+  prep: Diamond Crystal; weighing preferred
+  group: A / D
+  qty: 25
+  unit: g
+- measure: 2 tsp, plus more
+  item: Black Pepper
+  group: A / D
+  qty: 2
+  unit: tsp
+- measure: 2 large
+  item: Yellow Onion
+  prep: Quartered
+  group: B - smoked aromatics
+  qty: 2
+  unit: each
+- measure: 4
+  item: Shallot
+  prep: Halved
+  group: B - smoked aromatics
+  qty: 4
+  unit: each
+- measure: 1 head
+  item: Garlic
+  prep: Halved crosswise
+  group: B - smoked aromatics
+  qty: 1
+  unit: head
+- measure: 2 TBLS
+  item: Neutral Oil
+  group: B - smoked aromatics
+  qty: 2
+  unit: TBLS
+- measure: 2 small chunks
+  item: Post Oak Wood Chunks
+  group: B - smoke
+  qty: 2
+  unit: each
+  section: Household
+  nutrition: exclude
+- measure: 1 bottle (25 fl oz)
+  item: Dry Red Wine
+  group: C - braise
+  qty: 1
+  unit: bottle
+- measure: 4 cups, plus more if needed
+  item: Lamb or Chicken Stock, low sodium
+  group: C - braise
+  qty: 4
+  unit: cup
+  section: Canned & Jarred
+- measure: 1/4 cup
+  item: Balsamic Vinegar
+  group: C - braise
+  qty: 0.25
+  unit: cup
+- measure: 2 sprigs
+  item: Fresh Rosemary
+  group: C - braise
+  qty: 2
+  unit: sprig
+- measure: 6 sprigs
+  item: Fresh Thyme
+  group: C - braise
+  qty: 6
+  unit: sprig
+- measure: 2
+  item: Bay Leaves
+  group: C - braise
+  qty: 2
+  unit: leaf
+- measure: 2 oz (4 TBLS)
+  item: Unsalted Butter
+  prep: Cold, cubed
+  group: D - finished jus
+  qty: 2
+  unit: oz
+- measure: 3 TBLS, divided
+  item: Red Wine Vinegar
+  prep: To taste
+  group: D / E
+  qty: 3
+  unit: TBLS
+- measure: 1 cup, loosely packed
+  item: Mint
+  prep: Leaves
+  group: E - herb garnish
+  qty: 1
+  unit: bunch
+- measure: 1 cup, loosely packed
+  item: Flat-Leaf Parsley
+  prep: Leaves
+  group: E - herb garnish
+  qty: 1
+  unit: bunch
+- measure: 1 small
+  item: Shallot
+  prep: Very finely minced
+  group: E - herb garnish
+  qty: 1
+  unit: each
+- measure: 2 TBLS
+  item: Extra-Virgin Olive Oil
+  group: E - herb garnish
+  qty: 2
+  unit: TBLS
+- measure: As needed
+  item: Noma Pumpkin Bushi
+  prep: For fine grating
+  group: F - service
+  qty: 1
+  unit: each
+  section: International
+  nutrition: exclude
+- measure: 7
+  item: Lamb-Fat Yorkshire Puddings
+  prep: Or as planned by host (separate recipe)
+  group: F - service
+  qty: 7
+  unit: each
+  shop: false
+  nutrition: exclude
 nutrition: null
 ---
 Red wine-balsamic jus, lacquered edges, sharp herbs & Noma Pumpkin Bushi. Served on lamb-fat Yorkshires.

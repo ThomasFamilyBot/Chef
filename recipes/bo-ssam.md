@@ -15,103 +15,109 @@ tags: [pork, korean, main, project, two-day]
 source_doc: https://docs.google.com/document/d/1YVMCgX6Y9THkvIHUEWEwK1a-NPvEpiXNir6mOXNNyTo/edit
 drive_doc_id: 1HjDy5996d1pbhSsaOmpR9jWj-RSPHAMAZem_5YtNK4U
 ingredients:
-  - measure: 8-10 lb
-    item: Pork Butt, bone-in
-    prep: Whole (picnic ham also works)
-    qty: 10
-    unit: lb
-    section: Meat & Seafood
-  - measure: 1 cup
-    item: Granulated Sugar
-    qty: 1
-    unit: cup
-  - measure: 1 cup + 1 TBLS
-    item: Kosher Salt
-    prep: Keep the 1 cup separate from the 1 TBLS
-    qty: 17
-    unit: TBLS
-  - measure: 7 TBLS
-    item: Brown Sugar
-    qty: 7
-    unit: TBLS
-  - measure: 2 1/2 cups (2 large bunches)
-    item: Scallions
-    prep: Thin slice, green & white
-    group: 1 -> Ginger Scallion Sauce
-    qty: 2
-    unit: bunch
-  - measure: 1/2 cup (~ full handful)
-    item: Ginger
-    prep: Peeled & minced
-    group: 1 -> Ginger Scallion Sauce
-    qty: 0.5
-    unit: cup
-  - measure: 1/4 cup
-    item: Grapeseed Oil
-    prep: Or any neutral oil. Get more for ssam sauce
-    group: 1 -> Ginger Scallion Sauce
-    qty: 0.25
-    unit: cup
-  - measure: 1 1/2 tsp
-    item: Light Soy Sauce
-    group: 1 -> Ginger Scallion Sauce
-    qty: 1.5
-    unit: tsp
-  - measure: 1 tsp
-    item: Sherry Vinegar
-    prep: Get more for ssam sauce
-    group: 1 -> Ginger Scallion Sauce
-    qty: 1
-    unit: tsp
-  - measure: 1/2 tsp
-    item: Kosher Salt
-    group: 1 -> Ginger Scallion Sauce
-    qty: 0.5
-    unit: tsp
-  - measure: 2 TBLS
-    item: Ssamjang
-    prep: Can be hard to find. First Korean Market (4625 Geary Blvd) has it
-    group: 2 -> Ssam Sauce
-    qty: 2
-    unit: TBLS
-    section: Oils, Vinegars & Condiments
-  - measure: 1 TBLS
-    item: Kochujang
-    prep: Get the paste, not the premade sauce
-    group: 2 -> Ssam Sauce
-    qty: 1
-    unit: TBLS
-    section: Oils, Vinegars & Condiments
-  - measure: 1/2 cup
-    item: Sherry Vinegar
-    group: 2 -> Ssam Sauce
-    qty: 0.5
-    unit: cup
-  - measure: 1/2 cup
-    item: Grapeseed Oil
-    prep: Or any neutral oil
-    group: 2 -> Ssam Sauce
-    qty: 0.5
-    unit: cup
-  - measure: 2 cups
-    item: White Rice
-    qty: 2
-    unit: cup
-  - measure: 3 heads
-    item: Bibb Lettuce
-    prep: Separated, washed & dried
-    qty: 3
-    unit: head
-  - measure: 1 dozen
-    item: Oysters
-    prep: Optional
-    qty: 12
-    unit: each
-  - measure: 1 container
-    item: Kimchi
-    prep: 1 cup whole, 1 cup pureed
-    qty: 1
-    unit: container
+- measure: 8-10 lb
+  item: Pork Butt, bone-in
+  prep: Whole (picnic ham also works)
+  qty: 10
+  unit: lb
+  section: Meat & Seafood
+- measure: 1 cup
+  item: Granulated Sugar
+  qty: 1
+  unit: cup
+  nutrition:
+    fraction: 0.1
+    note: brine rub; most is brushed off and juices discarded, ~10% assumed absorbed
+- measure: 1 cup + 1 TBLS
+  item: Kosher Salt
+  prep: Keep the 1 cup separate from the 1 TBLS
+  qty: 17
+  unit: TBLS
+  nutrition:
+    fraction: 0.1
+    note: brine rub; ~10% assumed absorbed
+- measure: 7 TBLS
+  item: Brown Sugar
+  qty: 7
+  unit: TBLS
+- measure: 2 1/2 cups (2 large bunches)
+  item: Scallions
+  prep: Thin slice, green & white
+  group: 1 -> Ginger Scallion Sauce
+  qty: 2
+  unit: bunch
+- measure: 1/2 cup (~ full handful)
+  item: Ginger
+  prep: Peeled & minced
+  group: 1 -> Ginger Scallion Sauce
+  qty: 0.5
+  unit: cup
+- measure: 1/4 cup
+  item: Grapeseed Oil
+  prep: Or any neutral oil. Get more for ssam sauce
+  group: 1 -> Ginger Scallion Sauce
+  qty: 0.25
+  unit: cup
+- measure: 1 1/2 tsp
+  item: Light Soy Sauce
+  group: 1 -> Ginger Scallion Sauce
+  qty: 1.5
+  unit: tsp
+- measure: 1 tsp
+  item: Sherry Vinegar
+  prep: Get more for ssam sauce
+  group: 1 -> Ginger Scallion Sauce
+  qty: 1
+  unit: tsp
+- measure: 1/2 tsp
+  item: Kosher Salt
+  group: 1 -> Ginger Scallion Sauce
+  qty: 0.5
+  unit: tsp
+- measure: 2 TBLS
+  item: Ssamjang
+  prep: Can be hard to find. First Korean Market (4625 Geary Blvd) has it
+  group: 2 -> Ssam Sauce
+  qty: 2
+  unit: TBLS
+  section: Oils, Vinegars & Condiments
+- measure: 1 TBLS
+  item: Kochujang
+  prep: Get the paste, not the premade sauce
+  group: 2 -> Ssam Sauce
+  qty: 1
+  unit: TBLS
+  section: Oils, Vinegars & Condiments
+- measure: 1/2 cup
+  item: Sherry Vinegar
+  group: 2 -> Ssam Sauce
+  qty: 0.5
+  unit: cup
+- measure: 1/2 cup
+  item: Grapeseed Oil
+  prep: Or any neutral oil
+  group: 2 -> Ssam Sauce
+  qty: 0.5
+  unit: cup
+- measure: 2 cups
+  item: White Rice
+  qty: 2
+  unit: cup
+- measure: 3 heads
+  item: Bibb Lettuce
+  prep: Separated, washed & dried
+  qty: 3
+  unit: head
+- measure: 1 dozen
+  item: Oysters
+  prep: Optional
+  qty: 12
+  unit: each
+- measure: 1 container
+  item: Kimchi
+  prep: 1 cup whole, 1 cup pureed
+  qty: 1
+  unit: container
 nutrition: null
 ---
 **Day 1 — Brine the pork**

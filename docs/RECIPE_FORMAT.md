@@ -54,3 +54,13 @@ Count: `each`, plus descriptive counters: `clove`, `head`, `bunch`, `sprig`, `st
 ## Nutrition block
 
 See `.claude/skills/nutrition/SKILL.md`.
+
+## Per-ingredient nutrition overrides
+
+An ingredient line may carry a `nutrition:` key read by `scripts/nutrition.py`:
+
+```yaml
+    nutrition: exclude                              # equipment, garnish, discarded brine
+    nutrition: {fraction: 0.1, note: brine; ~10% absorbed}
+    nutrition: {oz: 12, note: edible weight override}
+```

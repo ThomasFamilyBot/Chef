@@ -11,7 +11,7 @@ times:
   total: 15
 tags: [pasta, korean, eggs, main, weeknight, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1qaoWOHExsceJkH6fKcQ5UXKq-OX0-yO9qJjhA8DyaPw/edit
-drive_doc_id: null
+drive_doc_id: 140l0m6qZm2wydrHnlDhQIVowDF2M2xnKYF6-DeZcAkg
 ingredients:
   - measure: 8 oz
     item: Linguine

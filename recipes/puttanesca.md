@@ -11,7 +11,7 @@ times:
   total: 45
 tags: [pasta, italian, seafood, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1l0-BzVQzEwKolf_tUaMVe2kguBWkwQ02bw6ZCFHJXsA/edit
-drive_doc_id: null
+drive_doc_id: 1CuwpfEcMEAfqac5EyAOZdR2GKDrcIKqRGSBq16fVhKk
 ingredients:
   - measure: 2 cloves
     item: Garlic
