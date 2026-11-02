@@ -82,7 +82,15 @@ python3 scripts/build.py
 git add -A && git commit -m "Add <Title>" && git push -u origin main
 ```
 
-Tell the person: the site link `https://thomasfamilybot.github.io/chef/r/<slug>.html`, the Google Doc link, the whole-recipe nutrition totals, and any assumptions or estimates in the nutrition lines.
+**Wait for the deploy before handing over the site link.** GitHub Pages publishes a minute or two after the push; a link sent earlier 404s. Run:
+
+```bash
+gh run list --repo ThomasFamilyBot/chef --limit 1          # until status is "completed success"
+```
+
+(or `gh run watch --repo ThomasFamilyBot/chef` if available). If it fails, read the log with `gh run view <id> --log-failed` and fix before reporting.
+
+Then tell the person: the site link `https://thomasfamilybot.github.io/chef/r/<slug>.html`, the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions or estimates in the nutrition lines.
 
 ## 8. If the person later edits the Google Doc
 

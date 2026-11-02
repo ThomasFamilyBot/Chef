@@ -50,5 +50,5 @@ Follow `.claude/skills/drive-export/SKILL.md`.
 
 - Run `python3 scripts/validate.py` after editing any recipe; fix what it reports.
 - Run `python3 scripts/build.py` to confirm the site builds.
-- Commit with a clear message and push to `main`. The site redeploys automatically.
+- Commit with a clear message and push to `main`. The site redeploys automatically; wait for `gh run list --limit 1` to show the run completed before sending anyone a site link (Pages takes a minute or two).
 - Units: `g`, `tsp`, `TBLS`, `cup`, `oz` (weight), `fl oz` (volume), `lb`. Nothing else without asking.
