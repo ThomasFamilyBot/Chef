@@ -15,111 +15,111 @@ tags: [bread, italian, vegetarian, project]
 source_doc: https://docs.google.com/document/d/1iMQoSvLytg91y6k99lDfVAE7FcxAccqAtLC0iF-GmV4/edit
 drive_doc_id: null
 ingredients:
-- measure: 90 g (3/4 cup)
-  item: Whole Wheat Flour
-  group: 1 -> Levain (Friday night)
-  qty: 90
-  unit: g
-- measure: 100 g (just over 1/2 cup)
-  item: Water
-  prep: Warm
-  group: 1 -> Levain (Friday night)
-  qty: 100
-  unit: g
-  shop: false
-- measure: 20 g (1 TBLS)
-  item: Sourdough Starter
-  prep: Your wild yeast. Fed daily at room temp, or kept in the fridge and fed 1x a month
-  group: 1 -> Levain (Friday night)
-  qty: 20
-  unit: g
-  shop: false
-- measure: 400 g (3 cups)
-  item: Bread Flour
-  prep: Bran and germ are gone, just the endosperm. Not the same as pastry/cake flour
-  group: 2 -> Final dough (Saturday morning)
-  qty: 400
-  unit: g
-  section: Baking
-- measure: 400 g (3 cups)
-  item: Whole Wheat Flour
-  prep: More whole grain = chewier, denser, more flavorful crust
-  group: 2 -> Final dough (Saturday morning)
-  qty: 400
-  unit: g
-- measure: 600 g (about 3 cups)
-  item: Water
-  group: 2 -> Final dough (Saturday morning)
-  qty: 600
-  unit: g
-  shop: false
-- measure: 210 g (all of it)
-  item: Sourdough Preferment
-  prep: The bowl you mixed Friday night!
-  group: 2 -> Final dough (Saturday morning)
-  qty: 210
-  unit: g
-  shop: false
-- measure: 22 g (1 heaping TBLS)
-  item: Kosher Salt
-  prep: Added after the 30 min autolyse
-  group: 2 -> Final dough (Saturday morning)
-  qty: 22
-  unit: g
-- measure: 40 g (just under 1/3 cup)
-  item: Water
-  prep: That little extra bit, added with the salt
-  group: 2 -> Final dough (Saturday morning)
-  qty: 40
-  unit: g
-  shop: false
-- measure: Optional
-  item: Seeds or Spices
-  prep: Any yummy additions, added with the salt
-  group: 2 -> Final dough (Saturday morning)
-  qty: 1
-  unit: to taste
-  section: Spices & Dried Herbs
-  shop: false
-- measure: As needed
-  item: Pizza Sauce
-  prep: Make sure your sauce is all caramel-y, roasted and blended
-  group: 3 -> Mise en place
-  qty: 1
-  unit: to taste
-  section: Canned & Jarred
-- measure: A few cloves
-  item: Garlic
-  prep: For the garlic oil
-  group: 3 -> Mise en place
-  qty: 3
-  unit: clove
-- measure: As needed
-  item: Olive Oil
-  prep: For the garlic oil, and for oiling pans
-  group: 3 -> Mise en place
-  qty: 1
-  unit: to taste
-- measure: As needed
-  item: Flaky Sea Salt
-  prep: Maldon, for finishing
-  group: 3 -> Mise en place
-  qty: 1
-  unit: to taste
-- measure: As needed
-  item: Polenta
-  prep: Table flour (GF) for stretching. Rice flour or potato starch also work
-  group: 3 -> Mise en place
-  qty: 1
-  unit: to taste
-- measure: Your choice
-  item: Pizza Toppings
-  prep: Prepare all your topping ingredients
-  group: 3 -> Mise en place
-  qty: 1
-  unit: to taste
-  shop: false
-  nutrition: exclude
+  - measure: 90 g (3/4 cup)
+    item: Whole Wheat Flour
+    group: 1 -> Levain (Friday night)
+    qty: 90
+    unit: g
+  - measure: 100 g (just over 1/2 cup)
+    item: Water
+    prep: Warm
+    group: 1 -> Levain (Friday night)
+    qty: 100
+    unit: g
+    shop: false
+  - measure: 20 g (1 TBLS)
+    item: Sourdough Starter
+    prep: Your wild yeast. Fed daily at room temp, or kept in the fridge and fed 1x a month
+    group: 1 -> Levain (Friday night)
+    qty: 20
+    unit: g
+    shop: false
+  - measure: 400 g (3 cups)
+    item: Bread Flour
+    prep: Bran and germ are gone, just the endosperm. Not the same as pastry/cake flour
+    group: 2 -> Final dough (Saturday morning)
+    qty: 400
+    unit: g
+    section: Baking
+  - measure: 400 g (3 cups)
+    item: Whole Wheat Flour
+    prep: More whole grain = chewier, denser, more flavorful crust
+    group: 2 -> Final dough (Saturday morning)
+    qty: 400
+    unit: g
+  - measure: 600 g (about 3 cups)
+    item: Water
+    group: 2 -> Final dough (Saturday morning)
+    qty: 600
+    unit: g
+    shop: false
+  - measure: 210 g (all of it)
+    item: Sourdough Preferment
+    prep: The bowl you mixed Friday night!
+    group: 2 -> Final dough (Saturday morning)
+    qty: 210
+    unit: g
+    shop: false
+  - measure: 22 g (1 heaping TBLS)
+    item: Kosher Salt
+    prep: Added after the 30 min autolyse
+    group: 2 -> Final dough (Saturday morning)
+    qty: 22
+    unit: g
+  - measure: 40 g (just under 1/3 cup)
+    item: Water
+    prep: That little extra bit, added with the salt
+    group: 2 -> Final dough (Saturday morning)
+    qty: 40
+    unit: g
+    shop: false
+  - measure: Optional
+    item: Seeds or Spices
+    prep: Any yummy additions, added with the salt
+    group: 2 -> Final dough (Saturday morning)
+    qty: 1
+    unit: to taste
+    section: Spices & Dried Herbs
+    shop: false
+  - measure: As needed
+    item: Pizza Sauce
+    prep: Make sure your sauce is all caramel-y, roasted and blended
+    group: 3 -> Mise en place
+    qty: 1
+    unit: to taste
+    section: Canned & Jarred
+  - measure: A few cloves
+    item: Garlic
+    prep: For the garlic oil
+    group: 3 -> Mise en place
+    qty: 3
+    unit: clove
+  - measure: As needed
+    item: Olive Oil
+    prep: For the garlic oil, and for oiling pans
+    group: 3 -> Mise en place
+    qty: 1
+    unit: to taste
+  - measure: As needed
+    item: Flaky Sea Salt
+    prep: Maldon, for finishing
+    group: 3 -> Mise en place
+    qty: 1
+    unit: to taste
+  - measure: As needed
+    item: Polenta
+    prep: Table flour (GF) for stretching. Rice flour or potato starch also work
+    group: 3 -> Mise en place
+    qty: 1
+    unit: to taste
+  - measure: Your choice
+    item: Pizza Toppings
+    prep: Prepare all your topping ingredients
+    group: 3 -> Mise en place
+    qty: 1
+    unit: to taste
+    shop: false
+    nutrition: exclude
 nutrition: null
 ---
 The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com, IG joseybakerbread / themillsf. Questions? Email katlyp@joseybakerbread.
