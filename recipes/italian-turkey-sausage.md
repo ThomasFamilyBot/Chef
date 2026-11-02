@@ -11,7 +11,7 @@ times:
   total: 735
 tags: [turkey, sausage, component]
 source_doc: https://docs.google.com/document/d/1eA5LuLDfcho9fTf7kQm2u3lcIw15PHQLknAx2yhz7N4/edit
-drive_doc_id: 1rHTgL-F5V3ScDi0YixMkCUZ1kpNc201VKazvQmNbJ4w
+drive_doc_id: 1of3kLXYJPmUCTTJc9ko-EIOXWn3-tZauNkcVFbrkLe8
 ingredients:
   - measure: 1 lb
     item: Ground Turkey

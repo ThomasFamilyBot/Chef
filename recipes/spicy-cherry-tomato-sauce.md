@@ -11,7 +11,7 @@ times:
   total: 80
 tags: [pasta, italian, vegetarian, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1TWp4q_JNlPNYq5zI_YxUo5PP1hVa6C1r3HUFYIdtT4M/edit
-drive_doc_id: 1wCZys37T7g0kMBDVRvr1-3oAWniND75JbhanObqO8Ek
+drive_doc_id: 1LcBjMwUYMUyvf8qfp-fno8JXhxtFfKxIOi_UBrnfF0A
 ingredients:
   - measure: 1/4 cup + 1 TBLS
     item: Olive Oil

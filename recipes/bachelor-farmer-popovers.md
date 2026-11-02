@@ -11,7 +11,7 @@ times:
   total: 100
 tags: [bread, side, baking]
 source_doc: https://docs.google.com/document/d/1M0GB0UXRVutyz2VZ6-5QH6O35viHcLju8JkwFKdoBvA/edit
-drive_doc_id: 1La0hFQP2rhXtvi2p-YXeRZEnMR9Q6nbTeOILFH4_zpA
+drive_doc_id: 1elQcP8P-FTixipTZdBFxgcamlinXOBhIPN2ii6dcZcU
 ingredients:
   - measure: 3 cups
     item: All-Purpose Flour

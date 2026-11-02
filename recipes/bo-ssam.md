@@ -13,7 +13,7 @@ times:
   total: 870
 tags: [pork, korean, main, project, two-day]
 source_doc: https://docs.google.com/document/d/1YVMCgX6Y9THkvIHUEWEwK1a-NPvEpiXNir6mOXNNyTo/edit
-drive_doc_id: 1xIKboYR-3ABa-rreqZtoHlrzCmUXScriIyFKYIF7Np8
+drive_doc_id: 1OkYgHXjkQU6zP1zPnJClRoVPfTk9QHQJFx4C6-Rv-H8
 ingredients:
   - measure: 8-10 lb
     item: Pork Butt, bone-in

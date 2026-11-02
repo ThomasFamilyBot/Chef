@@ -11,7 +11,7 @@ times:
   total: 915
 tags: [chicken, french, main, project, two-day]
 source_doc: https://docs.google.com/document/d/13eyqMwNNr623inlu8zkVxiRAvXSjin50d1TX8HQmnYI/edit
-drive_doc_id: 124g2Q_k5Pb29upHlZLM3Z9pLEt1B8dl52qa-320gcq8
+drive_doc_id: 1fMRKqbBfbgjjeKYqbLAgPHlAEKeBpx8z7-6Ff-CUM38
 ingredients:
   - measure: 1 bottle + 1 cup
     item: Dry Red Wine
