@@ -79,3 +79,11 @@ Nutrition information and arithmetic only, not medical advice. For disease, preg
 ## Output in chat
 
 A compact table, one row per ingredient plus a total row, then assumptions. Label what came from the canonical table, what was researched, and what was estimated.
+
+## Workflow with the scripts
+
+1. `python3 scripts/nutrition.py --check <slug>` lists ingredients that have no canonical row (or rows missing values / portion weights).
+2. Research each missing food (order above) and **append** a row to `data/canonical_ingredients.csv`: per-oz values, `portions` (e.g. `cup=125;TBLS=8;each=150`), `aliases` (the recipe item names, `;`-separated), `source`, `source_url`, `fdc_id`, `edible_yield` (e.g. 0.75 for bone-in), notes. `data/nutrition_sourcing_todo.yaml` lists what is still needed with USDA search hints; delete entries from it as you add rows.
+3. Per-ingredient overrides belong in the recipe file (`nutrition: exclude` / `{fraction: 0.1, note: …}` / `{oz: 12, note: …}`), with a note that says why.
+4. `python3 scripts/nutrition.py --write <slug>` computes and writes the block (lines, totals, assumptions, excluded). `--all` does every fully-mapped recipe.
+5. `python3 scripts/validate.py && python3 scripts/build.py`, commit, push. Re-export the Google Doc if the family wants the printed copy updated (`drive-export` skill).

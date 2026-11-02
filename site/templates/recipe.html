@@ -12,6 +12,7 @@
   <div class="no-print actions">
     <button class="btn add" data-slug="{{ r.slug }}">+ Shopping list</button>
     <button class="btn" onclick="window.print()">Print</button>
+    <a class="btn" href="https://github.com/ThomasFamilyBot/Chef/edit/main/recipes/{{ r.slug }}.md">Edit</a>
     <span class="tags">{% for t in r.tags or [] %}<span class="tag">{{ t }}</span>{% endfor %}</span>
   </div>
 </header>
