@@ -11,7 +11,7 @@ times:
   total: 60
 tags: [pasta, italian, pork, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1sAfYqceKhntU6b9jBdofqTX_IlN-w5dY9BjPHoH3YTg/edit
-drive_doc_id: 1ezs4g-sbzMfcWfkQZeuOc6_dlnc_O9x_8PjEcI5ED9A
+drive_doc_id: 10pUqI9CYTT-nermuq9JW9s0aeXyxT90yX7EOHg42KAE
 ingredients:
   - measure: 4 oz
     item: Smoked Bacon

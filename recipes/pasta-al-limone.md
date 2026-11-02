@@ -11,7 +11,7 @@ times:
   total: 20
 tags: [pasta, italian, vegetarian, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1vy1ObsfFTD3cLKVD8CVMqQNR7JjMJCCieeIGnMZ8TI4/edit
-drive_doc_id: 1mn6FarFOdjoYVVpGQW7qYnaz1D48c52gQWVt2Kswl-s
+drive_doc_id: 10sTvGZZjwEYwKBzuWfddIsvILM3-VXi7bjqLVzHmK_k
 ingredients:
   - measure: 4 oz (1 stick)
     item: Unsalted Butter

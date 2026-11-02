@@ -11,7 +11,7 @@ times:
   total: 55
 tags: [pasta, italian, pork, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/14pm4Y0Q_SEglF0IXG5YsJARBd0I37IPCCOOKyP6j3Ho/edit
-drive_doc_id: 1rcycvEZhKhtozOxwZD69AE_xheG_DKFX3MaTQ374-sU
+drive_doc_id: 1zPbGNlR2R_CPAAzOWuIIoV6Jnbh-ReYsjjtiDixejyQ
 ingredients:
   - measure: 1/4 cup
     item: Olive Oil

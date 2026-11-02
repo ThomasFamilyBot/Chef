@@ -11,7 +11,7 @@ times:
   total: 150
 tags: [dessert, vegetarian, cake]
 source_doc: https://docs.google.com/document/d/1jfGj7gtbvqeMbGDA-xO40c1YqBLMkz_4jUXc6XumPcE/edit
-drive_doc_id: 1Vt_HKTv02gDn-Hf7H_aIU3HFj1MgE5bUxQi6cRR2pUQ
+drive_doc_id: 1-gqP6TjMMvvwo1nK7qhpHAY_GcAyrUpRWwKJ64iVB-4
 ingredients:
   - measure: 1/4 cup (4 TBLS, 1/2 stick)
     item: Unsalted Butter
