@@ -11,7 +11,7 @@ times:
   total: 2960
 tags: [chicken, main, project]
 source_doc: https://docs.google.com/document/d/1nJczmw0-DSpb6TbqY_B6xgXCQojeO1osDFqBntLeCwk/edit
-drive_doc_id: 1kMVME6NJENFokOQ7rc_4mngt4ncjmvd91CB69ZJ9XIo
+drive_doc_id: 1JG64arIlxIBWG4bHZuqQ6D9EWNIzGOgl-hwuiymamGs
 ingredients:
   - measure: 3-4 lb
     item: Whole Chicken
