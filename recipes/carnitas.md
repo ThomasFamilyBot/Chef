@@ -29,7 +29,7 @@ ingredients:
     qty: 6
     unit: clove
   - measure: 1 stick
-    item: Cinnamon Stick
+    item: Cinnamon Sticks
     prep: Broken into 3-4 pieces
     qty: 1
     unit: stick

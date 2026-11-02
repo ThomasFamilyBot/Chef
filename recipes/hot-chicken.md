@@ -65,7 +65,7 @@ ingredients:
     unit: TBLS
     section: Spices & Dried Herbs
   - measure: 2 tsp
-    item: Dry Mustard
+    item: Dry Mustard Powder
     group: Hot oil
     qty: 2
     unit: tsp
