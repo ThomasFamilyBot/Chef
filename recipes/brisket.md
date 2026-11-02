@@ -31,6 +31,7 @@ ingredients:
     section: Beverages, Beer & Wine
   - measure: 1 1/2 TBLS
     item: Curing Salt
+    prep: "CHECK: if this is Prague powder #1 (pink cure), 1 1/2 TBLS is ~4x the usual 1 tsp per 5 lb. Confirm the product and amount before using"
     group: 1 -> Rub
     qty: 1.5
     unit: TBLS
@@ -68,6 +69,8 @@ ingredients:
     unit: tsp
 nutrition: null
 ---
+**Note on the curing salt:** the original note says 1 1/2 TBLS. If the product is Prague powder #1 (6.25% sodium nitrite), the standard rate is 1 tsp per 5 lb of meat, so this is about 4x that. Confirm what was actually used before cooking.
+
 **Day 1 — Marinate**
 
 - Marinate brisket in root beer overnight (in fridge).

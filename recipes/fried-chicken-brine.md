@@ -44,7 +44,7 @@ ingredients:
     prep: Diamond Crystal
     qty: 2
     unit: cup
-  - measure: 2 gallons (~16.7 lb, 32 cups)
+  - measure: 2 gallons (32 cups; 7.57 kg / 16.7 lb by weight)
     item: Water
     qty: 2
     unit: gallon

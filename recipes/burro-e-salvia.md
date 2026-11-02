@@ -1,7 +1,7 @@
 ---
 title: Burro e Salvia
 reference:
-  text: Family recipe
+  text: Villa Le Balze cookbook
 serves: Dresses 1 to 1 1/2 lb of pasta (enough for 6-8 people)
 servings: 7
 times:
