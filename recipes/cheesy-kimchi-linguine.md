@@ -83,7 +83,125 @@ ingredients:
     prep: For the eggs
     qty: 1
     unit: pinch
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 2
+  totals:
+    calories: 1516.6
+    protein_g: 51.94
+    fat_g: 54.39
+    carbs_g: 206.96
+  lines:
+  - item: Linguine (as Pasta, dry)
+    amount: 8 oz (8 oz by weight)
+    oz: 8.0
+    calories: 841.4
+    protein_g: 29.58
+    fat_g: 3.42
+    carbs_g: 169.35
+    source: 'USDA SR Legacy: Pasta, dry, enriched'
+  - item: Kimchi
+    amount: 3/4 cup (0.75 cup at 150 g/cup)
+    oz: 3.97
+    calories: 16.9
+    protein_g: 1.24
+    fat_g: 0.56
+    carbs_g: 2.7
+    source: 'USDA SR Legacy: Cabbage, kimchi'
+  - item: Unsalted Butter (as Butter, unsalted)
+    amount: 2 TBLS (2 TBLS at 227 g/cup)
+    oz: 1.0
+    calories: 203.5
+    protein_g: 0.24
+    fat_g: 23.01
+    carbs_g: 0.02
+    source: 'USDA SR Legacy: Butter, without salt'
+  - item: Kochujang (as Gochujang (Korean red pepper paste))
+    amount: 2 TBLS + 2 tsp (8 tsp at 6 g each)
+    oz: 1.69
+    calories: 91.2
+    protein_g: 1.92
+    fat_g: 0.48
+    carbs_g: 20.16
+    source: estimate
+  - item: Soy Sauce (as Soy sauce)
+    amount: 2 tsp (2 tsp at 255 g/cup)
+    oz: 0.37
+    calories: 5.6
+    protein_g: 0.87
+    fat_g: 0.06
+    carbs_g: 0.52
+    source: 'USDA SR Legacy: Soy sauce made from soy and wheat (shoyu)'
+  - item: Garlic (as Garlic, raw)
+    amount: 2 cloves (2 clove at 3 g each)
+    oz: 0.21
+    calories: 8.9
+    protein_g: 0.38
+    fat_g: 0.03
+    carbs_g: 1.98
+    source: 'USDA SR Legacy: Garlic, raw'
+  - item: Scallions (as Scallions, raw)
+    amount: 2 (2 each at 15 g each)
+    oz: 1.06
+    calories: 9.6
+    protein_g: 0.55
+    fat_g: 0.06
+    carbs_g: 2.2
+    source: 'USDA SR Legacy: Onions, spring or scallions (includes tops and bulb), raw'
+  - item: Eggs (as Eggs, whole, raw)
+    amount: 2 (2 each at 50 g each)
+    oz: 3.53
+    calories: 143.0
+    protein_g: 12.56
+    fat_g: 9.51
+    carbs_g: 0.72
+    source: 'USDA SR Legacy: Egg, whole, raw, fresh'
+  - item: Grapeseed Oil (as Vegetable / neutral oil)
+    amount: 1 TBLS (1 TBLS at 218 g/cup)
+    oz: 0.48
+    calories: 120.4
+    protein_g: 0.0
+    fat_g: 13.62
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, vegetable, soybean, refined'
+  - item: Dried Seaweed (as Seaweed, dried (laver/nori))
+    amount: 2 TBLS (2 TBLS at 5 g each)
+    oz: 0.35
+    calories: 3.5
+    protein_g: 0.58
+    fat_g: 0.03
+    carbs_g: 0.51
+    source: 'USDA SR Legacy: Seaweed, laver, raw'
+  - item: Parmesan (as Parmesan, grated)
+    amount: 2 TBLS (2 TBLS at 100 g/cup)
+    oz: 0.44
+    calories: 52.5
+    protein_g: 3.55
+    fat_g: 3.48
+    carbs_g: 1.74
+    source: 'USDA SR Legacy: Cheese, parmesan, grated'
+  - item: Lime (as Lime, raw)
+    amount: 1 (1 each at 67 g each)
+    oz: 2.36
+    calories: 20.1
+    protein_g: 0.47
+    fat_g: 0.13
+    carbs_g: 7.06
+    source: 'USDA SR Legacy: Limes, raw'
+  - item: Kosher Salt (as Salt)
+    amount: 'pinch (pinch: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 From "A Splash of Soy" p. 130. We haven't made a ton from it, but Jenn likes it.
 

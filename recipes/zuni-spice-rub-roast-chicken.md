@@ -78,7 +78,117 @@ ingredients:
     prep: Optional, for serving
     qty: 1
     unit: each
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 4
+  totals:
+    calories: 2851.9
+    protein_g: 239.26
+    fat_g: 193.29
+    carbs_g: 28.88
+  lines:
+  - item: Whole Chicken (as Chicken, whole, raw)
+    amount: 3-4 lb (4 lb by weight; edible yield 70%)
+    oz: 44.8
+    calories: 2730.6
+    protein_g: 236.23
+    fat_g: 191.25
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Chicken, broilers or fryers, meat and skin, raw'
+  - item: Fresh Herbs (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
+    amount: 4 sprigs (recently put in 8 and was good) (8 sprig at 1 g each)
+    oz: 0.28
+    calories: 2.9
+    protein_g: 0.24
+    fat_g: 0.06
+    carbs_g: 0.51
+    source: 'USDA SR Legacy: Parsley, fresh'
+  - item: Kosher Salt (as Salt)
+    amount: 1 TBLS (1 TBLS at 280 g/cup)
+    oz: 0.62
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Black Pepper (as Pepper, black, ground)
+    amount: 1 TBLS (1 TBLS at 110 g/cup)
+    oz: 0.24
+    calories: 17.3
+    protein_g: 0.71
+    fat_g: 0.22
+    carbs_g: 4.4
+    source: 'USDA SR Legacy: Spices, pepper, black'
+  - item: Dark Brown Sugar (as Sugar, brown)
+    amount: 1 TBLS (1 TBLS at 220 g/cup)
+    oz: 0.49
+    calories: 52.3
+    protein_g: 0.02
+    fat_g: 0.0
+    carbs_g: 13.49
+    source: 'USDA SR Legacy: Sugars, brown'
+  - item: Ancho Chili Powder (as Chili powder)
+    amount: 1 tsp (1 tsp at 2.7 g each)
+    oz: 0.1
+    calories: 7.6
+    protein_g: 0.36
+    fat_g: 0.39
+    carbs_g: 1.34
+    source: 'USDA SR Legacy: Spices, chili powder'
+  - item: Paprika
+    amount: 1 tsp (1 tsp at 2.3 g each)
+    oz: 0.08
+    calories: 6.5
+    protein_g: 0.33
+    fat_g: 0.3
+    carbs_g: 1.24
+    source: 'USDA SR Legacy: Spices, paprika'
+  - item: Dry Mustard Powder (as Mustard powder, dry)
+    amount: 1 tsp (1 tsp at 2 g each)
+    oz: 0.07
+    calories: 10.2
+    protein_g: 0.52
+    fat_g: 0.72
+    carbs_g: 0.56
+    source: 'USDA SR Legacy: Spices, mustard seed, ground'
+  - item: Dried Oregano (as Oregano, dried)
+    amount: 1 tsp (1 tsp at 1 g each)
+    oz: 0.04
+    calories: 2.7
+    protein_g: 0.09
+    fat_g: 0.04
+    carbs_g: 0.69
+    source: 'USDA SR Legacy: Spices, oregano, dried'
+  - item: Ground Allspice (as Allspice, ground)
+    amount: 1/4 tsp (0.25 tsp at 1.9 g each)
+    oz: 0.02
+    calories: 1.2
+    protein_g: 0.03
+    fat_g: 0.04
+    carbs_g: 0.34
+    source: 'USDA SR Legacy: Spices, allspice, ground'
+  - item: Bay Leaves (as Bay leaf, dried)
+    amount: 2 (2 leaf at 0.6 g each)
+    oz: 0.04
+    calories: 3.8
+    protein_g: 0.09
+    fat_g: 0.1
+    carbs_g: 0.9
+    source: 'USDA SR Legacy: Spices, bay leaf'
+  - item: Lemon (as Lemon, raw)
+    amount: 1 (1 each at 58 g each)
+    oz: 2.05
+    calories: 16.8
+    protein_g: 0.64
+    fat_g: 0.17
+    carbs_g: 5.41
+    source: 'USDA SR Legacy: Lemons, raw, without peel'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 **2-3 days before cooking**
 

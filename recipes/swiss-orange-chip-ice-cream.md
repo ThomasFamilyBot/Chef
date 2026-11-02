@@ -63,7 +63,109 @@ ingredients:
     qty: 2
     unit: TBLS
     section: Beverages, Beer & Wine
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 8
+  totals:
+    calories: 4530.0
+    protein_g: 57.66
+    fat_g: 313.35
+    carbs_g: 374.93
+  lines:
+  - item: Heavy Cream (as Cream, heavy whipping)
+    amount: 2 cups (1 pint) (2 cup at 238 g/cup)
+    oz: 16.79
+    calories: 1618.4
+    protein_g: 13.52
+    fat_g: 171.73
+    carbs_g: 13.52
+    source: 'USDA SR Legacy: Cream, fluid, heavy whipping'
+  - item: Cocoa Powder (as Cocoa powder, unsweetened (natural))
+    amount: 3 TBLS (3 TBLS at 86 g/cup)
+    oz: 0.57
+    calories: 36.8
+    protein_g: 3.16
+    fat_g: 2.21
+    carbs_g: 9.34
+    source: 'USDA SR Legacy: Cocoa, dry powder, unsweetened'
+  - item: Bittersweet Chocolate (as Chocolate, dark (60-69%))
+    amount: 10 oz (10 oz by weight)
+    oz: 10.0
+    calories: 1641.4
+    protein_g: 17.35
+    fat_g: 108.61
+    carbs_g: 148.61
+    source: 'USDA SR Legacy: Chocolate, dark, 60-69% cacao solids'
+  - item: Whole Milk (as Milk, whole)
+    amount: 1 cup (1 cup at 244 g/cup)
+    oz: 8.61
+    calories: 148.8
+    protein_g: 7.69
+    fat_g: 7.93
+    carbs_g: 11.71
+    source: 'USDA SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D'
+  - item: Granulated Sugar (as Sugar, granulated)
+    amount: 3/4 cup (0.75 cup at 200 g/cup)
+    oz: 5.29
+    calories: 580.5
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 149.97
+    source: 'USDA SR Legacy: Sugars, granulated'
+  - item: Kosher Salt (as Salt)
+    amount: 'Pinch (pinch: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Egg Yolks (as Egg yolk, raw)
+    amount: 5 large (5 each at 17 g each)
+    oz: 3.0
+    calories: 273.7
+    protein_g: 13.48
+    fat_g: 22.56
+    carbs_g: 3.05
+    source: 'USDA SR Legacy: Egg, yolk, raw, fresh'
+  - item: Orange (as Oranges, raw (zest/juice use))
+    amount: 2 large (2 each at 131 g each)
+    oz: 9.24
+    calories: 123.1
+    protein_g: 2.46
+    fat_g: 0.31
+    carbs_g: 30.78
+    source: 'USDA SR Legacy: Oranges, raw, all commercial varieties'
+  - item: Vanilla Extract (as Vanilla extract)
+    amount: 1/2 tsp (0.5 tsp at 208 g/cup)
+    oz: 0.08
+    calories: 6.2
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.27
+    source: 'USDA SR Legacy: Vanilla extract'
+  - item: Orange Extract (as Vanilla extract)
+    amount: 1/2 tsp (0.5 tsp at 208 g/cup)
+    oz: 0.08
+    calories: 6.2
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.27
+    source: 'USDA SR Legacy: Vanilla extract'
+  - item: Grand Marnier (as Orange liqueur (Cointreau / Grand Marnier))
+    amount: 2 TBLS (2 TBLS at 244 g/cup)
+    oz: 1.08
+    calories: 94.9
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 7.41
+    source: estimate
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 **Chocolate base**
 

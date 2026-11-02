@@ -51,7 +51,85 @@ ingredients:
     prep: Or penne
     qty: 1.5
     unit: lb
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 7
+  totals:
+    calories: 3132.8
+    protein_g: 100.33
+    fat_g: 60.59
+    carbs_g: 545.55
+  lines:
+  - item: Garlic (as Garlic, raw)
+    amount: 2 cloves (2 clove at 3 g each)
+    oz: 0.21
+    calories: 8.9
+    protein_g: 0.38
+    fat_g: 0.03
+    carbs_g: 1.98
+    source: 'USDA SR Legacy: Garlic, raw'
+  - item: Anchovy Fillets (as Anchovy fillets, canned in oil, drained)
+    amount: 3 (3 each at 4 g each)
+    oz: 0.42
+    calories: 25.2
+    protein_g: 3.47
+    fat_g: 1.17
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Fish, anchovy, european, canned in oil, drained solids'
+  - item: Olive Oil (as Olive oil)
+    amount: 3 TBLS (3 TBLS at 216 g/cup)
+    oz: 1.43
+    calories: 358.0
+    protein_g: 0.0
+    fat_g: 40.5
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, olive, salad or cooking'
+  - item: Crushed Tomatoes, 15 oz can (as Tomatoes, crushed, canned)
+    amount: 15 oz can (1 x 15 oz can)
+    oz: 15.0
+    calories: 136.1
+    protein_g: 6.98
+    fat_g: 1.19
+    carbs_g: 31.01
+    source: 'USDA SR Legacy: Tomatoes, crushed, canned'
+  - item: Black Olives (as Olives, black)
+    amount: 1/2 cup (0.5 cup at 135 g/cup)
+    oz: 2.38
+    calories: 78.3
+    protein_g: 0.57
+    fat_g: 7.36
+    carbs_g: 4.08
+    source: 'USDA SR Legacy: Olives, ripe, canned (small-extra large)'
+  - item: Capers
+    amount: 1 TBLS (1 TBLS at 8.6 g each)
+    oz: 0.3
+    calories: 2.0
+    protein_g: 0.2
+    fat_g: 0.07
+    carbs_g: 0.42
+    source: 'USDA SR Legacy: Capers, canned'
+  - item: Black Pepper (as Pepper, black, ground)
+    amount: 'to taste (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Spices, pepper, black'
+  - item: Spaghetti (as Pasta, dry)
+    amount: 1-1 1/2 lb (1.5 lb by weight)
+    oz: 24.0
+    calories: 2524.3
+    protein_g: 88.73
+    fat_g: 10.27
+    carbs_g: 508.06
+    source: 'USDA SR Legacy: Pasta, dry, enriched'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 - Finely mince garlic & anchovy together.
 - Heavy saucepan - oil, garlic, anchovy. Med heat for 3 min.

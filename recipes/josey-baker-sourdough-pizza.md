@@ -120,7 +120,143 @@ ingredients:
     unit: to taste
     shop: false
     nutrition: exclude
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 7
+  totals:
+    calories: 3542.0
+    protein_g: 125.09
+    fat_g: 20.08
+    carbs_g: 733.51
+  lines:
+  - item: Whole Wheat Flour (as Flour, whole wheat)
+    amount: 90 g (3/4 cup) (90 g by weight)
+    oz: 3.17
+    calories: 306.0
+    protein_g: 11.89
+    fat_g: 2.25
+    carbs_g: 64.77
+    source: 'USDA SR Legacy: Wheat flour, whole-grain (Includes foods for USDA''s Food Distribution Program)'
+  - item: Water
+    amount: 100 g (just over 1/2 cup) (100 g by weight)
+    oz: 3.53
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Water, bottled, generic'
+  - item: Sourdough Starter (as Sourdough starter / preferment (flour+water 1:1))
+    amount: 20 g (1 TBLS) (20 g by weight)
+    oz: 0.71
+    calories: 36.4
+    protein_g: 1.03
+    fat_g: 0.1
+    carbs_g: 7.63
+    source: 'estimate (half of USDA SR Legacy: Wheat flour, white, all-purpose, enriched, bleached, FDC 168894)'
+  - item: Bread Flour (as Flour, bread)
+    amount: 400 g (3 cups) (400 g by weight)
+    oz: 14.11
+    calories: 1444.0
+    protein_g: 47.92
+    fat_g: 6.65
+    carbs_g: 290.12
+    source: 'USDA SR Legacy: Wheat flour, white, bread, enriched'
+  - item: Whole Wheat Flour (as Flour, whole wheat)
+    amount: 400 g (3 cups) (400 g by weight)
+    oz: 14.11
+    calories: 1360.0
+    protein_g: 52.84
+    fat_g: 10.0
+    carbs_g: 287.88
+    source: 'USDA SR Legacy: Wheat flour, whole-grain (Includes foods for USDA''s Food Distribution Program)'
+  - item: Water
+    amount: 600 g (about 3 cups) (600 g by weight)
+    oz: 21.16
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Water, bottled, generic'
+  - item: Sourdough Preferment (as Sourdough starter / preferment (flour+water 1:1))
+    amount: 210 g (all of it) (210 g by weight)
+    oz: 7.41
+    calories: 382.2
+    protein_g: 10.84
+    fat_g: 1.03
+    carbs_g: 80.13
+    source: 'estimate (half of USDA SR Legacy: Wheat flour, white, all-purpose, enriched, bleached, FDC 168894)'
+  - item: Kosher Salt (as Salt)
+    amount: 22 g (1 heaping TBLS) (22 g by weight)
+    oz: 0.78
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Water
+    amount: 40 g (just under 1/3 cup) (40 g by weight)
+    oz: 1.41
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Water, bottled, generic'
+  - item: Seeds or Spices (as Seeds or spices, mixed (pizza topping, to taste))
+    amount: 'Optional (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Spices, fennel seed'
+  - item: Pizza Sauce (as Pizza sauce)
+    amount: 'As needed (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Sauce, pizza, canned, ready-to-serve'
+  - item: Garlic (as Garlic, raw)
+    amount: A few cloves (3 clove at 3 g each)
+    oz: 0.32
+    calories: 13.4
+    protein_g: 0.57
+    fat_g: 0.05
+    carbs_g: 2.98
+    source: 'USDA SR Legacy: Garlic, raw'
+  - item: Olive Oil (as Olive oil)
+    amount: 'As needed (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, olive, salad or cooking'
+  - item: Flaky Sea Salt (as Salt)
+    amount: 'As needed (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Polenta (as Cornmeal / polenta, dry)
+    amount: 'As needed (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Cornmeal, whole-grain, yellow'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  - 'Excluded as not eaten or non-food: Pizza Toppings.'
+  excluded:
+  - Pizza Toppings
 ---
 The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com, IG joseybakerbread / themillsf. Questions? Email katlyp@joseybakerbread.
 

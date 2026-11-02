@@ -18,16 +18,25 @@ ingredients:
     group: 1 -> Brine
     qty: 0.75
     unit: gallon
+    nutrition:
+      fraction: 0.3
+      note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - measure: 3/4 cup
     item: Brown Sugar
     group: 1 -> Brine
     qty: 0.75
     unit: cup
+    nutrition:
+      fraction: 0.3
+      note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - measure: 1/2 cup
     item: Sea Salt
     group: 1 -> Brine
     qty: 0.5
     unit: cup
+    nutrition:
+      fraction: 0.3
+      note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - measure: 3/4 cup
     item: Garlic
     prep: Whole cloves
@@ -39,11 +48,17 @@ ingredients:
     group: 1 -> Brine
     qty: 0.25
     unit: cup
+    nutrition:
+      fraction: 0.3
+      note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - measure: 1/4 cup
     item: Coriander Seeds
     group: 1 -> Brine
     qty: 0.25
     unit: cup
+    nutrition:
+      fraction: 0.3
+      note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - measure: 1/2 tsp
     item: Black Pepper
     group: 1 -> Brine
@@ -54,6 +69,9 @@ ingredients:
     group: 1 -> Brine
     qty: 0.25
     unit: cup
+    nutrition:
+      fraction: 0.3
+      note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - measure: 1/3 cup
     item: Chiles de Árbol
     prep: Whole, dried
@@ -72,7 +90,115 @@ ingredients:
     prep: Washed, cut into 4-6 wedges
     qty: 12
     unit: each
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 24
+  totals:
+    calories: 1159.0
+    protein_g: 35.23
+    fat_g: 10.08
+    carbs_g: 232.12
+  lines:
+  - item: White Vinegar (as Vinegar, white distilled)
+    amount: 3/4 gallon (96 fl oz) (0.75 gallon at 238 g/cup; 30% consumed)
+    oz: 30.22
+    calories: 154.1
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.33
+    source: 'USDA SR Legacy: Vinegar, distilled'
+    note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
+  - item: Brown Sugar (as Sugar, brown)
+    amount: 3/4 cup (0.75 cup at 220 g/cup; 30% consumed)
+    oz: 1.75
+    calories: 188.1
+    protein_g: 0.06
+    fat_g: 0.0
+    carbs_g: 48.55
+    source: 'USDA SR Legacy: Sugars, brown'
+    note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
+  - item: Sea Salt (as Salt)
+    amount: 1/2 cup (0.5 cup at 280 g/cup; 30% consumed)
+    oz: 1.48
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+    note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
+  - item: Garlic (as Garlic, raw)
+    amount: 3/4 cup (0.75 cup at 136 g/cup)
+    oz: 3.6
+    calories: 152.0
+    protein_g: 6.49
+    fat_g: 0.51
+    carbs_g: 33.72
+    source: 'USDA SR Legacy: Garlic, raw'
+  - item: Mustard Seeds (as Mustard seeds, whole)
+    amount: 1/4 cup (0.25 cup at 101 g/cup; 30% consumed)
+    oz: 0.27
+    calories: 38.5
+    protein_g: 1.98
+    fat_g: 2.75
+    carbs_g: 2.13
+    source: 'USDA SR Legacy: Spices, mustard seed, ground'
+    note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
+  - item: Coriander Seeds (as Coriander seeds, whole)
+    amount: 1/4 cup (0.25 cup at 80 g/cup; 30% consumed)
+    oz: 0.21
+    calories: 17.9
+    protein_g: 0.74
+    fat_g: 1.07
+    carbs_g: 3.3
+    source: 'USDA SR Legacy: Spices, coriander seed'
+    note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
+  - item: Black Pepper (as Pepper, black, ground)
+    amount: 1/2 tsp (0.5 tsp at 110 g/cup)
+    oz: 0.04
+    calories: 2.9
+    protein_g: 0.12
+    fat_g: 0.04
+    carbs_g: 0.73
+    source: 'USDA SR Legacy: Spices, pepper, black'
+  - item: Fennel Seeds (as Fennel seeds, whole)
+    amount: 1/4 cup (0.25 cup at 93 g/cup; 30% consumed)
+    oz: 0.25
+    calories: 24.1
+    protein_g: 1.1
+    fat_g: 1.04
+    carbs_g: 3.65
+    source: 'USDA SR Legacy: Spices, fennel seed'
+    note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
+  - item: Chiles de Árbol (as Chiles de arbol, dried)
+    amount: 1/3 cup (0.333 cup at 37 g/cup)
+    oz: 0.43
+    calories: 39.9
+    protein_g: 1.3
+    fat_g: 0.72
+    carbs_g: 8.61
+    source: 'USDA SR Legacy: Peppers, hot chile, sun-dried'
+  - item: Water
+    amount: 1 gallon (1 gallon at 237 g/cup)
+    oz: 133.76
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Water, bottled, generic'
+  - item: Cucumbers (as Cucumber, raw)
+    amount: 12 (the directions say 12.5 lb) (12 each at 301 g each)
+    oz: 127.41
+    calories: 541.5
+    protein_g: 23.44
+    fat_g: 3.95
+    carbs_g: 131.1
+    source: 'USDA SR Legacy: Cucumber, with peel, raw'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 - Bring all `1 -> Brine` ingredients to a boil, then add 1 gallon of ice-cold water.
 - Cut 12.5 lb of washed cucumbers into 4-6 wedges and place in a 1 1/2 gallon bowl.

@@ -176,7 +176,246 @@ ingredients:
     group: 3 -> Polenta (optional side)
     qty: 1
     unit: TBLS
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 6
+  totals:
+    calories: 6481.7
+    protein_g: 294.94
+    fat_g: 349.83
+    carbs_g: 267.32
+  lines:
+  - item: Dry Red Wine (as Wine, red, table)
+    amount: 1 bottle + 1 cup (2 bottle at 746 g each)
+    oz: 52.63
+    calories: 1268.4
+    protein_g: 1.05
+    fat_g: 0.0
+    carbs_g: 38.95
+    source: 'USDA SR Legacy: Alcoholic beverage, wine, table, red'
+  - item: Yellow Onion (as Onion, yellow, raw)
+    amount: 2 (2 each at 150 g each)
+    oz: 10.58
+    calories: 120.0
+    protein_g: 3.3
+    fat_g: 0.3
+    carbs_g: 28.02
+    source: 'USDA SR Legacy: Onions, raw'
+  - item: Carrots (as Carrots, raw)
+    amount: 2 (2 each at 61 g each)
+    oz: 4.3
+    calories: 50.0
+    protein_g: 1.14
+    fat_g: 0.29
+    carbs_g: 11.69
+    source: 'USDA SR Legacy: Carrots, raw'
+  - item: Celery (as Celery, raw)
+    amount: 1 (1 stalk at 40 g each)
+    oz: 1.41
+    calories: 5.6
+    protein_g: 0.28
+    fat_g: 0.07
+    carbs_g: 1.19
+    source: 'USDA SR Legacy: Celery, raw'
+  - item: Whole Cloves (as Cloves, whole)
+    amount: 4 (4 each at 0.1 g each)
+    oz: 0.01
+    calories: 1.1
+    protein_g: 0.02
+    fat_g: 0.05
+    carbs_g: 0.26
+    source: 'USDA SR Legacy: Spices, cloves, ground'
+  - item: Black Peppercorns (as Peppercorns, black, whole)
+    amount: 1 TBLS (1 TBLS at 139 g/cup)
+    oz: 0.31
+    calories: 21.8
+    protein_g: 0.9
+    fat_g: 0.28
+    carbs_g: 5.56
+    source: 'USDA SR Legacy: Spices, pepper, black'
+  - item: Garlic (as Garlic, raw)
+    amount: 3 cloves (3 clove at 3 g each)
+    oz: 0.32
+    calories: 13.4
+    protein_g: 0.57
+    fat_g: 0.05
+    carbs_g: 2.98
+    source: 'USDA SR Legacy: Garlic, raw'
+  - item: Shallot (as Shallot, raw)
+    amount: 1 cup (1 cup at 160 g/cup)
+    oz: 5.64
+    calories: 115.2
+    protein_g: 4.0
+    fat_g: 0.16
+    carbs_g: 26.88
+    source: 'USDA SR Legacy: Shallots, raw'
+  - item: Flat-Leaf Parsley (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
+    amount: 1 sprig (1 sprig at 1 g each)
+    oz: 0.04
+    calories: 0.4
+    protein_g: 0.03
+    fat_g: 0.01
+    carbs_g: 0.06
+    source: 'USDA SR Legacy: Parsley, fresh'
+  - item: Fresh Thyme (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
+    amount: 2 sprigs (2 sprig at 1 g each)
+    oz: 0.07
+    calories: 0.7
+    protein_g: 0.06
+    fat_g: 0.02
+    carbs_g: 0.13
+    source: 'USDA SR Legacy: Parsley, fresh'
+  - item: Bay Leaves (as Bay leaf, dried)
+    amount: 1 (1 each at 0.6 g each)
+    oz: 0.02
+    calories: 1.9
+    protein_g: 0.05
+    fat_g: 0.05
+    carbs_g: 0.45
+    source: 'USDA SR Legacy: Spices, bay leaf'
+  - item: Chicken Thighs & Legs, bone-in skin-on (as Chicken, whole, raw)
+    amount: 4 lb (4 lb by weight; edible yield 70%)
+    oz: 44.8
+    calories: 2730.6
+    protein_g: 236.23
+    fat_g: 191.25
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Chicken, broilers or fryers, meat and skin, raw'
+  - item: Kosher Salt (as Salt)
+    amount: 'To taste (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Black Pepper (as Pepper, black, ground)
+    amount: 'To taste (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Spices, pepper, black'
+  - item: Olive Oil (as Olive oil)
+    amount: 2 TBLS (2 TBLS at 216 g/cup)
+    oz: 0.95
+    calories: 238.7
+    protein_g: 0.0
+    fat_g: 27.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, olive, salad or cooking'
+  - item: Unsalted Butter (as Butter, unsalted)
+    amount: 6 TBLS (6 TBLS at 227 g/cup)
+    oz: 3.0
+    calories: 610.4
+    protein_g: 0.72
+    fat_g: 69.04
+    carbs_g: 0.05
+    source: 'USDA SR Legacy: Butter, without salt'
+  - item: Tomato Paste (as Tomato paste)
+    amount: 1 TBLS (1 TBLS at 264 g/cup)
+    oz: 0.58
+    calories: 13.5
+    protein_g: 0.71
+    fat_g: 0.08
+    carbs_g: 3.12
+    source: 'USDA SR Legacy: Tomato products, canned, paste, without salt added (Includes foods for USDA''s Food Distribution
+      Program)'
+  - item: Chicken Stock (as Stock, chicken)
+    amount: 3 cups (3 cup at 240 g/cup)
+    oz: 25.4
+    calories: 43.2
+    protein_g: 4.6
+    fat_g: 1.52
+    carbs_g: 3.17
+    source: 'USDA SR Legacy: Soup, chicken broth, ready-to-serve'
+  - item: All-Purpose Flour (as Flour, all-purpose)
+    amount: 1/4 cup (0.25 cup at 125 g/cup)
+    oz: 1.1
+    calories: 113.7
+    protein_g: 3.23
+    fat_g: 0.31
+    carbs_g: 23.85
+    source: 'USDA SR Legacy: Wheat flour, white, all-purpose, enriched, unbleached'
+  - item: Bacon (as Bacon, raw)
+    amount: 4 oz (4 oz by weight)
+    oz: 4.0
+    calories: 445.6
+    protein_g: 15.49
+    fat_g: 42.1
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Pork, cured, bacon, unprepared'
+  - item: White Button Mushrooms (as Mushrooms, white, raw)
+    amount: 12 oz (nets out to 8 oz when prepped) (12 oz by weight)
+    oz: 12.0
+    calories: 74.9
+    protein_g: 10.51
+    fat_g: 1.15
+    carbs_g: 11.09
+    source: 'USDA SR Legacy: Mushrooms, white, raw'
+  - item: Pearl Onions (as Onions, pearl, raw)
+    amount: 24 (24 each at 7 g each)
+    oz: 5.93
+    calories: 67.2
+    protein_g: 1.85
+    fat_g: 0.17
+    carbs_g: 15.69
+    source: 'USDA SR Legacy: Onions, raw'
+  - item: Granulated Sugar (as Sugar, granulated)
+    amount: 'Pinch (pinch: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Sugars, granulated'
+  - item: Flat-Leaf Parsley (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
+    amount: 3 TBLS (3 TBLS at 30 g/cup)
+    oz: 0.2
+    calories: 2.0
+    protein_g: 0.17
+    fat_g: 0.04
+    carbs_g: 0.36
+    source: 'USDA SR Legacy: Parsley, fresh'
+  - item: Cornmeal (as Cornmeal / polenta, dry)
+    amount: 1 cup (1 cup at 122 g/cup)
+    oz: 4.3
+    calories: 441.7
+    protein_g: 9.91
+    fat_g: 4.38
+    carbs_g: 93.81
+    source: 'USDA SR Legacy: Cornmeal, whole-grain, yellow'
+  - item: Water
+    amount: 4 cups (+ or -) (4 cup at 237 g/cup)
+    oz: 33.44
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Water, bottled, generic'
+  - item: Kosher Salt (as Salt)
+    amount: 1 tsp (1 tsp at 280 g/cup)
+    oz: 0.21
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Unsalted Butter (as Butter, unsalted)
+    amount: 1 "knob" (optional) (1 TBLS at 227 g/cup)
+    oz: 0.5
+    calories: 101.7
+    protein_g: 0.12
+    fat_g: 11.51
+    carbs_g: 0.01
+    source: 'USDA SR Legacy: Butter, without salt'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 Add another list for whatever you're serving the chicken with (bread, noodles, polenta, etc).
 

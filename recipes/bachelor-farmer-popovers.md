@@ -52,7 +52,85 @@ ingredients:
     group: Honey Butter
     qty: 1
     unit: pinch
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 10
+  totals:
+    calories: 3888.0
+    protein_g: 101.43
+    fat_g: 239.94
+    carbs_g: 329.42
+  lines:
+  - item: All-Purpose Flour (as Flour, all-purpose)
+    amount: 3 cups (3 cup at 125 g/cup)
+    oz: 13.23
+    calories: 1365.0
+    protein_g: 38.74
+    fat_g: 3.68
+    carbs_g: 286.17
+    source: 'USDA SR Legacy: Wheat flour, white, all-purpose, enriched, unbleached'
+  - item: Whole Milk (as Milk, whole)
+    amount: 3 cups (3 cup at 244 g/cup)
+    oz: 25.82
+    calories: 446.4
+    protein_g: 23.06
+    fat_g: 23.78
+    carbs_g: 35.14
+    source: 'USDA SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D'
+  - item: Eggs (as Eggs, whole, raw)
+    amount: 6 (6 each at 50 g each)
+    oz: 10.58
+    calories: 429.0
+    protein_g: 37.68
+    fat_g: 28.53
+    carbs_g: 2.16
+    source: 'USDA SR Legacy: Egg, whole, raw, fresh'
+  - item: Kosher Salt (as Salt)
+    amount: 1 TBLS (1 TBLS at 280 g/cup)
+    oz: 0.62
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Unsalted Butter (as Butter, unsalted)
+    amount: 6 oz (1 1/2 sticks) (6 oz by weight)
+    oz: 6.0
+    calories: 1219.6
+    protein_g: 1.45
+    fat_g: 137.96
+    carbs_g: 0.1
+    source: 'USDA SR Legacy: Butter, without salt'
+  - item: Unsalted Butter (as Butter, unsalted)
+    amount: 2 oz (1/2 stick) (2 oz by weight)
+    oz: 2.0
+    calories: 406.5
+    protein_g: 0.48
+    fat_g: 45.99
+    carbs_g: 0.03
+    source: 'USDA SR Legacy: Butter, without salt'
+  - item: Honey
+    amount: ~1 tsp (1 tsp at 339 g/cup)
+    oz: 0.25
+    calories: 21.5
+    protein_g: 0.02
+    fat_g: 0.0
+    carbs_g: 5.82
+    source: 'USDA SR Legacy: Honey'
+  - item: Kosher Salt (as Salt)
+    amount: 'Pinch (pinch: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 When combining ingredients, you want them all at room temperature. Take the milk & eggs out before starting the recipe and let the butter cool a bit from being melted before you start combining ingredients.
 

@@ -52,7 +52,86 @@ ingredients:
     qty: 0.5
     unit: tsp
     section: Spices & Dried Herbs
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 5
+  totals:
+    calories: 1113.1
+    protein_g: 82.05
+    fat_g: 63.74
+    carbs_g: 60.62
+  lines:
+  - item: Eggs (as Eggs, whole, raw)
+    amount: 10 (10 each at 50 g each)
+    oz: 17.64
+    calories: 715.0
+    protein_g: 62.81
+    fat_g: 47.55
+    carbs_g: 3.6
+    source: 'USDA SR Legacy: Egg, whole, raw, fresh'
+  - item: Broccoli (as Broccoli, raw)
+    amount: 2 cups (one bunch) (1 bunch at 608 g each)
+    oz: 21.45
+    calories: 206.7
+    protein_g: 17.14
+    fat_g: 2.25
+    carbs_g: 40.36
+    source: 'USDA SR Legacy: Broccoli, raw'
+  - item: Yellow Onion (as Onion, yellow, raw)
+    amount: 1 (1 each at 150 g each)
+    oz: 5.29
+    calories: 60.0
+    protein_g: 1.65
+    fat_g: 0.15
+    carbs_g: 14.01
+    source: 'USDA SR Legacy: Onions, raw'
+  - item: Bell Pepper (as Peppers, bell (sweet), raw)
+    amount: 1/4 (0.25 each at 120 g each)
+    oz: 1.06
+    calories: 7.8
+    protein_g: 0.3
+    fat_g: 0.09
+    carbs_g: 1.81
+    source: 'USDA SR Legacy: Peppers, sweet, red, raw'
+  - item: Olive Oil (as Olive oil)
+    amount: 1 TBLS (1 TBLS at 216 g/cup)
+    oz: 0.48
+    calories: 119.3
+    protein_g: 0.0
+    fat_g: 13.5
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, olive, salad or cooking'
+  - item: Garlic Salt (as Salt)
+    amount: 1 tsp (1 tsp at 280 g/cup)
+    oz: 0.21
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Red Pepper Flakes (as Red pepper flakes)
+    amount: 1/2 tsp (0.5 tsp at 1.8 g each)
+    oz: 0.03
+    calories: 2.9
+    protein_g: 0.11
+    fat_g: 0.16
+    carbs_g: 0.51
+    source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
+  - item: Herbes de Provence (as Herbes de Provence, dried)
+    amount: 1/2 tsp (0.5 tsp at 1 g each)
+    oz: 0.02
+    calories: 1.4
+    protein_g: 0.04
+    fat_g: 0.04
+    carbs_g: 0.33
+    source: estimate (mean of USDA SR Legacy dried thyme 170938, rosemary 171333, marjoram 170928, savory 170936, oregano
+      171328)
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 **Sauté the veg**
 

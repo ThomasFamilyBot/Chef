@@ -58,7 +58,93 @@ ingredients:
     qty: 1.5
     unit: lb
     section: Pasta, Rice & Grains
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 7
+  totals:
+    calories: 3555.2
+    protein_g: 114.04
+    fat_g: 94.57
+    carbs_g: 560.31
+  lines:
+  - item: Smoked Bacon (as Bacon, raw)
+    amount: 4 oz (4 oz by weight)
+    oz: 4.0
+    calories: 445.6
+    protein_g: 15.49
+    fat_g: 42.1
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Pork, cured, bacon, unprepared'
+  - item: Yellow Onion (as Onion, yellow, raw)
+    amount: 1 medium (1 each at 150 g each)
+    oz: 5.29
+    calories: 60.0
+    protein_g: 1.65
+    fat_g: 0.15
+    carbs_g: 14.01
+    source: 'USDA SR Legacy: Onions, raw'
+  - item: Olive Oil (as Olive oil)
+    amount: 3 TBLS (3 TBLS at 216 g/cup)
+    oz: 1.43
+    calories: 358.0
+    protein_g: 0.0
+    fat_g: 40.5
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, olive, salad or cooking'
+  - item: Crushed Tomatoes, 15 oz can (as Tomatoes, crushed, canned)
+    amount: 15 oz can (1 x 15 oz can)
+    oz: 15.0
+    calories: 136.1
+    protein_g: 6.98
+    fat_g: 1.19
+    carbs_g: 31.01
+    source: 'USDA SR Legacy: Tomatoes, crushed, canned'
+  - item: Yellow Bell Pepper (as Peppers, bell (sweet), raw)
+    amount: 1 large (1 each at 120 g each)
+    oz: 4.23
+    calories: 31.2
+    protein_g: 1.19
+    fat_g: 0.36
+    carbs_g: 7.23
+    source: 'USDA SR Legacy: Peppers, sweet, red, raw'
+  - item: Kosher Salt (as Salt)
+    amount: 'to taste (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Black Pepper (as Pepper, black, ground)
+    amount: 'to taste (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Spices, pepper, black'
+  - item: Paprika
+    amount: 'to taste (to taste: counted as 0)'
+    oz: 0.0
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Spices, paprika'
+  - item: Fusilli (as Pasta, dry)
+    amount: 1-1 1/2 lb (1.5 lb by weight)
+    oz: 24.0
+    calories: 2524.3
+    protein_g: 88.73
+    fat_g: 10.27
+    carbs_g: 508.06
+    source: 'USDA SR Legacy: Pasta, dry, enriched'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 - Heavy saucepan, med heat. Saute bacon, onions in oil until lightly browned.
 - Add tomatoes & yellow pepper strips.

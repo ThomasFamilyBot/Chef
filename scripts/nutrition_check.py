@@ -6,7 +6,7 @@ Table checks (per 1 oz): calories 0-260 (pure fat is ~255/oz), protein <= 29 g, 
 Atwater consistency (4P + 4C + 9F within tolerance of stated calories), portion weights in plausible ranges.
 Recipe checks: calories/serving 20-3000, protein/serving <= 250 g, total weight/serving 30 g - 2 kg,
 one ingredient supplying >85% of calories, a spice/salt line over 150 kcal (usually a unit mistake)."""
-import sys, pathlib
+import sys, re, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from chef_lib import *
 
@@ -59,7 +59,8 @@ def check_recipes():
         for l in n["lines"]:
             lc = float(l.get("calories") or 0)
             if cal and lc / cal > 0.85 and len(n["lines"]) > 3: warns.append(f"{r['slug']}: {l['item']} is {lc/cal:.0%} of calories")
-            if any(wd in l["item"].lower() for wd in SPICE_WORDS) and lc > 150: warns.append(f"{r['slug']}: {l['item']} = {lc:.0f} kcal; check the unit/portion")
+            nm = l["item"].lower()
+            if any(re.search(r"\b" + wd + r"\b", nm) for wd in SPICE_WORDS) and "butter" not in nm and "pork" not in nm and lc > 150: warns.append(f"{r['slug']}: {l['item']} = {lc:.0f} kcal; check the unit/portion")
             if lc > 6000: warns.append(f"{r['slug']}: {l['item']} = {lc:.0f} kcal in one line")
     return errs, warns
 

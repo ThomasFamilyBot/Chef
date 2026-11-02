@@ -118,7 +118,167 @@ ingredients:
     prep: 1 cup whole, 1 cup pureed
     qty: 1
     unit: container
-nutrition: null
+nutrition:
+  computed: '2026-11-02'
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  servings: 5
+  totals:
+    calories: 10009.8
+    protein_g: 649.09
+    fat_g: 595.4
+    carbs_g: 475.99
+  lines:
+  - item: Pork Butt, bone-in (as Pork shoulder (Boston butt), bone-in, raw)
+    amount: 8-10 lb (10 lb by weight; edible yield 75%)
+    oz: 120.0
+    calories: 6327.6
+    protein_g: 592.56
+    fat_g: 420.48
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean and fat, raw'
+  - item: Granulated Sugar (as Sugar, granulated)
+    amount: 1 cup (1 cup at 200 g/cup; 10% consumed)
+    oz: 0.71
+    calories: 77.4
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 20.0
+    source: 'USDA SR Legacy: Sugars, granulated'
+    note: brine rub; most is brushed off and juices discarded, ~10% assumed absorbed
+  - item: Kosher Salt (as Salt)
+    amount: 1 cup + 1 TBLS (17 TBLS at 280 g/cup; 10% consumed)
+    oz: 1.05
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+    note: brine rub; ~10% assumed absorbed
+  - item: Brown Sugar (as Sugar, brown)
+    amount: 7 TBLS (7 TBLS at 220 g/cup)
+    oz: 3.4
+    calories: 365.8
+    protein_g: 0.12
+    fat_g: 0.0
+    carbs_g: 94.41
+    source: 'USDA SR Legacy: Sugars, brown'
+  - item: Scallions (as Scallions, raw)
+    amount: 2 1/2 cups (2 large bunches) (2 bunch at 100 g each)
+    oz: 7.05
+    calories: 64.0
+    protein_g: 3.66
+    fat_g: 0.38
+    carbs_g: 14.68
+    source: 'USDA SR Legacy: Onions, spring or scallions (includes tops and bulb), raw'
+  - item: Ginger (as Ginger root, raw)
+    amount: 1/2 cup (~ full handful) (0.5 cup at 96 g/cup)
+    oz: 1.69
+    calories: 38.4
+    protein_g: 0.87
+    fat_g: 0.36
+    carbs_g: 8.53
+    source: 'USDA SR Legacy: Ginger root, raw'
+  - item: Grapeseed Oil (as Vegetable / neutral oil)
+    amount: 1/4 cup (0.25 cup at 218 g/cup)
+    oz: 1.92
+    calories: 481.8
+    protein_g: 0.0
+    fat_g: 54.5
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, vegetable, soybean, refined'
+  - item: Light Soy Sauce (as Soy sauce)
+    amount: 1 1/2 tsp (1.5 tsp at 255 g/cup)
+    oz: 0.28
+    calories: 4.2
+    protein_g: 0.65
+    fat_g: 0.05
+    carbs_g: 0.39
+    source: 'USDA SR Legacy: Soy sauce made from soy and wheat (shoyu)'
+  - item: Sherry Vinegar (as Vinegar, wine (red / champagne / sherry / rice))
+    amount: 1 tsp (1 tsp at 239 g/cup)
+    oz: 0.18
+    calories: 0.9
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.01
+    source: 'USDA SR Legacy: Vinegar, red wine'
+  - item: Kosher Salt (as Salt)
+    amount: 1/2 tsp (0.5 tsp at 280 g/cup)
+    oz: 0.1
+    calories: 0.0
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Salt, table'
+  - item: Ssamjang (as Ssamjang (Korean seasoned soybean paste))
+    amount: 2 TBLS (2 TBLS at 18 g each)
+    oz: 1.27
+    calories: 61.2
+    protein_g: 2.88
+    fat_g: 1.8
+    carbs_g: 7.92
+    source: estimate
+  - item: Kochujang (as Gochujang (Korean red pepper paste))
+    amount: 1 TBLS (1 TBLS at 18 g each)
+    oz: 0.63
+    calories: 34.2
+    protein_g: 0.72
+    fat_g: 0.18
+    carbs_g: 7.56
+    source: estimate
+  - item: Sherry Vinegar (as Vinegar, wine (red / champagne / sherry / rice))
+    amount: 1/2 cup (0.5 cup at 239 g/cup)
+    oz: 4.22
+    calories: 22.7
+    protein_g: 0.05
+    fat_g: 0.0
+    carbs_g: 0.32
+    source: 'USDA SR Legacy: Vinegar, red wine'
+  - item: Grapeseed Oil (as Vegetable / neutral oil)
+    amount: 1/2 cup (0.5 cup at 218 g/cup)
+    oz: 3.84
+    calories: 963.6
+    protein_g: 0.0
+    fat_g: 109.0
+    carbs_g: 0.0
+    source: 'USDA SR Legacy: Oil, vegetable, soybean, refined'
+  - item: White Rice (as Rice, white, long-grain, raw)
+    amount: 2 cups (2 cup at 185 g/cup)
+    oz: 13.05
+    calories: 1350.6
+    protein_g: 26.38
+    fat_g: 2.44
+    carbs_g: 295.81
+    source: 'USDA SR Legacy: Rice, white, long-grain, regular, raw, enriched'
+  - item: Bibb Lettuce (as Lettuce, Bibb (butterhead), raw)
+    amount: 3 heads (3 head at 163 g each)
+    oz: 17.25
+    calories: 63.6
+    protein_g: 6.61
+    fat_g: 1.07
+    carbs_g: 10.9
+    source: 'USDA SR Legacy: Lettuce, butterhead (includes boston and bibb types), raw'
+  - item: Oysters (as Oysters, raw)
+    amount: 1 dozen (12 each at 14 g each)
+    oz: 5.93
+    calories: 85.7
+    protein_g: 9.59
+    fat_g: 2.87
+    carbs_g: 4.57
+    source: 'USDA SR Legacy: Mollusks, oyster, eastern, wild, raw'
+  - item: Kimchi
+    amount: 1 container (1 container at 454 g each)
+    oz: 16.01
+    calories: 68.1
+    protein_g: 5.0
+    fat_g: 2.27
+    carbs_g: 10.89
+    source: 'USDA SR Legacy: Cabbage, kimchi'
+  assumptions:
+  - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
+  - Volume and count measures converted to grams with the portion weights recorded in the table.
+  - Salt, pepper and 'to taste' lines counted as zero.
+  excluded: []
 ---
 **Day 1 — Brine the pork**
 
