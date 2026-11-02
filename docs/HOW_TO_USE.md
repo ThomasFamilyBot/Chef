@@ -2,7 +2,7 @@
 
 ## The site
 
-https://thomasfamilybot.github.io/chef/
+https://thomasfamilybot.github.io/Chef/
 
 - **Recipes**: search by title, ingredient, or any word in the directions. Click a tag to filter. Each recipe page has a **Print** button (the ingredient table stays on one page) and a **+ Shopping list** button.
 - **Filters** on the Recipes page: total time, course, protein, and a "what I have" box (comma-separated ingredients) that ranks recipes by how many you already have.

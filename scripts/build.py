@@ -120,7 +120,7 @@ def main():
     for r in sorted(recipes, key=lambda r: r["title"].lower()):
         did = r.get("drive_doc_id")
         doc = f"[open](https://docs.google.com/document/d/{did}/edit)" if did else "none yet"
-        rows.append(f"| {r['title']} | {doc} | [page](https://thomasfamilybot.github.io/chef/r/{r['slug']}.html) | `{did or ''}` |")
+        rows.append(f"| {r['title']} | {doc} | [page](https://thomasfamilybot.github.io/Chef/r/{r['slug']}.html) | `{did or ''}` |")
     (ROOT / "docs" / "DOC_MAP.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
     print(f"built {len(recipes)} recipes, {len(templates)} templates -> {DIST}")
 

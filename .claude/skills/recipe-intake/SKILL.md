@@ -90,7 +90,7 @@ gh run list --repo ThomasFamilyBot/chef --limit 1          # until status is "co
 
 (or `gh run watch --repo ThomasFamilyBot/chef` if available). If it fails, read the log with `gh run view <id> --log-failed` and fix before reporting.
 
-Then tell the person: the site link `https://thomasfamilybot.github.io/chef/r/<slug>.html`, the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions or estimates in the nutrition lines.
+Then tell the person: the site link `https://thomasfamilybot.github.io/Chef/r/<slug>.html`, the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions or estimates in the nutrition lines.
 
 ## 8. If the person later edits the Google Doc
 

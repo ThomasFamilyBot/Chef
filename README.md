@@ -2,7 +2,7 @@
 
 The Thomas family recipe library, nutrition calculator and shopping-list planner.
 
-- **Site:** https://thomasfamilybot.github.io/chef/ (rebuilds automatically on every push to `main`)
+- **Site:** https://thomasfamilybot.github.io/Chef/ (rebuilds automatically on every push to `main`)
 - **Recipes:** `recipes/*.md` (one file per recipe, see `docs/RECIPE_FORMAT.md`)
 - **Nutrition table:** `data/canonical_ingredients.csv`
 - **Shopping templates:** `data/shopping_templates/`
