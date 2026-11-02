@@ -11,7 +11,7 @@ times:
   total: 3600
 tags: [lamb, main, smoker, project, three-day]
 source_doc: https://drive.google.com/file/d/1g1gjZXRKno-gZwfgjYZSl4MDBqW9Zsh8/view
-drive_doc_id: null
+drive_doc_id: 1JnVIo2KOco8wSW5eY5JChizJ7zRDOKETptiaPT4at2k
 ingredients:
   - measure: 5 1/2-6 1/2 lb
     item: Lamb Shoulder, bone-in

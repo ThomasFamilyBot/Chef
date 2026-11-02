@@ -13,7 +13,7 @@ times:
   total: 120
 tags: [vegetarian, eggs, main, breakfast, sous-vide]
 source_doc: https://docs.google.com/document/d/1esyCBDUJ7Gi3mZKSiWBNexOD3nGqILRbW6BZkpH8fXw/edit
-drive_doc_id: null
+drive_doc_id: 1uZMPh78KT1t7W1yNvUxlfSe-hzerG2wzKD3CLueBTqU
 ingredients:
   - measure: 6 TBLS (~1/2 cup)
     item: Olive Oil

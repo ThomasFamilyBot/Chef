@@ -11,7 +11,7 @@ times:
   total: 75
 tags: [vegetarian, breakfast, sous-vide]
 source_doc: https://docs.google.com/document/d/1mlpBPJSELto0CB-rYqNEGZdH-lZ_PUQ7skmE-T8SeQ4/edit
-drive_doc_id: null
+drive_doc_id: 1TDzk0VBkuRCS234-2F032zhdT0I3KPlE05Brgtx3qGU
 ingredients:
   - measure: "10"
     item: Eggs

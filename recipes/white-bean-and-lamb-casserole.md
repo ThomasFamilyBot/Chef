@@ -11,7 +11,7 @@ times:
   total: 300
 tags: [lamb, main, project]
 source_doc: https://docs.google.com/document/d/1WuPphw6CbbyN390-eLWUHK4do7wZvym-qnhUBdknp-0/edit
-drive_doc_id: null
+drive_doc_id: 1WU9XdptCMc_dBaSBF8TYkHmYoIjyILl9qVBQha1GUUA
 ingredients:
   - measure: 1 lb
     item: Cannellini Beans, dried

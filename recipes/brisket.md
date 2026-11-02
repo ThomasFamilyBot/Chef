@@ -11,7 +11,7 @@ times:
   total: 3615
 tags: [beef, main, sous-vide, project]
 source_doc: https://docs.google.com/document/d/198hmK5EVRc8ZFcF1T5V67_5r6g0uD9YMwpWLgUm0suo/edit
-drive_doc_id: null
+drive_doc_id: 19Le6uVVSogQPtsu-zDLyG4KNH6iRvBtJhlGGt84YxIE
 ingredients:
   - measure: 36 fl oz
     item: Root Beer

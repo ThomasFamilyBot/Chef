@@ -12,7 +12,7 @@ times:
   total: 1500
 tags: [pork, main, grill, project]
 source_doc: https://docs.google.com/document/d/1-d6_EdsJERQYjadT6LOz57dy4kWgY6qvvUVVv2D7JzM/edit
-drive_doc_id: null
+drive_doc_id: 1O_LFpdWuKZHgr5Q8ueUwejPASL1d3jG_poHws0n4724
 ingredients:
   - measure: 1/4 cup
     item: Maple Syrup
