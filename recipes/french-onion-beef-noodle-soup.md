@@ -15,7 +15,7 @@ source_doc: https://docs.google.com/document/d/1bUJKbGSljgUMCwwzngIKHL_16FaXhvQT
 drive_doc_id: null
 ingredients:
   - measure: 2 TBLS
-    item: Vegetable Oil
+    item: Neutral Oil
     qty: 2
     unit: TBLS
   - measure: To taste

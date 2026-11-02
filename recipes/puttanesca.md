@@ -43,7 +43,7 @@ ingredients:
     qty: 1
     unit: TBLS
   - measure: to taste
-    item: Black Pepper (ground)
+    item: Black Pepper
     qty: 1
     unit: to taste
   - measure: 1-1 1/2 lb

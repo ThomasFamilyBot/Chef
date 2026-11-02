@@ -13,7 +13,7 @@ times:
   total: 870
 tags: [pork, korean, main, project, two-day]
 source_doc: https://docs.google.com/document/d/1YVMCgX6Y9THkvIHUEWEwK1a-NPvEpiXNir6mOXNNyTo/edit
-drive_doc_id: null
+drive_doc_id: 1HjDy5996d1pbhSsaOmpR9jWj-RSPHAMAZem_5YtNK4U
 ingredients:
   - measure: 8-10 lb
     item: Pork Butt, bone-in
@@ -22,7 +22,7 @@ ingredients:
     unit: lb
     section: Meat & Seafood
   - measure: 1 cup
-    item: White Sugar
+    item: Granulated Sugar
     qty: 1
     unit: cup
   - measure: 1 cup + 1 TBLS

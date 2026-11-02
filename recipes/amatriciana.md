@@ -40,7 +40,7 @@ ingredients:
     qty: 1
     unit: to taste
   - measure: to taste
-    item: Black Pepper (ground)
+    item: Black Pepper
     qty: 1
     unit: to taste
   - measure: 1-1 1/2 lb

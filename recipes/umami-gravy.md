@@ -15,7 +15,7 @@ source_doc: https://docs.google.com/document/d/1rwN95utkxSydFvLOpnX-QnBCz8UoGv7k
 drive_doc_id: null
 ingredients:
   - measure: 2 TBLS
-    item: Neutral Oil (grapeseed/canola)
+    item: Neutral Oil
     prep: Veg oil. Plus ~2 tsp more if needed for the onions
     qty: 2
     unit: TBLS
@@ -67,7 +67,7 @@ ingredients:
     qty: 1
     unit: to taste
   - measure: to taste
-    item: Black Pepper (ground)
+    item: Black Pepper
     qty: 1
     unit: to taste
 nutrition: null

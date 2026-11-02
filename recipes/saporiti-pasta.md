@@ -43,7 +43,7 @@ ingredients:
     qty: 1
     unit: to taste
   - measure: to taste
-    item: Black Pepper (ground)
+    item: Black Pepper
     prep: For seasoning
     qty: 1
     unit: to taste

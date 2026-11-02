@@ -35,7 +35,7 @@ ingredients:
     qty: 1
     unit: to taste
   - measure: To taste
-    item: Black Pepper (ground)
+    item: Black Pepper
     prep: For seasoning the buttermilk
     qty: 1
     unit: to taste
@@ -70,7 +70,7 @@ ingredients:
     qty: 4
     unit: tsp
   - measure: 1 tsp
-    item: Black Pepper (ground)
+    item: Black Pepper
     group: 1 -> Dredge
     qty: 1
     unit: tsp
