@@ -5,6 +5,8 @@
 https://thomasfamilybot.github.io/chef/
 
 - **Recipes**: search by title, ingredient, or any word in the directions. Click a tag to filter. Each recipe page has a **Print** button (the ingredient table stays on one page) and a **+ Shopping list** button.
+- **Filters** on the Recipes page: total time, course, protein, and a "what I have" box (comma-separated ingredients) that ranks recipes by how many you already have.
+- **Menus**: dinners we've cooked, with the run of show. One tap adds every library recipe on a menu to the shopping list. Recipe pages show "Pairs well with" and the menus they're on.
 - **Shopping List**: tick the recipes you're cooking (and a multiplier, e.g. ×2 for a crowd) plus any templates such as *House Staples*. Same items from different recipes are added together; the list is grouped by store section. Check items off as you shop. Checkmarks are saved on *your* phone.
 - **Share a list**: press **Copy share link** and text it. Whoever opens it sees the same list and can check things off on their own phone.
 - **Nutrition**: the canonical ingredient table and per-serving numbers for every recipe that has been calculated. On a recipe page, change the ÷ servings box to see per-serving numbers for a different split.
@@ -26,6 +28,8 @@ What to say:
 - "Put Chili in Drive." (writes the Google Doc copy into *Converted Recipies*)
 - "Add 'Paper towels' to the House Staples template."
 - "Make a new shopping template called 'Taco night'."
+- "What goes with the Zuni chicken?" / "Plan a dinner for 8 on Saturday, grill, not too much work."
+- "What should we add to the library next?"
 
 Claude will ask the reference/hyperlink questions if the source doesn't answer them, then write the file, validate it, build the site, commit and push. The site rebuilds in about a minute.
 

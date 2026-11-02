@@ -81,3 +81,11 @@ footer { text-align:center; padding:20px; }
   .shop-layout { display:block; }
   @page { margin: 0.6in; }
 }
+
+.filters { display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; margin:4px 0 8px; }
+.filters select { font:inherit; font-size:.95em; padding:3px 6px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--ink); }
+.filters .search { margin:0; flex:1 1 260px; font-size:.95em; padding:6px 10px; }
+.menu { margin:14px 0; }
+.menu h2 { border:0; margin:.2em 0; }
+.card.menu ul { padding-left:1.2em; margin:.4em 0; }
+.pairs ul { padding-left:1.2em; }

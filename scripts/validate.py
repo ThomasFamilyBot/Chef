@@ -87,6 +87,17 @@ def main(argv):
         for e in errs:
             print(f"ERROR {p.name}: {e}")
         bad += bool(errs)
+    if not argv:
+        slugs = {p.stem for p in RECIPES.glob("*.md")}
+        for m in load_menus():
+            for it in m.get("items", []):
+                if it.get("slug") and it["slug"] not in slugs:
+                    print(f"ERROR menus.yaml: {m['name']}: unknown slug {it['slug']}"); bad += 1
+                if not it.get("slug") and not it.get("title"):
+                    print(f"ERROR menus.yaml: {m['name']}: item needs slug or title"); bad += 1
+        for pr in load_pairings():
+            if len(pr) != 3 or pr[0] not in slugs or pr[1] not in slugs:
+                print(f"ERROR pairings.yaml: bad pair {pr}"); bad += 1
     print(f"{len(paths)} recipes checked, {bad} with errors")
     return 1 if bad else 0
 

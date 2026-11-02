@@ -49,19 +49,39 @@
       });
       apply();
     });
+    const fTime = document.getElementById('f-time'), fCourse = document.getElementById('f-course'), fProt = document.getElementById('f-protein'), fHave = document.getElementById('f-have');
     function apply() {
       const text = (q.value || '').toLowerCase().trim();
+      const maxT = Number(fTime.value) || 0, course = fCourse.value, prot = fProt.value;
+      const have = (fHave.value || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
       let n = 0;
       const byslug = Object.fromEntries((DATA ? DATA.recipes : []).map(r => [r.slug, r]));
+      const scored = [];
       cards.forEach(c => {
         const r = byslug[c.dataset.slug];
         const hay = r ? (r.title + ' ' + r.tags.join(' ') + ' ' + r.text).toLowerCase() : c.textContent.toLowerCase();
-        const ok = (!text || text.split(/\s+/).every(w => hay.includes(w))) && (!active || (r && r.tags.includes(active)));
+        let ok = (!text || text.split(/\s+/).every(w => hay.includes(w))) && (!active || (r && r.tags.includes(active)));
+        if (ok && r && maxT) { const tt = r.times && (r.times.total || r.times.cook); ok = !!tt && tt <= maxT; }
+        if (ok && r && course) ok = r.tags.includes(course);
+        if (ok && r && prot) ok = r.tags.includes(prot);
+        let hits = 0;
+        if (ok && r && have.length) {
+          const items = r.ingredients.map(i => i.item.toLowerCase());
+          hits = have.filter(h => items.some(it => it.includes(h))).length;
+          ok = hits > 0;
+        }
         c.hidden = !ok; if (ok) n++;
+        const badge = c.querySelector('.match');
+        if (badge) badge.remove();
+        if (ok && have.length) { const b = document.createElement('span'); b.className = 'tag match'; b.textContent = `${hits}/${have.length} on hand`; c.querySelector('.card-title').after(b); }
+        scored.push([c, ok ? hits : -1]);
       });
+      if (have.length) { scored.sort((a, b) => b[1] - a[1]).forEach(([c]) => list.appendChild(c)); }
       document.getElementById('empty').hidden = n > 0;
     }
     q.addEventListener('input', apply);
+    [fTime, fCourse, fProt].forEach(el => el.addEventListener('change', apply));
+    fHave.addEventListener('input', apply);
     updateNav();
   }
 
@@ -110,10 +130,12 @@
       picks.forEach(i => i.checked = !!s.r[i.dataset.recipe]);
       mults.forEach(i => i.value = s.r[i.dataset.mult] || 1);
       tpicks.forEach(i => i.checked = s.t.includes(i.dataset.template));
+      if (DATA) document.querySelectorAll('input[data-menu]').forEach(i => { const m = DATA.menus.find(x => x.id === i.dataset.menu); i.checked = !!m && m.slugs.length > 0 && m.slugs.every(sl => s.r[sl]); });
     }
     picks.forEach(i => i.addEventListener('change', () => { const s = getSel(); if (i.checked) s.r[i.dataset.recipe] = Number(document.querySelector(`input[data-mult="${i.dataset.recipe}"]`).value) || 1; else delete s.r[i.dataset.recipe]; setSel(s); render(); }));
     mults.forEach(i => i.addEventListener('change', () => { const s = getSel(); if (s.r[i.dataset.mult]) { s.r[i.dataset.mult] = Math.max(1, Number(i.value) || 1); setSel(s); render(); } }));
     tpicks.forEach(i => i.addEventListener('change', () => { const s = getSel(); s.t = s.t.filter(t => t !== i.dataset.template); if (i.checked) s.t.push(i.dataset.template); setSel(s); render(); }));
+    document.querySelectorAll('input[data-menu]').forEach(i => i.addEventListener('change', () => addMenu(i.dataset.menu, i.checked).then(() => { syncPicker(); render(); })));
     document.getElementById('clear-sel').onclick = () => { setSel({ r: {}, t: [] }); syncPicker(); render(); };
     document.getElementById('uncheck').onclick = () => { setChecked({}); render(); };
     document.getElementById('hide-checked').onchange = render;
@@ -166,5 +188,18 @@
     data().then(() => { syncPicker(); render(); updateNav(); });
   }
 
-  global.Chef = { indexPage, recipePage, shopPage, getSel, setSel, data };
+  function addMenu(id, on) {
+    return data().then(d => {
+      const m = d.menus.find(x => x.id === id); if (!m) return;
+      const s = getSel();
+      m.slugs.forEach(slug => { if (on) { if (!s.r[slug]) s.r[slug] = 1; } else delete s.r[slug]; });
+      setSel(s);
+    });
+  }
+  function menusPage() {
+    updateNav();
+    document.querySelectorAll('button.add-menu').forEach(b => b.addEventListener('click', () => addMenu(b.dataset.menu, true).then(() => { b.textContent = '✓ Added — open Shopping List'; b.classList.add('on'); })));
+  }
+
+  global.Chef = { indexPage, recipePage, shopPage, menusPage, addMenu, getSel, setSel, data };
 })(window);

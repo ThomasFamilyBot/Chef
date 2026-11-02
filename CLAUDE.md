@@ -9,6 +9,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `data/canonical_ingredients.csv` — the canonical nutrition table (per 1 oz by weight). Never overwrite a row silently.
 - `data/store_sections.yaml` — ordered grocery-store sections + keyword fallbacks for ingredients that don't declare a section.
 - `data/shopping_templates/*.yaml` — recurring lists (e.g. house staples) that can be added to any shopping list.
+- `data/menus.yaml` — menus / run of show (library slugs + not-yet-written dishes). `data/pairings.yaml` — "pairs well with" links with reasons.
 - `scripts/validate.py` — checks every recipe against the format. Run it before committing.
 - `scripts/build.py` — builds the site into `dist/`.
 - `scripts/export_gdoc_html.py` — renders a recipe as HTML in the family's Google Doc template layout, for writing back to Drive.
@@ -17,7 +18,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `scripts/usda_fetch.sh` + `scripts/usda_lookup.py` — local copy of USDA SR Legacy; `search`, `show`, and `row` (emits a ready canonical CSV row with FDC id, URL and portion weights).
 - `scripts/set_override.py` — set a per-ingredient nutrition override in a recipe (exclude / fraction / oz) with a note.
 - `site/` — templates and static assets for the site.
-- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`.
+- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`.
 
 ## When asked to add / convert a recipe
 
@@ -27,6 +28,10 @@ Follow `.claude/skills/recipe-intake/SKILL.md` exactly. It covers the questions 
 ## When asked for nutrition
 
 Follow `.claude/skills/nutrition/SKILL.md`. Canonical table first, USDA second, every assumption written down.
+
+## When asked what goes with a dish, for a menu, or for new recipe ideas
+
+Follow `.claude/skills/menu-planning/SKILL.md` or `.claude/skills/recipe-suggestions/SKILL.md`.
 
 ## When asked to put a recipe in Google Drive
 

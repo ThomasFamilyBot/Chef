@@ -31,6 +31,14 @@
   {{ r.body_html|safe }}
 </section>
 
+{% if r.pairs or r.menus %}
+<section class="pairs no-print">
+  {% if r.pairs %}<h2>Pairs well with</h2>
+  <ul>{% for other, why in r.pairs %}<li><a href="{{ other.slug }}.html">{{ other.title }}</a> <span class="muted small">— {{ why }}</span></li>{% endfor %}</ul>{% endif %}
+  {% if r.menus %}<h2>On these menus</h2>
+  <ul>{% for m in r.menus %}<li><a href="../menus.html#{{ m.id }}">{{ m.name }}</a> <span class="muted small">{{ m.occasion }}</span></li>{% endfor %}</ul>{% endif %}
+</section>
+{% endif %}
 <section class="nutrition">
   <h2>Estimate Nutrition of Whole, Finished Recipe</h2>
   {% if r.nutrition %}

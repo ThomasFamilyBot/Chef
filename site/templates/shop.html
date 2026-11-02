@@ -10,6 +10,12 @@
     <li><label><input type="checkbox" data-template="{{ t.slug }}"> {{ t.name }} <span class="muted small">({{ t['items']|length }} items)</span></label></li>
   {% endfor %}
   </ul>
+  {% if menus %}<h3>Menus</h3>
+  <ul id="pick-menus" class="plain">
+  {% for m in menus if m.slugs %}
+    <li><label><input type="checkbox" data-menu="{{ m.id }}"> {{ m.name }} <span class="muted small">({{ m.slugs|length }})</span></label></li>
+  {% endfor %}
+  </ul>{% endif %}
   <h3>Recipes</h3>
   <input id="pick-q" class="search" type="search" placeholder="Filter recipes…">
   <ul id="pick-recipes" class="plain">

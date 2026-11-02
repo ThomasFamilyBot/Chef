@@ -32,9 +32,25 @@ def main():
         for it in t["items"]:
             it["section_resolved"] = section_for(it["item"], sections, it.get("section"))
             it.setdefault("shop", True)
+    by_slug = {r["slug"]: r for r in recipes}
+    menus = load_menus()
+    for i, m in enumerate(menus):
+        m["id"] = f"m{i+1}"
+        m["slugs"] = [it["slug"] for it in m["items"] if it.get("slug") in by_slug]
+        for it in m["items"]:
+            if it.get("slug") in by_slug:
+                it["title"] = by_slug[it["slug"]]["title"]
+    pairings = load_pairings()
+    pairs_by = {}
+    for a, b, why in pairings:
+        if a in by_slug and b in by_slug:
+            pairs_by.setdefault(a, []).append((by_slug[b], why))
+            pairs_by.setdefault(b, []).append((by_slug[a], why))
     for r in recipes:
         r["body_html"] = md(r["body_md"])
         r["section_order"] = [s["name"] for s in sections]
+        r["pairs"] = pairs_by.get(r["slug"], [])
+        r["menus"] = [m for m in menus if r["slug"] in m["slugs"]]
 
     env = Environment(loader=FileSystemLoader(SITE / "templates"), autoescape=select_autoescape(["html"]))
     env.filters["fmt_time"] = fmt_time
@@ -46,10 +62,11 @@ def main():
     (DIST / ".nojekyll").write_text("")
 
     built = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    ctx = dict(recipes=recipes, templates=templates, sections=[s["name"] for s in sections], built=built)
+    ctx = dict(recipes=recipes, templates=templates, sections=[s["name"] for s in sections], built=built, menus=menus)
 
     (DIST / "index.html").write_text(env.get_template("index.html").render(base="", **ctx), encoding="utf-8")
     (DIST / "shop.html").write_text(env.get_template("shop.html").render(base="", **ctx), encoding="utf-8")
+    (DIST / "menus.html").write_text(env.get_template("menus.html").render(base="", **ctx), encoding="utf-8")
     canonical = load_canonical()
     for c in canonical:
         try: c["_eff"] = float(c["efficiency"]) if c.get("efficiency") else 1e9
@@ -69,10 +86,12 @@ def main():
             "ingredients": [{k: ing.get(k) for k in ("measure", "item", "prep", "group", "qty", "unit", "shop")} | {"section": ing["section_resolved"]}
                             for ing in (r.get("ingredients") or [])],
             "nutrition": r.get("nutrition"),
+            "pairs": [p[0]["slug"] for p in r["pairs"]],
             "text": (r["body_md"] + " " + " ".join(i["item"] for i in r.get("ingredients") or [])).lower(),
         })
     (DIST / "recipes.json").write_text(json.dumps({"built": built, "sections": [s["name"] for s in sections],
-                                                   "recipes": slim, "templates": templates}, ensure_ascii=False), encoding="utf-8")
+                                                   "recipes": slim, "templates": templates,
+                                                   "menus": [{"id": m["id"], "name": m["name"], "slugs": m["slugs"]} for m in menus]}, ensure_ascii=False), encoding="utf-8")
     print(f"built {len(recipes)} recipes, {len(templates)} templates -> {DIST}")
 
 

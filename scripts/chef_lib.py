@@ -86,3 +86,13 @@ def load_templates():
 def load_canonical():
     with open(DATA / "canonical_ingredients.csv", newline="") as f:
         return list(csv.DictReader(f))
+
+
+def load_menus():
+    p = DATA / "menus.yaml"
+    return yaml.safe_load(open(p)) if p.exists() else []
+
+
+def load_pairings():
+    p = DATA / "pairings.yaml"
+    return yaml.safe_load(open(p)) if p.exists() else []

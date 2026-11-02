@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Menus · Chef{% endblock %}
+{% block content %}
+<h1>Menus</h1>
+<p class="muted">Dinners we've actually cooked, with the run of show. Items without a link aren't in the library yet.</p>
+{% for m in menus %}
+<section class="menu card" id="{{ m.id }}">
+  <h2>{{ m.name }}</h2>
+  <p class="muted small">{{ m.occasion }}{% if m.date %} · {{ m.date }}{% endif %}{% if m.serves %} · Serves {{ m.serves }}{% endif %}{% if m.source_doc %} · <a href="{{ m.source_doc }}">run of show doc</a>{% endif %}</p>
+  <ul>
+  {% for it in m['items'] %}
+    <li>{% if it.slug %}<a href="r/{{ it.slug }}.html">{{ it.title }}</a>{% elif it.url %}<a href="{{ it.url }}">{{ it.title }}</a> <span class="tag">not in library</span>{% else %}{{ it.title }} <span class="tag">not in library</span>{% endif %}{% if it.note %} <span class="muted small">— {{ it.note }}</span>{% endif %}</li>
+  {% endfor %}
+  </ul>
+  {% if m.notes %}<p class="small">{{ m.notes }}</p>{% endif %}
+  {% if m.slugs %}<button class="btn add-menu" data-menu="{{ m.id }}">+ Add {{ m.slugs|length }} recipe{{ 's' if m.slugs|length != 1 else '' }} to shopping list</button>{% endif %}
+</section>
+{% endfor %}
+{% endblock %}
+{% block scripts %}<script>Chef.menusPage();</script>{% endblock %}

@@ -1,0 +1,95 @@
+# Menus the family has actually cooked (from the Run of Show docs) plus curated ones.
+# items: either {slug: <recipe slug>} for a library recipe, or {title, url, note} for something
+# not yet in the library (these are the first candidates for the recipe-suggestions skill).
+- name: Thanksgiving 2025
+  occasion: Thanksgiving
+  date: 2025-11-27
+  serves: 8 adults, 2 kids (9 servings)
+  source_doc: https://docs.google.com/document/d/1ZMy6KxAiNcbPgDCLYcGY6wo_v5NDGAOm2emlaRvmn50/edit
+  notes: Dinner at 4, table set at 3:30. Oven to 225°F at 2pm, chicken prep 90 min end to end, brisket in at 2:15 for 75 min with butter pads on top (Franklin carving video). Carve brisket before plating.
+  items:
+    - slug: ad-hoc-fried-chicken
+    - slug: fried-chicken-brine
+    - slug: brisket
+    - title: Green beans (2-3 lb)
+      note: simple side, no recipe yet
+- name: Championship Weekend
+  occasion: Big-game BBQ
+  date: 2026-01-25
+  serves: a crowd
+  source_doc: https://docs.google.com/document/d/19zeKTgqqWqhDC7a5GIld-_bYNNbdIEqJcM-Tnvdy64c/edit
+  notes: Saturday prep (lamb, Dolly rub, pork, roast peppers, pickle onion, dressing). Sunday 9am BBQ fire at 225°F, pork in (~4.5 h); 11:30 lamb on; 1pm pork out / fries in; 2pm lamb out, finish dressing.
+  items:
+    - slug: leg-of-lamb
+    - title: Smoked pulled pork
+      note: cooked 225°F for ~4.5 h; no written recipe yet
+    - title: Kale salad with harissa-yogurt dressing, pickled red onion, radish, cucumber, feta
+      note: dressing and pickled onion are written in the Run of Show doc; worth converting
+    - title: Oven fries
+      note: no recipe yet
+- name: Grammys Dinner
+  occasion: Party for 11 adults + kids
+  date: 2026-02-01
+  serves: 11 adults, 4 kids
+  source_doc: https://docs.google.com/document/d/1QcCPOMBnZ74BK62DWdiusZg1kwGJInopU2u6UzD7l1U/edit
+  notes: Saturday ice cream base, hibiscus punch, suya spice. Sunday churn 9:30; 3:30 soup (90 min), croutons (30), salad (1 h), waffle cone batter; 5pm fire and coat suya, 5:30 cook, 6pm dinner.
+  items:
+    - slug: caesar-salad-and-croutons
+    - title: Paul Bertolli's cauliflower soup
+      url: https://food52.com/recipes/15247-paul-bertolli-s-cauliflower-soup
+      note: cooked twice (All Hallows and Grammys); top import candidate
+    - title: Steak suya (flat iron or hanger)
+      note: suya spice (ground ginger, garlic powder, cayenne, peanuts); no written recipe yet
+    - title: Thai crunch salad (napa, carrot, edamame, peanuts, cilantro)
+      note: no written recipe yet
+    - title: Mint chip ice cream
+      note: no written recipe yet
+    - title: Waffle cones
+      note: no written recipe yet
+    - title: Hibiscus punch
+      note: 2 gallons 200°F water, 40 tea bags 15 min, 1 1/2 cups honey, 14 limes, top with sparkling; written in the Run of Show doc
+- name: All Hallows Week, Tuesday
+  occasion: Weeknight with friends
+  date: 2025-10-28
+  serves: 4-6
+  source_doc: https://docs.google.com/document/d/13NO6Inz419IqRGmAq19Mib_QlI0RALwr-aja7t53UGg/edit
+  items:
+    - title: Paul Bertolli's cauliflower soup
+      url: https://food52.com/recipes/15247-paul-bertolli-s-cauliflower-soup
+    - title: Fred's bacon cheeseburgers (pepper jack, brioche buns)
+      note: no written recipe yet
+    - slug: caesar-salad-and-croutons
+      note: croutons only
+- name: All Hallows Week, Wednesday
+  occasion: Weeknight with friends
+  date: 2025-10-29
+  serves: 4-6
+  source_doc: https://docs.google.com/document/d/13NO6Inz419IqRGmAq19Mib_QlI0RALwr-aja7t53UGg/edit
+  items:
+    - title: Smoked beef short ribs
+      note: smoker at 265°F, in at 8, out 1:30-3; no written recipe yet
+    - slug: caesar-salad-and-croutons
+    - title: Onion rings (frozen)
+- name: All Hallows Week, Thursday (Italian-American)
+  occasion: Weeknight with friends
+  date: 2025-10-30
+  serves: 6
+  source_doc: https://docs.google.com/document/d/13NO6Inz419IqRGmAq19Mib_QlI0RALwr-aja7t53UGg/edit
+  items:
+    - title: Minestrone
+      url: https://www.loveandlemons.com/minestrone-soup/
+    - title: Italian-American meatballs
+      url: https://www.seriouseats.com/italian-american-beef-pork-meatballs-red-tomato-sauce-recipe
+    - title: 6-hour slow-cooked tomato sauce
+      url: https://www.seriouseats.com/the-best-slow-cooked-italian-american-tomato-sauce-red-sauce-recipe
+    - title: Pear vanilla sorbet
+      url: https://cooking.nytimes.com/recipes/1014537-pear-vanilla-sorbet
+      note: 4:1 ratio per Serious Eats sorbet guide
+- name: All Hallows Week, Friday
+  occasion: Cocktails
+  date: 2025-10-31
+  serves: 4
+  items:
+    - slug: jalapeno-carrot-margarita
+    - title: Golden Boy pizza
+      note: takeout
