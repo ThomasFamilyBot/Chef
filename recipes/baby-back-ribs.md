@@ -11,7 +11,7 @@ times:
   total: 275
 tags: [pork, main, project]
 source_doc: https://docs.google.com/document/d/1SkqmqEIqqGFMb0yYXzIrx4eMy5hwD6IdUMVRAeh7xc4/edit
-drive_doc_id: 1DHDWu8SSaHmYf2O1ybzpgd3kz32KV0L14Jknd-MEth0
+drive_doc_id: 19zVOuwolCsF510RGXYqYABu5Ffkk_1TtjydXZlRazLY
 ingredients:
   - measure: 2 full racks
     item: Baby Back Ribs
