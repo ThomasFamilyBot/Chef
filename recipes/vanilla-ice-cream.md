@@ -50,12 +50,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 12
   totals:
     calories: 2604.1
     protein_g: 32.0
     fat_g: 197.72
-    carbs_g: 179.28
   lines:
   - item: Heavy Cream (as Cream, heavy whipping)
     amount: 2 cups (1 pint) (2 cup at 238 g/cup)
@@ -63,7 +61,6 @@ nutrition:
     calories: 1618.4
     protein_g: 13.52
     fat_g: 171.73
-    carbs_g: 13.52
     source: 'USDA SR Legacy: Cream, fluid, heavy whipping'
   - item: Whole Milk (as Milk, whole)
     amount: 1 cup (1 cup at 244 g/cup)
@@ -71,7 +68,6 @@ nutrition:
     calories: 148.8
     protein_g: 7.69
     fat_g: 7.93
-    carbs_g: 11.71
     source: 'USDA SR Legacy: Milk, whole, 3.25% milkfat, with added vitamin D'
   - item: Granulated Sugar (as Sugar, granulated)
     amount: 3/4 cup (0.75 cup at 200 g/cup)
@@ -79,7 +75,6 @@ nutrition:
     calories: 580.5
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 149.97
     source: 'USDA SR Legacy: Sugars, granulated'
   - item: Kosher Salt (as Salt)
     amount: 1/4 tsp (0.25 tsp at 280 g/cup)
@@ -87,7 +82,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Vanilla Extract (as Vanilla extract)
     amount: 1 TBLS (1 TBLS at 208 g/cup)
@@ -95,7 +89,6 @@ nutrition:
     calories: 37.4
     protein_g: 0.01
     fat_g: 0.01
-    carbs_g: 1.64
     source: 'USDA SR Legacy: Vanilla extract'
   - item: Egg Yolks (as Egg yolk, raw)
     amount: 4 (4 each at 17 g each)
@@ -103,7 +96,6 @@ nutrition:
     calories: 219.0
     protein_g: 10.78
     fat_g: 18.05
-    carbs_g: 2.44
     source: 'USDA SR Legacy: Egg, yolk, raw, fresh'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

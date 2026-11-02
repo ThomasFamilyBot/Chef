@@ -44,12 +44,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 8
   totals:
     calories: 1365.4
     protein_g: 3.85
     fat_g: 149.14
-    carbs_g: 4.55
   lines:
   - item: Champagne Vinegar (as Vinegar, wine (red / champagne / sherry / rice))
     amount: 1/3 cup (0.333 cup at 239 g/cup)
@@ -57,7 +55,6 @@ nutrition:
     calories: 15.1
     protein_g: 0.03
     fat_g: 0.0
-    carbs_g: 0.22
     source: 'USDA SR Legacy: Vinegar, red wine'
   - item: Olive Oil (as Olive oil)
     amount: 2/3 cup (0.667 cup at 216 g/cup)
@@ -65,7 +62,6 @@ nutrition:
     calories: 1273.6
     protein_g: 0.0
     fat_g: 144.07
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Garlic (as Garlic, raw)
     amount: 2-3 tsp (3 tsp at 136 g/cup)
@@ -73,7 +69,6 @@ nutrition:
     calories: 12.7
     protein_g: 0.54
     fat_g: 0.04
-    carbs_g: 2.81
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Dijon Mustard (as Mustard, Dijon)
     amount: 1 TBLS (1 TBLS at 249 g/cup)
@@ -81,7 +76,6 @@ nutrition:
     calories: 9.3
     protein_g: 0.58
     fat_g: 0.52
-    carbs_g: 0.91
     source: 'USDA SR Legacy: Mustard, prepared, yellow'
   - item: Egg Yolks (as Egg yolk, raw)
     amount: 1 (1 each at 17 g each)
@@ -89,7 +83,6 @@ nutrition:
     calories: 54.7
     protein_g: 2.7
     fat_g: 4.51
-    carbs_g: 0.61
     source: 'USDA SR Legacy: Egg, yolk, raw, fresh'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

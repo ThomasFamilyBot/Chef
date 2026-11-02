@@ -85,21 +85,7 @@
     updateNav();
   }
 
-  function recipePage() {
-    updateNav();
-    const inp = document.getElementById('servings');
-    if (inp) {
-      const cells = [...document.querySelectorAll('tr.per-serving td[data-k]')];
-      const render = () => {
-        const s = Math.max(1, Number(inp.value) || 1);
-        cells.forEach(td => {
-          const v = Number(td.dataset.v) / s;
-          td.textContent = td.dataset.k === 'calories' ? Math.round(v) : v.toFixed(1) + ' g';
-        });
-      };
-      inp.addEventListener('input', render); render();
-    }
-  }
+  function recipePage() { updateNav(); }
 
   function parseHash() {
     const h = location.hash.replace(/^#/, '');

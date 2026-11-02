@@ -49,13 +49,14 @@ def check_recipes():
     for r in load_all():
         n = r.get("nutrition")
         if not n: continue
-        s = n.get("servings") or r.get("servings") or 1
+        s = r.get("servings") or 1   # front-matter hint only; reporting is whole-recipe
         t = n["totals"]; cal = float(t["calories"])
+        if not (20 <= cal <= 60000): errs.append(f"{r['slug']}: {cal:.0f} kcal whole recipe looks wrong")
+        if cal and 4 * float(t["protein_g"]) + 9 * float(t["fat_g"]) > cal * 1.25: errs.append(f"{r['slug']}: protein+fat calories exceed total calories")
         per = cal / s
-        if not (20 <= per <= 3000): errs.append(f"{r['slug']}: {per:.0f} kcal/serving (servings={s})")
-        if float(t["protein_g"]) / s > 250: errs.append(f"{r['slug']}: {float(t['protein_g'])/s:.0f} g protein/serving")
+        if not (20 <= per <= 3000): warns.append(f"{r['slug']}: {per:.0f} kcal per listed serving (servings={s}); check servings or quantities")
         w = sum(float(l.get("oz") or 0) for l in n["lines"]) * OZ / s
-        if not (30 <= w <= 2000): warns.append(f"{r['slug']}: {w:.0f} g of ingredients per serving")
+        if not (30 <= w <= 2000): warns.append(f"{r['slug']}: {w:.0f} g of ingredients per listed serving")
         for l in n["lines"]:
             lc = float(l.get("calories") or 0)
             if cal and lc / cal > 0.85 and len(n["lines"]) > 3: warns.append(f"{r['slug']}: {l['item']} is {lc/cal:.0%} of calories")

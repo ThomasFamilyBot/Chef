@@ -5,21 +5,22 @@
 <p class="muted">Per 1 oz by weight. Values here override generic databases. Source file: <code>data/canonical_ingredients.csv</code>. Sorted by efficiency (calories per gram of protein, lower is better).</p>
 <input id="cq" class="search" type="search" placeholder="Filter the table…">
 <div class="scroll"><table class="canon small">
-<thead><tr><th>Item</th><th>State</th><th>Cal</th><th>Protein g</th><th>Fat g</th><th>Carbs g</th><th>Cal/g protein</th><th>Notes</th></tr></thead>
+<thead><tr><th>Item</th><th>State</th><th>Cal</th><th>Protein g</th><th>Fat g</th><th>Cal/g protein</th><th>Notes</th></tr></thead>
 <tbody>
 {% for c in canonical|sort(attribute='_eff') %}
-<tr data-q="{{ (c.item ~ " " ~ c.aliases ~ " " ~ c.source)|lower }}"><td>{{ c.item }}</td><td>{{ c.state }}</td><td>{{ c.calories }}</td><td>{{ c.protein_g }}</td><td>{{ c.fat_g }}</td><td>{{ c.carbs_g }}</td><td>{{ c.efficiency }}</td><td class="muted">{{ c.yield_note }}{% if c.audit_note %} · {{ c.audit_note }}{% endif %}</td></tr>
+<tr data-q="{{ (c.item ~ " " ~ c.aliases ~ " " ~ c.source)|lower }}"><td>{{ c.item }}</td><td>{{ c.state }}</td><td>{{ c.calories }}</td><td>{{ c.protein_g }}</td><td>{{ c.fat_g }}</td><td>{{ c.efficiency }}</td><td class="muted">{{ c.yield_note }}{% if c.audit_note %} · {{ c.audit_note }}{% endif %}</td></tr>
 {% endfor %}
 </tbody>
 </table></div>
 <h2>Recipes with nutrition</h2>
+<p class="muted small">Whole recipe as listed.</p>
 <div class="scroll"><table class="small">
-<thead><tr><th>Recipe</th><th>Servings</th><th>Cal / serving</th><th>Protein / serving</th><th>Fat / serving</th><th>Carbs / serving</th><th>Cal/g protein</th></tr></thead>
+<thead><tr><th>Recipe</th><th>Calories</th><th>Protein</th><th>Fat</th></tr></thead>
 <tbody>
-{% for r in recipes if r.nutrition %}{% set n = r.nutrition %}{% set s = n.servings or r.servings or 1 %}
-<tr><td><a href="r/{{ r.slug }}.html">{{ r.title }}</a></td><td>{{ s }}</td><td>{{ (n.totals.calories / s)|round|int }}</td><td>{{ '%.1f'|format(n.totals.protein_g / s) }} g</td><td>{{ '%.1f'|format(n.totals.fat_g / s) }} g</td><td>{{ '%.1f'|format(n.totals.carbs_g / s) }} g</td><td>{{ '%.2f'|format(n.totals.calories / n.totals.protein_g) if n.totals.protein_g else '—' }}</td></tr>
+{% for r in recipes if r.nutrition %}{% set n = r.nutrition %}
+<tr><td><a href="r/{{ r.slug }}.html">{{ r.title }}</a></td><td>{{ n.totals.calories|round|int }}</td><td>{{ '%.1f'|format(n.totals.protein_g) }} g</td><td>{{ '%.1f'|format(n.totals.fat_g) }} g</td></tr>
 {% else %}
-<tr><td colspan="7" class="muted">None yet.</td></tr>
+<tr><td colspan="4" class="muted">None yet.</td></tr>
 {% endfor %}
 </tbody>
 </table></div>

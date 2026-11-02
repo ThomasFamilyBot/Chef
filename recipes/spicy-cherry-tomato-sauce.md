@@ -74,12 +74,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 2
   totals:
     calories: 2385.4
     protein_g: 69.6
     fat_g: 86.05
-    carbs_g: 335.85
   lines:
   - item: Olive Oil (as Olive oil)
     amount: 1/4 cup + 1 TBLS (5 TBLS at 216 g/cup)
@@ -87,7 +85,6 @@ nutrition:
     calories: 596.7
     protein_g: 0.0
     fat_g: 67.5
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Garlic (as Garlic, raw)
     amount: 2 cloves (2 clove at 3 g each)
@@ -95,7 +92,6 @@ nutrition:
     calories: 8.9
     protein_g: 0.38
     fat_g: 0.03
-    carbs_g: 1.98
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Cherry Tomatoes (as Tomatoes, cherry, raw)
     amount: 1 lb 2 oz (18 oz by weight)
@@ -103,7 +99,6 @@ nutrition:
     calories: 91.8
     protein_g: 4.48
     fat_g: 1.03
-    carbs_g: 19.85
     source: 'USDA SR Legacy: Tomatoes, red, ripe, raw, year round average'
   - item: Granulated Sugar (as Sugar, granulated)
     amount: 1/2 tsp (0.5 tsp at 200 g/cup)
@@ -111,7 +106,6 @@ nutrition:
     calories: 8.1
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 2.08
     source: 'USDA SR Legacy: Sugars, granulated'
   - item: Dried Ancho Chile (as Chile, ancho, dried)
     amount: 1 (1 each at 17 g each)
@@ -119,7 +113,6 @@ nutrition:
     calories: 47.8
     protein_g: 2.02
     fat_g: 1.39
-    carbs_g: 8.74
     source: 'USDA SR Legacy: Peppers, ancho, dried'
   - item: Kosher Salt (as Salt)
     amount: 1/2 tsp (0.5 tsp at 280 g/cup)
@@ -127,7 +120,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Water
     amount: ~1/2 cup (0.5 cup at 237 g/cup)
@@ -135,7 +127,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Water, bottled, generic'
   - item: Basil (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 cup (0.7 oz) (1 cup at 30 g/cup)
@@ -143,7 +134,6 @@ nutrition:
     calories: 10.8
     protein_g: 0.89
     fat_g: 0.24
-    carbs_g: 1.9
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Fettuccine (as Pasta, dry)
     amount: 14 oz (14 oz by weight)
@@ -151,7 +141,6 @@ nutrition:
     calories: 1472.5
     protein_g: 51.76
     fat_g: 5.99
-    carbs_g: 296.37
     source: 'USDA SR Legacy: Pasta, dry, enriched'
   - item: Parmesan (as Parmesan, grated)
     amount: 1 1/4 oz (1.25 oz by weight)
@@ -159,7 +148,6 @@ nutrition:
     calories: 148.8
     protein_g: 10.07
     fat_g: 9.87
-    carbs_g: 4.93
     source: 'USDA SR Legacy: Cheese, parmesan, grated'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

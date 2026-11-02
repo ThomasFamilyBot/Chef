@@ -148,12 +148,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 8
   totals:
     calories: 9388.6
     protein_g: 844.49
     fat_g: 761.04
-    carbs_g: 19.82
   lines:
   - item: Tri-Tip
     amount: 2-3 (3 each at 1134 g each)
@@ -161,7 +159,6 @@ nutrition:
     calories: 9120.2
     protein_g: 840.01
     fat_g: 744.01
-    carbs_g: 0.0
     source: canonical
   - item: Brewed Dark Roast Coffee (as Coffee, brewed)
     amount: 1 1/2 cups (1.5 cup at 237 g/cup; 15% consumed)
@@ -169,7 +166,6 @@ nutrition:
     calories: 0.5
     protein_g: 0.06
     fat_g: 0.01
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Beverages, coffee, brewed, prepared with tap water'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Dry Red Wine (as Wine, red, table)
@@ -178,7 +174,6 @@ nutrition:
     calories: 30.0
     protein_g: 0.02
     fat_g: 0.0
-    carbs_g: 0.92
     source: 'USDA SR Legacy: Alcoholic beverage, wine, table, red'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Olive Oil (as Olive oil)
@@ -187,7 +182,6 @@ nutrition:
     calories: 143.2
     protein_g: 0.0
     fat_g: 16.2
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Balsamic Vinegar (as Vinegar (balsamic))
@@ -196,7 +190,6 @@ nutrition:
     calories: 11.2
     protein_g: 0.06
     fat_g: 0.0
-    carbs_g: 2.17
     source: 'USDA SR Legacy: Vinegar, balsamic'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Tamari (as Soy sauce)
@@ -205,7 +198,6 @@ nutrition:
     calories: 6.8
     protein_g: 1.04
     fat_g: 0.07
-    carbs_g: 0.63
     source: 'USDA SR Legacy: Soy sauce made from soy and wheat (shoyu)'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Worcestershire Sauce (as Worcestershire sauce)
@@ -214,7 +206,6 @@ nutrition:
     calories: 10.6
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 2.63
     source: 'USDA SR Legacy: Sauce, worcestershire'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Molasses
@@ -223,7 +214,6 @@ nutrition:
     calories: 18.3
     protein_g: 0.0
     fat_g: 0.01
-    carbs_g: 4.72
     source: 'USDA SR Legacy: Molasses'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Chili Powder (as Chili powder)
@@ -232,7 +222,6 @@ nutrition:
     calories: 6.8
     protein_g: 0.32
     fat_g: 0.34
-    carbs_g: 1.19
     source: 'USDA SR Legacy: Spices, chili powder'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Onion Powder (as Onion powder)
@@ -241,7 +230,6 @@ nutrition:
     calories: 7.1
     protein_g: 0.22
     fat_g: 0.02
-    carbs_g: 1.64
     source: 'USDA SR Legacy: Spices, onion powder'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Paprika
@@ -250,7 +238,6 @@ nutrition:
     calories: 5.8
     protein_g: 0.29
     fat_g: 0.26
-    carbs_g: 1.1
     source: 'USDA SR Legacy: Spices, paprika'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Garlic Powder (as Garlic powder)
@@ -259,7 +246,6 @@ nutrition:
     calories: 9.6
     protein_g: 0.48
     fat_g: 0.02
-    carbs_g: 2.12
     source: 'USDA SR Legacy: Spices, garlic powder'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Black Pepper (as Pepper, black, ground)
@@ -268,7 +254,6 @@ nutrition:
     calories: 2.6
     protein_g: 0.11
     fat_g: 0.03
-    carbs_g: 0.66
     source: 'USDA SR Legacy: Spices, pepper, black'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Garlic (as Garlic, raw)
@@ -277,7 +262,6 @@ nutrition:
     calories: 3.4
     protein_g: 0.14
     fat_g: 0.01
-    carbs_g: 0.74
     source: 'USDA SR Legacy: Garlic, raw'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Vegemite
@@ -286,7 +270,6 @@ nutrition:
     calories: 10.9
     protein_g: 1.51
     fat_g: 0.05
-    carbs_g: 1.16
     source: estimate
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Cuttlefish Ink (as Cuttlefish / squid ink)
@@ -295,7 +278,6 @@ nutrition:
     calories: 1.6
     protein_g: 0.23
     fat_g: 0.01
-    carbs_g: 0.14
     source: estimate
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   assumptions:

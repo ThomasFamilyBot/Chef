@@ -95,12 +95,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 24
   totals:
     calories: 1159.0
     protein_g: 35.23
     fat_g: 10.08
-    carbs_g: 232.12
   lines:
   - item: White Vinegar (as Vinegar, white distilled)
     amount: 3/4 gallon (96 fl oz) (0.75 gallon at 238 g/cup; 30% consumed)
@@ -108,7 +106,6 @@ nutrition:
     calories: 154.1
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.33
     source: 'USDA SR Legacy: Vinegar, distilled'
     note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - item: Brown Sugar (as Sugar, brown)
@@ -117,7 +114,6 @@ nutrition:
     calories: 188.1
     protein_g: 0.06
     fat_g: 0.0
-    carbs_g: 48.55
     source: 'USDA SR Legacy: Sugars, brown'
     note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - item: Sea Salt (as Salt)
@@ -126,7 +122,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
     note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - item: Garlic (as Garlic, raw)
@@ -135,7 +130,6 @@ nutrition:
     calories: 152.0
     protein_g: 6.49
     fat_g: 0.51
-    carbs_g: 33.72
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Mustard Seeds (as Mustard seeds, whole)
     amount: 1/4 cup (0.25 cup at 101 g/cup; 30% consumed)
@@ -143,7 +137,6 @@ nutrition:
     calories: 38.5
     protein_g: 1.98
     fat_g: 2.75
-    carbs_g: 2.13
     source: 'USDA SR Legacy: Spices, mustard seed, ground'
     note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - item: Coriander Seeds (as Coriander seeds, whole)
@@ -152,7 +145,6 @@ nutrition:
     calories: 17.9
     protein_g: 0.74
     fat_g: 1.07
-    carbs_g: 3.3
     source: 'USDA SR Legacy: Spices, coriander seed'
     note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - item: Black Pepper (as Pepper, black, ground)
@@ -161,7 +153,6 @@ nutrition:
     calories: 2.9
     protein_g: 0.12
     fat_g: 0.04
-    carbs_g: 0.73
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Fennel Seeds (as Fennel seeds, whole)
     amount: 1/4 cup (0.25 cup at 93 g/cup; 30% consumed)
@@ -169,7 +160,6 @@ nutrition:
     calories: 24.1
     protein_g: 1.1
     fat_g: 1.04
-    carbs_g: 3.65
     source: 'USDA SR Legacy: Spices, fennel seed'
     note: pickling brine; ~30% assumed taken up by the pickles, rest stays in the jar
   - item: Chiles de Árbol (as Chiles de arbol, dried)
@@ -178,7 +168,6 @@ nutrition:
     calories: 39.9
     protein_g: 1.3
     fat_g: 0.72
-    carbs_g: 8.61
     source: 'USDA SR Legacy: Peppers, hot chile, sun-dried'
   - item: Water
     amount: 1 gallon (1 gallon at 237 g/cup)
@@ -186,7 +175,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Water, bottled, generic'
   - item: Cucumbers (as Cucumber, raw)
     amount: 12 (the directions say 12.5 lb) (12 each at 301 g each)
@@ -194,7 +182,6 @@ nutrition:
     calories: 541.5
     protein_g: 23.44
     fat_g: 3.95
-    carbs_g: 131.1
     source: 'USDA SR Legacy: Cucumber, with peel, raw'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

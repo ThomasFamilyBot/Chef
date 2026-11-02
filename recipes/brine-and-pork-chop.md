@@ -55,12 +55,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 3
   totals:
     calories: 1569.4
     protein_g: 188.04
     fat_g: 81.99
-    carbs_g: 6.7
   lines:
   - item: Water
     amount: 80 g (1/3 cup) (80 g by weight)
@@ -68,7 +66,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Water, bottled, generic'
   - item: Kosher Salt (as Salt)
     amount: 77 g (77 g by weight; 10% consumed)
@@ -76,7 +73,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
     note: brine; ~10% assumed absorbed, rest discarded
   - item: Granulated Sugar (as Sugar, granulated)
@@ -85,7 +81,6 @@ nutrition:
     calories: 25.9
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 6.7
     source: 'USDA SR Legacy: Sugars, granulated'
     note: brine; ~10% assumed absorbed, rest discarded
   - item: Water
@@ -94,7 +89,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Water, bottled, generic'
   - item: Pork Chops (as Pork loin chop, bone-in, raw)
     amount: 2-4 (4 each at 227 g each)
@@ -102,7 +96,6 @@ nutrition:
     calories: 1543.5
     protein_g: 188.04
     fat_g: 81.99
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Pork, fresh, loin, center loin (chops), bone-in, separable lean and fat, raw'
     note: 'bone-in; USDA: 1 raw chop with refuse 259 g yields 199 g edible (0.77)'
   assumptions:

@@ -101,12 +101,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 9
   totals:
     calories: 9299.6
     protein_g: 535.75
     fat_g: 723.26
-    carbs_g: 161.08
   lines:
   - item: Leg of Lamb (as Lamb leg, whole, bone-in, raw)
     amount: 1 (1 each at 2381 g each)
@@ -114,7 +112,6 @@ nutrition:
     calories: 4976.3
     protein_g: 439.76
     fat_g: 343.34
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Lamb, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/8" fat, choice, raw'
     note: 'bone-in leg: 75% edible assumed (bone, shank, aitchbone, fat cap removed)'
   - item: Garlic (as Garlic, raw)
@@ -123,7 +120,6 @@ nutrition:
     calories: 35.8
     protein_g: 1.53
     fat_g: 0.12
-    carbs_g: 7.93
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Fresh Rosemary (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 4 sprigs (4 sprig at 1 g each)
@@ -131,7 +127,6 @@ nutrition:
     calories: 1.4
     protein_g: 0.12
     fat_g: 0.03
-    carbs_g: 0.25
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Coarse Sea Salt (as Salt)
     amount: 1/2 tsp per lb (1 TBLS at 280 g/cup)
@@ -139,7 +134,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 'To taste (to taste: counted as 0)'
@@ -147,7 +141,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Olive Oil (as Olive oil)
     amount: For brushing (2 TBLS at 216 g/cup)
@@ -155,7 +148,6 @@ nutrition:
     calories: 238.7
     protein_g: 0.0
     fat_g: 27.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Merguez Sausage (as Lamb sausage (merguez), raw)
     amount: 1 lb (1 lb by weight)
@@ -163,7 +155,6 @@ nutrition:
     calories: 1279.2
     protein_g: 75.12
     fat_g: 106.19
-    carbs_g: 0.0
     source: 'estimate (based on USDA SR Legacy: Lamb, ground, raw, FDC 174370)'
   - item: Delicata Squash (as Squash, winter (delicata), raw)
     amount: 3 lb (3 lb by weight)
@@ -171,7 +162,6 @@ nutrition:
     calories: 462.7
     protein_g: 12.91
     fat_g: 1.78
-    carbs_g: 116.88
     source: 'USDA SR Legacy: Squash, winter, all varieties, raw'
   - item: Red Bell Pepper (as Peppers, bell (sweet), raw)
     amount: 4 (4 each at 120 g each)
@@ -179,7 +169,6 @@ nutrition:
     calories: 124.8
     protein_g: 4.76
     fat_g: 1.44
-    carbs_g: 28.94
     source: 'USDA SR Legacy: Peppers, sweet, red, raw'
   - item: Olive Oil (as Olive oil)
     amount: 1 cup + 2 TBLS (18 TBLS at 216 g/cup)
@@ -187,7 +176,6 @@ nutrition:
     calories: 2148.1
     protein_g: 0.0
     fat_g: 243.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Fresh Sage (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 15 leaves (15 leaf at 0.5 g each)
@@ -195,7 +183,6 @@ nutrition:
     calories: 2.7
     protein_g: 0.22
     fat_g: 0.06
-    carbs_g: 0.47
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Fresh Thyme (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 6 TBLS (6 TBLS at 30 g/cup)
@@ -203,7 +190,6 @@ nutrition:
     calories: 4.1
     protein_g: 0.33
     fat_g: 0.09
-    carbs_g: 0.71
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Garlic (as Garlic, raw)
     amount: 3 cloves (3 clove at 3 g each)
@@ -211,7 +197,6 @@ nutrition:
     calories: 13.4
     protein_g: 0.57
     fat_g: 0.05
-    carbs_g: 2.98
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Red Jalapeño (as Jalapeno, raw)
     amount: 1 1/2 (2 each at 14 g each)
@@ -219,7 +204,6 @@ nutrition:
     calories: 8.1
     protein_g: 0.25
     fat_g: 0.1
-    carbs_g: 1.82
     source: 'USDA SR Legacy: Peppers, jalapeno, raw'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 3/4 tsp (0.75 tsp at 110 g/cup)
@@ -227,7 +211,6 @@ nutrition:
     calories: 4.3
     protein_g: 0.18
     fat_g: 0.06
-    carbs_g: 1.1
     source: 'USDA SR Legacy: Spices, pepper, black'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

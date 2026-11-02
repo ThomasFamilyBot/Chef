@@ -32,12 +32,10 @@ def render(path):
             f"<li><b>{e(g['term'].capitalize())}</b>: {e(g['temp'])}" + (f" <a href=\"{e(g['url'])}\">ref</a>" if g.get('url') else "") + "</li>" for g in techs) + "</ul>"
     n = r.get("nutrition")
     if n:
-        tot = n["totals"]; s = n.get("servings") or r.get("servings") or 1
-        eff = f"{tot['calories']/tot['protein_g']:.2f}" if tot.get("protein_g") else "—"
-        nut = (f"<p><i>Basis: {e(n['basis'])}. Computed {e(str(n['computed']))}.</i></p>"
-               f"<table border='1' cellpadding='4' style='border-collapse:collapse'><tr><th></th><th>Calories</th><th>Protein</th><th>Fat</th><th>Carbs</th><th>Cal/g protein</th></tr>"
-               f"<tr><td><b>Whole recipe</b></td><td>{round(tot['calories'])}</td><td>{tot['protein_g']:.1f} g</td><td>{tot['fat_g']:.1f} g</td><td>{tot['carbs_g']:.1f} g</td><td>{eff}</td></tr>"
-               f"<tr><td><b>Per serving (÷{s})</b></td><td>{round(tot['calories']/s)}</td><td>{tot['protein_g']/s:.1f} g</td><td>{tot['fat_g']/s:.1f} g</td><td>{tot['carbs_g']/s:.1f} g</td><td></td></tr></table>")
+        tot = n["totals"]
+        nut = (f"<table border='1' cellpadding='4' style='border-collapse:collapse'><tr><th>Calories</th><th>Protein</th><th>Fat</th></tr>"
+               f"<tr><td>{round(tot['calories'])}</td><td>{tot['protein_g']:.1f} g</td><td>{tot['fat_g']:.1f} g</td></tr></table>"
+               f"<p><i>Whole recipe as listed. Basis: {e(n['basis'])}. Computed {e(str(n['computed']))}.</i></p>")
         if n.get("assumptions"):
             nut += "<p><b>Assumptions</b></p><ul>" + "".join(f"<li>{e(a)}</li>" for a in n["assumptions"]) + "</ul>"
         if n.get("excluded"):

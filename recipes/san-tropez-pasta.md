@@ -65,12 +65,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 7
   totals:
     calories: 4239.1
     protein_g: 115.66
     fat_g: 173.3
-    carbs_g: 557.27
   lines:
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 1 medium (1 each at 150 g each)
@@ -78,7 +76,6 @@ nutrition:
     calories: 60.0
     protein_g: 1.65
     fat_g: 0.15
-    carbs_g: 14.01
     source: 'USDA SR Legacy: Onions, raw'
   - item: Olive Oil (as Olive oil)
     amount: 1/4 cup + 1 TBLS (5 TBLS at 216 g/cup)
@@ -86,7 +83,6 @@ nutrition:
     calories: 596.7
     protein_g: 0.0
     fat_g: 67.5
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Unsalted Butter (as Butter, unsalted)
     amount: 3 TBLS (3 TBLS at 227 g/cup)
@@ -94,7 +90,6 @@ nutrition:
     calories: 305.2
     protein_g: 0.36
     fat_g: 34.52
-    carbs_g: 0.03
     source: 'USDA SR Legacy: Butter, without salt'
   - item: Crushed Tomatoes, 15 oz can (as Tomatoes, crushed, canned)
     amount: 15 oz can (1 x 15 oz can)
@@ -102,7 +97,6 @@ nutrition:
     calories: 136.1
     protein_g: 6.98
     fat_g: 1.19
-    carbs_g: 31.01
     source: 'USDA SR Legacy: Tomatoes, crushed, canned'
   - item: Heavy Cream (as Cream, heavy whipping)
     amount: 1/2 cup (0.5 cup at 238 g/cup)
@@ -110,7 +104,6 @@ nutrition:
     calories: 404.6
     protein_g: 3.38
     fat_g: 42.93
-    carbs_g: 3.38
     source: 'USDA SR Legacy: Cream, fluid, heavy whipping'
   - item: Swiss Cheese (as Swiss cheese)
     amount: 1/2 cup (0.5 cup at 108 g/cup)
@@ -118,7 +111,6 @@ nutrition:
     calories: 212.2
     protein_g: 14.56
     fat_g: 16.74
-    carbs_g: 0.78
     source: 'USDA SR Legacy: Cheese, swiss'
   - item: Penne (as Pasta, dry)
     amount: 1-1 1/2 lb (1.5 lb by weight)
@@ -126,7 +118,6 @@ nutrition:
     calories: 2524.3
     protein_g: 88.73
     fat_g: 10.27
-    carbs_g: 508.06
     source: 'USDA SR Legacy: Pasta, dry, enriched'
   - item: Kosher Salt (as Salt)
     amount: 'to taste (to taste: counted as 0)'
@@ -134,7 +125,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 'to taste (to taste: counted as 0)'
@@ -142,7 +132,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, black'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

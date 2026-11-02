@@ -9,7 +9,7 @@ https://thomasfamilybot.github.io/chef/
 - **Menus**: dinners we've cooked, with the run of show. One tap adds every library recipe on a menu to the shopping list. Recipe pages show "Pairs well with" and the menus they're on.
 - **Shopping List**: tick the recipes you're cooking (and a multiplier, e.g. ×2 for a crowd) plus any templates such as *House Staples*. Same items from different recipes are added together; the list is grouped by store section. Check items off as you shop. Checkmarks are saved on *your* phone.
 - **Share a list**: press **Copy share link** and text it. Whoever opens it sees the same list and can check things off on their own phone.
-- **Nutrition**: the canonical ingredient table and per-serving numbers for every recipe that has been calculated. On a recipe page, change the ÷ servings box to see per-serving numbers for a different split.
+- **Nutrition**: whole-recipe calories, protein and fat on every recipe page and Google Doc, with the line items and assumptions behind them, plus the canonical ingredient table.
 
 ## Adding or changing a recipe (anyone with the Claude subscription)
 

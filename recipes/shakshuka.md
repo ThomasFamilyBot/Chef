@@ -100,12 +100,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 6
   totals:
     calories: 2889.0
     protein_g: 135.47
     fat_g: 211.02
-    carbs_g: 134.08
   lines:
   - item: Olive Oil (as Olive oil)
     amount: 6 TBLS (~1/2 cup) (6 TBLS at 216 g/cup)
@@ -113,7 +111,6 @@ nutrition:
     calories: 716.0
     protein_g: 0.0
     fat_g: 81.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 2 large (2 each at 150 g each)
@@ -121,7 +118,6 @@ nutrition:
     calories: 120.0
     protein_g: 3.3
     fat_g: 0.3
-    carbs_g: 28.02
     source: 'USDA SR Legacy: Onions, raw'
   - item: Garlic (as Garlic, raw)
     amount: 6 cloves (6 clove at 3 g each)
@@ -129,7 +125,6 @@ nutrition:
     calories: 26.8
     protein_g: 1.14
     fat_g: 0.09
-    carbs_g: 5.95
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Bell Pepper (as Peppers, bell (sweet), raw)
     amount: 2 large (2 each at 120 g each)
@@ -137,7 +132,6 @@ nutrition:
     calories: 62.4
     protein_g: 2.38
     fat_g: 0.72
-    carbs_g: 14.47
     source: 'USDA SR Legacy: Peppers, sweet, red, raw'
   - item: Cilantro (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 bunch (1 bunch at 60 g each)
@@ -145,7 +139,6 @@ nutrition:
     calories: 21.6
     protein_g: 1.78
     fat_g: 0.47
-    carbs_g: 3.8
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Whole Plum Tomatoes, fire roasted, 28 oz can (as Tomatoes, whole peeled, canned (in juice))
     amount: 2 (28 oz each) (2 x 28 oz can)
@@ -153,7 +146,6 @@ nutrition:
     calories: 254.2
     protein_g: 12.54
     fat_g: 3.98
-    carbs_g: 55.1
     source: 'USDA SR Legacy: Tomatoes, red, ripe, canned, packed in tomato juice'
   - item: Ground Cumin (as Cumin, ground)
     amount: 2 TBLS (2 TBLS at 6 g each)
@@ -161,7 +153,6 @@ nutrition:
     calories: 45.0
     protein_g: 2.14
     fat_g: 2.67
-    carbs_g: 5.31
     source: 'USDA SR Legacy: Spices, cumin seed'
   - item: Smoked Paprika (as Paprika)
     amount: 2 tsp (2 tsp at 2.3 g each)
@@ -169,7 +160,6 @@ nutrition:
     calories: 13.0
     protein_g: 0.65
     fat_g: 0.59
-    carbs_g: 2.48
     source: 'USDA SR Legacy: Spices, paprika'
   - item: Cayenne (as Cayenne pepper, ground)
     amount: 1/4 tsp (0.25 tsp at 1.8 g each)
@@ -177,7 +167,6 @@ nutrition:
     calories: 1.4
     protein_g: 0.05
     fat_g: 0.08
-    carbs_g: 0.25
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Harissa
     amount: 1 1/2 tsp (1.5 tsp at 240 g/cup)
@@ -185,7 +174,6 @@ nutrition:
     calories: 6.0
     protein_g: 0.11
     fat_g: 0.37
-    carbs_g: 0.52
     source: estimate
   - item: Saffron
     amount: 1 g (1 g by weight)
@@ -193,7 +181,6 @@ nutrition:
     calories: 3.1
     protein_g: 0.11
     fat_g: 0.06
-    carbs_g: 0.65
     source: 'USDA SR Legacy: Spices, saffron'
   - item: Kosher Salt (as Salt)
     amount: 1 1/2 tsp (1.5 tsp at 280 g/cup)
@@ -201,7 +188,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 1/2 tsp (0.5 tsp at 110 g/cup)
@@ -209,7 +195,6 @@ nutrition:
     calories: 2.9
     protein_g: 0.12
     fat_g: 0.04
-    carbs_g: 0.73
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Eggs (as Eggs, whole, raw)
     amount: 10 (10 each at 50 g each)
@@ -217,7 +202,6 @@ nutrition:
     calories: 715.0
     protein_g: 62.81
     fat_g: 47.55
-    carbs_g: 3.6
     source: 'USDA SR Legacy: Egg, whole, raw, fresh'
   - item: Feta
     amount: 10 oz (trying 12 oz) (12 oz by weight)
@@ -225,7 +209,6 @@ nutrition:
     calories: 901.6
     protein_g: 48.34
     fat_g: 73.1
-    carbs_g: 13.2
     source: 'USDA SR Legacy: Cheese, feta'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

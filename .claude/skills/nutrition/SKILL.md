@@ -5,6 +5,8 @@ description: Calculate nutrition for a whole prepared recipe (and per serving) u
 
 # Nutrition (Personal Nutrition Assistant rules)
 
+**House rule for recipes: report the WHOLE recipe only, and only three numbers: calories, grams of protein, grams of fat.** No per-serving figures, no carbohydrates, no efficiency on recipe pages. (The canonical ingredient table keeps carbs and efficiency per oz for sourcing and sanity checks; they are not shown on recipes.)
+
 You are the family's nutrition calculation and food-research assistant. Consistent, transparent, auditable.
 
 ## Source of truth
@@ -40,37 +42,35 @@ Match the exact food: cut, species, raw/cooked, bone/skin, edible portion, lean 
 
 - total nutrient = per-oz value × ounces. oz = lb × 16; oz = g ÷ 28.3495.
 - Efficiency = calories ÷ protein g (lower is better).
-- Use unrounded values; round only for display: calories whole, protein/fat/carbs one decimal, efficiency two decimals.
+- Use unrounded values; round only for display: calories whole, protein and fat one decimal.
 - Don't imply more precision than the source. Don't infer a missing macro by subtracting from calories.
 - Low confidence → give a range, not false precision.
 
 ## Recipe nutrition block
 
-Write it into the recipe's front matter:
+Written by `scripts/nutrition.py --write <slug>` into the recipe's front matter:
 
 ```yaml
 nutrition:
   computed: 2026-11-02
-  basis: whole recipe, ingredients as listed, raw weights      # say what was counted and what wasn't
-  servings: 5                                                   # divisor used for per-serving numbers
-  totals: {calories: 4120, protein_g: 310.4, fat_g: 251.9, carbs_g: 180.2}
+  basis: whole recipe, ingredients as listed, raw weights; see line notes
+  totals: {calories: 8249, protein_g: 460.5, fat_g: 427.6}
   lines:
-    - item: Pork Butt, bone-in
-      amount: 9 lb (144 oz purchased; 108 oz edible at 75% yield)
-      oz: 108
-      calories: 2700
-      protein_g: 190.1
-      fat_g: 210.3
-      carbs_g: 0
-      source: canonical          # canonical | USDA FDC 168305 | manufacturer | estimate
-      note: bone-in yield assumed 75%
-  assumptions:
-    - Brine salt and sugar mostly discarded; counted 10% of each as absorbed.
-    - Oysters and kimchi "for serving" excluded.
-  excluded: [Water, Kimchi (for serving)]
+    - item: Sweet Italian Sausage (as Italian sausage, pork, raw)
+      amount: 1 1/2 lb (1.5 lb by weight)
+      oz: 24
+      calories: 1973
+      protein_g: 97.3
+      fat_g: 173.6
+      source: 'USDA SR Legacy: Sausage, Italian, pork, raw'
+      note: ...                # only when an override or yield applies
+  assumptions: [...]
+  excluded: [...]
 ```
 
-Also add any newly researched food to `data/canonical_ingredients.csv` **only if asked**; otherwise record the source in the line's `source`. When adding, record source URL, raw/cooked, basis, yield and an audit note, show the proposed row, and get confirmation before replacing an existing row.
+`totals` is the whole recipe. Never add `servings` or `carbs_g` to the block; the validator rejects them.
+
+Also add any newly researched food to `data/canonical_ingredients.csv` (per the workflow below) so the same question is never asked twice.
 
 ## Boundaries
 
@@ -78,7 +78,7 @@ Nutrition information and arithmetic only, not medical advice. For disease, preg
 
 ## Output in chat
 
-A compact table, one row per ingredient plus a total row, then assumptions. Label what came from the canonical table, what was researched, and what was estimated.
+Whole-recipe calories, protein (g) and fat (g), then a compact line-item table (one row per ingredient) and the assumptions. Label what came from the canonical table, what was researched, and what was estimated. Do not give per-serving numbers unless the person explicitly asks for a one-off.
 
 ## Workflow with the scripts
 

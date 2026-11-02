@@ -66,9 +66,14 @@ def check(path, sections):
             if k not in n:
                 errs.append(f"nutrition.{k} missing")
         tot = (n.get("totals") or {})
-        for k in ["calories", "protein_g", "fat_g", "carbs_g"]:
+        for k in ["calories", "protein_g", "fat_g"]:
             if k not in tot:
                 errs.append(f"nutrition.totals.{k} missing")
+        for k in ["carbs_g"]:
+            if k in tot:
+                errs.append("nutrition.totals has carbs_g; house rule is calories, protein_g, fat_g only")
+        if "servings" in n:
+            errs.append("nutrition block has servings; house rule is whole recipe only")
         if n.get("lines"):
             s = sum(float(l.get("calories") or 0) for l in n["lines"])
             if tot.get("calories") and abs(s - float(tot["calories"])) > max(5, 0.01 * s):

@@ -88,12 +88,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 4
   totals:
     calories: 724.6
     protein_g: 86.8
     fat_g: 38.51
-    carbs_g: 9.54
   lines:
   - item: Ground Turkey (as Turkey, ground, raw)
     amount: 1 lb (1 lb by weight)
@@ -101,7 +99,6 @@ nutrition:
     calories: 680.3
     protein_g: 84.96
     fat_g: 37.82
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Turkey, ground, 93% lean, 7% fat, raw'
   - item: Red Wine Vinegar (as Vinegar, wine (red / champagne / sherry / rice))
     amount: 1 tsp (1 tsp at 239 g/cup)
@@ -109,7 +106,6 @@ nutrition:
     calories: 0.9
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.01
     source: 'USDA SR Legacy: Vinegar, red wine'
   - item: Kosher Salt (as Salt)
     amount: 1 tsp (1 tsp at 280 g/cup)
@@ -117,7 +113,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 1 tsp (1 tsp at 110 g/cup)
@@ -125,7 +120,6 @@ nutrition:
     calories: 5.8
     protein_g: 0.24
     fat_g: 0.07
-    carbs_g: 1.47
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Garlic Powder (as Garlic powder)
     amount: 1 tsp (1 tsp at 155.2 g/cup)
@@ -133,7 +127,6 @@ nutrition:
     calories: 10.7
     protein_g: 0.54
     fat_g: 0.02
-    carbs_g: 2.35
     source: 'USDA SR Legacy: Spices, garlic powder'
   - item: Onion Powder (as Onion powder)
     amount: 1 tsp (1 tsp at 110.4 g/cup)
@@ -141,7 +134,6 @@ nutrition:
     calories: 7.8
     protein_g: 0.24
     fat_g: 0.02
-    carbs_g: 1.82
     source: 'USDA SR Legacy: Spices, onion powder'
   - item: Dried Parsley (as Parsley, dried)
     amount: 1 1/3 tsp (1.333 tsp at 0.5 g each)
@@ -149,7 +141,6 @@ nutrition:
     calories: 1.9
     protein_g: 0.18
     fat_g: 0.04
-    carbs_g: 0.34
     source: 'USDA SR Legacy: Spices, parsley, dried'
   - item: Dried Basil (as Basil, dried)
     amount: 1 tsp (1 tsp at 0.7 g each)
@@ -157,7 +148,6 @@ nutrition:
     calories: 1.6
     protein_g: 0.16
     fat_g: 0.03
-    carbs_g: 0.33
     source: 'USDA SR Legacy: Spices, basil, dried'
   - item: Paprika
     amount: 2/3 tsp (0.667 tsp at 2.3 g each)
@@ -165,7 +155,6 @@ nutrition:
     calories: 4.3
     protein_g: 0.22
     fat_g: 0.2
-    carbs_g: 0.83
     source: 'USDA SR Legacy: Spices, paprika'
   - item: Red Pepper Flakes (as Red pepper flakes)
     amount: 2/3 tsp (0.667 tsp at 1.8 g each)
@@ -173,7 +162,6 @@ nutrition:
     calories: 3.8
     protein_g: 0.14
     fat_g: 0.21
-    carbs_g: 0.68
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Ground Fennel Seed (as Fennel seed, ground)
     amount: 1/4 tsp (0.25 tsp at 2 g each)
@@ -181,7 +169,6 @@ nutrition:
     calories: 1.7
     protein_g: 0.08
     fat_g: 0.07
-    carbs_g: 0.26
     source: 'USDA SR Legacy: Spices, fennel seed'
   - item: Brown Sugar (as Sugar, brown)
     amount: 1/4 tsp (0.25 tsp at 220 g/cup)
@@ -189,7 +176,6 @@ nutrition:
     calories: 4.4
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 1.12
     source: 'USDA SR Legacy: Sugars, brown'
   - item: Dried Oregano (as Oregano, dried)
     amount: 1/4 tsp (0.25 tsp at 1 g each)
@@ -197,7 +183,6 @@ nutrition:
     calories: 0.7
     protein_g: 0.02
     fat_g: 0.01
-    carbs_g: 0.17
     source: 'USDA SR Legacy: Spices, oregano, dried'
   - item: Dried Thyme (as Thyme, dried)
     amount: 1/4 tsp (0.25 tsp at 1 g each)
@@ -205,7 +190,6 @@ nutrition:
     calories: 0.7
     protein_g: 0.02
     fat_g: 0.02
-    carbs_g: 0.16
     source: 'USDA SR Legacy: Spices, thyme, dried'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

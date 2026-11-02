@@ -129,12 +129,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 5
   totals:
     calories: 7367.5
     protein_g: 357.44
     fat_g: 471.99
-    carbs_g: 421.78
   lines:
   - item: Chicken Pieces, bone-in skin-on (as Chicken, whole, raw)
     amount: 8 pieces (8 each at 170 g each)
@@ -142,7 +140,6 @@ nutrition:
     calories: 2923.9
     protein_g: 252.96
     fat_g: 204.8
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Chicken, broilers or fryers, meat and skin, raw'
     note: 'whole / bone-in skin-on chicken: ~70% edible meat and skin by purchased weight'
   - item: Black Pepper (as Pepper, black, ground)
@@ -151,7 +148,6 @@ nutrition:
     calories: 17.3
     protein_g: 0.71
     fat_g: 0.22
-    carbs_g: 4.4
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Kosher Salt (as Salt)
     amount: 3 TBLS + 1 tsp (10 tsp at 280 g/cup)
@@ -159,7 +155,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Eggs (as Eggs, whole, raw)
     amount: 4 (4 each at 50 g each)
@@ -167,7 +162,6 @@ nutrition:
     calories: 286.0
     protein_g: 25.12
     fat_g: 19.02
-    carbs_g: 1.44
     source: 'USDA SR Legacy: Egg, whole, raw, fresh'
   - item: Buttermilk (as Buttermilk, low-fat)
     amount: 2 cups (2 cup at 245 g/cup)
@@ -175,7 +169,6 @@ nutrition:
     calories: 196.0
     protein_g: 16.21
     fat_g: 5.24
-    carbs_g: 23.47
     source: 'USDA SR Legacy: Milk, buttermilk, fluid, cultured, lowfat'
   - item: Hot Sauce (as Hot sauce)
     amount: 2 TBLS (2 TBLS at 226 g/cup)
@@ -183,7 +176,6 @@ nutrition:
     calories: 3.1
     protein_g: 0.14
     fat_g: 0.1
-    carbs_g: 0.49
     source: 'USDA SR Legacy: Sauce, ready-to-serve, pepper or hot'
   - item: All-Purpose Flour (as Flour, all-purpose)
     amount: 4 cups (est.) (4 cup at 125 g/cup; 30% consumed)
@@ -191,7 +183,6 @@ nutrition:
     calories: 546.0
     protein_g: 15.5
     fat_g: 1.47
-    carbs_g: 114.47
     source: 'USDA SR Legacy: Wheat flour, white, all-purpose, enriched, unbleached'
     note: dredge; ~30% assumed to stick
   - item: Neutral Oil (as Vegetable / neutral oil)
@@ -200,7 +191,6 @@ nutrition:
     calories: 1927.1
     protein_g: 0.0
     fat_g: 218.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, vegetable, soybean, refined'
     note: deep-frying oil; ~10% assumed absorbed by the chicken, rest discarded
   - item: Cayenne (as Cayenne pepper, ground)
@@ -209,7 +199,6 @@ nutrition:
     calories: 101.1
     protein_g: 3.82
     fat_g: 5.49
-    carbs_g: 18.01
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Dry Mustard Powder (as Mustard powder, dry)
     amount: 2 tsp (2 tsp at 2 g each)
@@ -217,7 +206,6 @@ nutrition:
     calories: 20.3
     protein_g: 1.04
     fat_g: 1.45
-    carbs_g: 1.12
     source: 'USDA SR Legacy: Spices, mustard seed, ground'
   - item: Brown Sugar (as Sugar, brown)
     amount: 2 TBLS (2 TBLS at 220 g/cup)
@@ -225,7 +213,6 @@ nutrition:
     calories: 104.5
     protein_g: 0.03
     fat_g: 0.0
-    carbs_g: 26.97
     source: 'USDA SR Legacy: Sugars, brown'
   - item: Chili Powder (as Chili powder)
     amount: 1 tsp (1 tsp at 2.7 g each)
@@ -233,7 +220,6 @@ nutrition:
     calories: 7.6
     protein_g: 0.36
     fat_g: 0.39
-    carbs_g: 1.34
     source: 'USDA SR Legacy: Spices, chili powder'
   - item: Garlic Powder (as Garlic powder)
     amount: 1 tsp (1 tsp at 155.2 g/cup)
@@ -241,7 +227,6 @@ nutrition:
     calories: 10.7
     protein_g: 0.54
     fat_g: 0.02
-    carbs_g: 2.35
     source: 'USDA SR Legacy: Spices, garlic powder'
   - item: Paprika
     amount: 1 tsp (1 tsp at 2.3 g each)
@@ -249,7 +234,6 @@ nutrition:
     calories: 6.5
     protein_g: 0.33
     fat_g: 0.3
-    carbs_g: 1.24
     source: 'USDA SR Legacy: Spices, paprika'
   - item: White Bread (as Bread, white loaf)
     amount: 1 loaf (1 loaf at 450 g each)
@@ -257,7 +241,6 @@ nutrition:
     calories: 1197.0
     protein_g: 39.83
     fat_g: 14.98
-    carbs_g: 222.38
     source: 'USDA SR Legacy: Bread, white, commercially prepared (includes soft bread crumbs)'
   - item: Pickles (as Pickles, dill)
     amount: 1 jar (1 jar at 680 g each; 25% consumed)
@@ -265,7 +248,6 @@ nutrition:
     calories: 20.4
     protein_g: 0.85
     fat_g: 0.51
-    carbs_g: 4.1
     source: 'USDA SR Legacy: Pickles, cucumber, dill or kosher dill'
     note: for serving; 1/4 jar assumed used
   assumptions:

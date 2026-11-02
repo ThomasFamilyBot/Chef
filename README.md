@@ -17,7 +17,7 @@ or paste text, or attach a photo of a cookbook page. Claude follows `.claude/ski
 
 Then, if you want a printed-doc copy in Drive: "Put it in Drive." (`.claude/skills/drive-export/SKILL.md`)
 
-And for nutrition: "Calculate nutrition for Bo Ssam." (`.claude/skills/nutrition/SKILL.md`)
+Nutrition (whole recipe: calories, protein, fat) is computed automatically when a recipe is added; "Recalculate nutrition for Bo Ssam" redoes it (`.claude/skills/nutrition/SKILL.md`).
 
 ## Local build
 

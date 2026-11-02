@@ -47,12 +47,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 7
   totals:
     calories: 3743.4
     protein_g: 71.53
     fat_g: 227.98
-    carbs_g: 359.72
   lines:
   - item: Unsalted Butter (as Butter, unsalted)
     amount: 4 oz (1 stick) (4 oz by weight)
@@ -60,7 +58,6 @@ nutrition:
     calories: 813.1
     protein_g: 0.96
     fat_g: 91.98
-    carbs_g: 0.07
     source: 'USDA SR Legacy: Butter, without salt'
   - item: Heavy Cream (as Cream, heavy whipping)
     amount: 1 1/2 cups (1.5 cup at 238 g/cup)
@@ -68,7 +65,6 @@ nutrition:
     calories: 1213.8
     protein_g: 10.14
     fat_g: 128.8
-    carbs_g: 10.14
     source: 'USDA SR Legacy: Cream, fluid, heavy whipping'
   - item: Lemon (as Lemon, raw)
     amount: 2 (2 each at 58 g each)
@@ -76,7 +72,6 @@ nutrition:
     calories: 33.6
     protein_g: 1.28
     fat_g: 0.35
-    carbs_g: 10.81
     source: 'USDA SR Legacy: Lemons, raw, without peel'
   - item: Kosher Salt (as Salt)
     amount: 'to taste (to taste: counted as 0)'
@@ -84,7 +79,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Nutmeg (as Nutmeg, ground)
     amount: 'to taste (to taste: counted as 0)'
@@ -92,7 +86,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, nutmeg, ground'
   - item: Fettuccine (as Pasta, dry)
     amount: 1 lb (1 lb by weight)
@@ -100,7 +93,6 @@ nutrition:
     calories: 1682.9
     protein_g: 59.15
     fat_g: 6.85
-    carbs_g: 338.7
     source: 'USDA SR Legacy: Pasta, dry, enriched'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

@@ -99,12 +99,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 5
   totals:
     calories: 2720.9
     protein_g: 71.39
     fat_g: 201.68
-    carbs_g: 175.4
   lines:
   - item: Crusty Italian Bread (as Bread, Italian / baguette)
     amount: 1/2 loaf (0.5 loaf at 450 g each)
@@ -112,7 +110,6 @@ nutrition:
     calories: 582.8
     protein_g: 21.35
     fat_g: 6.14
-    carbs_g: 108.25
     source: 'USDA SR Legacy: Bread, Italian'
   - item: Extra-Virgin Olive Oil (as Olive oil)
     amount: 1/4 cup (0.25 cup at 216 g/cup)
@@ -120,7 +117,6 @@ nutrition:
     calories: 477.4
     protein_g: 0.0
     fat_g: 54.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Parmesan (as Parmesan, grated)
     amount: 1/4 cup (0.25 cup at 100 g/cup)
@@ -128,7 +124,6 @@ nutrition:
     calories: 105.0
     protein_g: 7.11
     fat_g: 6.96
-    carbs_g: 3.48
     source: 'USDA SR Legacy: Cheese, parmesan, grated'
   - item: Fresh Thyme (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 2 TBLS (2 TBLS at 30 g/cup)
@@ -136,7 +131,6 @@ nutrition:
     calories: 1.4
     protein_g: 0.11
     fat_g: 0.03
-    carbs_g: 0.24
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Kosher Salt (as Salt)
     amount: 'To taste (to taste: counted as 0)'
@@ -144,7 +138,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 'To taste (to taste: counted as 0)'
@@ -152,7 +145,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Anchovy Fillets (as Anchovy fillets, canned in oil, drained)
     amount: 4 fillets (4 fillet at 4 g each)
@@ -160,7 +152,6 @@ nutrition:
     calories: 33.6
     protein_g: 4.62
     fat_g: 1.55
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Fish, anchovy, european, canned in oil, drained solids'
   - item: Garlic (as Garlic, raw)
     amount: 1 clove (1 clove at 3 g each)
@@ -168,7 +159,6 @@ nutrition:
     calories: 4.5
     protein_g: 0.19
     fat_g: 0.02
-    carbs_g: 0.99
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Lemon (as Lemon, raw)
     amount: 2 (2 each at 58 g each)
@@ -176,7 +166,6 @@ nutrition:
     calories: 33.6
     protein_g: 1.28
     fat_g: 0.35
-    carbs_g: 10.81
     source: 'USDA SR Legacy: Lemons, raw, without peel'
   - item: Water
     amount: 1 TBLS (1 TBLS at 237 g/cup)
@@ -184,7 +173,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Water, bottled, generic'
   - item: Extra-Virgin Olive Oil (as Olive oil)
     amount: 1/2 cup (0.5 cup at 216 g/cup)
@@ -192,7 +180,6 @@ nutrition:
     calories: 954.7
     protein_g: 0.0
     fat_g: 108.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Parmesan (as Parmesan, grated)
     amount: 1/2 cup (0.5 cup at 100 g/cup)
@@ -200,7 +187,6 @@ nutrition:
     calories: 210.0
     protein_g: 14.21
     fat_g: 13.92
-    carbs_g: 6.95
     source: 'USDA SR Legacy: Cheese, parmesan, grated'
   - item: Romaine Lettuce (as Lettuce, romaine, raw)
     amount: 2 heads (2 head at 626 g each)
@@ -208,7 +194,6 @@ nutrition:
     calories: 212.9
     protein_g: 15.41
     fat_g: 3.75
-    carbs_g: 41.2
     source: 'USDA SR Legacy: Lettuce, cos or romaine, raw'
   - item: Parmesan (as Parmesan, grated)
     amount: Extra (0.25 cup at 100 g/cup)
@@ -216,7 +201,6 @@ nutrition:
     calories: 105.0
     protein_g: 7.11
     fat_g: 6.96
-    carbs_g: 3.48
     source: 'USDA SR Legacy: Cheese, parmesan, grated'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

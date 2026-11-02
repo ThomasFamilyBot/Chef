@@ -68,12 +68,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 5
   totals:
     calories: 3271.5
     protein_g: 204.35
     fat_g: 172.6
-    carbs_g: 229.27
   lines:
   - item: Baby Back Ribs (as Pork back ribs, bone-in, raw)
     amount: 2 full racks (2 rack at 510 g each)
@@ -81,7 +79,6 @@ nutrition:
     calories: 2284.7
     protein_g: 194.51
     fat_g: 166.55
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Pork, fresh, backribs, separable lean and fat, raw'
     note: 'USDA record is lean+fat incl. bone refuse? no: ''separable lean and fat'' is edible; 0.60 applied for bone share
       of a bone-in rack'
@@ -91,7 +88,6 @@ nutrition:
     calories: 38.4
     protein_g: 1.92
     fat_g: 1.75
-    carbs_g: 7.34
     source: 'USDA SR Legacy: Spices, paprika'
   - item: Garlic Powder (as Garlic powder)
     amount: 1 1/2 tsp (1.5 tsp at 155.2 g/cup)
@@ -99,7 +95,6 @@ nutrition:
     calories: 16.1
     protein_g: 0.8
     fat_g: 0.04
-    carbs_g: 3.53
     source: 'USDA SR Legacy: Spices, garlic powder'
   - item: Onion Powder (as Onion powder)
     amount: 1 TBLS (1 TBLS at 110.4 g/cup)
@@ -107,7 +102,6 @@ nutrition:
     calories: 23.5
     protein_g: 0.72
     fat_g: 0.07
-    carbs_g: 5.46
     source: 'USDA SR Legacy: Spices, onion powder'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 2 tsp (2 tsp at 110 g/cup)
@@ -115,7 +109,6 @@ nutrition:
     calories: 11.5
     protein_g: 0.48
     fat_g: 0.15
-    carbs_g: 2.93
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Cayenne (as Cayenne pepper, ground)
     amount: 1 tsp (1 tsp at 1.8 g each)
@@ -123,7 +116,6 @@ nutrition:
     calories: 5.7
     protein_g: 0.22
     fat_g: 0.31
-    carbs_g: 1.02
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Chicken Stock (as Stock, chicken)
     amount: 1 cup (1 cup at 240 g/cup)
@@ -131,7 +123,6 @@ nutrition:
     calories: 14.4
     protein_g: 1.53
     fat_g: 0.51
-    carbs_g: 1.06
     source: 'USDA SR Legacy: Soup, chicken broth, ready-to-serve'
   - item: BBQ Sauce (as BBQ sauce)
     amount: 1 bottle (1 bottle at 510 g each)
@@ -139,7 +130,6 @@ nutrition:
     calories: 877.2
     protein_g: 4.17
     fat_g: 3.22
-    carbs_g: 207.93
     source: 'USDA SR Legacy: Sauce, barbecue'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Compute nutrition for recipes from data/canonical_ingredients.csv.
+House rule: WHOLE recipe only; calories, grams of protein, grams of fat. No per-serving, no carbs.
 
   nutrition.py --check [slugs...]     list unmapped ingredients / missing data
   nutrition.py --write slug [...]     compute and write the nutrition block into the recipe(s)
@@ -83,11 +84,9 @@ def compute(r, idx):
             problems.append(f"unmapped: {name}"); continue
         if (row.get("state") or "").lower() in NONFOOD_STATES:
             excluded.append(name); continue
-        cal, pro, fat, carb = (num(row.get(k)) for k in ("calories", "protein_g", "fat_g", "carbs_g"))
+        cal, pro, fat = (num(row.get(k)) for k in ("calories", "protein_g", "fat_g"))
         if cal is None or pro is None or fat is None:
             problems.append(f"missing values: {row['item']} (for {name})"); continue
-        if carb is None:
-            carb = 0.0
         if isinstance(ov, dict) and ov.get("oz") is not None:
             oz = float(ov["oz"]); how = f"override {oz:g} oz"
         else:
@@ -111,10 +110,10 @@ def compute(r, idx):
             "amount": f"{ing['measure']} ({how})",
             "oz": round(oz_e, 2),
             "calories": round(cal * oz_e, 1), "protein_g": round(pro * oz_e, 2),
-            "fat_g": round(fat * oz_e, 2), "carbs_g": round(carb * oz_e, 2),
+            "fat_g": round(fat * oz_e, 2),
             "source": src, **({"note": note} if note else {}),
         })
-    tot = {k: round(sum(l[k] for l in lines), 1 if k == "calories" else 2) for k in ("calories", "protein_g", "fat_g", "carbs_g")}
+    tot = {k: round(sum(l[k] for l in lines), 1 if k == "calories" else 2) for k in ("calories", "protein_g", "fat_g")}
     return lines, tot, excluded, problems
 
 
@@ -145,11 +144,9 @@ def main():
             for p in problems:
                 print("   ", p)
         if (a.write or a.all) and not problems:
-            servings = r.get("servings") or 1
             block = {
                 "computed": datetime.date.today().isoformat(),
                 "basis": "whole recipe, ingredients as listed, raw weights; see line notes",
-                "servings": servings,
                 "totals": tot,
                 "lines": lines,
                 "assumptions": [
@@ -161,8 +158,7 @@ def main():
             }
             write_block(RECIPES / f"{r['slug']}.md", block)
             wrote += 1
-            eff = tot["calories"] / tot["protein_g"] if tot["protein_g"] else float("nan")
-            print(f"wrote {r['slug']}: {tot['calories']:.0f} cal, {tot['protein_g']:.1f} g protein, {tot['fat_g']:.1f} g fat, {tot['carbs_g']:.1f} g carbs; {eff:.2f} cal/g protein; /{servings}")
+            print(f"wrote {r['slug']}: {tot['calories']:.0f} cal, {tot['protein_g']:.1f} g protein, {tot['fat_g']:.1f} g fat (whole recipe)")
     if a.write or a.all:
         print(f"{wrote} recipes written")
 

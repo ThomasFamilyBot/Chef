@@ -26,7 +26,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 
 Follow `.claude/skills/recipe-intake/SKILL.md` exactly. It covers the questions to ask the uploader
 (reference text, hyperlink), unit rules, abbreviations, ingredient naming, mise groupings, technique temperatures, store sections, and the file format.
-**Adding a recipe is a four-part job, every time, without being asked:** (1) the recipe file, (2) whole-recipe nutrition
+**Adding a recipe is a four-part job, every time, without being asked:** (1) the recipe file, (2) whole-recipe nutrition: calories, protein g, fat g only
 (`nutrition` skill; new foods go into the canonical table with a source), (3) a Google Doc copy (`drive-export` skill), (4) validate, build, commit, push.
 Report all four in the final message.
 
@@ -36,7 +36,7 @@ Follow `.claude/skills/drive-sync/SKILL.md`: find the recipe by the doc id, read
 
 ## When asked for nutrition
 
-Follow `.claude/skills/nutrition/SKILL.md`. Canonical table first, USDA second, every assumption written down.
+Follow `.claude/skills/nutrition/SKILL.md`. Whole recipe only; calories, protein g, fat g only. Canonical table first, USDA second, every assumption written down.
 
 ## When asked what goes with a dish, for a menu, or for new recipe ideas
 

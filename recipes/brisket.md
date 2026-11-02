@@ -72,12 +72,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 9
   totals:
     calories: 6354.2
     protein_g: 420.55
     fat_g: 432.58
-    carbs_g: 170.19
   lines:
   - item: Root Beer (as Root beer)
     amount: 36 fl oz (36 fl oz at 246 g/cup)
@@ -85,7 +83,6 @@ nutrition:
     calories: 453.7
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 117.34
     source: 'USDA SR Legacy: Beverages, carbonated, root beer'
   - item: Brisket (as Beef brisket, whole, raw)
     amount: 5 lb (5 lb by weight)
@@ -93,7 +90,6 @@ nutrition:
     calories: 5737.6
     protein_g: 417.76
     fat_g: 432.24
-    carbs_g: 12.72
     source: 'USDA SR Legacy: Beef, brisket, whole, separable lean and fat, trimmed to 1/8" fat, all grades, raw'
   - item: Coffee, coarse ground (as Coffee, ground (dry))
     amount: 1 TBLS (1 TBLS at 80 g/cup)
@@ -101,7 +97,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: estimate
   - item: 'Curing Salt (as Curing salt (Prague powder #1))'
     amount: 1 1/2 TBLS (1.5 TBLS at 292 g/cup)
@@ -109,7 +104,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Granulated Garlic (as Garlic powder)
     amount: 1 1/2 TBLS (1.5 TBLS at 155.2 g/cup)
@@ -117,7 +111,6 @@ nutrition:
     calories: 48.2
     protein_g: 2.41
     fat_g: 0.11
-    carbs_g: 10.58
     source: 'USDA SR Legacy: Spices, garlic powder'
   - item: Brown Sugar (as Sugar, brown)
     amount: 2 TBLS (2 TBLS at 220 g/cup)
@@ -125,7 +118,6 @@ nutrition:
     calories: 104.5
     protein_g: 0.03
     fat_g: 0.0
-    carbs_g: 26.97
     source: 'USDA SR Legacy: Sugars, brown'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 1 tsp (1 tsp at 110 g/cup)
@@ -133,7 +125,6 @@ nutrition:
     calories: 5.8
     protein_g: 0.24
     fat_g: 0.07
-    carbs_g: 1.47
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Cayenne (as Cayenne pepper, ground)
     amount: 1/4 tsp (0.25 tsp at 1.8 g each)
@@ -141,7 +132,6 @@ nutrition:
     calories: 1.4
     protein_g: 0.05
     fat_g: 0.08
-    carbs_g: 0.25
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Ground Cloves (as Cloves, ground)
     amount: 1/4 tsp (0.25 tsp at 2.1 g each)
@@ -149,7 +139,6 @@ nutrition:
     calories: 1.4
     protein_g: 0.03
     fat_g: 0.07
-    carbs_g: 0.34
     source: 'USDA SR Legacy: Spices, cloves, ground'
   - item: Cinnamon (as Cinnamon, ground)
     amount: 1/4 tsp (0.25 tsp at 2.6 g each)
@@ -157,7 +146,6 @@ nutrition:
     calories: 1.6
     protein_g: 0.03
     fat_g: 0.01
-    carbs_g: 0.52
     source: 'USDA SR Legacy: Spices, cinnamon, ground'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

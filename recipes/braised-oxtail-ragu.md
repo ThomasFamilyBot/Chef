@@ -144,12 +144,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 5
   totals:
     calories: 8023.1
     protein_g: 247.06
     fat_g: 500.93
-    carbs_g: 494.87
   lines:
   - item: Oxtail (as Beef oxtail, bone-in, raw)
     amount: 3-4 lb (4 lb by weight; edible yield 60%)
@@ -157,7 +155,6 @@ nutrition:
     calories: 4245.5
     protein_g: 156.75
     fat_g: 394.41
-    carbs_g: 4.34
     source: 'USDA SR Legacy (PROXY for oxtail): Beef, rib, shortribs, separable lean and fat, choice, raw'
   - item: Kosher Salt (as Salt)
     amount: 'To taste (to taste: counted as 0)'
@@ -165,7 +162,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 'To taste (to taste: counted as 0)'
@@ -173,7 +169,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Olive Oil (as Olive oil)
     amount: 1/4 cup + 3 TBLS (7 TBLS at 216 g/cup)
@@ -181,7 +176,6 @@ nutrition:
     calories: 835.4
     protein_g: 0.0
     fat_g: 94.5
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 1 small (1 each at 150 g each)
@@ -189,7 +183,6 @@ nutrition:
     calories: 60.0
     protein_g: 1.65
     fat_g: 0.15
-    carbs_g: 14.01
     source: 'USDA SR Legacy: Onions, raw'
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 1 small (1 each at 150 g each)
@@ -197,7 +190,6 @@ nutrition:
     calories: 60.0
     protein_g: 1.65
     fat_g: 0.15
-    carbs_g: 14.01
     source: 'USDA SR Legacy: Onions, raw'
   - item: Carrots (as Carrots, raw)
     amount: 4 whole (4 each at 61 g each)
@@ -205,7 +197,6 @@ nutrition:
     calories: 100.0
     protein_g: 2.27
     fat_g: 0.59
-    carbs_g: 23.38
     source: 'USDA SR Legacy: Carrots, raw'
   - item: Carrots (as Carrots, raw)
     amount: 2 whole (2 each at 61 g each)
@@ -213,7 +204,6 @@ nutrition:
     calories: 50.0
     protein_g: 1.14
     fat_g: 0.29
-    carbs_g: 11.69
     source: 'USDA SR Legacy: Carrots, raw'
   - item: Celery (as Celery, raw)
     amount: 4 whole (4 stalk at 40 g each)
@@ -221,7 +211,6 @@ nutrition:
     calories: 22.4
     protein_g: 1.11
     fat_g: 0.27
-    carbs_g: 4.75
     source: 'USDA SR Legacy: Celery, raw'
   - item: Celery (as Celery, raw)
     amount: 2 whole (2 stalk at 40 g each)
@@ -229,7 +218,6 @@ nutrition:
     calories: 11.2
     protein_g: 0.55
     fat_g: 0.14
-    carbs_g: 2.38
     source: 'USDA SR Legacy: Celery, raw'
   - item: Tomato Paste (as Tomato paste)
     amount: 2 TBLS (2 TBLS at 264 g/cup)
@@ -237,7 +225,6 @@ nutrition:
     calories: 27.1
     protein_g: 1.43
     fat_g: 0.15
-    carbs_g: 6.24
     source: 'USDA SR Legacy: Tomato products, canned, paste, without salt added (Includes foods for USDA''s Food Distribution
       Program)'
   - item: Garlic (as Garlic, raw)
@@ -246,7 +233,6 @@ nutrition:
     calories: 59.6
     protein_g: 2.54
     fat_g: 0.2
-    carbs_g: 13.22
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Dry Red Wine (as Wine, red, table)
     amount: 1 bottle (1 bottle at 746 g each)
@@ -254,7 +240,6 @@ nutrition:
     calories: 634.2
     protein_g: 0.53
     fat_g: 0.0
-    carbs_g: 19.47
     source: 'USDA SR Legacy: Alcoholic beverage, wine, table, red'
   - item: San Marzano Tomatoes, 35 oz can (as Tomatoes, whole peeled, canned (in juice))
     amount: 35 oz (1 can) (1 x 35 oz can)
@@ -262,7 +247,6 @@ nutrition:
     calories: 158.9
     protein_g: 7.84
     fat_g: 2.48
-    carbs_g: 34.44
     source: 'USDA SR Legacy: Tomatoes, red, ripe, canned, packed in tomato juice'
   - item: Fresh Thyme (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 2 sprigs (2 sprig at 1 g each)
@@ -270,7 +254,6 @@ nutrition:
     calories: 0.7
     protein_g: 0.06
     fat_g: 0.02
-    carbs_g: 0.13
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Flat-Leaf Parsley (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1/2 bunch (0.5 bunch at 60 g each)
@@ -278,7 +261,6 @@ nutrition:
     calories: 10.8
     protein_g: 0.89
     fat_g: 0.24
-    carbs_g: 1.9
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Bay Leaves (as Bay leaf, dried)
     amount: 1 (1 each at 0.6 g each)
@@ -286,7 +268,6 @@ nutrition:
     calories: 1.9
     protein_g: 0.05
     fat_g: 0.05
-    carbs_g: 0.45
     source: 'USDA SR Legacy: Spices, bay leaf'
   - item: Beef Stock (as Stock, beef)
     amount: 1-2 cups (2 cup at 240 g/cup)
@@ -294,7 +275,6 @@ nutrition:
     calories: 62.5
     protein_g: 9.45
     fat_g: 0.44
-    carbs_g: 5.76
     source: 'USDA SR Legacy: Soup, stock, beef, home-prepared'
   - item: Wondra Flour (as Flour, all-purpose)
     amount: 'Dashes (dash: counted as 0)'
@@ -302,7 +282,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Wheat flour, white, all-purpose, enriched, unbleached'
   - item: Pasta (as Pasta, dry)
     amount: 1 lb (est.) (1 lb by weight)
@@ -310,7 +289,6 @@ nutrition:
     calories: 1682.9
     protein_g: 59.15
     fat_g: 6.85
-    carbs_g: 338.7
     source: 'USDA SR Legacy: Pasta, dry, enriched'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

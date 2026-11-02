@@ -144,12 +144,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 7
   totals:
     calories: 7865.0
     protein_g: 389.28
     fat_g: 578.55
-    carbs_g: 121.49
   lines:
   - item: Lamb Shoulder, bone-in (as Lamb shoulder, bone-in, raw)
     amount: 5 1/2-6 1/2 lb (6.5 lb by weight; edible yield 75%)
@@ -157,7 +155,6 @@ nutrition:
     calories: 5837.5
     protein_g: 366.6
     fat_g: 474.32
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/4" fat, choice, raw'
   - item: Kosher Salt (as Salt)
     amount: 25 g, plus more (25 g by weight)
@@ -165,7 +162,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 2 tsp, plus more (2 tsp at 110 g/cup)
@@ -173,7 +169,6 @@ nutrition:
     calories: 11.5
     protein_g: 0.48
     fat_g: 0.15
-    carbs_g: 2.93
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 2 large (2 each at 150 g each)
@@ -181,7 +176,6 @@ nutrition:
     calories: 120.0
     protein_g: 3.3
     fat_g: 0.3
-    carbs_g: 28.02
     source: 'USDA SR Legacy: Onions, raw'
   - item: Shallot (as Shallot, raw)
     amount: 4 (4 each at 40 g each)
@@ -189,7 +183,6 @@ nutrition:
     calories: 115.2
     protein_g: 4.0
     fat_g: 0.16
-    carbs_g: 26.88
     source: 'USDA SR Legacy: Shallots, raw'
   - item: Garlic (as Garlic, raw)
     amount: 1 head (1 head at 40 g each)
@@ -197,7 +190,6 @@ nutrition:
     calories: 59.6
     protein_g: 2.54
     fat_g: 0.2
-    carbs_g: 13.22
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Neutral Oil (as Vegetable / neutral oil)
     amount: 2 TBLS (2 TBLS at 218 g/cup)
@@ -205,7 +197,6 @@ nutrition:
     calories: 240.9
     protein_g: 0.0
     fat_g: 27.25
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, vegetable, soybean, refined'
   - item: Dry Red Wine (as Wine, red, table)
     amount: 1 bottle (25 fl oz) (1 bottle at 746 g each)
@@ -213,7 +204,6 @@ nutrition:
     calories: 634.2
     protein_g: 0.53
     fat_g: 0.0
-    carbs_g: 19.47
     source: 'USDA SR Legacy: Alcoholic beverage, wine, table, red'
   - item: Lamb or Chicken Stock, low sodium (as Stock, chicken)
     amount: 4 cups, plus more if needed (4 cup at 240 g/cup)
@@ -221,7 +211,6 @@ nutrition:
     calories: 57.6
     protein_g: 6.13
     fat_g: 2.03
-    carbs_g: 4.23
     source: 'USDA SR Legacy: Soup, chicken broth, ready-to-serve'
   - item: Balsamic Vinegar (as Vinegar (balsamic))
     amount: 1/4 cup (0.25 cup at 255 g/cup)
@@ -229,7 +218,6 @@ nutrition:
     calories: 56.1
     protein_g: 0.31
     fat_g: 0.0
-    carbs_g: 10.86
     source: 'USDA SR Legacy: Vinegar, balsamic'
   - item: Fresh Rosemary (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 2 sprigs (2 sprig at 1 g each)
@@ -237,7 +225,6 @@ nutrition:
     calories: 0.7
     protein_g: 0.06
     fat_g: 0.02
-    carbs_g: 0.13
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Fresh Thyme (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 6 sprigs (6 sprig at 1 g each)
@@ -245,7 +232,6 @@ nutrition:
     calories: 2.2
     protein_g: 0.18
     fat_g: 0.05
-    carbs_g: 0.38
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Bay Leaves (as Bay leaf, dried)
     amount: 2 (2 leaf at 0.6 g each)
@@ -253,7 +239,6 @@ nutrition:
     calories: 3.8
     protein_g: 0.09
     fat_g: 0.1
-    carbs_g: 0.9
     source: 'USDA SR Legacy: Spices, bay leaf'
   - item: Unsalted Butter (as Butter, unsalted)
     amount: 2 oz (4 TBLS) (2 oz by weight)
@@ -261,7 +246,6 @@ nutrition:
     calories: 406.5
     protein_g: 0.48
     fat_g: 45.99
-    carbs_g: 0.03
     source: 'USDA SR Legacy: Butter, without salt'
   - item: Red Wine Vinegar (as Vinegar, wine (red / champagne / sherry / rice))
     amount: 3 TBLS, divided (3 TBLS at 239 g/cup)
@@ -269,7 +253,6 @@ nutrition:
     calories: 8.5
     protein_g: 0.02
     fat_g: 0.0
-    carbs_g: 0.12
     source: 'USDA SR Legacy: Vinegar, red wine'
   - item: Mint (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 cup, loosely packed (1 bunch at 60 g each)
@@ -277,7 +260,6 @@ nutrition:
     calories: 21.6
     protein_g: 1.78
     fat_g: 0.47
-    carbs_g: 3.8
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Flat-Leaf Parsley (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 cup, loosely packed (1 bunch at 60 g each)
@@ -285,7 +267,6 @@ nutrition:
     calories: 21.6
     protein_g: 1.78
     fat_g: 0.47
-    carbs_g: 3.8
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Shallot (as Shallot, raw)
     amount: 1 small (1 each at 40 g each)
@@ -293,7 +274,6 @@ nutrition:
     calories: 28.8
     protein_g: 1.0
     fat_g: 0.04
-    carbs_g: 6.72
     source: 'USDA SR Legacy: Shallots, raw'
   - item: Extra-Virgin Olive Oil (as Olive oil)
     amount: 2 TBLS (2 TBLS at 216 g/cup)
@@ -301,7 +281,6 @@ nutrition:
     calories: 238.7
     protein_g: 0.0
     fat_g: 27.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

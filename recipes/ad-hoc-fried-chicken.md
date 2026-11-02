@@ -146,12 +146,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 5
   totals:
     calories: 10608.8
     protein_g: 365.42
     fat_g: 797.62
-    carbs_g: 509.69
   lines:
   - item: Whole Chicken (as Chicken, whole, raw)
     amount: 5 lb (5 lb by weight; edible yield 70%)
@@ -159,7 +157,6 @@ nutrition:
     calories: 3413.2
     protein_g: 295.29
     fat_g: 239.06
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Chicken, broilers or fryers, meat and skin, raw'
   - item: Peanut Oil (as Vegetable / neutral oil)
     amount: 5 quarts (5 quart at 218 g/cup; 10% consumed)
@@ -167,7 +164,6 @@ nutrition:
     calories: 3854.2
     protein_g: 0.0
     fat_g: 435.99
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, vegetable, soybean, refined'
     note: deep-frying oil; ~10% assumed absorbed by the chicken, rest discarded
   - item: Buttermilk (as Buttermilk, low-fat)
@@ -176,7 +172,6 @@ nutrition:
     calories: 392.0
     protein_g: 32.43
     fat_g: 10.47
-    carbs_g: 46.94
     source: 'USDA SR Legacy: Milk, buttermilk, fluid, cultured, lowfat'
   - item: Kosher Salt (as Salt)
     amount: 'To taste (to taste: counted as 0)'
@@ -184,7 +179,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 'To taste (to taste: counted as 0)'
@@ -192,7 +186,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: All-Purpose Flour (as Flour, all-purpose)
     amount: 6 cups (1.6 lb) (6 cup at 125 g/cup; 30% consumed)
@@ -200,7 +193,6 @@ nutrition:
     calories: 819.0
     protein_g: 23.25
     fat_g: 2.21
-    carbs_g: 171.7
     source: 'USDA SR Legacy: Wheat flour, white, all-purpose, enriched, unbleached'
     note: dredge; ~30% of the flour mix assumed to stick
   - item: Garlic Powder (as Garlic powder)
@@ -209,7 +201,6 @@ nutrition:
     calories: 38.5
     protein_g: 1.93
     fat_g: 0.08
-    carbs_g: 8.47
     source: 'USDA SR Legacy: Spices, garlic powder'
     note: part of the dredge; ~30% assumed to stick
   - item: Onion Powder (as Onion powder)
@@ -218,7 +209,6 @@ nutrition:
     calories: 28.2
     protein_g: 0.86
     fat_g: 0.09
-    carbs_g: 6.55
     source: 'USDA SR Legacy: Spices, onion powder'
     note: part of the dredge; ~30% assumed to stick
   - item: Paprika
@@ -227,7 +217,6 @@ nutrition:
     calories: 25.9
     protein_g: 1.3
     fat_g: 1.19
-    carbs_g: 4.97
     source: 'USDA SR Legacy: Spices, paprika'
   - item: Cayenne (as Cayenne pepper, ground)
     amount: 1 TBLS + 1 tsp (4 tsp at 1.8 g each)
@@ -235,7 +224,6 @@ nutrition:
     calories: 22.9
     protein_g: 0.86
     fat_g: 1.24
-    carbs_g: 4.08
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Kosher Salt (as Salt)
     amount: 1 TBLS + 1 tsp (4 tsp at 280 g/cup)
@@ -243,7 +231,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 1 tsp (1 tsp at 110 g/cup)
@@ -251,7 +238,6 @@ nutrition:
     calories: 5.8
     protein_g: 0.24
     fat_g: 0.07
-    carbs_g: 1.47
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Flaky Sea Salt (as Salt)
     amount: 'To taste (to taste: counted as 0)'
@@ -259,7 +245,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Fresh Rosemary (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 bunch (1 bunch at 60 g each)
@@ -267,7 +252,6 @@ nutrition:
     calories: 21.6
     protein_g: 1.78
     fat_g: 0.47
-    carbs_g: 3.8
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Fresh Thyme (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 bunch (1 bunch at 60 g each)
@@ -275,7 +259,6 @@ nutrition:
     calories: 21.6
     protein_g: 1.78
     fat_g: 0.47
-    carbs_g: 3.8
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: BBQ Sauce (as BBQ sauce)
     amount: 2 bottles (2 bottle at 510 g each; 25% consumed)
@@ -283,7 +266,6 @@ nutrition:
     calories: 438.6
     protein_g: 2.09
     fat_g: 1.61
-    carbs_g: 103.96
     source: 'USDA SR Legacy: Sauce, barbecue'
     note: served on the side; 1/4 of what's bought assumed used
   - item: Ranch Dressing (as Ranch dressing)
@@ -292,7 +274,6 @@ nutrition:
     calories: 1010.5
     protein_g: 3.1
     fat_g: 104.67
-    carbs_g: 13.87
     source: 'USDA SR Legacy: Salad dressing, ranch dressing, regular'
     note: served on the side; 1/4 of what's bought assumed used
   - item: Honey
@@ -301,7 +282,6 @@ nutrition:
     calories: 516.8
     protein_g: 0.51
     fat_g: 0.0
-    carbs_g: 140.08
     source: 'USDA SR Legacy: Honey'
     note: served on the side; 1/4 of what's bought assumed used
   assumptions:

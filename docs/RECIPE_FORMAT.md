@@ -11,7 +11,7 @@ reference:
   url: https://cooking.nytimes.com/...    # optional hyperlink
   url_text: NYT translation               # optional; label for the link (defaults to the text)
 serves: 4-6 w/ leftovers                  # free text as printed
-servings: 5                               # number used to divide nutrition (midpoint of a range)
+servings: 5                               # numeric hint used only by sanity checks (nutrition is reported whole-recipe)
 times:                                    # minutes; null when unknown
   prep: 60
   cook: 360

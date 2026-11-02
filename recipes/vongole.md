@@ -64,12 +64,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 7
   totals:
     calories: 3451.3
     protein_g: 147.87
     fat_g: 68.93
-    carbs_g: 554.07
   lines:
   - item: Garlic (as Garlic, raw)
     amount: 2 cloves (2 clove at 3 g each)
@@ -77,7 +75,6 @@ nutrition:
     calories: 8.9
     protein_g: 0.38
     fat_g: 0.03
-    carbs_g: 1.98
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Flat-Leaf Parsley (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1/4 cup (0.25 cup at 30 g/cup)
@@ -85,7 +82,6 @@ nutrition:
     calories: 2.7
     protein_g: 0.22
     fat_g: 0.06
-    carbs_g: 0.47
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Olive Oil (as Olive oil)
     amount: 1/4 cup (0.25 cup at 216 g/cup)
@@ -93,7 +89,6 @@ nutrition:
     calories: 477.4
     protein_g: 0.0
     fat_g: 54.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Crushed Tomatoes, 15 oz can (as Tomatoes, crushed, canned)
     amount: 15 oz can (1 x 15 oz can)
@@ -101,7 +96,6 @@ nutrition:
     calories: 136.1
     protein_g: 6.98
     fat_g: 1.19
-    carbs_g: 31.01
     source: 'USDA SR Legacy: Tomatoes, crushed, canned'
   - item: Baby Clams, 7.5 oz can (as Clams, canned)
     amount: 7 1/2 oz can (1 x 7.5 oz can)
@@ -109,7 +103,6 @@ nutrition:
     calories: 301.9
     protein_g: 51.56
     fat_g: 3.38
-    carbs_g: 12.55
     source: 'USDA SR Legacy: Mollusks, clam, mixed species, canned, drained solids'
   - item: Kosher Salt (as Salt)
     amount: 'to taste (to taste: counted as 0)'
@@ -117,7 +110,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 'to taste (to taste: counted as 0)'
@@ -125,7 +117,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Red Pepper Flakes (as Red pepper flakes)
     amount: 'to taste (to taste: counted as 0)'
@@ -133,7 +124,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Spaghetti (as Pasta, dry)
     amount: 1-1 1/2 lb (1.5 lb by weight)
@@ -141,7 +131,6 @@ nutrition:
     calories: 2524.3
     protein_g: 88.73
     fat_g: 10.27
-    carbs_g: 508.06
     source: 'USDA SR Legacy: Pasta, dry, enriched'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

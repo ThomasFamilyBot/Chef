@@ -92,12 +92,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 7
   totals:
     calories: 3749.9
     protein_g: 324.7
     fat_g: 227.8
-    carbs_g: 61.5
   lines:
   - item: Pork Shoulder, boneless (as Pork shoulder (Boston butt), boneless, raw)
     amount: 4 lb (4 lb by weight)
@@ -105,7 +103,6 @@ nutrition:
     calories: 3374.7
     protein_g: 316.03
     fat_g: 224.26
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean and fat, raw'
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 1 med (1 each at 150 g each)
@@ -113,7 +110,6 @@ nutrition:
     calories: 60.0
     protein_g: 1.65
     fat_g: 0.15
-    carbs_g: 14.01
     source: 'USDA SR Legacy: Onions, raw'
   - item: Garlic (as Garlic, raw)
     amount: 6 cloves (6 clove at 3 g each)
@@ -121,7 +117,6 @@ nutrition:
     calories: 26.8
     protein_g: 1.14
     fat_g: 0.09
-    carbs_g: 5.95
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Cinnamon Sticks (as Cinnamon sticks)
     amount: 1 stick (1 stick at 3 g each)
@@ -129,7 +124,6 @@ nutrition:
     calories: 7.4
     protein_g: 0.12
     fat_g: 0.04
-    carbs_g: 2.42
     source: 'USDA SR Legacy: Spices, cinnamon, ground'
   - item: Bay Leaves (as Bay leaf, dried)
     amount: 2 (2 each at 0.6 g each)
@@ -137,7 +131,6 @@ nutrition:
     calories: 3.8
     protein_g: 0.09
     fat_g: 0.1
-    carbs_g: 0.9
     source: 'USDA SR Legacy: Spices, bay leaf'
   - item: Ground Cumin (as Cumin, ground)
     amount: 1 TBLS (1 TBLS at 6 g each)
@@ -145,7 +138,6 @@ nutrition:
     calories: 22.5
     protein_g: 1.07
     fat_g: 1.34
-    carbs_g: 2.65
     source: 'USDA SR Legacy: Spices, cumin seed'
   - item: Dried Oregano (as Oregano, dried)
     amount: 1/2 tsp (0.5 tsp at 1 g each)
@@ -153,7 +145,6 @@ nutrition:
     calories: 1.3
     protein_g: 0.04
     fat_g: 0.02
-    carbs_g: 0.34
     source: 'USDA SR Legacy: Spices, oregano, dried'
   - item: Chili Powder (as Chili powder)
     amount: 1 TBLS + 1 tsp (4 tsp at 2.7 g each)
@@ -161,7 +152,6 @@ nutrition:
     calories: 30.5
     protein_g: 1.45
     fat_g: 1.54
-    carbs_g: 5.37
     source: 'USDA SR Legacy: Spices, chili powder'
   - item: Jalapeño (as Jalapeno, raw)
     amount: 2 (2 each at 14 g each)
@@ -169,7 +159,6 @@ nutrition:
     calories: 8.1
     protein_g: 0.25
     fat_g: 0.1
-    carbs_g: 1.82
     source: 'USDA SR Legacy: Peppers, jalapeno, raw'
   - item: Orange (as Oranges, raw (zest/juice use))
     amount: 1 (1 each at 131 g each)
@@ -177,7 +166,6 @@ nutrition:
     calories: 61.6
     protein_g: 1.23
     fat_g: 0.16
-    carbs_g: 15.39
     source: 'USDA SR Legacy: Oranges, raw, all commercial varieties'
   - item: Beer (as Beer, regular)
     amount: 12 fl oz (12 fl oz at 29.7 g each)
@@ -185,7 +173,6 @@ nutrition:
     calories: 153.2
     protein_g: 1.63
     fat_g: 0.0
-    carbs_g: 12.65
     source: 'USDA SR Legacy: Alcoholic beverage, beer, regular, all'
   - item: Kosher Salt (as Salt)
     amount: 'Generous (to taste: counted as 0)'
@@ -193,7 +180,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

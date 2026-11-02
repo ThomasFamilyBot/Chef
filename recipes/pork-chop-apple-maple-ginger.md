@@ -173,12 +173,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 4
   totals:
     calories: 3824.0
     protein_g: 198.66
     fat_g: 217.79
-    carbs_g: 275.66
   lines:
   - item: Maple Syrup (as Maple syrup)
     amount: 1/4 cup (0.25 cup at 315 g/cup)
@@ -186,7 +184,6 @@ nutrition:
     calories: 204.8
     protein_g: 0.03
     fat_g: 0.05
-    carbs_g: 52.8
     source: 'USDA SR Legacy: Syrups, maple'
   - item: Kosher Salt (as Salt)
     amount: 5 TBLS (5 TBLS at 280 g/cup)
@@ -194,7 +191,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Ginger (as Ginger root, raw)
     amount: 3 TBLS (3 TBLS at 96 g/cup)
@@ -202,7 +198,6 @@ nutrition:
     calories: 14.4
     protein_g: 0.33
     fat_g: 0.14
-    carbs_g: 3.2
     source: 'USDA SR Legacy: Ginger root, raw'
   - item: Garlic (as Garlic, raw)
     amount: 3 TBLS (3 TBLS at 136 g/cup)
@@ -210,7 +205,6 @@ nutrition:
     calories: 38.0
     protein_g: 1.62
     fat_g: 0.13
-    carbs_g: 8.43
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Fresh Sage (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 sprig (1 sprig at 1 g each)
@@ -218,7 +212,6 @@ nutrition:
     calories: 0.4
     protein_g: 0.03
     fat_g: 0.01
-    carbs_g: 0.06
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 3/4 cup (0.75 cup at 160 g/cup)
@@ -226,7 +219,6 @@ nutrition:
     calories: 48.0
     protein_g: 1.32
     fat_g: 0.12
-    carbs_g: 11.21
     source: 'USDA SR Legacy: Onions, raw'
   - item: Bay Leaves (as Bay leaf, dried)
     amount: 5 (5 each at 0.6 g each)
@@ -234,7 +226,6 @@ nutrition:
     calories: 9.4
     protein_g: 0.23
     fat_g: 0.25
-    carbs_g: 2.25
     source: 'USDA SR Legacy: Spices, bay leaf'
   - item: Black Peppercorns (as Peppercorns, black, whole)
     amount: 2 tsp (2 tsp at 139 g/cup)
@@ -242,7 +233,6 @@ nutrition:
     calories: 14.5
     protein_g: 0.6
     fat_g: 0.19
-    carbs_g: 3.7
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Water
     amount: 32 fl oz (32 fl oz at 237 g/cup)
@@ -250,7 +240,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Water, bottled, generic'
   - item: Pork Loin Chops, bone-in (as Pork loin chop, bone-in, raw)
     amount: 4 (1 1/4 in thick) (4 each at 227 g each)
@@ -258,7 +247,6 @@ nutrition:
     calories: 1543.5
     protein_g: 188.04
     fat_g: 81.99
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Pork, fresh, loin, center loin (chops), bone-in, separable lean and fat, raw'
     note: 'bone-in; USDA: 1 raw chop with refuse 259 g yields 199 g edible (0.77)'
   - item: Coriander Seeds (as Coriander seeds, whole)
@@ -267,7 +255,6 @@ nutrition:
     calories: 14.9
     protein_g: 0.62
     fat_g: 0.89
-    carbs_g: 2.75
     source: 'USDA SR Legacy: Spices, coriander seed'
   - item: Black Peppercorns (as Peppercorns, black, whole)
     amount: 1 TBLS (1 TBLS at 139 g/cup)
@@ -275,7 +262,6 @@ nutrition:
     calories: 21.8
     protein_g: 0.9
     fat_g: 0.28
-    carbs_g: 5.56
     source: 'USDA SR Legacy: Spices, pepper, black'
   - item: Bay Leaves (as Bay leaf, dried)
     amount: 1 (1 each at 0.6 g each)
@@ -283,7 +269,6 @@ nutrition:
     calories: 1.9
     protein_g: 0.05
     fat_g: 0.05
-    carbs_g: 0.45
     source: 'USDA SR Legacy: Spices, bay leaf'
   - item: Shallot (as Shallot, raw)
     amount: 2 TBLS (2 TBLS at 160 g/cup)
@@ -291,7 +276,6 @@ nutrition:
     calories: 14.4
     protein_g: 0.5
     fat_g: 0.02
-    carbs_g: 3.36
     source: 'USDA SR Legacy: Shallots, raw'
   - item: Fresh Thyme (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 tsp (1 tsp at 30 g/cup)
@@ -299,7 +283,6 @@ nutrition:
     calories: 0.2
     protein_g: 0.02
     fat_g: 0.0
-    carbs_g: 0.04
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Fresh Rosemary (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 tsp (1 tsp at 30 g/cup)
@@ -307,7 +290,6 @@ nutrition:
     calories: 0.2
     protein_g: 0.02
     fat_g: 0.0
-    carbs_g: 0.04
     source: 'USDA SR Legacy: Parsley, fresh'
   - item: Neutral Oil (as Vegetable / neutral oil)
     amount: 1/2 cup (0.5 cup at 218 g/cup)
@@ -315,7 +297,6 @@ nutrition:
     calories: 963.6
     protein_g: 0.0
     fat_g: 109.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, vegetable, soybean, refined'
   - item: Unsalted Butter (as Butter, unsalted)
     amount: 2 TBLS (2 TBLS at 227 g/cup)
@@ -323,7 +304,6 @@ nutrition:
     calories: 203.5
     protein_g: 0.24
     fat_g: 23.01
-    carbs_g: 0.02
     source: 'USDA SR Legacy: Butter, without salt'
   - item: Shallot (as Shallot, raw)
     amount: 1/4 cup (0.25 cup at 160 g/cup)
@@ -331,7 +311,6 @@ nutrition:
     calories: 28.8
     protein_g: 1.0
     fat_g: 0.04
-    carbs_g: 6.72
     source: 'USDA SR Legacy: Shallots, raw'
   - item: Garlic (as Garlic, raw)
     amount: 1 TBLS (1 TBLS at 136 g/cup)
@@ -339,7 +318,6 @@ nutrition:
     calories: 12.7
     protein_g: 0.54
     fat_g: 0.04
-    carbs_g: 2.81
     source: 'USDA SR Legacy: Garlic, raw'
   - item: Apple Juice (as Juice, apple)
     amount: 2 cups (2 cup at 248 g/cup)
@@ -347,7 +325,6 @@ nutrition:
     calories: 228.1
     protein_g: 0.49
     fat_g: 0.65
-    carbs_g: 56.04
     source: 'USDA SR Legacy: Apple juice, canned or bottled, unsweetened, with added ascorbic acid'
   - item: Chicken Stock (as Stock, chicken)
     amount: 1/2 cup (0.5 cup at 240 g/cup)
@@ -355,7 +332,6 @@ nutrition:
     calories: 7.2
     protein_g: 0.77
     fat_g: 0.25
-    carbs_g: 0.53
     source: 'USDA SR Legacy: Soup, chicken broth, ready-to-serve'
   - item: Star Anise (as Star anise, whole)
     amount: 3 (3 each at 1 g each)
@@ -363,7 +339,6 @@ nutrition:
     calories: 10.1
     protein_g: 0.53
     fat_g: 0.48
-    carbs_g: 1.5
     source: estimate
   - item: Ginger (as Ginger root, raw)
     amount: 2 TBLS (2 TBLS at 96 g/cup)
@@ -371,7 +346,6 @@ nutrition:
     calories: 9.6
     protein_g: 0.22
     fat_g: 0.09
-    carbs_g: 2.13
     source: 'USDA SR Legacy: Ginger root, raw'
   - item: Maple Syrup (as Maple syrup)
     amount: 1/2 cup (0.5 cup at 315 g/cup)
@@ -379,7 +353,6 @@ nutrition:
     calories: 409.5
     protein_g: 0.06
     fat_g: 0.09
-    carbs_g: 105.59
     source: 'USDA SR Legacy: Syrups, maple'
   - item: Vanilla Bean (as Vanilla bean)
     amount: 1/2 (0.5 each at 3 g each)
@@ -387,7 +360,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: estimate
   - item: Agar
     amount: 1 TBLS (1 TBLS at 8 g each)
@@ -395,7 +367,6 @@ nutrition:
     calories: 24.5
     protein_g: 0.5
     fat_g: 0.02
-    carbs_g: 6.47
     source: 'USDA SR Legacy: Seaweed, agar, dried'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

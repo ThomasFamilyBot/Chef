@@ -71,12 +71,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 4
   totals:
     calories: 936.4
     protein_g: 8.65
     fat_g: 69.83
-    carbs_g: 74.67
   lines:
   - item: Red Onion (as Onion, red, raw)
     amount: 1/2 (0.5 each at 110 g each)
@@ -84,7 +82,6 @@ nutrition:
     calories: 22.0
     protein_g: 0.61
     fat_g: 0.05
-    carbs_g: 5.14
     source: 'USDA SR Legacy: Onions, raw'
   - item: Balsamic Vinegar (as Vinegar (balsamic))
     amount: 5 TBLS (5 TBLS at 255 g/cup)
@@ -92,7 +89,6 @@ nutrition:
     calories: 70.1
     protein_g: 0.39
     fat_g: 0.0
-    carbs_g: 13.57
     source: 'USDA SR Legacy: Vinegar, balsamic'
   - item: Cayenne (as Cayenne pepper, ground)
     amount: 'A little (pinch: counted as 0)'
@@ -100,7 +96,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, red or cayenne'
   - item: Kosher Salt (as Salt)
     amount: 'Pinch (pinch: counted as 0)'
@@ -108,7 +103,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Olive Oil (as Olive oil)
     amount: 5 TBLS (5 TBLS at 216 g/cup)
@@ -116,7 +110,6 @@ nutrition:
     calories: 596.7
     protein_g: 0.0
     fat_g: 67.5
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Maple Syrup (as Maple syrup)
     amount: 2 TBLS (2 TBLS at 315 g/cup)
@@ -124,7 +117,6 @@ nutrition:
     calories: 102.4
     protein_g: 0.02
     fat_g: 0.02
-    carbs_g: 26.4
     source: 'USDA SR Legacy: Syrups, maple'
   - item: Arugula (as Arugula, raw)
     amount: 1 bag (1 bag at 142 g each)
@@ -132,7 +124,6 @@ nutrition:
     calories: 35.5
     protein_g: 3.66
     fat_g: 0.94
-    carbs_g: 5.18
     source: 'USDA SR Legacy: Arugula, raw'
   - item: Mixed Greens (as Greens, mixed salad, raw)
     amount: 1 bag (1 bag at 142 g each)
@@ -140,7 +131,6 @@ nutrition:
     calories: 21.3
     protein_g: 1.93
     fat_g: 0.22
-    carbs_g: 4.08
     source: 'USDA SR Legacy: Lettuce, green leaf, raw'
   - item: Berries (as Berries, mixed, raw)
     amount: 1 basket (1 container at 170 g each)
@@ -148,7 +138,6 @@ nutrition:
     calories: 88.4
     protein_g: 2.04
     fat_g: 1.1
-    carbs_g: 20.3
     source: 'USDA SR Legacy: Raspberries, raw'
   - item: Blue Cheese (as Gorgonzola (blue cheese))
     amount: 'To taste (to taste: counted as 0)'
@@ -156,7 +145,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Cheese, blue'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).

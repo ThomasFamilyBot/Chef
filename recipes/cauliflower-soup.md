@@ -58,12 +58,10 @@ ingredients:
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
-  servings: 8
   totals:
     calories: 588.1
     protein_g: 14.7
     fat_g: 42.54
-    carbs_g: 47.81
   lines:
   - item: Olive Oil (as Olive oil)
     amount: 3 TBLS (3 TBLS at 216 g/cup)
@@ -71,7 +69,6 @@ nutrition:
     calories: 358.0
     protein_g: 0.0
     fat_g: 40.5
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Yellow Onion (as Onion, yellow, raw)
     amount: 1 medium (6 oz) (1 each at 150 g each)
@@ -79,7 +76,6 @@ nutrition:
     calories: 60.0
     protein_g: 1.65
     fat_g: 0.15
-    carbs_g: 14.01
     source: 'USDA SR Legacy: Onions, raw'
   - item: Cauliflower (as Cauliflower, raw)
     amount: 1 head (about 1 1/2 lb) (1 head at 680 g each)
@@ -87,7 +83,6 @@ nutrition:
     calories: 170.1
     protein_g: 13.05
     fat_g: 1.89
-    carbs_g: 33.8
     source: 'USDA SR Legacy: Cauliflower, raw'
   - item: Kosher Salt (as Salt)
     amount: 'To taste (to taste: counted as 0)'
@@ -95,7 +90,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Salt, table'
   - item: Water
     amount: 5 1/2 cups (5.5 cup at 237 g/cup)
@@ -103,7 +97,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Water, bottled, generic'
   - item: Extra-Virgin Olive Oil (as Olive oil)
     amount: 'To taste (to taste: counted as 0)'
@@ -111,7 +104,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Oil, olive, salad or cooking'
   - item: Black Pepper (as Pepper, black, ground)
     amount: 'To taste (to taste: counted as 0)'
@@ -119,7 +111,6 @@ nutrition:
     calories: 0.0
     protein_g: 0.0
     fat_g: 0.0
-    carbs_g: 0.0
     source: 'USDA SR Legacy: Spices, pepper, black'
   assumptions:
   - Values per oz from data/canonical_ingredients.csv (family custom entries first, then the cited source).
