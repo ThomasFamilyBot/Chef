@@ -28,7 +28,7 @@ If the person already answered these in their request, don't ask again. If they 
 Abbreviations, exactly these: `g`, `tsp`, `TBLS`, `cup`, `oz`, `fl oz`, `lb`. Also plain counts (`2 Eggs`, `3 cloves Garlic`).
 
 - `oz` alone means **weight**. Liquid volumes are `fl oz`. Never write a bare `oz` for a liquid.
-- Keep cups. Keep tsp / TBLS. Grams are fine where precision matters (baking, brines, cures).
+- Keep cups. Keep tsp / TBLS. Weight policy: things you buy by weight (meat, produce, cheese) stay in `oz` / `lb` because that's how US labels read; use `g` (or `kg` above 1000 g) wherever precision matters: baking, brines, cures, dough, salt by percentage. When a recipe gives a large volume of water for a brine, add the weight in parentheses and say it's weight: `2 gallons (32 cups; 7.57 kg / 16.7 lb by weight)`.
 - Roll up to the next major unit when a count is large: `4 tsp` → `1 TBLS + 1 tsp`; `4 TBLS` → `1/4 cup`; `16 oz` → `1 lb`; `24 oz` → `1 1/2 lb`. Don't roll up below the threshold (`2 TBLS` stays `2 TBLS`).
 - Metric sources: convert ml to tsp/TBLS/cup/fl oz, grams of meat/produce to oz or lb (round to a sensible 1/4 oz or 1/4 lb). Keep grams for baking ingredients that were given in grams.
 - Proteins are by **weight** (oz/lb), raw, boneless/skinless unless the recipe says otherwise.
