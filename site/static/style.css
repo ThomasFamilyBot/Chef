@@ -34,7 +34,9 @@ table { border-collapse: collapse; width:100%; background:var(--card); }
 table.nut-lines td { font-size:.85em; }
 th, td { border:1px solid var(--line); padding:5px 8px; text-align:left; vertical-align:top; }
 th { background: var(--bg); font-weight:700; }
-table.ingredients td.measure { white-space:nowrap; font-weight:600; width:1%; }
+table.ingredients td.measure { font-weight:600; width:1%; }
+@media (min-width: 640px), print { table.ingredients td.measure { white-space:nowrap; } }
+@media (max-width: 639px) { table.ingredients { font-size:.92em; } th, td { padding:4px 5px; } }
 table.ingredients td.item { font-weight:500; }
 @media (min-width: 640px) { table.ingredients td.group { white-space:nowrap; } table.ingredients td.item { min-width:10em; } }
 .directions ul { padding-left:1.2em; } .directions li { margin:3px 0; }
