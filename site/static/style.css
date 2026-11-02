@@ -29,6 +29,9 @@ h3 { font-size:1.05em; margin:1.1em 0 .3em; }
 /* recipe */
 .recipe-head .ref, .recipe-head .meta { margin: 2px 0; }
 table { border-collapse: collapse; width:100%; background:var(--card); }
+.scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; margin:6px 0; }
+.scroll table { min-width:560px; }
+table.nut-lines td { font-size:.85em; }
 th, td { border:1px solid var(--line); padding:5px 8px; text-align:left; vertical-align:top; }
 th { background: var(--bg); font-weight:700; }
 table.ingredients td.measure { white-space:nowrap; font-weight:600; width:1%; }

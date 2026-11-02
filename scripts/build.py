@@ -50,7 +50,11 @@ def main():
 
     (DIST / "index.html").write_text(env.get_template("index.html").render(base="", **ctx), encoding="utf-8")
     (DIST / "shop.html").write_text(env.get_template("shop.html").render(base="", **ctx), encoding="utf-8")
-    (DIST / "nutrition.html").write_text(env.get_template("nutrition.html").render(base="", canonical=load_canonical(), **ctx), encoding="utf-8")
+    canonical = load_canonical()
+    for c in canonical:
+        try: c["_eff"] = float(c["efficiency"]) if c.get("efficiency") else 1e9
+        except ValueError: c["_eff"] = 1e9
+    (DIST / "nutrition.html").write_text(env.get_template("nutrition.html").render(base="", canonical=canonical, **ctx), encoding="utf-8")
     tpl = env.get_template("recipe.html")
     for r in recipes:
         (DIST / "r" / f"{r['slug']}.html").write_text(tpl.render(base="../", r=r, **ctx), encoding="utf-8")
