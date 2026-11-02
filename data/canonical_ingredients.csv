@@ -1,0 +1,28 @@
+item,state,basis_oz,calories,protein_g,fat_g,carbs_g,efficiency,source,source_url,yield_note,audit_note,added
+"Shrimp (raw, shell-on butcher weight)",raw,1,22,5.3,0.27,0,4.15,family spreadsheet (canonical_protein_table.xlsx),,82% edible yield applied; weight is shell-on butcher weight,Custom family value; do not overwrite,2026-11-02
+Mahi-Mahi,raw,1,29,6.5,0.3,0,4.46,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Dungeness Crab,cooked,1,25,5.5,0.3,0,4.55,family spreadsheet (canonical_protein_table.xlsx),,Value is per oz of cooked crab meat,,2026-11-02
+Cod,raw,1,23,5,0.2,0,4.6,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Yellowfin Tuna,raw,1,33,7,0.4,0,4.71,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Pollock,raw,1,29,6,0.3,0,4.83,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+"Chicken Breast (boneless, skinless)",raw,1,32,6.5,0.8,0,4.92,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Tilapia,raw,1,26,5.25,0.5,0,4.96,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Halibut,raw,1,36,7,0.6,0,5.14,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Catfish,raw,1,29,5.5,0.7,0,5.27,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Scallops,raw,1,35,6,0.3,0,5.83,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Top Round,raw,1,53,8.5,2,0,6.24,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+"Chicken Thigh (boneless, skinless)",raw,1,36,5.42,1.4,0,6.64,family spreadsheet (canonical_protein_table.xlsx),,,Custom family value; do not overwrite,2026-11-02
+Pork Tenderloin,raw,1,58,7.3,2,0,7.95,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Pork Loin,raw,1,57,7,2.8,0,8.1,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Bavette (Flap Meat),raw,1,59,7,3.1,0,8.43,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Flank Steak,raw,1,60,7,3.6,0,8.57,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Flat Iron,raw,1,61,7,3.8,0,8.71,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Hanger Steak,raw,1,64,7,4.5,0,9.14,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Skirt Steak,raw,1,67,7,4.8,0,9.57,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Brisket Flat,raw,1,68,7,5,0,9.71,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Sirloin,raw,1,72,7,5.7,0,10.29,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Tri-Tip,raw,1,76,7,6.2,0,10.86,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+New York Strip,raw,1,78,7,6.6,0,11.14,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Ribeye,raw,1,84,7,7.8,0,12,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Ground Beef 90/10,raw,1,91,7,8.9,0,13,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02
+Ground Beef 80/20,raw,1,106,7,10.9,0,15.14,family spreadsheet (canonical_protein_table.xlsx),,,,2026-11-02

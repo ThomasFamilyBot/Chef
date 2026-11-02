@@ -1,0 +1,28 @@
+# Recurring items we always keep in the house. Add this template to any shopping list.
+name: House Staples
+items:
+  - measure: 12
+    item: Vital Farms Eggs
+    qty: 12
+    unit: each
+    section: Dairy & Eggs
+  - measure: 1 gallon
+    item: Whole Organic Milk
+    qty: 1
+    unit: gallon
+    section: Dairy & Eggs
+  - measure: 1 lb
+    item: Unsalted Butter
+    qty: 1
+    unit: lb
+    section: Dairy & Eggs
+  - measure: 1 bottle
+    item: Olive Oil
+    qty: 1
+    unit: bottle
+    section: Oils, Vinegars & Condiments
+  - measure: 1 package
+    item: Chicken Apple Sausage
+    qty: 1
+    unit: package
+    section: Meat & Seafood

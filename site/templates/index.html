@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Chef · Recipes{% endblock %}
+{% block content %}
+<h1>Recipes</h1>
+<input id="q" class="search" type="search" placeholder="Search titles, ingredients, directions…" autofocus>
+<div id="tags" class="tags"></div>
+<ul id="list" class="cards">
+{% for r in recipes %}
+  <li class="card" data-slug="{{ r.slug }}" data-tags="{{ (r.tags or [])|join(' ') }}">
+    <a class="card-title" href="r/{{ r.slug }}.html">{{ r.title }}</a>
+    <div class="muted small">
+      {% if r.serves %}Serves {{ r.serves }} · {% endif %}
+      {% if r.times and r.times.total %}Total {{ r.times.total|fmt_time }}{% elif r.times and r.times.cook %}Cook {{ r.times.cook|fmt_time }}{% endif %}
+    </div>
+    <div class="small">{% for t in r.tags or [] %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+    <button class="btn small add" data-slug="{{ r.slug }}">+ Shopping list</button>
+  </li>
+{% endfor %}
+</ul>
+<p id="empty" class="muted" hidden>Nothing matches.</p>
+{% endblock %}
+{% block scripts %}<script>Chef.indexPage();</script>{% endblock %}

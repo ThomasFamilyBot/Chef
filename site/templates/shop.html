@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Shopping List · Chef{% endblock %}
+{% block content %}
+<div class="shop-layout">
+<section class="picker no-print">
+  <h1>Shopping List</h1>
+  <h3>Templates</h3>
+  <ul id="pick-templates" class="plain">
+  {% for t in templates %}
+    <li><label><input type="checkbox" data-template="{{ t.slug }}"> {{ t.name }} <span class="muted small">({{ t['items']|length }} items)</span></label></li>
+  {% endfor %}
+  </ul>
+  <h3>Recipes</h3>
+  <input id="pick-q" class="search" type="search" placeholder="Filter recipes…">
+  <ul id="pick-recipes" class="plain">
+  {% for r in recipes %}
+    <li data-title="{{ r.title|lower }}"><label><input type="checkbox" data-recipe="{{ r.slug }}"> {{ r.title }}</label>
+      <span class="mult">× <input type="number" min="1" max="9" step="1" value="1" data-mult="{{ r.slug }}" title="multiplier"></span></li>
+  {% endfor %}
+  </ul>
+  <div class="actions">
+    <button class="btn" id="clear-sel">Clear selection</button>
+  </div>
+</section>
+
+<section class="list">
+  <div class="list-head">
+    <h2 id="list-title">Your list</h2>
+    <div class="no-print actions">
+      <button class="btn" id="share">Copy share link</button>
+      <button class="btn" onclick="window.print()">Print</button>
+      <button class="btn" id="uncheck">Uncheck all</button>
+      <label class="small"><input type="checkbox" id="hide-checked"> hide checked</label>
+    </div>
+  </div>
+  <p id="for" class="muted small"></p>
+  <div id="groups"></div>
+  <p id="list-empty" class="muted">Pick a template or some recipes to build a list.</p>
+</section>
+</div>
+{% endblock %}
+{% block scripts %}<script>Chef.shopPage();</script>{% endblock %}

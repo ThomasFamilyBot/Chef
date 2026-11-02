@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}{{ r.title }} · Chef{% endblock %}
+{% block content %}
+<article class="recipe" data-slug="{{ r.slug }}">
+<header class="recipe-head">
+  <h1>{{ r.title }}</h1>
+  <p class="ref">Reference:
+    {% if r.reference.url %}<a href="{{ r.reference.url }}">{{ r.reference.text }}{% if r.reference.url_text and r.reference.url_text != r.reference.text %} — {{ r.reference.url_text }}{% endif %}</a>{% else %}{{ r.reference.text }}{% endif %}
+  </p>
+  <p class="meta"><b>Serves:</b> {{ r.serves }}</p>
+  <p class="meta times"><b>Prep:</b> {{ r.times.prep|fmt_time }} &nbsp;|&nbsp; <b>Cook:</b> {{ r.times.cook|fmt_time }} &nbsp;|&nbsp; <b>Rest:</b> {{ r.times.rest|fmt_time }} &nbsp;|&nbsp; <b>Total:</b> {{ r.times.total|fmt_time }}</p>
+  <div class="no-print actions">
+    <button class="btn add" data-slug="{{ r.slug }}">+ Shopping list</button>
+    <button class="btn" onclick="window.print()">Print</button>
+    <span class="tags">{% for t in r.tags or [] %}<span class="tag">{{ t }}</span>{% endfor %}</span>
+  </div>
+</header>
+
+<table class="ingredients">
+  <thead><tr><th>Measure</th><th>Ingredient</th><th>Prep</th><th>Mise Grouping</th></tr></thead>
+  <tbody>
+  {% for i in r.ingredients %}
+    <tr><td class="measure">{{ i.measure }}</td><td class="item">{{ i.item }}</td><td class="prep">{{ i.prep }}</td><td class="group">{{ i.group }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<section class="directions">
+  <h2>Directions</h2>
+  {{ r.body_html|safe }}
+</section>
+
+<section class="nutrition">
+  <h2>Estimate Nutrition of Whole, Finished Recipe</h2>
+  {% if r.nutrition %}
+  {% set n = r.nutrition %}
+  <p class="muted small">Basis: {{ n.basis }}. Computed {{ n.computed }}.</p>
+  <table class="nut-totals">
+    <thead><tr><th></th><th>Calories</th><th>Protein</th><th>Fat</th><th>Carbs</th><th>Cal/g protein</th></tr></thead>
+    <tbody>
+      <tr><td><b>Whole recipe</b></td><td>{{ n.totals.calories|round|int }}</td><td>{{ '%.1f'|format(n.totals.protein_g) }} g</td><td>{{ '%.1f'|format(n.totals.fat_g) }} g</td><td>{{ '%.1f'|format(n.totals.carbs_g) }} g</td><td>{{ '%.2f'|format(n.totals.calories / n.totals.protein_g) if n.totals.protein_g else '—' }}</td></tr>
+      <tr class="per-serving"><td><b>Per serving</b> <span class="no-print">÷ <input id="servings" type="number" min="1" step="1" value="{{ n.servings or r.servings or 1 }}" class="servings"></span><span class="print-only">(÷ {{ n.servings or r.servings or 1 }})</span></td>
+        <td data-k="calories" data-v="{{ n.totals.calories }}"></td><td data-k="protein_g" data-v="{{ n.totals.protein_g }}"></td><td data-k="fat_g" data-v="{{ n.totals.fat_g }}"></td><td data-k="carbs_g" data-v="{{ n.totals.carbs_g }}"></td><td></td></tr>
+    </tbody>
+  </table>
+  <details class="no-print"><summary>Line items & assumptions</summary>
+  <table class="nut-lines small">
+    <thead><tr><th>Ingredient</th><th>Amount</th><th>oz</th><th>Cal</th><th>Protein</th><th>Fat</th><th>Carbs</th><th>Source</th></tr></thead>
+    <tbody>{% for l in n.lines %}
+      <tr><td>{{ l.item }}</td><td>{{ l.amount }}</td><td>{{ l.oz }}</td><td>{{ l.calories|round|int }}</td><td>{{ '%.1f'|format(l.protein_g or 0) }}</td><td>{{ '%.1f'|format(l.fat_g or 0) }}</td><td>{{ '%.1f'|format(l.carbs_g or 0) }}</td><td>{{ l.source }}{% if l.note %} · {{ l.note }}{% endif %}</td></tr>
+    {% endfor %}</tbody>
+  </table>
+  <ul class="small">{% for a in n.assumptions %}<li>{{ a }}</li>{% endfor %}</ul>
+  {% if n.excluded %}<p class="small muted">Excluded: {{ n.excluded|join(', ') }}</p>{% endif %}
+  </details>
+  {% else %}
+  <p class="muted">Not yet calculated.</p>
+  {% endif %}
+</section>
+</article>
+{% endblock %}
+{% block scripts %}<script>Chef.recipePage();</script>{% endblock %}

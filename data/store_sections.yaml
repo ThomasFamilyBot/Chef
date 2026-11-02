@@ -1,0 +1,35 @@
+# Ordered the way you walk a grocery store. Ingredient `section` in a recipe wins;
+# otherwise the first keyword match below (case-insensitive, matched against the item name) is used.
+sections:
+  - name: Produce
+    keywords: [onion, shallot, garlic, ginger, scallion, leek, lemon, lime, orange, apple, pear, tomato, cherry tomato, potato, carrot, celery, cucumber, pepper, jalapeño, jalapeno, chile, chili pepper, serrano, lettuce, bibb, romaine, arugula, spinach, kale, cabbage, cauliflower, broccoli, mushroom, zucchini, squash, avocado, herb, basil, parsley, cilantro, mint, thyme, rosemary, sage, oregano, dill, chive, tarragon, fennel, radish, beet, corn, berries, berry, strawberr, raspberr, blueberr, grape, melon, peach, plum, cherr, banana, mango, pineapple, citrus, greens, sprout, asparagus, artichoke, eggplant, bok choy, napa, daikon, turnip, parsnip, sweet potato, yam, kimchi]
+  - name: Meat & Seafood
+    keywords: [pork, beef, chicken, turkey, lamb, veal, duck, steak, chop, roast, brisket, ribs, rib, sausage, bacon, pancetta, guanciale, prosciutto, ham, oxtail, shank, shoulder, butt, loin, tenderloin, thigh, breast, wing, ground, shrimp, prawn, crab, lobster, scallop, clam, mussel, oyster, fish, salmon, cod, halibut, tuna, mahi, tilapia, catfish, pollock, anchov, sardine, squid, calamari, octopus]
+  - name: Dairy & Eggs
+    keywords: [egg, milk, cream, half and half, half-and-half, butter, yogurt, yoghurt, sour cream, crème fraîche, creme fraiche, buttermilk, cream cheese, mascarpone, ricotta, cottage]
+  - name: Cheese & Deli
+    keywords: [cheese, parm, parmesan, parmigiano, pecorino, mozzarella, cheddar, gruy, gruyere, fontina, gorgonzola, feta, brie, burrata, manchego, asiago, provolone, taleggio, deli]
+  - name: Bakery & Bread
+    keywords: [bread, baguette, loaf, bun, roll, tortilla, pita, naan, croissant, brioche, crouton, sourdough, ciabatta, focaccia]
+  - name: Frozen
+    keywords: [frozen, ice cream, peas, puff pastry, edamame]
+  - name: Pasta, Rice & Grains
+    keywords: [pasta, spaghetti, linguine, fettuccine, penne, rigatoni, bucatini, orecchiette, noodle, rice, arborio, farro, quinoa, couscous, polenta, oats, oatmeal, barley, lentil, bean, chickpea, dried beans, panko, breadcrumb]
+  - name: Canned & Jarred
+    keywords: [canned, can, crushed tomatoes, tomato paste, tomato puree, diced tomatoes, san marzano, broth, stock, coconut milk, chili beans, capers, olives, olive, pickle, artichoke hearts, roasted red pepper, chipotle in adobo, anchovy paste, jam, preserves, honey, maple syrup, peanut butter, tahini]
+  - name: Baking
+    keywords: [flour, sugar, brown sugar, powdered sugar, confectioners, baking powder, baking soda, yeast, cornstarch, corn starch, cocoa, chocolate, chips, vanilla, extract, molasses, corn syrup, gelatin, cornmeal, semolina, sugar cone, sprinkles, shortening]
+  - name: Spices & Dried Herbs
+    keywords: [salt, kosher salt, sea salt, pepper, peppercorn, black pepper, cayenne, paprika, cumin, coriander, chili powder, chile powder, curry, turmeric, cinnamon, nutmeg, clove, allspice, cardamom, star anise, bay, bay leaf, dried, oregano, thyme, rosemary, red pepper flake, crushed red pepper, fennel seed, mustard seed, caraway, celery seed, garlic powder, onion powder, smoked paprika, sumac, za'atar, msg, seasoning, rub, gochugaru, chili flake, saffron, juniper, old bay, five spice, sesame seed]
+  - name: Oils, Vinegars & Condiments
+    keywords: [oil, olive oil, grapeseed, canola, vegetable oil, sesame oil, vinegar, balsamic, sherry vinegar, rice vinegar, red wine vinegar, white wine vinegar, apple cider vinegar, mustard, dijon, mayonnaise, mayo, ketchup, hot sauce, sriracha, worcestershire, soy sauce, soy, tamari, fish sauce, oyster sauce, hoisin, mirin, miso, gochujang, kochujang, ssamjang, doenjang, harissa, bbq sauce, salsa, relish, dressing, chili crisp, chili oil, sambal]
+  - name: International
+    keywords: [nori, seaweed, kombu, dashi, bonito, wasabi, wonton, dumpling wrapper, rice paper, tofu, tempeh, masa, hominy, tamarind, lemongrass, curry paste, galangal, kaffir, makrut, shichimi, furikake, panko, mochi, matcha, yuzu, ponzu, tortilla chips]
+  - name: Beverages, Beer & Wine
+    keywords: [wine, red wine, white wine, beer, ale, stout, porter, lager, bourbon, whiskey, whisky, rum, vodka, gin, tequila, mezcal, brandy, cognac, vermouth, sherry, marsala, madeira, port, sake, soju, cider, juice, soda, seltzer, sparkling, coffee, espresso, tea, kombucha]
+  - name: Nuts, Snacks & Dried Fruit
+    keywords: [almond, walnut, pecan, pistachio, cashew, peanut, hazelnut, pine nut, macadamia, raisin, date, dried fruit, dried cherr, dried cranberr, apricot, fig, cracker, chip, pretzel, popcorn, marshmallow, peeps]
+  - name: Household
+    keywords: [paper towel, foil, parchment, plastic wrap, zip, bag, dish soap, trash bag, charcoal, wood chip, wood chunk, butcher twine, twine, skewer]
+  - name: Other
+    keywords: []

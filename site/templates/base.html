@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Chef{% endblock %}</title>
+<link rel="stylesheet" href="{{ base }}static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+</head>
+<body>
+<nav class="nav no-print">
+  <a href="{{ base }}index.html" class="brand">🍳 Chef</a>
+  <a href="{{ base }}index.html">Recipes</a>
+  <a href="{{ base }}shop.html">Shopping List <span id="nav-count" class="pill"></span></a>
+  <a href="{{ base }}nutrition.html">Nutrition</a>
+</nav>
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="no-print muted small">Built {{ built }} · <a href="https://github.com/ThomasFamilyBot/chef">source</a></footer>
+<script src="{{ base }}static/units.js"></script>
+<script src="{{ base }}static/app.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
