@@ -15,37 +15,45 @@ drive_doc_id: 1zPbGNlR2R_CPAAzOWuIIoV6Jnbh-ReYsjjtiDixejyQ
 ingredients:
   - measure: 1/4 cup
     item: Olive Oil
+    group: 1 -> Brown the pancetta
     qty: 0.25
     unit: cup
   - measure: 4 oz
     item: Pancetta
     prep: Diced
+    group: 1 -> Brown the pancetta
     qty: 4
     unit: oz
   - measure: 1 medium
     item: Yellow Onion
     prep: Finely chopped
+    group: 2 -> Cook the onion
     qty: 1
     unit: each
   - measure: 15 oz can
     item: Crushed Tomatoes, 15 oz can
+    group: 3 -> Simmer the sauce
     qty: 1
     unit: can
   - measure: 2 tsp
     item: Tomato Paste
+    group: 3 -> Simmer the sauce
     qty: 2
     unit: tsp
   - measure: to taste
     item: Kosher Salt
+    group: 3 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: to taste
     item: Black Pepper
+    group: 3 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: 1-1 1/2 lb
     item: Spaghetti
     prep: Or rotini
+    group: 4 -> Cook the pasta
     qty: 1.5
     unit: lb
 nutrition:
@@ -129,9 +137,20 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Heavy saucepan, med high. Heat oil. Brown pancetta. Remove pancetta.
+**1. Brown the pancetta**
+
+- Heavy saucepan, med high (pan surface 375-425°F). Heat oil. Brown pancetta. Remove pancetta.
+
+**2. Cook the onion**
+
 - Add onion and saute until golden. Add pancetta back to pan.
+
+**3. Simmer the sauce**
+
 - Add tomatoes and paste.
 - Season with salt & pepper.
-- Turn heat to low, cook for ~30 min. Stir occasionally.
+- Turn heat to low (liquid at a bare simmer, 180-190°F), cook for ~30 min. Stir occasionally.
+
+**4. Cook the pasta**
+
 - Cook the pasta and toss with the sauce.

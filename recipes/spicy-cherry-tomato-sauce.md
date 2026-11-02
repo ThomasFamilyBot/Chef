@@ -15,50 +15,60 @@ drive_doc_id: 1wCZys37T7g0kMBDVRvr1-3oAWniND75JbhanObqO8Ek
 ingredients:
   - measure: 1/4 cup + 1 TBLS
     item: Olive Oil
+    group: 1 -> Fry the garlic
     qty: 5
     unit: TBLS
   - measure: 2 cloves
     item: Garlic
     prep: Thin slice
+    group: 1 -> Fry the garlic
     qty: 2
     unit: clove
   - measure: 1 lb 2 oz
     item: Cherry Tomatoes
     prep: Halved
+    group: 2 -> Cook the tomatoes
     qty: 18
     unit: oz
   - measure: 1/2 tsp
     item: Granulated Sugar
+    group: 2 -> Cook the tomatoes
     qty: 0.5
     unit: tsp
   - measure: 1
     item: Dried Ancho Chile
     prep: Torn apart. Can sub 1/4 tsp of smoked paprika for ancho
+    group: 2 -> Cook the tomatoes
     qty: 1
     unit: each
     section: Spices & Dried Herbs
   - measure: 1/2 tsp
     item: Kosher Salt
+    group: 2 -> Cook the tomatoes
     qty: 0.5
     unit: tsp
   - measure: ~1/2 cup
     item: Water
     prep: Doc doesn't give an amount; enough to get the tomatoes bubbling
+    group: 2 -> Cook the tomatoes
     qty: 0.5
     unit: cup
     shop: false
   - measure: 1 cup (0.7 oz)
     item: Basil
     prep: Leaves
+    group: 3 -> Finish with basil and pasta
     qty: 1
     unit: cup
   - measure: 14 oz
     item: Fettuccine
     prep: Or spaghetti
+    group: 3 -> Finish with basil and pasta
     qty: 14
     unit: oz
   - measure: 1 1/4 oz
     item: Parmesan
+    group: 3 -> Finish with basil and pasta
     qty: 1.25
     unit: oz
 nutrition:
@@ -157,9 +167,17 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Oil in sauce pan over med high.
+**1. Fry the garlic**
+
+- Oil in sauce pan over med high (pan surface 375-425°F).
 - Add garlic and fry ~1 min (start to caramelize).
+
+**2. Cook the tomatoes**
+
 - Add tomatoes, sugar, chile, 1/2 tsp of salt.
 - Pour in water and stir for 4 min (until tomatoes start to break down / liquid is bubbling).
-- Reduce heat to med low and cook for ~1 hr, stirring occasionally. Done when tomatoes and ancho have broken down + sauce has thickened.
+- Reduce heat to med low (pan surface 250-300°F) and cook for ~1 hr, stirring occasionally. Done when tomatoes and ancho have broken down + sauce has thickened.
+
+**3. Finish with basil and pasta**
+
 - Stir in basil, make pasta. Toss with the pasta and serve with the parm.

@@ -17,155 +17,156 @@ ingredients:
   - measure: 1/4 cup
     item: Maple Syrup
     prep: 3/4 cup total in recipe
-    group: Brine
+    group: 1 -> Brine
     qty: 0.25
     unit: cup
   - measure: 5 TBLS
     item: Kosher Salt
-    group: Brine
+    group: 1 -> Brine
     qty: 5
     unit: TBLS
   - measure: 3 TBLS
     item: Ginger
     prep: Peeled / sliced. 5 TBLS total in recipe
-    group: Brine
+    group: 1 -> Brine
     qty: 3
     unit: TBLS
   - measure: 3 TBLS
     item: Garlic
     prep: Crushed. 4 TBLS total in recipe
-    group: Brine
+    group: 1 -> Brine
     qty: 3
     unit: TBLS
   - measure: 1 sprig
     item: Fresh Sage
-    group: Brine
+    group: 1 -> Brine
     qty: 1
     unit: sprig
   - measure: 3/4 cup
     item: Yellow Onion
     prep: 1/4 inch rings
-    group: Brine
+    group: 1 -> Brine
     qty: 0.75
     unit: cup
   - measure: 5
     item: Bay Leaves
     prep: 6 total in recipe
-    group: Brine
+    group: 1 -> Brine
     qty: 5
     unit: each
   - measure: 2 tsp
     item: Black Peppercorns
     prep: 1 2/3 TBLS total in recipe
-    group: Brine
+    group: 1 -> Brine
     qty: 2
     unit: tsp
   - measure: 32 fl oz
     item: Water
-    group: Brine
+    group: 1 -> Brine
     qty: 32
     unit: fl oz
     shop: false
   - measure: 4 (1 1/4 in thick)
     item: Pork Loin Chops, bone-in
+    group: 1 -> Brine (then 5 -> Pork Chop)
     qty: 4
     unit: each
   - measure: 1 TBLS
     item: Coriander Seeds
     prep: Seeds or ground
-    group: Infused Oil - 1
+    group: 2 -> Infused Oil - 1
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Black Peppercorns
     prep: Whole or ground. 1 2/3 TBLS total in recipe
-    group: Infused Oil - 1
+    group: 2 -> Infused Oil - 1
     qty: 1
     unit: TBLS
   - measure: 1
     item: Bay Leaves
     prep: 6 total in recipe
-    group: Infused Oil - 1
+    group: 2 -> Infused Oil - 1
     qty: 1
     unit: each
   - measure: 2 TBLS
     item: Shallot
     prep: Minced. 6 TBLS total in recipe
-    group: Infused Oil - 2
+    group: 2 -> Infused Oil - 2
     qty: 2
     unit: TBLS
   - measure: 1 tsp
     item: Fresh Thyme
     prep: Minced
-    group: Infused Oil - 2
+    group: 2 -> Infused Oil - 2
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Fresh Rosemary
     prep: Minced
-    group: Infused Oil - 2
+    group: 2 -> Infused Oil - 2
     qty: 1
     unit: tsp
   - measure: 1/2 cup
     item: Neutral Oil
-    group: Infused Oil - 2
+    group: 2 -> Infused Oil - 2
     qty: 0.5
     unit: cup
   - measure: 2 TBLS
     item: Unsalted Butter
-    group: Sauce - 1
+    group: 4 -> Sauce - 1
     qty: 2
     unit: TBLS
   - measure: 1/4 cup
     item: Shallot
     prep: Minced. 6 TBLS total in recipe
-    group: Sauce - 2
+    group: 4 -> Sauce - 2
     qty: 0.25
     unit: cup
   - measure: 1 TBLS
     item: Garlic
     prep: Minced. 4 TBLS total in recipe
-    group: Sauce - 3
+    group: 4 -> Sauce - 3
     qty: 1
     unit: TBLS
   - measure: 2 cups
     item: Apple Juice
-    group: Sauce - 4
+    group: 4 -> Sauce - 4
     qty: 2
     unit: cup
     section: Beverages, Beer & Wine
   - measure: 1/2 cup
     item: Chicken Stock
-    group: Sauce - 4
+    group: 4 -> Sauce - 4
     qty: 0.5
     unit: cup
     section: Canned & Jarred
   - measure: 3
     item: Star Anise
-    group: Sauce - 4
+    group: 4 -> Sauce - 4
     qty: 3
     unit: each
   - measure: 2 TBLS
     item: Ginger
     prep: Minced. 5 TBLS total in recipe
-    group: Sauce - 4
+    group: 4 -> Sauce - 4
     qty: 2
     unit: TBLS
   - measure: 1/2 cup
     item: Maple Syrup
     prep: 3/4 cup total in recipe
-    group: Sauce - 5
+    group: 4 -> Sauce - 5
     qty: 0.5
     unit: cup
   - measure: 1/2
     item: Vanilla Bean
     prep: Seeds scraped out, need skin and seeds
-    group: Sauce - 5
+    group: 4 -> Sauce - 5
     qty: 0.5
     unit: each
   - measure: 1 TBLS
     item: Agar
-    group: Sauce - 6
+    group: 4 -> Sauce - 6
     qty: 1
     unit: TBLS
     section: International
@@ -404,38 +405,38 @@ nutrition:
 ---
 30 min prep, 30 min cook (24 hour brine).
 
-**Make Brine (24 hours before meal)**
+**1. Make Brine (24 hours before meal)**
 
-- All `Brine` ingredients + 32 fl oz water into pot.
+- All `1 -> Brine` ingredients + 32 fl oz water into pot.
 - Bring to boil, then let cool to room temp.
 - Submerge pork chops for 24 hours in fridge.
 
-**Make Infused Oil (8+ hours ahead)**
+**2. Make Infused Oil (8+ hours ahead)**
 
-- Grind coriander, peppercorn, bay leaf together from `Infused Oil - 1` (or crumble bay leaf if other stuff is ground).
-- Combine remaining ingredients from `Infused Oil - 2` into bowl.
+- Grind coriander, peppercorn, bay leaf together from `2 -> Infused Oil - 1` (or crumble bay leaf if other stuff is ground).
+- Combine remaining ingredients from `2 -> Infused Oil - 2` into bowl.
 
-**Light Charcoal**
+**3. Light Charcoal**
 
 - Get ready for pork chop.
 - Remove pork chops from fridge, wash off brine and pat dry.
 
-**Make Sauce (~15 min)**
+**4. Make Sauce (~15 min)**
 
-- Saucepan, melt butter over med low.
+- Saucepan, melt butter over med low (pan surface 250-300°F).
 - Add shallots and saute until caramelized (~4 min).
 - Add garlic and cook (~1 min).
 - Add apple juice, chicken stock, star anise, & ginger.
-- Bring to boil, lower to simmer. Looking to reduce by 25% (5-10 min). No harm in going longer, it'll turn to a darker color than you started.
+- Bring to boil, lower to simmer (185-205°F). Looking to reduce by 25% (5-10 min). No harm in going longer, it'll turn to a darker color than you started.
 - Add maple syrup, vanilla pod & seeds, agar. Simmer for 3 min.
 - Remove from heat and discard star anise & vanilla pod.
 - Puree in blender.
 - Pass through a sieve, season with salt & pepper.
 
-**Pork Chop**
+**5. Pork Chop**
 
 - Coat with infused oil (~1 TBLS per chop).
-- Grill on medium high. Looking for internal temp of 135°F.
+- Grill on medium high (grate surface 375-425°F). Looking for internal temp of 135°F.
 - Drizzle ~1/3 cup sauce per chop.
 
 **Nutrition (the family's own back-of-envelope calc)**

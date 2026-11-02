@@ -16,49 +16,52 @@ ingredients:
   - measure: 2 full racks
     item: Baby Back Ribs
     prep: Must be baby backs NOT spare ribs
+    group: 1 -> Rub
     qty: 2
     unit: rack
     section: Meat & Seafood
   - measure: 2 TBLS
     item: Paprika
-    group: Rub
+    group: 1 -> Rub
     qty: 2
     unit: TBLS
     section: Spices & Dried Herbs
   - measure: 1 1/2 tsp
     item: Garlic Powder
-    group: Rub
+    group: 1 -> Rub
     qty: 1.5
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 TBLS
     item: Onion Powder
-    group: Rub
+    group: 1 -> Rub
     qty: 1
     unit: TBLS
     section: Spices & Dried Herbs
   - measure: 2 tsp
     item: Black Pepper
-    group: Rub
+    group: 1 -> Rub
     qty: 2
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 tsp
     item: Cayenne
     prep: Cayenne pepper
-    group: Rub
+    group: 1 -> Rub
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 cup
     item: Chicken Stock
     prep: Broth, for the sheet pan
+    group: 2 -> Bake
     qty: 1
     unit: cup
     section: Canned & Jarred
   - measure: 1 bottle
     item: BBQ Sauce
     prep: Not listed in the doc, but "brush with sauce" is in the directions. Your favorite
+    group: 3 -> Finish
     qty: 1
     unit: bottle
     section: Oils, Vinegars & Condiments
@@ -146,15 +149,15 @@ nutrition:
 ---
 FOR RIBS. 2 full racks of BABY BACK RIBS---must be baby backs NOT spare ribs.
 
-**Rub**
+**1. Rub**
 
 - Preheat oven to 275°F.
 - Place ribs on a large cookie sheet. In a bowl combine the paprika thru cayenne pepper and mix. Rub the ribs with the mixture and allow it to set for about 20 min.
 
-**Bake**
+**2. Bake**
 
 - Pour chix broth into the sheet pan and cover TIGHTLY with foil. Place pan in oven and bake for 4 hours!
 
-**Finish**
+**3. Finish**
 
-- Remove ribs from oven--pour off most of the broth. Brush with sauce and place under broiler until browned. OR place on outdoor grill---be careful--they are very tender and tend to fall apart. That's why I do them under the broiler!
+- Remove ribs from oven--pour off most of the broth. Brush with sauce and place under broiler (element 500-550°F+, ribs 3-4 inches from it; watch continuously) until browned. OR place on outdoor grill---be careful--they are very tender and tend to fall apart. That's why I do them under the broiler!

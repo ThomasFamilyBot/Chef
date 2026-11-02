@@ -17,57 +17,69 @@ ingredients:
   - measure: 2 TBLS
     item: Neutral Oil
     prep: Veg oil. Plus ~2 tsp more if needed for the onions
+    group: 1 -> Make the stock
     qty: 2
     unit: TBLS
   - measure: 2 necks
     item: Turkey Necks
+    group: 1 -> Make the stock
     qty: 2
     unit: each
     section: Meat & Seafood
   - measure: 2 cups (~4 oz)
     item: Shiitake Mushrooms
     prep: Chopped
+    group: 1 -> Make the stock
     qty: 4
     unit: oz
   - measure: 2 medium
     item: Yellow Onion
     prep: Chopped
+    group: 1 -> Make the stock
     qty: 2
     unit: each
   - measure: 2 small handfuls
     item: Fresh Rosemary
     prep: Sprigs
+    group: 1 -> Make the stock
     qty: 2
     unit: bunch
   - measure: 1 cup
     item: Dry White Wine
     prep: Sauv blanc
+    group: 1 -> Make the stock
     qty: 1
     unit: cup
   - measure: 12 cups
     item: Chicken Stock, low sodium
     prep: Or turkey broth
+    group: 1 -> Make the stock
     qty: 12
     unit: cup
     section: Canned & Jarred
   - measure: 1/4 cup + 2 TBLS
     item: Unsalted Butter
+    group: 2 -> Make the gravy
     qty: 6
     unit: TBLS
   - measure: 1/2 cup
     item: All-Purpose Flour
+    group: 2 -> Make the gravy
     qty: 0.5
     unit: cup
   - measure: 2 tsp
     item: Soy Sauce
+    group: 2 -> Make the gravy
     qty: 2
     unit: tsp
   - measure: to taste
     item: Kosher Salt
+    group: 2 -> Make the gravy
     qty: 1
     unit: to taste
   - measure: to taste
     item: Black Pepper
+    group: 2 -> Make the gravy
     qty: 1
     unit: to taste
 nutrition:
@@ -183,21 +195,21 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Make the stock**
+**1. Make the stock**
 
-- Oil in saucepan, med high.
+- Oil in saucepan, med high (pan surface 375-425°F).
 - Turkey neck, 3 min each side (golden brown). Set aside.
 - Add mushrooms, brown, ~5 min.
     - + 2 tsp of oil, if needed.
 - + onion, brown, ~6-8 min.
 - + herbs, stir until fragrant, ~1 min.
 - + wine, scrape pan, bring to a boil and almost evaporate (~5 min).
-- + turkey neck & broth, boil, then reduce to simmer for 25-30 min (reduce by 1/3).
+- + turkey neck & broth, boil, then reduce to simmer (185-205°F) for 25-30 min (reduce by 1/3).
 - Strain into large heatproof bowl... should be 8 cups.
 
-**Make the gravy**
+**2. Make the gravy**
 
-- Saucepan to medium, heat butter.
+- Saucepan to medium (pan surface 300-350°F), heat butter.
 - Once butter melted, whisk in flour, constant until golden brown (~3 min).
 - + broth, ~1 cup at a time, incorporate before pouring more... should reduce by 25% (thick enough to coat a spoon).
 - + soy.

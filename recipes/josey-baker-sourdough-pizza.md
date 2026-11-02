@@ -97,13 +97,13 @@ ingredients:
   - measure: As needed
     item: Olive Oil
     prep: For the garlic oil, and for oiling pans
-    group: 3 -> Mise en place
+    group: 3 -> Mise en place (then 4 -> Time to bake!)
     qty: 1
     unit: to taste
   - measure: As needed
     item: Flaky Sea Salt
     prep: Maldon, for finishing
-    group: 3 -> Mise en place
+    group: 3 -> Mise en place (then 4 -> Time to bake!)
     qty: 1
     unit: to taste
   - measure: As needed
@@ -115,7 +115,7 @@ ingredients:
   - measure: Your choice
     item: Pizza Toppings
     prep: Prepare all your topping ingredients
-    group: 3 -> Mise en place
+    group: 3 -> Mise en place (then 4 -> Time to bake!)
     qty: 1
     unit: to taste
     shop: false
@@ -265,18 +265,18 @@ The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com,
 - Feed your sourdough starter every day (keep it at room temp): take 1 g, a pea-sized amount (throw the rest away), and mix it with 10 g whole grain flour (1 TBLS) and 10 g (around 1 TBLS) warm water.
 - Or pop the starter in the fridge and follow the directions above 1x a month to keep it alive!
 
-**Friday night — make the levain**
+**1. Friday night — make the levain**
 
 - Make your sourdough preferment (LEVAIN) the eve before the big day: mix everything from `1 -> Levain (Friday night)`.
 - This makes 210 g, or about 1 big cup of preferment. A preferment is a bigger version of starter that adds flavor and power to dough.
 
-**Saturday morning — mix your final dough by 10am**
+**2. Saturday morning — mix your final dough by 10am**
 
 - Mix the bread flour, whole wheat flour, 600 g water and the preferment from `2 -> Final dough (Saturday morning)`.
 - AUTOLYSE (aka wait 30 min before adding the salt and that little extra bit of water).
 - Add the salt and the 40 g water, PLUS ANY YUMMY ADDITIONS like seeds or spices!
 - Do some squishy FOLDING! Pulling up the sides of the dough like you saw in class.
-- Rest 30 min in a warm spot, wet hands and:
+- Rest 30 min in a warm spot (75-80°F), wet hands and:
     - Fold 1 -> Rest 45 min
     - Fold 2 -> Rest 45 min
     - Fold 3 -> divide into 3 or 4 pieces, PRESHAPE (roll into a ball), rest 45 min - 1 hr
@@ -288,7 +288,7 @@ The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com,
     - iv. Has it grown in size?
     - If those things aren't happening move it to a warm place!
 
-**Mise en place (everything in place)**
+**3. Mise en place (everything in place)**
 
 - Prepare all your topping ingredients, include Maldon salt.
 - TABLE FLOURS (GF): polenta, rice flour, potato starch.
@@ -296,16 +296,16 @@ The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com,
 - Make that garlic oil (garlic and oil on stovetop until browning).
 - Line everything up in a big clean workspace.
 
-**Time to bake!**
+**4. Time to bake!**
 
 - Preheat oven to 475°F for 1 hour.
 - Option #1, Sheet pan: you got this. Oil, gently stretch, top, and bake 20-ish min.
 - Option #2, On screen: preheat your "HEARTH" (your pizza stone / upside down cast iron / dutch oven) in the oven. Place dough on screen, top, bake 15-ish min.
 - Option #3, Inside cast iron: clean out your broiler, preheat oven with the cast iron.
-    - Put burner on high.
+    - Put burner on high (pan surface 450-500°F+).
     - Oil skillet, stretch dough, and carefully lay in cast iron.
     - Top while on heat on the burner, turn down if it gets too hot.
-    - Place in broiler to bake only 2-3 minutes!
+    - Place in broiler (element 500-550°F+) to bake only 2-3 minutes!
 - Is it done baking?? Can you lift the pie out without it folding in half like a taco? It's done!
 - Remove from pan or screen, finish with fresh toppings, and destroy.
 

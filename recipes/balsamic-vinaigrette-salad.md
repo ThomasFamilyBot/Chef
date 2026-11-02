@@ -164,13 +164,13 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Dressing**
+**1. Dressing**
 
 - Thin slice the red onion (1/2).
 - Soak in balsamic (5 TBLS), a little cayenne and a pinch of salt. Set for 5 min.
 - Add 5 TBLS olive oil, 2 TBLS maple syrup.
 
-**Salad**
+**2. Salad**
 
 - Toss with arugula and mixed greens (rather loose bag).
 - Basket of berries or 1 pear, blue cheese or gorg.

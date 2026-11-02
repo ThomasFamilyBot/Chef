@@ -48,6 +48,7 @@ ingredients:
   - measure: 2-4
     item: Pork Chops
     prep: Thick cut. Or whatever you're brining (chops, breasts, whole chicken)
+    group: 3 -> Brine the chops
     qty: 4
     unit: each
     section: Meat & Seafood
@@ -110,21 +111,21 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Create slurry**
+**1. Create slurry**
 
 - Hot water, salt, sugar (`1 -> Slurry`).
 
-**Create brine**
+**2. Create brine**
 
 - Combine with cold water (`2 -> Brine`).
 
-**Brine**
+**3. Brine the chops**
 
 - Smaller cuts (chops, breasts, pieces): 1–4 hours.
 - Larger pieces (whole chicken, turkey breast): 6–12 hours.
 - Keep cold.
 
-**Prepare**
+**4. Prepare**
 
 - Rinse brine off with water.
-- Pork Chop: roast at 350°F, sear at 130°F, pull at 140°F (rest to 145°F).
+- Pork Chop: roast at 350°F, sear (pan surface 450-500°F) at 130°F internal, pull at 140°F (rest to 145°F).

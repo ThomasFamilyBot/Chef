@@ -16,7 +16,7 @@ ingredients:
   - measure: 1 bottle + 1 cup
     item: Dry Red Wine
     prep: Pinot. 1 bottle in the marinade, 1 cup for the pearl onion pan
-    group: 1 -> Large bowl
+    group: 1 -> Large bowl (then 7 -> Prep Pearl Onions)
     qty: 2
     unit: bottle
     section: Beverages, Beer & Wine
@@ -90,90 +90,101 @@ ingredients:
     section: Meat & Seafood
   - measure: To taste
     item: Kosher Salt
+    group: 2 -> Remove f/ Marinade (then 7 -> Prep Pearl Onions, 8 -> Strain)
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
   - measure: To taste
     item: Black Pepper
+    group: 2 -> Remove f/ Marinade (then 7 -> Prep Pearl Onions)
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
   - measure: 2 TBLS
     item: Olive Oil
-    group: 2 -> Dutch Oven
+    group: 3 -> Dutch Oven
     qty: 2
     unit: TBLS
   - measure: 6 TBLS
     item: Unsalted Butter
     prep: Softened. 2 TBLS for the sear, 2 TBLS for pearl onions, the rest for the flour paste
+    group: 3 -> Dutch Oven (then 7 -> Prep Pearl Onions, 8 -> Strain)
     qty: 6
     unit: TBLS
   - measure: 1 TBLS
     item: Tomato Paste
+    group: 4 -> Cook veggies
     qty: 1
     unit: TBLS
     section: Canned & Jarred
   - measure: 3 cups
     item: Chicken Stock
+    group: 5 -> Cook chicken
     qty: 3
     unit: cup
     section: Canned & Jarred
   - measure: 1/4 cup
     item: All-Purpose Flour
     prep: Doc says 4 TBLS. 1 TBLS over the veggies, the rest for the butter paste
+    group: 4 -> Cook veggies (then 8 -> Strain)
     qty: 0.25
     unit: cup
     section: Baking
   - measure: 4 oz
     item: Bacon
     prep: Cut into lardons 1/4" x 1"
+    group: 6 -> Cook Bacon
     qty: 4
     unit: oz
     section: Meat & Seafood
   - measure: 12 oz (nets out to 8 oz when prepped)
     item: White Button Mushrooms
     prep: Stems removed, halved or quartered
+    group: 6 -> Cook Bacon
     qty: 12
     unit: oz
   - measure: "24"
     item: Pearl Onions
     prep: Peeled
+    group: 7 -> Prep Pearl Onions
     qty: 24
     unit: each
   - measure: Pinch
     item: Granulated Sugar
     prep: For the pearl onions
+    group: 7 -> Prep Pearl Onions
     qty: 1
     unit: pinch
     section: Baking
   - measure: 3 TBLS
     item: Flat-Leaf Parsley
     prep: Leaves, chopped, for serving
+    group: 9 -> Serve
     qty: 3
     unit: TBLS
   - measure: 1 cup
     item: Cornmeal
-    group: 3 -> Polenta (optional side)
+    group: 10 -> Polenta (optional side)
     qty: 1
     unit: cup
     section: Baking
   - measure: 4 cups (+ or -)
     item: Water
     prep: Or stock or milk or combo
-    group: 3 -> Polenta (optional side)
+    group: 10 -> Polenta (optional side)
     qty: 4
     unit: cup
     shop: false
   - measure: 1 tsp
     item: Kosher Salt
-    group: 3 -> Polenta (optional side)
+    group: 10 -> Polenta (optional side)
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 "knob" (optional)
     item: Unsalted Butter
     prep: Optional
-    group: 3 -> Polenta (optional side)
+    group: 10 -> Polenta (optional side)
     qty: 1
     unit: TBLS
 nutrition:
@@ -421,54 +432,56 @@ Add another list for whatever you're serving the chicken with (bread, noodles, p
 
 **Day 1**
 
+**1. Large bowl**
+
 - Combine mise grouping `1 -> Large bowl` into large bowl. Cover with plastic and refrigerate overnight.
 
 **Day 2**
 
-**Remove f/ Marinade**
+**2. Remove f/ Marinade**
 
 - Remove chicken and pat dry.
 - Strain marinade through fine strainer. KEEP marinade liquids and solids separately.
 - Season chicken with salt & pepper.
 
-**Sear chicken**
+**3. Dutch Oven**
 
-- Large dutch oven, med-high, heat olive oil (2 TBLS) & 2 TBLS of butter until almost smoking. Sear chicken. Turn tongs so skin browns. Work in batches, put seared chicken on a platter.
+- Large dutch oven, med-high (pan surface 375-425°F), heat olive oil (2 TBLS) & 2 TBLS of butter until almost smoking. Sear chicken (pan surface 450-500°F). Turn tongs so skin browns. Work in batches, put seared chicken on a platter.
 
-**Cook veggies**
+**4. Cook veggies**
 
 - Take solids f/ the marinade and cook until soft and golden brown. ~10 min.
 - Sprinkle flour (1 TBLS) over veggies and mix well with wooden spoon. Veggies should be coated.
 - Add tomato paste, cook for 1 min.
 
-**Cook chicken**
+**5. Cook chicken**
 
-- Heat to medium. Stir in reserved marinade liquid and chicken stock. Simmer until reduced by 1/3. Scrape bottom of pan for fond. 20-25 min.
+- Heat to medium (pan surface 300-350°F). Stir in reserved marinade liquid and chicken stock. Simmer (185-205°F) until reduced by 1/3. Scrape bottom of pan for fond. 20-25 min.
 - Turn heat to low, add liquid marinade.
 - Add chicken.
 - Cover and leave 1" of open space.
 - Cook for 1 hr 15 min. Turn chicken at 20 min and 40 min.
-- Maintain bare simmer.
+- Maintain bare simmer (180-190°F).
 
-**Cook Bacon**
+**6. Cook Bacon**
 
 - Cook bacon lardons, set aside and pat dry.
 - When done, keep 1 TBLS of fat in pan.
-- Saute mushrooms in bacon fat until golden brown.
+- Saute (pan surface 350-400°F) mushrooms in bacon fat until golden brown.
 
-**Prep Pearl Onions**
+**7. Prep Pearl Onions**
 
 - Small saucepan, pearl onions, pinch sugar, pinch salt, 2 TBLS of butter.
 - Add enough water to just cover the onions.
 - Cover pan with parchment (aluminum foil if no parchment).
-- Bring to a boil, then reduce to a simmer. Cook until water has evaporated. Watch closely.
+- Bring to a boil (212°F), then reduce to a simmer. Cook until water has evaporated. Watch closely.
 - Remove parchment and continue to cook until onions are golden brown.
 - Set onions aside.
 - Add 1 cup of pinot and scrape up fond.
 - Season with salt & pepper.
 - Temp to medium high until wine is thick enough to coat back of the spoon.
 
-**Strain**
+**8. Strain**
 
 - When chicken done (juices run clear), remove chicken.
 - Strain cooking liquid into large measuring glass, push hard on the veggies to get deliciousness.
@@ -478,12 +491,12 @@ Add another list for whatever you're serving the chicken with (bread, noodles, p
 - Return chicken, stir in onions and mushrooms. Add wine reduction f/ onions. Simmer for 5 min to get sauce to thicken.
 - Salt to taste.
 
-**Serve**
+**9. Serve**
 
 - Top with bacon and parsley.
 - Garlic bread, butter noodles, or polenta.
 
-**Polenta**
+**10. Polenta (optional side)**
 
 - 1 cup of cornmeal.
 - Add 4 (+ or -) cups of water or stock or milk or combo.

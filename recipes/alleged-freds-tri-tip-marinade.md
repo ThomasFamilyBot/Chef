@@ -16,10 +16,12 @@ drive_doc_id: 1qqdTWASg8CtpI7tctD4V8fx6pruf88MJHDTKP3OOfRs
 ingredients:
   - measure: 2-3
     item: Tri-Tip
+    group: 2 -> Marinate
     qty: 3
     unit: each
   - measure: 1 1/2 cups
     item: Brewed Dark Roast Coffee
+    group: 1 -> Whisk the marinade
     qty: 1.5
     unit: cup
     section: Beverages, Beer & Wine
@@ -28,6 +30,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 1 cup
     item: Dry Red Wine
+    group: 1 -> Whisk the marinade
     qty: 1
     unit: cup
     nutrition:
@@ -35,6 +38,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 1/2 cup
     item: Olive Oil
+    group: 1 -> Whisk the marinade
     qty: 0.5
     unit: cup
     nutrition:
@@ -42,6 +46,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 1/3 cup
     item: Balsamic Vinegar
+    group: 1 -> Whisk the marinade
     qty: 0.333
     unit: cup
     nutrition:
@@ -49,6 +54,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 1/3 cup
     item: Tamari
+    group: 1 -> Whisk the marinade
     qty: 0.333
     unit: cup
     nutrition:
@@ -56,6 +62,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 1/3 cup
     item: Worcestershire Sauce
+    group: 1 -> Whisk the marinade
     qty: 0.333
     unit: cup
     nutrition:
@@ -63,6 +70,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 2 TBLS
     item: Molasses
+    group: 1 -> Whisk the marinade
     qty: 2
     unit: TBLS
     nutrition:
@@ -70,6 +78,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 2 TBLS
     item: Chili Powder
+    group: 1 -> Whisk the marinade
     qty: 2
     unit: TBLS
     nutrition:
@@ -77,6 +86,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 2 TBLS
     item: Onion Powder
+    group: 1 -> Whisk the marinade
     qty: 2
     unit: TBLS
     nutrition:
@@ -85,6 +95,7 @@ ingredients:
   - measure: 2 TBLS
     item: Paprika
     prep: Smoked or regular
+    group: 1 -> Whisk the marinade
     qty: 2
     unit: TBLS
     nutrition:
@@ -92,6 +103,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 2 TBLS
     item: Garlic Powder
+    group: 1 -> Whisk the marinade
     qty: 2
     unit: TBLS
     nutrition:
@@ -100,6 +112,7 @@ ingredients:
   - measure: 1 TBLS
     item: Black Pepper
     prep: Ground
+    group: 1 -> Whisk the marinade
     qty: 1
     unit: TBLS
     nutrition:
@@ -108,6 +121,7 @@ ingredients:
   - measure: 5 cloves
     item: Garlic
     prep: Crushed
+    group: 1 -> Whisk the marinade
     qty: 5
     unit: clove
     nutrition:
@@ -115,6 +129,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 2 TBLS
     item: Vegemite
+    group: 1 -> Whisk the marinade
     qty: 2
     unit: TBLS
     section: International
@@ -123,6 +138,7 @@ ingredients:
       note: marinade; ~15% assumed to cling/absorb, rest discarded
   - measure: 1 TBLS
     item: Cuttlefish Ink
+    group: 1 -> Whisk the marinade
     qty: 1
     unit: TBLS
     section: International
@@ -288,6 +304,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Whisk all marinade ingredients until smooth.
+**1. Whisk the marinade**
+
+- Whisk all marinade ingredients (`1 -> Whisk the marinade`) until smooth.
+
+**2. Marinate**
+
 - Marinate 2-3 tri-tips for 3-5 days. Turn every ~12 hours.
+
+**3. Grill**
+
 - Grill as you normally would.

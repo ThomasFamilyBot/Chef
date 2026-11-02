@@ -15,40 +15,48 @@ drive_doc_id: 1kYirIKoVzWrxJ-k1zIiXaWc9j3Czkbe4TGC3pMuEbiQ
 ingredients:
   - measure: "10"
     item: Eggs
+    group: 2 -> Eggs
     qty: 10
     unit: each
   - measure: 2 cups (one bunch)
     item: Broccoli
     prep: Chopped
+    group: 1 -> Sauté the veg
     qty: 1
     unit: bunch
   - measure: "1"
     item: Yellow Onion
     prep: Chopped
+    group: 1 -> Sauté the veg
     qty: 1
     unit: each
   - measure: "1/4"
     item: Bell Pepper
     prep: Chopped
+    group: 1 -> Sauté the veg
     qty: 0.25
     unit: each
   - measure: 1 TBLS
     item: Olive Oil
+    group: 1 -> Sauté the veg
     qty: 1
     unit: TBLS
   - measure: 1 tsp
     item: Garlic Salt
     prep: 1/2 tsp for the veg, 1/2 tsp for the eggs
+    group: 1 -> Sauté the veg (then 2 -> Eggs)
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1/2 tsp
     item: Red Pepper Flakes
+    group: 2 -> Eggs
     qty: 0.5
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1/2 tsp
     item: Herbes de Provence
+    group: 2 -> Eggs
     qty: 0.5
     unit: tsp
     section: Spices & Dried Herbs
@@ -133,14 +141,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Sauté the veg**
+**1. Sauté the veg**
 
-- Medium high — broccoli, onion, 1/2 tsp Garlic Salt... sauté for 5 min (2 TBLS of water at end, if desired).
+- Medium high (pan surface 375-425°F) — broccoli, onion, 1/2 tsp Garlic Salt... sauté for 5 min (2 TBLS of water at end, if desired).
 
-**Eggs**
+**2. Eggs**
 
 - Eggs + 1/2 tsp Garlic Salt + 1/2 tsp Herbes de Provence.
 
-**Sous vide**
+**3. Sous vide**
 
 - Sous vide to 172°F (60 min).

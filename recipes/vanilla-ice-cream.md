@@ -39,7 +39,7 @@ ingredients:
   - measure: 1 TBLS
     item: Vanilla Extract
     prep: Added at the end
-    group: 1 -> Base
+    group: 4 -> Add vanilla
     qty: 1
     unit: TBLS
   - measure: "4"
@@ -111,28 +111,30 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Make base**
+**1. Make base**
 
-- Combine cream, milk, sugar, salt (`1 -> Base`, hold the vanilla).
-- Medium heat, stir until sugar dissolves. Let steam, do NOT boil.
+- Combine cream, milk, sugar, salt (`1 -> Base`).
+- Medium heat (pan surface 300-350°F), stir until sugar dissolves. Let steam, do NOT boil.
 
-**Temper egg**
+**2. Temper egg**
 
 - Separate bowl, whisk egg yolks together (`2 -> Eggs`).
 - Drizzle 1/2 cup of warm dairy mixture into eggs to temper.
 
-**Pasteurize**
+**3. Pasteurize**
 
 - Pour egg mixture into dairy.
 - Med-low until reaches 170-175°F, stir occasionally.
 
-**Add vanilla**
+**4. Add vanilla**
 
-**Chill**
+- Stir in the vanilla extract.
+
+**5. Chill**
 
 - 4 hours min, 24 hours preferred.
 
-**Churn**
+**6. Churn**
 
 - ~20 min, get to soft serve texture.
 - Freeze, overnight preferred.

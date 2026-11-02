@@ -16,64 +16,76 @@ drive_doc_id: 1U-a2b8TpcRCz7HoEd3mc-vq0sSoTCLSBbQCEFxGQpoU
 ingredients:
   - measure: 4 lb
     item: Pork Shoulder, boneless
+    group: 1 -> Bag it
     qty: 4
     unit: lb
     section: Meat & Seafood
   - measure: 1 med
     item: Yellow Onion
     prep: Medium
+    group: 1 -> Bag it
     qty: 1
     unit: each
   - measure: 6 cloves
     item: Garlic
+    group: 1 -> Bag it
     qty: 6
     unit: clove
   - measure: 1 stick
     item: Cinnamon Sticks
     prep: Broken into 3-4 pieces
+    group: 1 -> Bag it
     qty: 1
     unit: stick
     section: Spices & Dried Herbs
   - measure: "2"
     item: Bay Leaves
+    group: 1 -> Bag it
     qty: 2
     unit: each
     section: Spices & Dried Herbs
   - measure: 1 TBLS
     item: Ground Cumin
+    group: 1 -> Bag it
     qty: 1
     unit: TBLS
     section: Spices & Dried Herbs
   - measure: 1/2 tsp
     item: Dried Oregano
+    group: 1 -> Bag it
     qty: 0.5
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 TBLS + 1 tsp
     item: Chili Powder
     prep: Doc says 4 tsp
+    group: 1 -> Bag it
     qty: 4
     unit: tsp
     section: Spices & Dried Herbs
   - measure: "2"
     item: Jalapeño
     prep: Seeded / de-ribbed
+    group: 1 -> Bag it
     qty: 2
     unit: each
   - measure: "1"
     item: Orange
     prep: Cut into quarters, squeeze juice in, then the orange goes in too
+    group: 1 -> Bag it
     qty: 1
     unit: each
   - measure: 12 fl oz
     item: Beer
     prep: Trying a Lagunitas IPA. NOT boiling it first. About a cup of liquid into the bag
+    group: 1 -> Bag it
     qty: 12
     unit: fl oz
     section: Beverages, Beer & Wine
   - measure: Generous
     item: Kosher Salt
     prep: Season generously
+    group: 1 -> Bag it
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
@@ -193,8 +205,11 @@ Sous vide at 165°F (74°C) for 12 to 24 hours.
 
 Trying a Lagunitas IPA. NOT boiling it first. About a cup of liquid into the bag.
 
-**Bag it**
+**1. Bag it**
 
 - Get large bowl for all ingredients. Cut orange into quarters, squeeze juice, put in orange. Pour in beer. Add remaining ingredients. Season generously with salt and toss.
 - Put everything into bag.
+
+**2. Sous vide**
+
 - Sous vide at 165°F (74°C) for 12 to 24 hours.

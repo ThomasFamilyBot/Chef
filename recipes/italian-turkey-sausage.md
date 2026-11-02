@@ -15,60 +15,74 @@ drive_doc_id: 1rHTgL-F5V3ScDi0YixMkCUZ1kpNc201VKazvQmNbJ4w
 ingredients:
   - measure: 1 lb
     item: Ground Turkey
+    group: 1 -> Mix the sausage
     qty: 1
     unit: lb
   - measure: 1 tsp
     item: Red Wine Vinegar
+    group: 1 -> Mix the sausage
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Kosher Salt
+    group: 1 -> Mix the sausage
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Black Pepper
     prep: Freshly cracked
+    group: 1 -> Mix the sausage
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Garlic Powder
+    group: 1 -> Mix the sausage
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Onion Powder
+    group: 1 -> Mix the sausage
     qty: 1
     unit: tsp
   - measure: 1 1/3 tsp
     item: Dried Parsley
+    group: 1 -> Mix the sausage
     qty: 1.333
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 tsp
     item: Dried Basil
+    group: 1 -> Mix the sausage
     qty: 1
     unit: tsp
   - measure: 2/3 tsp
     item: Paprika
+    group: 1 -> Mix the sausage
     qty: 0.667
     unit: tsp
   - measure: 2/3 tsp
     item: Red Pepper Flakes
+    group: 1 -> Mix the sausage
     qty: 0.667
     unit: tsp
   - measure: 1/4 tsp
     item: Ground Fennel Seed
+    group: 1 -> Mix the sausage
     qty: 0.25
     unit: tsp
   - measure: 1/4 tsp
     item: Brown Sugar
+    group: 1 -> Mix the sausage
     qty: 0.25
     unit: tsp
   - measure: 1/4 tsp
     item: Dried Oregano
+    group: 1 -> Mix the sausage
     qty: 0.25
     unit: tsp
   - measure: 1/4 tsp
     item: Dried Thyme
+    group: 1 -> Mix the sausage
     qty: 0.25
     unit: tsp
 nutrition:
@@ -199,6 +213,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Knead ingredients until flecks of spice are evenly distributed through the sausage.
+**1. Mix the sausage**
+
+- Knead all the ingredients (`1 -> Mix the sausage`) until flecks of spice are evenly distributed through the sausage.
+
+**2. Form the logs**
+
 - Divide the sausage into thirds and form into 3 logs; wrap each in plastic wrap.
+
+**3. Store**
+
 - Place wrapped sausage into a freezer bag before freezing, or store in the refrigerator for at least 12 hours before cooking.

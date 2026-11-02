@@ -16,7 +16,7 @@ drive_doc_id: 1nGO36W_xZbb7zYelvq7FT9gD3wynrGiJO_PO-Y48Fic
 ingredients:
   - measure: 1 cup
     item: Unrefined Cane Sugar
-    group: Cilantro syrup
+    group: 1 -> Cilantro syrup
     qty: 1
     unit: cup
     section: Baking
@@ -25,13 +25,13 @@ ingredients:
       note: cilantro simple syrup; 1/2 fl oz per marg x 5 uses ~1/5 of the batch
   - measure: 1 cup
     item: Water
-    group: Cilantro syrup
+    group: 1 -> Cilantro syrup
     qty: 1
     unit: cup
     shop: false
   - measure: 1 bunch (~1/2 oz)
     item: Cilantro
-    group: Cilantro syrup
+    group: 1 -> Cilantro syrup
     qty: 1
     unit: bunch
     nutrition:
@@ -39,36 +39,41 @@ ingredients:
       note: steeped in the syrup, strained out
   - measure: 1 cup (4-5 margs)
     item: Silver Tequila, 100% agave
-    group: Jalapeño tequila
+    group: 2 -> Jalapeño tequila
     qty: 8
     unit: fl oz
   - measure: 1 medium
     item: Jalapeño
-    group: Jalapeño tequila
+    group: 2 -> Jalapeño tequila
     qty: 1
     unit: each
   - measure: 3 fl oz per marg
     item: Carrot Juice
+    group: 3 -> Build
     qty: 15
     unit: fl oz
   - measure: 1 fl oz per marg
     item: Orange Juice
+    group: 3 -> Build
     qty: 5
     unit: fl oz
   - measure: 1/2 fl oz per marg
     item: Cointreau
+    group: 3 -> Build
     qty: 2.5
     unit: fl oz
     section: Beverages, Beer & Wine
   - measure: 1/2 fl oz per marg
     item: Lime Juice
     prep: Fresh
+    group: 3 -> Build
     qty: 2.5
     unit: fl oz
     section: Produce
   - measure: 2
     item: Lime
     prep: For juice and garnish
+    group: 3 -> Build
     qty: 2
     unit: each
 nutrition:
@@ -171,17 +176,17 @@ nutrition:
 ---
 15 min active, 90 min total.
 
-**Cilantro simple syrup**
+**1. Cilantro simple syrup**
 
-- Water + sugar to a simmer in a small saucepan over medium heat. Stir to dissolve the sugar, then remove from heat.
+- Water + sugar to a simmer (185-205°F) in a small saucepan over medium heat (pan surface 300-350°F). Stir to dissolve the sugar, then remove from heat.
 - Add the cilantro and let steep until the syrup tastes like cilantro, at least 1 hour and up to 4 hours. Strain out the cilantro when done.
 
-**Jalapeño tequila**
+**2. Jalapeño tequila**
 
-- Broil or grill the jalapeño until charred and soft, ~5 minutes. Let cool so you can cut it.
+- Broil (element 500-550°F+, 3-4 inches from the element) or grill the jalapeño until charred and soft, ~5 minutes. Let cool so you can cut it.
 - Cut off the stem and chop (seeds & white ribs make it more spicy).
 - Let the jalapeño soak in the tequila for at least 1 hour. Depending on the heat level you like, leave the jalapeño in the tequila or strain it off and discard.
 
-**Build**
+**3. Build**
 
 - 1 marg = 3 fl oz carrot juice + 1 1/2 fl oz tequila + 1 fl oz OJ + 1/2 fl oz Cointreau + 1/2 fl oz lime + 1/2 fl oz cilantro simple syrup.

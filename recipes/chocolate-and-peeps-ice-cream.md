@@ -16,55 +16,56 @@ ingredients:
   - measure: 4 oz
     item: Dark Chocolate (62%)
     prep: Chopped
-    group: "1"
+    group: 3 -> Melt the chocolate
     qty: 4
     unit: oz
   - measure: 2 oz
     item: Milk Chocolate
     prep: Chopped
-    group: "1"
+    group: 3 -> Melt the chocolate
     qty: 2
     unit: oz
   - measure: 2 cups
     item: Whole Milk
-    group: "2"
+    group: 1 -> Make the base
     qty: 2
     unit: cup
   - measure: 1 cup
     item: Heavy Cream
-    group: "2"
+    group: 1 -> Make the base
     qty: 1
     unit: cup
   - measure: 3/4 cup
     item: Granulated Sugar
-    group: "2"
+    group: 1 -> Make the base
     qty: 0.75
     unit: cup
   - measure: 1/4 cup
     item: Sweetened Condensed Milk
-    group: "2"
+    group: 1 -> Make the base
     qty: 0.25
     unit: cup
     section: Baking
   - measure: 3 TBLS
     item: Dutch Process Cocoa Powder
     prep: If 100% cacao, add 1/16 tsp baking soda per 3 TBLS
-    group: "2"
+    group: 1 -> Make the base
     qty: 3
     unit: TBLS
   - measure: 3
     item: Egg Yolks
-    group: "3"
+    group: 2 -> Temper the yolks
     qty: 3
     unit: each
   - measure: 10 (divided 5 & 5)
     item: Peeps
     prep: 3.5 oz marshmallow. 5 chopped, 5 whole
-    group: "4"
+    group: 1 -> Make the base (then 5 -> Churn)
     qty: 10
     unit: each
   - measure: 1 bottle
     item: Decorative Sugar Crystals
+    group: 5 -> Churn
     qty: 1
     unit: bottle
     section: Baking
@@ -164,8 +165,22 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- **Make base:** Combine all of Mise Grouping `2` AND the 5 whole Peeps in a saucepan, heat on medium-high. Get to 165°F, keep stirring as it might bubble up on you. Peeps should be fully melted.
-- **Temper yolks:** Heat still medium-low. In a separate bowl, mix yolks. Add a couple spoonfuls of ice cream base to the yolks, whisk. Then gradually whisk the yolk mixture into the ice cream base (you're doing it slowly so the eggs don't scramble). Target 172°F.
-- **Melt chocolate:** Turn heat to low. Gradually add the chocolate from Mise Grouping `1`, stir until chocolate is fully melted.
-- **Strain and cool:** Strain mixture into a bowl (fine mesh strainer). Place bowl into an ice bath to cool. OK to put ice cream base in fridge for a couple hours; do NOT let it sit overnight (texture on the chocolate gets grainy).
-- **Churn:** Make ice cream in your mixer. KitchenAid mixer: level 1. After ~15 min, when the ice cream appears to be set, add the 5 chopped Peeps. Right before turning off the mixer, add sugar crystals to taste (gives it a little crunch).
+**1. Make the base**
+
+- Combine all of `1 -> Make the base` AND the 5 whole Peeps in a saucepan, heat on medium-high (pan surface 375-425°F). Get to 165°F, keep stirring as it might bubble up on you. Peeps should be fully melted.
+
+**2. Temper the yolks**
+
+- Heat still medium-low (pan surface 250-300°F). In a separate bowl, mix yolks. Add a couple spoonfuls of ice cream base to the yolks, whisk. Then gradually whisk the yolk mixture into the ice cream base (you're doing it slowly so the eggs don't scramble). Target 172°F.
+
+**3. Melt the chocolate**
+
+- Turn heat to low. Gradually add the chocolate from `3 -> Melt the chocolate`, stir until chocolate is fully melted.
+
+**4. Strain and cool**
+
+- Strain mixture into a bowl (fine mesh strainer). Place bowl into an ice bath to cool. OK to put ice cream base in fridge for a couple hours; do NOT let it sit overnight (texture on the chocolate gets grainy).
+
+**5. Churn**
+
+- Make ice cream in your mixer. KitchenAid mixer: level 1. After ~15 min, when the ice cream appears to be set, add the 5 chopped Peeps. Right before turning off the mixer, add sugar crystals to taste (gives it a little crunch).

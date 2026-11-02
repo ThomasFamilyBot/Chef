@@ -18,84 +18,84 @@ ingredients:
   - measure: 1
     item: Leg of Lamb
     prep: Remove shank & aitchbone. Remove fat cap & silver skin
-    group: Lamb
+    group: 1 -> Lamb
     qty: 1
     unit: each
   - measure: 8 cloves
     item: Garlic
     prep: Thinly sliced
-    group: Lamb
+    group: 1 -> Lamb
     qty: 8
     unit: clove
   - measure: 4 sprigs
     item: Fresh Rosemary
     prep: Broken into small pieces
-    group: Lamb
+    group: 1 -> Lamb
     qty: 4
     unit: sprig
   - measure: 1/2 tsp per lb
     item: Coarse Sea Salt
-    group: Lamb
+    group: 1 -> Lamb
     qty: 1
     unit: TBLS
   - measure: To taste
     item: Black Pepper
     prep: Fresh ground
-    group: Lamb
+    group: 1 -> Lamb
     qty: 1
     unit: to taste
   - measure: For brushing
     item: Olive Oil
-    group: Lamb
+    group: 1 -> Lamb
     qty: 2
     unit: TBLS
   - measure: 1 lb
     item: Merguez Sausage
     prep: Or other lamb sausage
-    group: Sides
+    group: 2 -> Sides
     qty: 1
     unit: lb
   - measure: 3 lb
     item: Delicata Squash
-    group: Sides
+    group: 2 -> Sides
     qty: 3
     unit: lb
   - measure: 4
     item: Red Bell Pepper
-    group: Sides
+    group: 2 -> Sides
     qty: 4
     unit: each
   - measure: 1 cup + 2 TBLS
     item: Olive Oil
-    group: Board Sauce
+    group: 3 -> Board Sauce
     qty: 18
     unit: TBLS
   - measure: 15 leaves
     item: Fresh Sage
-    group: Board Sauce
+    group: 3 -> Board Sauce
     qty: 15
     unit: leaf
   - measure: 6 TBLS
     item: Fresh Thyme
     prep: Leaves stripped from stem
-    group: Board Sauce
+    group: 3 -> Board Sauce
     qty: 6
     unit: TBLS
   - measure: 3 cloves
     item: Garlic
-    group: Board Sauce
+    group: 3 -> Board Sauce
     qty: 3
     unit: clove
   - measure: 1 1/2
     item: Red Jalapeño
     prep: Fresh
-    group: Board Sauce
+    group: 3 -> Board Sauce
     qty: 2
     unit: each
   - measure: 3/4 tsp
     item: Black Pepper
     prep: Ground
-    group: Board Sauce
+    group: 3 -> Board Sauce
     qty: 0.75
     unit: tsp
 nutrition:
@@ -235,17 +235,17 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Lamb** (2.5 hours of cook time)
+**1. Lamb** (2.5 hours of cook time)
 
 - Night before: score (1/2" squares), kosher salt (1/2 tsp per lb).
 - Day of: stuff incisions with garlic, rosemary and thyme (alternating).
 - Brush with olive oil, season with salt & pepper.
 - Brush grate with olive oil.
 - Get grill to 225°F, lamb on indirect until 110°F internal.
-- Move to direct, brown all four sides; hold with 2 bricks if desired. Done at 130-135°F.
+- Move to direct, brown all four sides (grill grate 500°F+; don't move the meat for 2-3 min per side); hold with 2 bricks if desired. Done at 130-135°F.
 - Cut across the grain.
 
-**About 2 hrs in, start sausages & squash**
+**2. Sides** (about 2 hrs in, start sausages & squash)
 
 - Prick sausages and grill. Turn as they brown. Takes ~15 min. Let rest for 15 min.
 - Cut squash lengthwise in half, remove seeds.
@@ -253,7 +253,7 @@ nutrition:
 - Remove and set skin side down on grill with sausages, basting occasionally with olive oil, until flesh is tender to the center when pierced with a skewer.
 - Bell peppers: seeded, skin side down on hot grill, until charred. Probably 10 min.
 
-**Board sauce**
+**3. Board Sauce**
 
 - Before the cook: chop sage, thyme, garlic, jalapeño + black pepper into a coffee cup.
 - Mince or press garlic, dump into mixture.

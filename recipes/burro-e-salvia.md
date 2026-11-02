@@ -15,21 +15,25 @@ drive_doc_id: 16wvhYZKYcUHqYAtpYqwQU2W5f5wnT4pHItEp2RIjKok
 ingredients:
   - measure: 8 oz (2 sticks)
     item: Unsalted Butter
+    group: 1 -> Melt the butter with the sage
     qty: 8
     unit: oz
   - measure: 1 bunch
     item: Fresh Sage
     prep: Leaves only
+    group: 1 -> Melt the butter with the sage
     qty: 1
     unit: bunch
   - measure: 1/2 cup
     item: Parmesan
     prep: Shredded or grated
+    group: 3 -> Toss
     qty: 0.5
     unit: cup
   - measure: 1 lb
     item: Cheese Tortellini
     prep: Fresh or frozen; tortelloni or ravioli also work
+    group: 2 -> Cook the pasta
     qty: 1
     unit: lb
     section: Pasta, Rice & Grains
@@ -81,7 +85,15 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Heavy saucepan, low flame. Melt butter w/ sage leaves.
+**1. Melt the butter with the sage**
+
+- Heavy saucepan, low flame (pan surface 200-250°F). Melt butter w/ sage leaves.
 - Once melted, cook for 10-15 min (don't let butter burn).
+
+**2. Cook the pasta**
+
 - Cook the pasta meanwhile.
+
+**3. Toss**
+
 - Toss pasta & parmesan cheese with the sage butter.

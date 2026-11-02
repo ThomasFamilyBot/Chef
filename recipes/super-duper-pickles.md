@@ -82,12 +82,14 @@ ingredients:
   - measure: 1 gallon
     item: Water
     prep: Ice-cold
+    group: 1 -> Brine
     qty: 1
     unit: gallon
     shop: false
   - measure: 12 (the directions say 12.5 lb)
     item: Cucumbers
     prep: Washed, cut into 4-6 wedges
+    group: 2 -> Cut the cucumbers
     qty: 12
     unit: each
 nutrition:
@@ -200,8 +202,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Bring all `1 -> Brine` ingredients to a boil, then add 1 gallon of ice-cold water.
+**1. Brine**
+
+- Bring all `1 -> Brine` ingredients except the water to a boil, then add the 1 gallon of ice-cold water.
+**2. Cut the cucumbers**
+
 - Cut 12.5 lb of washed cucumbers into 4-6 wedges and place in a 1 1/2 gallon bowl.
+**3. Pickle**
+
 - Pour brine over cut cucumbers and leave covered for at least one day.
 
 **Half batch (from the sheet's second column)**

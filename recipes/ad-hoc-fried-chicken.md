@@ -18,10 +18,12 @@ ingredients:
   - measure: 5 lb
     item: Whole Chicken
     prep: Cut into 4 breast quarters, 2 legs / thighs / wings. Brined (see Fried Chicken Brine)
+    group: 1 -> Brine the chicken
     qty: 5
     unit: lb
   - measure: 5 quarts
     item: Peanut Oil
+    group: 2 -> Heat the oil
     qty: 5
     unit: quart
     section: Oils, Vinegars & Condiments
@@ -30,21 +32,24 @@ ingredients:
       note: deep-frying oil; ~10% assumed absorbed by the chicken, rest discarded
   - measure: 1 quart
     item: Buttermilk
+    group: 4 -> Mix the dredge
     qty: 1
     unit: quart
   - measure: To taste
     item: Kosher Salt
     prep: For seasoning the buttermilk
+    group: 4 -> Mix the dredge
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: For seasoning the buttermilk
+    group: 4 -> Mix the dredge
     qty: 1
     unit: to taste
   - measure: 6 cups (1.6 lb)
     item: All-Purpose Flour
-    group: 1 -> Dredge
+    group: 4 -> Mix the dredge
     qty: 6
     unit: cup
     nutrition:
@@ -52,7 +57,7 @@ ingredients:
       note: dredge; ~30% of the flour mix assumed to stick
   - measure: 1/4 cup
     item: Garlic Powder
-    group: 1 -> Dredge
+    group: 4 -> Mix the dredge
     qty: 0.25
     unit: cup
     nutrition:
@@ -60,7 +65,7 @@ ingredients:
       note: part of the dredge; ~30% assumed to stick
   - measure: 1/4 cup
     item: Onion Powder
-    group: 1 -> Dredge
+    group: 4 -> Mix the dredge
     qty: 0.25
     unit: cup
     nutrition:
@@ -68,41 +73,45 @@ ingredients:
       note: part of the dredge; ~30% assumed to stick
   - measure: 1 TBLS + 1 tsp
     item: Paprika
-    group: 1 -> Dredge
+    group: 4 -> Mix the dredge
     qty: 4
     unit: tsp
   - measure: 1 TBLS + 1 tsp
     item: Cayenne
-    group: 1 -> Dredge
+    group: 4 -> Mix the dredge
     qty: 4
     unit: tsp
   - measure: 1 TBLS + 1 tsp
     item: Kosher Salt
-    group: 1 -> Dredge
+    group: 4 -> Mix the dredge
     qty: 4
     unit: tsp
   - measure: 1 tsp
     item: Black Pepper
-    group: 1 -> Dredge
+    group: 4 -> Mix the dredge
     qty: 1
     unit: tsp
   - measure: To taste
     item: Flaky Sea Salt
     prep: Fleur de sel or fine sea salt, for finishing
+    group: 5 -> Cook
     qty: 1
     unit: to taste
   - measure: 1 bunch
     item: Fresh Rosemary
     prep: For frying the sprigs
+    group: 5 -> Cook
     qty: 1
     unit: bunch
   - measure: 1 bunch
     item: Fresh Thyme
     prep: For frying the sprigs
+    group: 5 -> Cook
     qty: 1
     unit: bunch
   - measure: 1 roll
     item: Parchment Paper
+    group: 3 -> Set up the pans
     qty: 1
     unit: each
     section: Household
@@ -110,6 +119,7 @@ ingredients:
   - measure: 2 bottles
     item: BBQ Sauce
     prep: For serving
+    group: 6 -> Serve
     qty: 2
     unit: bottle
     nutrition:
@@ -118,6 +128,7 @@ ingredients:
   - measure: 2 bottles
     item: Ranch Dressing
     prep: For serving
+    group: 6 -> Serve
     qty: 2
     unit: bottle
     nutrition:
@@ -126,6 +137,7 @@ ingredients:
   - measure: 2 bottles
     item: Honey
     prep: For serving
+    group: 6 -> Serve
     qty: 2
     unit: bottle
     nutrition:
@@ -302,27 +314,27 @@ nutrition:
 ---
 5 lb and double fryer = 1 hr 15 min total.
 
-**Brine**
+**1. Brine the chicken**
 
 - Brine for 12 hours (NO MORE). Rinse under cold water (no herbs / spice on skin). Pat dry with paper towels, let rest for at least 1.5 hours (room temp).
 
-**Oil**
+**2. Heat the oil**
 
 - No more than 1/3 way up pot. Heat to 350-375°F. Cook at 320°F.
 
-**Cover**
+**3. Set up the pans**
 
 - Cover one baking sheet w/ parchment paper.
 - Place cooling rack over 2nd baking sheet.
 
-**Mix**
+**4. Mix the dredge**
 
-- Flour, garlic, onion, paprika, cayenne, kosher salt, black pepper (`1 -> Dredge`; will be divided b/w bowl 1 and bowl 3).
+- Flour, garlic, onion, paprika, cayenne, kosher salt, black pepper (`4 -> Mix the dredge`; will be divided b/w bowl 1 and bowl 3).
 - Bowl 1: Initial coating -> half the mixture.
 - Bowl 2: Dredge -> buttermilk seasoned w/ salt and pepper.
 - Bowl 3: 2nd coating -> half the mixture.
 
-**Cook** at 320°F
+**5. Cook** at 320°F
 
 - Start w/ thighs - coating (turn, pat off excess), buttermilk (excess run to bowl), 2nd coating, parchment lined pan.
 - Thighs in -> 2 min no move, 11 to 12 min total (deep golden brown). Coat drumsticks.
@@ -334,4 +346,7 @@ nutrition:
 - Wings 6 min.
 - Fry herb sprigs.
 
-Need to reheat? Oven at 400°F for a minute or 2.
+**6. Serve**
+
+- Serve with BBQ sauce, ranch and honey on the side.
+- Need to reheat? Oven at 400°F for a minute or 2.

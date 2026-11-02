@@ -16,40 +16,49 @@ ingredients:
   - measure: 2 cloves
     item: Garlic
     prep: Minced
+    group: 1 -> Sauté the garlic and parsley
     qty: 2
     unit: clove
   - measure: 1/4 cup
     item: Flat-Leaf Parsley
     prep: Chopped (doc just says "1/4"; assuming cup)
+    group: 1 -> Sauté the garlic and parsley
     qty: 0.25
     unit: cup
   - measure: 1/4 cup
     item: Olive Oil
+    group: 1 -> Sauté the garlic and parsley
     qty: 0.25
     unit: cup
   - measure: 15 oz can
     item: Crushed Tomatoes, 15 oz can
+    group: 2 -> Make the sauce
     qty: 1
     unit: can
   - measure: 7 1/2 oz can
     item: Baby Clams, 7.5 oz can
+    group: 2 -> Make the sauce
     qty: 1
     unit: can
     section: Canned & Jarred
   - measure: to taste
     item: Kosher Salt
+    group: 2 -> Make the sauce
     qty: 1
     unit: to taste
   - measure: to taste
     item: Black Pepper
+    group: 2 -> Make the sauce
     qty: 1
     unit: to taste
   - measure: to taste
     item: Red Pepper Flakes
+    group: 2 -> Make the sauce
     qty: 1
     unit: to taste
   - measure: 1-1 1/2 lb
     item: Spaghetti
+    group: 3 -> Cook the pasta and toss
     qty: 1.5
     unit: lb
 nutrition:
@@ -140,8 +149,16 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Heavy saucepan, med heat. Saute garlic & parsley in oil. Do NOT allow garlic to brown.
+**1. Sauté the garlic and parsley**
+
+- Heavy saucepan, med heat (pan surface 300-350°F). Saute garlic & parsley in oil. Do NOT allow garlic to brown.
+
+**2. Make the sauce**
+
 - Add tomatoes & clams.
 - Season w/ salt, pepper and chili flakes.
 - Turn heat to low, cover for 30-40 min.
+
+**3. Cook the pasta and toss**
+
 - Cook the spaghetti and toss with the sauce.

@@ -17,49 +17,60 @@ ingredients:
   - measure: 2 cups (1 pint)
     item: Heavy Cream
     prep: Divided (1 & 1)
+    group: 1 -> Chocolate base
     qty: 2
     unit: cup
   - measure: 3 TBLS
     item: Cocoa Powder
     prep: Unsweetened Dutch-process
+    group: 1 -> Chocolate base
     qty: 3
     unit: TBLS
   - measure: 10 oz
     item: Bittersweet Chocolate
     prep: Chopped, divided (5 & 5). Guittard 72% cacao
+    group: 1 -> Chocolate base (then 3 -> Chill and churn)
     qty: 10
     unit: oz
   - measure: 1 cup
     item: Whole Milk
+    group: 2 -> Custard
     qty: 1
     unit: cup
   - measure: 3/4 cup
     item: Granulated Sugar
+    group: 2 -> Custard
     qty: 0.75
     unit: cup
   - measure: Pinch
     item: Kosher Salt
+    group: 2 -> Custard
     qty: 1
     unit: pinch
   - measure: 5 large
     item: Egg Yolks
+    group: 2 -> Custard
     qty: 5
     unit: each
   - measure: 2 large
     item: Orange
     prep: Zest grated
+    group: 2 -> Custard
     qty: 2
     unit: each
   - measure: 1/2 tsp
     item: Vanilla Extract
+    group: 2 -> Custard
     qty: 0.5
     unit: tsp
   - measure: 1/2 tsp
     item: Orange Extract
+    group: 2 -> Custard
     qty: 0.5
     unit: tsp
   - measure: 2 TBLS
     item: Grand Marnier
+    group: 2 -> Custard
     qty: 2
     unit: TBLS
     section: Beverages, Beer & Wine
@@ -167,21 +178,21 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Chocolate base**
+**1. Chocolate base**
 
 - Warm 1 cup of the cream with the cocoa powder in a medium saucepan, whisking to thoroughly blend the cocoa.
-- Bring to a boil, then reduce the heat and simmer at a very low boil for 30 seconds, whisking constantly. Remove from the heat and add 5 oz of the chopped chocolate, stirring until smooth.
+- Bring to a boil, then reduce the heat and simmer at a very low boil (liquid 185-205°F) for 30 seconds, whisking constantly. Remove from the heat and add 5 oz of the chopped chocolate, stirring until smooth.
 - Stir in the remaining 1 cup cream.
 - Pour the mixture into a large bowl, scraping the saucepan as thoroughly as possible, and set a mesh strainer on top of the bowl.
 
-**Custard**
+**2. Custard**
 
 - Warm the milk, sugar, salt, and orange zest in the same saucepan.
 - In a separate medium bowl, whisk together the egg yolks. Slowly pour the warm milk into the egg yolks, whisking constantly, then scrape the warmed egg yolks back into the saucepan.
-- Stir the mixture constantly over medium heat with a heatproof spatula, scraping the bottom as you stir, until the mixture thickens and coats the spatula (hit 170°F = pasteurized).
+- Stir the mixture constantly over medium heat (pan surface 300-350°F) with a heatproof spatula, scraping the bottom as you stir, until the mixture thickens and coats the spatula (hit 170°F = pasteurized).
 - Pour the custard through the strainer and stir it into the chocolate mixture until smooth.
 - Stir in the vanilla and orange extracts, and the Grand Marnier. Stir until cool over an ice bath.
 
-**Chill and churn**
+**3. Chill and churn**
 
 - Chill the mixture thoroughly in the refrigerator, then freeze it in your ice cream maker according to manufacturer's instructions. At the end, stir in the remaining 5 oz chopped chocolate pieces.

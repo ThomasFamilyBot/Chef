@@ -16,36 +16,43 @@ ingredients:
   - measure: 3 oz
     item: Swiss Cheese
     prep: Grated
+    group: 1 -> Cheese bowl
     qty: 3
     unit: oz
   - measure: 3 oz
     item: Gorgonzola
     prep: Soft; crumbled or cubed
+    group: 1 -> Cheese bowl
     qty: 3
     unit: oz
   - measure: 4 oz
     item: Fontina
     prep: Sweet fontina; grated
+    group: 1 -> Cheese bowl
     qty: 4
     unit: oz
   - measure: 4 oz
     item: Robiola
+    group: 1 -> Cheese bowl
     qty: 4
     unit: oz
     section: Cheese & Deli
   - measure: 2 oz
     item: Unsalted Butter
     prep: Cut into small cubes
+    group: 1 -> Cheese bowl
     qty: 2
     unit: oz
   - measure: 1/4 cup
     item: Parmesan
     prep: Shredded or grated
+    group: 3 -> Toss
     qty: 0.25
     unit: cup
   - measure: 1-1 1/2 lb
     item: Penne
     prep: Or sedani
+    group: 2 -> Cook the pasta
     qty: 1.5
     unit: lb
 nutrition:
@@ -120,8 +127,19 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Put first 5 ingredients (the four cheeses and the butter) into a large bowl.
+**1. Cheese bowl**
+
+- Put first 5 ingredients (the four cheeses and the butter, `1 -> Cheese bowl`) into a large bowl.
+
+**2. Cook the pasta**
+
 - Cook the pasta.
+
+**3. Toss**
+
 - Add hot pasta and toss until cheese and butter are melted & blended.
 - Sprinkle in Parm, toss again.
+
+**4. Serve**
+
 - Serve.

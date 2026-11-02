@@ -15,41 +15,46 @@ drive_doc_id: 1La0hFQP2rhXtvi2p-YXeRZEnMR9Q6nbTeOILFH4_zpA
 ingredients:
   - measure: 3 cups
     item: All-Purpose Flour
+    group: 1 -> Batter
     qty: 3
     unit: cup
   - measure: 3 cups
     item: Whole Milk
     prep: Room temperature
+    group: 1 -> Batter
     qty: 3
     unit: cup
   - measure: 6
     item: Eggs
     prep: Room temperature
+    group: 1 -> Batter
     qty: 6
     unit: each
   - measure: 1 TBLS
     item: Kosher Salt
+    group: 1 -> Batter
     qty: 1
     unit: TBLS
   - measure: 6 oz (1 1/2 sticks)
     item: Unsalted Butter
     prep: Melted / clarified, cooled a bit
+    group: 1 -> Batter
     qty: 6
     unit: oz
   - measure: 2 oz (1/2 stick)
     item: Unsalted Butter
     prep: Softened
-    group: Honey Butter
+    group: 3 -> Honey butter
     qty: 2
     unit: oz
   - measure: ~1 tsp
     item: Honey
-    group: Honey Butter
+    group: 3 -> Honey butter
     qty: 1
     unit: tsp
   - measure: Pinch
     item: Kosher Salt
-    group: Honey Butter
+    group: 3 -> Honey butter
     qty: 1
     unit: pinch
 nutrition:
@@ -134,7 +139,7 @@ nutrition:
 ---
 When combining ingredients, you want them all at room temperature. Take the milk & eggs out before starting the recipe and let the butter cool a bit from being melted before you start combining ingredients.
 
-**Batter**
+**1. Batter**
 
 - Preheat oven to 450°F. Put the ramekins in the oven so they heat up too.
 - Mix eggs together, then add to the milk. Mix together.
@@ -145,12 +150,12 @@ When combining ingredients, you want them all at room temperature. Take the milk
 - Brush the inside of the ramekins with butter using a pastry brush.
 - Fill popover molds with batter.
 
-**Baking**
+**2. Baking**
 
 - 20 minutes at 450°F.
 - 10 minutes at 350°F.
 - 20 minutes at 325°F.
 
-**Honey butter**
+**3. Honey butter**
 
 - Mix half a stick of butter (1/4 cup) with ~1 tsp honey and a pinch of salt.

@@ -16,24 +16,29 @@ ingredients:
   - measure: 1/3 cup
     item: Champagne Vinegar
     prep: Deepa used equal parts champagne vinegar and white balsamic
+    group: 1 -> Whisk
     qty: 0.333
     unit: cup
   - measure: 2/3 cup
     item: Olive Oil
     prep: Deepa did a mix that was 1/3 walnut and 2/3 olive
+    group: 1 -> Whisk
     qty: 0.667
     unit: cup
   - measure: 2-3 tsp
     item: Garlic
     prep: Minced (to taste)
+    group: 1 -> Whisk
     qty: 3
     unit: tsp
   - measure: 1 TBLS
     item: Dijon Mustard
+    group: 1 -> Whisk
     qty: 1
     unit: TBLS
   - measure: 1
     item: Egg Yolks
+    group: 1 -> Whisk
     qty: 1
     unit: each
 nutrition:
@@ -92,4 +97,6 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
+**1. Whisk**
+
 - Whisk everything together. (The original doc is just the ingredient list; no method was written down.)

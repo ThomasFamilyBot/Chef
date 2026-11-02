@@ -16,39 +16,47 @@ ingredients:
   - measure: 2 cloves
     item: Garlic
     prep: Minced
+    group: 1 -> Start the sauce
     qty: 2
     unit: clove
   - measure: 3
     item: Anchovy Fillets
     prep: Minced
+    group: 1 -> Start the sauce
     qty: 3
     unit: each
     section: Canned & Jarred
   - measure: 3 TBLS
     item: Olive Oil
+    group: 1 -> Start the sauce
     qty: 3
     unit: TBLS
   - measure: 15 oz can
     item: Crushed Tomatoes, 15 oz can
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: can
   - measure: 1/2 cup
     item: Black Olives
     prep: Small, pitted
+    group: 2 -> Simmer the sauce
     qty: 0.5
     unit: cup
   - measure: 1 TBLS
     item: Capers
     prep: Tiny ones
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: TBLS
   - measure: to taste
     item: Black Pepper
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: 1-1 1/2 lb
     item: Spaghetti
     prep: Or penne
+    group: 3 -> Cook the pasta
     qty: 1.5
     unit: lb
 nutrition:
@@ -131,8 +139,16 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
+**1. Start the sauce**
+
 - Finely mince garlic & anchovy together.
-- Heavy saucepan - oil, garlic, anchovy. Med heat for 3 min.
+- Heavy saucepan - oil, garlic, anchovy. Med heat (pan surface 300-350°F) for 3 min.
+
+**2. Simmer the sauce**
+
 - Add tomatoes, olives, & capers. Season with pepper.
-- Turn heat to low, cook for 30 min stirring occasionally.
+- Turn heat to low, cook for 30 min stirring occasionally (a bare simmer, 180-190°F).
+
+**3. Cook the pasta**
+
 - Cook the pasta and toss with the sauce.

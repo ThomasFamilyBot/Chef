@@ -16,17 +16,20 @@ ingredients:
   - measure: 1 package (est.)
     item: Soup Dumplings, frozen
     prep: Not listed in the doc; store-bought, straight from the freezer
+    group: 1 -> Pan-fry the bottoms
     qty: 1
     unit: package
     section: Frozen
   - measure: 1 TBLS + 2 tsp (5 tsp)
     item: Neutral Oil
     prep: Doc says "5 tsp oil (1 2/3 TBLS)"
+    group: 1 -> Pan-fry the bottoms
     qty: 5
     unit: tsp
   - measure: 1/2 cup
     item: Chicken Stock
     prep: Broth OR water
+    group: 2 -> Steam
     qty: 0.5
     unit: cup
     section: Canned & Jarred
@@ -72,8 +75,13 @@ nutrition:
 ---
 Pan-fried from frozen.
 
+**1. Pan-fry the bottoms**
+
 - 5 tsp oil (1 2/3 TBLS) in the pan, dumplings in.
-- Low for 5 min - looking for lightly toasted bottom.
+- Low (pan surface 200-250°F) for 5 min - looking for lightly toasted bottom.
+
+**2. Steam**
+
 - 1/2 cup broth OR water.
 - Cover.
 - 8 min.

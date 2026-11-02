@@ -16,45 +16,54 @@ ingredients:
   - measure: 4 oz
     item: Smoked Bacon
     prep: Cubed
+    group: 1 -> Sauté the bacon and onion
     qty: 4
     unit: oz
   - measure: 1 medium
     item: Yellow Onion
     prep: Finely chopped
+    group: 1 -> Sauté the bacon and onion
     qty: 1
     unit: each
   - measure: 3 TBLS
     item: Olive Oil
+    group: 1 -> Sauté the bacon and onion
     qty: 3
     unit: TBLS
   - measure: 15 oz can
     item: Crushed Tomatoes, 15 oz can
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: can
   - measure: 1 large
     item: Yellow Bell Pepper
     prep: Julienned
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: each
     section: Produce
   - measure: to taste
     item: Kosher Salt
     prep: For seasoning
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: to taste
     item: Black Pepper
     prep: For seasoning
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: to taste
     item: Paprika
     prep: Added before serving
+    group: 4 -> Finish
     qty: 1
     unit: to taste
   - measure: 1-1 1/2 lb
     item: Fusilli
     prep: Or penne
+    group: 3 -> Cook the pasta
     qty: 1.5
     unit: lb
     section: Pasta, Rice & Grains
@@ -146,9 +155,20 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Heavy saucepan, med heat. Saute bacon, onions in oil until lightly browned.
+**1. Sauté the bacon and onion**
+
+- Heavy saucepan, med heat (pan surface 300-350°F). Saute bacon, onions in oil until lightly browned.
+
+**2. Simmer the sauce**
+
 - Add tomatoes & yellow pepper strips.
 - Season w/ salt & pepper.
-- Turn heat to low, cover for 30-40 min. Stir occasionally.
+- Turn heat to low (bare simmer, 180-190°F), cover for 30-40 min. Stir occasionally.
+
+**3. Cook the pasta**
+
 - Cook the pasta.
+
+**4. Finish**
+
 - Add paprika before serving. Toss with the pasta.

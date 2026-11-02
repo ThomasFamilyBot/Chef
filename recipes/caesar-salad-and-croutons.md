@@ -18,82 +18,82 @@ ingredients:
   - measure: 1/2 loaf
     item: Crusty Italian Bread
     prep: Hand-torn into small pieces
-    group: Croutons
+    group: 1 -> Croutons
     qty: 0.5
     unit: loaf
   - measure: 1/4 cup
     item: Extra-Virgin Olive Oil
-    group: Croutons
+    group: 1 -> Croutons
     qty: 0.25
     unit: cup
   - measure: 1/4 cup
     item: Parmesan
     prep: Grated
-    group: Croutons
+    group: 1 -> Croutons
     qty: 0.25
     unit: cup
   - measure: 2 TBLS
     item: Fresh Thyme
     prep: Leaves only
-    group: Croutons
+    group: 1 -> Croutons
     qty: 2
     unit: TBLS
   - measure: To taste
     item: Kosher Salt
-    group: Croutons
+    group: 1 -> Croutons (then 2 -> Dressing)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: Croutons
+    group: 1 -> Croutons (then 2 -> Dressing)
     qty: 1
     unit: to taste
   - measure: 4 fillets
     item: Anchovy Fillets
-    group: Dressing
+    group: 2 -> Dressing
     qty: 4
     unit: fillet
     section: Canned & Jarred
   - measure: 1 clove
     item: Garlic
     prep: Smashed
-    group: Dressing
+    group: 2 -> Dressing
     qty: 1
     unit: clove
   - measure: 2
     item: Lemon
     prep: Juiced
-    group: Dressing
+    group: 2 -> Dressing
     qty: 2
     unit: each
   - measure: 1 TBLS
     item: Water
-    group: Dressing
+    group: 2 -> Dressing
     qty: 1
     unit: TBLS
     shop: false
   - measure: 1/2 cup
     item: Extra-Virgin Olive Oil
-    group: Dressing
+    group: 2 -> Dressing
     qty: 0.5
     unit: cup
   - measure: 1/2 cup
     item: Parmesan
     prep: Freshly grated
-    group: Dressing
+    group: 2 -> Dressing
     qty: 0.5
     unit: cup
   - measure: 2 heads
     item: Romaine Lettuce
     prep: Torn
-    group: Salad
+    group: 3 -> Assemble the salad
     qty: 2
     unit: head
   - measure: Extra
     item: Parmesan
     prep: Freshly grated, for garnish
-    group: Salad
+    group: 3 -> Assemble the salad
     qty: 0.25
     unit: cup
 nutrition:
@@ -224,19 +224,19 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Croutons**
+**1. Croutons**
 
 - Preheat oven to 350°F.
 - Toss bread pieces with olive oil, Parmesan, thyme, salt, and pepper.
 - Spread on a baking sheet and bake until golden brown, about 15 minutes. Let cool before adding to the salad.
 
-**Dressing**
+**2. Dressing**
 
 - Blend anchovies, garlic, lemon juice, and water until smooth.
 - With blender running, slowly drizzle in the olive oil to emulsify.
 - Stir in Parmesan, season with salt and pepper, and set aside (refrigerate if needed).
 
-**Assemble**
+**3. Assemble the salad**
 
 - Toss the lettuce in a large bowl with enough dressing to coat.
 - Add croutons and extra Parmesan, mix gently, and serve immediately.

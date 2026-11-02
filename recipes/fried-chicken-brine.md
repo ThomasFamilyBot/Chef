@@ -16,42 +16,51 @@ ingredients:
   - measure: '5'
     item: Lemon
     prep: Halved
+    group: 1 -> Make the brine
     qty: 5
     unit: each
   - measure: '12'
     item: Bay Leaves
+    group: 1 -> Make the brine
     qty: 12
     unit: each
   - measure: 1 bunch (4 oz)
     item: Flat-Leaf Parsley
+    group: 1 -> Make the brine
     qty: 1
     unit: bunch
   - measure: 1 bunch (1 oz)
     item: Fresh Thyme
+    group: 1 -> Make the brine
     qty: 1
     unit: bunch
   - measure: 1 head
     item: Garlic
     prep: Halved through equator
+    group: 1 -> Make the brine
     qty: 1
     unit: head
   - measure: 1/4 cup
     item: Black Peppercorns
+    group: 1 -> Make the brine
     qty: 0.25
     unit: cup
   - measure: 2 cups (10 oz)
     item: Kosher Salt
     prep: Diamond Crystal
+    group: 1 -> Make the brine
     qty: 2
     unit: cup
   - measure: 2 gallons (32 cups; 7.57 kg / 16.7 lb by weight)
     item: Water
+    group: 1 -> Make the brine
     qty: 2
     unit: gallon
     shop: false
   - measure: '1'
     item: Stockpot
     prep: Equipment, big enough for 2 gallons plus the chicken
+    group: 1 -> Make the brine
     qty: 1
     unit: each
     shop: false
@@ -138,10 +147,10 @@ nutrition:
   excluded:
   - Stockpot
 ---
-**Make the brine**
+**1. Make the brine**
 
 - Combine everything, bring to a boil, boil for 1 min, stir to dissolve salt.
 
-**Chill**
+**2. Chill**
 
 - Chill before using, refrigerate for up to 3 days.

@@ -16,66 +16,71 @@ ingredients:
   - measure: 3-4 lb
     item: Whole Chicken
     prep: Spatchcocked
+    group: 1 -> Salt the chicken
     qty: 4
     unit: lb
   - measure: 4 sprigs (recently put in 8 and was good)
     item: Fresh Herbs
     prep: Thyme, marjoram, rosemary or sage
+    group: 1 -> Salt the chicken
     qty: 8
     unit: sprig
     section: Produce
   - measure: 1 TBLS
     item: Kosher Salt
     prep: 3/4 tsp per lb of chicken
+    group: 1 -> Salt the chicken
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Black Pepper
     prep: Ground
+    group: 1 -> Salt the chicken
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Dark Brown Sugar
-    group: Rub
+    group: 2 -> Rub
     qty: 1
     unit: TBLS
   - measure: 1 tsp
     item: Ancho Chili Powder
     prep: Or New Mexico chili powder
-    group: Rub
+    group: 2 -> Rub
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Paprika
     prep: Sweet or smoked
-    group: Rub
+    group: 2 -> Rub
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Dry Mustard Powder
-    group: Rub
+    group: 2 -> Rub
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 tsp
     item: Dried Oregano
-    group: Rub
+    group: 2 -> Rub
     qty: 1
     unit: tsp
   - measure: 1/4 tsp
     item: Ground Allspice
-    group: Rub
+    group: 2 -> Rub
     qty: 0.25
     unit: tsp
   - measure: 2
     item: Bay Leaves
     prep: Torn
-    group: Rub
+    group: 2 -> Rub
     qty: 2
     unit: leaf
   - measure: 1
     item: Lemon
     prep: Optional, for serving
+    group: 3 -> Roast
     qty: 1
     unit: each
 nutrition:
@@ -190,24 +195,24 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**2-3 days before cooking**
+**1. Salt the chicken (2-3 days before cooking)**
 
 - Pat chicken dry.
 - Slide a finger under the skin at each breast and outside the thickest section of each thigh; push an herb sprig into each pocket.
 - 3/4 tsp salt per pound of chicken, equivalent amount of pepper. Sprinkle all over.
 - Cover loosely and refrigerate. Extra points for patting dry daily.
 
-**Night before cooking**
+**2. Rub (night before cooking)**
 
-- Mix all remaining spices (`Rub`) into a dry rub. Coat chicken. Put back in fridge.
+- Mix all remaining spices (`2 -> Rub`) into a dry rub. Coat chicken. Put back in fridge.
 
-**Cooking** (total cook time 45 min - 1 hr, but can take as little as 30 min)
+**3. Roast** (total cook time 45 min - 1 hr, but can take as little as 30 min)
 
 - Oven at 475°F.
-- Pre-heat iron skillet over medium heat (or use a flameproof roasting pan).
+- Pre-heat iron skillet over medium heat (pan surface 300-350°F) (or use a flameproof roasting pan).
 - Put chicken breast side up in pan; it should sizzle.
 - Put pan in oven.
 - After 15 min: check to make sure it's browning. If yes, carry on. If no, raise temp to 500°F. If charring, lower temp to 450°F.
-- After 30 min (total cooking time): check to see if it's done. If not, flip chicken and give it another 10 min. Keep flipping every 10 min until done.
+- After 30 min (total cooking time): check to see if it's done (thigh 175-185°F on the probe). If not, flip chicken and give it another 10 min. Keep flipping every 10 min until done.
 - To finish: pour off clear fat. Add 1 TBLS of water to pan and swirl. Pour juices from pan onto chicken (extra points for slashing the skin between the thighs and breast so the juice gets to the meat).
 - If desired, squeeze lemon before serving.

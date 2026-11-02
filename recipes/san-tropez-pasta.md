@@ -16,41 +16,50 @@ ingredients:
   - measure: 1 medium
     item: Yellow Onion
     prep: Finely minced
+    group: 1 -> Cook the onion
     qty: 1
     unit: each
   - measure: 1/4 cup + 1 TBLS
     item: Olive Oil
+    group: 1 -> Cook the onion
     qty: 5
     unit: TBLS
   - measure: 3 TBLS
     item: Unsalted Butter
+    group: 1 -> Cook the onion
     qty: 3
     unit: TBLS
   - measure: 15 oz can
     item: Crushed Tomatoes, 15 oz can
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: can
   - measure: 1/2 cup
     item: Heavy Cream
+    group: 4 -> Finish
     qty: 0.5
     unit: cup
   - measure: 1/2 cup
     item: Swiss Cheese
     prep: Grated
+    group: 4 -> Finish
     qty: 0.5
     unit: cup
   - measure: 1-1 1/2 lb
     item: Penne
+    group: 3 -> Cook the penne
     qty: 1.5
     unit: lb
   - measure: to taste
     item: Kosher Salt
     prep: For seasoning
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: to taste
     item: Black Pepper
     prep: For seasoning
+    group: 2 -> Simmer the sauce
     qty: 1
     unit: to taste
 nutrition:
@@ -141,9 +150,20 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-- Heavy saucepan - add onions, oil, butter. Turn to low and cover.
+**1. Cook the onion**
+
+- Heavy saucepan - add onions, oil, butter. Turn to low (pan surface 200-250°F) and cover.
 - Cook for ~20 minutes, checking occasionally to make sure onions aren't burning.
+
+**2. Simmer the sauce**
+
 - When onions are lightly browned, add tomatoes. Season with salt & pepper.
-- Heat to med-low, cover for 30 min (you can get away with 20 if you want).
+- Heat to med-low (pan surface 250-300°F), cover for 30 min (you can get away with 20 if you want).
+
+**3. Cook the penne**
+
 - Cook the penne.
+
+**4. Finish**
+
 - Add cream, toss with pasta and swiss cheese.
