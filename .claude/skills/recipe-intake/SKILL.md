@@ -5,6 +5,10 @@ description: Convert a recipe from any source (URL, Google Doc, photo/PDF/HEIC, 
 
 # Recipe intake
 
+## 0. Pull first
+
+`git pull --rebase origin main` before anything else; other sessions may have changed the rules, the canonical table or the recipes.
+
 ## 1. Get the source
 
 - **URL**: fetch the page. If it is paywalled or blocked (NYT Cooking often is), ask the person to paste the text or send a screenshot.

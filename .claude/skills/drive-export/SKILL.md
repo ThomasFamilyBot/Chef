@@ -5,6 +5,7 @@ description: Write a recipe from recipes/<slug>.md back to Google Drive as a Goo
 
 # Export a recipe to Google Drive
 
+0. `git pull --rebase origin main` first. The Docs must be rendered from the current `main`, not from whatever this session checked out earlier. When asked to "refresh all Google Docs", pull, then re-render every recipe and compare against the Doc's current content; a Doc is stale if its ingredient table, directions, technique box or nutrition differ in any way.
 1. Render HTML: `python3 scripts/export_gdoc_html.py recipes/<slug>.md` prints HTML to stdout (or `--out file.html`).
 2. Find the destination folder. Default is **Converted Recipies** (`1r7iPvPCANIL6WebFZSeCiCyS0Kr57bdN`), pasta sauces go to its sub-folder **Converted Pasta Sauce** (`1XPi5GTWUkroQ27qPC6YihXKenPeX-M3C`). The family may reorganise folders; search Drive for the folder by name if the id no longer resolves, and ask if there are several candidates.
 3. If the recipe's front matter already has a `drive_doc_id`, the Drive `update_file` tool cannot replace content, so: create the new doc first (step 4), then move the old one to trash with `mcp__Google_Drive__trash_file`, then write the new id back. Never trash before the new doc exists. Append a row to `docs/DRIVE_TRASH_LOG.md` (date, recipe, trashed id, new id, why) for every trash, so the family has an after-the-fact record.

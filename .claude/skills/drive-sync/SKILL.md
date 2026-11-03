@@ -7,6 +7,7 @@ description: Pull edits the family made in a recipe's Google Doc back into the a
 
 The family prints and cooks from the Google Docs and edits them as they go. The recipe file in the repo is the source of truth for the site, so edits have to flow back.
 
+0. `git pull --rebase origin main` first.
 1. **Find the recipe.** Take the doc id from the link (`/document/d/<id>/`) and grep: `grep -l "drive_doc_id: <id>" recipes/*.md`. Also check `docs/DOC_MAP.md`. If nothing matches, search Drive for the doc title and ask which recipe it belongs to; if it is a brand-new recipe, use `recipe-intake` instead.
 2. **Read the doc** with the Drive tools and read the current recipe file side by side.
 3. **Apply the differences** to the recipe file: title, reference, serves, times, the ingredient table (measure / item / prep / group, keeping `qty`/`unit` in sync with any changed measure), and the directions. Preserve the house conventions (units, canonical item names, mise groups, technique temperatures). Keep `drive_doc_id` as is. Note what changed in one line each; if an edit looks like an accident (a deleted ingredient that the directions still use), ask.
