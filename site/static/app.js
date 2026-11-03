@@ -39,6 +39,12 @@
     if (b) { toggleRecipe(b.dataset.slug); }
   });
 
+  (function () {
+    const b = document.getElementById('theme-toggle'); if (!b) return;
+    const apply = () => { const dark = document.documentElement.getAttribute('data-theme') === 'dark'; b.textContent = dark ? '☀' : '☾'; };
+    b.addEventListener('click', () => { const dark = document.documentElement.getAttribute('data-theme') === 'dark'; if (dark) document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', 'dark'); try { localStorage.setItem('chef.theme', dark ? 'light' : 'dark'); } catch {} apply(); });
+    apply();
+  })();
   function setNavHeight() { const n = document.querySelector('nav.nav'); if (n) document.documentElement.style.setProperty('--nav-h', n.offsetHeight + 'px'); }
   window.addEventListener('load', setNavHeight); window.addEventListener('resize', setNavHeight); setNavHeight();
 
