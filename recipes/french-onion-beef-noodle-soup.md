@@ -262,7 +262,7 @@ nutrition:
 ---
 Allow 3 hours for the cook. Stays warm for ~2 hours after finished without extra heat. Needs a wooden spoon, tongs, 2 Dutch ovens, fine colander. Non-stop for 1.5 hours (cook and initial prep), then +30 min of onion stirring and +30 min of passive simmer.
 
-**1. Brown the ribs** (stock prep can happen while browning)
+**Brown the ribs** (stock prep can happen while browning)
 
 - Large Dutch oven on medium-high (pan surface 375-425°F), add the vegetable oil.
 - Salt the ribs while waiting for oil to heat.
@@ -270,7 +270,7 @@ Allow 3 hours for the cook. Stays warm for ~2 hours after finished without extra
 - Start prep work while waiting.
 - When done, pour off fat, leaving enough to cover the bottom of the pan. Turn heat to medium (pan surface 300-350°F).
 
-**2. Start the stock**
+**Start the stock**
 
 - Finish prep here; start onion prep while cooking stock.
 - Slice ginger, combine with white scallion parts and garlic. Place into Dutch oven with the remaining beef fat and brown, ~4 min.
@@ -279,14 +279,14 @@ Allow 3 hours for the cook. Stays warm for ~2 hours after finished without extra
 - Return beef, add soy & water.
 - Bring to a boil, then reduce to simmer. Cover partially with lid. Simmer until meat is ALMOST falling from bone, ~90 min.
 
-**3. Start onions**
+**Start onions**
 
 - Thinly slice onions.
 - 2nd Dutch oven on medium-high, melt butter until foaming subsides.
 - Add onions & season with salt. If they don't all fit, add as much as you can and cover for 5 min; they'll steam down. Add the rest of the onions. Season with salt.
 - Reduce heat to medium-low (pan surface 250-300°F). Stir frequently until onions are deep golden and softened, but not mushy, 30-45 min.
 
-**4. Refine broth**
+**Refine broth**
 
 - Remove beef and let cool. Tear into bite-size pieces. Discard bone / excess fat.
 - Strain broth through fine mesh into a bowl. Discard solids.
@@ -294,7 +294,7 @@ Allow 3 hours for the cook. Stays warm for ~2 hours after finished without extra
 - Bring to a boil, then reduce to low & simmer. Reduce liquid a bit; you're looking for the flavors to meld, ~30 min.
 - Add vinegar. Taste. Add more soy or vinegar if desired.
 
-**5. Finish & serve**
+**Finish & serve**
 
 - Thinly slice scallion greens.
 - Cook noodles. Have individuals combine noodles and soup in a bowl. Top with scallions. Add soy & vinegar to taste.

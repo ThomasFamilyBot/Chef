@@ -260,20 +260,20 @@ nutrition:
 ---
 Inspired by California Pizza Kitchen's Thai Crunch salad. Make it a dinner by adding sliced grilled chicken, shrimp or steak.
 
-**1. Make the dressing**
+**Make the dressing**
 
 - Chop the garlic and ginger first so the dressing blends smooth, not gritty.
 - Blend everything in `1 -> Make the dressing` except the cilantro until completely smooth.
 - Add the 2 TBLS cilantro and pulse a few seconds, just until finely chopped (added last so the dressing stays creamy-colored, not muddy green).
 - Refrigerate until ready to serve. Keeps up to 1 week; stir or whisk before using, it thickens in the fridge.
 
-**2. Combine the veggies**
+**Combine the veggies**
 
 - In a large bowl, toss the cabbage, carrots, bell pepper, cucumber, edamame, scallions and 1/2 cup chopped cilantro (`2 -> Combine the veggies`).
 - Seed the cucumber: it keeps the salad crisp and stops water from thinning the dressing.
 - The chopped veggies keep up to 2 days in an airtight container, undressed.
 
-**3. Dress and serve**
+**Dress and serve**
 
 - Just before serving, drizzle the dressing over the salad and toss to coat. Best eaten right away while everything is crunchy.
 - Not serving right away? Keep the dressing separate.

@@ -16,113 +16,113 @@ ingredients:
   - measure: 2 TBLS (up to 4)
     item: Olive Oil
     prep: Enough to coat the pot
-    group: 2 -> Sauté and brown
+    group: 1 -> Sauté and brown
     qty: 4
     unit: TBLS
   - measure: 1 1/2 cups (1 large)
     item: Yellow Onion
     prep: Chopped
-    group: 2 -> Sauté and brown
+    group: 1 -> Sauté and brown
     qty: 1
     unit: each
   - measure: 8 cloves
     item: Garlic
     prep: Chopped
-    group: 2 -> Sauté and brown
+    group: 1 -> Sauté and brown
     qty: 8
     unit: clove
   - measure: 1 1/2 lb
     item: Ground Turkey Breast
-    group: 2 -> Sauté and brown
+    group: 1 -> Sauté and brown
     qty: 1.5
     unit: lb
   - measure: 1 1/2 lb
     item: Sweet Italian Sausage
     prep: Removed from casing
-    group: 2 -> Sauté and brown
+    group: 1 -> Sauté and brown
     qty: 1.5
     unit: lb
   - measure: 5 TBLS
     item: Chili Powder
     prep: Whole Foods "blend" is strong; 4 TBLS if you want milder
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 5
     unit: TBLS
   - measure: 1 TBLS
     item: Ground Cumin
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Cocoa Powder
     prep: Chocolate or hot cocoa mix
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: TBLS
   - measure: 1 tsp
     item: Dried Basil
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Cayenne
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: tsp
   - measure: 1/2 tsp
     item: Dried Oregano
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 0.5
     unit: tsp
   - measure: 1/2 tsp
     item: Dried Thyme
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 0.5
     unit: tsp
   - measure: 1/3 cup
     item: Brown Sugar
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 0.333
     unit: cup
   - measure: 28 oz
     item: Crushed Tomatoes, 28 oz can
     prep: With puree
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: can
   - measure: 14.5 fl oz
     item: Chicken Broth, low sodium
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: can
     section: Canned & Jarred
   - measure: 12 fl oz
     item: Beer
     prep: Ale/Stout/Porter. Best ever was an aged Anchor Celebration; Anchor is good
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: bottle
   - measure: 6 oz
     item: Tomato Paste
-    group: 3 -> Season and simmer
+    group: 2 -> Season and simmer
     qty: 1
     unit: can
   - measure: 30-32 oz
     item: Prepared Chili Beans
-    group: 4 -> Finish and serve
+    group: 3 -> Finish and serve
     qty: 2
     unit: can
     section: Canned & Jarred
   - measure: 1/2 lb
     item: Bacon
     prep: For serving
-    group: 2 -> Sauté and brown (then 4 -> Finish and serve)
+    group: 1 -> Sauté and brown (then 3 -> Finish and serve)
     qty: 0.5
     unit: lb
   - measure: 1 block
     item: Cheddar Cheese
     prep: For serving
-    group: 4 -> Finish and serve
+    group: 3 -> Finish and serve
     qty: 1
     unit: each
     nutrition:
@@ -131,7 +131,7 @@ ingredients:
   - measure: 1 container
     item: Sour Cream
     prep: For serving
-    group: 4 -> Finish and serve
+    group: 3 -> Finish and serve
     qty: 1
     unit: container
     nutrition:
@@ -139,7 +139,7 @@ ingredients:
       note: for serving; half the container assumed used
   - measure: 1
     item: Baguette
-    group: 4 -> Finish and serve
+    group: 3 -> Finish and serve
     qty: 1
     unit: each
 nutrition:
@@ -315,25 +315,25 @@ nutrition:
 ---
 **Equipment:** large Dutch oven and a skillet.
 
-**1. Prep**
+**Prep**
 
 - Prep ingredients. Remove sausage from casing and break it up like it's ground beef.
 
-**2. Sauté and brown**
+**Sauté and brown**
 
 - Dutch oven: heat oil over medium-high (pan surface 375-425°F). Skillet: heat to medium-high.
 - Dutch oven: sauté onions & garlic, ~8 min.
 - Skillet: make as much bacon as you want (probably 1/2 lb).
 - Dutch oven & skillet: brown the meat, ~5 min.
 
-**3. Season and simmer**
+**Season and simmer**
 
 - Dutch oven (you're done with the skillet):
     - Add all meat, all spices, brown sugar: ~2 min, stir.
     - Add tomatoes, broth, beer, tomato paste.
     - Simmer (185-205°F) 1 hr 15 min, stirring occasionally to prevent sticking. Done when you reach desired thickness.
 
-**4. Finish and serve**
+**Finish and serve**
 
 - Mix in beans, salt & pepper.
 - Serve with the bacon, cheddar, sour cream and baguette.

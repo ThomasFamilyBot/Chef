@@ -164,17 +164,17 @@ nutrition:
 ---
 15 min active, 90 min total.
 
-**1. Cilantro simple syrup**
+**Cilantro simple syrup**
 
 - Water + sugar to a simmer (185-205°F) in a small saucepan over medium heat (pan surface 300-350°F). Stir to dissolve the sugar, then remove from heat.
 - Add the cilantro and let steep until the syrup tastes like cilantro, at least 1 hour and up to 4 hours. Strain out the cilantro when done.
 
-**2. Jalapeño tequila**
+**Jalapeño tequila**
 
 - Broil (element 500-550°F+, 3-4 inches from the element) or grill the jalapeño until charred and soft, ~5 minutes. Let cool so you can cut it.
 - Cut off the stem and chop (seeds & white ribs make it more spicy).
 - Let the jalapeño soak in the tequila for at least 1 hour. Depending on the heat level you like, leave the jalapeño in the tequila or strain it off and discard.
 
-**3. Build**
+**Build**
 
 - 1 marg = 3 fl oz carrot juice + 1 1/2 fl oz tequila + 1 fl oz OJ + 1/2 fl oz Cointreau + 1/2 fl oz lime + 1/2 fl oz cilantro simple syrup.

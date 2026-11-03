@@ -218,18 +218,18 @@ nutrition:
 ---
 60 min active; ideally give yourself 2 hours before serving. For non-veg, add sausage (Jimmy Dean) or bacon to it.
 
-**1. Sous vide eggs** (75 min)
+**Sous vide eggs** (75 min)
 
 - 146°F for 75 minutes.
 - If no sous vide, [follow the instructions in step 2 here](https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta) (note: preheat oven).
 
-**2. Prep** (30 min)
+**Prep** (30 min)
 
 - Prep onion & bell pepper (can go in same bowl).
 - Prep garlic.
 - Prep spice mix (`2 -> Spice mix`): cumin, paprika, cayenne, saffron, harissa (can go in one bowl).
 
-**3. Cook** (30 min)
+**Cook** (30 min)
 
 - Oil in Dutch oven, medium (pan surface 300-350°F). Add onion and bell pepper. Cook until soft, stirring occasionally, ~20 min.
 - Add garlic, 1-2 min, stir.

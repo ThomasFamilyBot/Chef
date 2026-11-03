@@ -402,29 +402,29 @@ Add another list for whatever you're serving the chicken with (bread, noodles, p
 
 **Day 1**
 
-**1. Large bowl**
+**Large bowl**
 
 - Combine mise grouping `1 -> Large bowl` into large bowl. Cover with plastic and refrigerate overnight.
 
 **Day 2**
 
-**2. Remove f/ Marinade**
+**Remove f/ Marinade**
 
 - Remove chicken and pat dry.
 - Strain marinade through fine strainer. KEEP marinade liquids and solids separately.
 - Season chicken with salt & pepper.
 
-**3. Dutch Oven**
+**Dutch Oven**
 
 - Large dutch oven, med-high (pan surface 375-425°F), heat olive oil (2 TBLS) & 2 TBLS of butter until almost smoking. Sear chicken (pan surface 450-500°F). Turn tongs so skin browns. Work in batches, put seared chicken on a platter.
 
-**4. Cook veggies**
+**Cook veggies**
 
 - Take solids f/ the marinade and cook until soft and golden brown. ~10 min.
 - Sprinkle flour (1 TBLS) over veggies and mix well with wooden spoon. Veggies should be coated.
 - Add tomato paste, cook for 1 min.
 
-**5. Cook chicken**
+**Cook chicken**
 
 - Heat to medium (pan surface 300-350°F). Stir in reserved marinade liquid and chicken stock. Simmer (185-205°F) until reduced by 1/3. Scrape bottom of pan for fond. 20-25 min.
 - Turn heat to low, add liquid marinade.
@@ -433,13 +433,13 @@ Add another list for whatever you're serving the chicken with (bread, noodles, p
 - Cook for 1 hr 15 min. Turn chicken at 20 min and 40 min.
 - Maintain bare simmer (180-190°F).
 
-**6. Cook Bacon**
+**Cook Bacon**
 
 - Cook bacon lardons, set aside and pat dry.
 - When done, keep 1 TBLS of fat in pan.
 - Saute (pan surface 350-400°F) mushrooms in bacon fat until golden brown.
 
-**7. Prep Pearl Onions**
+**Prep Pearl Onions**
 
 - Small saucepan, pearl onions, pinch sugar, pinch salt, 2 TBLS of butter.
 - Add enough water to just cover the onions.
@@ -451,7 +451,7 @@ Add another list for whatever you're serving the chicken with (bread, noodles, p
 - Season with salt & pepper.
 - Temp to medium high until wine is thick enough to coat back of the spoon.
 
-**8. Strain**
+**Strain**
 
 - When chicken done (juices run clear), remove chicken.
 - Strain cooking liquid into large measuring glass, push hard on the veggies to get deliciousness.
@@ -461,12 +461,12 @@ Add another list for whatever you're serving the chicken with (bread, noodles, p
 - Return chicken, stir in onions and mushrooms. Add wine reduction f/ onions. Simmer for 5 min to get sauce to thicken.
 - Salt to taste.
 
-**9. Serve**
+**Serve**
 
 - Top with bacon and parsley.
 - Garlic bread, butter noodles, or polenta.
 
-**10. Polenta (optional side)**
+**Polenta (optional side)**
 
 - 1 cup of cornmeal.
 - Add 4 (+ or -) cups of water or stock or milk or combo.

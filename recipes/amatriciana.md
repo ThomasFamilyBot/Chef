@@ -127,20 +127,20 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Brown the pancetta**
+**Brown the pancetta**
 
 - Heavy saucepan, med high (pan surface 375-425°F). Heat oil. Brown pancetta. Remove pancetta.
 
-**2. Cook the onion**
+**Cook the onion**
 
 - Add onion and saute until golden. Add pancetta back to pan.
 
-**3. Simmer the sauce**
+**Simmer the sauce**
 
 - Add tomatoes and paste.
 - Season with salt & pepper.
 - Turn heat to low (liquid at a bare simmer, 180-190°F), cook for ~30 min. Stir occasionally.
 
-**4. Cook the pasta**
+**Cook the pasta**
 
 - Cook the pasta and toss with the sauce.

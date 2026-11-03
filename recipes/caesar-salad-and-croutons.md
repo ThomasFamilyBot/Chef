@@ -208,19 +208,19 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Croutons**
+**Croutons**
 
 - Preheat oven to 350°F.
 - Toss bread pieces with olive oil, Parmesan, thyme, salt, and pepper.
 - Spread on a baking sheet and bake until golden brown, about 15 minutes. Let cool before adding to the salad.
 
-**2. Dressing**
+**Dressing**
 
 - Blend anchovies, garlic, lemon juice, and water until smooth.
 - With blender running, slowly drizzle in the olive oil to emulsify.
 - Stir in Parmesan, season with salt and pepper, and set aside (refrigerate if needed).
 
-**3. Assemble the salad**
+**Assemble the salad**
 
 - Toss the lettuce in a large bowl with enough dressing to coat.
 - Add croutons and extra Parmesan, mix gently, and serve immediately.

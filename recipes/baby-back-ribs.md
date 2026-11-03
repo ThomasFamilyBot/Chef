@@ -139,15 +139,15 @@ nutrition:
 ---
 FOR RIBS. 2 full racks of BABY BACK RIBS---must be baby backs NOT spare ribs.
 
-**1. Rub**
+**Rub**
 
 - Preheat oven to 275°F.
 - Place ribs on a large cookie sheet. In a bowl combine the paprika thru cayenne pepper and mix. Rub the ribs with the mixture and allow it to set for about 20 min.
 
-**2. Bake**
+**Bake**
 
 - Pour chix broth into the sheet pan and cover TIGHTLY with foil. Place pan in oven and bake for 4 hours!
 
-**3. Finish**
+**Finish**
 
 - Remove ribs from oven--pour off most of the broth. Brush with sauce and place under broiler (element 500-550°F+, ribs 3-4 inches from it; watch continuously) until browned. OR place on outdoor grill---be careful--they are very tender and tend to fall apart. That's why I do them under the broiler!

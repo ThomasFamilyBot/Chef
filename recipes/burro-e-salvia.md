@@ -79,15 +79,15 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Melt the butter with the sage**
+**Melt the butter with the sage**
 
 - Heavy saucepan, low flame (pan surface 200-250°F). Melt butter w/ sage leaves.
 - Once melted, cook for 10-15 min (don't let butter burn).
 
-**2. Cook the pasta**
+**Cook the pasta**
 
 - Cook the pasta meanwhile.
 
-**3. Toss**
+**Toss**
 
 - Toss pasta & parmesan cheese with the sage butter.

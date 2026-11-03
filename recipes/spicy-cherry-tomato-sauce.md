@@ -155,17 +155,17 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Fry the garlic**
+**Fry the garlic**
 
 - Oil in sauce pan over med high (pan surface 375-425°F).
 - Add garlic and fry ~1 min (start to caramelize).
 
-**2. Cook the tomatoes**
+**Cook the tomatoes**
 
 - Add tomatoes, sugar, chile, 1/2 tsp of salt.
 - Pour in water and stir for 4 min (until tomatoes start to break down / liquid is bubbling).
 - Reduce heat to med low (pan surface 250-300°F) and cook for ~1 hr, stirring occasionally. Done when tomatoes and ancho have broken down + sauce has thickened.
 
-**3. Finish with basil and pasta**
+**Finish with basil and pasta**
 
 - Stir in basil, make pasta. Toss with the pasta and serve with the parm.

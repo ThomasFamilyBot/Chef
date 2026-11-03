@@ -131,14 +131,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Sauté the veg**
+**Sauté the veg**
 
 - Medium high (pan surface 375-425°F) — broccoli, onion, 1/2 tsp Garlic Salt... sauté for 5 min (2 TBLS of water at end, if desired).
 
-**2. Eggs**
+**Eggs**
 
 - Eggs + 1/2 tsp Garlic Salt + 1/2 tsp Herbes de Provence.
 
-**3. Sous vide**
+**Sous vide**
 
 - Sous vide to 172°F (60 min).

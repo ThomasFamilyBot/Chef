@@ -70,12 +70,12 @@ nutrition:
 ---
 Pan-fried from frozen.
 
-**1. Pan-fry the bottoms**
+**Pan-fry the bottoms**
 
 - 5 tsp oil (1 2/3 TBLS) in the pan, dumplings in.
 - Low (pan surface 200-250°F) for 5 min - looking for lightly toasted bottom.
 
-**2. Steam**
+**Steam**
 
 - 1/2 cup broth OR water.
 - Cover.

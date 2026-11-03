@@ -298,7 +298,7 @@ The shoulder is dry-brined on Day 1, smoked gently over charcoal and restrained 
 
 **Day 1 — Dry-brine** (active ~25 min; refrigerate 18-24 hours)
 
-**1. Dry-brine the lamb**
+**Dry-brine the lamb**
 
 - Trim: pat the shoulder dry. Remove loose flaps, silverskin and any hard exterior fat, but leave an even fat cap up to ~1/4". Do not debone. Lightly score only a thick fat cap; do not cut into the meat.
 - Mix 25 g Diamond Crystal kosher salt with 2 tsp black pepper. Apply all over, working into seams and around the bone (~0.9% salt for a 6 lb shoulder).
@@ -308,7 +308,7 @@ The shoulder is dry-brined on Day 1, smoked gently over charcoal and restrained 
 
 **Day 2 — Smoke for color and complexity** (active ~45 min; smoking and cooling ~4 1/2-5 1/2 hours)
 
-**2. Smoke the lamb and aromatics**
+**Smoke the lamb and aromatics**
 
 - T+0:00 — Light a two-zone charcoal fire (Slow 'N Sear); stabilize the kettle at 250-275°F.
 - T+0:35 — Once the charcoal is burning cleanly, add only 2 small post oak chunks. Thin, nearly invisible smoke is the target; avoid billowing white smoke.
@@ -323,12 +323,12 @@ The shoulder is dry-brined on Day 1, smoked gently over charcoal and restrained 
 
 *At your house*
 
-**3. Braise**
+**Braise**
 
 - T+0:00 — Heat oven to 300°F. Set the cold smoked shoulder in a snug Dutch oven with the smoked onions, shallots, garlic, rosemary, thyme and bay. Add wine, balsamic and enough stock to reach halfway to two-thirds up the meat.
 - T+0:20-3:50 — Cover tightly and braise at 300°F ~3 1/2 hours, turning once, until a skewer meets little resistance and the bone moves freely.
 
-**4. Rest, chunk and reduce the jus**
+**Rest, chunk and reduce the jus**
 
 - T+3:50-4:35 — Rest lamb 30-45 min, loosely covered. Strain the liquid, pressing lightly on the aromatics; discard solids. Defat thoroughly.
 - Chunk; do not shred. Remove the bone and large pockets of fat. Break along natural seams into substantial 1 1/2-2" pieces.
@@ -337,13 +337,13 @@ The shoulder is dry-brined on Day 1, smoked gently over charcoal and restrained 
 
 *At your friend's house*
 
-**5. Reheat and make the herb garnish**
+**Reheat and make the herb garnish**
 
 - T+7:10-7:35 — Reheat the lamb covered at ~300°F with a few tablespoons of jus until thoroughly hot, 15-25 min (to 165°F). Reheat the jus gently.
 - Toss chopped mint, parsley and minced shallot with ~1 TBLS red wine vinegar, the olive oil and salt just before serving.
 - With one oven: reheat the lamb before the Yorkshires go in, then hold it covered. When the Yorkshires come out, switch immediately to 475-500°F or broil.
 
-**6. Lacquer, finish the jus and serve**
+**Lacquer, finish the jus and serve**
 
 - T+7:50-8:00 — Arrange hot lamb in one layer on a rimmed sheet pan. Brush with a thin film of jus; blast 5-10 min, turning and brushing once, until edges are dark, sticky and crisp. Watch continuously.
 - Take the warm jus off the heat and whisk in the cold butter a few cubes at a time.

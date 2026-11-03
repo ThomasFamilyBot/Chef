@@ -95,7 +95,7 @@ ingredients:
   - measure: For dusting
     item: Powdered Sugar
     prep: Garnish
-    group: 5 -> Remove from pan
+    group: 4 -> Remove from pan
     qty: 1
     unit: to taste
   - measure: 1 round
@@ -256,7 +256,7 @@ nutrition:
   - Parchment Paper
   - 10" Round Baking Pan
 ---
-**1. Heat oven and prep the pan**
+**Heat oven and prep the pan**
 
 - Heat oven = 350°F.
 
@@ -264,25 +264,25 @@ nutrition:
 - Line with parchment round.
 - Grease again with butter and flour.
 
-**2. Prep filling**
+**Prep filling**
 
 - In a small bowl, mash together the butter, brown sugar and cinnamon (`2 -> Filling`).
 - Dollop into the bottom of the cake pan.
 - Layer the apple slices in a circle into the bottom of the pan, don't go crazy because they will float to the top. You should have multiple layers.
 
-**3. Cake batter**
+**Cake batter**
 
 - In a bowl, whisk the flour, sugar, salt, baking soda and baking powder (`3 -> Dry Ingredients`).
 - In another bowl, whisk the olive oil, milk, eggs, orange zest and juice and Grand Marnier (`3 -> Wet Ingredients`).
 - Add the Dry Ingredients to the liquid ingredients just whisked; whisk until just combined.
 
-**4. Pour batter**
+**Pour batter**
 
 - Pour the batter into the prepared pan and bake for ~1 hour.
     - Done when top is golden and a cake tester comes out clean.
 - Transfer the cake to a rack and let cool for 30 minutes.
 
-**5. Remove from pan**
+**Remove from pan**
 
 - Run a knife around the edge of the pan, invert the cake onto the rack and let cool completely.
 - Garnish with powdered sugar.

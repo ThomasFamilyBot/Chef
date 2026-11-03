@@ -144,20 +144,20 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Sauté the bacon and onion**
+**Sauté the bacon and onion**
 
 - Heavy saucepan, med heat (pan surface 300-350°F). Saute bacon, onions in oil until lightly browned.
 
-**2. Simmer the sauce**
+**Simmer the sauce**
 
 - Add tomatoes & yellow pepper strips.
 - Season w/ salt & pepper.
 - Turn heat to low (bare simmer, 180-190°F), cover for 30-40 min. Stir occasionally.
 
-**3. Cook the pasta**
+**Cook the pasta**
 
 - Cook the pasta.
 
-**4. Finish**
+**Finish**
 
 - Add paprika before serving. Toss with the pasta.

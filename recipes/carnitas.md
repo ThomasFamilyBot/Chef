@@ -191,11 +191,11 @@ Sous vide at 165°F (74°C) for 12 to 24 hours.
 
 Trying a Lagunitas IPA. NOT boiling it first. About a cup of liquid into the bag.
 
-**1. Bag it**
+**Bag it**
 
 - Get large bowl for all ingredients. Cut orange into quarters, squeeze juice, put in orange. Pour in beer. Add remaining ingredients. Season generously with salt and toss.
 - Put everything into bag.
 
-**2. Sous vide**
+**Sous vide**
 
 - Sous vide at 165°F (74°C) for 12 to 24 hours.

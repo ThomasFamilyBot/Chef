@@ -60,6 +60,21 @@ def check(path, sections):
             errs.append(f"{where}: item has stray whitespace")
         if item and item[:1].islower():
             warns.append(f"{where}: item should be Title Case ({item!r})")
+    # mise groups: numbered 1..N consecutively, every body reference `N -> Name` must exist
+    tok = re.compile(r"(\d+)\s*->\s*([^(),`\n]+)")
+    groups = {}
+    for ing in r.get("ingredients") or []:
+        for num, name in tok.findall(str(ing.get("group") or "")):
+            groups.setdefault(int(num), set()).add(name.strip().lower())
+    if groups:
+        nums = sorted(groups)
+        if nums != list(range(1, len(nums) + 1)):
+            errs.append(f"mise groups are numbered {nums}; they must run 1..{len(nums)} with no gaps (scripts/renumber_groups.py)")
+        for num, name in tok.findall(r.get("body_md") or ""):
+            if int(num) not in groups:
+                errs.append(f"directions refer to `{num} -> {name.strip()}` but no ingredient has group {num}")
+    if re.search(r"^\*\*\d+\.\s", r.get("body_md") or "", re.M):
+        warns.append("direction headings are numbered; house style is bold names only, bowls carry the numbers")
     n = r.get("nutrition")
     if n:
         for k in ["computed", "basis", "totals", "lines", "assumptions"]:

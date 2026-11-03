@@ -90,6 +90,6 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Whisk**
+**Whisk**
 
 - Whisk everything together. (The original doc is just the ingredient list; no method was written down.)

@@ -100,16 +100,16 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Cook the fettuccine**
+**Cook the fettuccine**
 
 - Cook the fettuccine.
 
-**2. Make the sauce**
+**Make the sauce**
 
 - Heavy saucepan - med heat (pan surface 300-350°F), melt butter.
 - Add cream and stir. Once cream is heated, add lemon juice.
 - Then season to your taste with salt & nutmeg.
 
-**3. Toss and serve**
+**Toss and serve**
 
 - Toss with the pasta. Serve immediately.

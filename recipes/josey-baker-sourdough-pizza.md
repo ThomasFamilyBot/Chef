@@ -248,12 +248,12 @@ The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com,
 - Feed your sourdough starter every day (keep it at room temp): take 1 g, a pea-sized amount (throw the rest away), and mix it with 10 g whole grain flour (1 TBLS) and 10 g (around 1 TBLS) warm water.
 - Or pop the starter in the fridge and follow the directions above 1x a month to keep it alive!
 
-**1. Friday night — make the levain**
+**Friday night — make the levain**
 
 - Make your sourdough preferment (LEVAIN) the eve before the big day: mix everything from `1 -> Levain (Friday night)`.
 - This makes 210 g, or about 1 big cup of preferment. A preferment is a bigger version of starter that adds flavor and power to dough.
 
-**2. Saturday morning — mix your final dough by 10am**
+**Saturday morning — mix your final dough by 10am**
 
 - Mix the bread flour, whole wheat flour, 600 g water and the preferment from `2 -> Final dough (Saturday morning)`.
 - AUTOLYSE (aka wait 30 min before adding the salt and that little extra bit of water).
@@ -271,7 +271,7 @@ The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com,
     - iv. Has it grown in size?
     - If those things aren't happening move it to a warm place!
 
-**3. Mise en place (everything in place)**
+**Mise en place (everything in place)**
 
 - Prepare all your topping ingredients, include Maldon salt.
 - TABLE FLOURS (GF): polenta, rice flour, potato starch.
@@ -279,7 +279,7 @@ The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com,
 - Make that garlic oil (garlic and oil on stovetop until browning).
 - Line everything up in a big clean workspace.
 
-**4. Time to bake!**
+**Time to bake!**
 
 - Preheat oven to 475°F for 1 hour.
 - Option #1, Sheet pan: you got this. Oil, gently stretch, top, and bake 20-ish min.

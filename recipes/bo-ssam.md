@@ -33,7 +33,7 @@ ingredients:
   - measure: 1 cup + 1 TBLS
     item: Kosher Salt
     prep: Keep the 1 cup separate from the 1 TBLS
-    group: 1 -> Brine the pork (then 6 -> Finish the pork)
+    group: 1 -> Brine the pork (then 5 -> Finish the pork)
     qty: 17
     unit: TBLS
     nutrition:
@@ -41,89 +41,89 @@ ingredients:
       note: brine rub; ~10% assumed absorbed
   - measure: 7 TBLS
     item: Brown Sugar
-    group: 6 -> Finish the pork
+    group: 5 -> Finish the pork
     qty: 7
     unit: TBLS
   - measure: 2 1/2 cups (2 large bunches)
     item: Scallions
     prep: Thin slice, green & white
-    group: 3 -> Ginger Scallion Sauce
+    group: 2 -> Ginger Scallion Sauce
     qty: 2
     unit: bunch
   - measure: 1/2 cup (~ full handful)
     item: Ginger
     prep: Peeled & minced
-    group: 3 -> Ginger Scallion Sauce
+    group: 2 -> Ginger Scallion Sauce
     qty: 0.5
     unit: cup
   - measure: 1/4 cup
     item: Grapeseed Oil
     prep: Or any neutral oil. Get more for ssam sauce
-    group: 3 -> Ginger Scallion Sauce
+    group: 2 -> Ginger Scallion Sauce
     qty: 0.25
     unit: cup
   - measure: 1 1/2 tsp
     item: Light Soy Sauce
-    group: 3 -> Ginger Scallion Sauce
+    group: 2 -> Ginger Scallion Sauce
     qty: 1.5
     unit: tsp
   - measure: 1 tsp
     item: Sherry Vinegar
     prep: Get more for ssam sauce
-    group: 3 -> Ginger Scallion Sauce
+    group: 2 -> Ginger Scallion Sauce
     qty: 1
     unit: tsp
   - measure: 1/2 tsp
     item: Kosher Salt
-    group: 3 -> Ginger Scallion Sauce
+    group: 2 -> Ginger Scallion Sauce
     qty: 0.5
     unit: tsp
   - measure: 2 TBLS
     item: Ssamjang
     prep: Can be hard to find. First Korean Market (4625 Geary Blvd) has it
-    group: 4 -> Ssam Sauce
+    group: 3 -> Ssam Sauce
     qty: 2
     unit: TBLS
     section: Oils, Vinegars & Condiments
   - measure: 1 TBLS
     item: Kochujang
     prep: Get the paste, not the premade sauce
-    group: 4 -> Ssam Sauce
+    group: 3 -> Ssam Sauce
     qty: 1
     unit: TBLS
     section: Oils, Vinegars & Condiments
   - measure: 1/2 cup
     item: Sherry Vinegar
-    group: 4 -> Ssam Sauce
+    group: 3 -> Ssam Sauce
     qty: 0.5
     unit: cup
   - measure: 1/2 cup
     item: Grapeseed Oil
     prep: Or any neutral oil
-    group: 4 -> Ssam Sauce
+    group: 3 -> Ssam Sauce
     qty: 0.5
     unit: cup
   - measure: 2 cups
     item: White Rice
-    group: 5 -> Prep accompaniments
+    group: 4 -> Prep accompaniments
     qty: 2
     unit: cup
   - measure: 3 heads
     item: Bibb Lettuce
     prep: Separated, washed & dried
-    group: 5 -> Prep accompaniments
+    group: 4 -> Prep accompaniments
     qty: 3
     unit: head
   - measure: 1 dozen
     item: Oysters
     prep: Optional
-    group: 5 -> Prep accompaniments
+    group: 4 -> Prep accompaniments
     qty: 12
     unit: each
   - measure: 1 container
     item: Kimchi
     prep: 1 cup whole, 1 cup pureed
-    group: 5 -> Prep accompaniments
+    group: 4 -> Prep accompaniments
     qty: 1
     unit: container
 nutrition:
@@ -270,7 +270,7 @@ nutrition:
 ---
 **Day 1**
 
-**1. Brine the pork**
+**Brine the pork**
 
 - Place pork in a large shallow bowl or roasting vessel.
 - Do NOT mix the white sugar and salt. Different sized grains can mean you'll over-salt.
@@ -282,7 +282,7 @@ nutrition:
 
 Less than 1 hour active time to do all the prep, but you've got to keep an eye on the pork for 6 hours.
 
-**2. Cook the pork**
+**Cook the pork**
 
 - Heat oven to 300°F (regular roast; convection pulls moisture).
 - Remove pork from fridge, brush excess sugar off the fat cap. Discard any juices.
@@ -291,23 +291,23 @@ Less than 1 hour active time to do all the prep, but you've got to keep an eye o
     - Looking to get most of it to 180°F; parts as low as 165°F are fine. Ideal internal temp is 190°F, but we're going to finish it under the broiler.
 - OK to rest pork at room temperature for an hour.
 
-**3. Make the ginger scallion sauce**
+**Make the ginger scallion sauce**
 
-- Combine all ingredients from `3 -> Ginger Scallion Sauce` in a bowl. Suggest a food processor or a very fine chop. It's less of a sauce and more of a ginger-scallion topping.
+- Combine all ingredients from `2 -> Ginger Scallion Sauce` in a bowl. Suggest a food processor or a very fine chop. It's less of a sauce and more of a ginger-scallion topping.
 - Let rest for at least 15 minutes. It'll keep for days.
 
-**4. Make the ssam sauce**
+**Make the ssam sauce**
 
-- Combine all ingredients from `4 -> Ssam Sauce` in a bowl. Mix well.
+- Combine all ingredients from `3 -> Ssam Sauce` in a bowl. Mix well.
 
-**5. Prep accompaniments and put into serving dishes**
+**Prep accompaniments and put into serving dishes**
 
 - Make the rice.
 - Separate, clean, dry the lettuce.
 - Shuck oysters if you're doing it.
 - Kimchi.
 
-**6. Finish the pork**
+**Finish the pork**
 
 - Oven to 500°F.
 - Stir 1 TBLS of salt and 7 TBLS of brown sugar together.

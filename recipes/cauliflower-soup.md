@@ -39,20 +39,20 @@ ingredients:
   - measure: 5 1/2 cups
     item: Water
     prep: Hot; used in three parts (1/2 cup, 4 1/2 cups, 1/2 cup)
-    group: 2 -> Stew the cauliflower (then 4 -> Finish)
+    group: 2 -> Stew the cauliflower (then 3 -> Finish)
     qty: 5.5
     unit: cup
     shop: false
   - measure: To taste
     item: Extra-Virgin Olive Oil
     prep: For drizzling at the table
-    group: 4 -> Finish
+    group: 3 -> Finish
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground, for serving
-    group: 4 -> Finish
+    group: 3 -> Finish
     qty: 1
     unit: to taste
 nutrition:
@@ -120,23 +120,23 @@ nutrition:
 ---
 Paul Bertolli's soup from *Cooking by Hand*: four ingredients, no cream, and it still comes out velvety. The texture comes from the long purée and the 20-minute rest, so don't skip either.
 
-**1. Sweat the onion**
+**Sweat the onion**
 
 - Warm the olive oil in a heavy-bottomed pot over low heat (pan surface 200-250°F on the infrared gun).
 - Add the sliced onion and sweat it gently, without letting it brown, about 15 minutes.
 
-**2. Stew the cauliflower**
+**Stew the cauliflower**
 
 - Add the cauliflower florets, salt to taste and 1/2 cup of the hot water.
 - Raise the heat slightly, cover the pot tightly and stew the cauliflower until tender, 15 to 18 minutes.
 - Add another 4 1/2 cups hot water, bring to a low simmer (180-190°F) and cook uncovered for 20 more minutes.
 
-**3. Purée and rest**
+**Purée and rest**
 
 - Working in batches, purée the soup in a blender until very smooth and creamy. Go longer than you think; this is where the texture comes from.
 - Let the soup stand for 20 minutes. It will thicken slightly as it sits.
 
-**4. Finish**
+**Finish**
 
 - If the soup is thicker than you like, thin it with the remaining 1/2 cup hot water. Reheat.
 - Serve hot, drizzled with extra-virgin olive oil and scattered with freshly ground black pepper.

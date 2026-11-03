@@ -181,7 +181,7 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Make the stock**
+**Make the stock**
 
 - Oil in saucepan, med high (pan surface 375-425°F).
 - Turkey neck, 3 min each side (golden brown). Set aside.
@@ -193,7 +193,7 @@ nutrition:
 - + turkey neck & broth, boil, then reduce to simmer (185-205°F) for 25-30 min (reduce by 1/3).
 - Strain into large heatproof bowl... should be 8 cups.
 
-**2. Make the gravy**
+**Make the gravy**
 
 - Saucepan to medium (pan surface 300-350°F), heat butter.
 - Once butter melted, whisk in flour, constant until golden brown (~3 min).

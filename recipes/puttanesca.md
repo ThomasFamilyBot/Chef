@@ -129,16 +129,16 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Start the sauce**
+**Start the sauce**
 
 - Finely mince garlic & anchovy together.
 - Heavy saucepan - oil, garlic, anchovy. Med heat (pan surface 300-350°F) for 3 min.
 
-**2. Simmer the sauce**
+**Simmer the sauce**
 
 - Add tomatoes, olives, & capers. Season with pepper.
 - Turn heat to low, cook for 30 min stirring occasionally (a bare simmer, 180-190°F).
 
-**3. Cook the pasta**
+**Cook the pasta**
 
 - Cook the pasta and toss with the sauce.

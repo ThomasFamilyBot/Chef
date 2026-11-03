@@ -118,19 +118,19 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Cheese bowl**
+**Cheese bowl**
 
 - Put first 5 ingredients (the four cheeses and the butter, `1 -> Cheese bowl`) into a large bowl.
 
-**2. Cook the pasta**
+**Cook the pasta**
 
 - Cook the pasta.
 
-**3. Toss**
+**Toss**
 
 - Add hot pasta and toss until cheese and butter are melted & blended.
 - Sprinkle in Parm, toss again.
 
-**4. Serve**
+**Serve**
 
 - Serve.

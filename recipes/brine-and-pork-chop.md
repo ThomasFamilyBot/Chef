@@ -104,21 +104,21 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Create slurry**
+**Create slurry**
 
 - Hot water, salt, sugar (`1 -> Slurry`).
 
-**2. Create brine**
+**Create brine**
 
 - Combine with cold water (`2 -> Brine`).
 
-**3. Brine the chops**
+**Brine the chops**
 
 - Smaller cuts (chops, breasts, pieces): 1–4 hours.
 - Larger pieces (whole chicken, turkey breast): 6–12 hours.
 - Keep cold.
 
-**4. Prepare**
+**Prepare**
 
 - Rinse brine off with water.
 - Pork Chop: roast at 350°F, sear (pan surface 450-500°F) at 130°F internal, pull at 140°F (rest to 145°F).

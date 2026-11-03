@@ -294,27 +294,27 @@ nutrition:
 ---
 5 lb and double fryer = 1 hr 15 min total.
 
-**1. Brine the chicken**
+**Brine the chicken**
 
 - Brine for 12 hours (NO MORE). Rinse under cold water (no herbs / spice on skin). Pat dry with paper towels, let rest for at least 1.5 hours (room temp).
 
-**2. Heat the oil**
+**Heat the oil**
 
 - No more than 1/3 way up pot. Heat to 350-375°F. Cook at 320°F.
 
-**3. Set up the pans**
+**Set up the pans**
 
 - Cover one baking sheet w/ parchment paper.
 - Place cooling rack over 2nd baking sheet.
 
-**4. Mix the dredge**
+**Mix the dredge**
 
 - Flour, garlic, onion, paprika, cayenne, kosher salt, black pepper (`4 -> Mix the dredge`; will be divided b/w bowl 1 and bowl 3).
 - Bowl 1: Initial coating -> half the mixture.
 - Bowl 2: Dredge -> buttermilk seasoned w/ salt and pepper.
 - Bowl 3: 2nd coating -> half the mixture.
 
-**5. Cook** at 320°F
+**Cook** at 320°F
 
 - Start w/ thighs - coating (turn, pat off excess), buttermilk (excess run to bowl), 2nd coating, parchment lined pan.
 - Thighs in -> 2 min no move, 11 to 12 min total (deep golden brown). Coat drumsticks.
@@ -326,7 +326,7 @@ nutrition:
 - Wings 6 min.
 - Fry herb sprigs.
 
-**6. Serve**
+**Serve**
 
 - Serve with BBQ sauce, ranch and honey on the side.
 - Need to reheat? Oven at 400°F for a minute or 2.

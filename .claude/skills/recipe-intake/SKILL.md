@@ -42,14 +42,14 @@ Columns: Measure | Ingredient | Prep | Mise Grouping. Keep it to one printed pag
 
 - `item` is the **shopping name**: Title Case, no prep words, no quantity words. `Yellow Onion` not `chopped yellow onion`. Match names already used in other recipes (grep `recipes/` for the word first) so the shopping list merges them.
 - `prep` holds the knife work and notes: `Peeled & minced`, `Removed from casing`.
-- `group` is the mise grouping and is **always filled in**: number the direction steps (`**1. Sweat the onion**`, `**2. Stew the cauliflower**`) and give every ingredient the step where it is first used, as `1 -> Sweat the onion`. An ingredient used in two steps gets `2 -> Stew (then 4 -> Finish)`. Sub-recipes (sauce, rub, dough) are their own numbered groups. This is what tells the cook which bowl each item goes in, so it applies to single-component recipes too.
+- `group` is the mise grouping and is **always filled in**. Groups are bowls on the counter: numbered **1..N consecutively in order of first use, no gaps**, each named after the direction step or component it feeds: `1 -> Batter`, `2 -> Honey butter`. A step that adds no new ingredients (baking, resting) gets no bowl. An ingredient used in two steps gets `2 -> Stew (then 4 -> Finish)`. Sub-recipes (sauce, rub, dough) are their own bowls. `scripts/renumber_groups.py` fixes numbering; the validator rejects gaps and dangling references.
 - `qty`/`unit` must reflect the measure so shopping lists add correctly. Count-type things (`1 Baguette`, `3 heads Bibb Lettuce`) use `each` or a descriptive counter.
 - `section`: set it when the keyword fallback in `data/store_sections.yaml` would get it wrong. Valid sections are listed in that file.
 - `shop: false` for Water, and for "for serving" extras the family said not to shop.
 
 ## 5. Directions
 
-Markdown. Numbered bold step headings as paragraphs (`**1. Sweat the onion**`, `**2. Make the sauce**`; multi-day recipes can use `**Day 1**` above them) and bullets inside each step. Keep temperatures, times and doneness cues. Refer to mise groups by number and name ("Combine everything from `1 -> Ginger Scallion Sauce`").
+Markdown. Bold step headings as paragraphs, **named, not numbered** (`**Sweat the onion**`, `**Make the sauce**`; multi-day recipes can use `**Day 1**` above them) and bullets inside each step. The bowl numbers live in the ingredient table; directions refer to bowls by their full label ("Combine everything from `1 -> Ginger Scallion Sauce`"), so the two never drift apart. Keep temperatures, times and doneness cues.
 
 **Temperatures for techniques.** The family cooks with infrared and probe thermometers, so vague heat words get a number on first use: "over medium-high heat (pan surface 375-425°F)", "sweat (200-250°F, no color)", "a bare simmer (180-190°F)", "fry at 325°F", "braise at 300°F until 200°F internal". Use `data/techniques.yaml` for the house targets; the site and the Google Doc also append a "Technique temperatures" box automatically for any glossary term that appears. When you can fetch a reputable technique page (Serious Eats, ThermoWorks, King Arthur, AmazingRibs, USDA FSIS), link it in the direction text; if you can't fetch, don't invent a URL.
 

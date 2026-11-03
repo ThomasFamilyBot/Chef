@@ -189,13 +189,13 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Brine**
+**Brine**
 
 - Bring all `1 -> Brine` ingredients except the water to a boil, then add the 1 gallon of ice-cold water.
-**2. Cut the cucumbers**
+**Cut the cucumbers**
 
 - Cut 12.5 lb of washed cucumbers into 4-6 wedges and place in a 1 1/2 gallon bowl.
-**3. Pickle**
+**Pickle**
 
 - Pour brine over cut cucumbers and leave covered for at least one day.
 

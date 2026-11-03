@@ -52,43 +52,43 @@ ingredients:
   - measure: 2
     item: Scallions
     prep: Thin matchsticks. Half goes in the pan, half on top
-    group: 2 -> Prep butter (then 5 -> Plate)
+    group: 2 -> Prep butter (then 4 -> Plate)
     qty: 2
     unit: each
   - measure: 2
     item: Eggs
-    group: 4 -> Make eggs
+    group: 3 -> Make eggs
     qty: 2
     unit: each
   - measure: 1 TBLS
     item: Grapeseed Oil
     prep: Or any flavorless oil
-    group: 4 -> Make eggs
+    group: 3 -> Make eggs
     qty: 1
     unit: TBLS
   - measure: 2 TBLS
     item: Dried Seaweed
     prep: Crumbled
-    group: 5 -> Plate
+    group: 4 -> Plate
     qty: 2
     unit: TBLS
     section: International
   - measure: 2 TBLS
     item: Parmesan
     prep: Grated
-    group: 5 -> Plate
+    group: 4 -> Plate
     qty: 2
     unit: TBLS
   - measure: 1
     item: Lime
     prep: Cut into wedges
-    group: 5 -> Plate
+    group: 4 -> Plate
     qty: 1
     unit: each
   - measure: pinch
     item: Kosher Salt
     prep: For the eggs
-    group: 4 -> Make eggs
+    group: 3 -> Make eggs
     qty: 1
     unit: pinch
 nutrition:
@@ -200,17 +200,17 @@ From "A Splash of Soy" p. 130. We haven't made a ton from it, but Jenn likes it.
 
 **Prep & cook is about 15 min...** unless you [sous vide the eggs](https://khymos.org/2009/04/09/towards-the-perfect-soft-boiled-egg/). Which you should, at 146°F for 75 min.
 
-**1. Cook pasta**
+**Cook pasta**
 
 - Boil water, follow directions on box.
 - When finished, reserve 2 TBLS of pasta water.
 
-**2. Prep butter**
+**Prep butter**
 
 - Put everything from `2 -> Kimchi Butter` into a large, cold non-stick frying pan. Don't need to mix.
 - Add 1/2 the scallions to pan.
 
-**3. Finish pasta**
+**Finish pasta**
 
 - Toss cooked pasta into pan with kimchi butter ingredients.
 - + 2 TBLS of reserved pasta water.
@@ -218,7 +218,7 @@ From "A Splash of Soy" p. 130. We haven't made a ton from it, but Jenn likes it.
 - Cook ~3 min. Looking to get everything tossed together & warmed through.
 - Remove from heat and put into serving bowls.
 
-**4. Make eggs**
+**Make eggs**
 
 - Wipe out frying pan.
 - Put in oil, turn to med high (pan surface 375-425°F).
@@ -226,6 +226,6 @@ From "A Splash of Soy" p. 130. We haven't made a ton from it, but Jenn likes it.
 - Cook 2-3 min. Looking to get whites partially cooked and edges crispy.
 - Turn heat to med low (pan surface 250-300°F) and continue until whites are cooked through but the yolk is to your liking. Season with pinch of salt.
 
-**5. Plate**
+**Plate**
 
 - Top each pasta bowl with seaweed, remaining scallions, and fried eggs. Dust with parm and serve with lime wedges.

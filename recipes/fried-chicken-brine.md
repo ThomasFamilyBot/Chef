@@ -137,10 +137,10 @@ nutrition:
   excluded:
   - Stockpot
 ---
-**1. Make the brine**
+**Make the brine**
 
 - Combine everything, bring to a boil, boil for 1 min, stir to dissolve salt.
 
-**2. Chill**
+**Chill**
 
 - Chill before using, refrigerate for up to 3 days.

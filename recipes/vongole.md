@@ -138,16 +138,16 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Sauté the garlic and parsley**
+**Sauté the garlic and parsley**
 
 - Heavy saucepan, med heat (pan surface 300-350°F). Saute garlic & parsley in oil. Do NOT allow garlic to brown.
 
-**2. Make the sauce**
+**Make the sauce**
 
 - Add tomatoes & clams.
 - Season w/ salt, pepper and chili flakes.
 - Turn heat to low, cover for 30-40 min.
 
-**3. Cook the pasta and toss**
+**Cook the pasta and toss**
 
 - Cook the spaghetti and toss with the sauce.

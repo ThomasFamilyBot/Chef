@@ -286,14 +286,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Whisk the marinade**
+**Whisk the marinade**
 
 - Whisk all marinade ingredients (`1 -> Whisk the marinade`) until smooth.
 
-**2. Marinate**
+**Marinate**
 
 - Marinate 2-3 tri-tips for 3-5 days. Turn every ~12 hours.
 
-**3. Grill**
+**Grill**
 
 - Grill as you normally would.

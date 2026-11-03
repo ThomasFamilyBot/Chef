@@ -24,7 +24,7 @@ ingredients:
   - measure: 1 cup + 1 TBLS               # display string, exactly as printed on the page
     item: Kosher Salt                     # canonical shopping name, Title Case, no prep words
     prep: 1 cup separate from TBLS        # optional
-    group: ""                             # optional mise grouping, e.g. "1 -> Ginger Scallion Sauce"
+    group: 1 -> Brine the pork             # mise grouping (bowl number -> step/component); bowls run 1..N with no gaps
     qty: 17                               # numeric amount in `unit` (used for shopping-list merging)
     unit: TBLS                            # one of the unit vocabulary below
     section: Spices & Dried Herbs         # optional; falls back to data/store_sections.yaml keywords

@@ -218,7 +218,7 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Lamb** (2.5 hours of cook time)
+**Lamb** (2.5 hours of cook time)
 
 - Night before: score (1/2" squares), kosher salt (1/2 tsp per lb).
 - Day of: stuff incisions with garlic, rosemary and thyme (alternating).
@@ -228,7 +228,7 @@ nutrition:
 - Move to direct, brown all four sides (grill grate 500°F+; don't move the meat for 2-3 min per side); hold with 2 bricks if desired. Done at 130-135°F.
 - Cut across the grain.
 
-**2. Sides** (about 2 hrs in, start sausages & squash)
+**Sides** (about 2 hrs in, start sausages & squash)
 
 - Prick sausages and grill. Turn as they brown. Takes ~15 min. Let rest for 15 min.
 - Cut squash lengthwise in half, remove seeds.
@@ -236,7 +236,7 @@ nutrition:
 - Remove and set skin side down on grill with sausages, basting occasionally with olive oil, until flesh is tender to the center when pierced with a skewer.
 - Bell peppers: seeded, skin side down on hot grill, until charred. Probably 10 min.
 
-**3. Board Sauce**
+**Board Sauce**
 
 - Before the cook: chop sage, thyme, garlic, jalapeño + black pepper into a coffee cup.
 - Mince or press garlic, dump into mixture.

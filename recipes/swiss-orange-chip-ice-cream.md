@@ -165,14 +165,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Chocolate base**
+**Chocolate base**
 
 - Warm 1 cup of the cream with the cocoa powder in a medium saucepan, whisking to thoroughly blend the cocoa.
 - Bring to a boil, then reduce the heat and simmer at a very low boil (liquid 185-205°F) for 30 seconds, whisking constantly. Remove from the heat and add 5 oz of the chopped chocolate, stirring until smooth.
 - Stir in the remaining 1 cup cream.
 - Pour the mixture into a large bowl, scraping the saucepan as thoroughly as possible, and set a mesh strainer on top of the bowl.
 
-**2. Custard**
+**Custard**
 
 - Warm the milk, sugar, salt, and orange zest in the same saucepan.
 - In a separate medium bowl, whisk together the egg yolks. Slowly pour the warm milk into the egg yolks, whisking constantly, then scrape the warmed egg yolks back into the saucepan.
@@ -180,6 +180,6 @@ nutrition:
 - Pour the custard through the strainer and stir it into the chocolate mixture until smooth.
 - Stir in the vanilla and orange extracts, and the Grand Marnier. Stir until cool over an ice bath.
 
-**3. Chill and churn**
+**Chill and churn**
 
 - Chill the mixture thoroughly in the refrigerator, then freeze it in your ice cream maker according to manufacturer's instructions. At the end, stir in the remaining 5 oz chopped chocolate pieces.

@@ -139,20 +139,20 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Cook the onion**
+**Cook the onion**
 
 - Heavy saucepan - add onions, oil, butter. Turn to low (pan surface 200-250°F) and cover.
 - Cook for ~20 minutes, checking occasionally to make sure onions aren't burning.
 
-**2. Simmer the sauce**
+**Simmer the sauce**
 
 - When onions are lightly browned, add tomatoes. Season with salt & pepper.
 - Heat to med-low (pan surface 250-300°F), cover for 30 min (you can get away with 20 if you want).
 
-**3. Cook the penne**
+**Cook the penne**
 
 - Cook the penne.
 
-**4. Finish**
+**Finish**
 
 - Add cream, toss with pasta and swiss cheese.

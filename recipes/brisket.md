@@ -157,13 +157,13 @@ nutrition:
 
 **Day 1**
 
-**1. Marinate**
+**Marinate**
 
 - Marinate brisket in root beer overnight (in fridge).
 
 **Day 2**
 
-**2. Rub and sous vide**
+**Rub and sous vide**
 
 - Combine all spices from `2 -> Rub` in bowl. Rub on brisket. Add 1/4 cup of the marinade root beer into the bag.
 - Sous vide @ 135°F for 48 hours (60 is fine).

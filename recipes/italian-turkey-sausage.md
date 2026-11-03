@@ -197,14 +197,14 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Mix the sausage**
+**Mix the sausage**
 
 - Knead all the ingredients (`1 -> Mix the sausage`) until flecks of spice are evenly distributed through the sausage.
 
-**2. Form the logs**
+**Form the logs**
 
 - Divide the sausage into thirds and form into 3 logs; wrap each in plastic wrap.
 
-**3. Store**
+**Store**
 
 - Place wrapped sausage into a freezer bag before freezing, or store in the refrigerator for at least 12 hours before cooking.

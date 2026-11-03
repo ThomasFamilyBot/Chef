@@ -256,28 +256,28 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Brine**
+**Brine**
 
 - Toss chicken with pepper and TBLS of salt. Cover & chill for 3 hours to overnight.
 
-**2. Dredge**
+**Dredge**
 
 - Bowl 1: Whisk eggs, buttermilk, hot sauce.
 - Bowl 2: Flour and 4 tsp of salt.
 - Dutch oven, oil to 2". Med high to 325°F.
 - Pat chicken dry, flour (shake excess), buttermilk (let excess drip), flour, baking sheet.
 
-**3. Fry**
+**Fry**
 
 - Keep oil at 325°F. Fry chicken, turn occasionally, 15-18 min. Wire rack when done.
 - Let oil cool slightly.
 
-**4. Hot oil**
+**Hot oil**
 
 - Heat proof bowl -> cayenne, dry mustard, brown sugar, chili powder, garlic powder, paprika -> whisk in 1 cup frying oil.
 - Brush chicken.
 
-**5. Serve**
+**Serve**
 
 - Serve w/ bread & pickles.
 - Need heat? 400°F for a minute or 2.

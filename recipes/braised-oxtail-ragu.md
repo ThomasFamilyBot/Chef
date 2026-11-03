@@ -298,7 +298,7 @@ nutrition:
 ---
 6 hours minimum = 2 hours Active + 4 hours passive. Serve with pasta.
 
-**1. Oxtail Sear**
+**Oxtail Sear**
 
 - Oven to 250°F.
 - 1/4 cup of oil into large dutch oven, high heat (pan surface 450-500°F+; oil smokes within seconds).
@@ -306,7 +306,7 @@ nutrition:
 - Brown Oxtail on each side, 6-8 min a side. Batches if necessary. Put on platter.
 - Drain excess fat, leave ~1/4 of oil in.
 
-**2. Braise the oxtail**
+**Braise the oxtail**
 
 - Heat to medium (pan surface 300-350°F).
 - Put in `2 -> Oxtail Base`. Let brown/wilt. 2-3 minutes.
@@ -316,7 +316,7 @@ nutrition:
 - Once boiling, scrape brown bits from Dutch Oven.
 - Put in oven, uncovered. 3-4 hours (until falling apart tender; liquid at a bare simmer, 180-200°F).
 
-**3. Sauce Base**
+**Sauce Base**
 
 - New dutch oven on med-low (pan surface 250-300°F). 3 TBLS of olive oil.
 - `3 -> Sauce Base` into dutch oven, saute until onions are translucent (7-8 min).
@@ -325,7 +325,7 @@ nutrition:
 - Add San Marzano tomatoes (break up with fork or masher).
 - Simmer (185-205°F) for 15-20 min, reserve for oxtail.
 
-**4. Finish the braise**
+**Finish the braise**
 
 - Take oxtail braise from oven and filter cooking liquid from solids. RESERVE liquid.
     - Remove fat that comes to top of reserved liquid.

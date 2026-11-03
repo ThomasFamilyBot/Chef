@@ -181,18 +181,18 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**1. Salt the chicken (2-3 days before cooking)**
+**Salt the chicken (2-3 days before cooking)**
 
 - Pat chicken dry.
 - Slide a finger under the skin at each breast and outside the thickest section of each thigh; push an herb sprig into each pocket.
 - 3/4 tsp salt per pound of chicken, equivalent amount of pepper. Sprinkle all over.
 - Cover loosely and refrigerate. Extra points for patting dry daily.
 
-**2. Rub (night before cooking)**
+**Rub (night before cooking)**
 
 - Mix all remaining spices (`2 -> Rub`) into a dry rub. Coat chicken. Put back in fridge.
 
-**3. Roast** (total cook time 45 min - 1 hr, but can take as little as 30 min)
+**Roast** (total cook time 45 min - 1 hr, but can take as little as 30 min)
 
 - Oven at 475°F.
 - Pre-heat iron skillet over medium heat (pan surface 300-350°F) (or use a flameproof roasting pan).
