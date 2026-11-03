@@ -10,7 +10,7 @@ times:
   cook: 30
   rest: 1440
   total: 1500
-tags: [pork, main, grill, project]
+tags: [pork, main, grill]
 source_doc: https://docs.google.com/document/d/1-d6_EdsJERQYjadT6LOz57dy4kWgY6qvvUVVv2D7JzM/edit
 drive_doc_id: 1nV-DMyZeXh9eD0mltJRlbQteFfzoSLK31no0wCKXhXM
 ingredients:

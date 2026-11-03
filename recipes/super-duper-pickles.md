@@ -9,7 +9,7 @@ times:
   cook: 10
   rest: 1440
   total: 1470
-tags: [vegetarian, side, project]
+tags: [vegetarian, side]
 source_doc: https://docs.google.com/spreadsheets/d/11narolYcUjZ6cMSBR7s8NNqNmyfrJPgGxpTmg1LVYL0/edit
 drive_doc_id: 1KY5QF6UuljXgddGfGRScG3lVUoyhkKw_d5m7VsMW9tc
 ingredients:

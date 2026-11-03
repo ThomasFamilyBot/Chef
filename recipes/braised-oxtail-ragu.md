@@ -10,7 +10,7 @@ times:
   cook: 300
   rest: 15
   total: 360
-tags: [beef, italian, main, project]
+tags: [beef, italian, main]
 source_doc: https://docs.google.com/document/d/1HTX9ZGbcNJARR5Gpxw-yCNphYSjYfkjMmSyuo0VmdeY/edit
 drive_doc_id: 1qnTtjpXh-41xXgdbPxk7_TkXztwLAX6AL6SgB9GwMHs
 ingredients:

@@ -11,7 +11,7 @@ times:
   cook: 40
   rest: 1920
   total: 1970
-tags: [dessert, vegetarian, project]
+tags: [dessert, vegetarian]
 source_doc: https://docs.google.com/document/d/1NB8IiBM6xn3Aa7JaFb0GUZe5zBwA984jnQQxhNOMAc8/edit
 drive_doc_id: 1WpIAEaHhh9qfiXMPBcDvbMcZR3zzZ7szkTJl5_ECigU
 ingredients:

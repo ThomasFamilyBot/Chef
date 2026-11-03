@@ -9,7 +9,7 @@ times:
   cook: 10
   rest: null
   total: 15
-tags: [pasta, korean, eggs, main, weeknight, pasta-sauce]
+tags: [pasta, korean, eggs, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1qaoWOHExsceJkH6fKcQ5UXKq-OX0-yO9qJjhA8DyaPw/edit
 drive_doc_id: 1mBB6PXZxUHqD0Qp_erxGGG1tY22PUvkxbgnnVzgIurw
 ingredients:

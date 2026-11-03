@@ -10,7 +10,7 @@ times:
   cook: null
   rest: 5760
   total: 5775
-tags: [beef, marinade, grill, project]
+tags: [beef, marinade, grill]
 source_doc: https://docs.google.com/document/d/1Wpy1qNHVJoRrCrF3LkGWpP2Vj0qLgkNRTPMRWCY48n8/edit
 drive_doc_id: 1XrhlA4kwfWFiQf1VqnZk0ZBhkt5T_18N7axMVwSz61Q
 ingredients:

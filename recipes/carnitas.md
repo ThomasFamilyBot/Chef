@@ -10,7 +10,7 @@ times:
   cook: 1440
   rest: null
   total: 1460
-tags: [pork, mexican, main, sous-vide, project]
+tags: [pork, mexican, main, sous-vide]
 source_doc: https://docs.google.com/document/d/1TOvDZ1TRnzaXuGacNV_yX4fhlkFh1--6k0bbW-1NYFw/edit
 drive_doc_id: 1Q62OK3uRHtMnkrXBn-XecRps8NpKKjFdB2YBrMO0Z2M
 ingredients:

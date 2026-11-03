@@ -11,7 +11,7 @@ times:
   cook: 20
   rest: 930
   total: 1020
-tags: [bread, italian, vegetarian, project]
+tags: [bread, italian, vegetarian]
 source_doc: https://docs.google.com/document/d/1iMQoSvLytg91y6k99lDfVAE7FcxAccqAtLC0iF-GmV4/edit
 drive_doc_id: 1bkFEVfn4_4PUCmt76Erirzy4VQFe2lh6nWkEsxP9UAg
 ingredients:

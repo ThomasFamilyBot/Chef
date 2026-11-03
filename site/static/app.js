@@ -11,7 +11,7 @@
     DATA = await res.json();
     return DATA;
   }
-  function getSel() { try { return JSON.parse(localStorage.getItem(KEY)) || { r: {}, t: [] }; } catch { return { r: {}, t: [] }; } }
+  function getSel() { try { const s = JSON.parse(localStorage.getItem(KEY)) || {}; return { r: s.r || {}, t: s.t || [], m: s.m || [] }; } catch { return { r: {}, t: [], m: [] }; } }
   function setSel(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch {} updateNav(); }
   function updateNav() {
     const s = getSel();
@@ -78,6 +78,7 @@
       });
       if (have.length) { scored.sort((a, b) => b[1] - a[1]).forEach(([c]) => list.appendChild(c)); }
       document.getElementById('empty').hidden = n > 0;
+      const cnt = document.getElementById('count'); if (cnt) cnt.textContent = (text || maxT || course || prot || have.length || active) ? `${n} of ${cards.length} recipes` : '';
     }
     q.addEventListener('input', apply);
     [fTime, fCourse, fProt].forEach(el => el.addEventListener('change', apply));
@@ -91,15 +92,17 @@
     const h = location.hash.replace(/^#/, '');
     if (!h) return null;
     const p = new URLSearchParams(h);
-    const sel = { r: {}, t: [] };
+    const sel = { r: {}, t: [], m: [] };
     (p.get('r') || '').split(',').filter(Boolean).forEach(x => { const [slug, m] = x.split(':'); sel.r[slug] = Math.max(1, Number(m) || 1); });
     sel.t = (p.get('t') || '').split(',').filter(Boolean);
+    sel.m = (p.get('m') || '').split(',').filter(Boolean);
     return sel;
   }
   function toHash(sel) {
     const r = Object.entries(sel.r).map(([s, m]) => m > 1 ? `${s}:${m}` : s).join(',');
     const t = sel.t.join(',');
-    return (r ? `r=${r}` : '') + (r && t ? '&' : '') + (t ? `t=${t}` : '');
+    const m = (sel.m || []).join(',');
+    return [r ? `r=${r}` : '', t ? `t=${t}` : '', m ? `m=${m}` : ''].filter(Boolean).join('&');
   }
 
   function shopPage() {
@@ -116,13 +119,13 @@
       picks.forEach(i => i.checked = !!s.r[i.dataset.recipe]);
       mults.forEach(i => i.value = s.r[i.dataset.mult] || 1);
       tpicks.forEach(i => i.checked = s.t.includes(i.dataset.template));
-      if (DATA) document.querySelectorAll('input[data-menu]').forEach(i => { const m = DATA.menus.find(x => x.id === i.dataset.menu); i.checked = !!m && m.slugs.length > 0 && m.slugs.every(sl => s.r[sl]); });
+      document.querySelectorAll('input[data-menu]').forEach(i => { i.checked = s.m.includes(i.dataset.menu); });
     }
-    picks.forEach(i => i.addEventListener('change', () => { const s = getSel(); if (i.checked) s.r[i.dataset.recipe] = Number(document.querySelector(`input[data-mult="${i.dataset.recipe}"]`).value) || 1; else delete s.r[i.dataset.recipe]; setSel(s); render(); }));
+    picks.forEach(i => i.addEventListener('change', () => { const s = getSel(); if (i.checked) s.r[i.dataset.recipe] = Number(document.querySelector(`input[data-mult="${i.dataset.recipe}"]`).value) || 1; else { delete s.r[i.dataset.recipe]; if (DATA) s.m = s.m.filter(id => { const m = DATA.menus.find(x => x.id === id); return !(m && m.slugs.includes(i.dataset.recipe)); }); } setSel(s); syncPicker(); render(); }));
     mults.forEach(i => i.addEventListener('change', () => { const s = getSel(); if (s.r[i.dataset.mult]) { s.r[i.dataset.mult] = Math.max(1, Number(i.value) || 1); setSel(s); render(); } }));
     tpicks.forEach(i => i.addEventListener('change', () => { const s = getSel(); s.t = s.t.filter(t => t !== i.dataset.template); if (i.checked) s.t.push(i.dataset.template); setSel(s); render(); }));
     document.querySelectorAll('input[data-menu]').forEach(i => i.addEventListener('change', () => addMenu(i.dataset.menu, i.checked).then(() => { syncPicker(); render(); })));
-    document.getElementById('clear-sel').onclick = () => { setSel({ r: {}, t: [] }); syncPicker(); render(); };
+    document.getElementById('clear-sel').onclick = () => { setSel({ r: {}, t: [], m: [] }); syncPicker(); render(); };
     document.getElementById('uncheck').onclick = () => { setChecked({}); render(); };
     document.getElementById('hide-checked').onchange = render;
     document.getElementById('pick-q').addEventListener('input', e => {
@@ -139,7 +142,7 @@
     async function render() {
       const d = await data();
       const s = getSel();
-      history.replaceState(null, '', location.pathname + (Object.keys(s.r).length || s.t.length ? '#' + toHash(s) : ''));
+      history.replaceState(null, '', location.pathname + (Object.keys(s.r).length || s.t.length || s.m.length ? '#' + toHash(s) : ''));
       const entries = [], names = [];
       const byslug = Object.fromEntries(d.recipes.map(r => [r.slug, r]));
       for (const t of d.templates) if (s.t.includes(t.slug)) { names.push(t.name); t.items.forEach(i => entries.push({ ...i, section: i.section_resolved || i.section, from: t.name })); }
@@ -178,7 +181,13 @@
     return data().then(d => {
       const m = d.menus.find(x => x.id === id); if (!m) return;
       const s = getSel();
-      m.slugs.forEach(slug => { if (on) { if (!s.r[slug]) s.r[slug] = 1; } else delete s.r[slug]; });
+      s.m = s.m.filter(x => x !== id);
+      if (on) { s.m.push(id); m.slugs.forEach(slug => { if (!s.r[slug]) s.r[slug] = 1; }); }
+      else {
+        // drop this menu's recipes unless another selected menu still needs them
+        const keep = new Set(d.menus.filter(x => s.m.includes(x.id)).flatMap(x => x.slugs));
+        m.slugs.forEach(slug => { if (!keep.has(slug)) delete s.r[slug]; });
+      }
       setSel(s);
     });
   }

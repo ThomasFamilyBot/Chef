@@ -9,7 +9,7 @@ times:
   cook: 60
   rest: 2880
   total: 2960
-tags: [chicken, main, project]
+tags: [chicken, main]
 source_doc: https://docs.google.com/document/d/1nJczmw0-DSpb6TbqY_B6xgXCQojeO1osDFqBntLeCwk/edit
 drive_doc_id: 1p6TzX3ZOQsZPywQcvgu0cKg1mBxqYDEyjji9hr75LNE
 ingredients:

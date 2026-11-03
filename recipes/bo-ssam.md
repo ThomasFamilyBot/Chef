@@ -11,7 +11,7 @@ times:
   cook: 375
   rest: 420
   total: 870
-tags: [pork, korean, main, project, two-day]
+tags: [pork, korean, main]
 source_doc: https://docs.google.com/document/d/1YVMCgX6Y9THkvIHUEWEwK1a-NPvEpiXNir6mOXNNyTo/edit
 drive_doc_id: 1cuW4J_eBOwFkJDhj1KAiup3xcNaYz8pPC4po4LpAjQE
 ingredients:

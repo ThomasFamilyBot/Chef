@@ -9,7 +9,7 @@ times:
   cook: 150
   rest: 720
   total: 915
-tags: [chicken, french, main, project, two-day]
+tags: [chicken, french, main]
 source_doc: https://docs.google.com/document/d/13eyqMwNNr623inlu8zkVxiRAvXSjin50d1TX8HQmnYI/edit
 drive_doc_id: 1bUD8ENUHeidEhHr_lJhcdGhnFpMmdZLMgbQ-s7o1_6M
 ingredients:

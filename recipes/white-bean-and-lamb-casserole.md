@@ -9,7 +9,7 @@ times:
   cook: 240
   rest: 15
   total: 300
-tags: [lamb, main, project]
+tags: [lamb, main]
 source_doc: https://docs.google.com/document/d/1WuPphw6CbbyN390-eLWUHK4do7wZvym-qnhUBdknp-0/edit
 drive_doc_id: 1SeCgKGlXVaHe5Y37abkWmOJ-KXZaUJ1L_YmxGYsOhnA
 ingredients:

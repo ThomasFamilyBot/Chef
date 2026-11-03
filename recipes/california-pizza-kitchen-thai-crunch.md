@@ -10,7 +10,7 @@ times:
   cook: null
   rest: null
   total: 30
-tags: [salad, side, vegetarian, asian, weeknight]
+tags: [salad, side, vegetarian, asian]
 drive_doc_id: 1DVKQXYFPfvATjJh5eQxU9TXynyvPFzztTWtqJonMIqM
 ingredients:
   - measure: 1/4 cup

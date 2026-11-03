@@ -9,7 +9,7 @@ times:
   cook: 600
   rest: 1440
   total: 3600
-tags: [lamb, main, smoker, project, three-day]
+tags: [lamb, main, smoker]
 source_doc: https://drive.google.com/file/d/1g1gjZXRKno-gZwfgjYZSl4MDBqW9Zsh8/view
 drive_doc_id: 1K4TsE_U6mzWx6oI2mO4eVf1xcFLPF0B_FObooNO4KvY
 ingredients:

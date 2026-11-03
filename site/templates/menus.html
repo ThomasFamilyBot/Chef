@@ -2,8 +2,11 @@
 {% block title %}Menus · Chef{% endblock %}
 {% block content %}
 <h1>Menus</h1>
-<p class="muted">Dinners we've actually cooked, with the run of show. Items without a link aren't in the library yet.</p>
-{% for m in menus %}
+<p class="muted">Menus can be added to the shopping list in one tap. To create one, tell Claude: "Create a menu called Taco Night with carnitas, super duper pickles and the margaritas." Items without a link aren't in the library yet.</p>
+{% set active = menus|rejectattr('archived')|list %}
+{% set past = menus|selectattr('archived')|list %}
+{% if not active %}<p class="muted"><i>No current menus yet.</i></p>{% endif %}
+{% for m in active %}
 <section class="menu card" id="{{ m.id }}">
   <h2>{{ m.name }}</h2>
   <p class="muted small">{{ m.occasion }}{% if m.date %} · {{ m.date }}{% endif %}{% if m.serves %} · Serves {{ m.serves }}{% endif %}{% if m.source_doc %} · <a href="{{ m.source_doc }}">run of show doc</a>{% endif %}</p>
@@ -16,5 +19,22 @@
   {% if m.slugs %}<button class="btn add-menu" data-menu="{{ m.id }}">+ Add {{ m.slugs|length }} recipe{{ 's' if m.slugs|length != 1 else '' }} to shopping list</button>{% endif %}
 </section>
 {% endfor %}
+{% if past %}
+<details class="past"><summary>Past dinners ({{ past|length }})</summary>
+{% for m in past %}
+<section class="menu card" id="{{ m.id }}">
+  <h2>{{ m.name }}</h2>
+  <p class="muted small">{{ m.occasion }}{% if m.date %} · {{ m.date }}{% endif %}{% if m.serves %} · Serves {{ m.serves }}{% endif %}{% if m.source_doc %} · <a href="{{ m.source_doc }}">run of show doc</a>{% endif %}</p>
+  <ul>
+  {% for it in m['items'] %}
+    <li>{% if it.slug %}<a href="r/{{ it.slug }}.html">{{ it.title }}</a>{% elif it.url %}<a href="{{ it.url }}">{{ it.title }}</a> <span class="tag">not in library</span>{% else %}{{ it.title }} <span class="tag">not in library</span>{% endif %}{% if it.note %} <span class="muted small">— {{ it.note }}</span>{% endif %}</li>
+  {% endfor %}
+  </ul>
+  {% if m.notes %}<p class="small">{{ m.notes }}</p>{% endif %}
+  {% if m.slugs %}<button class="btn add-menu" data-menu="{{ m.id }}">+ Add {{ m.slugs|length }} recipe{{ 's' if m.slugs|length != 1 else '' }} to shopping list</button>{% endif %}
+</section>
+{% endfor %}
+</details>
+{% endif %}
 {% endblock %}
 {% block scripts %}<script>Chef.menusPage();</script>{% endblock %}

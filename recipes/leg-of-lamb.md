@@ -11,7 +11,7 @@ times:
   cook: 150
   rest: 720
   total: 900
-tags: [lamb, main, grill, project]
+tags: [lamb, main, grill]
 source_doc: https://docs.google.com/document/d/1fdKQpPr1fnFykeeiJC8SyJqfGu7u6xO-35WtybFuj3c/edit
 drive_doc_id: 1OMB4mvAc1-0GTXF6vCFzEPuchHb-5UydiSb1QJvQRHk
 ingredients:

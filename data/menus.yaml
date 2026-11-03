@@ -1,7 +1,10 @@
 # Menus the family has actually cooked (from the Run of Show docs) plus curated ones.
 # items: either {slug: <recipe slug>} for a library recipe, or {title, url, note} for something
 # not yet in the library (these are the first candidates for the recipe-suggestions skill).
+# archived: true keeps a menu on the Menus page under "Past dinners" but out of the shopping-list picker.
+# To add a menu, tell Claude: "Create a menu called <name> with <recipes>" (menu-planning skill), or edit this file.
 - name: Thanksgiving 2025
+  archived: true
   occasion: Thanksgiving
   date: 2025-11-27
   serves: 8 adults, 2 kids (9 servings)
@@ -14,6 +17,7 @@
     - title: Green beans (2-3 lb)
       note: simple side, no recipe yet
 - name: Championship Weekend
+  archived: true
   occasion: Big-game BBQ
   date: 2026-01-25
   serves: a crowd
@@ -28,6 +32,7 @@
     - title: Oven fries
       note: no recipe yet
 - name: Grammys Dinner
+  archived: true
   occasion: Party for 11 adults + kids
   date: 2026-02-01
   serves: 11 adults, 4 kids
@@ -49,6 +54,7 @@
     - title: Hibiscus punch
       note: 2 gallons 200°F water, 40 tea bags 15 min, 1 1/2 cups honey, 14 limes, top with sparkling; written in the Run of Show doc
 - name: All Hallows Week, Tuesday
+  archived: true
   occasion: Weeknight with friends
   date: 2025-10-28
   serves: 4-6
@@ -61,6 +67,7 @@
     - slug: caesar-salad-and-croutons
       note: croutons only
 - name: All Hallows Week, Wednesday
+  archived: true
   occasion: Weeknight with friends
   date: 2025-10-29
   serves: 4-6
@@ -71,6 +78,7 @@
     - slug: caesar-salad-and-croutons
     - title: Onion rings (frozen)
 - name: All Hallows Week, Thursday (Italian-American)
+  archived: true
   occasion: Weeknight with friends
   date: 2025-10-30
   serves: 6
@@ -86,6 +94,7 @@
       url: https://cooking.nytimes.com/recipes/1014537-pear-vanilla-sorbet
       note: 4:1 ratio per Serious Eats sorbet guide
 - name: All Hallows Week, Friday
+  archived: true
   occasion: Cocktails
   date: 2025-10-31
   serves: 4

@@ -10,7 +10,7 @@ times:
   cook: 150
   rest: null
   total: 180
-tags: [beef, main, soup, project, asian]
+tags: [beef, main, soup, asian]
 source_doc: https://docs.google.com/document/d/1bUJKbGSljgUMCwwzngIKHL_16FaXhvQTIAl-qdCAXTU/edit
 drive_doc_id: 1MISx8SfZHxxTHvJsZW2TheF8kKZkA0-rieh0eFkcT-U
 ingredients:

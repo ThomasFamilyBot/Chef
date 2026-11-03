@@ -9,7 +9,7 @@ times:
   cook: 2880
   rest: 720
   total: 3615
-tags: [beef, main, sous-vide, project]
+tags: [beef, main, sous-vide]
 source_doc: https://docs.google.com/document/d/198hmK5EVRc8ZFcF1T5V67_5r6g0uD9YMwpWLgUm0suo/edit
 drive_doc_id: 1JwpybaTtjrKkAaV_AcpVPgsICtHyonzihfw16lw1bHQ
 ingredients:
