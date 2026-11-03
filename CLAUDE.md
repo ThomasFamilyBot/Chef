@@ -20,7 +20,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `scripts/usda_fetch.sh` + `scripts/usda_lookup.py` — local copy of USDA SR Legacy; `search`, `show`, and `row` (emits a ready canonical CSV row with FDC id, URL and portion weights).
 - `scripts/set_override.py` — set a per-ingredient nutrition override in a recipe (exclude / fraction / oz) with a note.
 - `site/` — templates and static assets for the site.
-- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`, `drive-sync`.
+- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`, `drive-sync`, `inbox-processing`.
 
 ## When asked to add / convert a recipe
 
@@ -41,6 +41,10 @@ Follow `.claude/skills/nutrition/SKILL.md`. Whole recipe only; calories, protein
 ## When asked what goes with a dish, for a menu, or for new recipe ideas
 
 Follow `.claude/skills/menu-planning/SKILL.md` or `.claude/skills/recipe-suggestions/SKILL.md`.
+
+## When asked to process the recipe inbox (friends' email / Drive submissions)
+
+Follow `.claude/skills/inbox-processing/SKILL.md`. A scheduled Routine runs it; it can also be run on request.
 
 ## When asked to put a recipe in Google Drive
 

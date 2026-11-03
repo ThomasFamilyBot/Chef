@@ -49,3 +49,12 @@ Every change is a git commit, so nothing is ever lost: the GitHub history is the
 ## Editing by hand
 
 You can edit any recipe file directly on GitHub (pencil icon). The format is documented in `docs/RECIPE_FORMAT.md`. A GitHub Action validates and rebuilds on every commit; if validation fails, the Actions tab shows what's wrong and the site keeps the last good version.
+
+## Friends sending recipes
+
+Give them two things:
+
+- **Email**: send a recipe URL or the typed-out recipe to **ahinthomas+chef@gmail.com**. (The `+chef` lands in the normal inbox; Claude finds it by the address.)
+- **Photos**: drop cookbook photos or scans into the shared Drive folder **Chef Inbox** (https://drive.google.com/drive/folders/1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9). Name the file with the recipe and your name, e.g. `Grandma's pierogi - Sam.jpg`.
+
+A Routine checks both on a schedule, converts each submission into a recipe with nutrition and a Google Doc, and emails the sender the links. Processed emails get the Gmail label `Chef/Done`; processed files move to `Chef Inbox/Processed`. To run it on demand, tell Claude "process the recipe inbox".
