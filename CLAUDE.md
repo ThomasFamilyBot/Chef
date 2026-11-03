@@ -51,6 +51,12 @@ Follow `.claude/skills/inbox-processing/SKILL.md`. A scheduled Routine runs it; 
 
 Follow `.claude/skills/drive-export/SKILL.md`.
 
+## Google identities
+
+- **ahinthomas@gmail.com** (personal) owns everything: the Drive folders (Food, Converted Recipies, Chef Inbox), the Google Docs, the **Chef Shopping Lists** sheet and its Apps Script, and the Claude connectors. Any Google setup step is done signed in as this account.
+- The public recipe-submission Gmail (see `data/site.yaml` → `submission_email`) is a forwarder only; it owns nothing.
+- **Whenever you ask the family to do something in Google, say which account to be signed in as.**
+
 ## Always
 
 - **Start every task with `git pull --rebase origin main`.** Several Claude sessions and people share this repo; a stale checkout makes comparisons and exports wrong (e.g. a Docs refresh that "matches" an old version).
