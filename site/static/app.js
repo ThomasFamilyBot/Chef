@@ -61,10 +61,14 @@
     const name = listName(), s = getState(name);
     try {
       const res = await fetch(CFG.api, { method: 'POST', body: JSON.stringify({ list: name, updated: s.updated, state: { sel: s.sel, custom: s.custom, checked: s.checked } }), headers: { 'Content-Type': 'text/plain;charset=utf-8' }, redirect: 'follow' });
-      const j = await res.json();
+      const txt = await res.text();
+      let j; try { j = JSON.parse(txt); } catch (e) { throw new Error(res.status === 403 || /You need access|Sign in/i.test(txt) ? 'access' : 'badjson'); }
       if (j.stale && j.state) { adopt(name, j); status('Updated from another phone', 'ok'); }
       else status('Saved to the shared list', 'ok');
-    } catch (e) { status('Offline. Saved on this phone; will sync when back online.', 'warn'); }
+    } catch (e) {
+      if (e && e.message === 'access') status('Not saved to the shared sheet: its web app is not set to "Anyone" (fix in Apps Script → Manage deployments). Saved on this phone.', 'warn');
+      else status('Offline. Saved on this phone; will sync when back online.', 'warn');
+    }
   }
   function adopt(name, j) {
     const s = { sel: { r: j.state.sel?.r || {}, t: j.state.sel?.t || [], m: j.state.sel?.m || [] }, custom: j.state.custom || [], checked: j.state.checked || {}, updated: j.updated || Date.now() };
@@ -77,12 +81,17 @@
     const name = listName();
     try {
       const res = await fetch(CFG.api + (CFG.api.includes('?') ? '&' : '?') + 'list=' + encodeURIComponent(name) + '&_=' + Date.now(), { redirect: 'follow' });
-      const j = await res.json();
+      const txt = await res.text();
+      let j; try { j = JSON.parse(txt); } catch (e) { throw new Error(res.status === 403 || /You need access|Sign in/i.test(txt) ? 'access' : 'badjson'); }
       const local = getState(name);
       if (j.state && (j.updated || 0) > (local.updated || 0)) { adopt(name, j); if (!quiet) status('Updated from the shared list', 'ok'); }
       else if (!j.state && local.updated) { pushSoon(); }     // the sheet has nothing yet; seed it from this phone
       else if (!quiet) status('Shared list · in sync', 'ok');
-    } catch (e) { if (!quiet) status('Offline. Showing this phone\'s copy.', 'warn'); }
+    } catch (e) {
+      if (e && e.message === 'access') status('The shared sheet\'s web app is not set to "Anyone". In Apps Script (as ahinthomas@gmail.com): Deploy → Manage deployments → edit → Who has access: Anyone → New version. Showing this phone\'s copy meanwhile.', 'warn');
+      else if (e && e.message === 'badjson') status('The shared sheet replied with something other than list data; check the Apps Script code. Showing this phone\'s copy.', 'warn');
+      else if (!quiet) status('Offline. Showing this phone\'s copy.', 'warn');
+    }
     finally { pulling = false; }
   }
   function startPolling() {
