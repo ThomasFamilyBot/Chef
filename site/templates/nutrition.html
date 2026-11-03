@@ -8,7 +8,7 @@
 <thead><tr><th>Item</th><th class="col-state">State</th><th>Cal</th><th>Protein g</th><th>Fat g</th><th>Cal/g protein</th><th class="col-notes">Notes</th></tr></thead>
 <tbody>
 {% for c in canonical|sort(attribute='_eff') %}
-<tr data-q="{{ (c.item ~ " " ~ c.aliases ~ " " ~ c.source)|lower }}"><td>{{ c.item }}</td><td class="col-state">{{ c.state }}</td><td>{{ c.calories }}</td><td>{{ c.protein_g }}</td><td>{{ c.fat_g }}</td><td>{{ c.efficiency }}</td><td class="muted col-notes">{{ c.yield_note }}{% if c.audit_note %} · {{ c.audit_note }}{% endif %}</td></tr>
+<tr data-q="{{ (c.item ~ " " ~ c.aliases ~ " " ~ c.source)|lower }}"><td>{{ c.item }}</td><td class="col-state">{{ c.state }}</td><td>{{ (c.calories|float)|round|int }}</td><td>{{ '%.1f'|format(c.protein_g|float) }}</td><td>{{ '%.1f'|format(c.fat_g|float) }}</td><td>{{ '%.2f'|format(c.efficiency|float) if c.efficiency else "—" }}</td><td class="muted col-notes">{{ c.yield_note }}{% if c.audit_note %} · {{ c.audit_note }}{% endif %}</td></tr>
 {% endfor %}
 </tbody>
 </table>
