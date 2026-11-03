@@ -2,6 +2,7 @@
 (function (global) {
   const KEY = 'chef.selection.v1';
   const CHECK = 'chef.checked.v1';
+  const CUSTOM = 'chef.custom.v1';
   let DATA = null;
 
   function base() { return document.querySelector('nav .brand').getAttribute('href').replace('index.html', ''); }
@@ -13,6 +14,10 @@
   }
   function getSel() { try { const s = JSON.parse(localStorage.getItem(KEY)) || {}; return { r: s.r || {}, t: s.t || [], m: s.m || [] }; } catch { return { r: {}, t: [], m: [] }; } }
   function setSel(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch {} updateNav(); }
+  function getCustom() { try { return JSON.parse(localStorage.getItem(CUSTOM)) || []; } catch { return []; } }
+  function setCustom(list) { try { localStorage.setItem(CUSTOM, JSON.stringify(list)); } catch {} }
+  function addCustom(section, amount, item) { const l = getCustom(); l.push({ id: 'c' + Date.now() + Math.random().toString(36).slice(2, 6), section, amount: amount || '', item: item || '' }); setCustom(l); }
+
   function updateNav() {
     const s = getSel();
     const n = Object.keys(s.r).length + s.t.length;
@@ -99,18 +104,20 @@
     (p.get('r') || '').split(',').filter(Boolean).forEach(x => { const [slug, m] = x.split(':'); sel.r[slug] = Math.max(1, Number(m) || 1); });
     sel.t = (p.get('t') || '').split(',').filter(Boolean);
     sel.m = (p.get('m') || '').split(',').filter(Boolean);
+    sel.c = (p.get('c') || '').split(';').filter(Boolean).map((s, i) => { const [section, amount, item] = s.split('~').map(x => decodeURIComponent(x)); return { id: 'h' + i + '_' + Date.now(), section, amount, item }; });
     return sel;
   }
   function toHash(sel) {
     const r = Object.entries(sel.r).map(([s, m]) => m > 1 ? `${s}:${m}` : s).join(',');
     const t = sel.t.join(',');
     const m = (sel.m || []).join(',');
-    return [r ? `r=${r}` : '', t ? `t=${t}` : '', m ? `m=${m}` : ''].filter(Boolean).join('&');
+    const c = (getCustom()).map(x => [x.section, x.amount || '', x.item || ''].map(encodeURIComponent).join('~')).join(';');
+    return [r ? `r=${r}` : '', t ? `t=${t}` : '', m ? `m=${m}` : '', c ? `c=${c}` : ''].filter(Boolean).join('&');
   }
 
   function shopPage() {
     const fromHash = parseHash();
-    if (fromHash) setSel(fromHash);
+    if (fromHash) { setSel({ r: fromHash.r, t: fromHash.t, m: fromHash.m }); if (fromHash.c && fromHash.c.length) setCustom(fromHash.c); }
     const groups = document.getElementById('groups');
     const picks = document.querySelectorAll('input[data-recipe]'), tpicks = document.querySelectorAll('input[data-template]');
     const mults = document.querySelectorAll('input[data-mult]');
@@ -141,6 +148,9 @@
     document.querySelectorAll('input[data-menu]').forEach(i => i.addEventListener('change', () => addMenu(i.dataset.menu, i.checked).then(() => { syncPicker(); render(); })));
     document.getElementById('clear-sel').onclick = () => { setSel({ r: {}, t: [], m: [] }); syncPicker(); render(); };
     document.getElementById('uncheck').onclick = () => { setChecked({}); render(); };
+    document.getElementById('blank-all').onclick = () => { data().then(d => { d.sections.forEach(sec => addCustom(sec, '', '')); render(); }); };
+    document.getElementById('blank-one').onclick = () => { addCustom('Other', '', ''); render(); };
+    document.getElementById('clear-custom').onclick = () => { setCustom([]); render(); };
     document.getElementById('hide-checked').onchange = render;
     document.getElementById('pick-q').addEventListener('input', e => {
       const t = e.target.value.toLowerCase();
@@ -156,7 +166,7 @@
     async function render() {
       const d = await data();
       const s = getSel();
-      history.replaceState(null, '', location.pathname + (Object.keys(s.r).length || s.t.length || s.m.length ? '#' + toHash(s) : ''));
+      history.replaceState(null, '', location.pathname + (Object.keys(s.r).length || s.t.length || s.m.length || getCustom().length ? '#' + toHash(s) : ''));
       const entries = [], names = [];
       const byslug = Object.fromEntries(d.recipes.map(r => [r.slug, r]));
       for (const t of d.templates) if (s.t.includes(t.slug)) { names.push(t.name); t.items.forEach(i => entries.push({ ...i, section: i.section_resolved || i.section, from: t.name })); }
@@ -169,24 +179,42 @@
       const order = d.sections;
       rows.sort((a, b) => (order.indexOf(a.section) - order.indexOf(b.section)) || a.item.localeCompare(b.item));
       const ck = checked(), hide = document.getElementById('hide-checked').checked;
+      const custom = getCustom();
+      const sections = [...new Set([...rows.map(r => r.section), ...custom.map(c => c.section)])];
+      sections.sort((a, b) => order.indexOf(a) - order.indexOf(b));
       groups.innerHTML = '';
-      let cur = null, ul = null, shown = 0;
-      for (const r of rows) {
-        if (hide && ck[r.key]) continue;
-        if (r.section !== cur) {
-          cur = r.section;
-          const h = document.createElement('h3'); h.textContent = cur; groups.appendChild(h);
-          ul = document.createElement('ul'); ul.className = 'checklist'; groups.appendChild(ul);
+      const esc = s => String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
+      for (const sec of sections) {
+        const secRows = rows.filter(r => r.section === sec && !(hide && ck[r.key]));
+        const secCustom = custom.filter(c => c.section === sec && !(hide && ck['custom:' + c.id]));
+        if (!secRows.length && !secCustom.length) continue;
+        const h = document.createElement('h3'); h.innerHTML = `${esc(sec)} <button class="btn small plus no-print" title="Add your own item to ${esc(sec)}">+</button>`;
+        h.querySelector('button').addEventListener('click', () => { addCustom(sec, '', ''); render(); setTimeout(() => { const last = groups.querySelector(`li.custom[data-sec="${CSS.escape(sec)}"]:last-of-type input.item`); if (last) last.focus(); }, 0); });
+        groups.appendChild(h);
+        const ul = document.createElement('ul'); ul.className = 'checklist'; groups.appendChild(ul);
+        for (const r of secRows) {
+          const li = document.createElement('li');
+          li.className = ck[r.key] ? 'done' : '';
+          li.innerHTML = `<label><input type="checkbox" ${ck[r.key] ? 'checked' : ''}> <span class="amt">${esc(r.amount)}</span> <span class="item">${esc(r.item)}</span> <span class="from muted small">${esc(r.from.join(', '))}</span></label>`;
+          li.querySelector('input').addEventListener('change', e => { const c = checked(); if (e.target.checked) c[r.key] = 1; else delete c[r.key]; setChecked(c); li.classList.toggle('done', e.target.checked); if (hide) render(); });
+          ul.appendChild(li);
         }
-        const li = document.createElement('li');
-        li.className = ck[r.key] ? 'done' : '';
-        li.innerHTML = `<label><input type="checkbox" ${ck[r.key] ? 'checked' : ''}> <span class="amt">${r.amount}</span> <span class="item">${r.item}</span> <span class="from muted small">${r.from.join(', ')}</span></label>`;
-        li.querySelector('input').addEventListener('change', e => { const c = checked(); if (e.target.checked) c[r.key] = 1; else delete c[r.key]; setChecked(c); li.classList.toggle('done', e.target.checked); if (hide) render(); });
-        ul.appendChild(li); shown++;
+        for (const c of secCustom) {
+          const key = 'custom:' + c.id;
+          const li = document.createElement('li');
+          li.className = 'custom' + (ck[key] ? ' done' : ''); li.dataset.sec = sec;
+          li.innerHTML = `<input type="checkbox" ${ck[key] ? 'checked' : ''}> <input class="amt" placeholder="qty" value="${esc(c.amount)}"> <input class="item" placeholder="your item" value="${esc(c.item)}"> <button class="btn small x no-print" title="Remove">×</button>`;
+          li.querySelector('input[type=checkbox]').addEventListener('change', e => { const k = checked(); if (e.target.checked) k[key] = 1; else delete k[key]; setChecked(k); li.classList.toggle('done', e.target.checked); if (hide) render(); });
+          const save = () => { const l = getCustom(); const row = l.find(x => x.id === c.id); if (row) { row.amount = li.querySelector('input.amt').value; row.item = li.querySelector('input.item').value; setCustom(l); } history.replaceState(null, '', location.pathname + '#' + toHash(getSel())); };
+          li.querySelector('input.amt').addEventListener('change', save); li.querySelector('input.item').addEventListener('change', save);
+          li.querySelector('button.x').addEventListener('click', () => { setCustom(getCustom().filter(x => x.id !== c.id)); render(); });
+          ul.appendChild(li);
+        }
       }
-      document.getElementById('list-empty').hidden = rows.length > 0;
+      document.getElementById('list-empty').hidden = rows.length > 0 || custom.length > 0;
       document.getElementById('for').textContent = names.length ? 'For: ' + names.join(' · ') : '';
-      document.getElementById('list-title').textContent = names.length ? `Shopping list (${rows.length} items)` : 'Your list';
+      const nCustom = getCustom().length;
+      document.getElementById('list-title').textContent = (names.length || nCustom) ? `Shopping list (${rows.length + nCustom} items)` : 'Your list';
     }
     data().then(() => { syncPicker(); render(); updateNav(); });
   }

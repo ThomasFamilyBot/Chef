@@ -9,7 +9,10 @@
   {% for t in templates %}
     <li><label><input type="checkbox" data-template="{{ t.slug }}"> {{ t.name }} <span class="muted small">({{ t['items']|length }} items)</span></label></li>
   {% endfor %}
+    <li><button class="btn small" id="blank-all" title="Adds an empty write-in row under every store section">+ Blank row in every section</button></li>
+    <li><button class="btn small" id="blank-one" title="Adds one empty write-in row">+ One blank row</button> <button class="btn small" id="clear-custom" title="Remove all custom rows">Clear custom rows</button></li>
   </ul>
+  <p class="muted small">Your own items: use the + next to any section heading on the list.</p>
   {% set active = menus|rejectattr('archived')|list %}
   <h3>Menus</h3>
   {% if active %}<ul id="pick-menus" class="plain">
