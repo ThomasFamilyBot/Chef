@@ -117,6 +117,17 @@
     function syncPicker() {
       const s = getSel();
       picks.forEach(i => i.checked = !!s.r[i.dataset.recipe]);
+      // selected recipes float to the top of the picker so they are easy to find and uncheck
+      const ul = document.getElementById('pick-recipes');
+      if (ul) {
+        const items = [...ul.querySelectorAll('li')];
+        items.sort((a, b) => {
+          const sa = !!s.r[a.querySelector('input[data-recipe]').dataset.recipe], sb = !!s.r[b.querySelector('input[data-recipe]').dataset.recipe];
+          if (sa !== sb) return sa ? -1 : 1;
+          return a.dataset.title.localeCompare(b.dataset.title);
+        });
+        items.forEach(li => { li.classList.toggle('selected', !!s.r[li.querySelector('input[data-recipe]').dataset.recipe]); ul.appendChild(li); });
+      }
       mults.forEach(i => i.value = s.r[i.dataset.mult] || 1);
       tpicks.forEach(i => i.checked = s.t.includes(i.dataset.template));
       document.querySelectorAll('input[data-menu]').forEach(i => { i.checked = s.m.includes(i.dataset.menu); });

@@ -98,3 +98,4 @@ footer { text-align:center; padding:20px; }
 .filters label.have { display:flex; gap:6px; align-items:center; flex:1 1 260px; }
 .filters label.have input { flex:1; font:inherit; font-size:.95em; padding:5px 8px; border:1px dashed var(--line); border-radius:6px; background:var(--card); color:var(--ink); }
 details.past summary { cursor:pointer; margin:16px 0 6px; font-weight:600; }
+ul.plain li.selected { background: color-mix(in srgb, var(--accent) 12%, var(--card)); font-weight:600; }
