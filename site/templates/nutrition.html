@@ -2,19 +2,19 @@
 {% block title %}Nutrition · Chef{% endblock %}
 {% block content %}
 <h1>Canonical ingredient table</h1>
-<p class="muted">Per 1 oz by weight. Values here override generic databases. Source file: <code>data/canonical_ingredients.csv</code>. Sorted by efficiency (calories per gram of protein, lower is better).</p>
+<p class="muted">Per 1 oz by weight.</p>
 <input id="cq" class="search" type="search" placeholder="Filter the table…">
-<div class="scroll"><table class="canon small">
-<thead><tr><th>Item</th><th>State</th><th>Cal</th><th>Protein g</th><th>Fat g</th><th>Cal/g protein</th><th>Notes</th></tr></thead>
+<table class="canon small">
+<thead><tr><th>Item</th><th class="col-state">State</th><th>Cal</th><th>Protein g</th><th>Fat g</th><th>Cal/g protein</th><th class="col-notes">Notes</th></tr></thead>
 <tbody>
 {% for c in canonical|sort(attribute='_eff') %}
-<tr data-q="{{ (c.item ~ " " ~ c.aliases ~ " " ~ c.source)|lower }}"><td>{{ c.item }}</td><td>{{ c.state }}</td><td>{{ c.calories }}</td><td>{{ c.protein_g }}</td><td>{{ c.fat_g }}</td><td>{{ c.efficiency }}</td><td class="muted">{{ c.yield_note }}{% if c.audit_note %} · {{ c.audit_note }}{% endif %}</td></tr>
+<tr data-q="{{ (c.item ~ " " ~ c.aliases ~ " " ~ c.source)|lower }}"><td>{{ c.item }}</td><td class="col-state">{{ c.state }}</td><td>{{ c.calories }}</td><td>{{ c.protein_g }}</td><td>{{ c.fat_g }}</td><td>{{ c.efficiency }}</td><td class="muted col-notes">{{ c.yield_note }}{% if c.audit_note %} · {{ c.audit_note }}{% endif %}</td></tr>
 {% endfor %}
 </tbody>
-</table></div>
+</table>
 <h2>Recipes with nutrition</h2>
 <p class="muted small">Whole recipe as listed.</p>
-<div class="scroll"><table class="small">
+<table class="small recipes-nut">
 <thead><tr><th>Recipe</th><th>Calories</th><th>Protein</th><th>Fat</th></tr></thead>
 <tbody>
 {% for r in recipes if r.nutrition %}{% set n = r.nutrition %}
@@ -23,6 +23,6 @@
 <tr><td colspan="4" class="muted">None yet.</td></tr>
 {% endfor %}
 </tbody>
-</table></div>
+</table>
 {% endblock %}
 {% block scripts %}<script>document.getElementById('cq').addEventListener('input',e=>{const q=e.target.value.toLowerCase();document.querySelectorAll('table.canon tbody tr').forEach(tr=>tr.hidden=q&&!tr.dataset.q.includes(q));});</script>{% endblock %}

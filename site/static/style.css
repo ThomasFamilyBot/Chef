@@ -6,8 +6,9 @@ html { -webkit-text-size-adjust: 100%; }
 body { margin:0; font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); background:var(--bg); }
 a { color: var(--accent); }
 .wrap { max-width: 900px; margin: 0 auto; padding: 0 16px 48px; }
-.nav { display:flex; gap:18px; align-items:center; padding:10px 16px; border-bottom:1px solid var(--line); background:var(--card); position:sticky; top:0; z-index:5; }
-.nav a { text-decoration:none; color:var(--ink); font-weight:600; }
+.nav { display:flex; gap:18px; align-items:center; padding:10px 16px; border-bottom:1px solid var(--line); background:var(--card); position:sticky; top:0; z-index:5; white-space:nowrap; overflow-x:auto; }
+.nav a { text-decoration:none; color:var(--ink); font-weight:600; white-space:nowrap; flex:0 0 auto; }
+@media (max-width: 480px) { .nav { gap:12px; padding:10px 12px; } .nav .brand { font-size:1.05em; } }
 .nav .brand { font-size:1.15em; margin-right:auto; }
 .pill { background:var(--accent); color:var(--accent-ink); border-radius:999px; padding:0 7px; font-size:.8em; }
 .pill:empty { display:none; }
@@ -99,3 +100,8 @@ footer { text-align:center; padding:20px; }
 .filters label.have input { flex:1; font:inherit; font-size:.95em; padding:5px 8px; border:1px dashed var(--line); border-radius:6px; background:var(--card); color:var(--ink); }
 details.past summary { cursor:pointer; margin:16px 0 6px; font-weight:600; }
 ul.plain li.selected { background: color-mix(in srgb, var(--accent) 12%, var(--card)); font-weight:600; }
+
+/* nutrition page: pinned header, fewer columns on phones */
+table.canon thead th, table.recipes-nut thead th { position: sticky; top: var(--nav-h, 50px); z-index: 2; background: var(--bg); box-shadow: 0 1px 0 var(--line); }
+table.canon td, table.canon th { font-size:.9em; }
+@media (max-width: 639px) { .col-state, .col-notes { display:none; } table.canon td, table.canon th { padding:4px 4px; font-size:.84em; } }

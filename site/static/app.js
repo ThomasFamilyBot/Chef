@@ -34,6 +34,9 @@
     if (b) { toggleRecipe(b.dataset.slug); }
   });
 
+  function setNavHeight() { const n = document.querySelector('nav.nav'); if (n) document.documentElement.style.setProperty('--nav-h', n.offsetHeight + 'px'); }
+  window.addEventListener('load', setNavHeight); window.addEventListener('resize', setNavHeight); setNavHeight();
+
   function indexPage() {
     const q = document.getElementById('q'), list = document.getElementById('list');
     const cards = [...list.querySelectorAll('.card')];
