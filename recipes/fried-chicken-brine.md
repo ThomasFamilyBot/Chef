@@ -11,7 +11,7 @@ times:
   total: 270
 tags: [chicken, brine]
 source_doc: https://docs.google.com/document/d/1ag-jbFMvN_6J_p0Pzt9qnFF-a_zGd3ejH2hX8kSVq_Y/edit
-drive_doc_id: 17l7af5veBF859OCnPXEjo9GbOcYKHMd4leHpMxMTFy8
+drive_doc_id: 18RlIqBJ6D0n3TKBVoSeq4whbnCdCYCov3mMPahjMJNg
 ingredients:
   - measure: '5'
     item: Lemon

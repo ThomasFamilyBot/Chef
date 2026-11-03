@@ -13,7 +13,7 @@ times:
   total: 35
 tags: [salad, side, vegetarian]
 source_doc: https://docs.google.com/document/d/11UJjJ3in67tUuF_2HJjKuwhzlexmQjawbOKqg3DcQZk/edit
-drive_doc_id: 1R9ThsVpOM_WfmHRwEgjM9igNHcYygXEUkMLCOGi1ta4
+drive_doc_id: 1dpKUi0jMVbn8K_2Ejlty7GJxFJh-zgwnglQxkjyjlTU
 ingredients:
   - measure: 1/2 loaf
     item: Crusty Italian Bread

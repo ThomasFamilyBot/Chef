@@ -11,7 +11,7 @@ times:
   total: 270
 tags: [chicken, main, southern]
 source_doc: https://docs.google.com/document/d/1ScyTTygbx9Kggap66vGopzjPvX0RoQi2PpTXZGjwoHE/edit
-drive_doc_id: 1hX8LZ7gednxAkvZ9Fcm-T7lk-a6b6CvfPSE-S8Rmv9A
+drive_doc_id: 1n9184_cFVg20Q9W6JvkGwD5JEd1sE_kQGAfeXcj02-Y
 ingredients:
   - measure: 8 pieces
     item: Chicken Pieces, bone-in skin-on

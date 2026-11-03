@@ -11,7 +11,7 @@ times:
   rest: null
   total: 30
 tags: [salad, side, vegetarian, asian, weeknight]
-drive_doc_id: 1Lav9RGGQlNLyNT37Wn7YCHebWMIJAZuUlBogzuLaV2o
+drive_doc_id: 1DVKQXYFPfvATjJh5eQxU9TXynyvPFzztTWtqJonMIqM
 ingredients:
   - measure: 1/4 cup
     item: Peanut Butter, creamy

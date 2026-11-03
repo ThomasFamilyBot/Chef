@@ -12,7 +12,7 @@ times:
   total: 1460
 tags: [pork, mexican, main, sous-vide, project]
 source_doc: https://docs.google.com/document/d/1TOvDZ1TRnzaXuGacNV_yX4fhlkFh1--6k0bbW-1NYFw/edit
-drive_doc_id: 1jxAeX2Syw5No_8b6RDcMMNXYS5251-SGyv776llDs7A
+drive_doc_id: 1Q62OK3uRHtMnkrXBn-XecRps8NpKKjFdB2YBrMO0Z2M
 ingredients:
   - measure: 4 lb
     item: Pork Shoulder, boneless

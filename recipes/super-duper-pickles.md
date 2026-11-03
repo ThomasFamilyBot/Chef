@@ -11,7 +11,7 @@ times:
   total: 1470
 tags: [vegetarian, side, project]
 source_doc: https://docs.google.com/spreadsheets/d/11narolYcUjZ6cMSBR7s8NNqNmyfrJPgGxpTmg1LVYL0/edit
-drive_doc_id: 1oMtmOlZ4OF7NvTLz9xQ_JA8kGhWB3zwfAB49VfJwNUc
+drive_doc_id: 1KY5QF6UuljXgddGfGRScG3lVUoyhkKw_d5m7VsMW9tc
 ingredients:
   - measure: 3/4 gallon (96 fl oz)
     item: White Vinegar

@@ -12,7 +12,7 @@ times:
   total: 80
 tags: [turkey, sauce, thanksgiving, make-ahead, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1rwN95utkxSydFvLOpnX-QnBCz8UoGv7kOoGqoHb0N5A/edit
-drive_doc_id: 17LtC-SHzotkryHdjx5V9lq6-fzZ1g3S5Y0QoL6mqTE8
+drive_doc_id: 1EIzFVP8ssL7roZZfsPWQH-MxhrC16QZDwsGBqsj_aeo
 ingredients:
   - measure: 2 TBLS
     item: Neutral Oil

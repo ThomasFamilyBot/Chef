@@ -12,7 +12,7 @@ times:
   total: 90
 tags: [drink, cocktail, tequila]
 source_doc: https://docs.google.com/document/d/1dWuQ1eJcI7ZPKUafwVDDRMOx7XUyi6oa2wviAY2e5Sk/edit
-drive_doc_id: 1cGvIVgqH3TTcVRjgzAKQFR2-9T-JQy9WPD_bOMAofPU
+drive_doc_id: 12EWowSfSay1SRoxiahEXkP3lmMYNmq7QSfrQwfJDMVU
 ingredients:
   - measure: 1 cup
     item: Unrefined Cane Sugar

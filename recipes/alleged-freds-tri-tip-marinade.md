@@ -12,7 +12,7 @@ times:
   total: 5775
 tags: [beef, marinade, grill, project]
 source_doc: https://docs.google.com/document/d/1Wpy1qNHVJoRrCrF3LkGWpP2Vj0qLgkNRTPMRWCY48n8/edit
-drive_doc_id: 1JLqi2-fQwH4BHU_0HYr1sPhd2eTHr5HieQ_xTnuCznk
+drive_doc_id: 1XrhlA4kwfWFiQf1VqnZk0ZBhkt5T_18N7axMVwSz61Q
 ingredients:
   - measure: 2-3
     item: Tri-Tip

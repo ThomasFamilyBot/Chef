@@ -11,7 +11,7 @@ times:
   total: 130
 tags: [turkey, pork, main, project]
 source_doc: https://docs.google.com/document/d/1di3v39ISGAFtlJE6-TL7jPdS5tUR_8ijKyD0X4WU6QU/edit
-drive_doc_id: 1P4eUps84PFKpaSr7Jmq77RGdT79xFNEc0iYTygvcf3Y
+drive_doc_id: 1cc3OD0iO1t0c2eA1UIcBPhLCub1m38mazvDWGn7UsUQ
 ingredients:
   - measure: 2 TBLS (up to 4)
     item: Olive Oil
