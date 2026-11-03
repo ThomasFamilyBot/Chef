@@ -21,12 +21,12 @@ ingredients:
   - measure: 25 g, plus more
     item: Kosher Salt
     prep: Diamond Crystal; weighing preferred
-    group: 1 -> Dry-brined lamb (then 4 -> Reduce the jus, 5 -> Herb garnish)
+    group: 1 -> Dry-brined lamb (then 5 -> Reduce the jus, 6 -> Herb garnish)
     qty: 25
     unit: g
   - measure: 2 tsp, plus more
     item: Black Pepper
-    group: 1 -> Dry-brined lamb (then 4 -> Reduce the jus)
+    group: 1 -> Dry-brined lamb (then 5 -> Reduce the jus)
     qty: 2
     unit: tsp
   - measure: 2 large
@@ -54,81 +54,81 @@ ingredients:
     unit: TBLS
   - measure: 2 small chunks
     item: Post Oak Wood Chunks
-    group: 2 -> Smoke
+    group: 3 -> Smoke
     qty: 2
     unit: each
     section: Household
     nutrition: exclude
   - measure: 1 bottle (25 fl oz)
     item: Dry Red Wine
-    group: 3 -> Braise
+    group: 4 -> Braise
     qty: 1
     unit: bottle
   - measure: 4 cups, plus more if needed
     item: Lamb or Chicken Stock, low sodium
-    group: 3 -> Braise
+    group: 4 -> Braise
     qty: 4
     unit: cup
     section: Canned & Jarred
   - measure: 1/4 cup
     item: Balsamic Vinegar
-    group: 3 -> Braise
+    group: 4 -> Braise
     qty: 0.25
     unit: cup
   - measure: 2 sprigs
     item: Fresh Rosemary
-    group: 3 -> Braise
+    group: 4 -> Braise
     qty: 2
     unit: sprig
   - measure: 6 sprigs
     item: Fresh Thyme
-    group: 3 -> Braise
+    group: 4 -> Braise
     qty: 6
     unit: sprig
   - measure: 2
     item: Bay Leaves
-    group: 3 -> Braise
+    group: 4 -> Braise
     qty: 2
     unit: leaf
   - measure: 2 oz (4 TBLS)
     item: Unsalted Butter
     prep: Cold, cubed
-    group: 6 -> Finished jus
+    group: 7 -> Finished jus
     qty: 2
     unit: oz
   - measure: 3 TBLS, divided
     item: Red Wine Vinegar
     prep: To taste
-    group: 4 -> Reduce the jus (then 5 -> Herb garnish)
+    group: 5 -> Reduce the jus (then 6 -> Herb garnish)
     qty: 3
     unit: TBLS
   - measure: 1 cup, loosely packed
     item: Mint
     prep: Leaves
-    group: 5 -> Herb garnish
+    group: 6 -> Herb garnish
     qty: 1
     unit: bunch
   - measure: 1 cup, loosely packed
     item: Flat-Leaf Parsley
     prep: Leaves
-    group: 5 -> Herb garnish
+    group: 6 -> Herb garnish
     qty: 1
     unit: bunch
   - measure: 1 small
     item: Shallot
     prep: Very finely minced
-    group: 5 -> Herb garnish
+    group: 6 -> Herb garnish
     qty: 1
     unit: each
   - measure: 2 TBLS
     item: Extra-Virgin Olive Oil
-    group: 5 -> Herb garnish
+    group: 6 -> Herb garnish
     qty: 2
     unit: TBLS
   - measure: As needed
     item: Noma Pumpkin Bushi
     prep: For fine grating
-    group: 6 -> Service
+    group: 8 -> Service
     qty: 1
     unit: each
     section: International
@@ -136,7 +136,7 @@ ingredients:
   - measure: 7
     item: Lamb-Fat Yorkshire Puddings
     prep: Or as planned by host (separate recipe)
-    group: 6 -> Service
+    group: 8 -> Service
     qty: 7
     unit: each
     shop: false

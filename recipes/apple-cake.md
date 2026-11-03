@@ -31,71 +31,71 @@ ingredients:
   - measure: '2'
     item: Apples
     prep: Peeled, cored, sliced into half moons
-    group: 2 -> Apples
+    group: 3 -> Apples
     qty: 2
     unit: each
   - measure: 2 cups
     item: All-Purpose Flour
-    group: 3 -> Dry Ingredients
+    group: 4 -> Dry Ingredients
     qty: 2
     unit: cup
   - measure: 1 3/4 cups
     item: Granulated Sugar
-    group: 3 -> Dry Ingredients
+    group: 4 -> Dry Ingredients
     qty: 1.75
     unit: cup
   - measure: 1 1/2 tsp
     item: Kosher Salt
-    group: 3 -> Dry Ingredients
+    group: 4 -> Dry Ingredients
     qty: 1.5
     unit: tsp
   - measure: 1 1/2 tsp
     item: Baking Soda
-    group: 3 -> Dry Ingredients
+    group: 4 -> Dry Ingredients
     qty: 1.5
     unit: tsp
   - measure: 1 1/2 tsp
     item: Baking Powder
-    group: 3 -> Dry Ingredients
+    group: 4 -> Dry Ingredients
     qty: 1.5
     unit: tsp
   - measure: 1 1/3 cups
     item: Extra-Virgin Olive Oil
-    group: 3 -> Wet Ingredients
+    group: 5 -> Wet Ingredients
     qty: 1.333
     unit: cup
   - measure: 1 1/4 cups
     item: Whole Milk
-    group: 3 -> Wet Ingredients
+    group: 5 -> Wet Ingredients
     qty: 1.25
     unit: cup
   - measure: '3'
     item: Eggs
-    group: 3 -> Wet Ingredients
+    group: 5 -> Wet Ingredients
     qty: 3
     unit: each
   - measure: 1 TBLS (zest of ~1 orange)
     item: Orange
     prep: Zested
-    group: 3 -> Wet Ingredients
+    group: 5 -> Wet Ingredients
     qty: 1
     unit: each
   - measure: 1/4 cup
     item: Orange Juice
     prep: OJ (juice the zested orange if you like)
-    group: 3 -> Wet Ingredients
+    group: 5 -> Wet Ingredients
     qty: 0.25
     unit: cup
   - measure: 1/4 cup
     item: Grand Marnier
-    group: 3 -> Wet Ingredients
+    group: 5 -> Wet Ingredients
     qty: 0.25
     unit: cup
     section: Beverages, Beer & Wine
   - measure: For dusting
     item: Powdered Sugar
     prep: Garnish
-    group: 4 -> Remove from pan
+    group: 6 -> Remove from pan
     qty: 1
     unit: to taste
   - measure: 1 round
@@ -272,8 +272,8 @@ nutrition:
 
 **Cake batter**
 
-- In a bowl, whisk the flour, sugar, salt, baking soda and baking powder (`3 -> Dry Ingredients`).
-- In another bowl, whisk the olive oil, milk, eggs, orange zest and juice and Grand Marnier (`3 -> Wet Ingredients`).
+- In a bowl, whisk the flour, sugar, salt, baking soda and baking powder (`4 -> Dry Ingredients`).
+- In another bowl, whisk the olive oil, milk, eggs, orange zest and juice and Grand Marnier (`5 -> Wet Ingredients`).
 - Add the Dry Ingredients to the liquid ingredients just whisked; whisk until just combined.
 
 **Pour batter**

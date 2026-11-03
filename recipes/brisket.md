@@ -27,46 +27,46 @@ ingredients:
   - measure: 1 TBLS
     item: Coffee, coarse ground
     prep: Med - 2nd notch
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 1
     unit: TBLS
     section: Beverages, Beer & Wine
   - measure: 1 1/2 TBLS
     item: Curing Salt
     prep: "CHECK: if this is Prague powder #1 (pink cure), 1 1/2 TBLS is ~4x the usual 1 tsp per 5 lb. Confirm the product and amount before using"
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 1.5
     unit: TBLS
   - measure: 1 1/2 TBLS
     item: Granulated Garlic
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 1.5
     unit: TBLS
     section: Spices & Dried Herbs
   - measure: 2 TBLS
     item: Brown Sugar
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 2
     unit: TBLS
   - measure: 1 tsp
     item: Black Pepper
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 1
     unit: tsp
   - measure: 1/4 tsp
     item: Cayenne
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 0.25
     unit: tsp
   - measure: 1/4 tsp
     item: Ground Cloves
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 0.25
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1/4 tsp
     item: Cinnamon
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 0.25
     unit: tsp
 nutrition:
@@ -165,5 +165,5 @@ nutrition:
 
 **Rub and sous vide**
 
-- Combine all spices from `2 -> Rub` in bowl. Rub on brisket. Add 1/4 cup of the marinade root beer into the bag.
+- Combine all spices from `3 -> Rub` in bowl. Rub on brisket. Add 1/4 cup of the marinade root beer into the bag.
 - Sous vide @ 135°F for 48 hours (60 is fine).

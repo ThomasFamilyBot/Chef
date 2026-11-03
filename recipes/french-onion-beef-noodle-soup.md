@@ -21,7 +21,7 @@ ingredients:
     unit: TBLS
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Brown the ribs (then 3 -> Start onions)
+    group: 1 -> Brown the ribs (then 4 -> Start onions)
     qty: 1
     unit: to taste
   - measure: 12 cups
@@ -39,7 +39,7 @@ ingredients:
   - measure: 6
     item: Scallions
     prep: Whites for stock, greens thinly sliced for serving
-    group: 2 -> Start the stock (then 5 -> Finish & serve)
+    group: 2 -> Start the stock (then 6 -> Finish & serve)
     qty: 1
     unit: bunch
   - measure: 8 cloves
@@ -57,30 +57,30 @@ ingredients:
   - measure: 6 pods
     item: Star Anise
     prep: 1 'star' = 1 pod
-    group: 2 -> Spices
+    group: 3 -> Spices
     qty: 6
     unit: each
     section: Spices & Dried Herbs
   - measure: 2 (3" each)
     item: Cinnamon Sticks
-    group: 2 -> Spices
+    group: 3 -> Spices
     qty: 2
     unit: each
     section: Spices & Dried Herbs
   - measure: 8
     item: Whole Cloves
-    group: 2 -> Spices
+    group: 3 -> Spices
     qty: 8
     unit: each
     section: Spices & Dried Herbs
   - measure: 2 tsp
     item: Black Peppercorns
-    group: 2 -> Spices
+    group: 3 -> Spices
     qty: 2
     unit: tsp
   - measure: 2 tsp
     item: Coriander Seeds
-    group: 2 -> Spices
+    group: 3 -> Spices
     qty: 2
     unit: tsp
     section: Spices & Dried Herbs
@@ -93,30 +93,30 @@ ingredients:
   - measure: 1/2 cup +
     item: Soy Sauce, low sodium
     prep: Plus more to taste
-    group: 2 -> Start the stock (then 4 -> Refine broth)
+    group: 2 -> Start the stock (then 5 -> Refine broth)
     qty: 0.5
     unit: cup
   - measure: 3 TBLS
     item: Unsalted Butter
-    group: 3 -> Start onions
+    group: 4 -> Start onions
     qty: 3
     unit: TBLS
   - measure: 5 lb (~10 onions)
     item: Yellow Onion
     prep: Thinly sliced
-    group: 3 -> Start onions
+    group: 4 -> Start onions
     qty: 5
     unit: lb
   - measure: 2 TBLS +
     item: Rice Vinegar, unseasoned
     prep: Usually ends up being 3
-    group: 4 -> Refine broth
+    group: 5 -> Refine broth
     qty: 3
     unit: TBLS
   - measure: 18 oz
     item: Dried Ramen Noodles
     prep: 30 oz if you can find fresh
-    group: 5 -> Finish & serve
+    group: 6 -> Finish & serve
     qty: 18
     unit: oz
     section: International
@@ -274,7 +274,7 @@ Allow 3 hours for the cook. Stays warm for ~2 hours after finished without extra
 
 - Finish prep here; start onion prep while cooking stock.
 - Slice ginger, combine with white scallion parts and garlic. Place into Dutch oven with the remaining beef fat and brown, ~4 min.
-- Combine everything from `2 -> Spices` (star anise, cinnamon, cloves, black peppercorns & coriander seeds). Add to pot and stir frequently; ready when fragrant & sizzling, ~1 min.
+- Combine everything from `3 -> Spices` (star anise, cinnamon, cloves, black peppercorns & coriander seeds). Add to pot and stir frequently; ready when fragrant & sizzling, ~1 min.
 - Add wine and scrape browned bits from bottom of pan with wooden spoon. Simmer (185-205°F) until mostly evaporated, ~3 min.
 - Return beef, add soy & water.
 - Bring to a boil, then reduce to simmer. Cover partially with lid. Simmer until meat is ALMOST falling from bone, ~90 min.

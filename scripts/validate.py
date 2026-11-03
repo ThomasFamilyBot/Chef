@@ -70,6 +70,9 @@ def check(path, sections):
         nums = sorted(groups)
         if nums != list(range(1, len(nums) + 1)):
             errs.append(f"mise groups are numbered {nums}; they must run 1..{len(nums)} with no gaps (scripts/renumber_groups.py)")
+        for num, names in groups.items():
+            if len(names) > 1:
+                errs.append(f"bowl {num} has more than one name: {sorted(names)} (one bowl per number; run scripts/renumber_groups.py)")
         for num, name in tok.findall(r.get("body_md") or ""):
             if int(num) not in groups:
                 errs.append(f"directions refer to `{num} -> {name.strip()}` but no ingredient has group {num}")

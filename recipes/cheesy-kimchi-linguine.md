@@ -52,43 +52,43 @@ ingredients:
   - measure: 2
     item: Scallions
     prep: Thin matchsticks. Half goes in the pan, half on top
-    group: 2 -> Prep butter (then 4 -> Plate)
+    group: 3 -> Prep butter (then 5 -> Plate)
     qty: 2
     unit: each
   - measure: 2
     item: Eggs
-    group: 3 -> Make eggs
+    group: 4 -> Make eggs
     qty: 2
     unit: each
   - measure: 1 TBLS
     item: Grapeseed Oil
     prep: Or any flavorless oil
-    group: 3 -> Make eggs
+    group: 4 -> Make eggs
     qty: 1
     unit: TBLS
   - measure: 2 TBLS
     item: Dried Seaweed
     prep: Crumbled
-    group: 4 -> Plate
+    group: 5 -> Plate
     qty: 2
     unit: TBLS
     section: International
   - measure: 2 TBLS
     item: Parmesan
     prep: Grated
-    group: 4 -> Plate
+    group: 5 -> Plate
     qty: 2
     unit: TBLS
   - measure: 1
     item: Lime
     prep: Cut into wedges
-    group: 4 -> Plate
+    group: 5 -> Plate
     qty: 1
     unit: each
   - measure: pinch
     item: Kosher Salt
     prep: For the eggs
-    group: 3 -> Make eggs
+    group: 4 -> Make eggs
     qty: 1
     unit: pinch
 nutrition:

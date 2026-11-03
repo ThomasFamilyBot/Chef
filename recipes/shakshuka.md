@@ -17,7 +17,7 @@ drive_doc_id: 1N66YWQPdiRwv5lCmC8tMzO0uygioGU7zyrak3FcYHxY
 ingredients:
   - measure: 6 TBLS (~1/2 cup)
     item: Olive Oil
-    group: 3 -> Cook
+    group: 4 -> Cook
     qty: 6
     unit: TBLS
   - measure: 2 large
@@ -41,49 +41,49 @@ ingredients:
   - measure: 1 bunch
     item: Cilantro
     prep: Rough chop of leaves, for serving
-    group: 3 -> Cook
+    group: 4 -> Cook
     qty: 1
     unit: bunch
   - measure: 2 (28 oz each)
     item: Whole Plum Tomatoes, fire roasted, 28 oz can
     prep: Chopped, with juices (or just buy 'em chopped)
-    group: 3 -> Cook
+    group: 4 -> Cook
     qty: 2
     unit: can
   - measure: 2 TBLS
     item: Ground Cumin
-    group: 2 -> Spice mix
+    group: 3 -> Spice mix
     qty: 2
     unit: TBLS
   - measure: 2 tsp
     item: Smoked Paprika
-    group: 2 -> Spice mix
+    group: 3 -> Spice mix
     qty: 2
     unit: tsp
   - measure: 1/4 tsp
     item: Cayenne
-    group: 2 -> Spice mix
+    group: 3 -> Spice mix
     qty: 0.25
     unit: tsp
   - measure: 1 1/2 tsp
     item: Harissa
-    group: 2 -> Spice mix
+    group: 3 -> Spice mix
     qty: 1.5
     unit: tsp
   - measure: 1 g
     item: Saffron
     prep: Spanish is cheaper. Use legit saffron and cut the amount
-    group: 2 -> Spice mix
+    group: 3 -> Spice mix
     qty: 1
     unit: g
   - measure: 1 1/2 tsp
     item: Kosher Salt
-    group: 3 -> Cook
+    group: 4 -> Cook
     qty: 1.5
     unit: tsp
   - measure: 1/2 tsp
     item: Black Pepper
-    group: 3 -> Cook
+    group: 4 -> Cook
     qty: 0.5
     unit: tsp
   - measure: 10
@@ -94,7 +94,7 @@ ingredients:
   - measure: 10 oz (trying 12 oz)
     item: Feta
     prep: Crumbled
-    group: 3 -> Cook
+    group: 4 -> Cook
     qty: 12
     unit: oz
 nutrition:
@@ -227,7 +227,7 @@ nutrition:
 
 - Prep onion & bell pepper (can go in same bowl).
 - Prep garlic.
-- Prep spice mix (`2 -> Spice mix`): cumin, paprika, cayenne, saffron, harissa (can go in one bowl).
+- Prep spice mix (`3 -> Spice mix`): cumin, paprika, cayenne, saffron, harissa (can go in one bowl).
 
 **Cook** (30 min)
 
