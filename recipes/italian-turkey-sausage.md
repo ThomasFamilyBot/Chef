@@ -9,7 +9,7 @@ times:
   cook: null
   rest: 720
   total: 735
-tags: [turkey, sausage, component]
+tags: [turkey, sausage]
 source_doc: https://docs.google.com/document/d/1eA5LuLDfcho9fTf7kQm2u3lcIw15PHQLknAx2yhz7N4/edit
 drive_doc_id: 1krmMb2i-uhZzZ8P6G7mNLV7v2J4etkF3IDkoIACGDHM
 ingredients:
