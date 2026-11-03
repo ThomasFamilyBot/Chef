@@ -5,11 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}Chef{% endblock %}</title>
 <link rel="stylesheet" href="{{ base }}static/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
+<link rel="icon" type="image/svg+xml" href="{{ base }}static/icon.svg">
+<link rel="apple-touch-icon" href="{{ base }}static/icon.svg">
 </head>
 <body>
 <nav class="nav no-print">
-  <a href="{{ base }}index.html" class="brand">🍳 Chef</a>
+  <a href="{{ base }}index.html" class="brand"><img src="{{ base }}static/icon.svg" alt="" class="brand-icon"> Chef</a>
   <a href="{{ base }}index.html">Recipes</a>
   <a href="{{ base }}shop.html">List <span id="nav-count" class="pill"></span></a>
   <a href="{{ base }}menus.html">Menus</a>

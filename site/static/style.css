@@ -9,7 +9,9 @@ a { color: var(--accent); }
 .nav { display:flex; gap:18px; align-items:center; padding:10px 16px; border-bottom:1px solid var(--line); background:var(--card); position:sticky; top:0; z-index:5; white-space:nowrap; overflow-x:auto; }
 .nav a { text-decoration:none; color:var(--ink); font-weight:600; white-space:nowrap; flex:0 0 auto; }
 @media (max-width: 480px) { .nav { gap:12px; padding:10px 12px; } .nav .brand { font-size:1.05em; } }
-.nav .brand { font-size:1.15em; margin-right:auto; }
+.nav .brand { font-size:1.15em; margin-right:auto; display:inline-flex; align-items:center; gap:6px; }
+.brand-icon { width:24px; height:24px; }
+@media (prefers-color-scheme: dark) { .brand-icon { filter: invert(1) hue-rotate(180deg) saturate(1.4); } }
 .pill { background:var(--accent); color:var(--accent-ink); border-radius:999px; padding:0 7px; font-size:.8em; }
 .pill:empty { display:none; }
 h1 { font-size:1.9em; margin:.6em 0 .3em; line-height:1.15; }
