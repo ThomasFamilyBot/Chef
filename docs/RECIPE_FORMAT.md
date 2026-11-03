@@ -5,7 +5,7 @@ The slug is lowercase, hyphenated, ASCII (`bo-ssam.md`).
 
 ```markdown
 ---
-title: Bo Ssam
+title: Bo Ssam                            # for a URL submission: the recipe's name as the page gives it; the site and Doc hyperlink it to reference.url
 reference:
   text: Momofuku cookbook p. 166          # what the printed page says
   url: https://cooking.nytimes.com/...    # optional hyperlink

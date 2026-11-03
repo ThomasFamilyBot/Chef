@@ -3,7 +3,7 @@
 {% block content %}
 <article class="recipe" data-slug="{{ r.slug }}">
 <header class="recipe-head">
-  <h1>{{ r.title }}</h1>
+  <h1>{% if r.reference.url %}<a class="title-link" href="{{ r.reference.url }}">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}</h1>
   <p class="ref">Reference:
     {% if r.reference.url %}<a href="{{ r.reference.url }}">{{ r.reference.text }}{% if r.reference.url_text and r.reference.url_text != r.reference.text %} — {{ r.reference.url_text }}{% endif %}</a>{% else %}{{ r.reference.text }}{% endif %}
   </p>

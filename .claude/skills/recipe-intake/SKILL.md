@@ -12,6 +12,7 @@ description: Convert a recipe from any source (URL, Google Doc, photo/PDF/HEIC, 
 ## 1. Get the source
 
 - **URL**: fetch the page. If it is paywalled or blocked (NYT Cooking often is), ask the person to paste the text or send a screenshot.
+  **URL rule:** the recipe `title` is the recipe's name as the page gives it (not the site name, not a title of your own), and `reference.url` is exactly the URL that was submitted. The site hyperlinks the title and the Reference line to that URL automatically. Don't ask whether to hyperlink a URL submission; do ask only if the page title is unusable (a generic page name, or the person gave their own name for it).
 - **Google Doc / Drive file**: read it with the Google Drive tools. Read the whole thing, including tables.
 - **Image / PDF / HEIC**: read it visually. If a quantity or word is illegible, ask rather than guess.
 - **Legacy family doc**: it is already close to the format. Preserve the family's own wording, notes and jokes. Do not "improve" the cooking.
@@ -20,8 +21,8 @@ description: Convert a recipe from any source (URL, Google Doc, photo/PDF/HEIC, 
 
 Only ask what the source does not answer:
 
-1. **Reference**: "What should the Reference line say?" Suggest a default (site name + recipe title, or "Cookbook title p. N", or "Hand-written from <friend>").
-2. **Hyperlink**: "Link it to <url>?" Default: yes for web sources, none for cookbooks/hand-written unless they give one.
+1. **Reference**: "What should the Reference line say?" For a URL, default to the site or author name (e.g. "Food52", "Serious Eats, Kenji López-Alt") and only ask if the person seems to want something else. Otherwise suggest "Cookbook title p. N" or "Hand-written from <friend>".
+2. **Hyperlink**: for a URL submission it is always the submitted URL; no question. For cookbooks and hand-written recipes, none unless they give one.
 3. **Serves / servings** if the source doesn't say.
 4. **Times** if missing and not inferable from the directions. It is fine to estimate from the directions and say so.
 

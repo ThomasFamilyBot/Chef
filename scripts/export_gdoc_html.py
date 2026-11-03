@@ -21,6 +21,7 @@ def render(path):
         refhtml = f'<a href="{e(ref["url"])}">{e(label)}</a>'
     else:
         refhtml = e(ref["text"])
+    title_html = f'<a href="{e(ref["url"])}">{e(r["title"])}</a>' if ref.get("url") else e(r["title"])
     tm = r.get("times") or {}
     rows = "".join(
         f"<tr><td>{e(str(i['measure']))}</td><td>{e(i['item'])}</td><td>{e(i.get('prep') or '')}</td><td>{e(i.get('group') or '')}</td></tr>"
@@ -43,7 +44,7 @@ def render(path):
     else:
         nut = "<p><i>Not yet calculated.</i></p>"
     return f"""<html><head><meta charset="utf-8"><title>{e(r['title'])}</title></head><body>
-<p><b><i><span style="font-size:18pt">{e(r['title'])}</span></i></b></p>
+<p><b><i><span style="font-size:18pt">{title_html}</span></i></b></p>
 <p>Reference: {refhtml}</p>
 <p>Serves: {e(str(r['serves']))}</p>
 <p>Prep: {t(tm.get('prep'))} &nbsp;|&nbsp; Cook: {t(tm.get('cook'))} &nbsp;|&nbsp; Rest: {t(tm.get('rest'))} &nbsp;|&nbsp; Total: {t(tm.get('total'))}</p>

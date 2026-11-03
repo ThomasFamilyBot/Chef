@@ -105,3 +105,5 @@ ul.plain li.selected { background: color-mix(in srgb, var(--accent) 12%, var(--c
 table.canon thead th, table.recipes-nut thead th { position: sticky; top: var(--nav-h, 50px); z-index: 2; background: var(--bg); box-shadow: 0 1px 0 var(--line); }
 table.canon td, table.canon th { font-size:.9em; }
 @media (max-width: 639px) { .col-state, .col-notes { display:none; } table.canon td, table.canon th { padding:4px 4px; font-size:.84em; } }
+h1 a.title-link { color:inherit; text-decoration:none; border-bottom:2px solid var(--accent); }
+@media print { h1 a.title-link { border-bottom:0; text-decoration:none; color:#000; } }
