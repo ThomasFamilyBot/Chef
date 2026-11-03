@@ -5,7 +5,7 @@
 https://thomasfamilybot.github.io/Chef/
 
 - **Recipes**: search by title, ingredient, or any word in the directions. Click a tag to filter. Each recipe page has a **Print** button (the ingredient table stays on one page) and a **+ Shopping list** button.
-- **Filters** on the Recipes page: total time, course, protein, and a "what I have" box (comma-separated ingredients) that ranks recipes by how many you already have.
+- **Filters** on the Recipes page: total time, course, protein, and an ingredient search box (comma-separated ingredients) that ranks recipes by how many of them they use.
 - **Menus**: dinners we've cooked, with the run of show. One tap adds every library recipe on a menu to the shopping list. Recipe pages show "Pairs well with" and the menus they're on.
 - **Shopping List**: tick the recipes you're cooking (and a multiplier, e.g. ×2 for a crowd) plus any templates such as *House Staples*. Same items from different recipes are added together; the list is grouped by store section. Check items off as you shop. Checkmarks are saved on *your* phone.
 - **Your own items**: press the **+** next to any section heading to add a write-in row (amount and item). In the Templates box, **Blank row in every section** adds an empty line under each store section, and **One blank row** adds a single line; empty rows print as write-in lines. Custom rows are saved on your phone and travel with the share link.

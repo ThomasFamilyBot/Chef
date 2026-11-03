@@ -87,7 +87,7 @@
         c.hidden = !ok; if (ok) n++;
         const badge = c.querySelector('.match');
         if (badge) badge.remove();
-        if (ok && have.length) { const b = document.createElement('span'); b.className = 'tag match'; b.textContent = `${hits}/${have.length} on hand`; c.querySelector('.card-title').after(b); }
+        if (ok && have.length) { const b = document.createElement('span'); b.className = 'tag match'; b.textContent = have.length > 1 ? `${hits}/${have.length} ingredients` : 'ingredient match'; c.querySelector('.card-title').after(b); }
         scored.push([c, ok ? hits : -1]);
       });
       if (have.length) { scored.sort((a, b) => b[1] - a[1]).forEach(([c]) => list.appendChild(c)); }
