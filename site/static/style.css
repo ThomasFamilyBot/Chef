@@ -145,3 +145,9 @@ footer { text-align:center; padding:20px; }
   .shop-layout { display:block; }
   @page { margin: 0.6in; }
 }
+
+/* list switch + sync status */
+.list-switch-wrap { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:6px 0 2px; }
+.list-switch { display:inline-flex; gap:6px; flex-wrap:wrap; }
+.sync { margin:4px 0 10px; min-height:1.2em; }
+.sync.ok { color: #2e7d4f; } .sync.warn { color: var(--accent); } .sync.busy { color: var(--muted); }

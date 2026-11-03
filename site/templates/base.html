@@ -27,6 +27,7 @@
 {% block content %}{% endblock %}
 </main>
 <footer class="no-print muted small">Built {{ built }} · <a href="https://github.com/ThomasFamilyBot/chef">source</a></footer>
+<script>window.CHEF_CFG = {{ {"api": (site.lists_api or ""), "lists": (site.lists or ["Household"])}|tojson }};</script>
 <script src="{{ base }}static/units.js"></script>
 <script src="{{ base }}static/app.js"></script>
 {% block scripts %}{% endblock %}
