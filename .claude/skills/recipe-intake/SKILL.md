@@ -95,7 +95,7 @@ gh run list --repo ThomasFamilyBot/chef --limit 1          # until status is "co
 
 (or `gh run watch --repo ThomasFamilyBot/chef` if available). If it fails, read the log with `gh run view <id> --log-failed` and fix before reporting.
 
-Then tell the person: the site link `https://thomasfamilybot.github.io/Chef/r/<slug>.html`, the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions or estimates in the nutrition lines.
+Then tell the person, leading with the site link (house rule: always give it after a successful add, and only once the deploy is done and the page returns HTTP 200: `curl -s -o /dev/null -w "%{http_code}" <link>`): `https://thomasfamilybot.github.io/Chef/r/<slug>.html`, then the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions or estimates in the nutrition lines.
 
 ## 8. If the person later edits the Google Doc
 

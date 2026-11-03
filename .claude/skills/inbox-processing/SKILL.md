@@ -26,7 +26,7 @@ Submissions arrive two ways. Handle both in one pass, then send one summary.
 
 ## Summary
 
-Finish by emailing ahinthomas@gmail.com one short summary: what was added (titles + links), what was skipped and why, anything that needs a human decision (an ambiguous nutrition choice, a duplicate, a photo that couldn't be read). If nothing arrived, send nothing.
+Finish by emailing ahinthomas@gmail.com one short summary: what was added (titles + site links `https://thomasfamilybot.github.io/Chef/r/<slug>.html`, sent only after the deploy finished, + Doc links), what was skipped and why, anything that needs a human decision (an ambiguous nutrition choice, a duplicate, a photo that couldn't be read). If nothing arrived, send nothing.
 
 ## Guardrails
 

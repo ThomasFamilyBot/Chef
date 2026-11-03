@@ -29,6 +29,7 @@ Follow `.claude/skills/recipe-intake/SKILL.md` exactly. It covers the questions 
 **Adding a recipe is a four-part job, every time, without being asked:** (1) the recipe file, (2) whole-recipe nutrition: calories, protein g, fat g only
 (`nutrition` skill; new foods go into the canonical table with a source), (3) a Google Doc copy (`drive-export` skill), (4) validate, build, commit, push.
 Report all four in the final message.
+**Once the deploy has finished successfully, give the person the recipe's site link** (`https://thomasfamilybot.github.io/Chef/r/<slug>.html`), checked live (HTTP 200). This applies to every new recipe, including ones added from the inbox.
 
 ## When the family edits a Google Doc and says "doc updated, update the app"
 
