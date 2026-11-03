@@ -9,7 +9,7 @@ Submissions arrive two ways. Handle both in one pass, then send one summary.
 
 ## Where to look
 
-1. **Email**: `mcp__Gmail__search_threads` with query `to:ahinthomas+chef@gmail.com -label:chef-done newer_than:30d`. Read each thread with `get_thread` (PLAIN_TEXT). A submission is a URL, pasted recipe text, or a photo attachment. Attachments cannot be downloaded through the connector, so a photo-only email gets a reply asking the sender to drop the photo in the Chef Inbox folder (link below), and the thread is labeled `Chef/Waiting`.
+1. **Email**: the public submission address is `submission_email` in `data/site.yaml` (mail to it forwards into the family Gmail). `mcp__Gmail__search_threads` with query `to:<submission_email> -label:chef-done -label:chef-waiting newer_than:30d`. Read each thread with `get_thread` (PLAIN_TEXT). A submission is a URL, pasted recipe text, or a photo attachment. Attachments cannot be downloaded through the connector, so a photo-only email gets a reply asking the sender to drop the photo in the Chef Inbox folder (link below), and the thread is labeled `Chef/Waiting`.
 2. **Drive**: files in the **Chef Inbox** folder (search `parentId = '1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9'`, excluding the `Processed` sub-folder, id `1couCHZAIIDFYrJINp-GEhUlrVZLSbndv`). Folder link for senders: https://drive.google.com/drive/folders/1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9. Images and PDFs are readable with `read_file_content`. The file name or a sibling `.txt`/Doc with the same name may carry the sender's note.
 
 ## For each submission

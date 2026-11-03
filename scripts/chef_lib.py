@@ -101,3 +101,8 @@ def load_pairings():
 def load_techniques():
     p = DATA / "techniques.yaml"
     return yaml.safe_load(open(p)) if p.exists() else []
+
+
+def load_site():
+    p = DATA / "site.yaml"
+    return yaml.safe_load(open(p)) or {} if p.exists() else {}

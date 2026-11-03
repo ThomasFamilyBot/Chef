@@ -1,0 +1,5 @@
+# Site-wide settings used by scripts/build.py.
+# submission_email: the public address friends send recipes to (shown on the Contribute page). Leave empty to hide the page.
+submission_email: ""
+inbox_folder_url: https://drive.google.com/drive/folders/1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9
+site_url: https://thomasfamilybot.github.io/Chef/

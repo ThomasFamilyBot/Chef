@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Contribute a recipe · Chef{% endblock %}
+{% block content %}
+<h1>Send us a recipe</h1>
+<p>Cooked something we should have? Send it in and it gets added to the library with a printable Google Doc, a shopping-list entry and whole-recipe nutrition. You'll get the links back by email.</p>
+<h2>By email</h2>
+<p>Send to <a href="mailto:{{ site.submission_email }}?subject=Recipe">{{ site.submission_email }}</a> with any of these:</p>
+<ul>
+  <li>A link to the recipe online. That's enough on its own.</li>
+  <li>The recipe typed out: ingredients with amounts, then the steps. Tell us where it came from (a cookbook and page, a friend, your own).</li>
+  <li>Your name, so the recipe can credit you.</li>
+</ul>
+<h2>Photos or scans</h2>
+<p>Email can't carry photos for us, so drop cookbook pages or handwritten cards into the shared folder <a href="{{ site.inbox_folder_url }}">Chef Inbox</a>. Name the file with the recipe and your name, for example <code>Grandma's pierogi - Sam.jpg</code>. JPG, HEIC, PNG and PDF all work.</p>
+<h2>What happens next</h2>
+<ul>
+  <li>Submissions are picked up on a schedule, usually within a day.</li>
+  <li>The recipe is converted to the house format: a one-page ingredient table with bowl groupings, directions with temperatures, and nutrition for the whole recipe.</li>
+  <li>You get an email with the recipe page and the Google Doc. If something was unclear, the email says what was assumed.</li>
+</ul>
+<p class="muted small">Please only send recipes you're happy to share with the family and friends who use this site.</p>
+{% endblock %}

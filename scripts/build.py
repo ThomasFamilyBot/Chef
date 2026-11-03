@@ -84,11 +84,14 @@ def main():
     (DIST / ".nojekyll").write_text("")
 
     built = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    ctx = dict(recipes=recipes, templates=templates, sections=[s["name"] for s in sections], built=built, menus=menus)
+    site = load_site()
+    ctx = dict(recipes=recipes, templates=templates, sections=[s["name"] for s in sections], built=built, menus=menus, site=site)
 
     (DIST / "index.html").write_text(env.get_template("index.html").render(base="", **ctx), encoding="utf-8")
     (DIST / "shop.html").write_text(env.get_template("shop.html").render(base="", **ctx), encoding="utf-8")
     (DIST / "menus.html").write_text(env.get_template("menus.html").render(base="", **ctx), encoding="utf-8")
+    if site.get("submission_email"):
+        (DIST / "contribute.html").write_text(env.get_template("contribute.html").render(base="", **ctx), encoding="utf-8")
     canonical = load_canonical()
     for c in canonical:
         try: c["_eff"] = float(c["efficiency"]) if c.get("efficiency") else 1e9

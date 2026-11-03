@@ -14,6 +14,7 @@
   <a href="{{ base }}shop.html">List <span id="nav-count" class="pill"></span></a>
   <a href="{{ base }}menus.html">Menus</a>
   <a href="{{ base }}nutrition.html">Nutrition</a>
+  {% if site and site.submission_email %}<a href="{{ base }}contribute.html">Send a recipe</a>{% endif %}
 </nav>
 <main class="wrap">
 {% block content %}{% endblock %}
