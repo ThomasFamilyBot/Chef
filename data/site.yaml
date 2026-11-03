@@ -4,7 +4,7 @@ submission_email: ""
 inbox_folder_url: https://drive.google.com/drive/folders/1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9
 site_url: https://thomasfamilybot.github.io/Chef/
 # Shared shopping lists. lists_api is the Apps Script web-app URL (see docs/SHARED_LISTS.md); empty = each phone keeps its own lists.
-lists_api: "https://script.google.com/macros/s/AKfycbwgetwBZT7GUPoYGb1S7NCerrSoFlcZpkF4mT3dh57BFXLgHMN32azBYaaIG9vtb6QxAg/exec"
+lists_api: "https://script.google.com/macros/s/AKfycbz-DRGBlGvj0H4haTfkUzh6SPKe4QmTaOqRwAliWKnQq9NhA4dQMWV43GsVkGP6widwAw/exec"
 lists:
   - Ahin
   - Jenn
