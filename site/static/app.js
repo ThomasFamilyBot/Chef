@@ -54,7 +54,15 @@
   function setChecked(c) { const s = getState(); s.checked = c; saveState(s); }
 
   /* ---------- sync with the shared sheet ---------- */
-  function status(msg, cls) { const el = document.getElementById('sync-status'); if (el) { el.textContent = msg; el.className = 'muted small sync ' + (cls || ''); } }
+  // status light: green = shared list in sync; yellow = saving / just updated; red = can't reach the shared sheet
+  function status(msg, cls) {
+    const el = document.getElementById('sync-status'); if (!el) return;
+    const light = cls === 'ok' ? 'green' : cls === 'busy' ? 'yellow' : 'red';
+    el.className = 'small sync ' + light;
+    el.innerHTML = `<span class="light"></span> Status: ${light === 'green' ? 'OK' : esc(msg)}`;
+    el.title = msg;
+  }
+  const esc = s => String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
   function pushSoon() { if (!CFG.api) return; clearTimeout(pushTimer); status('Saving…', 'busy'); pushTimer = setTimeout(push, 800); }
   async function push() {
     if (!CFG.api) return;
@@ -63,7 +71,7 @@
       const res = await fetch(CFG.api, { method: 'POST', body: JSON.stringify({ list: name, updated: s.updated, state: { sel: s.sel, custom: s.custom, checked: s.checked } }), headers: { 'Content-Type': 'text/plain;charset=utf-8' }, redirect: 'follow' });
       const txt = await res.text();
       let j; try { j = JSON.parse(txt); } catch (e) { throw new Error(res.status === 403 || /You need access|Sign in/i.test(txt) ? 'access' : 'badjson'); }
-      if (j.stale && j.state) { adopt(name, j); status('Updated from another phone', 'ok'); }
+      if (j.stale && j.state) { adopt(name, j); status('Updated from another phone', 'busy'); setTimeout(() => status('', 'ok'), 3000); }
       else status('Saved to the shared list', 'ok');
     } catch (e) {
       if (e && e.message === 'access') status('Not saved to the shared sheet: its web app is not set to "Anyone" (fix in Apps Script → Manage deployments). Saved on this phone.', 'warn');
@@ -84,7 +92,7 @@
       const txt = await res.text();
       let j; try { j = JSON.parse(txt); } catch (e) { throw new Error(res.status === 403 || /You need access|Sign in/i.test(txt) ? 'access' : 'badjson'); }
       const local = getState(name);
-      if (j.state && (j.updated || 0) > (local.updated || 0)) { adopt(name, j); if (!quiet) status('Updated from the shared list', 'ok'); }
+      if (j.state && (j.updated || 0) > (local.updated || 0)) { adopt(name, j); status('Updated from another phone', 'busy'); setTimeout(() => status('', 'ok'), 3000); }
       else if (!j.state && local.updated) { pushSoon(); }     // the sheet has nothing yet; seed it from this phone
       else if (!quiet) status('Shared list · in sync', 'ok');
     } catch (e) {
@@ -95,7 +103,8 @@
     finally { pulling = false; }
   }
   function startPolling() {
-    if (!CFG.api) { status('Local only. Set up the shared sheet (docs/SHARED_LISTS.md) so every phone sees the same lists.', 'warn'); return; }
+    if (!CFG.api) { status('Not shared: lists live on this phone only (see docs/SHARED_LISTS.md).', 'warn'); return; }
+    status('Checking the shared list…', 'busy');
     pull();
     setInterval(() => { if (document.visibilityState === 'visible') pull({ quiet: true }); }, 15000);
     document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') pull({ quiet: true }); });
@@ -218,6 +227,12 @@
     const picks = document.querySelectorAll('input[data-recipe]'), tpicks = document.querySelectorAll('input[data-template]');
     const mults = document.querySelectorAll('input[data-mult]');
 
+    // collapsible picker sections, remembered per phone
+    document.querySelectorAll('details.pick').forEach(d => {
+      const k = 'chef.open.' + d.dataset.key;
+      try { const v = localStorage.getItem(k); if (v !== null) d.open = v === '1'; } catch {}
+      d.addEventListener('toggle', () => { try { localStorage.setItem(k, d.open ? '1' : '0'); } catch {} });
+    });
     // list switch
     const sw = document.getElementById('list-switch');
     if (sw) {
@@ -255,7 +270,6 @@
       setTimeout(() => document.getElementById('share').textContent = 'Copy share link', 2000);
     };
 
-    const esc = s => String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
     async function render() {
       const d = await data();
       const st = getState(), s = st.sel;

@@ -16,13 +16,14 @@
   </ul>
   <p class="muted small">Your own items: use the + next to any section heading on the list.</p>
   {% set active = menus|rejectattr('archived')|list %}
-  <h3>Menus</h3>
+  <details class="pick" data-key="menus"><summary><h3>Menus</h3></summary>
   {% if active %}<ul id="pick-menus" class="plain">
   {% for m in active if m.slugs %}
     <li><label><input type="checkbox" data-menu="{{ m.id }}"> {{ m.name }} <span class="muted small">({{ m.slugs|length }})</span></label></li>
   {% endfor %}
   </ul>{% else %}<p class="muted small">No menus yet. Tell Claude: "Create a menu called Taco Night with carnitas, super duper pickles and the margaritas."</p>{% endif %}
-  <h3>Recipes</h3>
+  </details>
+  <details class="pick" data-key="recipes"><summary><h3>Recipes</h3></summary>
   <input id="pick-q" class="search" type="search" placeholder="Filter recipes…">
   <ul id="pick-recipes" class="plain">
   {% for r in recipes %}
@@ -30,6 +31,7 @@
       <span class="mult">× <input type="number" min="1" max="9" step="1" value="1" data-mult="{{ r.slug }}" title="multiplier"></span></li>
   {% endfor %}
   </ul>
+  </details>
   <div class="actions">
     <button class="btn" id="clear-sel">Clear selection</button>
   </div>

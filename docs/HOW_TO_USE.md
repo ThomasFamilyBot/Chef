@@ -8,10 +8,16 @@ https://thomasfamilybot.github.io/Chef/
 - **Filters** on the Recipes page: total time, course, protein, and an ingredient search box (comma-separated ingredients) that ranks recipes by how many of them they use.
 - **Menus**: dinners we've cooked, with the run of show. One tap adds every library recipe on a menu to the shopping list. Recipe pages show "Pairs well with" and the menus they're on.
 - **Shopping List**: tick the recipes you're cooking (and a multiplier, e.g. ×2 for a crowd) plus any templates such as *House Staples*. Same items from different recipes are added together; the list is grouped by store section. Check items off as you shop. Checkmarks are saved on *your* phone.
+- **Status light** under the list switch: green = the shared list is in sync, yellow = saving or just updated from another phone, red = the shared sheet can't be reached (the message says why); the page keeps working from the phone's copy.
+- **Menus** and **Recipes** pickers collapse to get you to the list faster; the open/closed state is remembered on your phone.
 - **Whose list**: the switch at the top of the shopping list picks a person's list. Each person has one list; it's shared across every phone once the Google Sheet is connected (see `docs/SHARED_LISTS.md`), so one person can plan while another shops from a different list.
 - **Your own items**: press the **+** next to any section heading to add a write-in row (amount and item). In the Templates box, **Blank row in every section** adds an empty line under each store section, and **One blank row** adds a single line; empty rows print as write-in lines. Custom rows are saved on your phone and travel with the share link.
 - **Share a list**: press **Copy share link** and text it. Whoever opens it sees the same list and can check things off on their own phone.
 - **Nutrition**: whole-recipe calories, protein and fat on every recipe page and Google Doc, with the line items and assumptions behind them, plus the canonical ingredient table.
+
+## Making any change
+
+See `docs/EDITING.md` for the remote session (claude.ai/code), the local terminal session, and by-hand edits on GitHub.
 
 ## Adding or changing a recipe (anyone with the Claude subscription)
 

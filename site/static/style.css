@@ -149,5 +149,11 @@ footer { text-align:center; padding:20px; }
 /* list switch + sync status */
 .list-switch-wrap { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:6px 0 2px; }
 .list-switch { display:inline-flex; gap:6px; flex-wrap:wrap; }
-.sync { margin:4px 0 10px; min-height:1.2em; }
-.sync.ok { color: #2e7d4f; } .sync.warn { color: var(--accent); } .sync.busy { color: var(--muted); }
+.sync { margin:4px 0 10px; min-height:1.2em; display:flex; align-items:center; gap:6px; }
+.sync .light { width:11px; height:11px; border-radius:50%; display:inline-block; flex:0 0 auto; box-shadow: 0 0 0 2px var(--card); }
+.sync.green .light { background:#2e9e5b; } .sync.yellow .light { background:#e6b422; } .sync.red .light { background:#d1352b; }
+details.pick > summary { list-style:none; cursor:pointer; display:flex; align-items:center; gap:8px; }
+details.pick > summary::-webkit-details-marker { display:none; }
+details.pick > summary::before { content:'▸'; color:var(--muted); transition: transform .15s; }
+details.pick[open] > summary::before { transform: rotate(90deg); }
+details.pick > summary h3 { margin:.9em 0 .3em; }
