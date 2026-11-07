@@ -27,7 +27,7 @@ def render(path):
         f"<tr><td>{e(str(i['measure']))}</td><td>{e(i['item'])}</td><td>{e(i.get('prep') or '')}</td><td>{e(i.get('group') or '')}</td></tr>"
         for i in r["ingredients"])
     body = markdown.markdown(r["body_md"], extensions=["sane_lists"])
-    techs = find_techniques(r["body_md"], load_techniques())
+    techs = find_techniques(r["body_md"], load_techniques(), r.get("techniques_skip"))
     if techs:
         body += "<p><b>Technique temperatures</b></p><ul>" + "".join(
             f"<li><b>{e(g['term'].capitalize())}</b>: {e(g['temp'])}" + (f" <a href=\"{e(g['url'])}\">ref</a>" if g.get('url') else "") + "</li>" for g in techs) + "</ul>"

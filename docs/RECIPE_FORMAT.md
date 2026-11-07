@@ -20,6 +20,7 @@ times:                                    # minutes; null when unknown
 tags: [pork, korean, main, project]
 source_doc: https://docs.google.com/document/d/...   # original legacy doc, if converted
 drive_doc_id: null                        # Google Doc id of the exported copy, once written
+techniques_skip: [smoke]                  # optional; glossary terms to leave out of the "Technique temperatures" box when a word matches by accident (e.g. "air fryer" -> deep fry)
 ingredients:
   - measure: 1 cup + 1 TBLS               # display string, exactly as printed on the page
     item: Kosher Salt                     # canonical shopping name, Title Case, no prep words

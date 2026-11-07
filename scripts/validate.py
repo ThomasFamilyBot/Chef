@@ -36,6 +36,15 @@ def check(path, sections):
         errs.append("servings must be a number")
     if not r.get("body_md"):
         errs.append("directions body is empty")
+    skip = r.get("techniques_skip")
+    if skip is not None:
+        terms = {g["term"].lower() for g in load_techniques()}
+        if not isinstance(skip, list):
+            errs.append("techniques_skip must be a list of glossary terms")
+        else:
+            for t in skip:
+                if str(t).strip().lower() not in terms:
+                    errs.append(f"techniques_skip: {t!r} is not a term in data/techniques.yaml")
     seen = set()
     for i, ing in enumerate(r.get("ingredients") or [], 1):
         where = f"ingredient {i} ({ing.get('item', '?')})"

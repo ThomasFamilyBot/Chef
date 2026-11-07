@@ -5,6 +5,7 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 
 | Date | Recipe | Trashed doc id | Replaced by | Why |
 |---|---|---|---|---|
+| 2026-11-07 | carne-asada | 13k_krX5li3SBZQgGO8CoIqEzQ-nx7NdSdETVc6t_rS8 | 1tuPHLWka0vtnKRyA4Aq6vL4rRyjd9qQxU0iZnKaLdng | technique box: dropped Smoke and Deep fry (false matches on "indirect" and "air fryer") via techniques_skip |
 | 2026-11-03 | ad-hoc-fried-chicken | 1jzRu3mRUggx_hZ8WGkX_PtRTFecz0pNshpRTv_JP-zg | 1SiwyDLA91FzIWGAqjVf-bGe-NahLDE2VhBFwBk2gzhk | full refresh after pull: renumbered mise groups, unnumbered step headings |
 | 2026-11-03 | alleged-freds-tri-tip-marinade | 1JLqi2-fQwH4BHU_0HYr1sPhd2eTHr5HieQ_xTnuCznk | 1XrhlA4kwfWFiQf1VqnZk0ZBhkt5T_18N7axMVwSz61Q | full refresh after pull: renumbered mise groups, unnumbered step headings |
 | 2026-11-03 | amatriciana | 15Yb6EoN2YxiCrqSGAkK2W_udNPRrBeG7tXqDmGTnGrI | 1q_qnnlAO11t8pFQNV9oS_-DPk4FZCoIOmyA_5a0vgTM | full refresh after pull: renumbered mise groups, unnumbered step headings |

@@ -15,11 +15,17 @@ def md(text):
     return markdown.markdown(text, extensions=["sane_lists", "tables"])
 
 
-def find_techniques(body_md, glossary):
-    """Return glossary entries whose term/aliases appear in the directions (first-use order)."""
+def find_techniques(body_md, glossary, skip=None):
+    """Return glossary entries whose term/aliases appear in the directions (first-use order).
+
+    `skip` is the recipe's `techniques_skip` list: glossary terms to leave out even when a word
+    matches (e.g. "air fryer" matching deep fry)."""
     low = body_md.lower()
+    skip = {str(t).strip().lower() for t in (skip or [])}
     found = []
     for g in glossary:
+        if g["term"].lower() in skip:
+            continue
         words = [g["term"]] + [a for a in (g.get("aliases") or []) if a]
         best = None
         for w in words:
@@ -68,7 +74,7 @@ def main():
             pairs_by.setdefault(b, []).append((by_slug[a], why))
     glossary = load_techniques()
     for r in recipes:
-        r["techniques"] = find_techniques(r["body_md"], glossary)
+        r["techniques"] = find_techniques(r["body_md"], glossary, r.get("techniques_skip"))
         r["body_html"] = md(r["body_md"])
         r["section_order"] = [s["name"] for s in sections]
         r["pairs"] = pairs_by.get(r["slug"], [])

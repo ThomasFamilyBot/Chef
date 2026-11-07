@@ -45,7 +45,6 @@ ingredients:
     group: 3 -> Tomatoes
     qty: 2
     unit: can
-    nutrition: {oz: 56, note: 'two 28 oz cans by weight, including juice'}
   - measure: 1 large sprig
     item: Basil
     prep: Discarded at the end
@@ -107,13 +106,12 @@ nutrition:
     source: 'USDA SR Legacy: Tomato products, canned, paste, without salt added (Includes foods for USDA''s Food Distribution
       Program)'
   - item: Whole Peeled Tomatoes, 28 oz can (as Tomatoes, whole peeled, canned (in juice))
-    amount: 2 cans (28 oz each) (override 56 oz)
+    amount: 2 cans (28 oz each) (2 x 28 oz can)
     oz: 56.0
     calories: 254.2
     protein_g: 12.54
     fat_g: 3.98
     source: 'USDA SR Legacy: Tomatoes, red, ripe, canned, packed in tomato juice'
-    note: two 28 oz cans by weight, including juice
   - item: Basil (as Herbs, fresh (parsley, cilantro, basil, mint, thyme, rosemary, sage))
     amount: 1 large sprig (1 sprig at 1 g each)
     oz: 0.04
