@@ -1,7 +1,7 @@
 ---
 title: Smoothie 1
 reference:
-  text: Family recipe, hand-written ingredient list ("Beary Important Things")
+  text: Hand-written from Sameera
 serves: 1 (about 8 oz)
 servings: 1
 times:
@@ -10,7 +10,7 @@ times:
   rest: null
   total: 5
 tags: [drink, breakfast, vegetarian]
-drive_doc_id: 16qHWFWcGx5NDKB6j50VlqR_-195noN8tC9vYuHrUgjk
+drive_doc_id: 1Usadih6WaYqYjophW2siw8JtaURAfRmO670k1qmqfgI
 ingredients:
   - measure: 1/2
     item: Banana
