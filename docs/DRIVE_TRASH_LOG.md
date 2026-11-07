@@ -143,3 +143,4 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-02 | zuni-spice-rub-roast-chicken | 1kMVME6NJENFokOQ7rc_4mngt4ncjmvd91CB69ZJ9XIo | 1JG64arIlxIBWG4bHZuqQ6D9EWNIzGOgl-hwuiymamGs | refresh with nutrition; old doc trashed 2026-11-02 in the full refresh |
 | 2026-11-02 | cauliflower-soup | 1NCa8m2lxX39XohfEDJ71JwXoFe1csmykUz0KZVDtw2M | 1vpWKLZbetynkq7oI-N1lwMT5p3GVc1Fe0tpLCMMa7NQ | refresh with nutrition + mise groups; old doc trashed 2026-11-02 in the full refresh |
 | 2026-11-06 | smoothie-1 | 16qHWFWcGx5NDKB6j50VlqR_-195noN8tC9vYuHrUgjk | 1Usadih6WaYqYjophW2siw8JtaURAfRmO670k1qmqfgI | reference line changed to "Hand-written from Sameera"; old doc trashed 2026-11-06 |
+| 2026-11-07 | rosemary-roasted-cashews | 1tZ1iZfNlvDVlDbqlkYUlUTV_ExjuaNisM4B-kW3T59I | 1Bi85fLEzKNpjHGObiPmLNDGYDsyoqgrEauuJFRw3y40 | added note that the original says "pepper" where the list has cayenne; old doc trashed 2026-11-07 |

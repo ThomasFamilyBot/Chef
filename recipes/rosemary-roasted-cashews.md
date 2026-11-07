@@ -11,7 +11,7 @@ times:
   rest: null
   total: 15
 tags: [snack, appetizer, vegetarian, make-ahead]
-drive_doc_id: 1tZ1iZfNlvDVlDbqlkYUlUTV_ExjuaNisM4B-kW3T59I
+drive_doc_id: 1Bi85fLEzKNpjHGObiPmLNDGYDsyoqgrEauuJFRw3y40
 ingredients:
   - measure: 1 1/4 lb
     item: Cashews
@@ -117,3 +117,4 @@ nutrition:
 **Notes**
 
 - Almost directly from the bar nuts at Union Square Cafe in New York.
+- Ina's original directions say to combine the rosemary, "pepper", sugar, salt and butter; the ingredient list has no pepper, only the 1/2 tsp cayenne, so that is what goes in. Add black pepper too if you like.
