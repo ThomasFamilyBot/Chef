@@ -11,7 +11,7 @@ times:
   total: 5
 tags: [sauce, vegetarian]
 source_doc: https://docs.google.com/document/d/1w1XBjuG7z4ZkfOGPB52_se4VpdCM93-ejZjCp884Hws/edit
-drive_doc_id: 1OrSIFMBBg5H9TTArQ_txcGZSa3FO0-sKqEoSAIVuQaw
+drive_doc_id: 1AWfP2PbMDVsOyTcR-CuxDFFYhFAjykQSRX14fWM-uOw
 ingredients:
   - measure: 1/3 cup
     item: Champagne Vinegar
@@ -92,4 +92,9 @@ nutrition:
 ---
 **Whisk**
 
-- Whisk everything together. (The original doc is just the ingredient list; no method was written down.)
+- **By hand** (whisk or shake in a jar) for a more traditional vinaigrette texture.
+- **In a blender** and it emulsifies into the creamier dressing we had at Deepa's.
+
+**Notes**
+
+- Deepa's proportions are fairly standard: 2/3 oil to 1/3 vinegar. She used equal parts champagne vinegar and white balsamic, and an oil mix of 1/3 walnut and 2/3 olive.

@@ -1,7 +1,7 @@
 ---
 title: Caramel-Braised Chicken with Ginger and Lime
 reference:
-  text: Christopher Kimball's Milk Street (cookbook) p. 73
+  text: Milk Street p. 73
   url: null
 serves: 4
 servings: 4
@@ -11,7 +11,7 @@ times:
   rest: null
   total: 45
 tags: [chicken, main, vietnamese, asian, braise, weeknight]
-drive_doc_id: 1-XDsS-ActQf1drCg1rZXSqnU8HpZ0QI6IP80GfMH06w
+drive_doc_id: 1VOnGT3kxQiCOwGy1eVbOE5dUWbFu8XzYiH4fUbbQegQ
 ingredients:
   - measure: 1/2 cup + 1 TBLS
     item: Coconut Water

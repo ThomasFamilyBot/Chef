@@ -1,7 +1,7 @@
 ---
 title: Brisket Rub
 reference:
-  text: BBQ cookbook (title not shown) p. 24
+  text: Sutherland, Northern Soul p. 24
   url: null
 serves: About 4 1/2 cups (680 g), enough for about 2 medium briskets
 servings: 2
@@ -11,7 +11,7 @@ times:
   rest: null
   total: 10
 tags: [rub, spice blend, beef, brisket, bbq, pantry, make-ahead]
-drive_doc_id: 1RrgoNUrscfTafiIY2dVKDPGlwPbKg09cMECMwqRGlg4
+drive_doc_id: 1H8ThR-HyZfmGo8XaKf1sNhxcsfx8KdG7hTkDAyyJ4_c
 ingredients:
   - measure: 1 1/4 cups (180 g)
     item: Dry Mustard Powder

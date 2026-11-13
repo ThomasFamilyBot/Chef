@@ -1,7 +1,7 @@
 ---
 title: Buttermilk Ranch Dressing
 reference:
-  text: BBQ cookbook (title not shown)
+  text: Sutherland, Northern Soul
   url: null
 serves: About 3 cups
 servings: 24
@@ -11,7 +11,7 @@ times:
   rest: 1440
   total: 1455
 tags: [sauce, dressing, dip, make-ahead, vegetarian]
-drive_doc_id: 1e4Csvo3w9k1WA2z9EkT4I3ZIN-Alg1T--qjJO7Il3KQ
+drive_doc_id: 1KBZjbd6KpMO8_vdnI_DDbvh9QOGeV-IGu42ZNMwUuno
 ingredients:
   - measure: 1 1/2 cups
     item: Buttermilk

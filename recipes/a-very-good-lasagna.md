@@ -11,7 +11,7 @@ times:
   rest: 15
   total: 175
 tags: [pasta, italian, main, make-ahead]
-drive_doc_id: 1Wt3AuTwSs6-ICjNQHrXaU0ApOKjYyVxGgJebrtrCHts
+drive_doc_id: 1WBUKKVPqYyJx8k6OHNYABSf3N3_Txrtfj6dj-U4O_r4
 ingredients:
   - measure: 2 TBLS
     item: Olive Oil
@@ -286,3 +286,7 @@ nutrition:
 - Sauce: up to 1 week ahead, covered and refrigerated.
 - Baked lasagna: up to 3 days, wrapped tightly and refrigerated, or 1 month frozen (thaw first). Reheat covered with foil at 375°F for 25-45 minutes.
 - Shortcut: skip the sauce and use two jars of good tomato-garlic sauce.
+
+**Notes**
+
+- The printed version in Alison Roman's *Nothing Fancy* (p. 256) uses 1/4 cup heavy cream (not 1/3 cup) and doesn't list the 1/2 can of water in the sauce. This page follows her website version.

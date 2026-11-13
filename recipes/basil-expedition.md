@@ -1,7 +1,7 @@
 ---
 title: Basil Expedition
 reference:
-  text: Pitcher-cocktail book (title not shown)
+  text: Batch Cocktails (Maggie Hoffman)
   url: null
 serves: About 10 drinks (a 2- to 2 1/2-quart pitcher)
 servings: 10
@@ -11,7 +11,7 @@ times:
   rest: 15
   total: 40
 tags: [drink, cocktail, bourbon, batch, make-ahead, party]
-drive_doc_id: 1qWQ6nsoX26TQQhmrF_yVVNgdhrl2qJmIvwBNWuh3guQ
+drive_doc_id: 1PpLrygr6XJtPWPFr292QWVNG-BBjPzsEr8qO2ZomOQM
 ingredients:
   - measure: 1 (4 1/2-inch) piece
     item: Ginger

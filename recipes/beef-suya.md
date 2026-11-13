@@ -1,7 +1,7 @@
 ---
 title: Beef Suya
 reference:
-  text: Christopher Kimball's Milk Street (cookbook)
+  text: Milk Street
   url: null
 serves: 4
 servings: 4
@@ -11,7 +11,7 @@ times:
   rest: 5
   total: 45
 tags: [beef, main, nigerian, african, skewers, broil, weeknight]
-drive_doc_id: 1SwtFsZ6oPDRhvCj4fpBNO0C7O9jlHmAv5Zs_6AUirQo
+drive_doc_id: 1DIQ8Q93Ic_A-8wb3sk1VP0ZKr9oiTdLRpDag0xNr5os
 ingredients:
   - measure: 1/2 cup
     item: Peanuts
