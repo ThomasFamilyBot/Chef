@@ -146,3 +146,4 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-06 | smoothie-1 | 16qHWFWcGx5NDKB6j50VlqR_-195noN8tC9vYuHrUgjk | 1Usadih6WaYqYjophW2siw8JtaURAfRmO670k1qmqfgI | reference line changed to "Hand-written from Sameera"; old doc trashed 2026-11-06 |
 | 2026-11-07 | rosemary-roasted-cashews | 1tZ1iZfNlvDVlDbqlkYUlUTV_ExjuaNisM4B-kW3T59I | 1Bi85fLEzKNpjHGObiPmLNDGYDsyoqgrEauuJFRw3y40 | added note that the original says "pepper" where the list has cayenne; old doc trashed 2026-11-07 |
 | 2026-11-12 | alleged-freds-tri-tip-marinade | 1XrhlA4kwfWFiQf1VqnZk0ZBhkt5T_18N7axMVwSz61Q | 1N__VZqxz49AVQUGmB-Lh62LBCjq7teyxMI8Nh3uIuy0 | Vegemite 2 TBLS -> 1 1/2 TBLS, Cuttlefish Ink 1 TBLS -> 1/2 TBLS; old doc trashed 2026-11-12 |
+| 2026-11-12 | minestrone-soup | 1U9PNKO7VyJ5WO9mIp-NEd4JcMcwqEEHao7Goav8QxEc | 1tG8c1nPdIszJMApfLZXIl6-Bk7Ip-SWHKshonECZW9I | dried oregano 1 tsp -> 1 1/2 tsp; old doc trashed 2026-11-12 |

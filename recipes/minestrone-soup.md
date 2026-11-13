@@ -11,7 +11,7 @@ times:
   rest: null
   total: 55
 tags: [soup, main, vegetarian, italian]
-drive_doc_id: 1U9PNKO7VyJ5WO9mIp-NEd4JcMcwqEEHao7Goav8QxEc
+drive_doc_id: 1tG8c1nPdIszJMApfLZXIl6-Bk7Ip-SWHKshonECZW9I
 ingredients:
   - measure: 2 TBLS
     item: Extra-Virgin Olive Oil
@@ -83,10 +83,10 @@ ingredients:
     group: 2 -> Simmer
     qty: 2
     unit: each
-  - measure: 1 tsp
+  - measure: 1 1/2 tsp
     item: Dried Oregano
     group: 2 -> Simmer
-    qty: 1
+    qty: 1.5
     unit: tsp
   - measure: 1 tsp
     item: Dried Thyme
@@ -118,12 +118,12 @@ ingredients:
     qty: 0.25
     unit: cup
 nutrition:
-  computed: '2026-11-07'
+  computed: '2026-11-12'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
   totals:
-    calories: 1482.9
-    protein_g: 62.42
-    fat_g: 40.27
+    calories: 1484.2
+    protein_g: 62.46
+    fat_g: 40.29
   lines:
   - item: Extra-Virgin Olive Oil (as Olive oil)
     amount: 2 TBLS (2 TBLS at 216 g/cup)
@@ -210,11 +210,11 @@ nutrition:
     fat_g: 0.1
     source: 'USDA SR Legacy: Spices, bay leaf'
   - item: Dried Oregano (as Oregano, dried)
-    amount: 1 tsp (1 tsp at 1 g each)
-    oz: 0.04
-    calories: 2.7
-    protein_g: 0.09
-    fat_g: 0.04
+    amount: 1 1/2 tsp (1.5 tsp at 1 g each)
+    oz: 0.05
+    calories: 4.0
+    protein_g: 0.13
+    fat_g: 0.06
     source: 'USDA SR Legacy: Spices, oregano, dried'
   - item: Dried Thyme (as Thyme, dried)
     amount: 1 tsp (1 tsp at 1 g each)
