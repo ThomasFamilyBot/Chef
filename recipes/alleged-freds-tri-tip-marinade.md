@@ -12,7 +12,7 @@ times:
   total: 5775
 tags: [beef, marinade, grill]
 source_doc: https://docs.google.com/document/d/1Wpy1qNHVJoRrCrF3LkGWpP2Vj0qLgkNRTPMRWCY48n8/edit
-drive_doc_id: 1XrhlA4kwfWFiQf1VqnZk0ZBhkt5T_18N7axMVwSz61Q
+drive_doc_id: 1N__VZqxz49AVQUGmB-Lh62LBCjq7teyxMI8Nh3uIuy0
 ingredients:
   - measure: 2-3
     item: Tri-Tip
@@ -127,31 +127,31 @@ ingredients:
     nutrition:
       fraction: 0.15
       note: marinade; ~15% assumed to cling/absorb, rest discarded
-  - measure: 2 TBLS
+  - measure: 1 1/2 TBLS
     item: Vegemite
     group: 1 -> Whisk the marinade
-    qty: 2
+    qty: 1.5
     unit: TBLS
     section: International
     nutrition:
       fraction: 0.15
       note: marinade; ~15% assumed to cling/absorb, rest discarded
-  - measure: 1 TBLS
+  - measure: 1/2 TBLS
     item: Cuttlefish Ink
     group: 1 -> Whisk the marinade
-    qty: 1
+    qty: 0.5
     unit: TBLS
     section: International
     nutrition:
       fraction: 0.15
       note: marinade; ~15% assumed to cling/absorb, rest discarded
 nutrition:
-  computed: '2026-11-02'
+  computed: '2026-11-12'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
   totals:
-    calories: 9388.6
-    protein_g: 844.49
-    fat_g: 761.04
+    calories: 9385.1
+    protein_g: 843.99
+    fat_g: 761.03
   lines:
   - item: Tri-Tip
     amount: 2-3 (3 each at 1134 g each)
@@ -233,7 +233,7 @@ nutrition:
     source: 'USDA SR Legacy: Spices, onion powder'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Paprika
-    amount: 2 TBLS (2 TBLS at 6.8 g each; 15% consumed)
+    amount: 2 TBLS (2 TBLS at 108.8 g/cup; 15% consumed)
     oz: 0.07
     calories: 5.8
     protein_g: 0.29
@@ -265,18 +265,18 @@ nutrition:
     source: 'USDA SR Legacy: Garlic, raw'
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Vegemite
-    amount: 2 TBLS (2 TBLS at 20 g each; 15% consumed)
-    oz: 0.21
-    calories: 10.9
-    protein_g: 1.51
-    fat_g: 0.05
+    amount: 1 1/2 TBLS (1.5 TBLS at 20 g each; 15% consumed)
+    oz: 0.16
+    calories: 8.2
+    protein_g: 1.13
+    fat_g: 0.04
     source: estimate
     note: marinade; ~15% assumed to cling/absorb, rest discarded
   - item: Cuttlefish Ink (as Cuttlefish / squid ink)
-    amount: 1 TBLS (1 TBLS at 240 g/cup; 15% consumed)
-    oz: 0.08
-    calories: 1.6
-    protein_g: 0.23
+    amount: 1/2 TBLS (0.5 TBLS at 240 g/cup; 15% consumed)
+    oz: 0.04
+    calories: 0.8
+    protein_g: 0.11
     fat_g: 0.01
     source: estimate
     note: marinade; ~15% assumed to cling/absorb, rest discarded
