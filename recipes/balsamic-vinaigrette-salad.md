@@ -1,7 +1,7 @@
 ---
-title: Balsamic Vinaigrette Salad
+title: Deepa's Balsamic Vinaigrette
 reference:
-  text: Family recipe
+  text: Family recipe (from Deepa)
 serves: Salad for 4
 servings: 4
 times:
@@ -11,7 +11,7 @@ times:
   total: 15
 tags: [vegetarian, side, salad]
 source_doc: https://docs.google.com/document/d/1_Q9oHh6m38KVHJ-sH4Gd896UJMj58kBhwZleH-oxL14/edit
-drive_doc_id: 1VwEjjPXPHlxFwiVesIppp-5QhgAA8ZoEnrffDLVwhvo
+drive_doc_id: 1hrhvJiQSj_kMjNQRnAbm_ghWuNAKb7hiyYSNA055e_c
 ingredients:
   - measure: 1/2
     item: Red Onion
