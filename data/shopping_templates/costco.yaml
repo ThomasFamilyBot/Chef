@@ -1,0 +1,43 @@
+# Costco run. Add this template to any shopping list. Ask Claude to "add X to the Costco list".
+name: Costco Shopping List
+items:
+  - measure: 1 pack
+    item: Chicken Thighs (organic preferred)
+    qty: 1
+    unit: package
+    section: Meat & Seafood
+  - measure: 1 pack
+    item: Chicken Breast (organic preferred)
+    qty: 1
+    unit: package
+    section: Meat & Seafood
+  - measure: 1 pack
+    item: Chicken Apple Sausage
+    qty: 1
+    unit: package
+    section: Meat & Seafood
+  - measure: 1 bag
+    item: Chicken Strips (regular)
+    qty: 1
+    unit: bag
+    section: Frozen
+  - measure: 1 bag
+    item: Chicken Strips (spicy)
+    qty: 1
+    unit: bag
+    section: Frozen
+  - measure: 1 bag
+    item: Dried Mango (organic)
+    qty: 1
+    unit: bag
+    section: Nuts, Snacks & Dried Fruit
+  - measure: 1 pack
+    item: Toilet Paper
+    qty: 1
+    unit: package
+    section: Household
+  - measure: 1 pack
+    item: Paper Towels
+    qty: 1
+    unit: package
+    section: Household
