@@ -10,7 +10,7 @@ times:
   rest: null
   total: 5
 tags: [drink, breakfast, vegetarian]
-drive_doc_id: 1H0EzfU1s7teAwD1J3RAXB1emKmQLxzxaJ0wjCBmonBM
+drive_doc_id: 1eSFGiIxDFNyt-wYL58uO7ahzrpFaR1gDZTDkBWTBhMc
 ingredients:
   - measure: 1/2
     item: Banana
@@ -31,7 +31,7 @@ ingredients:
     qty: 0.333
     unit: cup
   - measure: 1/3 cup (plus a splash)
-    item: Whole Milk, organic
+    item: Whole Milk
     prep: Cold
     group: 1 -> Blend
     qty: 0.333
@@ -70,7 +70,7 @@ nutrition:
     protein_g: 0.45
     fat_g: 0.21
     source: 'USDA SR Legacy: Mangos, raw'
-  - item: Whole Milk, organic (as Milk, whole)
+  - item: Whole Milk (as Milk, whole)
     amount: 1/3 cup (plus a splash) (0.333 cup at 244 g/cup)
     oz: 2.87
     calories: 49.6

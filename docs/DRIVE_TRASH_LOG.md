@@ -156,3 +156,4 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-12 | buttermilk-ranch-dressing | 1e4Csvo3w9k1WA2z9EkT4I3ZIN-Alg1T--qjJO7Il3KQ | 1KBZjbd6KpMO8_vdnI_DDbvh9QOGeV-IGu42ZNMwUuno | reference -> Sutherland, Northern Soul; old doc trashed 2026-11-12 |
 | 2026-11-12 | basil-expedition | 1qWQ6nsoX26TQQhmrF_yVVNgdhrl2qJmIvwBNWuh3guQ | 1PpLrygr6XJtPWPFr292QWVNG-BBjPzsEr8qO2ZomOQM | reference -> Batch Cocktails (Maggie Hoffman); old doc trashed 2026-11-12 |
 | 2026-11-15 | smoothie-1 | 1Usadih6WaYqYjophW2siw8JtaURAfRmO670k1qmqfgI | 1H0EzfU1s7teAwD1J3RAXB1emKmQLxzxaJ0wjCBmonBM | milk changed to organic whole milk; old doc trashed 2026-11-15 |
+| 2026-11-15 | smoothie-1 | 1H0EzfU1s7teAwD1J3RAXB1emKmQLxzxaJ0wjCBmonBM | 1eSFGiIxDFNyt-wYL58uO7ahzrpFaR1gDZTDkBWTBhMc | milk back to plain Whole Milk (no organic distinction); old doc trashed 2026-11-15 |
