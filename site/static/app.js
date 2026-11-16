@@ -182,6 +182,40 @@
     updateNav();
   }
 
+  /* ---------- item details card ("product page" for a shopping item) ---------- */
+  const norm = x => String(x || '').trim().toLowerCase();
+  function itemInfo(d, name) {
+    if (!d._items) { d._items = new Map(); (d.items || []).forEach(e => [e.item, ...(e.aliases || [])].forEach(n => d._items.set(norm(n), e))); }
+    return d._items.get(norm(name)) || null;
+  }
+  function itemMarker(info) { return info.photo ? ' 📷' : ' ⓘ'; }
+  async function showItem(name) {
+    const d = await data();
+    const info = itemInfo(d, name); if (!info) return;
+    const names = new Set([info.item, ...(info.aliases || [])].map(norm));
+    const tpls = d.templates.filter(t => t.items.some(i => names.has(norm(i.item))));
+    const recs = d.recipes.filter(r => r.ingredients.some(i => names.has(norm(i.item)))).sort((a, b) => a.title.localeCompare(b.title));
+    let dlg = document.getElementById('item-card');
+    if (!dlg) {
+      dlg = document.createElement('dialog'); dlg.id = 'item-card'; dlg.className = 'item-card';
+      dlg.addEventListener('click', e => { if (e.target === dlg || e.target.closest('button.close')) dlg.close(); });
+      document.body.appendChild(dlg);
+    }
+    dlg.innerHTML = `<div class="item-card-body">
+      <button type="button" class="btn small close" aria-label="Close">×</button>
+      <h2>${esc(info.item)}</h2>
+      ${info.photo ? `<img src="${base()}static/items/${encodeURIComponent(info.photo)}" alt="${esc(info.item)}">` : ''}
+      ${info.notes ? `<p class="notes">${esc(info.notes)}</p>` : ''}
+      ${tpls.length ? `<h3>On these lists</h3><ul>${tpls.map(t => `<li>${esc(t.name)}</li>`).join('')}</ul>` : ''}
+      ${recs.length ? `<h3>Used in</h3><ul>${recs.map(r => `<li><a href="${base()}r/${r.slug}.html">${esc(r.title)}</a></li>`).join('')}</ul>` : ''}
+    </div>`;
+    dlg.showModal();
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('button.item-link[data-item]'); if (!b) return;
+    e.preventDefault(); e.stopPropagation(); showItem(b.dataset.item);
+  });
+
   function recipePage() { updateNav(); }
 
   /* ---------- share links ---------- */
@@ -297,7 +331,7 @@
         for (const r of secRows) {
           const li = document.createElement('li');
           li.className = ck[r.key] ? 'done' : '';
-          li.innerHTML = `<label><input type="checkbox" ${ck[r.key] ? 'checked' : ''}> <span class="amt">${esc(r.amount)}</span> <span class="item">${esc(r.item)}</span> <span class="from muted small">${esc(r.from.join(', '))}</span></label>`;
+          li.innerHTML = `<label><input type="checkbox" ${ck[r.key] ? 'checked' : ''}> <span class="amt">${esc(r.amount)}</span> ${(info => info ? `<button type="button" class="item-link item" data-item="${esc(r.item)}">${esc(r.item)}<span class="cam no-print" aria-hidden="true">${itemMarker(info)}</span></button>` : `<span class="item">${esc(r.item)}</span>`)(itemInfo(d, r.item))} <span class="from muted small">${esc(r.from.join(', '))}</span></label>`;
           li.querySelector('input').addEventListener('change', e => { const c = checked(); if (e.target.checked) c[r.key] = 1; else delete c[r.key]; setChecked(c); li.classList.toggle('done', e.target.checked); if (hide) render(); });
           ul.appendChild(li);
         }
@@ -322,5 +356,5 @@
     data().then(() => { syncSwitch(); syncPicker(); render(); updateNav(); startPolling(); });
   }
 
-  global.Chef = { indexPage, recipePage, shopPage, menusPage, addMenu, getSel, setSel, data, listName, pull };
+  global.Chef = { indexPage, recipePage, shopPage, menusPage, addMenu, getSel, setSel, data, listName, pull, showItem };
 })(window);

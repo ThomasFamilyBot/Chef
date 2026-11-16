@@ -1,0 +1,7 @@
+# Item details: the "product page" you get by tapping an item on the Shopping List or a recipe page.
+# Add or update entries with scripts/add_item_photo.py (it resizes the photo, strips location data and edits this file).
+# item:    the name exactly as it appears on the list (case doesn't matter)
+# aliases: other names that should open the same card (e.g. the plain recipe name)
+# photo:   file in site/static/items/
+# notes:   brand, size, where it is in the store, anything useful while shopping
+items: []

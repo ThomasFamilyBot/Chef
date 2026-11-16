@@ -9,6 +9,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `data/canonical_ingredients.csv` — the canonical nutrition table (per 1 oz by weight). Never overwrite a row silently.
 - `data/store_sections.yaml` — ordered grocery-store sections + keyword fallbacks for ingredients that don't declare a section.
 - `data/shopping_templates/*.yaml` — recurring lists (e.g. house staples) that can be added to any shopping list.
+- `data/items.yaml` + `site/static/items/` — item details cards (photo, notes) shown when an item is tapped; see "item photos" below.
 - `data/techniques.yaml` — technique glossary (sweat, sauté, medium-high, simmer, fry…) with target temperatures; auto-appended to recipe pages and Docs.
 - `docs/DOC_MAP.md` — generated map of recipe ↔ Google Doc ↔ site page.
 - `data/menus.yaml` — menus / run of show (library slugs + not-yet-written dishes). `data/pairings.yaml` — "pairs well with" links with reasons.
@@ -46,6 +47,14 @@ Follow `.claude/skills/menu-planning/SKILL.md` or `.claude/skills/recipe-suggest
 ## When asked to process the recipe inbox (friends' email / Drive submissions)
 
 Follow `.claude/skills/inbox-processing/SKILL.md`. A scheduled Routine runs it; it can also be run on request.
+
+## When someone sends a photo of a shopping item ("item photos")
+
+Tapping an item with a 📷 (photo) or ⓘ (notes only) on the Shopping List or a recipe page opens a details card: photo, notes, which lists and recipes use it. Data lives in `data/items.yaml`; photos in `site/static/items/`.
+- Chat photos are saved under `~/.claude/uploads/<session>/`. Look at the photo first: the site is public, so skip anything personal (faces, addresses, receipts) and ask.
+- `python3 scripts/add_item_photo.py --item "<name exactly as on the list>" --photo <file> [--alias "<recipe name>"] [--notes "brand, size, aisle"] [--rotate 90]`. It resizes to 1000 px and strips location/camera data. Never copy a photo into `site/static/items/` by hand.
+- Use `--alias` so a template name like "Dried Mango (organic)" and the recipe name "Dried Mango" open the same card. Read the converted photo back to check it is upright.
+- Then build, commit, push, wait for the deploy, and tell the person which item now has a card.
 
 ## When asked to put a recipe in Google Drive
 

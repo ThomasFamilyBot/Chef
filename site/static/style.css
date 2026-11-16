@@ -157,3 +157,17 @@ details.pick > summary::-webkit-details-marker { display:none; }
 details.pick > summary::before { content:'▸'; color:var(--muted); transition: transform .15s; }
 details.pick[open] > summary::before { transform: rotate(90deg); }
 details.pick > summary h3 { margin:.9em 0 .3em; }
+
+/* item details card: tap an item with a 📷 / ⓘ on the list or a recipe page */
+button.item-link { font:inherit; color:inherit; background:none; border:0; padding:0; margin:0; text-align:left; cursor:pointer; text-decoration:underline dotted var(--accent); text-underline-offset:3px; }
+button.item-link .cam { font-size:.85em; text-decoration:none; display:inline-block; }
+dialog.item-card { padding:0; border:0; border-radius:16px; background:var(--card); color:var(--ink); width:min(92vw, 520px); max-height:88vh; box-shadow:0 10px 40px rgba(0,0,0,.35); }
+dialog.item-card::backdrop { background:rgba(15,13,12,.55); }
+.item-card-body { padding:16px 18px 18px; position:relative; }
+.item-card-body h2 { margin:.1em 2.2em .5em 0; }
+.item-card-body .close { position:absolute; top:12px; right:12px; font-size:1.1em; line-height:1; padding:4px 10px; }
+.item-card-body img { display:block; width:100%; height:auto; max-height:60vh; object-fit:contain; border-radius:12px; background:var(--soft); }
+.item-card-body .notes { white-space:pre-line; margin:.8em 0 .2em; }
+.item-card-body h3 { margin:1em 0 .2em; }
+.item-card-body ul { margin:.2em 0; padding-left:1.2em; }
+@media print { button.item-link { text-decoration:none; } }
