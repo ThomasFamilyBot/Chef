@@ -80,7 +80,7 @@ python3 scripts/nutrition_check.py
 
 If a food is ambiguous in a way that materially changes the numbers (bone-in vs boneless, raw vs cooked, a branded item with no USDA record, how much of a brine or frying oil is consumed), do not guess: present the person 2-3 options with the source for each (USDA record names and ids, manufacturer label) and the resulting calories, ask which to use, then add the chosen row to `data/canonical_ingredients.csv` with its source so the question is never asked again. Small assumptions: proceed, state them in the line note.
 
-**Google Doc, always.** Follow the `drive-export` skill (render HTML, create the doc in the right folder, write `drive_doc_id` back). The build regenerates `docs/DOC_MAP.md` from it.
+**Google Doc, always** (skip only when `google.docs_folder` in `data/site.yaml` is empty and the household has said it doesn't want Google Docs). Follow the `drive-export` skill (render HTML, create the doc in the right folder, write `drive_doc_id` back). The build regenerates `docs/DOC_MAP.md` from it.
 
 ```bash
 python3 scripts/build.py
@@ -90,12 +90,12 @@ git add -A && git commit -m "Add <Title>" && git push -u origin main
 **Wait for the deploy before handing over the site link.** GitHub Pages publishes a minute or two after the push; a link sent earlier 404s. Run:
 
 ```bash
-gh run list --repo ThomasFamilyBot/chef --limit 1          # until status is "completed success"
+gh run list --limit 1          # until status is "completed success"
 ```
 
-(or `gh run watch --repo ThomasFamilyBot/chef` if available). If it fails, read the log with `gh run view <id> --log-failed` and fix before reporting.
+(or `gh run watch` if available). If it fails, read the log with `gh run view <id> --log-failed` and fix before reporting. If `gh` is not available in this session, poll the site instead: fetch `<site_url>recipes.json` every 30 seconds until its `built` time is later than your push (up to five minutes); if it never changes, say so and point the person to the repo's Actions tab on GitHub.
 
-Then tell the person, leading with the site link (house rule: always give it after a successful add, and only once the deploy is done and the page returns HTTP 200: `curl -s -o /dev/null -w "%{http_code}" <link>`): `https://thomasfamilybot.github.io/Chef/r/<slug>.html`, then the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions or estimates in the nutrition lines.
+Then tell the person, leading with the site link (house rule: always give it after a successful add, and only once the deploy is done and the page returns HTTP 200: `curl -s -o /dev/null -w "%{http_code}" <link>`): `<site_url>r/<slug>.html` (`site_url` is in `data/site.yaml`), then the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions or estimates in the nutrition lines.
 
 ## 8. If the person later edits the Google Doc
 
@@ -103,7 +103,7 @@ They will say "doc updated, update the app" with the doc link. Follow the `drive
 
 ## Example front matter
 
-See `recipes/bo-ssam.md` for the reference example.
+See `recipes/shakshuka.md` for the reference example.
 
 ## Canonical item names (use these spellings so shopping lists merge)
 

@@ -9,7 +9,7 @@ Before doing anything, read these files from the repo and follow them exactly:
 - `.claude/skills/nutrition/SKILL.md` — for nutrition calculations
 - `.claude/skills/drive-export/SKILL.md` — for writing Google Doc copies to Drive
 - `docs/RECIPE_FORMAT.md` — the file format
-- `recipes/bo-ssam.md` — reference example
+- `recipes/shakshuka.md` — reference example
 
 House units: g, tsp, TBLS, cup, oz (weight), fl oz (volume), lb. Keep cups. Roll 4 tsp up to "1 TBLS + 1 tsp" and 4 TBLS up to "1/4 cup".
 

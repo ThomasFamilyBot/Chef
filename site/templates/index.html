@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Chef · Recipes{% endblock %}
+{% block title %}{{ site.site_name or "Chef" }} · Recipes{% endblock %}
 {% block content %}
 <h1>Recipes</h1>
 <input id="q" class="search" type="search" placeholder="Search titles, ingredients, directions…" autofocus>

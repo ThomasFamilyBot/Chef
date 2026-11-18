@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}Chef{% endblock %}</title>
+<title>{% block title %}{{ site.site_name or "Chef" }}{% endblock %}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap">
@@ -15,7 +15,7 @@
 </head>
 <body>
 <nav class="nav no-print">
-  <a href="{{ base }}index.html" class="brand"><img src="{{ base }}static/icon.svg" alt="" class="brand-icon"> Chef</a>
+  <a href="{{ base }}index.html" class="brand"><img src="{{ base }}static/icon.svg" alt="" class="brand-icon"> {{ site.site_name or "Chef" }}</a>
   <a href="{{ base }}index.html">Recipes</a>
   <a href="{{ base }}shop.html">List <span id="nav-count" class="pill"></span></a>
   <a href="{{ base }}menus.html">Menus</a>
@@ -26,7 +26,7 @@
 <main class="wrap">
 {% block content %}{% endblock %}
 </main>
-<footer class="no-print muted small">Built {{ built }} · <a href="https://github.com/ThomasFamilyBot/chef">source</a></footer>
+<footer class="no-print muted small">Built {{ built }} {% if site.repo %}· <a href="https://github.com/{{ site.repo }}">source</a>{% endif %}</footer>
 <script>window.CHEF_CFG = {{ {"api": (site.lists_api or ""), "lists": (site.lists or ["Household"])}|tojson }};</script>
 <script src="{{ base }}static/units.js"></script>
 <script src="{{ base }}static/app.js"></script>

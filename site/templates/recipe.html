@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ r.title }} · Chef{% endblock %}
+{% block title %}{{ r.title }} · {{ site.site_name or "Chef" }}{% endblock %}
 {% block content %}
 <article class="recipe" data-slug="{{ r.slug }}">
 <header class="recipe-head">
@@ -12,7 +12,7 @@
   <div class="no-print actions">
     <button class="btn add" data-slug="{{ r.slug }}">+ Shopping list</button>
     <button class="btn" onclick="window.print()">Print</button>
-    <a class="btn" href="https://github.com/ThomasFamilyBot/Chef/edit/main/recipes/{{ r.slug }}.md">Edit</a>
+    {% if site.repo %}<a class="btn" href="https://github.com/{{ site.repo }}/edit/main/recipes/{{ r.slug }}.md">Edit</a>{% endif %}
     {% if r.drive_doc_id %}<a class="btn" href="https://docs.google.com/document/d/{{ r.drive_doc_id }}/edit">Google Doc</a>{% endif %}
     <span class="tags">{% for t in r.tags or [] %}<span class="tag">{{ t }}</span>{% endfor %}</span>
   </div>

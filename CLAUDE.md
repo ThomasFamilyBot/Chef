@@ -1,9 +1,16 @@
 # Chef
 
-Household recipe library, nutrition calculator, and shopping-list planner for the Thomas family.
+Household recipe library, nutrition calculator, and shopping-list planner.
 Everything lives in this repo. A static site is built from it and deployed to GitHub Pages.
 
-**Names:** the family calls this project, and Claude when working in it, **ChefBot** (also "Chef" or "the Chef bot"). All three mean this repo and its site.
+<!-- household:start -->
+## This household
+
+- **Household:** the Thomas family. They call this project, and Claude when working in it, **ChefBot** (also "Chef" or "the Chef bot"). All three mean this repo and its site.
+- **Repo:** `ThomasFamilyBot/chef` · **Site:** https://thomasfamilybot.github.io/Chef/
+- **Google account that owns everything:** ahinthomas@gmail.com (see "Google identities" below).
+- Every other household-specific value (list names, Drive folder ids, Gmail label ids, the lists web-app URL, house taste) is in `data/site.yaml`. Read it at the start of any task that touches Google, the site link, or shopping lists.
+<!-- household:end -->
 
 ## Layout
 
@@ -23,6 +30,8 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `scripts/usda_fetch.sh` + `scripts/usda_lookup.py` — local copy of USDA SR Legacy; `search`, `show`, and `row` (emits a ready canonical CSV row with FDC id, URL and portion weights).
 - `scripts/set_override.py` — set a per-ingredient nutrition override in a recipe (exclude / fraction / oz) with a note.
 - `site/` — templates and static assets for the site.
+- `data/site.yaml` — site and household settings: names, repo, site address, list names, Google folder and label ids.
+- `SETUP.md` + `scripts/setup_check.py` — first-time setup of a new copy (only when `setup_done` is false in `data/site.yaml`).
 - `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`, `drive-sync`, `inbox-processing`.
 
 ## When asked to add / convert a recipe
@@ -32,7 +41,7 @@ Follow `.claude/skills/recipe-intake/SKILL.md` exactly. It covers the questions 
 **Adding a recipe is a four-part job, every time, without being asked:** (1) the recipe file, (2) whole-recipe nutrition: calories, protein g, fat g only
 (`nutrition` skill; new foods go into the canonical table with a source), (3) a Google Doc copy (`drive-export` skill), (4) validate, build, commit, push.
 Report all four in the final message.
-**Once the deploy has finished successfully, give the person the recipe's site link** (`https://thomasfamilybot.github.io/Chef/r/<slug>.html`), checked live (HTTP 200). This applies to every new recipe, including ones added from the inbox.
+**Once the deploy has finished successfully, give the person the recipe's site link** (`<site_url>r/<slug>.html`), checked live (HTTP 200). This applies to every new recipe, including ones added from the inbox.
 
 ## When the family edits a Google Doc and says "doc updated, update the app"
 
@@ -64,9 +73,9 @@ Follow `.claude/skills/drive-export/SKILL.md`.
 
 ## Google identities
 
-- **ahinthomas@gmail.com** (personal) owns everything: the Drive folders (Food, Converted Recipies, Chef Inbox), the Google Docs, the **Chef Shopping Lists** sheet and its Apps Script, and the Claude connectors. Any Google setup step is done signed in as this account.
-- The public recipe-submission Gmail (see `data/site.yaml` → `submission_email`) is a forwarder only; it owns nothing.
-- **Whenever you ask the family to do something in Google, say which account to be signed in as.**
+- The `google_account` in `data/site.yaml` owns everything in Google: the Drive folders, the Google Docs, the shared shopping-lists sheet and its Apps Script, and the Claude connectors. Any Google setup step is done signed in as this account.
+- The public recipe-submission address (`submission_email` in `data/site.yaml`) is a forwarder only; it owns nothing.
+- **Whenever you ask the household to do something in Google, say which account to be signed in as.**
 
 ## Always
 

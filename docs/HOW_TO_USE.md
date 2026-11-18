@@ -33,7 +33,7 @@ What to say:
 - "Here's a photo of a cookbook page. Reference: 'Six Seasons p. 212', no link."
 - "Convert this Google Doc: <link>."
 - "Calculate nutrition for Chili."
-- "Put Chili in Drive." (writes the Google Doc copy into *Converted Recipies*)
+- "Put Chili in Drive." (writes the Google Doc copy into the Drive folder set in `data/site.yaml`)
 - "Add 'Paper towels' to the House Staples template."
 - "Make a new shopping template called 'Taco night'."
 - "What goes with the Zuni chicken?" / "Plan a dinner for 8 on Saturday, grill, not too much work."
@@ -63,6 +63,6 @@ You can edit any recipe file directly on GitHub (pencil icon). The format is doc
 Give them two things:
 
 - **Email**: send a recipe URL or the typed-out recipe to the submission address in `data/site.yaml` (a dedicated Gmail that forwards to the family inbox; Claude finds it by the address). The public **Send a recipe** page on the site explains this to friends.
-- **Photos**: drop cookbook photos or scans into the shared Drive folder **Chef Inbox** (https://drive.google.com/drive/folders/1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9). Name the file with the recipe and your name, e.g. `Grandma's pierogi - Sam.jpg`.
+- **Photos**: drop cookbook photos or scans into the shared Drive folder **Chef Inbox** (the link is `inbox_folder_url` in `data/site.yaml` and on the site's **Send a recipe** page). Name the file with the recipe and your name, e.g. `Grandma's pierogi - Sam.jpg`.
 
 A Routine checks both on a schedule, converts each submission into a recipe with nutrition and a Google Doc, and emails the sender the links. Processed emails get the Gmail label `Chef/Done`; processed files move to `Chef Inbox/Processed`. To run it on demand, tell Claude "process the recipe inbox".

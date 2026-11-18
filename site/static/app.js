@@ -1,6 +1,6 @@
 // Chef site behaviour.
 // Shopping lists: one named list per person. State lives on the phone (localStorage) and, when
-// CHEF_CFG.api is set, is mirrored to the family Google Sheet through the Apps Script web app so every
+// CHEF_CFG.api is set, is mirrored to the household Google Sheet through the Apps Script web app so every
 // phone sees the same list. Last write wins per list; other phones re-pull every 15 s while open.
 (function (global) {
   const CFG = global.CHEF_CFG || { api: '', lists: ['Household'] };
@@ -96,7 +96,7 @@
       else if (!j.state && local.updated) { pushSoon(); }     // the sheet has nothing yet; seed it from this phone
       else if (!quiet) status('Shared list · in sync', 'ok');
     } catch (e) {
-      if (e && e.message === 'access') status('The shared sheet\'s web app is not set to "Anyone". In Apps Script (as ahinthomas@gmail.com): Deploy → Manage deployments → edit → Who has access: Anyone → New version. Showing this phone\'s copy meanwhile.', 'warn');
+      if (e && e.message === 'access') status('The shared sheet\'s web app is not set to "Anyone". In Apps Script (signed in as the Google account that owns the sheet): Deploy → Manage deployments → edit → Who has access: Anyone → New version. Showing this phone\'s copy meanwhile.', 'warn');
       else if (e && e.message === 'badjson') status('The shared sheet replied with something other than list data; check the Apps Script code. Showing this phone\'s copy.', 'warn');
       else if (!quiet) status('Offline. Showing this phone\'s copy.', 'warn');
     }

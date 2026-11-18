@@ -1,0 +1,24 @@
+# Recurring items you always keep in the house. Add this template to any shopping list.
+# These are samples: tell Claude what you actually keep ("our staples are ...") and it rewrites this file.
+name: House Staples
+items:
+  - measure: 12
+    item: Eggs
+    qty: 12
+    unit: each
+    section: Dairy & Eggs
+  - measure: 1 gallon
+    item: Whole Milk
+    qty: 1
+    unit: gallon
+    section: Dairy & Eggs
+  - measure: 1 lb
+    item: Unsalted Butter
+    qty: 1
+    unit: lb
+    section: Dairy & Eggs
+  - measure: 1 bottle
+    item: Olive Oil
+    qty: 1
+    unit: bottle
+    section: Oils, Vinegars & Condiments

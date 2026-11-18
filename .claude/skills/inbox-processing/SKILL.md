@@ -9,8 +9,8 @@ Submissions arrive two ways. Handle both in one pass, then send one summary.
 
 ## Where to look
 
-1. **Email**: the public submission address is `submission_email` in `data/site.yaml` (mail to it forwards into the family Gmail). `mcp__Gmail__search_threads` with query `to:<submission_email> -label:chef-done -label:chef-waiting newer_than:30d`. Read each thread with `get_thread` (PLAIN_TEXT). A submission is a URL, pasted recipe text, or a photo attachment. Attachments cannot be downloaded through the connector, so a photo-only email gets a reply asking the sender to drop the photo in the Chef Inbox folder (link below), and the thread is labeled `Chef/Waiting`.
-2. **Drive**: files in the **Chef Inbox** folder (search `parentId = '1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9'`, excluding the `Processed` sub-folder, id `1couCHZAIIDFYrJINp-GEhUlrVZLSbndv`). Folder link for senders: https://drive.google.com/drive/folders/1yDhgpXc_rXGO5I7U_QmIm8QRqL62JPo9. Images and PDFs are readable with `read_file_content`. The file name or a sibling `.txt`/Doc with the same name may carry the sender's note.
+1. **Email**: the public submission address is `submission_email` in `data/site.yaml` (mail to it forwards into the household Gmail, `google_account` in the same file). `mcp__Gmail__search_threads` with query `to:<submission_email> -label:chef-done -label:chef-waiting newer_than:30d`. Read each thread with `get_thread` (PLAIN_TEXT). A submission is a URL, pasted recipe text, or a photo attachment. Attachments cannot be downloaded through the connector, so a photo-only email gets a reply asking the sender to drop the photo in the Chef Inbox folder (link below), and the thread is labeled `Chef/Waiting`.
+2. **Drive**: files in the **Chef Inbox** folder (search `parentId = '<google.inbox_folder_id>'`, excluding the `Processed` sub-folder, `google.inbox_processed_folder_id`; both ids are in `data/site.yaml`). Folder link for senders: `inbox_folder_url` in the same file. Images and PDFs are readable with `read_file_content`. The file name or a sibling `.txt`/Doc with the same name may carry the sender's note.
 
 ## For each submission
 
@@ -21,12 +21,12 @@ Submissions arrive two ways. Handle both in one pass, then send one summary.
 
 ## Replies
 
-- **Email**: `mcp__Gmail__reply` to the sender only, plain text: the recipe title, the site link, the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions. Then apply the `Chef/Done` label (id `Label_67`; `Chef/Waiting` is `Label_68`) with `label_message`.
+- **Email**: `mcp__Gmail__reply` to the sender only, plain text: the recipe title, the site link, the Google Doc link, the whole-recipe calories / protein / fat, and any assumptions. Then apply the `Chef/Done` label with `label_message` (label ids: `google.gmail_label_done_id` and `google.gmail_label_waiting_id` in `data/site.yaml`; if they are empty, find the labels with `list_labels`, or create them, and record the ids).
 - **Drive**: move the file into `Chef Inbox/Processed` (update_file with the Processed folder's id as `parentId`). If the file name or note gives an email address, send the same reply with `send_message`; otherwise nothing.
 
 ## Summary
 
-Finish by emailing ahinthomas@gmail.com one short summary: what was added (titles + site links `https://thomasfamilybot.github.io/Chef/r/<slug>.html`, sent only after the deploy finished, + Doc links), what was skipped and why, anything that needs a human decision (an ambiguous nutrition choice, a duplicate, a photo that couldn't be read). If nothing arrived, send nothing.
+Finish by emailing `summary_email` (in `data/site.yaml`) one short summary: what was added (titles + site links `<site_url>r/<slug>.html`, sent only after the deploy finished, + Doc links), what was skipped and why, anything that needs a human decision (an ambiguous nutrition choice, a duplicate, a photo that couldn't be read). If nothing arrived, send nothing.
 
 ## Guardrails
 

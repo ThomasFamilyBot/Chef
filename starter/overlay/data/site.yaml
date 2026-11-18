@@ -1,0 +1,36 @@
+# Site and household settings.
+# scripts/build.py reads the site keys; Claude reads the rest (CLAUDE.md and the skills point here).
+# Change any of this by telling Claude, or edit the file by hand. Everything here is visible to anyone
+# who looks at the repository, so no passwords, ever.
+
+setup_done: false                # false on a brand-new copy: Claude then follows SETUP.md first
+
+# --- names
+site_name: Chef                  # shown in the site's top bar and page titles
+bot_name: ChefBot                # what the household calls Claude in this project
+household: ""                    # e.g. "the Rivera household"
+house_taste: ""                  # a sentence about what you like to cook; steers suggestions and menus
+
+# --- GitHub
+repo: ""                         # owner/repository, e.g. riverakitchen/chef
+site_url: ""                     # https://<owner>.github.io/<repository>/
+
+# --- shopping lists: one list per name; these names show on the public site
+lists:
+  - Household
+# lists_api: the Apps Script web-app URL (see docs/SHARED_LISTS.md); empty = each phone keeps its own lists.
+lists_api: ""
+
+# --- Google (all optional; see SETUP.md for the add-ons that fill these in)
+google_account: ""               # owns the Drive folders, the Docs, the lists sheet and its Apps Script, and the Claude connectors
+summary_email: ""                # recipe-inbox runs send their summary here
+# submission_email: the public address friends send recipes to (shown on the Send a recipe page). Leave empty to hide the page.
+submission_email: ""
+inbox_folder_url: ""
+google:
+  docs_folder: {name: "", id: ""}     # where Google Doc copies of recipes go
+  docs_subfolders: []                 # optional: [{name: ..., id: ..., use_for: "pasta sauces"}]
+  inbox_folder_id: ""
+  inbox_processed_folder_id: ""
+  gmail_label_done_id: ""             # Gmail label Chef/Done
+  gmail_label_waiting_id: ""          # Gmail label Chef/Waiting

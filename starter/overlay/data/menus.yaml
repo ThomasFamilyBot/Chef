@@ -1,0 +1,14 @@
+# Menus: dinners you've cooked or plan to cook, with the run of show.
+# items: either {slug: <recipe slug>} for a library recipe, or {title, url, note} for something
+# not yet in the library (these are the first candidates for the recipe-suggestions skill).
+# archived: true keeps a menu on the Menus page under "Past dinners" but out of the shopping-list picker.
+# To add a menu, tell Claude: "Create a menu called <name> with <recipes>" (menu-planning skill), or edit this file.
+- name: Soup and Salad Night (sample)
+  occasion: Weeknight dinner
+  serves: 4
+  notes: Make the soup first; it rests 20 minutes, which is when the salad gets chopped and dressed.
+  items:
+    - slug: cauliflower-soup
+    - slug: california-pizza-kitchen-thai-crunch
+    - title: Crusty bread
+      note: from the bakery, no recipe needed
