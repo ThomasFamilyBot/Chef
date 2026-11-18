@@ -9,7 +9,7 @@ ChefBot is a recipe box that you run by talking to Claude. You send it a recipe 
 
 Optional extras: a printable Google Doc of every recipe, shopping lists that stay in sync between phones, and an email address your friends can send recipes to.
 
-You can see what a brand-new one looks like here: **https://thomasfamilybot.github.io/chefbot-starter/**
+You can see what a brand-new one looks like here: [thomasfamilybot.github.io/chefbot-starter](https://thomasfamilybot.github.io/chefbot-starter/)
 
 This guide assumes you have never heard of GitHub. Nothing here needs any technical skill. It is about fifteen minutes of clicking, then a conversation with Claude.
 
@@ -74,12 +74,9 @@ You're done when you see a GitHub page with your username in the top right corne
 
 ## Step 3: Make your own copy of ChefBot
 
-1. Still signed in to GitHub, open **https://github.com/ThomasFamilyBot/chefbot-starter**
+1. Still signed in to GitHub, open [github.com/ThomasFamilyBot/chefbot-starter](https://github.com/ThomasFamilyBot/chefbot-starter)
 2. Click the green **Use this template** button near the top right, then **Create a new repository**. ("Repository" is GitHub's word for a project folder.)
-3. Fill in the form:
-   - **Owner:** your username (already selected).
-   - **Repository name:** `chef`
-   - Choose **Public**. (The free website only works with Public.)
+3. Fill in the form. **Owner** is your username (already selected). For **Repository name** type `chef`. Choose **Public** (the free website only works with Public). Leave everything else alone.
 4. Click **Create repository** and wait a few seconds.
 
 You now have your own copy at `github.com/YOUR-USERNAME/chef`. It is completely separate from ours; nothing you do affects anyone else.
@@ -157,7 +154,7 @@ Other adults in the house can use the same Claude account, or their own. For the
 
 - **Claude can't see my repository (Step 5).** In GitHub, click your picture (top right) → Settings → Applications → Claude → Configure, and make sure `chef` is ticked.
 - **My site says "404" or "not found".** Step 4 was probably missed. Do it now, then tell Claude "the site isn't showing up" and it will publish again.
-- **GitHub emailed me that something failed.** Forward the gist to Claude ("GitHub says the build failed"). It reads the error and fixes it.
+- **GitHub emailed me that something failed.** Tell Claude "GitHub says the build failed." It reads the error and fixes it.
 - **A recipe site won't let Claude read the page.** Some sites block robots. Print the page to PDF (or take screenshots) and give Claude that instead.
 - **I want to start over.** In GitHub: your repository → Settings → scroll to the bottom → Delete this repository. Then begin again at Step 3. Your GitHub account can stay.
 - **Anything else.** Tell Claude what you were doing and what you see. It can read every file in your project and usually finds the problem quickly.

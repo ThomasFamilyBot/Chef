@@ -11,8 +11,8 @@ src = (pathlib.Path(__file__).parent / "overlay" / "GETTING_STARTED.md").read_te
 html = markdown.markdown(src, extensions=["tables", "sane_lists"])
 # Google Docs keeps inline styles only.
 html = html.replace("<table>", '<table style="border-collapse:collapse;width:100%">')
-html = re.sub(r"<th>", '<th style="border:1px solid #999;padding:6px;background:#f1ede6;text-align:left;font-size:10.5pt">', html)
-html = re.sub(r"<td>", '<td style="border:1px solid #999;padding:6px;vertical-align:top;font-size:10.5pt">', html)
+html = re.sub(r"<th>", '<th style="border:1px solid #999;padding:6px;background:#f1ede6;text-align:left">', html)
+html = re.sub(r"<td>", '<td style="border:1px solid #999;padding:6px;vertical-align:top">', html)
 html = re.sub(r"<blockquote>\s*<p>", '<p style="margin:8pt 24pt;padding:8pt;background:#f6f3ee;border-left:3px solid #b5651d;font-style:italic">', html)
 html = html.replace("</p>\n</blockquote>", "</p>").replace("</blockquote>", "")
 html = html.replace("<code>", '<span style="font-family:Courier New,monospace;background:#f3f3f3">').replace("</code>", "</span>")
