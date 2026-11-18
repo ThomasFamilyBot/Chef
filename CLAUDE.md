@@ -3,6 +3,8 @@
 Household recipe library, nutrition calculator, and shopping-list planner for the Thomas family.
 Everything lives in this repo. A static site is built from it and deployed to GitHub Pages.
 
+**Names:** the family calls this project, and Claude when working in it, **ChefBot** (also "Chef" or "the Chef bot"). All three mean this repo and its site.
+
 ## Layout
 
 - `recipes/*.md` — one recipe per file. YAML front matter (structured) + Markdown directions. **This is the source of truth.** See `docs/RECIPE_FORMAT.md`.
