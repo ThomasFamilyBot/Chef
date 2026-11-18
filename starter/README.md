@@ -35,3 +35,9 @@ There is no syncing: recipients keep whatever copy they made. To publish a newer
 - New people's names in recipes, menus or notes: add them to `DENY_WORDS` in `export.py`.
 - New binary files (photos) are never exported; the scrub flags any that slip through.
 - The five sample recipes are listed in `SAMPLE_RECIPES`.
+
+## Guide doc
+
+"ChefBot: set up your own": https://docs.google.com/document/d/1_RxgX3-mVqsKxdlMdPP7hiZRK2qg7-RdHTTfadEjLz0/edit
+Rendered from `overlay/GETTING_STARTED.md` on 2026-11-17. The Drive connector can't replace a Doc's content,
+so a changed guide means a new Doc (and a new link to hand out) or editing the Doc in place with the Docs connector.
