@@ -62,7 +62,7 @@ The push starts a build on GitHub that publishes the site a minute or two later.
 
 1. If `gh` works in this session, `gh run list --limit 1` until it says completed. Otherwise fetch `<site_url>recipes.json` every 30 seconds for up to five minutes.
 2. **If the site answers** (HTTP 200) and shows their site name: give them the link and ask them to open it on their phone.
-3. **If it is still "404 / not found" after five minutes**, the website switch is off. Walk them through it: on github.com open the repository → **Settings** (top row of tabs; under the "…" menu on a phone) → **Pages** (left column) → under "Build and deployment", **Source: GitHub Actions**. Nothing to save. Then make a small commit and push again (for example, re-run the build so `docs/DOC_MAP.md` updates) and re-check.
+3. **If it is still "404 / not found" after five minutes** (or the build finished with the notice "The website is not switched on yet"), the website switch is off. Walk them through it: on github.com open the repository → **Settings** (top row of tabs; under the "…" menu on a phone) → **Pages** (left column) → under "Build and deployment", **Source: GitHub Actions**. Nothing to save. Then make a small commit and push again (for example, re-run the build so `docs/DOC_MAP.md` updates) and re-check.
 4. If the build itself failed, read the log (`gh run view <id> --log-failed`, or ask them to open the **Actions** tab and tell you the red step) and fix it.
 5. Suggest **Add to Home Screen** (iPhone: Share → Add to Home Screen; Android: ⋮ → Add to Home screen) so the site opens like an app.
 

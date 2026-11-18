@@ -50,7 +50,8 @@ DENY_PATTERNS = [
     r"Label_\d+",
 ]
 # Allowed even though a deny rule matches (generic examples inside the docs).
-ALLOW = [r"name\+recipes@gmail\.com"]
+ALLOW = [r"name\+recipes@gmail\.com", r"maplestreetkitchen@gmail\.com",
+         r"github\.com/ThomasFamilyBot/chefbot-starter", r"thomasfamilybot\.github\.io/chefbot-starter"]   # where the starter itself lives
 
 
 def sh(*cmd, cwd=ROOT):
