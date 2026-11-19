@@ -10,6 +10,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - **Repo:** `ThomasFamilyBot/chef` · **Site:** https://thomasfamilybot.github.io/Chef/
 - **Google account that owns everything:** ahinthomas@gmail.com (see "Google identities" below).
 - Every other household-specific value (list names, Drive folder ids, Gmail label ids, the lists web-app URL, house taste) is in `data/site.yaml`. Read it at the start of any task that touches Google, the site link, or shopping lists.
+- **Kitchen equipment** (ice cream maker size and the like) is under `equipment` in `data/site.yaml`. Read it before scaling a recipe or writing batch / churn instructions.
 <!-- household:end -->
 
 ## Layout

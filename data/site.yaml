@@ -10,6 +10,10 @@ site_name: Chef                  # shown in the site's top bar and page titles
 bot_name: ChefBot                # what the household calls Claude in this project
 household: the Thomas family
 house_taste: "high-protein mains, bold flavors (Korean, Italian-American, BBQ, Nashville hot), projects for weekends, sous-vide and smoker friendly, ice creams for dessert"
+# equipment: kitchen gear whose size or model changes how a recipe is scaled or written. Claude reads it; the site does not.
+equipment:
+  - name: KitchenAid Ice Cream Maker attachment
+    detail: "2 quart freeze bowl (stand mixer attachment). One churn makes at most 2 quarts of finished ice cream; the bowl has to refreeze (KitchenAid says 24 hours) between churns."
 
 # --- GitHub
 repo: ThomasFamilyBot/chef       # owner/repository
