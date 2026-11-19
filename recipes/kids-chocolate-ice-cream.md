@@ -12,7 +12,7 @@ times:
   rest: 720
   total: 760
 tags: [dessert, ice-cream, chocolate, vegetarian, make-ahead]
-drive_doc_id: 1R6zlzNkh_6FWO9NPzZYv_BZpOjxHxHrsxpDNZKCz9yo
+drive_doc_id: 1cAemY4Z50xdsbguLCb_XMPtDm8jdAGsM87FluGCk8eQ
 ingredients:
   - measure: 2 cups (divided 1 & 1)
     item: Heavy Cream
@@ -37,11 +37,11 @@ ingredients:
     group: 1 -> Chocolate base
     qty: 3
     unit: oz
-  - measure: "3"
+  - measure: "4"
     item: Egg Yolks
-    prep: Beaten
+    prep: Beaten. Original uses 3; the 4th is for a richer custard
     group: 2 -> Yolks
-    qty: 3
+    qty: 4
     unit: each
   - measure: 1 1/2 cups
     item: Whole Milk
@@ -67,9 +67,9 @@ nutrition:
   computed: '2026-11-19'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
   totals:
-    calories: 3503.0
-    protein_g: 47.11
-    fat_g: 250.71
+    calories: 3557.8
+    protein_g: 49.8
+    fat_g: 255.22
   lines:
   - item: Heavy Cream (as Cream, heavy whipping)
     amount: 2 cups (divided 1 & 1) (2 cup at 238 g/cup)
@@ -100,11 +100,11 @@ nutrition:
     fat_g: 25.22
     source: 'USDA SR Legacy: Candies, milk chocolate'
   - item: Egg Yolks (as Egg yolk, raw)
-    amount: 3 (3 each at 17 g each)
-    oz: 1.8
-    calories: 164.2
-    protein_g: 8.09
-    fat_g: 13.54
+    amount: 4 (4 each at 17 g each)
+    oz: 2.4
+    calories: 219.0
+    protein_g: 10.78
+    fat_g: 18.05
     source: 'USDA SR Legacy: Egg, yolk, raw, fresh'
   - item: Whole Milk (as Milk, whole)
     amount: 1 1/2 cups (1.5 cup at 244 g/cup)
@@ -174,4 +174,10 @@ nutrition:
 
 **Adult version**
 
-- Follow the original recipe (link in the Reference line): 6 oz of 60% dark chocolate in place of the semisweet and milk chocolate, and natural unsweetened cocoa powder. Everything else is the same.
+- Follow the original recipe (link in the Reference line): 6 oz of 60% dark chocolate in place of the semisweet and milk chocolate, natural unsweetened cocoa powder, and 3 yolks. Everything else is the same.
+
+**Bigger batch for the 2 quart KitchenAid bowl (1 1/3 batch, one churn)**
+
+- 2 2/3 cups cream, 1/3 cup cocoa, 4 oz semisweet chocolate, 4 oz milk chocolate, 5 yolks, 2 cups milk, 1 cup sugar, a generous 1/8 tsp salt, 2/3 tsp vanilla. Same method.
+- About 6 cups of base, roughly 1 1/3 to 1 2/3 quarts churned (estimate; first tried for the soccer team, November 2026).
+- One freeze bowl: give it 24 hours in the freezer between churns.
