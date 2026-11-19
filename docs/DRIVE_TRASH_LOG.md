@@ -159,3 +159,4 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-15 | smoothie-1 | 1Usadih6WaYqYjophW2siw8JtaURAfRmO670k1qmqfgI | 1H0EzfU1s7teAwD1J3RAXB1emKmQLxzxaJ0wjCBmonBM | milk changed to organic whole milk; old doc trashed 2026-11-15 |
 | 2026-11-15 | smoothie-1 | 1H0EzfU1s7teAwD1J3RAXB1emKmQLxzxaJ0wjCBmonBM | 1eSFGiIxDFNyt-wYL58uO7ahzrpFaR1gDZTDkBWTBhMc | milk back to plain Whole Milk (no organic distinction); old doc trashed 2026-11-15 |
 | 2026-11-19 | kids-chocolate-ice-cream | 1R6zlzNkh_6FWO9NPzZYv_BZpOjxHxHrsxpDNZKCz9yo | 1cAemY4Z50xdsbguLCb_XMPtDm8jdAGsM87FluGCk8eQ | 4th yolk and bigger-batch note added; old doc trashed 2026-11-19 |
+| 2026-11-19 | kids-chocolate-ice-cream | 1cAemY4Z50xdsbguLCb_XMPtDm8jdAGsM87FluGCk8eQ | 10huuqeim85hJIp8AdCcOODOXVXQXv_SntoZnUAh7e54 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |

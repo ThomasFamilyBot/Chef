@@ -12,7 +12,7 @@ times:
   rest: 720
   total: 760
 tags: [dessert, ice-cream, chocolate, vegetarian, make-ahead]
-drive_doc_id: 1cAemY4Z50xdsbguLCb_XMPtDm8jdAGsM87FluGCk8eQ
+drive_doc_id: 10huuqeim85hJIp8AdCcOODOXVXQXv_SntoZnUAh7e54
 ingredients:
   - measure: 2 cups (divided 1 & 1)
     item: Heavy Cream
