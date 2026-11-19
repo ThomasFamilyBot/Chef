@@ -11,7 +11,7 @@ times:
   rest: null
   total: 20
 tags: [dessert, baking, vegetarian]
-drive_doc_id: 1qatIfExU5jIBX_6MDaR_yl7x2HRYYlAxjkO9l6s2wAs
+drive_doc_id: 1VXA3Mls7c3nnbFqrsWLHNFUVSBAmkzGZmD9I23QfvZY
 ingredients:
   - measure: 5 TBLS
     item: Unsalted Butter
@@ -171,9 +171,19 @@ nutrition:
 - Once it holds its shape, slide it off the form and cool upright (in a tall glass) or on its side on a wire rack.
 - Fill with ice cream and serve.
 
+**Storage**
+
+- Best the same day, slightly warm. Still good on days 2-3 if kept airtight; by days 4-5 they are softer and taste a little stale.
+- Cool completely (at least 30 minutes) before storing; trapped warmth turns to steam and softens them.
+- Keep in a rigid airtight container at room temperature, upright or in a single layer. Do not refrigerate; the fridge is humid.
+- Humidity matters more than time: on a damp day an uncovered cone can go soft in a few hours.
+- Longer: freeze in a rigid airtight container up to about 1 month. Thaw with the lid on so condensation forms on the container, not the cones.
+- To re-crisp soft cones: 300°F oven for 3-5 minutes on a baking sheet, then cool; they crisp as they cool.
+- Making ahead: the day before is safe; two days before is fine with a quick re-crisp.
+
 **Notes**
 
-- Best the same day, slightly warm. Keeps in an airtight container up to 5 days.
+- The source says they keep in an airtight container up to 5 days; the rest of the storage advice above is general baking practice, not from the source.
 - Use 3 TBLS of batter per cone for 8-9 smaller cones.
 - Waffle bowls: same batter; drape each hot round into a small bowl and cool it there. Double them up for a sturdier bowl.
 - Source's own estimate: 244 calories per cone.
