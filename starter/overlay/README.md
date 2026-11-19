@@ -42,3 +42,9 @@ python3 scripts/validate.py
 python3 scripts/build.py      # -> dist/
 python3 -m http.server --directory dist 8000
 ```
+
+## License
+
+The code, site templates and Claude instructions are under the [MIT License](LICENSE). The sample recipes in
+`recipes/` are adapted from the sources named on each one and are included only as examples; they are not
+covered by that license. Nutrition values cite their own sources in `data/canonical_ingredients.csv`.
