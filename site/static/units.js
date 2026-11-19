@@ -107,5 +107,16 @@
     return out;
   }
 
-  global.Units = { merge, fmtVolume, fmtWeight, fmtCount, frac, family };
+  // Set fractions small in already-escaped text (same rule as frac_text in scripts/chef_lib.py).
+  // No lookbehind: older iPhone Safari cannot parse it.
+  const FRAC_DEN = new Set([2, 3, 4, 5, 6, 8, 10, 12, 16, 32]);
+  function fracHTML(escaped) {
+    return String(escaped).replace(/(^|[^\d\/.,])(?:(\d+) )?(\d{1,2})\/(\d{1,2})(?![\d\/]|\.\d)/g, (all, pre, whole, num, den) => {
+      if (!FRAC_DEN.has(Number(den)) || !(Number(num) > 0 && Number(num) < Number(den))) return all;
+      const f = `<span class="frac"><sup>${num}</sup>/<sub>${den}</sub></span>`;
+      return pre + (whole ? `${whole}&#8239;${f}` : f);
+    });
+  }
+
+  global.Units = { merge, fmtVolume, fmtWeight, fmtCount, frac, fracHTML, family };
 })(window);

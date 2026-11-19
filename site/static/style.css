@@ -62,6 +62,11 @@ tr:last-child td { border-bottom:0; }
 th { background: var(--soft); color:var(--ink); font-family: Fraunces, Georgia, serif; font-weight:600; font-size:.95em; }
 table.ingredients td.measure { color:var(--accent); font-weight:700; width:1%; }
 table.ingredients td.item { font-weight:500; }
+/* fractions: raised numerator, small denominator, so 1/2 never reads as a whole number */
+.frac { white-space:nowrap; }
+.frac sup, .frac sub { font-size:.68em; line-height:0; position:relative; vertical-align:baseline; }
+.frac sup { top:-.42em; margin-right:.04em; }
+.frac sub { top:.08em; margin-left:.04em; }
 table.ingredients td.group { color:var(--muted); font-weight:500; }
 @media (min-width: 640px), print { table.ingredients td.measure { white-space:nowrap; } }
 @media (min-width: 640px) { table.ingredients td.group { white-space:nowrap; } table.ingredients td.item { min-width:10em; } }

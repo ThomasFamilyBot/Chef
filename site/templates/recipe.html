@@ -7,7 +7,7 @@
   <p class="ref">Reference:
     {% if r.reference.url %}<a href="{{ r.reference.url }}">{{ r.reference.text }}{% if r.reference.url_text and r.reference.url_text != r.reference.text %} — {{ r.reference.url_text }}{% endif %}</a>{% else %}{{ r.reference.text }}{% endif %}
   </p>
-  <p class="meta"><b>Serves:</b> {{ r.serves }}</p>
+  <p class="meta"><b>Serves:</b> {{ r.serves|frac }}</p>
   <p class="meta times"><b>Prep:</b> {{ r.times.prep|fmt_time }} &nbsp;|&nbsp; <b>Cook:</b> {{ r.times.cook|fmt_time }} &nbsp;|&nbsp; <b>Rest:</b> {{ r.times.rest|fmt_time }} &nbsp;|&nbsp; <b>Total:</b> {{ r.times.total|fmt_time }}</p>
   <div class="no-print actions">
     <button class="btn add" data-slug="{{ r.slug }}">+ Shopping list</button>
@@ -22,7 +22,7 @@
   <thead><tr><th>Measure</th><th>Ingredient</th><th>Prep</th><th>Mise Grouping</th></tr></thead>
   <tbody>
   {% for i in r.ingredients %}
-    <tr><td class="measure">{{ i.measure }}</td><td class="item">{% if i.details %}<button type="button" class="item-link" data-item="{{ i.item }}">{{ i.item }}<span class="cam no-print" aria-hidden="true">{{ " 📷" if i.details == "photo" else " ⓘ" }}</span></button>{% else %}{{ i.item }}{% endif %}</td><td class="prep">{{ i.prep }}</td><td class="group">{{ i.group }}</td></tr>
+    <tr><td class="measure">{{ i.measure|frac }}</td><td class="item">{% if i.details %}<button type="button" class="item-link" data-item="{{ i.item }}">{{ i.item }}<span class="cam no-print" aria-hidden="true">{{ " 📷" if i.details == "photo" else " ⓘ" }}</span></button>{% else %}{{ i.item }}{% endif %}</td><td class="prep">{{ i.prep|frac }}</td><td class="group">{{ i.group }}</td></tr>
   {% endfor %}
   </tbody>
 </table>
@@ -33,7 +33,7 @@
   {% if r.techniques %}
   <div class="techbox">
     <h3>Technique temperatures</h3>
-    <ul class="small">{% for g in r.techniques %}<li><b>{{ g.term|capitalize }}</b>: {{ g.temp }}{% if g.url %} <a href="{{ g.url }}">ref</a>{% endif %}</li>{% endfor %}</ul>
+    <ul class="small">{% for g in r.techniques %}<li><b>{{ g.term|capitalize }}</b>: {{ g.temp|frac }}{% if g.url %} <a href="{{ g.url }}">ref</a>{% endif %}</li>{% endfor %}</ul>
   </div>
   {% endif %}
 </section>
@@ -59,7 +59,7 @@
   <div class="scroll"><table class="nut-lines small">
     <thead><tr><th>Ingredient</th><th>Amount</th><th>oz</th><th>Cal</th><th>Protein</th><th>Fat</th><th>Source</th></tr></thead>
     <tbody>{% for l in n.lines %}
-      <tr><td>{{ l.item }}</td><td>{{ l.amount }}</td><td>{{ l.oz }}</td><td>{{ l.calories|round|int }}</td><td>{{ '%.1f'|format(l.protein_g or 0) }}</td><td>{{ '%.1f'|format(l.fat_g or 0) }}</td><td>{{ l.source }}{% if l.note %} · {{ l.note }}{% endif %}</td></tr>
+      <tr><td>{{ l.item }}</td><td>{{ l.amount|frac }}</td><td>{{ l.oz }}</td><td>{{ l.calories|round|int }}</td><td>{{ '%.1f'|format(l.protein_g or 0) }}</td><td>{{ '%.1f'|format(l.fat_g or 0) }}</td><td>{{ l.source }}{% if l.note %} · {{ l.note }}{% endif %}</td></tr>
     {% endfor %}</tbody>
   </table></div>
   <ul class="small">{% for a in n.assumptions %}<li>{{ a }}</li>{% endfor %}</ul>

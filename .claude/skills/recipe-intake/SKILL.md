@@ -38,7 +38,7 @@ Abbreviations, exactly these: `g`, `tsp`, `TBLS`, `cup`, `oz`, `fl oz`, `lb`. Al
 - Metric sources: convert ml to tsp/TBLS/cup/fl oz, grams of meat/produce to oz or lb (round to a sensible 1/4 oz or 1/4 lb). Keep grams for baking ingredients that were given in grams.
 - Proteins are by **weight** (oz/lb), raw, boneless/skinless unless the recipe says otherwise.
 - A recipe must be internally consistent: don't mix `g` and `oz` for the same kind of ingredient within one recipe.
-- Fractions print as `1/2`, `1/4`, `3/4`, `1/3`, `2/3`, `1 1/2`. No unicode fraction glyphs.
+- Fractions are written as plain `1/2`, `1/4`, `3/4`, `1/3`, `2/3`, `1 1/2`. No unicode fraction glyphs and no markup: the site, the shopping list and the Google Doc export set them small (raised numerator, lowered denominator) automatically, so a fraction never reads as a whole number (`frac_text` in `scripts/chef_lib.py`, `fracHTML` in `site/static/units.js`).
 - If a unit is unclear or a new abbreviation seems needed, ask.
 
 ## 4. Ingredient table

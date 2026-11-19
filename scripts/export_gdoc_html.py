@@ -5,7 +5,7 @@ Drive's create_file with contentMimeType=text/html converts this into a Google D
 import sys, html, pathlib, argparse
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import markdown
-from chef_lib import load_recipe, load_techniques
+from chef_lib import load_recipe, load_techniques, frac_text, frac_html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from build import find_techniques
 
@@ -15,6 +15,8 @@ def t(v):
 def render(path):
     r = load_recipe(path)
     e = html.escape
+    # fractions as superscript/subscript; Docs keeps <sup>/<sub> on import
+    fx = lambda v: frac_text(e(str(v)), gap="&nbsp;", span=False)
     ref = r["reference"]
     if ref.get("url"):
         label = ref["text"] + (f" — {ref['url_text']}" if ref.get("url_text") and ref["url_text"] != ref["text"] else "")
@@ -24,13 +26,13 @@ def render(path):
     title_html = f'<a href="{e(ref["url"])}">{e(r["title"])}</a>' if ref.get("url") else e(r["title"])
     tm = r.get("times") or {}
     rows = "".join(
-        f"<tr><td>{e(str(i['measure']))}</td><td>{e(i['item'])}</td><td>{e(i.get('prep') or '')}</td><td>{e(i.get('group') or '')}</td></tr>"
+        f"<tr><td>{fx(i['measure'])}</td><td>{e(i['item'])}</td><td>{fx(i.get('prep') or '')}</td><td>{e(i.get('group') or '')}</td></tr>"
         for i in r["ingredients"])
-    body = markdown.markdown(r["body_md"], extensions=["sane_lists"])
+    body = frac_html(markdown.markdown(r["body_md"], extensions=["sane_lists"]), gap="&nbsp;", span=False)
     techs = find_techniques(r["body_md"], load_techniques(), r.get("techniques_skip"))
     if techs:
         body += "<p><b>Technique temperatures</b></p><ul>" + "".join(
-            f"<li><b>{e(g['term'].capitalize())}</b>: {e(g['temp'])}" + (f" <a href=\"{e(g['url'])}\">ref</a>" if g.get('url') else "") + "</li>" for g in techs) + "</ul>"
+            f"<li><b>{e(g['term'].capitalize())}</b>: {fx(g['temp'])}" + (f" <a href=\"{e(g['url'])}\">ref</a>" if g.get('url') else "") + "</li>" for g in techs) + "</ul>"
     n = r.get("nutrition")
     if n:
         tot = n["totals"]
@@ -46,7 +48,7 @@ def render(path):
     return f"""<html><head><meta charset="utf-8"><title>{e(r['title'])}</title></head><body>
 <p><b><i><span style="font-size:18pt">{title_html}</span></i></b></p>
 <p>Reference: {refhtml}</p>
-<p>Serves: {e(str(r['serves']))}</p>
+<p>Serves: {fx(r['serves'])}</p>
 <p>Prep: {t(tm.get('prep'))} &nbsp;|&nbsp; Cook: {t(tm.get('cook'))} &nbsp;|&nbsp; Rest: {t(tm.get('rest'))} &nbsp;|&nbsp; Total: {t(tm.get('total'))}</p>
 <table border="1" cellpadding="4" style="border-collapse:collapse">
 <tr><td><b>Measure</b></td><td><b>Ingredient</b></td><td><b>Prep</b></td><td><b>Mise Grouping</b></td></tr>

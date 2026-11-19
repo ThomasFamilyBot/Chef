@@ -9,13 +9,13 @@
 {% for m in active %}
 <section class="menu card" id="{{ m.id }}">
   <h2>{{ m.name }}</h2>
-  <p class="muted small">{{ m.occasion }}{% if m.date %} · {{ m.date }}{% endif %}{% if m.serves %} · Serves {{ m.serves }}{% endif %}{% if m.source_doc %} · <a href="{{ m.source_doc }}">run of show doc</a>{% endif %}</p>
+  <p class="muted small">{{ m.occasion }}{% if m.date %} · {{ m.date }}{% endif %}{% if m.serves %} · Serves {{ m.serves|frac }}{% endif %}{% if m.source_doc %} · <a href="{{ m.source_doc }}">run of show doc</a>{% endif %}</p>
   <ul>
   {% for it in m['items'] %}
-    <li>{% if it.slug %}<a href="r/{{ it.slug }}.html">{{ it.title }}</a>{% elif it.url %}<a href="{{ it.url }}">{{ it.title }}</a> <span class="tag">not in library</span>{% else %}{{ it.title }} <span class="tag">not in library</span>{% endif %}{% if it.note %} <span class="muted small">— {{ it.note }}</span>{% endif %}</li>
+    <li>{% if it.slug %}<a href="r/{{ it.slug }}.html">{{ it.title }}</a>{% elif it.url %}<a href="{{ it.url }}">{{ it.title }}</a> <span class="tag">not in library</span>{% else %}{{ it.title }} <span class="tag">not in library</span>{% endif %}{% if it.note %} <span class="muted small">— {{ it.note|frac }}</span>{% endif %}</li>
   {% endfor %}
   </ul>
-  {% if m.notes %}<p class="small">{{ m.notes }}</p>{% endif %}
+  {% if m.notes %}<p class="small">{{ m.notes|frac }}</p>{% endif %}
   {% if m.slugs %}<button class="btn add-menu" data-menu="{{ m.id }}">+ Add {{ m.slugs|length }} recipe{{ 's' if m.slugs|length != 1 else '' }} to shopping list</button>{% endif %}
 </section>
 {% endfor %}
@@ -24,13 +24,13 @@
 {% for m in past %}
 <section class="menu card" id="{{ m.id }}">
   <h2>{{ m.name }}</h2>
-  <p class="muted small">{{ m.occasion }}{% if m.date %} · {{ m.date }}{% endif %}{% if m.serves %} · Serves {{ m.serves }}{% endif %}{% if m.source_doc %} · <a href="{{ m.source_doc }}">run of show doc</a>{% endif %}</p>
+  <p class="muted small">{{ m.occasion }}{% if m.date %} · {{ m.date }}{% endif %}{% if m.serves %} · Serves {{ m.serves|frac }}{% endif %}{% if m.source_doc %} · <a href="{{ m.source_doc }}">run of show doc</a>{% endif %}</p>
   <ul>
   {% for it in m['items'] %}
-    <li>{% if it.slug %}<a href="r/{{ it.slug }}.html">{{ it.title }}</a>{% elif it.url %}<a href="{{ it.url }}">{{ it.title }}</a> <span class="tag">not in library</span>{% else %}{{ it.title }} <span class="tag">not in library</span>{% endif %}{% if it.note %} <span class="muted small">— {{ it.note }}</span>{% endif %}</li>
+    <li>{% if it.slug %}<a href="r/{{ it.slug }}.html">{{ it.title }}</a>{% elif it.url %}<a href="{{ it.url }}">{{ it.title }}</a> <span class="tag">not in library</span>{% else %}{{ it.title }} <span class="tag">not in library</span>{% endif %}{% if it.note %} <span class="muted small">— {{ it.note|frac }}</span>{% endif %}</li>
   {% endfor %}
   </ul>
-  {% if m.notes %}<p class="small">{{ m.notes }}</p>{% endif %}
+  {% if m.notes %}<p class="small">{{ m.notes|frac }}</p>{% endif %}
   {% if m.slugs %}<button class="btn add-menu" data-menu="{{ m.id }}">+ Add {{ m.slugs|length }} recipe{{ 's' if m.slugs|length != 1 else '' }} to shopping list</button>{% endif %}
 </section>
 {% endfor %}

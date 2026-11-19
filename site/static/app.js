@@ -331,7 +331,7 @@
         for (const r of secRows) {
           const li = document.createElement('li');
           li.className = ck[r.key] ? 'done' : '';
-          li.innerHTML = `<label><input type="checkbox" ${ck[r.key] ? 'checked' : ''}> <span class="amt">${esc(r.amount)}</span> ${(info => info ? `<button type="button" class="item-link item" data-item="${esc(r.item)}">${esc(r.item)}<span class="cam no-print" aria-hidden="true">${itemMarker(info)}</span></button>` : `<span class="item">${esc(r.item)}</span>`)(itemInfo(d, r.item))} <span class="from muted small">${esc(r.from.join(', '))}</span></label>`;
+          li.innerHTML = `<label><input type="checkbox" ${ck[r.key] ? 'checked' : ''}> <span class="amt">${Units.fracHTML(esc(r.amount))}</span> ${(info => info ? `<button type="button" class="item-link item" data-item="${esc(r.item)}">${esc(r.item)}<span class="cam no-print" aria-hidden="true">${itemMarker(info)}</span></button>` : `<span class="item">${esc(r.item)}</span>`)(itemInfo(d, r.item))} <span class="from muted small">${esc(r.from.join(', '))}</span></label>`;
           li.querySelector('input').addEventListener('change', e => { const c = checked(); if (e.target.checked) c[r.key] = 1; else delete c[r.key]; setChecked(c); li.classList.toggle('done', e.target.checked); if (hide) render(); });
           ul.appendChild(li);
         }
