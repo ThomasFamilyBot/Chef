@@ -11,7 +11,7 @@ times:
   total: 3600
 tags: [lamb, main, smoker]
 source_doc: https://drive.google.com/file/d/1g1gjZXRKno-gZwfgjYZSl4MDBqW9Zsh8/view
-drive_doc_id: 1K4TsE_U6mzWx6oI2mO4eVf1xcFLPF0B_FObooNO4KvY
+drive_doc_id: 1o3Z3GaDsOX0tg7rH_IKzEJa8unYRjiopxjP8ZQ_CfMc
 ingredients:
   - measure: 5 1/2-6 1/2 lb
     item: Lamb Shoulder, bone-in

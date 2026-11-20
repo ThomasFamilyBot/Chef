@@ -12,7 +12,7 @@ times:
   total: 360
 tags: [dessert, vegetarian]
 source_doc: https://docs.google.com/document/d/1fXMdKRDsqw5mKW-n7X_dSEqM5Ug81GtNdj1QuP7Gf_U/edit
-drive_doc_id: 1K03ZvSmETmrJKr_aSoANC_An2SnBiWMCs1ivDPbEghg
+drive_doc_id: 1Jwj0RycnPm2BFTb9KuIBt5US6aTQj-LNoztobvRMTz8
 ingredients:
   - measure: 2 cups (1 pint)
     item: Heavy Cream

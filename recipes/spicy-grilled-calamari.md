@@ -11,7 +11,7 @@ times:
   rest: 30
   total: 45
 tags: [seafood, main, appetizer, grill]
-drive_doc_id: 1bAHjGlMMN4HPVog4eAuAhf9a7dyMRv4TizADybuOLdw
+drive_doc_id: 1dikkvZULlKYFKsSEwRkGf2H61M9tDiZ1U_hlNBX2URQ
 ingredients:
   - measure: 2 tsp
     item: Smoked Paprika

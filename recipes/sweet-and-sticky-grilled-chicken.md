@@ -11,7 +11,7 @@ times:
   rest: 30
   total: 85
 tags: [chicken, main, grill]
-drive_doc_id: 1dbvdN4vhpR8Eon3vFuHzir1qgbv92FDEjmgXs1zplCI
+drive_doc_id: 1nFMoRuc20Nrtl81gsLQoN1ttsO5snwtxaJ-yz35QGoU
 ingredients:
   - measure: 1 (3 1/2-4 lb)
     item: Whole Chicken
