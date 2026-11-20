@@ -160,3 +160,13 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-15 | smoothie-1 | 1H0EzfU1s7teAwD1J3RAXB1emKmQLxzxaJ0wjCBmonBM | 1eSFGiIxDFNyt-wYL58uO7ahzrpFaR1gDZTDkBWTBhMc | milk back to plain Whole Milk (no organic distinction); old doc trashed 2026-11-15 |
 | 2026-11-19 | kids-chocolate-ice-cream | 1R6zlzNkh_6FWO9NPzZYv_BZpOjxHxHrsxpDNZKCz9yo | 1cAemY4Z50xdsbguLCb_XMPtDm8jdAGsM87FluGCk8eQ | 4th yolk and bigger-batch note added; old doc trashed 2026-11-19 |
 | 2026-11-19 | kids-chocolate-ice-cream | 1cAemY4Z50xdsbguLCb_XMPtDm8jdAGsM87FluGCk8eQ | 10huuqeim85hJIp8AdCcOODOXVXQXv_SntoZnUAh7e54 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | a-very-good-lasagna | 1WBUKKVPqYyJx8k6OHNYABSf3N3_Txrtfj6dj-U4O_r4 | 1B28HdE8Mde5DW5H1ewsy7v89fvk4dyuRecR5lGznKwg | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | ad-hoc-fried-chicken | 1SiwyDLA91FzIWGAqjVf-bGe-NahLDE2VhBFwBk2gzhk | 1zsXuDGQxMMIlpbfAPt8ZjscgyrnZRtx027lpir7r2FE | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | alleged-freds-tri-tip-marinade | 1N__VZqxz49AVQUGmB-Lh62LBCjq7teyxMI8Nh3uIuy0 | 1y6osc0mUwRUWGMwz3B2l-thNRm7tBGFUSUFfOsfF6u8 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | amatriciana | 1q_qnnlAO11t8pFQNV9oS_-DPk4FZCoIOmyA_5a0vgTM | 13_Rfj0Q4FIs0xS1X7oUDqW7uWIyaYl9IjoN4JSRWUOo | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | any-berry-shrub | 10FIwAVon9Js6ZdYym0xbb3Cejf0nyvjAdwyZktWf4JQ | 1jrgV1hemBA_zCkWZr9oDg-RVIuIxSI8iUctNErpfeDw | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | apple-cake | 165B-C-PZNKpono5mpydVwNMhkNXZKY3lbLO_ElL4TDI | 1zQ0t7RGSRLW9UhCQG8khs0G75Z6Mq5ZuOIoGnmdSZ7w | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | asian-cauliflower-fried-rice | 1242sbn3GBsZMxfXaJRwqVCqJ77KuQtJEDwid6wy_TMA | 1J0iMQ9y-xRWBuI2r7kA78JS3bVawepzgkROO4VszsCs | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | ba-best-lasagna | 1_4wmot_5goyzFp9RGLmk3rz0xSqpaEU-RqJpYj1fPoo | 1cmasBYhl33Ldo0az7S3_4ahOOyXmg6YDaz01BWbP2kk | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | baby-back-ribs | 1vA3Hnxynj9aiLp_HoJ7Y5W1sDnRJ60Ai7fs6gUIcwU0 | 1E8U4sNGGkoqK6XOGerpWTbrPoCiBCHZW1OWNIvd2D1A | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | bachelor-farmer-popovers | 1-7KQa7BXwDXCT6QkR0x7a8zwYmAim9rwT_W1Oo7wJHE | 1nlvz1Sk2yNcLbhNp40pX4yUiABAARjPabuUsHI18smc | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |

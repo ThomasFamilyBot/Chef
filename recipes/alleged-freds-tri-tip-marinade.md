@@ -12,7 +12,7 @@ times:
   total: 5775
 tags: [beef, marinade, grill]
 source_doc: https://docs.google.com/document/d/1Wpy1qNHVJoRrCrF3LkGWpP2Vj0qLgkNRTPMRWCY48n8/edit
-drive_doc_id: 1N__VZqxz49AVQUGmB-Lh62LBCjq7teyxMI8Nh3uIuy0
+drive_doc_id: 1y6osc0mUwRUWGMwz3B2l-thNRm7tBGFUSUFfOsfF6u8
 ingredients:
   - measure: 2-3
     item: Tri-Tip

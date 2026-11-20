@@ -13,7 +13,7 @@ times:
   total: 915
 tags: [chicken, main]
 source_doc: https://docs.google.com/document/d/1ci1Z8cK252hEvIFmhwqLy00zMxIDygyGYg3H-T5wDkg/edit
-drive_doc_id: 1SiwyDLA91FzIWGAqjVf-bGe-NahLDE2VhBFwBk2gzhk
+drive_doc_id: 1zsXuDGQxMMIlpbfAPt8ZjscgyrnZRtx027lpir7r2FE
 ingredients:
   - measure: 5 lb
     item: Whole Chicken
