@@ -11,7 +11,7 @@ times:
   total: 5
 tags: [sauce, vegetarian]
 source_doc: https://docs.google.com/document/d/1w1XBjuG7z4ZkfOGPB52_se4VpdCM93-ejZjCp884Hws/edit
-drive_doc_id: 1AWfP2PbMDVsOyTcR-CuxDFFYhFAjykQSRX14fWM-uOw
+drive_doc_id: 1jP3tiS_2bVSECkEM3rwxyeQ_mN3252Yr5Ye9XXjhD84
 ingredients:
   - measure: 1/3 cup
     item: Champagne Vinegar

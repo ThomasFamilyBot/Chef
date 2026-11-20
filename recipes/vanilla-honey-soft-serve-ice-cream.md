@@ -11,7 +11,7 @@ times:
   rest: 180
   total: 220
 tags: [dessert, ice-cream, vegetarian, make-ahead]
-drive_doc_id: 1Rmi9LC2JqOoPtk4u7_oMzLbqDbJ0Hixx_zLeEssCWSU
+drive_doc_id: 1b5Qbih8GDOs5b6ju3AITl5N7gJ9PH6mo_j8_zVQC5hc
 ingredients:
   - measure: 6 large
     item: Egg Yolks

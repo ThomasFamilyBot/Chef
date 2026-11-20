@@ -9,7 +9,7 @@ times:
   rest: 720
   total: 735
 tags: [brine]
-drive_doc_id: 1ErWKvbkSb2oGA6H8MJDHxB14loGo5oP6-rKSG3qb7rw
+drive_doc_id: 1mlOT__7RUtw_HaktEUm0gJopKd0e27M44DIM9GcO4zE
 ingredients:
   - measure: 1/4 cup
     item: Kosher Salt
