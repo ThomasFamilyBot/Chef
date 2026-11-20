@@ -11,7 +11,7 @@ times:
   total: 210
 tags: [dessert, ice-cream, chocolate]
 source_doc: https://docs.google.com/document/d/164mIZ5uahu7OQh9mgrjMxpx4iWifss3NgGJPXQcGiRs/edit
-drive_doc_id: 1hkPJvxfq6ZX3Smxfab91P0bVcgSjr-w-iXti8DBgpu8
+drive_doc_id: 1-WYyFdOsruVbuvgInxIi4i-_BCwZq3TcMzud217rczY
 ingredients:
   - measure: 4 oz
     item: Dark Chocolate (62%)

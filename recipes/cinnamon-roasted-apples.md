@@ -11,7 +11,7 @@ times:
   rest: null
   total: 30
 tags: [dessert, side, vegetarian, thanksgiving]
-drive_doc_id: 1M5wCHsETNEoMxA8RQofDnwb_hGl1FlImasQxGWT_9Qs
+drive_doc_id: 1zZBDJMMcx8nyF9mp_0zCYNLYeFWOmOTG108r7Io2RDY
 ingredients:
   - measure: 8 cups (about 6 large, 2 lb)
     item: Apples

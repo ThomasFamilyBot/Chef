@@ -12,7 +12,7 @@ times:
   total: 180
 tags: [beef, main, soup, asian]
 source_doc: https://docs.google.com/document/d/1bUJKbGSljgUMCwwzngIKHL_16FaXhvQTIAl-qdCAXTU/edit
-drive_doc_id: 1MISx8SfZHxxTHvJsZW2TheF8kKZkA0-rieh0eFkcT-U
+drive_doc_id: 1sDk95ihrSp_QIbjwUbN8oW0NAE9W5GN75cLOKphg8cw
 ingredients:
   - measure: 2 TBLS
     item: Neutral Oil

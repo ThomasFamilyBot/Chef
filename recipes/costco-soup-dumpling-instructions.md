@@ -11,7 +11,7 @@ times:
   rest: null
   total: 15
 tags: [dumplings, frozen, quick, note]
-drive_doc_id: 1lXvGPW7fonR5i0F7EuqxVP8d4jd0hrEA5xndhX491x8
+drive_doc_id: 1tC4P0Tc3DdTTvGNR914WhBOrPlqgroLJ_HyXL8ZYRKI
 ingredients:
   - measure: One panful
     item: Frozen Soup Dumplings
