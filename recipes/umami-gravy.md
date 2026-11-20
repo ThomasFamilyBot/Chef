@@ -12,7 +12,7 @@ times:
   total: 80
 tags: [turkey, sauce, thanksgiving, make-ahead, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1rwN95utkxSydFvLOpnX-QnBCz8UoGv7kOoGqoHb0N5A/edit
-drive_doc_id: 1kLTRZcAsfCQ90X00b4Z5pHpe6lzJssuRFkCzVGCBRkY
+drive_doc_id: 1pazX7CoAdT1zjCIKytSOkeAGTENSj4MrirFRhQlAx8g
 ingredients:
   - measure: 2 TBLS
     item: Neutral Oil
@@ -186,19 +186,19 @@ nutrition:
 - Oil in saucepan, med high (pan surface 375-425°F).
 - Turkey neck, 3 min each side (golden brown). Set aside.
 - Add mushrooms, brown, ~5 min.
-    - + 2 tsp of oil, if needed.
-- + onion, brown, ~6-8 min.
-- + herbs, stir until fragrant, ~1 min.
-- + wine, scrape pan, bring to a boil and almost evaporate (~5 min).
-- + turkey neck & broth, boil, then reduce to simmer (185-205°F) for 25-30 min (reduce by 1/3).
+    - \+ 2 tsp of oil, if needed.
+- \+ onion, brown, ~6-8 min.
+- \+ herbs, stir until fragrant, ~1 min.
+- \+ wine, scrape pan, bring to a boil and almost evaporate (~5 min).
+- \+ turkey neck & broth, boil, then reduce to simmer (185-205°F) for 25-30 min (reduce by 1/3).
 - Strain into large heatproof bowl... should be 8 cups.
 
 **Make the gravy**
 
 - Saucepan to medium (pan surface 300-350°F), heat butter.
 - Once butter melted, whisk in flour, constant until golden brown (~3 min).
-- + broth, ~1 cup at a time, incorporate before pouring more... should reduce by 25% (thick enough to coat a spoon).
-- + soy.
-- + salt & pepper.
+- \+ broth, ~1 cup at a time, incorporate before pouring more... should reduce by 25% (thick enough to coat a spoon).
+- \+ soy.
+- \+ salt & pepper.
 
 Make up to 2 days ahead.

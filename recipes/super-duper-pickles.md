@@ -11,7 +11,7 @@ times:
   total: 1470
 tags: [vegetarian, side]
 source_doc: https://docs.google.com/spreadsheets/d/11narolYcUjZ6cMSBR7s8NNqNmyfrJPgGxpTmg1LVYL0/edit
-drive_doc_id: 1nB87CXTioRoSyW7csQscDFITCE2U_y_tpGJ-kAGNS1o
+drive_doc_id: 1Xz7fZWKNvw_coRAa4TEvV6yyh2tNTo22iwj7iltFduU
 ingredients:
   - measure: 3/4 gallon (96 fl oz)
     item: White Vinegar
@@ -192,9 +192,11 @@ nutrition:
 **Brine**
 
 - Bring all `1 -> Brine` ingredients except the water to a boil, then add the 1 gallon of ice-cold water.
+
 **Cut the cucumbers**
 
 - Cut 12.5 lb of washed cucumbers into 4-6 wedges and place in a 1 1/2 gallon bowl.
+
 **Pickle**
 
 - Pour brine over cut cucumbers and leave covered for at least one day.

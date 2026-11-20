@@ -11,7 +11,7 @@ times:
   total: 300
 tags: [lamb, main]
 source_doc: https://docs.google.com/document/d/1WuPphw6CbbyN390-eLWUHK4do7wZvym-qnhUBdknp-0/edit
-drive_doc_id: 1et5jqXRZ249n2yCBy36NUlFBxessnmeFncQbQieARbo
+drive_doc_id: 1Xdp5LkeyeAvon9V21ut7_0tvBrOGnhE6zdJO-xJjYhI
 ingredients:
   - measure: 1 lb
     item: Cannellini Beans, dried
@@ -351,9 +351,9 @@ nutrition:
 - Reduce heat to med-low (pan surface 250-300°F) on stove.
 - Preheat oven to 350°F (for next step).
 - Stir in chopped onions + minced garlic. Slow cook until onions are pale gold at the edges (~10 min).
-- + wine and simmer for 3 min. Scrape bottom of pot to get browned bits.
-- + tomatoes, chopped thyme, parsley, 3 cups of bean liquid (if need more liquid, chicken broth or water).
-- + A few grinds of pepper. Bring to low simmer (start working on next step while waiting).
+- \+ wine and simmer for 3 min. Scrape bottom of pot to get browned bits.
+- \+ tomatoes, chopped thyme, parsley, 3 cups of bean liquid (if need more liquid, chicken broth or water).
+- \+ A few grinds of pepper. Bring to low simmer (start working on next step while waiting).
 
 **Casserole, step 1** (30 min)
 

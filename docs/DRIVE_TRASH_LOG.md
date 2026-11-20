@@ -305,3 +305,7 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-19 | zuni-cafe-bread-salad | 1dTJ3_ttin_rRrI1aPOLBLo9IpXtMftlDOLd15ewR-fc | 190MqFqTvVobkscsmaHhQjZm1Kj5zAfmNyh6Bd9MAzZI | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | zuni-cafe-chicken | 10GwwKAA6lla1QiHtyYZwWDvI89B4eoOqvwH0iBa3L0E | 1MTm2cTl239rciu6YfS-iwK44EsmjnoomzZDj9SqnD7s | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | zuni-spice-rub-roast-chicken | 1p6TzX3ZOQsZPywQcvgu0cKg1mBxqYDEyjji9hr75LNE | 1zLfDgUzwbdRbg4OiLCf4b54Y8bcTypvmgTN0IYE_peY | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-20 | umami-gravy | 1kLTRZcAsfCQ90X00b4Z5pHpe6lzJssuRFkCzVGCBRkY | 1pazX7CoAdT1zjCIKytSOkeAGTENSj4MrirFRhQlAx8g | directions bullets tidied; old doc trashed 2026-11-20 |
+| 2026-11-20 | super-duper-pickles | 1nB87CXTioRoSyW7csQscDFITCE2U_y_tpGJ-kAGNS1o | 1Xz7fZWKNvw_coRAa4TEvV6yyh2tNTo22iwj7iltFduU | directions bullets tidied; old doc trashed 2026-11-20 |
+| 2026-11-20 | cheesy-kimchi-linguine | 1n74XHtNUMLeJ-LEfrpaftmCFD9klz9csTpbxX7R8614 | 1ihVGWRGl_0sfh9289QA2wbdVCuhTp8gjdyfuyum9UX0 | directions bullets tidied; old doc trashed 2026-11-20 |
+| 2026-11-20 | white-bean-and-lamb-casserole | 1et5jqXRZ249n2yCBy36NUlFBxessnmeFncQbQieARbo | 1Xdp5LkeyeAvon9V21ut7_0tvBrOGnhE6zdJO-xJjYhI | directions bullets tidied; old doc trashed 2026-11-20 |

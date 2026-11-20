@@ -11,7 +11,7 @@ times:
   total: 15
 tags: [pasta, korean, eggs, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1qaoWOHExsceJkH6fKcQ5UXKq-OX0-yO9qJjhA8DyaPw/edit
-drive_doc_id: 1n74XHtNUMLeJ-LEfrpaftmCFD9klz9csTpbxX7R8614
+drive_doc_id: 1ihVGWRGl_0sfh9289QA2wbdVCuhTp8gjdyfuyum9UX0
 ingredients:
   - measure: 8 oz
     item: Linguine
@@ -213,7 +213,7 @@ From "A Splash of Soy" p. 130. We haven't made a ton from it, but Jenn likes it.
 **Finish pasta**
 
 - Toss cooked pasta into pan with kimchi butter ingredients.
-- + 2 TBLS of reserved pasta water.
+- \+ 2 TBLS of reserved pasta water.
 - Heat turned to high (pan surface 450-500°F).
 - Cook ~3 min. Looking to get everything tossed together & warmed through.
 - Remove from heat and put into serving bowls.
