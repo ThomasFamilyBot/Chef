@@ -11,7 +11,7 @@ times:
   rest: null
   total: 45
 tags: [chicken, main, indian, instant-pot, weeknight]
-drive_doc_id: 1Tw0cgRQlh76hqPjcoAceeY6NyeZXgWI_Ww5ihzxxeHQ
+drive_doc_id: 1gvcw5sOz4JL5Nbox8fxWfStvAtLdRGHVZXyY3UnjC9Y
 ingredients:
   - measure: 2 TBLS
     item: Ghee

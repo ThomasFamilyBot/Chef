@@ -11,7 +11,7 @@ times:
   rest: null
   total: 30
 tags: [appetizer, snack, pork, kids, fried]
-drive_doc_id: 1HTTu_HxFBzTe0YseR3i7iorjQeYmhymGtZt_zFO1Eyo
+drive_doc_id: 1mosKKtfNKf26L3-sP4ZoFqnpgx0_PsGzv90MlJN0Li8
 ingredients:
   - measure: 1 package (14 oz)
     item: Cocktail Wieners

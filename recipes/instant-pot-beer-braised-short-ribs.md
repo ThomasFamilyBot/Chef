@@ -11,7 +11,7 @@ times:
   rest: null
   total: 65
 tags: [beef, main, instant-pot]
-drive_doc_id: 1PVhrrF1CgwX27Ut8nA4YmrYnNHZ8DMwyMJXizBMtL4g
+drive_doc_id: 1cCT8Wouh6INvj5M_oJ4K1-NMdZ7Rk7SfrO4gbFwSJFs
 ingredients:
   - measure: 1-1 1/2 lb (about 4 large pieces)
     item: Beef Short Ribs, bone-in

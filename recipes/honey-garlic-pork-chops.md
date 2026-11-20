@@ -11,7 +11,7 @@ times:
   rest: 3
   total: 25
 tags: [pork, main, weeknight]
-drive_doc_id: 1PRCt74bqv9rN2TyuaN92Jr5cQa4D7sqOeteRinLA1ls
+drive_doc_id: 1YyWCtAYLVV0k-iF_Bnrutw6Kd8kE7VUVKlhCGFhWYvk
 ingredients:
   - measure: 1 TBLS
     item: Neutral Oil
