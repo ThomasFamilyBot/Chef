@@ -11,7 +11,7 @@ times:
   rest: 60
   total: 420
 tags: [pork, ribs, bbq, smoker, main]
-drive_doc_id: 1UjI0iaWCVwORDYf-kd7Q-uL1a7XpKkB3lcm-Wzwzwjs
+drive_doc_id: 1IOjrvACAfmS6ObyozO5kD_Kr-oLEIFzzIdFq9Y6URr4
 ingredients:
   - measure: 1 slab (about 4 lb)
     item: St. Louis Cut Ribs

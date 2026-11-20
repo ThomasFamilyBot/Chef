@@ -228,3 +228,12 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-19 | instant-pot-sesame-chicken | 1xJiVgjrKo4zNYZDKAQsgAfdGUfQEQ6GTtSCUO4-Tip8 | 1amqeQYRwtaCfW2L6Zs4ARjINoAgVSwEaDldqX3gudjE | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | italian-turkey-sausage | 1krmMb2i-uhZzZ8P6G7mNLV7v2J4etkF3IDkoIACGDHM | 1OKMOQPBlqA-ASK-iv1ywYH6OUBAojtnrxLNd5DGNkT8 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | jalapeno-carrot-margarita | 12EWowSfSay1SRoxiahEXkP3lmMYNmq7QSfrQwfJDMVU | 1wJsov3vak0svW7qdY35oTjCv80aJvg2PEUUen1yhr2k | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | josey-baker-sourdough-pizza | 1bkFEVfn4_4PUCmt76Erirzy4VQFe2lh6nWkEsxP9UAg | 12dzmFKc3mkJ6Q8Azcpv-ZH6Lqcq-8VXW17E0yb-qtE0 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | kerala-fried-chicken | 1WT5cXh6SSAmerPnG8EJR7qiaueMyYp7JU6W25oUTzps | 1FMSa8UfdqYsg55GsVgI0fQxZV31PohKvAgSZuyXiH6Y | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | lasagna-soup | 1R7k5gWUU7yGYHPfPwKsx83zXCy3BPS5Q8RA-FfULhVU | 1hY-TUzzpyvDClGh1uguhGSPimVgSJ7JPVryzt4Qs11w | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | leg-of-lamb | 1OMB4mvAc1-0GTXF6vCFzEPuchHb-5UydiSb1QJvQRHk | 1cRXHJOZJDuVFPzTPsMk4sqCKR1OLXPkpcwioyWW7IgE | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | mango-sorbet | 11ID7jNniwZTh-eSIAZTEzVZloUCP_J-4s02QLyynjhI | 1iXhBSxKuxBe6wewNgt_E_K6ZTsmHl6_DaiePY8T_0k0 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | mashed-cauliflower | 1vr5QEEjEwel55FzR0HWf2L78iA-iYzr52qGrXY3WksI | 1bACyPFcYoUPLdRuYaNl38O1I9yZnz17E_HSgI-zYwGE | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | meatheads-last-meal-smoked-pork-ribs | 1UjI0iaWCVwORDYf-kd7Q-uL1a7XpKkB3lcm-Wzwzwjs | 1IOjrvACAfmS6ObyozO5kD_Kr-oLEIFzzIdFq9Y6URr4 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | meatheads-smoked-ham | 1I6U2CZglnxCw4N9bmvnFxp-mc3wUuRq3cLT34xzVMQQ | 1p6tP5vlSFnl_BrXC1vufwqNlzdbJOkE2ET7bIPWY30E | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | minestrone-soup | 1tG8c1nPdIszJMApfLZXIl6-Bk7Ip-SWHKshonECZW9I | 19CeYHaY2TJ210um4UAZTHReu0FIkDL2LkY_7R8dw6NM | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |

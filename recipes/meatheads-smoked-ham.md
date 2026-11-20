@@ -11,7 +11,7 @@ times:
   rest: null
   total: 270
 tags: [pork, ham, main, smoke, grill, holiday, entertaining]
-drive_doc_id: 1I6U2CZglnxCw4N9bmvnFxp-mc3wUuRq3cLT34xzVMQQ
+drive_doc_id: 1p6tP5vlSFnl_BrXC1vufwqNlzdbJOkE2ET7bIPWY30E
 ingredients:
   - measure: 1 (about 8 lb)
     item: Ham

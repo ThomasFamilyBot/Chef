@@ -11,7 +11,7 @@ times:
   rest: null
   total: 45
 tags: [soup, main, beef, pork, italian]
-drive_doc_id: 1R7k5gWUU7yGYHPfPwKsx83zXCy3BPS5Q8RA-FfULhVU
+drive_doc_id: 1hY-TUzzpyvDClGh1uguhGSPimVgSJ7JPVryzt4Qs11w
 ingredients:
   - measure: 1/2 lb
     item: Ground Beef, lean
