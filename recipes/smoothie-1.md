@@ -10,7 +10,7 @@ times:
   rest: null
   total: 5
 tags: [drink, breakfast, vegetarian]
-drive_doc_id: 1eSFGiIxDFNyt-wYL58uO7ahzrpFaR1gDZTDkBWTBhMc
+drive_doc_id: 1fhtP2d2xyZQk-HweDQouWtsFRufDK28vIkYpG-IKB1M
 ingredients:
   - measure: 1/2
     item: Banana

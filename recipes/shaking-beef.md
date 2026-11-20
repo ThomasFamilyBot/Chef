@@ -11,7 +11,7 @@ times:
   rest: 120
   total: 155
 tags: [beef, main, vietnamese, asian]
-drive_doc_id: 1MkhRwsbYDp07mKfl6aBHe4mGy6mfN19a2u5zO8Whb90
+drive_doc_id: 1mw7D3l_9vx5PUg86sxpA-nT2iZZYurcqC57POpanAM4
 ingredients:
   - measure: 1 1/2-2 lb
     item: Filet Mignon

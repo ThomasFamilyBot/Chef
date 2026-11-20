@@ -11,7 +11,7 @@ times:
   rest: null
   total: 280
 tags: [lamb, braise, main, make-ahead, winter]
-drive_doc_id: 1hfKfgBNhc1bhfwUa3oGFCy51hZW91aX4lcozB3pcJDc
+drive_doc_id: 1_TzHuhJfnZUL9RPB21KvXn95y-SRhsqn42VkLtGCOTI
 ingredients:
   - measure: 3 TBLS
     item: Olive Oil
