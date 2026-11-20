@@ -11,7 +11,7 @@ times:
   rest: null
   total: 135
 tags: [pork, main, sous-vide, vietnamese, asian, grill]
-drive_doc_id: 1ITTCvx_u05FF3xaOIVi5QATaXhp6Qjs99ue67ArxPmQ
+drive_doc_id: 1QojBQEFoKIvip2w4zqXXKpx6YUKqYu4PpLJJ918dvE0
 ingredients:
   - measure: 2 3/4-3 lb (about 4 chops, 1-1 1/2 inches thick)
     item: Pork Loin Chops, bone-in

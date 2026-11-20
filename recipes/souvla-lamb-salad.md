@@ -11,7 +11,7 @@ times:
   rest: 480
   total: 650
 tags: [salad, lamb, main, greek, make-ahead]
-drive_doc_id: 1uyCCL_BkDwv3B6LJw_aDTujTcz7ZANqL30DAfl1Qja0
+drive_doc_id: 1TlSYGh4AGgDKYgTlvkJjwVw9ax-gWLdLY-bIZVz0fYI
 ingredients:
   - measure: 1 1/2-2 lb
     item: Lamb Shanks

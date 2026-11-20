@@ -11,7 +11,7 @@ times:
   total: 15
 tags: [chinese, main]
 source_doc: https://docs.google.com/document/d/1M-5G-5nkhfSTgc8oy_ON8RE7wwvTKtEhVfro4HfhRTk/edit
-drive_doc_id: 1NS9pucEiABzZJCPPPv58b7_XqItsk1A5sJ0DkUHH1n4
+drive_doc_id: 1yca8hDZghW76A0hI_l10mEN51Zaw_aMO_nMnKB2oazw
 ingredients:
   - measure: 1 package (est.)
     item: Soup Dumplings, frozen

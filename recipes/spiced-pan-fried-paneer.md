@@ -11,7 +11,7 @@ times:
   rest: null
   total: 15
 tags: [vegetarian, indian, side, weeknight, quick]
-drive_doc_id: 163FcKQNcwYHQ_P8k-7eMzIervV4lyanFwfJwCWr0CHQ
+drive_doc_id: 1NDlO_DDYPezs69dg4GaxVhsBavU3d17osHk06cjbRrc
 ingredients:
   - measure: 7-8 oz
     item: Paneer
