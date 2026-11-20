@@ -11,7 +11,7 @@ times:
   rest: null
   total: 50
 tags: [chicken, main, weeknight, skillet]
-drive_doc_id: 1BJ_XxXh2OxS49gxTq_kZbwiQU00sSmd1qJ7_I3fdXic
+drive_doc_id: 1R4ChFoZBjw8ylYikW4t4O3ElTbcael-N9InIO42w9B8
 ingredients:
   - measure: 1 TBLS
     item: Olive Oil

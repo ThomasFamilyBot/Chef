@@ -12,7 +12,7 @@ times:
   total: 160
 tags: [beef, mexican, grill, tacos, main]
 techniques_skip: [smoke, deep fry]
-drive_doc_id: 1tuPHLWka0vtnKRyA4Aq6vL4rRyjd9qQxU0iZnKaLdng
+drive_doc_id: 1SIfU0n9ecbE0Dc_iRD08qzCDWsSpQBBvshn0ZuX-GY0
 ingredients:
   - measure: 1/3 cup
     item: Extra-Virgin Olive Oil

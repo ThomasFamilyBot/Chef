@@ -11,7 +11,7 @@ times:
   rest: null
   total: 45
 tags: [chicken, main, vietnamese, asian, braise, weeknight]
-drive_doc_id: 1VOnGT3kxQiCOwGy1eVbOE5dUWbFu8XzYiH4fUbbQegQ
+drive_doc_id: 1E38Q3DVrx99mcm1f5Zb8qOpA4koDa1p0vhcMR8byOFY
 ingredients:
   - measure: 1/2 cup + 1 TBLS
     item: Coconut Water
