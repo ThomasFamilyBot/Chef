@@ -11,7 +11,7 @@ times:
   rest: null
   total: 80
 tags: [salad, chicken, main]
-drive_doc_id: 1dTJ3_ttin_rRrI1aPOLBLo9IpXtMftlDOLd15ewR-fc
+drive_doc_id: 190MqFqTvVobkscsmaHhQjZm1Kj5zAfmNyh6Bd9MAzZI
 ingredients:
   - measure: 1 TBLS
     item: Dried Currants

@@ -300,3 +300,8 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-19 | vinaigrette | 1AWfP2PbMDVsOyTcR-CuxDFFYhFAjykQSRX14fWM-uOw | 1jP3tiS_2bVSECkEM3rwxyeQ_mN3252Yr5Ye9XXjhD84 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | vongole | 1TIPvOGqO93vJXBW9JGw43Td6YhAjj0_Mr8MZgSoXGw8 | 1BgL1TU2_GtGuCf1bcPbqda1Gn9vdYrcASK-AKGocY8w | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | weeknight-chicken-parm | 1JcVOnC2_ebLoSWd3gh3qpbszVKDgoTTsp6i3HQjfh18 | 14NI187froW9mLzaQDYqY9zscublSOhpUBp4rqIiK5zg | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | white-bean-and-lamb-casserole | 1SeCgKGlXVaHe5Y37abkWmOJ-KXZaUJ1L_YmxGYsOhnA | 1et5jqXRZ249n2yCBy36NUlFBxessnmeFncQbQieARbo | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | white-wine-sauce | 19yHkEoJK0VA2zgFINwK7_uhTRx-36gC3LWXVBsqBYa8 | 1Rkv86rCBlIpqNTKCv1l4ikvldeDLAMX9GRfV5Azup8o | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | zuni-cafe-bread-salad | 1dTJ3_ttin_rRrI1aPOLBLo9IpXtMftlDOLd15ewR-fc | 190MqFqTvVobkscsmaHhQjZm1Kj5zAfmNyh6Bd9MAzZI | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | zuni-cafe-chicken | 10GwwKAA6lla1QiHtyYZwWDvI89B4eoOqvwH0iBa3L0E | 1MTm2cTl239rciu6YfS-iwK44EsmjnoomzZDj9SqnD7s | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | zuni-spice-rub-roast-chicken | 1p6TzX3ZOQsZPywQcvgu0cKg1mBxqYDEyjji9hr75LNE | 1zLfDgUzwbdRbg4OiLCf4b54Y8bcTypvmgTN0IYE_peY | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
