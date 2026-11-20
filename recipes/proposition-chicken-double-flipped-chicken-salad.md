@@ -11,7 +11,7 @@ times:
   rest: null
   total: 10
 tags: [chicken, salad, main, copycat, quick, high-protein]
-drive_doc_id: 17pIPTynJtHaIJV-OLRYbNfEM1MQa06hXzwgAsIQotzM
+drive_doc_id: 12K81hCID_83m6v3CKL_0GZhnVtWSfXmWAKFF3mmLITw
 ingredients:
   - measure: 5 1/4 oz (150 g)
     item: Roasted Chicken Breast

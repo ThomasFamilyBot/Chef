@@ -11,7 +11,7 @@ times:
   rest: 10
   total: 30
 tags: [beef, main, grill, asian]
-drive_doc_id: 190frq5ZEfkZwf3hvxd_gy7_neTrGdUe-MV2HpNUNtxI
+drive_doc_id: 1zVyUVBReYNjKL96Wx53MAhvFqZ4k1Qec-_M4u6bjrKI
 ingredients:
   - measure: 1/4 cup
     item: Soy Sauce
