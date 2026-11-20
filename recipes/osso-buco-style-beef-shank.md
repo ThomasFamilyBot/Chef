@@ -11,7 +11,7 @@ times:
   rest: null
   total: 155
 tags: [beef, braise, main, italian, make-ahead, winter]
-drive_doc_id: 1ECSyHLF5kbqNa7Ss4xPuiepnIyK76D9CzyHyZkwvSRI
+drive_doc_id: 1yRYZzn7H5_-D-hQeUXA11Mt0Y8MkSwFiO2LJX6RQZ-4
 ingredients:
   - measure: 3 lb
     item: Beef Shank

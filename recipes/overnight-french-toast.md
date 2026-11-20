@@ -11,7 +11,7 @@ times:
   rest: 480
   total: 570
 tags: [breakfast, brunch, baked, make-ahead]
-drive_doc_id: 1gCh9hgjiPPuoY39LCPR5lJQ09qHsq0QQdvQTxzMtTTU
+drive_doc_id: 1gmgKTtsARM3mJVPZoHoimhiKXV3OdG9GVbrYN0nNMdg
 ingredients:
   - measure: 2 TBLS, plus more for the dish
     item: Unsalted Butter

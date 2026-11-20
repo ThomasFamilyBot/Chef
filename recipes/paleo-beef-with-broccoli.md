@@ -11,7 +11,7 @@ times:
   rest: null
   total: 25
 tags: [beef, main, chinese, asian, stir-fry, weeknight, whole30, paleo]
-drive_doc_id: 17FTyvto580slwAFBN8H36icaC-UJj4ExyNcFGWheUNo
+drive_doc_id: 1RGiiuB9MlPaghusR2hxgkiqSt0F5oG7cHp2cGW4Etg4
 ingredients:
   - measure: 1 lb
     item: Sirloin

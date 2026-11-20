@@ -243,3 +243,9 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-19 | mussels-in-spicy-tomato-broth | 1r8O4Usic0Jd7We4kWorUieRfCfAgTAZXDp6rxsXvGiQ | 1JeedgZIZ9U2LO4rr6gZFStk7qpP_PXjk7SDTs2kOIgE | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | naked-ape | 1A-SwSqI2dbndWOVWXx-8CqwnXVna4h1y8O98kumlFhg | 1pcJl5GPdaiAQ5j2QyNdmuEmgUbDUiD7IwNewInUIqaM | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | oreo-crunch-ice-cream-cake | 15mFLrkuHqpedslNlzuceWJ8m6l0YnZlBpQpuuqwe5-Y | 15Q6YF-xWN8HpI7ZHCKIgcR8zjSC1ogK4JTliaNY9_04 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | osso-buco-style-beef-shank | 1ECSyHLF5kbqNa7Ss4xPuiepnIyK76D9CzyHyZkwvSRI | 1yRYZzn7H5_-D-hQeUXA11Mt0Y8MkSwFiO2LJX6RQZ-4 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | overnight-french-toast | 1gCh9hgjiPPuoY39LCPR5lJQ09qHsq0QQdvQTxzMtTTU | 1gmgKTtsARM3mJVPZoHoimhiKXV3OdG9GVbrYN0nNMdg | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | overnight-oats | 1zLmaH6qsA88jEVskJa6n_Qk5poR0jZGGfAka6J6ROHs | 1neKyrJLd6MHdzrIeSTZbGuyTChthJZ90addu6bu_k0g | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | paleo-beef-with-broccoli | 17FTyvto580slwAFBN8H36icaC-UJj4ExyNcFGWheUNo | 1RGiiuB9MlPaghusR2hxgkiqSt0F5oG7cHp2cGW4Etg4 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | paleo-egg-bites | 1YjzSKMPbgP0Btluj5kJ6taw-trqEC-v6NBrKASIqyws | 1_NTslAdL1BYrecVsrBHrq5OlqWNqsSbCZmhQWZlrFhQ | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | pan-roasted-chicken-breast-broccoli-panzanella | 1_FHQ8nUBBvQPJ3rCOMFUuVGfZd3bIPD68_iOEdTZ8bY | 1f3wH_vWRHn5a9Lk8g4LQq3rt15jlz-AaUj3fDYDvvbw | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |

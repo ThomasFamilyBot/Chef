@@ -11,7 +11,7 @@ times:
   rest: 480
   total: 490
 tags: [breakfast, oats, make-ahead, vegetarian, no-cook]
-drive_doc_id: 1zLmaH6qsA88jEVskJa6n_Qk5poR0jZGGfAka6J6ROHs
+drive_doc_id: 1neKyrJLd6MHdzrIeSTZbGuyTChthJZ90addu6bu_k0g
 ingredients:
   - measure: 1/2 cup
     item: Rolled Oats
