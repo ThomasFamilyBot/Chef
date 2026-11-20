@@ -11,7 +11,7 @@ times:
   rest: null
   total: 10
 tags: [rub, spice blend, beef, brisket, bbq, pantry, make-ahead]
-drive_doc_id: 1H8ThR-HyZfmGo8XaKf1sNhxcsfx8KdG7hTkDAyyJ4_c
+drive_doc_id: 1gmnaJWxEgv7vPLElTgCR8VkfrqCs5ftXJDndfLiiq5k
 ingredients:
   - measure: 1 1/4 cups (180 g)
     item: Dry Mustard Powder

@@ -13,7 +13,7 @@ times:
   total: 280
 tags: [pork, main, brine]
 source_doc: https://docs.google.com/document/d/10l2ut-xI75zPT9e5X19KD7a3mz0fmBGPNvspldla8Nw/edit
-drive_doc_id: 1cWex4GqdEZOr7Nsanh4XhUuuY5ALDFZjGBacEcDcf1k
+drive_doc_id: 1suOcnn-nb3OvJCjYOAI7ZvEr9QU1moOTaX0_S7HWWxk
 ingredients:
   - measure: 80 g (1/3 cup)
     item: Water

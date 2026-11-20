@@ -11,7 +11,7 @@ times:
   rest: 240
   total: 285
 tags: [chicken, main, vietnamese, asian]
-drive_doc_id: 1FEIVyJYnnBe7XrapUZq_4lpn3lZQBuyNzbeteoSAa0Y
+drive_doc_id: 1Rune1gMpjz25REUBct5oAIBqj9QRQPCsDh6rmDNzdiQ
 ingredients:
   - measure: 1/4 cup
     item: Fish Sauce
