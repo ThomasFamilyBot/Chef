@@ -11,7 +11,7 @@ times:
   rest: 150
   total: 185
 tags: [dessert, ice-cream, chocolate, vegetarian]
-drive_doc_id: 1nQy3H9msluRZjOqzvdOVFj6jDg1Nq4Y97l97KDDN0WE
+drive_doc_id: 1AW-HzGNCL0tEvy-WqrfonF1fqAVMQnidDuHr_ox7sQg
 ingredients:
   - measure: 1 cup
     item: Whole Milk

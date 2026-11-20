@@ -11,7 +11,7 @@ times:
   rest: null
   total: 25
 tags: [appetizer, snack, pork, kids]
-drive_doc_id: 1R9mFEJivEbZaJjHGO9xV8zHDU1yKJwYmAbguHfOVxqk
+drive_doc_id: 1ztRXUAtjVQKM5VABkYmx2n7fknrN0ubfZvrUoJH43Ro
 ingredients:
   - measure: About 2 quarts (4 inches in the pot)
     item: Neutral Oil

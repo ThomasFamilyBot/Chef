@@ -237,3 +237,9 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-19 | meatheads-last-meal-smoked-pork-ribs | 1UjI0iaWCVwORDYf-kd7Q-uL1a7XpKkB3lcm-Wzwzwjs | 1IOjrvACAfmS6ObyozO5kD_Kr-oLEIFzzIdFq9Y6URr4 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | meatheads-smoked-ham | 1I6U2CZglnxCw4N9bmvnFxp-mc3wUuRq3cLT34xzVMQQ | 1p6tP5vlSFnl_BrXC1vufwqNlzdbJOkE2ET7bIPWY30E | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
 | 2026-11-19 | minestrone-soup | 1tG8c1nPdIszJMApfLZXIl6-Bk7Ip-SWHKshonECZW9I | 19CeYHaY2TJ210um4UAZTHReu0FIkDL2LkY_7R8dw6NM | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | mini-corn-dogs | 1R9mFEJivEbZaJjHGO9xV8zHDU1yKJwYmAbguHfOVxqk | 1ztRXUAtjVQKM5VABkYmx2n7fknrN0ubfZvrUoJH43Ro | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | mint-chocolate-chip-ice-cream | 1nQy3H9msluRZjOqzvdOVFj6jDg1Nq4Y97l97KDDN0WE | 1AW-HzGNCL0tEvy-WqrfonF1fqAVMQnidDuHr_ox7sQg | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | mongolian-chicken | 1YSIjMrk1REj32lZVJBD5S-rlLvoDaXUCv3-UaQa8r6w | 18qvXKMljR_vEqeaQFy_r0QJ6DK9XuIJ5o_e02iK1l0c | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | mussels-in-spicy-tomato-broth | 1r8O4Usic0Jd7We4kWorUieRfCfAgTAZXDp6rxsXvGiQ | 1JeedgZIZ9U2LO4rr6gZFStk7qpP_PXjk7SDTs2kOIgE | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | naked-ape | 1A-SwSqI2dbndWOVWXx-8CqwnXVna4h1y8O98kumlFhg | 1pcJl5GPdaiAQ5j2QyNdmuEmgUbDUiD7IwNewInUIqaM | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |
+| 2026-11-19 | oreo-crunch-ice-cream-cake | 15mFLrkuHqpedslNlzuceWJ8m6l0YnZlBpQpuuqwe5-Y | 15Q6YF-xWN8HpI7ZHCKIgcR8zjSC1ogK4JTliaNY9_04 | fractions set small (superscript/subscript); old doc trashed 2026-11-19 |

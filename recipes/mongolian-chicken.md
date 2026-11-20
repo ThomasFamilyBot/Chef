@@ -11,7 +11,7 @@ times:
   rest: null
   total: 35
 tags: [chicken, main, chinese, asian, weeknight]
-drive_doc_id: 1YSIjMrk1REj32lZVJBD5S-rlLvoDaXUCv3-UaQa8r6w
+drive_doc_id: 18qvXKMljR_vEqeaQFy_r0QJ6DK9XuIJ5o_e02iK1l0c
 ingredients:
   - measure: 12 oz
     item: Chicken Thighs, boneless skinless
