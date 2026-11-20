@@ -11,7 +11,7 @@ times:
   rest: 720
   total: 960
 tags: [beef, snack, make-ahead, project]
-drive_doc_id: 10o5VJsbcAurFkpjN6QYAaBV55LHR_3p_R1bFfLLdIk0
+drive_doc_id: 1RGmWuU0dAO_6qrY6XIw9CeKtq6mAvBs5j47_Ka65IG0
 ingredients:
   - measure: 1 (3 lb) roast
     item: Eye of Round Roast

@@ -11,7 +11,7 @@ times:
   rest: 60
   total: 105
 tags: [breakfast, brunch, pancakes, baking]
-drive_doc_id: 1gXv9S28Z25pxqRF_AdJr0q8AiNhJ8CRAYaGeZIicPh4
+drive_doc_id: 1FNR8RAjvKkMWA0iTeQ9-yUx5rVUjwaLJ4LL34XQHjok
 ingredients:
   - measure: 2 1/4 tsp (7 g; one packet)
     item: Active Dry Yeast

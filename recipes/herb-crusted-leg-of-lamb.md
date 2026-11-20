@@ -11,7 +11,7 @@ times:
   rest: 80
   total: 215
 tags: [lamb, main, roast, holiday]
-drive_doc_id: 1y6y7VBbrZ5P4mHp90q0idZEdRJlxqhsYmedihPrupkg
+drive_doc_id: 14KzdfuOdTP12aBtfzpT8KOKXN0oE3HAewqENNUZlFIo
 ingredients:
   - measure: 5 1/2-6 lb
     item: Leg of Lamb
