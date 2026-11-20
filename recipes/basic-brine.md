@@ -9,7 +9,7 @@ times:
   rest: 720
   total: 740
 tags: [brine]
-drive_doc_id: 1gqHEwz7rawOAb1tm4g_laxk3HVp7UNctnp4m1_jk8u4
+drive_doc_id: 175BW1vx8Iu7cbkD990IlANxXjohYb-6j8-RSi0RYeSU
 ingredients:
   - measure: 8 cups (1.89 kg / 4.2 lb by weight)
     item: Water

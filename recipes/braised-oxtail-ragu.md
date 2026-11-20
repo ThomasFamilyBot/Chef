@@ -12,7 +12,7 @@ times:
   total: 360
 tags: [beef, italian, main]
 source_doc: https://docs.google.com/document/d/1HTX9ZGbcNJARR5Gpxw-yCNphYSjYfkjMmSyuo0VmdeY/edit
-drive_doc_id: 1qnTtjpXh-41xXgdbPxk7_TkXztwLAX6AL6SgB9GwMHs
+drive_doc_id: 1PhTPyin6DG0v9FMvtnigowPhENrG4FI4Z9YFxxmPtlY
 ingredients:
   - measure: 3-4 lb
     item: Oxtail

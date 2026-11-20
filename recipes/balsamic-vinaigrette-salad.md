@@ -11,7 +11,7 @@ times:
   total: 15
 tags: [vegetarian, side, salad]
 source_doc: https://docs.google.com/document/d/1_Q9oHh6m38KVHJ-sH4Gd896UJMj58kBhwZleH-oxL14/edit
-drive_doc_id: 1hrhvJiQSj_kMjNQRnAbm_ghWuNAKb7hiyYSNA055e_c
+drive_doc_id: 1gbG-At_t0UM1waoTjWaaMblYJW-rKBxeoVmgGWMzoz8
 ingredients:
   - measure: 1/2
     item: Red Onion

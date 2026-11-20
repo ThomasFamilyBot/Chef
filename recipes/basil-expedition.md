@@ -11,7 +11,7 @@ times:
   rest: 15
   total: 40
 tags: [drink, cocktail, bourbon, batch, make-ahead, party]
-drive_doc_id: 1PpLrygr6XJtPWPFr292QWVNG-BBjPzsEr8qO2ZomOQM
+drive_doc_id: 10ZIrsJ543BQMU3PuMq2cwzqUxhSYfD2jMI5mKYKvRpA
 ingredients:
   - measure: 1 (4 1/2-inch) piece
     item: Ginger

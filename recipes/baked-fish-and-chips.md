@@ -11,7 +11,7 @@ times:
   rest: null
   total: 60
 tags: [seafood, main, kids]
-drive_doc_id: 1ynpF8-HwYdRaFnE1vo1xk4__Scz75TilgMRfbjDDvCQ
+drive_doc_id: 1Abqw_BkuT73d5sbAyVj8b2qFdb6cy4LgYmHVos9m7DA
 ingredients:
   - measure: 1/2 cup
     item: Mayonnaise
