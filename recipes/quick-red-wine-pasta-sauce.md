@@ -11,7 +11,7 @@ times:
   rest: null
   total: 40
 tags: [pasta-sauce, sauce, italian, vegetarian, make-ahead]
-drive_doc_id: 1Y6cawjYqwslndzzNT4xqrxc_WJPs72akAcV7ZbHwLPw
+drive_doc_id: 1GKoJeIUxPj5W9nIitdDCQNIT7rVZFeZPr6TWL0f35gw
 ingredients:
   - measure: 3 TBLS
     item: Extra-Virgin Olive Oil

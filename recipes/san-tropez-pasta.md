@@ -11,7 +11,7 @@ times:
   total: 65
 tags: [pasta, italian, vegetarian, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1MCZp0rUOTrJ0qg134NzFoUJ-flm9FmpbsFraSD_IJ08/edit
-drive_doc_id: 1ZgJihDMkm48GnApBLcra-RV65XEK_6pwJzJ6cwPhoos
+drive_doc_id: 1D6QaZl3Ri8Z_7oGUu5TGKBYF740H29GCLtFNn-W3p7E
 ingredients:
   - measure: 1 medium
     item: Yellow Onion

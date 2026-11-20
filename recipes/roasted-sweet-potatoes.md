@@ -11,7 +11,7 @@ times:
   rest: null
   total: 50
 tags: [side, vegetarian, thanksgiving, make-ahead]
-drive_doc_id: 1V5goKzEAMZfcBPbU5xDo2hfBVInI35AtAxg3Fhh7G_A
+drive_doc_id: 1VXGP6o3B7SLSBVKeALa-QBkNRW1qeaSQwRPqsM-8V9A
 ingredients:
   - measure: 3 lb (about 5 medium)
     item: Sweet Potatoes
