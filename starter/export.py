@@ -52,7 +52,8 @@ DENY_PATTERNS = [
 # Allowed even though a deny rule matches (generic examples inside the docs).
 ALLOW = [r"name\+recipes@gmail\.com", r"maplestreetkitchen@gmail\.com",
          r"github\.com/ThomasFamilyBot/chefbot-starter", r"thomasfamilybot\.github\.io/chefbot-starter",
-         r"Copyright \(c\) \d{4} ThomasFamilyBot"]   # where the starter itself lives
+         r"Copyright \(c\) \d{4} ThomasFamilyBot",   # where the starter itself lives
+         r"https://claude\.ai/code/new"]               # the Ask page's generic "new Claude session" link
 
 
 def sh(*cmd, cwd=ROOT):
