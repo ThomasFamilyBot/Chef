@@ -11,6 +11,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - **Google account that owns everything:** ahinthomas@gmail.com (see "Google identities" below).
 - Every other household-specific value (list names, Drive folder ids, Gmail label ids, the lists web-app URL, house taste) is in `data/site.yaml`. Read it at the start of any task that touches Google, the site link, or shopping lists.
 - **Kitchen equipment** (ice cream maker size and the like) is under `equipment` in `data/site.yaml`. Read it before scaling a recipe or writing batch / churn instructions.
+- **Keep the starter current.** Other households copy ChefBot from the public template `ThomasFamilyBot/chefbot-starter` (see `starter/README.md`). Whenever a task adds or changes something a new copy should have (a skill, a script, a site template, the docs, this file outside this block), finish by running `bash starter/ship.sh` after the push, without being asked, and say in the final message that the starter was updated. Recipes, answers, lenses, lists and other household data don't count. Copies people already made are not updated; that is intended.
 <!-- household:end -->
 
 ## Layout

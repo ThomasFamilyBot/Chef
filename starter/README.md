@@ -17,7 +17,11 @@ Everything needed to hand a clean copy of this project to someone else. None of 
 
 ## Shipping a fresh one
 
-There is no syncing: recipients keep whatever copy they made. To publish a newer starter:
+There is no syncing: recipients keep whatever copy they made, and that is intended. But the template itself is
+kept current: **every time something a new copy should have is added or changed, run `bash starter/ship.sh`**
+(rule in the household block of `CLAUDE.md`). It does steps 1 to 4 below and stops if the scrub is not clean.
+
+By hand, the steps are:
 
 1. Commit everything here first (the export reads the committed files).
 2. `python3 starter/export.py /some/new/empty/dir`. It must end with "scrub: clean". If it reports something,
