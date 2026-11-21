@@ -40,15 +40,30 @@ Work from real pages, not memory.
 - **How to open a page**, in this order:
   1. the web fetch tool or agent;
   2. the household's headless browser command, when `ask.fetch_command` in `data/site.yaml` names one and you are on that computer (run it with the URLs; it says where it saved the page text);
-  3. Claude in Chrome on that computer (load the `claude-in-chrome` skill first; use a new tab, read with `get_page_text`, close the tab after). This is what gets past sites that block the first two.
-- Never try to beat a bot check, a paywall or a sign-in. If a page will not open by these routes, either leave it out or list it as "couldn't open, going by the search summary" and do not rank it first.
+  3. Claude in Chrome on that computer (load the `claude-in-chrome` skill first; use a new tab, read with `get_page_text`, close the tab after; if `get_page_text` fails right after `navigate`, the page is still loading, so call it again). This is what gets past sites that block the first two.
+- **Route 3 is not optional.** Every page that routes 1 and 2 could not open, and that could plausibly make the picks (a tested source such as Serious Eats especially), is tried in Chrome before the full answer. Chrome is slower, so the person gets initial results first: see "Initial results, then the full answer" below.
+- Never try to beat a bot check, a paywall or a sign-in. A page is "couldn't open" only after all three routes have failed (or Chrome is not available in this session; say so). Then either leave it out or list it as "couldn't open, going by the search summary", give its exact URL so the person can print it to PDF, and do not rank it first.
 - Only link pages you opened. Never invent or guess a URL.
 - Summarize in your own words. Don't paste a site's recipe; the link is there for that. To cook from one, the person says "add #2" and `recipe-intake` takes over.
 - Favor sources that test recipes and explain why. Weigh the house equipment (`equipment`, and the smoker and sous-vide gear in `house_taste`) as a tiebreaker and as a way to adapt a pick, not as a filter. `house_taste` shapes open questions ("what should I make Saturday"); it never overrides a specific question or the lens they picked today.
 
 ## 3. The answer
 
-Short enough to read on a phone.
+### Initial results, then the full answer
+
+When routes 1 and 2 opened everything worth reading, go straight to the full answer.
+
+When some pages were blocked, answer in two steps, in the same turn, without waiting for a reply between them:
+
+1. **Initial results.** As soon as the pages that opened have been read, send a short version: the bottom line so far and the picks in one line each, with links. Label it "Initial results". Then say plainly which pages were blocked and that you are checking them in Chrome now, by name ("Serious Eats and Maangchi blocked me; checking them in Chrome now, full answer in a minute").
+2. **Check the blocked pages** in Chrome (route 3), then close the tabs.
+3. **The full answer**, in the format below, built from everything read. Open it with one line on what the blocked pages changed ("Serious Eats moves to #1" or "nothing changes"). List anything that still would not open, with its URL.
+
+Never present the initial results as the final answer, and never end the turn on them unless Chrome is unavailable.
+
+### The full answer
+
+Thorough, but still readable on a phone.
 
 1. **Bottom line**: one sentence. "Make X, from Y."
 2. **Picks**: three to five, numbered, best first. Each: the dish and source as a link, why it earns its place, active and total time, and what makes this version different from the others.

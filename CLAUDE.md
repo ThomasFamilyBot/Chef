@@ -55,7 +55,7 @@ Follow `.claude/skills/nutrition/SKILL.md`. Whole recipe only; calories, protein
 
 ## When asked for a recommendation ("ChefBot, recommend: ...", "what should I cook", "best way to...")
 
-Follow `.claude/skills/recommend/SKILL.md`. The best answer to the question comes first, researched on the internet from pages actually opened; library recipes go last and only when they truly compete. First reply is a quick take plus a few taps of input (lens, effort, who's eating). When the question is settled, ask once whether to publish the answer to the site's Ask page (`answers/*.md`). The Ask page's button opens a new Claude session with the question typed in (`ask` in `data/site.yaml`).
+Follow `.claude/skills/recommend/SKILL.md`. The best answer to the question comes first, researched on the internet from pages actually opened; library recipes go last and only when they truly compete. First reply is a quick take plus a few taps of input (lens, effort, who's eating). When some pages are blocked, give initial results, say you are checking the blocked pages in Chrome, then give the full answer. When the question is settled, ask once whether to publish the answer to the site's Ask page (`answers/*.md`). The Ask page's button opens a new Claude session with the question typed in (`ask` in `data/site.yaml`).
 
 ## When asked what goes with a dish, for a menu, or for new recipe ideas
 
