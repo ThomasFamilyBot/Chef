@@ -142,3 +142,48 @@ def load_techniques():
 def load_site():
     p = DATA / "site.yaml"
     return yaml.safe_load(open(p)) or {} if p.exists() else {}
+
+
+ANSWERS = ROOT / "answers"
+
+
+def load_answers(recipe_slugs=None):
+    """Published "Ask" answers (answers/*.md), newest first. Returns (answers, errors).
+
+    Each answer: front matter (question, asked, summary, picks[], optional lens and library[]) and an
+    optional Markdown body. `recipe_slugs` lets the caller check that library entries exist."""
+    out, errs = [], []
+    for p in sorted(ANSWERS.glob("*.md")) if ANSWERS.exists() else []:
+        try:
+            fm, body = split_front_matter(p.read_text(encoding="utf-8"))
+            a = yaml.safe_load(fm) or {}
+        except Exception as e:
+            errs.append(f"{p.name}: cannot parse: {e}")
+            continue
+        a["slug"], a["body_md"] = p.stem, body.strip()
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+)*", p.stem):
+            errs.append(f"{p.name}: file name must be YYYY-MM-DD-short-slug.md")
+        for k in ("question", "asked", "summary"):
+            if not a.get(k):
+                errs.append(f"{p.name}: missing {k}")
+        a["asked"] = str(a.get("asked") or "")
+        picks = a.get("picks") or []
+        if not isinstance(picks, list) or not picks:
+            errs.append(f"{p.name}: needs at least one pick")
+            picks = []
+        for i, pk in enumerate(picks, 1):
+            if not isinstance(pk, dict) or not pk.get("title") or not pk.get("why"):
+                errs.append(f"{p.name}: pick {i} needs title and why")
+            elif pk.get("url") and not re.match(r"https?://", str(pk["url"])):
+                errs.append(f"{p.name}: pick {i} url must start with http")
+        a["picks"] = [pk for pk in picks if isinstance(pk, dict)]
+        lib = a.get("library") or []
+        for i, lb in enumerate(lib, 1):
+            if not isinstance(lb, dict) or not lb.get("slug"):
+                errs.append(f"{p.name}: library entry {i} needs a slug")
+            elif recipe_slugs is not None and lb["slug"] not in recipe_slugs:
+                errs.append(f"{p.name}: library entry {i}: no recipe {lb['slug']!r}")
+        a["library"] = [lb for lb in lib if isinstance(lb, dict)]
+        out.append(a)
+    out.sort(key=lambda a: a["slug"], reverse=True)
+    return out, errs

@@ -1,0 +1,5 @@
+# Lenses: cooks and styles the household has asked ChefBot to cook "in the manner of".
+# The recommend skill offers these as a choice at the start of a recommendation and looks at their
+# own books, shows and recipes first. Tell ChefBot "do it like <someone>" and it adds them here.
+# Format: - name: <cook or style>, means: "<a sentence>", look_first: ["<book or show>", ...]
+lenses: []

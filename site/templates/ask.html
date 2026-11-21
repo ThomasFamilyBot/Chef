@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Ask · {{ site.site_name or "Chef" }}{% endblock %}
+{% block content %}
+<h1>Ask {{ site.bot_name or "ChefBot" }}</h1>
+{% if site.ask and site.ask.url %}
+<section class="askbox card no-print">
+  <label for="ask-q" class="small muted">What do you want to cook, or know? {{ site.bot_name or "ChefBot" }} looks across the internet first, then at this library.</label>
+  <textarea id="ask-q" rows="3" placeholder="Something braised for Saturday, six people, one vegetarian…"></textarea>
+  <div class="actions">
+    <a class="btn on" id="ask-go" href="{{ site.ask.url }}" data-url="{{ site.ask.url }}" data-prompt="{{ site.ask.prompt or '' }}">Ask in Claude</a>
+    <span id="ask-status" class="muted small"></span>
+  </div>
+  <p class="muted small">Opens a new Claude session with your question typed in; it is also copied, in case you need to paste it.{% if site.ask.hint %} {{ site.ask.hint }}{% endif %} You need to be signed in to Claude.</p>
+</section>
+{% endif %}
+
+<h2>Answers</h2>
+{% if not answers %}<p class="muted"><i>No published answers yet. After a question is settled, {{ site.bot_name or "ChefBot" }} asks whether to publish it here.</i></p>{% endif %}
+{% for a in answers %}
+<section class="answer card" id="{{ a.slug }}">
+  <h3><a class="anchor" href="#{{ a.slug }}">{{ a.question }}</a></h3>
+  <p class="muted small">{{ a.asked }}{% if a.lens %} · Lens: {{ a.lens }}{% endif %}</p>
+  <p class="bottom-line">{{ a.summary|frac }}</p>
+  <ol class="picks">
+  {% for p in a.picks %}
+    <li><b>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</b>{% if p.source %} <span class="muted small">{{ p.source }}</span>{% endif %}{% if p.time %} <span class="tag">{{ p.time }}</span>{% endif %}<br>{{ p.why|frac }}</li>
+  {% endfor %}
+  </ol>
+  {% if a.library %}
+  <p class="lib-head"><b>From this library</b></p>
+  <ul class="lib">
+  {% for l in a.library %}
+    <li><a href="r/{{ l.slug }}.html">{{ l.title }}</a>{% if l.why %} <span class="muted small">— {{ l.why|frac }}</span>{% endif %}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+  {% if a.body_html %}<div class="answer-notes">{{ a.body_html|safe }}</div>{% endif %}
+</section>
+{% endfor %}
+{% endblock %}
+{% block scripts %}<script>Chef.askPage();</script>{% endblock %}

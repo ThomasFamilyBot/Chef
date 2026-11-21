@@ -21,6 +21,13 @@ lists:
 # lists_api: the Apps Script web-app URL (see docs/SHARED_LISTS.md); empty = each phone keeps its own lists.
 lists_api: ""
 
+# --- Ask ChefBot: the Ask page opens a new Claude session with the question typed in (the recommend skill answers it)
+ask:
+  url: "https://claude.ai/code/new"           # empty hides the question box; published answers still show
+  prompt: "ChefBot, recommend: "               # put in front of the question
+  hint: ""
+  fetch_command: ""                     # optional: a local command that saves a web page's text, for sites that block plain fetching
+
 # --- Google (all optional; see SETUP.md for the add-ons that fill these in)
 google_account: ""               # owns the Drive folders, the Docs, the lists sheet and its Apps Script, and the Claude connectors
 summary_email: ""                # recipe-inbox runs send their summary here

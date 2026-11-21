@@ -32,7 +32,7 @@ SAMPLE_RECIPES = [
 EXCLUDE = [
     "starter/", "recipes/", "README.md", "data/site.yaml", "data/menus.yaml", "data/pairings.yaml",
     "data/items.yaml", "data/shopping_templates/", "site/static/items/", "docs/DOC_MAP.md",
-    "docs/DRIVE_TRASH_LOG.md",
+    "docs/DRIVE_TRASH_LOG.md", "answers/", "data/taste_lenses.yaml",
 ]
 # Recipe front-matter keys that point at our Google Drive.
 STRIP_RECIPE_KEYS = ("drive_doc_id", "source_doc")

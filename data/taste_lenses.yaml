@@ -1,0 +1,17 @@
+# Lenses: cooks and styles the household has asked ChefBot to cook "in the manner of".
+# The recommend skill offers these as a choice at the start of a recommendation and looks at their
+# own books, shows and recipes first. Tell ChefBot "do it like <someone>" and it adds them here.
+lenses:
+  - name: Anthony Bourdain
+    means: "French bistro and brasserie classics done properly and without fuss, street food, cheap cuts and offal treated with respect, big flavor over refinement."
+    look_first:
+      - "Anthony Bourdain's Les Halles Cookbook"
+      - "Appetites: A Cookbook"
+      - "dishes and places from No Reservations and Parts Unknown"
+  - name: Heston Blumenthal
+    means: "Precision and food science: exact temperatures, brines, low and slow then a hard sear, the obsessively tested best version of a familiar dish."
+    look_first:
+      - "Heston Blumenthal at Home"
+      - "In Search of Perfection (BBC)"
+      - "How to Cook Like Heston (Channel 4)"
+      - "the Sous Vide at Home and Meathead recipes already in the library, for technique"

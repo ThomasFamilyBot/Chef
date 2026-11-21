@@ -130,6 +130,9 @@ def main(argv):
         for pr in load_pairings():
             if len(pr) != 3 or pr[0] not in slugs or pr[1] not in slugs:
                 print(f"ERROR pairings.yaml: bad pair {pr}"); bad += 1
+        _, aerrs = load_answers(slugs)
+        for e in aerrs:
+            print(f"ERROR answers/{e}"); bad += 1
     print(f"{len(paths)} recipes checked, {bad} with errors")
     return 1 if bad else 0
 

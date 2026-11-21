@@ -22,6 +22,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `data/items.yaml` + `site/static/items/` — item details cards (photo, notes) shown when an item is tapped; see "item photos" below.
 - `data/techniques.yaml` — technique glossary (sweat, sauté, medium-high, simmer, fry…) with target temperatures; auto-appended to recipe pages and Docs.
 - `docs/DOC_MAP.md` — generated map of recipe ↔ Google Doc ↔ site page.
+- `answers/*.md` — published "Ask" answers (question, picks with links, library matches), shown on the site's Ask page. `data/taste_lenses.yaml` — cooks and styles the household asks for ("like Bourdain").
 - `data/menus.yaml` — menus / run of show (library slugs + not-yet-written dishes). `data/pairings.yaml` — "pairs well with" links with reasons.
 - `scripts/validate.py` — checks every recipe against the format. Run it before committing.
 - `scripts/build.py` — builds the site into `dist/`.
@@ -33,7 +34,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `site/` — templates and static assets for the site.
 - `data/site.yaml` — site and household settings: names, repo, site address, list names, Google folder and label ids.
 - `SETUP.md` + `scripts/setup_check.py` — first-time setup of a new copy (only when `setup_done` is false in `data/site.yaml`).
-- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`, `drive-sync`, `inbox-processing`.
+- `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`, `recommend`, `drive-sync`, `inbox-processing`.
 
 ## When asked to add / convert a recipe
 
@@ -51,6 +52,10 @@ Follow `.claude/skills/drive-sync/SKILL.md`: find the recipe by the doc id, read
 ## When asked for nutrition
 
 Follow `.claude/skills/nutrition/SKILL.md`. Whole recipe only; calories, protein g, fat g only. Canonical table first, USDA second, every assumption written down.
+
+## When asked for a recommendation ("ChefBot, recommend: ...", "what should I cook", "best way to...")
+
+Follow `.claude/skills/recommend/SKILL.md`. The best answer to the question comes first, researched on the internet from pages actually opened; library recipes go last and only when they truly compete. First reply is a quick take plus a few taps of input (lens, effort, who's eating). When the question is settled, ask once whether to publish the answer to the site's Ask page (`answers/*.md`). The Ask page's button opens a new Claude session with the question typed in (`ask` in `data/site.yaml`).
 
 ## When asked what goes with a dish, for a menu, or for new recipe ideas
 

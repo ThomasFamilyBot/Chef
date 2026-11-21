@@ -216,6 +216,24 @@
     e.preventDefault(); e.stopPropagation(); showItem(b.dataset.item);
   });
 
+  /* ---------- ask page: hand the question to a new Claude session ---------- */
+  function askPage() {
+    updateNav();
+    const q = document.getElementById('ask-q'), go = document.getElementById('ask-go'), st = document.getElementById('ask-status');
+    if (!q || !go) return;
+    const text = () => (go.dataset.prompt || '') + q.value.trim();
+    const sync = () => { const u = go.dataset.url; go.href = q.value.trim() ? u + (u.includes('?') ? '&' : '?') + 'q=' + encodeURIComponent(text()) : u; };
+    try { q.value = sessionStorage.getItem('chef.ask') || ''; } catch {}
+    q.addEventListener('input', () => { sync(); st.textContent = ''; try { sessionStorage.setItem('chef.ask', q.value); } catch {} });
+    sync();
+    // a real link (so a phone can hand it to the Claude app); the copy is the fallback when the app drops the text
+    go.addEventListener('click', e => {
+      if (!q.value.trim()) { e.preventDefault(); q.focus(); st.textContent = 'Type a question first.'; return; }
+      sync();
+      try { navigator.clipboard.writeText(text()).then(() => { st.textContent = 'Question copied. Opening Claude…'; }, () => {}); } catch {}
+    });
+  }
+
   function recipePage() { updateNav(); }
 
   /* ---------- share links ---------- */
@@ -356,5 +374,5 @@
     data().then(() => { syncSwitch(); syncPicker(); render(); updateNav(); startPolling(); });
   }
 
-  global.Chef = { indexPage, recipePage, shopPage, menusPage, addMenu, getSel, setSel, data, listName, pull, showItem };
+  global.Chef = { askPage, indexPage, recipePage, shopPage, menusPage, addMenu, getSel, setSel, data, listName, pull, showItem };
 })(window);
