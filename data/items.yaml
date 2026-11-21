@@ -4,4 +4,9 @@
 # aliases: other names that should open the same card (e.g. the plain recipe name)
 # photo:   file in site/static/items/
 # notes:   brand, size, where it is in the store, anything useful while shopping
-items: []
+items:
+- item: Dried Mango (organic)
+  aliases:
+  - Dried Mango
+  photo: dried-mango-organic.jpg
+  notes: Kirkland Signature Organic Dried Mangoes. Unsweetened, unsulfured. 2.5 lb (1.13 kg) bag. Costco item 1167213.
