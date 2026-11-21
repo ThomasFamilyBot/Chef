@@ -32,6 +32,11 @@ items:
     unit: bag
     section: Nuts, Snacks & Dried Fruit
   - measure: 1 pack
+    item: Green Tea
+    qty: 1
+    unit: package
+    section: Beverages, Beer & Wine
+  - measure: 1 pack
     item: Toilet Paper
     qty: 1
     unit: package
