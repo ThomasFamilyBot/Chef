@@ -5,6 +5,9 @@
 # photo:   file in site/static/items/
 # notes:   brand, size, where it is in the store, anything useful while shopping
 items:
+- item: Chicken Apple Sausage
+  photo: chicken-apple-sausage.jpg
+  notes: Aidells Chicken & Apple smoked chicken sausage. No nitrites or nitrates added.
 - item: Dried Mango (organic)
   aliases:
   - Dried Mango
