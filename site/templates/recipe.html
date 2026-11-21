@@ -22,7 +22,7 @@
   <thead><tr><th>Measure</th><th>Ingredient</th><th>Prep</th><th>Mise Grouping</th></tr></thead>
   <tbody>
   {% for i in r.ingredients %}
-    <tr><td class="measure">{{ i.measure|frac }}</td><td class="item">{% if i.details %}<button type="button" class="item-link" data-item="{{ i.item }}">{{ i.item }}<span class="cam no-print" aria-hidden="true">{{ " 📷" if i.details == "photo" else " ⓘ" }}</span></button>{% else %}{{ i.item }}{% endif %}</td><td class="prep">{{ i.prep|frac }}</td><td class="group">{{ i.group }}</td></tr>
+    <tr><td class="measure">{{ i.measure|frac }}</td><td class="item">{% if i.details %}<button type="button" class="item-link" data-item="{{ i.item }}">{{ i.item }}<span class="cam{{ "" if i.details == "photo" else " note" }} no-print" aria-hidden="true"></span></button>{% else %}{{ i.item }}{% endif %}</td><td class="prep">{{ i.prep|frac }}</td><td class="group">{{ i.group }}</td></tr>
   {% endfor %}
   </tbody>
 </table>

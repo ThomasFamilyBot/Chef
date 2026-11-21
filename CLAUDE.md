@@ -68,7 +68,7 @@ Follow `.claude/skills/inbox-processing/SKILL.md`. A scheduled Routine runs it; 
 
 ## When someone sends a photo of a shopping item ("item photos")
 
-Tapping an item with a 📷 (photo) or ⓘ (notes only) on the Shopping List or a recipe page opens a details card: photo, notes, which lists and recipes use it. Data lives in `data/items.yaml`; photos in `site/static/items/`.
+Tapping an item with a small picture marker (photo) or a small "i" (notes only) after its name on the Shopping List or a recipe page opens a details card: photo, notes, which lists and recipes use it. Data lives in `data/items.yaml`; photos in `site/static/items/`.
 - Chat photos are saved under `~/.claude/uploads/<session>/`. Look at the photo first: the site is public, so skip anything personal (faces, addresses, receipts) and ask.
 - `python3 scripts/add_item_photo.py --item "<name exactly as on the list>" --photo <file> [--alias "<recipe name>"] [--notes "brand, size, aisle"] [--rotate 90]`. It resizes to 1000 px and strips location/camera data. Never copy a photo into `site/static/items/` by hand.
 - Use `--alias` so a template name like "Dried Mango (organic)" and the recipe name "Dried Mango" open the same card. Read the converted photo back to check it is upright.
