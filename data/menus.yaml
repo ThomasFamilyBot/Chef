@@ -102,3 +102,15 @@
     - slug: jalapeno-carrot-margarita
     - title: Golden Boy pizza
       note: takeout
+- name: Thanksgiving 2026
+  occasion: Thanksgiving
+  date: 2026-11-26
+  source_doc: https://docs.google.com/document/d/1dUFYasbYAgYADQY7HCnM4S01xbBi-8spsVuIqHfsiOA/edit
+  items:
+    - slug: bachelor-farmer-popovers
+    - title: Green Beans
+      note: no recipe yet
+    - title: Sweet Potato & Marshmallow
+      note: no recipe yet
+    - title: Mac N Cheese
+      note: no recipe yet
