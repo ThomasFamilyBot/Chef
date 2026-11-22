@@ -22,6 +22,25 @@ description: Plan a menu or dinner party from the family library, record menus (
 2. Propose a menu from the library with timing: which recipes, which day each prep step happens, oven/grill conflicts, what can be made ahead. Use `times` from the recipe files.
 3. On approval, add the menu to `data/menus.yaml` (name, occasion, date, serves, notes with the run of show, items). Validate, build, commit, push. Tell them it is on the Menus page and can be added to the shopping list in one tap.
 
+## Versions for an event (quantity or ingredient variations)
+
+House rule: when a dinner needs a library recipe at different quantities, or with different cuts or ingredients, **never edit the original**. Make a version for that event, put the version on the menu, and delete it after the event. The original stays in the library untouched.
+
+- **File and title:** copy `recipes/<slug>.md` to `recipes/<slug>-<event>.md` and add the event to the title in parentheses: `Red Wine–Braised Beef Short Ribs (Thanksgiving 26)` in `red-wine-braised-beef-short-ribs-thanksgiving-26.md`.
+- **Front matter:** `variant_of: <original slug>`, `variant_for: <event name>`, `delete_after: <event date>`, and a tag for the event. Drop the original's `drive_doc_id` and `nutrition` block (both are redone for the version).
+- **Change only what the event needs:** the quantities, cuts and swaps, then whatever follows from them (pan size, times, `serves`). Keep the reference line and the rest of the method as they are. Mark changed times as estimates when the source gives none.
+- **Say what changed:** the first line of Notes reads "<Event> version. What changed from the original: ...".
+- **What they already have:** ingredients the household is using from the freezer or pantry get `shop: false`, with a word in `prep`, so the menu's shopping button doesn't list them.
+- **Then the usual four parts** (`recipe-intake`): validate, whole-recipe nutrition, a Google Doc for the version, build, commit, push.
+- **On the menu:** the version replaces the original in `data/menus.yaml`, and the run of show Doc is mirrored (the line gets the version's title and link).
+- Make a version only for recipes that actually change. A recipe cooked as written stays on the menu as the original.
+
+**After the event.** `scripts/validate.py` warns once a version's `delete_after` date has passed. Then, with the household's yes:
+
+1. If they liked a change enough to keep it, add it to the original first, as a Note.
+2. Point the menu back at the originals (a past menu keeps the originals, not the versions).
+3. Delete the version files, trash their Google Docs (`drive-export` skill; log each in `docs/DRIVE_TRASH_LOG.md`), validate, build, commit, push.
+
 ## Mirror every menu change in its Google Doc
 
 House rule: when a menu has a `source_doc` (the family's run of show Doc), any change to that menu in `data/menus.yaml` is mirrored in the Doc in the same task, without being asked. Adding, removing, renaming or reordering items all count.

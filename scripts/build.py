@@ -83,6 +83,9 @@ def main():
             it["section_resolved"] = section_for(it["item"], sections, it.get("section"))
             it.setdefault("shop", True)
     by_slug = {r["slug"]: r for r in recipes}
+    for r in recipes:
+        if r.get("variant_of") in by_slug:
+            r["variant_of_title"] = by_slug[r["variant_of"]]["title"]
     items, item_by_name = load_item_details()
     for r in recipes:
         for ing in r.get("ingredients") or []:

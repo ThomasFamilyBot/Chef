@@ -60,7 +60,7 @@ Follow `.claude/skills/recommend/SKILL.md`. The best answer to the question come
 
 ## When asked what goes with a dish, for a menu, or for new recipe ideas
 
-Follow `.claude/skills/menu-planning/SKILL.md` or `.claude/skills/recipe-suggestions/SKILL.md`. When a menu with a run of show Google Doc (`source_doc`) changes, mirror the change in that Doc in the same task.
+Follow `.claude/skills/menu-planning/SKILL.md` or `.claude/skills/recipe-suggestions/SKILL.md`. When a menu with a run of show Google Doc (`source_doc`) changes, mirror the change in that Doc in the same task. When a dinner needs a recipe at different quantities or with different ingredients, never edit the original: make a version named `<Title> (<Event>)` for the menu and delete it after the event ("Versions for an event" in the menu-planning skill).
 
 ## When asked to process the recipe inbox (friends' email / Drive submissions)
 

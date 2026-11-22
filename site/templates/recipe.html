@@ -7,6 +7,7 @@
   <p class="ref">Reference:
     {% if r.reference.url %}<a href="{{ r.reference.url }}">{{ r.reference.text }}{% if r.reference.url_text and r.reference.url_text != r.reference.text %} — {{ r.reference.url_text }}{% endif %}</a>{% else %}{{ r.reference.text }}{% endif %}
   </p>
+  {% if r.variant_of_title %}<p class="meta"><b>Version for {{ r.variant_for }}</b> of <a href="{{ r.variant_of }}.html">{{ r.variant_of_title }}</a>, with the quantities for that day.</p>{% endif %}
   <p class="meta"><b>Serves:</b> {{ r.serves|frac }}</p>
   <p class="meta times"><b>Prep:</b> {{ r.times.prep|fmt_time }} &nbsp;|&nbsp; <b>Cook:</b> {{ r.times.cook|fmt_time }} &nbsp;|&nbsp; <b>Rest:</b> {{ r.times.rest|fmt_time }} &nbsp;|&nbsp; <b>Total:</b> {{ r.times.total|fmt_time }}</p>
   <div class="no-print actions">

@@ -45,6 +45,17 @@ def check(path, sections):
             for t in skip:
                 if str(t).strip().lower() not in terms:
                     errs.append(f"techniques_skip: {t!r} is not a term in data/techniques.yaml")
+    # versions of a recipe made for one event (see the menu-planning skill, "Versions for an event")
+    if r.get("variant_of"):
+        if not (RECIPES / f"{r['variant_of']}.md").exists():
+            errs.append(f"variant_of: no recipe {r['variant_of']!r}")
+        if not r.get("variant_for"):
+            errs.append("variant_for is missing (which event this version is for)")
+        da = r.get("delete_after")
+        if not isinstance(da, datetime.date):
+            errs.append("delete_after must be a date (YYYY-MM-DD): the event date, after which the version is removed")
+        elif da < datetime.date.today():
+            warns.append(f"this version was for {r.get('variant_for')} ({da}), which has passed; ask the household whether to delete it")
     seen = set()
     for i, ing in enumerate(r.get("ingredients") or [], 1):
         where = f"ingredient {i} ({ing.get('item', '?')})"
