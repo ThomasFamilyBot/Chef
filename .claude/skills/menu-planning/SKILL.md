@@ -22,6 +22,16 @@ description: Plan a menu or dinner party from the family library, record menus (
 2. Propose a menu from the library with timing: which recipes, which day each prep step happens, oven/grill conflicts, what can be made ahead. Use `times` from the recipe files.
 3. On approval, add the menu to `data/menus.yaml` (name, occasion, date, serves, notes with the run of show, items). Validate, build, commit, push. Tell them it is on the Menus page and can be added to the shopping list in one tap.
 
+## Mirror every menu change in its Google Doc
+
+House rule: when a menu has a `source_doc` (the family's run of show Doc), any change to that menu in `data/menus.yaml` is mirrored in the Doc in the same task, without being asked. Adding, removing, renaming or reordering items all count.
+
+- The Doc's item list carries the same items in the same order as the menu. Keep the family's own wording for lines they wrote ("Popovers", "Sweet Potato & marshmallow"); new lines take the menu's title, with its note after a dash when there is one ("Blackberry Crumble - Wed 10am Pickup").
+- Items that are library recipes are linked to their site page (`<site_url>r/<slug>.html`); items without a recipe stay plain text.
+- Edit the Doc in place with the Google Docs connector (read the `google-workspace` skill's Docs reference first): `read_doc`, then one `update_doc` guarded with the `revisionId`. Touch only the item list. Timing notes and anything else the family wrote in the Doc stay as they are.
+- Read the Doc back afterwards and check the list. Say in the final message that the Doc was updated.
+- A menu with no `source_doc` has nothing to mirror; don't create a Doc unless asked. If the family edits the Doc and asks for the site to match, go the other way: update `data/menus.yaml` from the Doc.
+
 ## Recording a past dinner
 
 Convert a Run of Show doc: library recipes by slug, everything else as `{title, url, note}`. Don't invent recipes; items without a written recipe are candidates for the `recipe-suggestions` skill.
