@@ -18,8 +18,16 @@ Everything needed to hand a clean copy of this project to someone else. None of 
 ## Shipping a fresh one
 
 There is no syncing: recipients keep whatever copy they made, and that is intended. But the template itself is
-kept current: **every time something a new copy should have is added or changed, run `bash starter/ship.sh`**
-(rule in the household block of `CLAUDE.md`). It does steps 1 to 4 below and stops if the scrub is not clean.
+kept current **automatically, once a day**: the GitHub workflow `.github/workflows/starter.yml` ("Update starter
+template") runs `starter/ship.sh` every night. It does steps 1 to 4 below, does nothing when nothing changed, and
+fails without publishing if the scrub is not clean (a red run in the Actions tab; fix the source and re-run it).
+The template may lag this repo by up to a day, which is fine. For a same-day update, run `bash starter/ship.sh`
+by hand, or start the workflow from the Actions tab.
+
+The workflow writes to the template with an SSH deploy key that can write to `chefbot-starter` and nothing else:
+the public half is a deploy key on that repo ("chef daily starter update"), the private half is the secret
+`STARTER_DEPLOY_KEY` on this repo. To replace it: make a new ed25519 key pair, add the public half as a
+write-enabled deploy key on the template, set the secret to the private half, and delete the old deploy key.
 
 By hand, the steps are:
 

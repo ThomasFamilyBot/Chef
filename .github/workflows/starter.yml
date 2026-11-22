@@ -1,0 +1,37 @@
+name: Update starter template
+
+# Once a day, publish a fresh, scrubbed copy of this project to the public template other households copy
+# (starter/README.md). Does nothing when nothing a new copy needs has changed. Fails, and publishes nothing,
+# if the scrub finds anything of this household's in the copy. This file is not part of the starter.
+on:
+  schedule:
+    - cron: "23 10 * * *"        # 10:23 UTC, the middle of the night in California
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: starter
+  cancel-in-progress: false
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml markdown jinja2
+      - name: Export, scrub and publish
+        env:
+          STARTER_DEPLOY_KEY: ${{ secrets.STARTER_DEPLOY_KEY }}   # SSH key that can write to the template repo only
+        run: |
+          if [ -z "$STARTER_DEPLOY_KEY" ]; then echo "STARTER_DEPLOY_KEY secret is missing"; exit 1; fi
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$STARTER_DEPLOY_KEY" > ~/.ssh/starter_key
+          chmod 600 ~/.ssh/starter_key
+          echo "github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl" >> ~/.ssh/known_hosts
+          export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/starter_key -o IdentitiesOnly=yes"
+          STARTER_REMOTE=git@github.com:ThomasFamilyBot/chefbot-starter.git bash starter/ship.sh
