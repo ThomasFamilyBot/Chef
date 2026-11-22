@@ -309,3 +309,4 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-20 | super-duper-pickles | 1nB87CXTioRoSyW7csQscDFITCE2U_y_tpGJ-kAGNS1o | 1Xz7fZWKNvw_coRAa4TEvV6yyh2tNTo22iwj7iltFduU | directions bullets tidied; old doc trashed 2026-11-20 |
 | 2026-11-20 | cheesy-kimchi-linguine | 1n74XHtNUMLeJ-LEfrpaftmCFD9klz9csTpbxX7R8614 | 1ihVGWRGl_0sfh9289QA2wbdVCuhTp8gjdyfuyum9UX0 | directions bullets tidied; old doc trashed 2026-11-20 |
 | 2026-11-20 | white-bean-and-lamb-casserole | 1et5jqXRZ249n2yCBy36NUlFBxessnmeFncQbQieARbo | 1Xdp5LkeyeAvon9V21ut7_0tvBrOGnhE6zdJO-xJjYhI | directions bullets tidied; old doc trashed 2026-11-20 |
+| 2026-11-22 | skillet-roasted-lamb-loins-with-herbs-thanksgiving-26 | 1yTQBAR76RNvgW4kt3IwvWwIJAkB2B0SdlyD3DybaMYM | 1LnBLj72JVBhTh4fG2QuVsYORCP3V3wdhrMMYkW1lwy8 | fire method made the default, skillet kept as fallback; old doc trashed 2026-11-22 |
