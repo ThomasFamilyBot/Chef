@@ -105,6 +105,7 @@
 - name: Thanksgiving 2026
   occasion: Thanksgiving
   date: 2026-11-26
+  serves: "8 adults w/ 2 veg => 6 adults (2 veg) + 3 kids (2 adult equivalent)"
   source_doc: https://docs.google.com/document/d/1dUFYasbYAgYADQY7HCnM4S01xbBi-8spsVuIqHfsiOA/edit
   items:
     - slug: bachelor-farmer-popovers

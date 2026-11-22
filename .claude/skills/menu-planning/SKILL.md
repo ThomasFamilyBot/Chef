@@ -27,6 +27,7 @@ description: Plan a menu or dinner party from the family library, record menus (
 House rule: when a menu has a `source_doc` (the family's run of show Doc), any change to that menu in `data/menus.yaml` is mirrored in the Doc in the same task, without being asked. Adding, removing, renaming or reordering items all count.
 
 - The Doc's item list carries the same items in the same order as the menu. Keep the family's own wording for lines they wrote ("Popovers", "Sweet Potato & marshmallow"); new lines take the menu's title, with its note after a dash when there is one ("Blackberry Crumble - Wed 10am Pickup").
+- The head count line (`serves`) sits as a plain paragraph above the list, in the family's own words.
 - Items that are library recipes are linked to their site page (`<site_url>r/<slug>.html`); items without a recipe stay plain text.
 - Edit the Doc in place with the Google Docs connector (read the `google-workspace` skill's Docs reference first): `read_doc`, then one `update_doc` guarded with the `revisionId`. Touch only the item list. Timing notes and anything else the family wrote in the Doc stay as they are.
 - Read the Doc back afterwards and check the list. Say in the final message that the Doc was updated.
