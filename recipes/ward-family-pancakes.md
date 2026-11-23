@@ -12,7 +12,7 @@ times:
   total: 30
 tags: [breakfast, pancakes, kids, vegetarian, quick, gluten-free]
 techniques_skip: [broil]
-drive_doc_id: 1LXfOhALlleacucdW7zxCZtXyWbj6p_8jvq5uQ-y4AzI
+drive_doc_id: 1mIWghAWnuV5655o2uuoOfVVU0eRdc-ngzhE62NRVXaQ
 ingredients:
   - measure: 1 box (14.2 oz, about 3 cups)
     item: Buttermilk Mochi Pancake Mix
@@ -116,13 +116,14 @@ nutrition:
 
 **Notes**
 
-- The oven numbers are a starting point, not yet tested with this mix. They are the standard for sheet pan pancakes made from a boxed mix (425°F for 12 to 15 minutes in a half sheet pan). After the first batch, tell ChefBot what worked and the page gets the family's real numbers.
+- Tested by the family on 2026-11-23: 425°F was great. Before that they had always baked it at about 350°F.
 - The batter amounts in the table are what a grocery listing shows for this mix, tripled for the whole box (1 cup mix, 1/2 cup milk, 1 egg, 2 TBLS oil or butter makes 6 pancakes). The box in your hand wins.
 - Mochi mix is made from sweet rice flour, so it bakes up chewy. It can look done on top while the middle is still gummy. When in doubt, give it 2 more minutes; it also firms up as it cools.
 
 **Other ways to bake it**
 
 - Gentler and more even: 375°F for about 20 minutes, turning the pan around halfway. Paler, softer edges. Try this if 425°F browns the edges before the center sets.
+- The family's old way: about 350°F, which takes longer and browns less.
 - More color: finish under the broiler for up to 1 minute, watching the whole time.
 - Convection oven: 400°F, and start checking at 10 minutes.
 - Half a box: use a quarter sheet pan or a 9-by-13-inch pan, same temperature, and start checking at 10 minutes.

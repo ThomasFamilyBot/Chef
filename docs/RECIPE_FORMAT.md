@@ -68,12 +68,13 @@ An ingredient line may carry a `nutrition:` key read by `scripts/nutrition.py`:
 
 ## Versions for an event
 
-A recipe made at different quantities (or with different cuts) for one dinner is a separate file, never an edit to the original: `recipes/<slug>-<event>.md`, titled `<Title> (<Event>)`, with three extra front-matter keys:
+A recipe made at different quantities (or with different cuts) for one dinner is a separate file, never an edit to the original: `recipes/<slug>-<event>.md`, titled `<Title> (<Event>)`, with four extra front-matter keys:
 
 ```yaml
 variant_of: red-wine-braised-beef-short-ribs   # the original's slug (must exist)
 variant_for: Thanksgiving 26                   # the event
-delete_after: 2026-11-26                       # the event date; validate.py warns once it has passed
+event_date: 2026-11-26                         # the day of the event
+delete_on: 2027-01-01                          # one full calendar month after the event, then the 1st; validate.py warns from this date
 ```
 
 The recipe page links back to the original. The procedure, including what happens after the event, is in `.claude/skills/menu-planning/SKILL.md`.

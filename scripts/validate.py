@@ -51,11 +51,19 @@ def check(path, sections):
             errs.append(f"variant_of: no recipe {r['variant_of']!r}")
         if not r.get("variant_for"):
             errs.append("variant_for is missing (which event this version is for)")
-        da = r.get("delete_after")
-        if not isinstance(da, datetime.date):
-            errs.append("delete_after must be a date (YYYY-MM-DD): the event date, after which the version is removed")
-        elif da < datetime.date.today():
-            warns.append(f"this version was for {r.get('variant_for')} ({da}), which has passed; ask the household whether to delete it")
+        ev, on = r.get("event_date"), r.get("delete_on")
+        if not isinstance(ev, datetime.date):
+            errs.append("event_date must be a date (YYYY-MM-DD): the day of the event this version is for")
+        if not isinstance(on, datetime.date):
+            errs.append("delete_on must be a date (YYYY-MM-DD): the day this version is removed")
+        if isinstance(ev, datetime.date) and isinstance(on, datetime.date):
+            # house rule: keep a version for one full calendar month after the event, then delete it on the 1st
+            m = ev.month + 2
+            rule = datetime.date(ev.year + (m - 1) // 12, (m - 1) % 12 + 1, 1)
+            if on != rule:
+                warns.append(f"delete_on is {on}; the house rule (one full calendar month after the event) gives {rule}")
+            if on <= datetime.date.today():
+                warns.append(f"this version was for {r.get('variant_for')} ({ev}) and its delete_on date ({on}) has arrived: delete it (menu-planning skill, \"Versions for an event\")")
     seen = set()
     for i, ing in enumerate(r.get("ingredients") or [], 1):
         where = f"ingredient {i} ({ing.get('item', '?')})"

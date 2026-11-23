@@ -2,7 +2,8 @@
 title: Bachelor Farmer Popovers (Thanksgiving 26)
 variant_of: bachelor-farmer-popovers
 variant_for: Thanksgiving 26
-delete_after: 2026-11-26
+event_date: 2026-11-26
+delete_on: 2027-01-01
 reference:
   text: The Bachelor Farmer (Minneapolis)
 serves: Makes 24 popovers

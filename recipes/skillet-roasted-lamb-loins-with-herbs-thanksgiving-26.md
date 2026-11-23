@@ -2,7 +2,8 @@
 title: Skillet-Roasted Lamb Loins with Herbs (Thanksgiving 26)
 variant_of: skillet-roasted-lamb-loins-with-herbs
 variant_for: Thanksgiving 26
-delete_after: 2026-11-26
+event_date: 2026-11-26
+delete_on: 2027-01-01
 reference:
   text: Food & Wine, Cathal Armstrong; fire method and board sauce from the library's Grilled Leg of Lamb (Mallmann on Fire p. 112; Meathead)
   url: null

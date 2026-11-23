@@ -2,7 +2,8 @@
 title: Red Wine–Braised Beef Short Ribs (Thanksgiving 26)
 variant_of: red-wine-braised-beef-short-ribs
 variant_for: Thanksgiving 26
-delete_after: 2026-11-26
+event_date: 2026-11-26
+delete_on: 2027-01-01
 reference:
   text: Serious Eats, Daniel Gritzer
   url: https://www.seriouseats.com/red-wine-braised-beef-short-ribs-recipe

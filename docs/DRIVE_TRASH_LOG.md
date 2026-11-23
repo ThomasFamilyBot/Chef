@@ -313,3 +313,4 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-22 | pot-roasted-chicken-and-creamed-spinach | 1ogpgxqIJmFenQmY-4jKVVggmZ0z8k9t-HhTcR4KDdH0 | 1ALaccMCvX_X8qqtVL0EO5bTAOXg8rwdIeWTaXf_f8rk | added the note that BBQ Man sent it; old doc trashed 2026-11-22 |
 | 2026-11-22 | bachelor-farmer-popovers | 1nlvz1Sk2yNcLbhNp40pX4yUiABAARjPabuUsHI18smc | 1cPGjYdaylymZjSceddyZnSwL43tQ6vDRN-gePltkXrs | scaled from 10 to 12 popovers, flour and milk by weight; old doc trashed 2026-11-22 |
 | 2026-11-22 | bachelor-farmer-popovers-thanksgiving-26 | 1SOtzlGN3LBgZZGXFNoyY0zLWXC-p9BCUK56LOn0W9lM | 1mnHv-kuwDCco55aT_j8aNciCX7zUgVzAT-m0wEjjujI | scaled to 24 popovers, flour and milk by weight; old doc trashed 2026-11-22 |
+| 2026-11-23 | ward-family-pancakes | 1LXfOhALlleacucdW7zxCZtXyWbj6p_8jvq5uQ-y4AzI | 1mIWghAWnuV5655o2uuoOfVVU0eRdc-ngzhE62NRVXaQ | 425°F tested and confirmed by the family; old doc trashed 2026-11-23 |
