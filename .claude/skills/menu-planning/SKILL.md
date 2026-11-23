@@ -7,7 +7,7 @@ description: Plan a menu or dinner party from the family library, record menus (
 
 ## Data
 
-- `data/menus.yaml`: one entry per menu. `items` are `{slug: <recipe>}` for library recipes or `{title, url?, note?}` for dishes not yet in the library. `notes` holds the run-of-show timing. The site renders these on **Menus**, with "add all to shopping list"; recipe pages list the menus they appear on.
+- `data/menus.yaml`: one entry per menu. `items` are `{slug: <recipe>}` for library recipes or `{title, url?, note?}` for dishes not yet in the library. `notes` holds the run-of-show timing. An item that is already made or bought gets `shop: false` (with a `note` saying so): it stays on the menu, linked, but the shopping button leaves it out. The site renders these on **Menus**, with "add all to shopping list"; recipe pages list the menus they appear on.
 - `data/pairings.yaml`: `[slug_a, slug_b, "short reason"]`. Shown on both recipe pages under "Pairs well with". Keep reasons honest and specific (a menu that worked, a classic combination, a shared shopping list).
 
 ## When asked "what goes with X"

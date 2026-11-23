@@ -1,6 +1,7 @@
 # Menus the family has actually cooked (from the Run of Show docs) plus curated ones.
 # items: either {slug: <recipe slug>} for a library recipe, or {title, url, note} for something
 # not yet in the library (these are the first candidates for the recipe-suggestions skill).
+# shop: false on an item keeps it on the menu (linked) but off the shopping list: already made, or bought.
 # archived: true keeps a menu on the Menus page under "Past dinners" but out of the shopping-list picker.
 # To add a menu, tell Claude: "Create a menu called <name> with <recipes>" (menu-planning skill), or edit this file.
 - name: Thanksgiving 2025
@@ -119,3 +120,6 @@
       note: Wed 10am pickup; no recipe
     - slug: triple-toasted-vanilla-ice-cream
     - slug: annika-cookies-n-creme
+    - slug: kids-chocolate-ice-cream
+      note: 1 pint, already made (left from soccer)
+      shop: false
