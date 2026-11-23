@@ -21,7 +21,7 @@ description: Convert a recipe from any source (URL, Google Doc, photo/PDF/HEIC, 
   3. *What is said.* If `video.transcribe_command` is set, run it with the link. It saves a transcript made on the computer. Expect a few misheard words (brand names, "steaming" heard as something else); the frames usually settle them.
   - Never sign in, use anyone's cookies, or create an account to reach a video. If the page needs a login, or the commands are not set up, ask the person to tell you what is said, or to send screenshots with captions turned on.
   - Videos rarely give amounts. Write the method from what is said and shown, mark every quantity, time and yield you had to supply as `(est.)`, and add a Note saying the recipe was built from a video and which details are the cook's own.
-  - `reference.text` is the cook and the platform ("Thomas Straker (Instagram reel)"); `reference.url` is the link without tracking parameters. Say so if the video is a paid partnership.
+  - `reference.text` is the cook and the platform ("Sam Rivera (Instagram reel)"); `reference.url` is the link without tracking parameters. Say so if the video is a paid partnership.
 - **Legacy family doc**: it is already close to the format. Preserve the family's own wording, notes and jokes. Do not "improve" the cooking.
 
 ## 2. Ask the uploader (one short message, all questions at once)
