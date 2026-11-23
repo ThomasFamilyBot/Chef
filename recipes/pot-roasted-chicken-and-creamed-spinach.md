@@ -11,7 +11,7 @@ times:
   rest: null
   total: 85
 tags: [chicken, main, one-pot, british, spinach]
-drive_doc_id: 1ogpgxqIJmFenQmY-4jKVVggmZ0z8k9t-HhTcR4KDdH0
+drive_doc_id: 1ALaccMCvX_X8qqtVL0EO5bTAOXg8rwdIeWTaXf_f8rk
 ingredients:
   - measure: 1 (3 1/2 to 4 lb, est.)
     item: Whole Chicken
@@ -243,6 +243,7 @@ nutrition:
 
 **Notes**
 
+- Sent to us by BBQ Man.
 - Built from a 60-second reel: the steps and ingredients are from what he says and what the video shows. He gives no quantities, so every amount marked (est.) is ChefBot's estimate, as are the serves and the time to get the color.
 - The two temperatures are his: the oven display shows 250°C for the first stage, and he says about 100°C for about 25 minutes for the second.
 - The reel is a paid partnership with Le Creuset; he uses a large oval cast iron casserole.
