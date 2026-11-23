@@ -42,7 +42,7 @@ TEXT_EXT = {".md", ".py", ".yaml", ".yml", ".csv", ".html", ".js", ".css", ".jso
 
 # Extra words that must never appear in an export (first names of family and friends, employers, schools).
 # The list names, emails and ids in data/site.yaml and every recipe's Google Doc id are added automatically.
-DENY_WORDS = ["ahin", "jenn", "andrea", "thomas", "pathstone", "quaker", "deepa", "sffs", "annika"]
+DENY_WORDS = ["ahin", "jenn", "andrea", "thomas", "pathstone", "quaker", "deepa", "sffs", "annika", "mehta"]
 DENY_PATTERNS = [
     r"docs\.google\.com/document/d/[\w-]{15,}",
     r"drive\.google\.com/drive/folders/[\w-]{15,}",
