@@ -33,7 +33,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `scripts/usda_fetch.sh` + `scripts/usda_lookup.py` — local copy of USDA SR Legacy; `search`, `show`, and `row` (emits a ready canonical CSV row with FDC id, URL and portion weights).
 - `scripts/set_override.py` — set a per-ingredient nutrition override in a recipe (exclude / fraction / oz) with a note.
 - `site/` — templates and static assets for the site.
-- `data/site.yaml` — site and household settings: names, repo, site address, list names, Google folder and label ids.
+- `data/site.yaml` — site and household settings: names, repo, site address, list names, Google folder and label ids, and the optional video commands (frames and transcript) used to take recipes from reels.
 - `SETUP.md` + `scripts/setup_check.py` — first-time setup of a new copy (only when `setup_done` is false in `data/site.yaml`).
 - `.claude/skills/` — the procedures Claude follows: `recipe-intake`, `nutrition`, `drive-export`, `menu-planning`, `recipe-suggestions`, `recommend`, `drive-sync`, `inbox-processing`.
 

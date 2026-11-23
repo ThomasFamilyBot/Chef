@@ -28,6 +28,12 @@ ask:
   hint: ""
   fetch_command: ""                     # optional: a local command that saves a web page's text, for sites that block plain fetching
 
+# --- Recipes from videos (Instagram reels, TikTok, YouTube): optional commands on the household's own computer.
+# Claude runs them with the video's link (recipe-intake skill, "Video"). Leave empty if the tools are not installed.
+video:
+  frames_command: ""       # saves still frames of the video as contact sheets, to read what is shown
+  transcribe_command: ""   # saves a transcript of what is said (runs on the computer; nothing is uploaded)
+
 # --- Google (all optional; see SETUP.md for the add-ons that fill these in)
 google_account: ""               # owns the Drive folders, the Docs, the lists sheet and its Apps Script, and the Claude connectors
 summary_email: ""                # recipe-inbox runs send their summary here
