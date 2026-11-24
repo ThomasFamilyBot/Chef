@@ -11,7 +11,7 @@ times:
   rest: 720
   total: 780
 tags: [dessert, ice-cream, vegetarian, make-ahead]
-drive_doc_id: 14Bi2Ru7QWULKUd3NnBF8Xa0fAAuvqEqH4MXz4wNRwxw
+drive_doc_id: 1IpXSRUFlBMcH0pPiLHteRQgQ0oJdXqyNKTQyPe_ID4Y
 ingredients:
   - measure: 30 g
     item: Nonfat Dry Milk Powder
@@ -156,7 +156,7 @@ nutrition:
 **Yolk blend**
 
 - In a blender, combine 40 g of the sugar, the milk, dextrose, yolks, toasted milk powder, vanilla seeds, salt and locust bean gum (if using). Pulse until smooth and the yolks are fully dispersed.
-- (With an immersion blender: skip this and blend everything directly in the pan, heat off, after the caramel and cream are combined.)
+- (With an immersion blender: skip this and blend everything directly in the pan, heat off, but only after the caramel has fully dissolved in the simmering cream; see Notes.)
 
 **Caramel and custard**
 
@@ -175,3 +175,6 @@ nutrition:
 
 - The milk powder isn't optional; it's one of the three toasts.
 - Source gives no yield; the base is about 4 cups, so figure a quart.
+- Nothing cold goes into the pan until the caramel has fully dissolved in the simmering cream, with no hard bits left on the bottom. Cold milk on undissolved caramel seizes it into a hard sheet stuck to the pan.
+- Immersion blender in the pan (our addition to the source's shortcut): once the caramel is dissolved, take the pan off the heat, stir in the cold milk first so the hot cream doesn't scramble the yolks, then add the rest of the yolk blend ingredients and blend with the head fully under the surface.
+- If the caramel seizes: don't blend or chip at it. Put the pan back over medium-low heat and stir, scraping the bottom, until it melts back in, 5 to 10 minutes. If the yolks are already in, keep it under 180°F and strain out anything still hard at the end.
