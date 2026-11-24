@@ -11,7 +11,8 @@ times:
   rest: 720
   total: 780
 tags: [dessert, ice-cream, vegetarian, make-ahead]
-drive_doc_id: 1IpXSRUFlBMcH0pPiLHteRQgQ0oJdXqyNKTQyPe_ID4Y
+techniques_skip: [internal temperature]
+drive_doc_id: 1P8olxVmNiOyaeRzsWTnKjmkFjxXhY8gxb2-6_OjtNzU
 ingredients:
   - measure: 30 g
     item: Nonfat Dry Milk Powder

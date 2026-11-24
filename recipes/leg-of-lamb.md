@@ -13,7 +13,7 @@ times:
   total: 900
 tags: [lamb, main, grill]
 source_doc: https://docs.google.com/document/d/1fdKQpPr1fnFykeeiJC8SyJqfGu7u6xO-35WtybFuj3c/edit
-drive_doc_id: 1cRXHJOZJDuVFPzTPsMk4sqCKR1OLXPkpcwioyWW7IgE
+drive_doc_id: 1THGT1QxYreqY-pKzZw2C6bnG0xpjV58EUh145XJl08U
 ingredients:
   - measure: 1
     item: Leg of Lamb
