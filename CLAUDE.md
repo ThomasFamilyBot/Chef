@@ -62,6 +62,18 @@ Follow `.claude/skills/recommend/SKILL.md`. The best answer to the question come
 
 Follow `.claude/skills/menu-planning/SKILL.md` or `.claude/skills/recipe-suggestions/SKILL.md`. When a menu with a run of show Google Doc (`source_doc`) changes, mirror the change in that Doc in the same task. When a dinner needs a recipe at different quantities or with different ingredients, never edit the original: make a version named `<Title> (<Event>)` for the menu and delete it after the event ("Versions for an event" in the menu-planning skill).
 
+## When someone asks a cooking question about a recipe (a swap, a technique, "can I...", often mid-cook)
+
+Read the recipe file first and answer from it. The person may be at the stove and will do exactly what the answer says, so any advice that departs from the written method (a different order, temperature, tool or ingredient, or a tip of your own) is checked before it is given:
+
+- **Walk the changed step through as it happens at the stove:** what is in the pan at that moment, how hot it is, and what goes in next. Then check the steps after it still work.
+- **Look for the known ways it goes wrong.** Cold liquid onto hot or undissolved caramel (seizes hard). Eggs or yolks into hot liquid (scramble). Milk at a hard boil or with acid (curdles). Cheese or cream sauce over high heat (breaks). A little water into melted chocolate (seizes). Water into hot fat (spatters). Hot liquid in a closed blender (blows the lid). Cold liquid into a hot glass or enamel dish (cracks). A swap that changes sugar, salt, fat, acid or water (sweetened for unsweetened, salted for unsalted, dried for fresh).
+- **Put the condition the advice depends on into the advice itself,** in the same sentence: "only after the caramel has fully dissolved in the simmering cream", not "once they are combined".
+- **Say which part is yours and which is the recipe's.** If you cannot rule out a failure, say so, or keep to the written method.
+- **If advice goes wrong:** the rescue comes first, then what caused it. If the recipe page has the same gap, offer to add a Note there.
+
+Why: on 2026-11-23 a tip to "pour the cold milk in first" for an immersion-blender custard did not say the caramel had to be dissolved in the cream first, and the caramel seized in the pan.
+
 ## When asked to process the recipe inbox (friends' email / Drive submissions)
 
 Follow `.claude/skills/inbox-processing/SKILL.md`. A scheduled Routine runs it; it can also be run on request.
