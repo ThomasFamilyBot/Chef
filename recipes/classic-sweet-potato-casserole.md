@@ -32,6 +32,7 @@ ingredients:
     unit: cup
   - measure: 1/2 cup
     item: Half and Half
+    prep: Or heavy cream, one for one
     group: 2 -> Filling
     qty: 0.5
     unit: cup
@@ -76,6 +77,7 @@ ingredients:
     unit: each
   - measure: 4 cups
     item: Mini Marshmallows
+    prep: About 7 oz (200 g); one 10 oz bag is enough
     group: 4 -> Topping
     qty: 4
     unit: cup

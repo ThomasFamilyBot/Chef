@@ -74,6 +74,7 @@ ingredients:
     unit: TBLS
   - measure: 1 can (12 fl oz)
     item: Evaporated Milk
+    prep: Unsweetened; not sweetened condensed milk. Or 1 1/2 cups half and half
     group: 3 -> Sauce
     qty: 1
     unit: can

@@ -219,6 +219,7 @@ nutrition:
 - Make ahead: mix everything and put it in the buttered dish a day in advance. Take it out of the fridge at least 1 hour before baking so it comes to room temperature.
 - Half batch: halve everything but use 2 eggs. Dry the bread on 1 baking sheet and bake the stuffing in a 10-inch cast iron or carbon steel skillet.
 - Go by the thermometer, not the clock. Reviewers on the recipe page report the covered bake running both short and long.
+- Short on bread: scale the stock to the bread, 0.8 fl oz of stock for each 1 oz of fresh bread. A 31.5 oz loaf takes 3 cups plus 2 TBLS, half in the sausage base and half in the egg mixture. Keep the 3 eggs and everything else as written, and start checking for 150°F at about 35 minutes.
 - Why oven-dried bread: bread dried in a low oven absorbs more stock than stale bread, which is how 2 loaves take a full quart.
 - For a less meaty version the author says sage alone works. A small dish made without the sausage, with vegetable stock, covers vegetarians.
 - It also stuffs a bird. The full batch is enough for two or three large turkeys, with the rest baked in a dish.

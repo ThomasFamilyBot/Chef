@@ -46,7 +46,7 @@ ingredients:
     unit: leaf
   - measure: 2 TBLS
     item: Fresh Thyme
-    prep: Leaves, chopped
+    prep: Leaves, chopped; fresh matters here, see Notes
     group: 2 -> Board sauce
     qty: 2
     unit: TBLS
@@ -58,7 +58,7 @@ ingredients:
     unit: clove
   - measure: 1/2
     item: Red Jalapeño
-    prep: Chopped
+    prep: Chopped; or a green jalapeño or a Fresno chile, same amount
     group: 2 -> Board sauce
     qty: 0.5
     unit: each
@@ -99,7 +99,7 @@ ingredients:
     nutrition: exclude
   - measure: 1/2 tsp
     item: Fresh Marjoram
-    prep: Only if it storms; minced
+    prep: Only if it storms; minced. Or a pinch of oregano, or leave it out
     group: 4 -> Skillet fallback
     qty: 0.5
     unit: tsp
@@ -228,4 +228,7 @@ nutrition:
 - The fire times are estimates for one small loin; the leg recipe they come from takes about 2 1/2 hours. Go by the thermometer.
 - The board sauce is a third of the leg recipe's.
 - The loin came from the freezer, so it is left off the shopping list. The fallback ingredients are on the list so they are in the house either way.
+- Chile for the board sauce: a green jalapeño or a Fresno chile works in place of red, same amount. A serrano is two to three times hotter, so use a quarter of one. Not habanero: far hotter, and its fruity flavor takes over the herbs.
+- No fresh thyme: make the board sauce with 2 TBLS chopped flat-leaf parsley plus 1 tsp dried thyme, and let it sit in the oil for the whole cook. Dried thyme alone tastes dusty in a raw sauce.
+- A "poultry blend" herb pack is usually thyme, sage and rosemary, which covers this recipe.
 - Indoors, the 350°F oven is the same temperature the stuffing and the mac and cheese bake at.

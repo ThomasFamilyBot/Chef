@@ -89,6 +89,7 @@ ingredients:
     unit: package
   - measure: 4 sprigs
     item: Fresh Thyme
+    prep: Or 1 tsp dried thyme
     group: 3 -> Braise
     qty: 4
     unit: sprig

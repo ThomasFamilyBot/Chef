@@ -88,7 +88,7 @@ ingredients:
     unit: clove
   - measure: 1 1/2
     item: Red Jalapeño
-    prep: Fresh
+    prep: Fresh; or green jalapeños or Fresno chiles, same amount
     group: 3 -> Board Sauce
     qty: 2
     unit: each
