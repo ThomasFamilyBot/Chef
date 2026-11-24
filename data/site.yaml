@@ -14,6 +14,8 @@ house_taste: "high-protein mains, bold flavors (Korean, Italian-American, BBQ, N
 equipment:
   - name: KitchenAid Ice Cream Maker attachment
     detail: "2 quart freeze bowl (stand mixer attachment). One churn makes at most 2 quarts of finished ice cream; the bowl has to refreeze (KitchenAid says 24 hours) between churns."
+  - name: Ice cream containers
+    detail: "Quart size. Write packing steps for quart containers (a 1 1/2 quart batch goes into 2 of them), not pints or one big tub."
 
 # --- GitHub
 repo: ThomasFamilyBot/chef       # owner/repository

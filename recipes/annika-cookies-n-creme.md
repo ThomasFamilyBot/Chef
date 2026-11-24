@@ -11,7 +11,7 @@ times:
   rest: 300
   total: 325
 tags: [dessert, ice-cream, kids, vegetarian, make-ahead]
-drive_doc_id: 1CMZz8giLlWd_jvBu6v6Lw16hMXguBhPpdHizvroHt20
+drive_doc_id: 1piQ7qWH9eztYoIvxWx2tHTOxLsfaVrAHTchdNZBuY50
 ingredients:
   - measure: 1 cup
     item: Whole Milk
@@ -133,7 +133,7 @@ nutrition:
 - Giant chunks: break 8 of the cookies from `3 -> Chunks` into 2 or 3 pieces each.
 - Tiny chunks: chop the other 6 into little pieces, about the size of a pea.
 - Freeze the crumbs and the chunks in separate containers while the base chills. Frozen cookies don't melt the ice cream when they go in, and they stay crunchier.
-- Put the tub the ice cream will live in into the freezer too.
+- Put the two quart-size containers the ice cream will live in, and the bowl for folding in the chunks, into the freezer too.
 
 **Churn**
 
@@ -142,17 +142,19 @@ nutrition:
 
 **Fold in the chunks**
 
-- Scrape the ice cream into a cold bowl. Add all the frozen giant and tiny chunks and fold them in by hand with a spatula. A few turns is enough.
+- Scrape the ice cream into the cold bowl. Add all the frozen giant and tiny chunks and fold them in by hand with a spatula. A few turns is enough.
+- The bowl is only for the chunks. No crumbs go in here and nothing gets swirled here.
 
-**Pack it with swirls**
+**Pack it with swirls** (in the containers it freezes in)
 
-- Spread one third of the ice cream in the cold tub. Sprinkle on one third of the frozen crumbs.
-- Do that two more times, ending with crumbs on top.
-- Drag a butter knife through the tub once or twice to pull the crumbs into dark ribbons. Don't stir, or the swirls disappear.
+- The swirls are made in the two quart-size containers, so nothing moves after it is swirled. Split the frozen crumbs into 2 equal piles, one for each container.
+- In each cold container: spoon in a layer of ice cream, then sprinkle on some of that container's crumbs. Do that two more times, ending with crumbs on top. Half the ice cream goes in each container.
+- Drag a butter knife through each container once or twice to pull the crumbs into dark ribbons. Don't stir, or the swirls disappear.
+- Put the lids on and get them straight into the freezer.
 
 **Freeze**
 
-- Cover and freeze until firm, at least 4 hours.
+- Freeze until firm, at least 4 hours.
 - Let it sit out 10 to 15 minutes before scooping. Ice cream without eggs freezes hard.
 
 **Notes**
@@ -161,4 +163,5 @@ nutrition:
 - The chunks are crunchiest in the first day or two and soften after that. Best within 1 to 2 weeks.
 - One freeze bowl makes one batch. Give it 24 hours back in the freezer before churning another ice cream.
 - Save a few broken cookies to put on top of each scoop.
+- One 2 quart tub or a loaf pan works in place of the two quart-size containers: layer and swirl the whole batch in it the same way, with all the crumbs.
 - For a richer, softer-scooping version, use the egg custard base from the library's Vanilla Ice Cream and keep everything about the cookies the same. It will be pale yellow, not white.
