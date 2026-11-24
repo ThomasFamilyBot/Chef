@@ -6,16 +6,16 @@ reference:
 serves: 10-12
 servings: 11
 times:
-  prep: 30
-  cook: 75
-  rest: null
-  total: 105
+  prep: 20
+  cook: 115
+  rest: 720
+  total: 855
 tags: [side, thanksgiving, holiday, vegetarian, casserole, make-ahead]
-drive_doc_id: 1L47GRSIsJgyfYa3lDTwJ9dfvyLZ8rSA22-cSajg6M1E
+drive_doc_id: 1khMbpD-sfDz_wzVrDRz1dXTn9jf4rVC9BtspxvzNg-0
 ingredients:
   - measure: 5 lb
     item: Sweet Potatoes
-    prep: Peeled, cut into 1-inch cubes (or five 16 oz cans unseasoned mashed sweet potatoes)
+    prep: Whole, scrubbed (or five 16 oz cans unseasoned mashed sweet potatoes)
     group: 1 -> Sweet potatoes
     qty: 5
     unit: lb
@@ -179,21 +179,28 @@ nutrition:
   - Salt, pepper and 'to taste' lines counted as zero.
   excluded: []
 ---
-**Cook the sweet potatoes**
+**Bake the sweet potatoes** (the day before)
 
-- Heat the oven to 375°F. Lightly butter a 13-by-9-inch or 3-quart casserole dish.
-- Put the cubed sweet potatoes in a large pot, cover with cold water and bring to a boil (212°F). Simmer (185-205°F) about 15 minutes, until very tender.
-- Drain in a colander and let cool slightly. Mash in a large bowl until smooth, with the back of a spoon, a hand mixer or a food processor.
-- If using canned mashed sweet potatoes, skip the cooking and tip them into a large bowl.
+- Heat the oven to 400°F. Line a rimmed baking sheet with foil; the potatoes leak sticky syrup.
+- Prick each sweet potato a few times with a fork and set them on the sheet. Bake until a knife slides into the thickest one with no resistance, about 45 to 60 minutes for medium potatoes, longer for large ones.
+- Let them cool until you can handle them. Split them, scoop the flesh into a large bowl and discard the skins. Mash until smooth, with the back of a spoon, a hand mixer or a food processor.
+- If using canned mashed sweet potatoes, skip the baking and tip them into a large bowl.
 
 **Make the filling**
 
-- Add everything from `2 -> Filling` to the sweet potatoes and stir well. Taste and adjust the seasoning now, before the eggs go in.
-- Add the eggs from `3 -> Eggs` and mix well. Spoon into the buttered dish.
+- Let the mash cool until it is just warm. Eggs scramble in hot mash.
+- Add everything from `2 -> Filling` to the sweet potatoes and stir well. Taste and adjust the seasoning now, before the eggs go in. If the mash is stiff, add a splash more half and half.
+- Add the eggs from `3 -> Eggs` and mix well.
+- Lightly butter a 13-by-9-inch or 3-quart casserole dish and spoon in the filling.
 
-**Bake**
+**Chill overnight**
 
-- Cover with foil and bake 30 to 40 minutes, until heated through.
+- Cover with foil and refrigerate overnight, up to 24 hours. The marshmallows stay off until the day of.
+
+**Bake** (the day of)
+
+- Take the dish out of the fridge and heat the oven to 375°F.
+- Bake, still covered with foil, 35 to 45 minutes, until heated through.
 - Take it out and stir gently so it is evenly warm throughout.
 
 **Topping**
@@ -202,8 +209,10 @@ nutrition:
 
 **Notes**
 
-- Make ahead: assemble through spooning the filling into the dish, cover with foil and refrigerate up to 24 hours. Add a few minutes to the baking time if it goes in cold.
+- Whole-baked potatoes and the overnight chill are our default. The source cubes and boils the potatoes and bakes the same day; both alternatives are below.
+- Alternative, boiled: peel 5 lb sweet potatoes and cut into 1-inch cubes. Cover with cold water in a large pot, bring to a boil (212°F), then simmer (185-205°F) about 15 minutes, until very tender. Drain, let cool slightly and mash. Boiled mash is wetter and a little less sweet than baked.
+- Alternative, same day: skip the chill. Heat the oven to 375°F while you make the filling and bake covered 30 to 40 minutes, then stir and top as written.
+- The whole-potato baking time and temperature are ours; the source only says to bake them until tender.
 - To halve it, use half of everything and an 8-by-8-inch dish.
-- Baking the sweet potatoes whole in the oven until tender, then scooping and mashing, works in place of cubing and cooking them in water.
 - Jumbo marshmallows work too: cut them into quarters.
 - Leftovers keep in the fridge up to 4 days.
