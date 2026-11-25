@@ -17,94 +17,94 @@ ingredients:
   - measure: 5 lb
     item: Beef Short Ribs, bone-in
     prep: English cut about 4 inches long, well marbled, at least 1 1/2 inches of meat above the bone
-    group: 1 -> Sear
+    group: 1 -> Season the ribs
     qty: 5
     unit: lb
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Sear (then 5 -> Finish)
+    group: 1 -> Season the ribs (then 10 -> Season to taste)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Sear (then 5 -> Finish)
+    group: 1 -> Season the ribs (then 10 -> Season to taste)
     qty: 1
     unit: to taste
   - measure: 1 TBLS
     item: Neutral Oil
     prep: Vegetable or other neutral oil
-    group: 1 -> Sear
+    group: 2 -> Searing oil
     qty: 1
     unit: TBLS
   - measure: 2 stalks (7 oz)
     item: Celery
     prep: 1/2-inch dice
-    group: 2 -> Aromatics
+    group: 3 -> Aromatics
     qty: 2
     unit: stalk
     nutrition: {fraction: 0.2, note: strained out of the sauce; only what cooks into the liquid is counted}
   - measure: 2 large (1 lb)
     item: Carrots
     prep: 1/2-inch dice
-    group: 2 -> Aromatics
+    group: 3 -> Aromatics
     qty: 1
     unit: lb
     nutrition: {fraction: 0.2, note: strained out of the sauce; only what cooks into the liquid is counted}
   - measure: 1 large (14 oz)
     item: Yellow Onion
     prep: 1/2-inch dice
-    group: 2 -> Aromatics
+    group: 3 -> Aromatics
     qty: 14
     unit: oz
     nutrition: {fraction: 0.2, note: strained out of the sauce; only what cooks into the liquid is counted}
   - measure: 5 cloves
     item: Garlic
     prep: Smashed
-    group: 2 -> Aromatics
+    group: 3 -> Aromatics
     qty: 5
     unit: clove
     nutrition: {fraction: 0.2, note: strained out of the sauce; only what cooks into the liquid is counted}
   - measure: 2 TBLS
     item: Tomato Paste
-    group: 2 -> Aromatics
+    group: 4 -> Tomato paste
     qty: 2
     unit: TBLS
   - measure: 1 bottle (25.4 fl oz)
     item: Dry Red Wine
     prep: A standard 750 mL bottle
-    group: 3 -> Braise
+    group: 5 -> Deglaze
     qty: 1
     unit: bottle
   - measure: 4 cups
     item: Chicken Stock
     prep: Store-bought, or a homemade beef or chicken stock that sets like jelly (then skip the gelatin)
-    group: 3 -> Braise
+    group: 6 -> Stock
     qty: 4
     unit: cup
   - measure: 1 packet (2 1/2 tsp)
     item: Unflavored Gelatin
     prep: Only with store-bought stock
-    group: 3 -> Braise
+    group: 6 -> Stock
     qty: 1
     unit: package
   - measure: 4 sprigs
     item: Fresh Thyme
     prep: Or 1 tsp dried thyme
-    group: 3 -> Braise
+    group: 7 -> Herbs
     qty: 4
     unit: sprig
     nutrition: exclude
   - measure: 2
     item: Bay Leaves
-    group: 3 -> Braise
+    group: 7 -> Herbs
     qty: 2
     unit: each
     nutrition: exclude
   - measure: 1 bottle (25.4 fl oz)
     item: Ruby Port
     prep: An inexpensive one; a standard 750 mL bottle
-    group: 4 -> Port syrup
+    group: 8 -> Port syrup
     qty: 1
     unit: bottle
     section: Beverages, Beer & Wine
@@ -112,7 +112,7 @@ ingredients:
   - measure: 1/2 tsp
     item: Cornstarch
     prep: Stirred into 1 tsp water; optional, only if the sauce is thin
-    group: 5 -> Finish
+    group: 9 -> Slurry
     qty: 0.5
     unit: tsp
 nutrition:
@@ -244,14 +244,14 @@ nutrition:
 
 **Cook the aromatics**
 
-- Pour off all but 2 TBLS of fat. Add the celery, carrots, onion and garlic from `2 -> Aromatics` and cook, stirring, until well colored, about 6 minutes.
-- Stir in the tomato paste and cook 1 minute more. Turn the heat down any time the pot threatens to burn.
+- Pour off all but 2 TBLS of fat. Add the celery, carrots, onion and garlic from `3 -> Aromatics` and cook, stirring, until well colored, about 6 minutes.
+- Stir in the tomato paste from `4 -> Tomato paste` and cook 1 minute more. Turn the heat down any time the pot threatens to burn.
 
 **Braise**
 
-- Add the red wine and scrape up everything stuck to the pot. Bring to a simmer (185-205°F).
-- If using store-bought stock, pour it into a bowl and sprinkle the gelatin over the top until it blooms. Add the stock to the pot.
-- Return the ribs and their juices, nestling them into the liquid. Add the thyme and bay leaves.
+- Add the red wine from `5 -> Deglaze` on its own and scrape up everything stuck to the pot. Bring to a simmer (185-205°F) before anything else goes in.
+- If using store-bought stock, pour it into a bowl and sprinkle the gelatin over the top until it blooms (`6 -> Stock`). Add the stock to the pot.
+- Return the ribs and their juices, nestling them into the liquid. Add the thyme and bay leaves from `7 -> Herbs`.
 - Cover partially and braise in the oven until fork-tender, 2 to 3 hours.
 
 **Make the port syrup**
@@ -269,7 +269,7 @@ nutrition:
 
 **Finish**
 
-- The sauce should coat the back of a spoon and hold a trail when you drag a finger through it. If it is still thin, whisk in the cornstarch slurry from `5 -> Finish` and simmer until slightly thickened.
+- The sauce should coat the back of a spoon and hold a trail when you drag a finger through it. If it is still thin, whisk in the cornstarch slurry from `9 -> Slurry` and simmer until slightly thickened.
 - Season with salt and pepper. Return the ribs to the pot and spoon the sauce over and around them to glaze and rewarm. Serve.
 
 **Notes**
