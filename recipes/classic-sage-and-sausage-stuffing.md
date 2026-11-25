@@ -12,7 +12,7 @@ times:
   total: 170
 tags: [side, thanksgiving, holiday, pork, bread, make-ahead]
 techniques_skip: [medium heat, high heat, internal temperature]
-drive_doc_id: 1gvFumB_d4h8Jn88IwlMZklGcePPRnSuckIweEL0IdLE
+drive_doc_id: 1Lq2C0PWwjCSZNBpMRsOIIj-thsFJF3YM4917JBY439I
 ingredients:
   - measure: 2 1/2 lb (about 2 loaves)
     item: White Bread

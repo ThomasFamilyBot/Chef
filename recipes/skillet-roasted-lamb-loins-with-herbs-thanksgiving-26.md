@@ -15,7 +15,7 @@ times:
   rest: 720
   total: 790
 tags: [lamb, main, holiday, entertaining, grill, thanksgiving-26]
-drive_doc_id: 18DCKxSWzE1pXG8Lm5IZ0sBbkWMijqC4Bp4MWq8meYko
+drive_doc_id: 1i5qDTgDhmSBPkePZ3-ts4XmbYnYl0OIOV2Z37m_0OoA
 ingredients:
   - measure: 1 (1 1/2 lb)
     item: Lamb Loins

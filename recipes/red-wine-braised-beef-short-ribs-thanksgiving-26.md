@@ -16,7 +16,7 @@ times:
   total: 295
 tags: [beef, main, braise, french, make-ahead, holiday, project, thanksgiving-26]
 techniques_skip: [medium heat, high heat, boil]
-drive_doc_id: 1-DzNiSGbOogkBcQRaolQe5LJBPJOe9P_A5CbIQfNdE4
+drive_doc_id: 1zBXvMzfIZxzyskqNm6l3bmTAO7caIZyEAUIhAI0MBL8
 ingredients:
   - measure: 2 lb
     item: Beef Short Ribs, bone-in
