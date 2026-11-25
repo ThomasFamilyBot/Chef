@@ -12,7 +12,7 @@ times:
   total: 170
 tags: [side, thanksgiving, holiday, pork, bread, make-ahead]
 techniques_skip: [medium heat, high heat, internal temperature]
-drive_doc_id: 1fh338j8p-M0KlBmT1MBLg8MtA3LJUTsaXOyt-Z0X6Jo
+drive_doc_id: 1gvFumB_d4h8Jn88IwlMZklGcePPRnSuckIweEL0IdLE
 ingredients:
   - measure: 2 1/2 lb (about 2 loaves)
     item: White Bread
@@ -188,7 +188,9 @@ nutrition:
 **Dry the bread**
 
 - Set the oven racks to lower-middle and upper-middle. Heat the oven to 275°F.
-- Spread the bread from `1 -> Bread` over 2 rimmed baking sheets. Bake until completely dried, about 50 minutes, rotating the trays and stirring the cubes several times.
+- Spread the bread from `1 -> Bread` over 2 rimmed baking sheets. Bake until completely dried, about 50 minutes.
+- Every 15 minutes (at 15, 30 and 45 minutes), stir the cubes, swap the trays between the racks and turn each one front to back.
+- It is done when a cube snaps dry all the way through, like a crouton, with little or no color.
 - Let the bread cool. Raise the oven to 350°F.
 
 **Cook the sausage base**
@@ -220,6 +222,8 @@ nutrition:
 - Half batch: halve everything but use 2 eggs. Dry the bread on 1 baking sheet and bake the stuffing in a 10-inch cast iron or carbon steel skillet.
 - Go by the thermometer, not the clock. Reviewers on the recipe page report the covered bake running both short and long.
 - Short on bread: scale the stock to the bread, 0.8 fl oz of stock for each 1 oz of fresh bread. A 31.5 oz loaf takes 3 cups plus 2 TBLS, half in the sausage base and half in the egg mixture. Keep the 3 eggs and everything else as written, and start checking for 150°F at about 35 minutes.
+- The source says to rotate the trays and stir "several times"; every 15 minutes is our reading of that.
+- Dried bread keeps a few days in a sealed bag at room temperature, so it can be done any day before.
 - Why oven-dried bread: bread dried in a low oven absorbs more stock than stale bread, which is how 2 loaves take a full quart.
 - For a less meaty version the author says sage alone works. A small dish made without the sausage, with vegetable stock, covers vegetarians.
 - It also stuffs a bird. The full batch is enough for two or three large turkeys, with the rest baked in a dish.
