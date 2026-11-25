@@ -15,104 +15,104 @@ drive_doc_id: 1B28HdE8Mde5DW5H1ewsy7v89fvk4dyuRecR5lGznKwg
 ingredients:
   - measure: 2 TBLS
     item: Olive Oil
-    group: 1 -> Sauce
+    group: 1 -> Oil for the pot
     qty: 2
     unit: TBLS
   - measure: 1 large
     item: Yellow Onion
     prep: Finely chopped
-    group: 1 -> Sauce
+    group: 2 -> Sweat
     qty: 1
     unit: each
   - measure: 4 cloves
     item: Garlic
     prep: Finely chopped
-    group: 1 -> Sauce
+    group: 2 -> Sweat
     qty: 4
     unit: clove
   - measure: 6 fillets
     item: Anchovy Fillets
     prep: Optional
-    group: 1 -> Sauce
+    group: 2 -> Sweat
     qty: 6
     unit: fillet
     section: Canned & Jarred
   - measure: To taste
     item: Kosher Salt
     prep: Plus more for the pasta water
-    group: 1 -> Sauce (then 2 -> Cheese mixture, 3 -> Noodles)
+    group: 2 -> Sweat (then 4 -> Tomatoes, 5 -> Cheese mixture)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Sauce (then 2 -> Cheese mixture)
+    group: 2 -> Sweat (then 4 -> Tomatoes, 5 -> Cheese mixture)
     qty: 1
     unit: to taste
   - measure: 2 TBLS
     item: Tomato Paste
     prep: Optional
-    group: 1 -> Sauce
+    group: 3 -> Tomato paste
     qty: 2
     unit: TBLS
   - measure: 1 (28 oz) can
     item: Whole Peeled Tomatoes, 28 oz can
     prep: Crushed by hand into bite-size pieces
-    group: 1 -> Sauce
+    group: 4 -> Tomatoes
     qty: 1
     unit: can
   - measure: 1 (28 oz) can
     item: Crushed Tomatoes, 28 oz can
-    group: 1 -> Sauce
+    group: 4 -> Tomatoes
     qty: 1
     unit: can
   - measure: 1/2 can (about 1 3/4 cups)
     item: Water
     prep: Swirled in a tomato can
-    group: 1 -> Sauce
+    group: 4 -> Tomatoes
     qty: 1.75
     unit: cup
     shop: false
   - measure: 1 1/2 lb
     item: Fresh Mozzarella
     prep: Grated or shredded; 1 cup reserved for the top
-    group: 2 -> Cheese mixture
+    group: 5 -> Cheese mixture (then 8 -> Top)
     qty: 1.5
     unit: lb
     section: Cheese & Deli
   - measure: 1 lb (2 cups)
     item: Whole-Milk Ricotta
-    group: 2 -> Cheese mixture
+    group: 5 -> Cheese mixture
     qty: 1
     unit: lb
     section: Dairy & Eggs
   - measure: 1 cup
     item: Parmesan
     prep: Coarsely grated; plus more for the top
-    group: 2 -> Cheese mixture
+    group: 5 -> Cheese mixture (then 8 -> Top)
     qty: 1
     unit: cup
   - measure: 1/3 cup
     item: Heavy Cream
-    group: 2 -> Cheese mixture
+    group: 5 -> Cheese mixture
     qty: 0.333
     unit: cup
   - measure: 1 clove
     item: Garlic
     prep: Finely grated
-    group: 2 -> Cheese mixture
+    group: 5 -> Cheese mixture
     qty: 1
     unit: clove
   - measure: 1 lb
     item: Lasagna Noodles
     prep: Dried, not no-boil
-    group: 3 -> Noodles
+    group: 6 -> Noodles
     qty: 1
     unit: lb
   - measure: Drizzle
     item: Olive Oil
     prep: To keep the noodles from sticking
-    group: 3 -> Noodles
+    group: 7 -> Oil for the noodles
     qty: 1
     unit: TBLS
 nutrition:
@@ -260,7 +260,7 @@ nutrition:
 **Make the cheese mixture**
 
 - Heat the oven to 425°F and bring a large pot of salted water to a boil.
-- Set aside 1 cup of the mozzarella for the top. In a medium bowl, combine the rest of `2 -> Cheese mixture` (mozzarella, ricotta, Parmesan, cream, grated garlic); season with salt and pepper.
+- Set aside 1 cup of the mozzarella for the top. In a medium bowl, combine the rest of `5 -> Cheese mixture` (mozzarella, ricotta, Parmesan, cream, grated garlic); season with salt and pepper.
 
 **Cook the noodles**
 

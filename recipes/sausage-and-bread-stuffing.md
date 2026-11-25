@@ -23,63 +23,63 @@ ingredients:
   - measure: 1 stick (8 TBLS), more for the dish
     item: Unsalted Butter
     prep: Half reserved for brushing the top
-    group: 2 -> Vegetables (then 5 -> Assemble & bake)
+    group: 2 -> Butter (then 7 -> Assemble & bake)
     qty: 1
     unit: stick
   - measure: 4 ribs (1 1/2 cups)
     item: Celery
     prep: Inner ribs, finely diced
-    group: 2 -> Vegetables
+    group: 3 -> Vegetables
     qty: 4
     unit: stalk
   - measure: 2 large (1 cup)
     item: Carrots
     prep: Finely diced
-    group: 2 -> Vegetables
+    group: 3 -> Vegetables
     qty: 2
     unit: each
   - measure: 1 (2 1/2 cups)
     item: Sweet Onion
     prep: Finely diced
-    group: 2 -> Vegetables
+    group: 3 -> Vegetables
     qty: 1
     unit: each
     section: Produce
   - measure: 1 lb
     item: Breakfast Sausage
     prep: Loose (bulk) pork or turkey
-    group: 3 -> Sausage
+    group: 4 -> Sausage
     qty: 1
     unit: lb
     section: Meat & Seafood
   - measure: 2 TBLS
     item: Fresh Sage
     prep: Chopped
-    group: 4 -> Herbs & deglaze
+    group: 5 -> Herbs
     qty: 2
     unit: TBLS
   - measure: 2 TBLS
     item: Fresh Thyme
     prep: Chopped
-    group: 4 -> Herbs & deglaze
+    group: 5 -> Herbs
     qty: 2
     unit: TBLS
   - measure: 3 cups
     item: Turkey Stock
     prep: Homemade, or Chicken Stock as a shortcut. 1 cup, then 2 cups
-    group: 4 -> Herbs & deglaze (then 5 -> Assemble & bake)
+    group: 6 -> Deglaze (then 7 -> Assemble & bake)
     qty: 3
     unit: cup
     section: Canned & Jarred
   - measure: To taste
     item: Kosher Salt
-    group: 5 -> Assemble & bake
+    group: 7 -> Assemble & bake
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 5 -> Assemble & bake
+    group: 7 -> Assemble & bake
     qty: 1
     unit: to taste
 nutrition:

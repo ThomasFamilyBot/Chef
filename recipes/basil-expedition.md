@@ -35,14 +35,14 @@ ingredients:
   - measure: 1/4 cup + 1 cup
     item: Water
     prep: 1/4 cup warm for the syrup, 1 cup for the pitcher
-    group: 1 -> Spicy ginger syrup (then 2 -> Pitcher)
+    group: 1 -> Spicy ginger syrup (then 4 -> Water)
     qty: 1.25
     unit: cup
     shop: false
   - measure: 30 leaves, plus 10 sprigs to serve
     item: Thai Basil
     prep: Fresh
-    group: 2 -> Pitcher (then 4 -> Serve)
+    group: 2 -> Muddle (then 6 -> Serve)
     qty: 30
     unit: leaf
     section: Produce
@@ -50,19 +50,19 @@ ingredients:
   - measure: 2 3/4 cups
     item: Bourbon
     prep: 1/2 cup to muddle, 2 1/4 cups to finish
-    group: 2 -> Pitcher
+    group: 2 -> Muddle (then 3 -> Bourbon)
     qty: 2.75
     unit: cup
     section: Beverages, Beer & Wine
   - measure: 1 cup
     item: Lime Juice
     prep: Fresh (about 8 limes)
-    group: 3 -> Lime
+    group: 5 -> Lime
     qty: 1
     unit: cup
   - measure: To fill the pitcher and glasses
     item: Ice
-    group: 4 -> Serve
+    group: 6 -> Serve
     qty: 1
     unit: each
     shop: false

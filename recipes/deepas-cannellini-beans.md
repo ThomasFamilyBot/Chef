@@ -17,7 +17,7 @@ ingredients:
   - measure: 1 lb
     item: Cannellini Beans, dried
     prep: 1 bag, about 16 oz
-    group: 1 -> Soak (then 7 -> Beans)
+    group: 1 -> Soak (then 8 -> Beans)
     qty: 1
     unit: lb
   - measure: To taste
@@ -28,99 +28,99 @@ ingredients:
     unit: to taste
   - measure: 1/4 cup
     item: Olive Oil
-    group: 2 -> Start the pot
+    group: 2 -> Oil
     qty: 0.25
     unit: cup
   - measure: 1/4 tsp
     item: Fennel Seeds
-    group: 2 -> Start the pot
+    group: 3 -> Fennel and onion
     qty: 0.25
     unit: tsp
   - measure: 1
     item: Yellow Onion
     prep: Finely chopped
-    group: 2 -> Start the pot
+    group: 3 -> Fennel and onion
     qty: 1
     unit: each
   - measure: 1
     item: Leek
     prep: Finely chopped
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 1
     unit: each
     section: Produce
   - measure: 1
     item: Carrots
     prep: Finely chopped
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 1
     unit: each
   - measure: 1
     item: Bell Pepper
     prep: Finely chopped
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 1
     unit: each
   - measure: 2 stalks
     item: Celery
     prep: Finely chopped
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 2
     unit: stalk
   - measure: 1/4 cup
     item: Dry Madeira
-    group: 4 -> Madeira
+    group: 5 -> Madeira
     qty: 0.25
     unit: cup
     section: Beverages, Beer & Wine
   - measure: 1/4 cup
     item: Tomato Paste
-    group: 5 -> Tomato paste
+    group: 6 -> Tomato paste
     qty: 0.25
     unit: cup
   - measure: 2 cloves (est.)
     item: Garlic
     prep: Minced; Deepa's sheet gives no amount
-    group: 6 -> Garlic, herbs and spices
+    group: 7 -> Garlic, herbs and spices
     qty: 2
     unit: clove
   - measure: 1/2 tsp
     item: Black Pepper
     prep: Ground
-    group: 6 -> Garlic, herbs and spices
+    group: 7 -> Garlic, herbs and spices
     qty: 0.5
     unit: tsp
   - measure: 1/4 tsp
     item: Dried Oregano
-    group: 6 -> Garlic, herbs and spices
+    group: 7 -> Garlic, herbs and spices
     qty: 0.25
     unit: tsp
   - measure: 1/4 tsp
     item: Dried Thyme
-    group: 6 -> Garlic, herbs and spices
+    group: 7 -> Garlic, herbs and spices
     qty: 0.25
     unit: tsp
   - measure: 1/8 tsp
     item: Nutmeg
     prep: Powdered or grated
-    group: 6 -> Garlic, herbs and spices
+    group: 7 -> Garlic, herbs and spices
     qty: 0.125
     unit: tsp
   - measure: 1
     item: Bay Leaves
-    group: 6 -> Garlic, herbs and spices
+    group: 7 -> Garlic, herbs and spices
     qty: 1
     unit: each
   - measure: 1 sprig
     item: Fresh Rosemary
     prep: 2 inches long
-    group: 6 -> Garlic, herbs and spices
+    group: 7 -> Garlic, herbs and spices
     qty: 1
     unit: sprig
   - measure: 5 oz
     item: Parmesan Rind
     prep: Italian red cow
-    group: 7 -> Beans
+    group: 8 -> Beans
     qty: 5
     unit: oz
     section: Cheese & Deli
@@ -130,36 +130,36 @@ ingredients:
   - measure: 4 1/2 cups (36 fl oz)
     item: Chicken Stock
     prep: Or vegetable broth
-    group: 7 -> Beans
+    group: 8 -> Beans
     qty: 4.5
     unit: cup
   - measure: To taste
     item: Flaky Sea Salt
-    group: 8 -> Season
+    group: 9 -> Season
     qty: 1
     unit: to taste
   - measure: 1 TBLS
     item: Olive Oil
-    group: 9 -> Topping
+    group: 10 -> Topping oil
     qty: 1
     unit: TBLS
   - measure: 1 TBLS (about 3 cloves)
     item: Garlic
     prep: Sliced
-    group: 9 -> Topping
+    group: 11 -> Topping garlic
     qty: 3
     unit: clove
   - measure: 1/2 tsp
     item: Aleppo Pepper
     prep: Or chili flakes
-    group: 9 -> Topping
+    group: 11 -> Topping garlic
     qty: 0.5
     unit: tsp
     section: Spices & Dried Herbs
   - measure: To taste
     item: Parmesan
     prep: Shaved
-    group: 9 -> Topping
+    group: 12 -> Shaved Parmesan
     qty: 1
     unit: to taste
 nutrition:
@@ -361,27 +361,27 @@ nutrition:
 **Start the pot**
 
 - Set a heavy pot (Deepa uses a Fissler pressure cooker) over medium heat (pan surface 300-350°F).
-- Add the olive oil from `2 -> Start the pot`. Optional: add the rendered fat of a slice of bacon.
-- Add the fennel seeds and chopped onion. Cook 4 to 5 minutes, until the onion is soft and turns light brown.
+- Add the olive oil from `2 -> Oil`. Optional: add the rendered fat of a slice of bacon.
+- Add the fennel seeds and chopped onion from `3 -> Fennel and onion`. Cook 4 to 5 minutes, until the onion is soft and turns light brown.
 
 **Cook the vegetables**
 
-- Add everything from `3 -> Vegetables` (not the garlic). Sauté for 5 minutes.
+- Add everything from `4 -> Vegetables` (not the garlic). Sauté for 5 minutes.
 
 **Add the Madeira**
 
-- Add the wine from `4 -> Madeira`. Mix well and let it reduce.
+- Add the wine from `5 -> Madeira`. Mix well and let it reduce.
 - Move the chopped vegetables to the side of the pot.
 
 **Fry the tomato paste**
 
-- Add the tomato paste from `5 -> Tomato paste` to the middle of the pot. Sauté it, adding a little butter or olive oil, until the paste turns a deep maroon color.
-- Add the minced garlic, then the herbs and spices, all from `6 -> Garlic, herbs and spices`.
+- Add the tomato paste from `6 -> Tomato paste` to the middle of the pot. Sauté it, adding a little butter or olive oil, until the paste turns a deep maroon color.
+- Add the minced garlic, then the herbs and spices, all from `7 -> Garlic, herbs and spices`.
 
 **Add the beans**
 
 - Add the soaked, rinsed and drained beans.
-- Add the Parmesan rind from `7 -> Beans`.
+- Add the Parmesan rind from `8 -> Beans`.
 - Add the broth and bring to a simmer (185-205°F).
 
 **Cook until soft**
@@ -393,11 +393,11 @@ nutrition:
 **Season**
 
 - Remove the Parmesan rind.
-- Add the sea salt flakes from `8 -> Season` to taste.
+- Add the sea salt flakes from `9 -> Season` to taste.
 
 **Top and serve**
 
-- Heat the olive oil from `9 -> Topping` in a saucepan. Lightly brown the sliced garlic and the Aleppo pepper or chili flakes.
+- Heat the olive oil from `10 -> Topping oil` in a saucepan. Lightly brown the sliced garlic and the Aleppo pepper or chili flakes from `11 -> Topping garlic`.
 - Pour it over the beans. Serve with shaved Parmesan on top.
 
 **Notes**

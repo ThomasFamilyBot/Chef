@@ -55,7 +55,7 @@ ingredients:
   - measure: 3/4 tsp + 1 tsp
     item: Kosher Salt
     prep: 3/4 tsp in the spice mix, 1 tsp on the beef
-    group: 1 -> Spice mix (then 2 -> Season the beef)
+    group: 1 -> Spice mix (then 3 -> Season the beef)
     qty: 1.75
     unit: tsp
   - measure: 1 tsp
@@ -67,37 +67,37 @@ ingredients:
   - measure: 3 TBLS
     item: Grapeseed Oil
     prep: Or another neutral oil
-    group: 1 -> Spice mix
+    group: 2 -> Oil for the paste
     qty: 3
     unit: TBLS
     section: Oils, Vinegars & Condiments
   - measure: 1 1/2 lb
     item: Flat Iron Steak
     prep: Sliced against the grain into 1/2-inch-thick strips
-    group: 2 -> Season the beef
+    group: 3 -> Season the beef
     qty: 1.5
     unit: lb
     section: Meat & Seafood
+  - measure: 4
+    item: Metal Skewers
+    prep: 12-inch
+    group: 4 -> Skewer and broil
+    qty: 4
+    unit: each
+    shop: false
+    nutrition: exclude
   - measure: 1 TBLS, plus wedges to serve
     item: Lime Juice
     prep: Fresh
-    group: 4 -> Finish
+    group: 5 -> Lime juice
     qty: 1
     unit: TBLS
   - measure: For serving
     item: Lime
     prep: Wedges
-    group: 4 -> Finish
+    group: 6 -> Serve
     qty: 1
     unit: each
-    nutrition: exclude
-  - measure: 4
-    item: Metal Skewers
-    prep: 12-inch
-    group: 3 -> Skewer and broil
-    qty: 4
-    unit: each
-    shop: false
     nutrition: exclude
 nutrition:
   computed: '2026-11-12'

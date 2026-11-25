@@ -15,50 +15,50 @@ drive_doc_id: 1DRoXnLtn6DZA03SuAnvnf9AQhKTknHYYY-P-JsMiw04
 ingredients:
   - measure: 2 TBLS
     item: Extra-Virgin Olive Oil
-    group: 1 -> Aromatics
+    group: 1 -> Oil and garlic
     qty: 2
     unit: TBLS
   - measure: 4 cloves
     item: Garlic
     prep: Crushed with the flat of a knife
-    group: 1 -> Aromatics
+    group: 1 -> Oil and garlic
     qty: 4
     unit: clove
   - measure: Generous pinch
     item: Red Pepper Flakes
-    group: 1 -> Aromatics
+    group: 2 -> Red pepper flakes
     qty: 1
     unit: pinch
   - measure: 1 tsp
     item: Dried Oregano
-    group: 1 -> Aromatics
+    group: 3 -> Oregano
     qty: 1
     unit: tsp
   - measure: 3 TBLS
     item: Tomato Paste
-    group: 2 -> Tomato paste
+    group: 4 -> Tomato paste
     qty: 3
     unit: TBLS
   - measure: 2 cans (28 oz each)
     item: Whole Peeled Tomatoes, 28 oz can
     prep: With their juices
-    group: 3 -> Tomatoes
+    group: 5 -> Tomatoes
     qty: 2
     unit: can
   - measure: 1 large sprig
     item: Basil
     prep: Discarded at the end
-    group: 4 -> Simmer & finish
+    group: 6 -> Basil
     qty: 1
     unit: sprig
   - measure: To taste
     item: Kosher Salt
-    group: 4 -> Simmer & finish
+    group: 7 -> Finish
     qty: 1
     unit: to taste
   - measure: 2 TBLS (optional)
     item: Unsalted Butter
-    group: 4 -> Simmer & finish
+    group: 7 -> Finish
     qty: 2
     unit: TBLS
 nutrition:

@@ -46,6 +46,16 @@ Follow `.claude/skills/recipe-intake/SKILL.md` exactly. It covers the questions 
 Report all four in the final message.
 **Once the deploy has finished successfully, give the person the recipe's site link** (`<site_url>r/<slug>.html`), checked live (HTTP 200). This applies to every new recipe, including ones added from the inbox.
 
+## Mise groupings: one bowl, one moment
+
+A mise group holds only the ingredients that go into the pot at the same moment. If the directions add things separately (the wine goes in and simmers before the stock; the garlic goes in after the onion; the oil heats first), they are separate bowls, even when they belong to the same step or the same sauce. Never group by step or component.
+
+- The full rule, the common splits and the check are in `.claude/skills/recipe-intake/SKILL.md` ("Mise groups: one bowl, one moment").
+- Run that check **every time** a recipe's ingredients or the order of its directions change: new recipes, Google Doc syncs, event versions, and fixes made after a cooking question.
+- The validator only checks numbering. It warns when a direction says "everything from a bowl except...", which means the bowl is wrong, but it cannot tell that a bowl is right.
+
+Why: on 2026-11-25 the Thanksgiving short ribs had the wine in the same bowl as the stock and herbs, though the wine goes in first, alone. The whole library was regrouped that day.
+
 ## When the family edits a Google Doc and says "doc updated, update the app"
 
 Follow `.claude/skills/drive-sync/SKILL.md`: find the recipe by the doc id, read the doc, update the recipe file, recompute nutrition, rebuild.

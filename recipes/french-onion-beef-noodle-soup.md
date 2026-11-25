@@ -16,107 +16,107 @@ drive_doc_id: 1sDk95ihrSp_QIbjwUbN8oW0NAE9W5GN75cLOKphg8cw
 ingredients:
   - measure: 2 TBLS
     item: Neutral Oil
-    group: 1 -> Brown the ribs
+    group: 1 -> Oil
     qty: 2
     unit: TBLS
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Brown the ribs (then 4 -> Start onions)
+    group: 2 -> Ribs (then 8 -> Onions)
     qty: 1
     unit: to taste
-  - measure: 12 cups
-    item: Water
-    group: 2 -> Start the stock
-    qty: 12
-    unit: cup
-    shop: false
   - measure: 3 lb
     item: Beef Short Ribs, bone-in
     prep: 2" segments, English style
-    group: 1 -> Brown the ribs
+    group: 2 -> Ribs
     qty: 3
     unit: lb
   - measure: 6
     item: Scallions
     prep: Whites for stock, greens thinly sliced for serving
-    group: 2 -> Start the stock (then 6 -> Finish & serve)
+    group: 3 -> Aromatics (then 11 -> Serve)
     qty: 1
     unit: bunch
   - measure: 8 cloves
     item: Garlic
     prep: Peeled, whole
-    group: 2 -> Start the stock
+    group: 3 -> Aromatics
     qty: 8
     unit: clove
   - measure: 4" piece
     item: Ginger
     prep: Thinly sliced
-    group: 2 -> Start the stock
+    group: 3 -> Aromatics
     qty: 4
     unit: oz
   - measure: 6 pods
     item: Star Anise
     prep: 1 'star' = 1 pod
-    group: 3 -> Spices
+    group: 4 -> Spices
     qty: 6
     unit: each
     section: Spices & Dried Herbs
   - measure: 2 (3" each)
     item: Cinnamon Sticks
-    group: 3 -> Spices
+    group: 4 -> Spices
     qty: 2
     unit: each
     section: Spices & Dried Herbs
   - measure: 8
     item: Whole Cloves
-    group: 3 -> Spices
+    group: 4 -> Spices
     qty: 8
     unit: each
     section: Spices & Dried Herbs
   - measure: 2 tsp
     item: Black Peppercorns
-    group: 3 -> Spices
+    group: 4 -> Spices
     qty: 2
     unit: tsp
   - measure: 2 tsp
     item: Coriander Seeds
-    group: 3 -> Spices
+    group: 4 -> Spices
     qty: 2
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 cup
     item: Dry White Wine
     prep: Rombauer Chard was good
-    group: 2 -> Start the stock
+    group: 5 -> Wine
     qty: 1
     unit: cup
+  - measure: 12 cups
+    item: Water
+    group: 6 -> Soy and water
+    qty: 12
+    unit: cup
+    shop: false
   - measure: 1/2 cup +
     item: Soy Sauce, low sodium
     prep: Plus more to taste
-    group: 2 -> Start the stock (then 5 -> Refine broth)
+    group: 6 -> Soy and water (then 9 -> Refine broth)
     qty: 0.5
     unit: cup
   - measure: 3 TBLS
     item: Unsalted Butter
-    group: 4 -> Start onions
+    group: 7 -> Butter
     qty: 3
     unit: TBLS
   - measure: 5 lb (~10 onions)
     item: Yellow Onion
     prep: Thinly sliced
-    group: 4 -> Start onions
+    group: 8 -> Onions
     qty: 5
     unit: lb
   - measure: 2 TBLS +
     item: Rice Vinegar, unseasoned
     prep: Usually ends up being 3
-    group: 5 -> Refine broth
+    group: 9 -> Refine broth
     qty: 3
     unit: TBLS
   - measure: 18 oz
     item: Dried Ramen Noodles
     prep: 30 oz if you can find fresh
-    group: 6 -> Finish & serve
+    group: 10 -> Noodles
     qty: 18
     unit: oz
     section: International
@@ -274,7 +274,7 @@ Allow 3 hours for the cook. Stays warm for ~2 hours after finished without extra
 
 - Finish prep here; start onion prep while cooking stock.
 - Slice ginger, combine with white scallion parts and garlic. Place into Dutch oven with the remaining beef fat and brown, ~4 min.
-- Combine everything from `3 -> Spices` (star anise, cinnamon, cloves, black peppercorns & coriander seeds). Add to pot and stir frequently; ready when fragrant & sizzling, ~1 min.
+- Combine everything from `4 -> Spices` (star anise, cinnamon, cloves, black peppercorns & coriander seeds). Add to pot and stir frequently; ready when fragrant & sizzling, ~1 min.
 - Add wine and scrape browned bits from bottom of pan with wooden spoon. Simmer (185-205°F) until mostly evaporated, ~3 min.
 - Return beef, add soy & water.
 - Bring to a boil, then reduce to simmer. Cover partially with lid. Simmer until meat is ALMOST falling from bone, ~90 min.

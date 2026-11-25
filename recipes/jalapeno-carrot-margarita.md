@@ -16,7 +16,7 @@ drive_doc_id: 1wJsov3vak0svW7qdY35oTjCv80aJvg2PEUUen1yhr2k
 ingredients:
   - measure: 1 cup
     item: Unrefined Cane Sugar
-    group: 1 -> Cilantro syrup
+    group: 1 -> Simple syrup
     qty: 1
     unit: cup
     section: Baking
@@ -25,13 +25,13 @@ ingredients:
       note: cilantro simple syrup; 1/2 fl oz per marg x 5 uses ~1/5 of the batch
   - measure: 1 cup
     item: Water
-    group: 1 -> Cilantro syrup
+    group: 1 -> Simple syrup
     qty: 1
     unit: cup
     shop: false
   - measure: 1 bunch (~1/2 oz)
     item: Cilantro
-    group: 1 -> Cilantro syrup
+    group: 2 -> Cilantro
     qty: 1
     unit: bunch
     nutrition:
@@ -39,41 +39,41 @@ ingredients:
       note: steeped in the syrup, strained out
   - measure: 1 cup (4-5 margs)
     item: Silver Tequila, 100% agave
-    group: 2 -> Jalapeño tequila
+    group: 3 -> Jalapeño tequila
     qty: 8
     unit: fl oz
   - measure: 1 medium
     item: Jalapeño
-    group: 2 -> Jalapeño tequila
+    group: 3 -> Jalapeño tequila
     qty: 1
     unit: each
   - measure: 3 fl oz per marg
     item: Carrot Juice
-    group: 3 -> Build
+    group: 4 -> Build
     qty: 15
     unit: fl oz
   - measure: 1 fl oz per marg
     item: Orange Juice
-    group: 3 -> Build
+    group: 4 -> Build
     qty: 5
     unit: fl oz
   - measure: 1/2 fl oz per marg
     item: Cointreau
-    group: 3 -> Build
+    group: 4 -> Build
     qty: 2.5
     unit: fl oz
     section: Beverages, Beer & Wine
   - measure: 1/2 fl oz per marg
     item: Lime Juice
     prep: Fresh
-    group: 3 -> Build
+    group: 4 -> Build
     qty: 2.5
     unit: fl oz
     section: Produce
   - measure: 2
     item: Lime
     prep: For juice and garnish
-    group: 3 -> Build
+    group: 4 -> Build
     qty: 2
     unit: each
 nutrition:

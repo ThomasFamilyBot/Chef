@@ -13,62 +13,62 @@ times:
 tags: [pasta-sauce, sauce, main, vegetarian]
 drive_doc_id: 1Rkv86rCBlIpqNTKCv1l4ikvldeDLAMX9GRfV5Azup8o
 ingredients:
+  - measure: 1/4 cup
+    item: Extra-Virgin Olive Oil
+    group: 1 -> Oil
+    qty: 0.25
+    unit: cup
   - measure: 2 tsp
     item: Garlic
     prep: Minced (about 2 cloves)
-    group: 1 -> Garlic & oil
+    group: 2 -> Garlic
     qty: 2
     unit: clove
-  - measure: 1/4 cup
-    item: Extra-Virgin Olive Oil
-    group: 1 -> Garlic & oil
-    qty: 0.25
-    unit: cup
   - measure: 1/2 tsp
     item: Red Pepper Flakes
-    group: 1 -> Garlic & oil
+    group: 2 -> Garlic
     qty: 0.5
     unit: tsp
   - measure: 1 tsp
     item: Kosher Salt
-    group: 2 -> Sauce
+    group: 3 -> Sauce
     qty: 1
     unit: tsp
   - measure: 1/2 tsp
     item: Black Pepper
     prep: Freshly ground
-    group: 2 -> Sauce
+    group: 3 -> Sauce
     qty: 0.5
     unit: tsp
   - measure: 1/2 cup
     item: Dry White Wine
-    group: 2 -> Sauce
+    group: 3 -> Sauce
     qty: 0.5
     unit: cup
   - measure: 5 TBLS
     item: Unsalted Butter
     prep: Or salted
-    group: 2 -> Sauce
+    group: 3 -> Sauce
     qty: 5
     unit: TBLS
   - measure: 1 lb
     item: Pasta
     prep: Optional; any long or short shape
-    group: 3 -> Pasta (optional)
+    group: 4 -> Pasta (optional)
     qty: 1
     unit: lb
     nutrition: exclude
   - measure: 1/2 cup
     item: Flat-Leaf Parsley
     prep: Chopped, for garnish
-    group: 3 -> Pasta (optional)
+    group: 5 -> Garnish
     qty: 0.5
     unit: cup
     nutrition: exclude
   - measure: 1/2 cup
     item: Parmesan
     prep: Freshly grated, for garnish
-    group: 3 -> Pasta (optional)
+    group: 5 -> Garnish
     qty: 0.5
     unit: cup
     nutrition: exclude

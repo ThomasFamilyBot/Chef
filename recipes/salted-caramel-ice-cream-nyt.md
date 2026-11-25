@@ -16,7 +16,7 @@ ingredients:
   - measure: 1 1/4 cups
     item: Granulated Sugar
     prep: 3/4 cup for the caramel, 1/2 cup for the custard
-    group: 1 -> Caramel (then 2 -> Custard)
+    group: 1 -> Caramel (then 2 -> Cream and milk)
     qty: 1.25
     unit: cup
   - measure: 3 TBLS
@@ -27,29 +27,29 @@ ingredients:
     shop: false
   - measure: 2 cups
     item: Heavy Cream
-    group: 2 -> Custard
+    group: 2 -> Cream and milk
     qty: 2
     unit: cup
   - measure: 1 cup
     item: Whole Milk
-    group: 2 -> Custard
+    group: 2 -> Cream and milk
     qty: 1
     unit: cup
   - measure: 1/8 tsp
     item: Sea Salt
     prep: Fine
-    group: 2 -> Custard
+    group: 2 -> Cream and milk
     qty: 0.125
     unit: tsp
   - measure: 6 large
     item: Egg Yolks
-    group: 2 -> Custard
+    group: 3 -> Yolks
     qty: 6
     unit: each
   - measure: 1/4 tsp
     item: Flaky Sea Salt
     prep: Such as Maldon
-    group: 3 -> Churn
+    group: 4 -> Churn
     qty: 0.25
     unit: tsp
 nutrition:

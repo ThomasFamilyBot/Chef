@@ -27,13 +27,13 @@ ingredients:
   - measure: To taste
     item: Kosher Salt
     prep: Season generously; more for the ragù and béchamel
-    group: 1 -> Meatballs (then 7 -> Béchamel)
+    group: 1 -> Meatballs (then 12 -> Finish the béchamel)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground; more for the ragù and béchamel
-    group: 1 -> Meatballs (then 7 -> Béchamel)
+    group: 1 -> Meatballs (then 12 -> Finish the béchamel)
     qty: 1
     unit: to taste
   - measure: 2 TBLS
@@ -79,72 +79,72 @@ ingredients:
     section: Canned & Jarred
   - measure: 3/4 cup
     item: Dry White Wine
-    group: 6 -> Braise the ragù
+    group: 6 -> Wine
     qty: 0.75
     unit: cup
     section: Beverages, Beer & Wine
   - measure: 1 can (28 oz)
     item: Whole Peeled Tomatoes, 28 oz can
     prep: Crushed by hand into the pot
-    group: 6 -> Braise the ragù
+    group: 7 -> Tomatoes
     qty: 1
     unit: can
     section: Canned & Jarred
   - measure: 1 cup
     item: Chicken Broth, low sodium
-    group: 6 -> Braise the ragù
+    group: 8 -> Broth and milk
     qty: 1
     unit: cup
     section: Canned & Jarred
   - measure: 1 cup
     item: Whole Milk
     prep: For the ragù (6 cups more for the béchamel)
-    group: 6 -> Braise the ragù
+    group: 8 -> Broth and milk
     qty: 1
     unit: cup
   - measure: 7 TBLS
     item: Unsalted Butter
-    group: 7 -> Béchamel
+    group: 9 -> Béchamel butter
     qty: 7
     unit: TBLS
   - measure: 1/4 cup + 3 TBLS
     item: All-Purpose Flour
-    group: 7 -> Béchamel
+    group: 10 -> Béchamel flour
     qty: 7
     unit: TBLS
   - measure: 6 cups
     item: Whole Milk
     prep: For the béchamel
-    group: 7 -> Béchamel
+    group: 11 -> Béchamel milk
     qty: 6
     unit: cup
   - measure: 4 oz
     item: Parmesan
     prep: Coarsely grated (about 1 cup)
-    group: 7 -> Béchamel
+    group: 12 -> Finish the béchamel
     qty: 4
     unit: oz
   - measure: Pinch
     item: Cayenne
-    group: 7 -> Béchamel
+    group: 12 -> Finish the béchamel
     qty: 1
     unit: pinch
   - measure: Pinch
     item: Nutmeg
     prep: Ground
-    group: 7 -> Béchamel
+    group: 12 -> Finish the béchamel
     qty: 1
     unit: pinch
   - measure: 1 1/4 lb
     item: Lasagna Noodles
     prep: Dried, preferably De Cecco
-    group: 8 -> Par-cook the noodles
+    group: 13 -> Par-cook the noodles
     qty: 1.25
     unit: lb
   - measure: For greasing
     item: Extra-Virgin Olive Oil
     prep: For the baking dish and the foil
-    group: 9 -> Assemble
+    group: 14 -> Assemble
     qty: 1
     unit: tsp
 nutrition:
@@ -347,9 +347,9 @@ The ragù keeps 4 days in the fridge (or 3 months frozen) and the béchamel keep
 
 **Braise the ragù**
 
-- From `6 -> Braise the ragù`: add the wine and cook, stirring occasionally, until almost completely evaporated, about 5 minutes.
-- Add the tomatoes, crushing them with your hands, and increase heat to medium-high. Cook, stirring occasionally, until the liquid is jammy and reduced by about half, 8-10 minutes.
-- Add the broth and the 1 cup milk, then return the meatballs to the pot. Bring to a simmer (185-205°F).
+- Add the wine from `6 -> Wine` and cook, stirring occasionally, until almost completely evaporated, about 5 minutes.
+- Add the tomatoes from `7 -> Tomatoes`, crushing them with your hands, and increase heat to medium-high. Cook, stirring occasionally, until the liquid is jammy and reduced by about half, 8-10 minutes.
+- Add the broth and the 1 cup milk from `8 -> Broth and milk`, then return the meatballs to the pot. Bring to a simmer (185-205°F).
 - Cover the pot partially with a lid, transfer to the 225°F oven and cook until the meatballs are falling-apart tender, 3-4 hours. Check every hour or so that the liquid is at a low simmer and adjust the oven temperature as needed.
 
 **Finish the ragù**
@@ -360,22 +360,22 @@ The ragù keeps 4 days in the fridge (or 3 months frozen) and the béchamel keep
 
 **Make the béchamel**
 
-- From `7 -> Béchamel`: melt the butter in a large saucepan over medium heat (pan surface 300-350°F). Whisk in the flour and cook, whisking occasionally, until the mixture smells slightly nutty, about 4 minutes.
-- Quickly whisk in the 6 cups milk, then increase heat to medium-high and bring to a simmer, whisking constantly.
+- Melt the butter from `9 -> Béchamel butter` in a large saucepan over medium heat (pan surface 300-350°F). Whisk in the flour from `10 -> Béchamel flour` and cook, whisking occasionally, until the mixture smells slightly nutty, about 4 minutes.
+- Quickly whisk in the 6 cups milk from `11 -> Béchamel milk`, then increase heat to medium-high and bring to a simmer, whisking constantly.
 - Reduce heat to maintain a simmer and cook, whisking occasionally, until the béchamel thickens, about 4 minutes. Keep cooking at a gentle simmer (185-195°F), whisking occasionally, until smooth and velvety, 8-10 minutes more.
-- Off the heat, whisk in the Parmesan, cayenne and nutmeg. You should have about 6 cups. Season with salt and pepper.
+- Off the heat, whisk in the Parmesan, cayenne and nutmeg from `12 -> Finish the béchamel`. You should have about 6 cups. Season with salt and pepper.
 - Transfer to a large bowl and press plastic wrap directly onto the surface; let cool slightly.
 - Do ahead: béchamel keeps 1 day, chilled. Rewarm just enough to loosen before using.
 
 **Par-cook the noodles**
 
 - Preheat oven to 325°F.
-- Cook `8 -> Par-cook the noodles` in a large pot of boiling salted water (212°F), stirring and separating them so they don't stick, until just starting to soften but they still snap in half rather than bend when folded. 3 minutes is the magic number. They'll seem far too firm, but this is what separates al dente layers from gummy ones.
+- Cook `13 -> Par-cook the noodles` in a large pot of boiling salted water (212°F), stirring and separating them so they don't stick, until just starting to soften but they still snap in half rather than bend when folded. 3 minutes is the magic number. They'll seem far too firm, but this is what separates al dente layers from gummy ones.
 - Using tongs, move the noodles to a large bowl of cold water to cool. Drain and lay flat in a single layer on a rimmed baking sheet, separated by parchment or wax paper.
 
 **Assemble**
 
-- Lightly coat a 13x9" glass or ceramic baking dish with oil from `9 -> Assemble`.
+- Lightly coat a 13x9" glass or ceramic baking dish with oil from `14 -> Assemble`.
 - Spread 1 1/2 cups ragù in the dish. Lay a single layer of noodles over the ragù; cut some noodles in half to fill all the gaps.
 - Spoon 1 1/4 cups béchamel over the noodles and spread it in an even layer with a small offset spatula. Top with 1 1/2 cups ragù.
 - Starting with another layer of noodles, repeat, for 5 layers of pasta in total (or 6, depending on how deep your pan is). End with the remaining 1 cup béchamel. The lasagna should come right to the top edge of the dish.

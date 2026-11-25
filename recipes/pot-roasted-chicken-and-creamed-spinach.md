@@ -50,13 +50,13 @@ ingredients:
   - measure: 2 tsp (est.), plus more for the spinach
     item: Kosher Salt
     prep: Inside the cavity and all over the bird
-    group: 1 -> Chicken (then 3 -> Creamed spinach)
+    group: 1 -> Chicken (then 5 -> Cream and cheese)
     qty: 2
     unit: tsp
   - measure: 8 TBLS (1 stick, est.) + 2 TBLS (est.)
     item: Unsalted Butter
     prep: 8 TBLS soft, for the breast; 2 TBLS for the spinach
-    group: 1 -> Chicken (then 3 -> Creamed spinach)
+    group: 1 -> Chicken (then 3 -> Creamed spinach garlic)
     qty: 10
     unit: TBLS
   - measure: 1 cup (est.)
@@ -71,43 +71,43 @@ ingredients:
     unit: cup
   - measure: 1 TBLS (est.)
     item: Olive Oil
-    group: 3 -> Creamed spinach
+    group: 3 -> Creamed spinach garlic
     qty: 1
     unit: TBLS
   - measure: 2 cloves (est.)
     item: Garlic
     prep: Finely grated
-    group: 3 -> Creamed spinach
+    group: 3 -> Creamed spinach garlic
     qty: 2
     unit: clove
   - measure: 1 1/2 lb (est.)
     item: Spinach
     prep: Large-leaf, washed and drained
-    group: 3 -> Creamed spinach
+    group: 4 -> Spinach
     qty: 1.5
     unit: lb
     section: Produce
   - measure: 3/4 cup (est.)
     item: Heavy Cream
     prep: Double cream in the original
-    group: 3 -> Creamed spinach
+    group: 5 -> Cream and cheese
     qty: 0.75
     unit: cup
   - measure: 2 oz (est.)
     item: Cream Cheese
-    group: 3 -> Creamed spinach
+    group: 5 -> Cream and cheese
     qty: 2
     unit: oz
   - measure: 1/2 cup (est.)
     item: Parmesan
     prep: Finely grated
-    group: 3 -> Creamed spinach
+    group: 5 -> Cream and cheese
     qty: 0.5
     unit: cup
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 3 -> Creamed spinach
+    group: 5 -> Cream and cheese
     qty: 1
     unit: to taste
 nutrition:
@@ -232,9 +232,9 @@ nutrition:
 
 **Make the creamed spinach**
 
-- In the same pot, over medium heat (pan surface 300-350°F), add the olive oil, the 2 TBLS butter and the grated garlic from `3 -> Creamed spinach`. Cook the garlic off for a minute.
-- Add the spinach and wilt it down quickly.
-- Stir in the cream, cream cheese, a little salt and pepper, and the parmesan.
+- In the same pot, over medium heat (pan surface 300-350°F), add the olive oil, the 2 TBLS butter and the grated garlic from `3 -> Creamed spinach garlic`. Cook the garlic off for a minute.
+- Add the spinach from `4 -> Spinach` and wilt it down quickly.
+- Stir in the cream, cream cheese, a little salt and pepper, and the parmesan from `5 -> Cream and cheese`.
 
 **Carve and serve**
 

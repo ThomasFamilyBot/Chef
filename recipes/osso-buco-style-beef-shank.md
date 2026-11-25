@@ -16,76 +16,76 @@ ingredients:
   - measure: 3 lb
     item: Beef Shank
     prep: Cross-cut, bone-in; patted dry
-    group: 1 -> Dredge
+    group: 1 -> Season the shanks
     qty: 3
     unit: lb
     section: Meat & Seafood
   - measure: Pinch, plus about 1 tsp
     item: Kosher Salt
-    group: 1 -> Dredge (then 3 -> Vegetables)
+    group: 1 -> Season the shanks (then 4 -> Vegetables)
     qty: 1
     unit: to taste
   - measure: Pinch, plus about 1 tsp
     item: Black Pepper
-    group: 1 -> Dredge (then 3 -> Vegetables)
+    group: 1 -> Season the shanks (then 4 -> Vegetables)
     qty: 1
     unit: to taste
   - measure: 1 cup, loosely packed
     item: All-Purpose Flour
-    group: 1 -> Dredge
+    group: 2 -> Dredge
     qty: 1
     unit: cup
     nutrition: {fraction: 0.3, note: dredge; excess shaken off}
   - measure: 1/4 cup
     item: Olive Oil
-    group: 2 -> Brown
+    group: 3 -> Oil
     qty: 0.25
     unit: cup
   - measure: 1 large
     item: Yellow Onion
     prep: Diced
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 1
     unit: each
   - measure: 1 cup
     item: Carrots
     prep: Diced
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 1
     unit: cup
   - measure: 1/2 cup
     item: Celery
     prep: Diced, stems and leaves
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 0.5
     unit: cup
   - measure: 3 cloves
     item: Garlic
     prep: Chopped
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 3
     unit: clove
   - measure: 1 tsp
     item: Dried Oregano
-    group: 3 -> Vegetables
+    group: 4 -> Vegetables
     qty: 1
     unit: tsp
   - measure: 2 cups
     item: Beef Stock
     prep: 1 cup to deglaze (or dry white wine), 1 cup for the braise
-    group: 3 -> Vegetables (then 4 -> Braise)
+    group: 5 -> Deglaze (then 6 -> Braise)
     qty: 2
     unit: cup
   - measure: 2 cups
     item: Crushed Tomatoes, 28 oz can
     prep: About 2/3 of a 28 oz can
-    group: 4 -> Braise
+    group: 6 -> Braise
     qty: 2
     unit: cup
   - measure: 1/4 cup
     item: Flat-Leaf Parsley
     prep: Chopped, to garnish
-    group: 5 -> Serve
+    group: 7 -> Serve
     qty: 0.25
     unit: cup
 nutrition:

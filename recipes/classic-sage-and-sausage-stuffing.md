@@ -24,67 +24,67 @@ ingredients:
   - measure: 8 TBLS (1 stick)
     item: Unsalted Butter
     prep: Plus more for the dish
-    group: 2 -> Sausage base
+    group: 2 -> Butter
     qty: 8
     unit: TBLS
   - measure: 1 1/2 lb
     item: Sage Sausage
     prep: Removed from casing
-    group: 2 -> Sausage base
+    group: 3 -> Sausage
     qty: 1.5
     unit: lb
     section: Meat & Seafood
   - measure: 1 large (12 oz)
     item: Yellow Onion
     prep: Finely chopped
-    group: 2 -> Sausage base
+    group: 4 -> Vegetables
     qty: 12
     unit: oz
   - measure: 4 large stalks (12 oz)
     item: Celery
     prep: Finely chopped
-    group: 2 -> Sausage base
+    group: 4 -> Vegetables
     qty: 12
     unit: oz
   - measure: 2 cloves
     item: Garlic
     prep: Minced or grated
-    group: 2 -> Sausage base
+    group: 4 -> Vegetables
     qty: 2
     unit: clove
   - measure: 1/4 cup
     item: Fresh Sage
     prep: Minced leaves (or 2 tsp dried sage)
-    group: 2 -> Sausage base
+    group: 4 -> Vegetables
     qty: 0.25
     unit: cup
   - measure: To taste
     item: Kosher Salt
     prep: Only if the stock is low-sodium or homemade
-    group: 2 -> Sausage base
+    group: 5 -> Stock
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 2 -> Sausage base
+    group: 5 -> Stock
     qty: 1
     unit: to taste
   - measure: 4 cups
     item: Chicken Stock
     prep: Low-sodium, chicken or turkey; half for the sausage base, half for the egg mixture
-    group: 2 -> Sausage base (then 3 -> Egg mixture)
+    group: 5 -> Stock (then 6 -> Egg mixture)
     qty: 4
     unit: cup
   - measure: 3 large
     item: Eggs
-    group: 3 -> Egg mixture
+    group: 6 -> Egg mixture
     qty: 3
     unit: each
   - measure: 1/4 cup
     item: Flat-Leaf Parsley
     prep: Minced; 3 TBLS for the egg mixture, 1 TBLS to finish
-    group: 3 -> Egg mixture (then 4 -> Finish)
+    group: 6 -> Egg mixture (then 7 -> Finish)
     qty: 0.25
     unit: cup
 nutrition:
@@ -195,14 +195,14 @@ nutrition:
 
 **Cook the sausage base**
 
-- In a large Dutch oven, melt the butter over medium-high heat (pan surface 375-425°F) until the foaming subsides, about 2 minutes. Don't let the butter color.
-- Add the sausage and mash it with a stiff whisk or potato masher into fine pieces, none bigger than 1/4 inch. Cook, stirring often, until only a few bits of pink remain, about 8 minutes.
-- Add the onion, celery, garlic and sage. Cook, stirring often, until the vegetables are soft, about 10 minutes.
-- Take the pot off the heat and stir in half of the stock (2 cups). With low-sodium or homemade stock, season with salt and pepper now.
+- In a large Dutch oven, melt the butter from `2 -> Butter` over medium-high heat (pan surface 375-425°F) until the foaming subsides, about 2 minutes. Don't let the butter color.
+- Add the sausage from `3 -> Sausage` and mash it with a stiff whisk or potato masher into fine pieces, none bigger than 1/4 inch. Cook, stirring often, until only a few bits of pink remain, about 8 minutes.
+- Add the onion, celery, garlic and sage from `4 -> Vegetables`. Cook, stirring often, until the vegetables are soft, about 10 minutes.
+- Take the pot off the heat and stir in half of the stock (2 cups, `5 -> Stock`). With low-sodium or homemade stock, season with salt and pepper now.
 
 **Add the egg mixture and bread**
 
-- Whisk the remaining 2 cups stock, the eggs and 3 TBLS of the parsley until completely blended.
+- Whisk the remaining 2 cups stock, the eggs and 3 TBLS of the parsley until completely blended (`6 -> Egg mixture`).
 - Stirring constantly with a wooden spoon, slowly pour the egg mixture into the sausage mixture.
 - Add the dried bread and fold gently until evenly mixed.
 

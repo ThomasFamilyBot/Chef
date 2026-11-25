@@ -36,36 +36,36 @@ ingredients:
     nutrition: {fraction: 0.91, note: see Whole Milk}
   - measure: 150 g (3/4 cup)
     item: Granulated Sugar
-    group: 2 -> Custard base
+    group: 2 -> Sugar mix
     qty: 150
     unit: g
   - measure: 1/4 tsp
     item: Xanthan Gum
     prep: Optional but recommended
-    group: 2 -> Custard base
+    group: 2 -> Sugar mix
     qty: 0.25
     unit: tsp
     section: Baking
   - measure: 1/2 tsp
     item: Kosher Salt
-    group: 2 -> Custard base
+    group: 2 -> Sugar mix
     qty: 0.5
     unit: tsp
   - measure: 50 g (2 TBLS + 1 tsp)
     item: Corn Syrup
     prep: Or glucose
-    group: 2 -> Custard base
+    group: 3 -> Corn syrup and yolks
     qty: 50
     unit: g
     section: Baking
   - measure: 100 g (about 5 large)
     item: Egg Yolks
-    group: 2 -> Custard base
+    group: 3 -> Corn syrup and yolks
     qty: 5
     unit: each
   - measure: 2 tsp
     item: Vanilla Extract
-    group: 2 -> Custard base
+    group: 4 -> Vanilla
     qty: 2
     unit: tsp
 nutrition:

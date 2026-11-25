@@ -13,12 +13,6 @@ times:
 tags: [chicken, main, sous-vide, korean]
 drive_doc_id: 14WwYkcGDQpTd7_HlgxGsMezMWFwf3ph1YYCJz95suw4
 ingredients:
-  - measure: 1
-    item: Whole Chicken
-    prep: Cut into 8 pieces
-    group: 1 -> Brine
-    qty: 4
-    unit: lb
   - measure: 1/2 cup
     item: Kosher Salt
     prep: For the brine
@@ -39,92 +33,98 @@ ingredients:
     qty: 4
     unit: cup
     shop: false
+  - measure: 1
+    item: Whole Chicken
+    prep: Cut into 8 pieces
+    group: 2 -> Chicken
+    qty: 4
+    unit: lb
   - measure: 2 TBLS
     item: Garlic
     prep: Finely chopped
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 6
     unit: clove
   - measure: 2 TBLS
     item: Ginger
     prep: Finely chopped
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 2
     unit: TBLS
   - measure: 1
     item: Serrano Peppers
     prep: Finely chopped
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 1
     unit: each
     section: Produce
   - measure: 1/4 cup
     item: Rice Vinegar, unseasoned
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 0.25
     unit: cup
   - measure: 1/4 cup
     item: Soy Sauce
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 0.25
     unit: cup
   - measure: 2 TBLS
     item: Neutral Oil
     prep: Canola or vegetable, for the glaze
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 2
     unit: TBLS
   - measure: 1/4 tsp
     item: Toasted Sesame Oil
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 0.25
     unit: tsp
     section: International
   - measure: 1 1/2 TBLS
     item: Granulated Sugar
     prep: For the glaze
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 1.5
     unit: TBLS
   - measure: To taste
     item: Black Pepper
-    group: 2 -> Korean glaze
+    group: 3 -> Korean glaze
     qty: 1
     unit: to taste
   - measure: 2 cups
     item: Buttermilk
     prep: For soaking half the chicken
-    group: 3 -> Southern dredge
+    group: 4 -> Buttermilk soak
     qty: 2
     unit: cup
     nutrition: {fraction: 0.15, note: soak is drained off; ~15% clings}
   - measure: 2 cups
     item: All-Purpose Flour
-    group: 3 -> Southern dredge
+    group: 5 -> Southern dredge
     qty: 2
     unit: cup
     nutrition: {fraction: 0.3, note: dredge; ~30% sticks}
   - measure: 1/2 cup
     item: Cornmeal
-    group: 3 -> Southern dredge
+    group: 5 -> Southern dredge
     qty: 0.5
     unit: cup
     nutrition: {fraction: 0.3, note: dredge; ~30% sticks}
   - measure: 1 TBLS
     item: Kosher Salt
     prep: For the dredge
-    group: 3 -> Southern dredge
+    group: 5 -> Southern dredge
     qty: 1
     unit: TBLS
   - measure: 1 tsp
     item: Garlic Powder
-    group: 3 -> Southern dredge
+    group: 5 -> Southern dredge
     qty: 1
     unit: tsp
   - measure: For frying (about 2 quarts)
     item: Neutral Oil
     prep: Canola or vegetable
-    group: 4 -> Fry
+    group: 6 -> Fry
     qty: 2
     unit: quart
     nutrition: {fraction: 0.1, note: frying oil; ~10% absorbed}

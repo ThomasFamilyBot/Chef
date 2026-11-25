@@ -15,97 +15,97 @@ drive_doc_id: 1TlSYGh4AGgDKYgTlvkJjwVw9ax-gWLdLY-bIZVz0fYI
 ingredients:
   - measure: 1 1/2-2 lb
     item: Lamb Shanks
-    group: 1 -> Braised lamb
+    group: 1 -> Shanks
     qty: 2
     unit: lb
   - measure: 1 tsp, plus more while browning
     item: Kosher Salt
-    group: 1 -> Braised lamb (then 2 -> Vinaigrette)
+    group: 1 -> Shanks (then 4 -> Vinaigrette)
     qty: 1
     unit: tsp
-  - measure: 2 TBLS
-    item: Olive Oil
-    prep: For browning
-    group: 1 -> Braised lamb
-    qty: 2
-    unit: TBLS
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Braised lamb (then 2 -> Vinaigrette)
+    group: 1 -> Shanks (then 4 -> Vinaigrette)
     qty: 1
     unit: to taste
+  - measure: 2 TBLS
+    item: Olive Oil
+    prep: For browning
+    group: 2 -> Browning oil
+    qty: 2
+    unit: TBLS
   - measure: 1/2 cup, plus more as needed
     item: Water
     prep: Or stock
-    group: 1 -> Braised lamb
+    group: 3 -> Braise
     qty: 0.5
     unit: cup
     shop: false
   - measure: 2
     item: Lemon
     prep: 1 quartered for the braise; 1 juiced for the vinaigrette
-    group: 1 -> Braised lamb (then 2 -> Vinaigrette)
+    group: 3 -> Braise (then 4 -> Vinaigrette)
     qty: 2
     unit: each
   - measure: 1 bunch
     item: Fresh Oregano
     prep: A handful of sprigs for the braise; 1 tsp leaves for the vinaigrette
-    group: 1 -> Braised lamb (then 2 -> Vinaigrette)
+    group: 3 -> Braise (then 4 -> Vinaigrette)
     qty: 1
     unit: bunch
     section: Produce
   - measure: 2 cloves
     item: Garlic
-    group: 1 -> Braised lamb
+    group: 3 -> Braise
     qty: 2
     unit: clove
   - measure: About 3 TBLS
     item: Extra-Virgin Olive Oil
     prep: Enough to make a vinaigrette with the lemon juice
-    group: 2 -> Vinaigrette
+    group: 4 -> Vinaigrette
     qty: 3
     unit: TBLS
   - measure: 1 TBLS
     item: Harissa
-    group: 3 -> Harissa yogurt
+    group: 5 -> Harissa yogurt
     qty: 1
     unit: TBLS
   - measure: 1/4 cup
     item: Greek Yogurt
     prep: Whole milk
-    group: 3 -> Harissa yogurt
+    group: 5 -> Harissa yogurt
     qty: 0.25
     unit: cup
     section: Dairy & Eggs
   - measure: 1
     item: Cucumbers
     prep: Peeled, cut in large chunks
-    group: 4 -> Salad
+    group: 6 -> Salad
     qty: 1
     unit: each
   - measure: 1 cup
     item: Pickled Red Onion
-    group: 4 -> Salad
+    group: 6 -> Salad
     qty: 1
     unit: cup
     section: Canned & Jarred
   - measure: 1 cup
     item: Radishes
     prep: Thinly sliced
-    group: 4 -> Salad
+    group: 6 -> Salad
     qty: 1
     unit: cup
     section: Produce
   - measure: A lot (about 4 oz)
     item: Feta
     prep: Crumbled
-    group: 4 -> Salad
+    group: 6 -> Salad
     qty: 4
     unit: oz
   - measure: About 6 cups
     item: Mixed Greens
-    group: 4 -> Salad
+    group: 6 -> Salad
     qty: 6
     unit: cup
 nutrition:

@@ -16,111 +16,111 @@ ingredients:
   - measure: 8 oz
     item: Goat Cheese
     prep: Log; sliced into 1 oz rounds, packed firm
-    group: 1 -> Fried goat cheese
+    group: 1 -> Goat cheese
     qty: 8
     unit: oz
     section: Cheese & Deli
+  - measure: To taste
+    item: Kosher Salt
+    group: 1 -> Goat cheese (then 5 -> Strawberry dressing)
+    qty: 1
+    unit: to taste
+  - measure: To taste
+    item: Black Pepper
+    prep: Freshly ground
+    group: 1 -> Goat cheese (then 5 -> Strawberry dressing)
+    qty: 1
+    unit: to taste
   - measure: 1/4 cup
     item: All-Purpose Flour
     prep: For dredging
-    group: 1 -> Fried goat cheese
+    group: 2 -> Flour
     qty: 0.25
     unit: cup
     nutrition: {fraction: 0.3, note: dredge flour; ~30% sticks to the cheese}
   - measure: 1 large
     item: Eggs
     prep: Beaten with a dash of water
-    group: 1 -> Fried goat cheese
+    group: 3 -> Egg wash
     qty: 1
     unit: each
     nutrition: {fraction: 0.5, note: egg wash; about half coats the cheese}
   - measure: 1/3 cup
     item: Dried Bread Crumbs
     prep: Italian seasoned
-    group: 1 -> Fried goat cheese
+    group: 4 -> Bread crumbs
     qty: 0.333
     unit: cup
     nutrition: {fraction: 0.75, note: breading; ~25% left in the bowl}
-  - measure: 1 TBLS
-    item: Olive Oil
-    prep: For frying
-    group: 1 -> Fried goat cheese
-    qty: 1
-    unit: TBLS
-  - measure: To taste
-    item: Kosher Salt
-    group: 1 -> Fried goat cheese (then 2 -> Strawberry dressing)
-    qty: 1
-    unit: to taste
-  - measure: To taste
-    item: Black Pepper
-    prep: Freshly ground
-    group: 1 -> Fried goat cheese (then 2 -> Strawberry dressing)
-    qty: 1
-    unit: to taste
   - measure: 1 cup
     item: Strawberries
     prep: Hulled, cut in chunks
-    group: 2 -> Strawberry dressing
+    group: 5 -> Strawberry dressing
     qty: 1
     unit: cup
   - measure: 3 TBLS
     item: Extra-Virgin Olive Oil
-    group: 2 -> Strawberry dressing
+    group: 5 -> Strawberry dressing
     qty: 3
     unit: TBLS
   - measure: 2 tsp
     item: Lemon
     prep: Juiced (2 tsp juice)
-    group: 2 -> Strawberry dressing
+    group: 5 -> Strawberry dressing
     qty: 1
     unit: each
     nutrition: {oz: 0.35, note: 2 tsp juice (~10 g), not the whole lemon}
   - measure: 2 tsp
     item: Dijon Mustard
-    group: 2 -> Strawberry dressing
+    group: 5 -> Strawberry dressing
     qty: 2
     unit: tsp
   - measure: 1 TBLS
     item: Honey
-    group: 2 -> Strawberry dressing
+    group: 5 -> Strawberry dressing
+    qty: 1
+    unit: TBLS
+  - measure: 1 TBLS
+    item: Olive Oil
+    prep: For frying
+    group: 6 -> Frying oil
     qty: 1
     unit: TBLS
   - measure: 12-16 cups
     item: Mixed Greens
-    group: 3 -> Salad
+    group: 7 -> Salad
     qty: 16
     unit: cup
   - measure: 1/4 cup
     item: Radishes
     prep: Thinly sliced
-    group: 3 -> Salad
+    group: 7 -> Salad
     qty: 0.25
     unit: cup
     section: Produce
   - measure: 1/4 cup
     item: Red Onion
     prep: Thinly sliced
-    group: 3 -> Salad
+    group: 7 -> Salad
     qty: 0.25
     unit: cup
   - measure: 3/4 cup
     item: Slivered Almonds
     prep: Toasted
-    group: 3 -> Salad
+    group: 7 -> Salad
     qty: 0.75
     unit: cup
     section: Nuts, Snacks & Dried Fruit
   - measure: 3 cups
     item: Berries
     prep: Raspberries, blueberries, blackberries
-    group: 3 -> Salad
+    group: 7 -> Salad
     qty: 3
     unit: cup
   - measure: 2-3 cups
     item: Rotisserie Chicken
     prep: Shredded
-    group: 3 -> Salad
+    group: 7 -> Salad
     qty: 3
     unit: cup
     section: Cheese & Deli
@@ -276,7 +276,7 @@ nutrition:
 
 **Make the strawberry dressing**
 
-- Blend everything in `2 -> Strawberry dressing` until creamy. Keep chilled until serving.
+- Blend everything in `5 -> Strawberry dressing` until creamy. Keep chilled until serving.
 
 **Fry the goat cheese**
 

@@ -13,48 +13,48 @@ tags: [bread, side, baking]
 source_doc: https://docs.google.com/document/d/1M0GB0UXRVutyz2VZ6-5QH6O35viHcLju8JkwFKdoBvA/edit
 drive_doc_id: 1cPGjYdaylymZjSceddyZnSwL43tQ6vDRN-gePltkXrs
 ingredients:
-  - measure: 450 g (about 3 2/3 cups)
-    item: All-Purpose Flour
-    group: 1 -> Batter
-    qty: 3.6
-    unit: cup
   - measure: 880 g (about 3 2/3 cups)
     item: Whole Milk
     prep: Room temperature
-    group: 1 -> Batter
+    group: 1 -> Egg mixture
     qty: 3.6
     unit: cup
   - measure: 7 large (about 350 g)
     item: Eggs
     prep: Room temperature
-    group: 1 -> Batter
+    group: 1 -> Egg mixture
     qty: 7
     unit: each
   - measure: 3 1/2 tsp
     item: Kosher Salt
-    group: 1 -> Batter
+    group: 1 -> Egg mixture
     qty: 3.5
     unit: tsp
+  - measure: 450 g (about 3 2/3 cups)
+    item: All-Purpose Flour
+    group: 2 -> Flour
+    qty: 3.6
+    unit: cup
   - measure: 7 oz (1 3/4 sticks)
     item: Unsalted Butter
     prep: Melted / clarified, cooled a bit
-    group: 1 -> Batter
+    group: 3 -> Melted butter
     qty: 7
     unit: oz
   - measure: 2 1/2 oz (5 TBLS)
     item: Unsalted Butter
     prep: Softened
-    group: 2 -> Honey butter
+    group: 4 -> Honey butter
     qty: 2.5
     unit: oz
   - measure: ~1 1/4 tsp
     item: Honey
-    group: 2 -> Honey butter
+    group: 4 -> Honey butter
     qty: 1.25
     unit: tsp
   - measure: Pinch
     item: Kosher Salt
-    group: 2 -> Honey butter
+    group: 4 -> Honey butter
     qty: 1
     unit: pinch
 nutrition:

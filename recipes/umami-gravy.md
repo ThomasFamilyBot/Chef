@@ -17,69 +17,69 @@ ingredients:
   - measure: 2 TBLS
     item: Neutral Oil
     prep: Veg oil. Plus ~2 tsp more if needed for the onions
-    group: 1 -> Make the stock
+    group: 1 -> Oil
     qty: 2
     unit: TBLS
   - measure: 2 necks
     item: Turkey Necks
-    group: 1 -> Make the stock
+    group: 2 -> Turkey necks
     qty: 2
     unit: each
     section: Meat & Seafood
   - measure: 2 cups (~4 oz)
     item: Shiitake Mushrooms
     prep: Chopped
-    group: 1 -> Make the stock
+    group: 3 -> Mushrooms
     qty: 4
     unit: oz
   - measure: 2 medium
     item: Yellow Onion
     prep: Chopped
-    group: 1 -> Make the stock
+    group: 4 -> Onion
     qty: 2
     unit: each
   - measure: 2 small handfuls
     item: Fresh Rosemary
     prep: Sprigs
-    group: 1 -> Make the stock
+    group: 5 -> Herbs
     qty: 2
     unit: bunch
   - measure: 1 cup
     item: Dry White Wine
     prep: Sauv blanc
-    group: 1 -> Make the stock
+    group: 6 -> Wine
     qty: 1
     unit: cup
   - measure: 12 cups
     item: Chicken Stock, low sodium
     prep: Or turkey broth
-    group: 1 -> Make the stock
+    group: 7 -> Broth
     qty: 12
     unit: cup
     section: Canned & Jarred
   - measure: 1/4 cup + 2 TBLS
     item: Unsalted Butter
-    group: 2 -> Make the gravy
+    group: 8 -> Butter
     qty: 6
     unit: TBLS
   - measure: 1/2 cup
     item: All-Purpose Flour
-    group: 2 -> Make the gravy
+    group: 9 -> Flour
     qty: 0.5
     unit: cup
   - measure: 2 tsp
     item: Soy Sauce
-    group: 2 -> Make the gravy
+    group: 10 -> Season
     qty: 2
     unit: tsp
   - measure: to taste
     item: Kosher Salt
-    group: 2 -> Make the gravy
+    group: 10 -> Season
     qty: 1
     unit: to taste
   - measure: to taste
     item: Black Pepper
-    group: 2 -> Make the gravy
+    group: 10 -> Season
     qty: 1
     unit: to taste
 nutrition:

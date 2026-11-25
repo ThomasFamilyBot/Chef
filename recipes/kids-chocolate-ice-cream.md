@@ -16,51 +16,51 @@ drive_doc_id: 10huuqeim85hJIp8AdCcOODOXVXQXv_SntoZnUAh7e54
 ingredients:
   - measure: 2 cups (divided 1 & 1)
     item: Heavy Cream
-    group: 1 -> Chocolate base
+    group: 1 -> Cream and cocoa (then 3 -> Remaining cream)
     qty: 2
     unit: cup
   - measure: 1/4 cup
     item: Dutch Process Cocoa Powder
     prep: Sifted if lumpy. Original uses natural unsweetened cocoa
-    group: 1 -> Chocolate base
+    group: 1 -> Cream and cocoa
     qty: 0.25
     unit: cup
   - measure: 3 oz
     item: Semisweet Chocolate
     prep: Chopped. Original uses 6 oz of 60% dark and no milk chocolate
-    group: 1 -> Chocolate base
+    group: 2 -> Chopped chocolate
     qty: 3
     unit: oz
   - measure: 3 oz
     item: Milk Chocolate
     prep: Chopped
-    group: 1 -> Chocolate base
+    group: 2 -> Chopped chocolate
     qty: 3
     unit: oz
   - measure: "4"
     item: Egg Yolks
     prep: Beaten. Original uses 3; the 4th is for a richer custard
-    group: 2 -> Yolks
+    group: 4 -> Yolks
     qty: 4
     unit: each
   - measure: 1 1/2 cups
     item: Whole Milk
-    group: 3 -> Custard
+    group: 5 -> Custard
     qty: 1.5
     unit: cup
   - measure: 3/4 cup
     item: Granulated Sugar
-    group: 3 -> Custard
+    group: 5 -> Custard
     qty: 0.75
     unit: cup
   - measure: 1/8 tsp
     item: Sea Salt
-    group: 3 -> Custard
+    group: 5 -> Custard
     qty: 0.125
     unit: tsp
   - measure: 1/2 tsp
     item: Vanilla Extract
-    group: 4 -> Finish
+    group: 6 -> Finish
     qty: 0.5
     unit: tsp
 nutrition:
@@ -142,20 +142,20 @@ nutrition:
 ---
 **Make the chocolate base**
 
-- In a saucepan, whisk 1 cup of the cream with the cocoa from `1 -> Chocolate base`. Bring to a boil (212°F), then lower the heat and simmer 30 seconds, whisking the whole time.
-- Off the heat, add both chopped chocolates and whisk until completely smooth, with no flecks left. Whisk in the remaining 1 cup cream.
+- In a saucepan, whisk 1 cup of the cream with the cocoa from `1 -> Cream and cocoa`. Bring to a boil (212°F), then lower the heat and simmer 30 seconds, whisking the whole time.
+- Off the heat, add both chopped chocolates from `2 -> Chopped chocolate` and whisk until completely smooth, with no flecks left. Whisk in the remaining 1 cup cream (`3 -> Remaining cream`).
 - Pour into a large bowl and set a fine mesh strainer over it.
 
 **Temper the yolks**
 
-- Whisk the yolks from `2 -> Yolks` in a small bowl.
-- In the saucepan over medium heat (pan surface 300-350°F), whisk together everything from `3 -> Custard`. When the milk is just warm, whisk 1/2 cup of it into the yolks, then pour the yolk mixture back into the pan, whisking as it goes in.
+- Whisk the yolks from `4 -> Yolks` in a small bowl.
+- In the saucepan over medium heat (pan surface 300-350°F), whisk together everything from `5 -> Custard`. When the milk is just warm, whisk 1/2 cup of it into the yolks, then pour the yolk mixture back into the pan, whisking as it goes in.
 
 **Cook the custard**
 
 - Keep cooking over medium heat, stirring constantly with a spatula, until it thickens and lightly coats the spatula, 170°F. Don't go past 180°F or the eggs scramble.
 - Pour the custard through the strainer into the chocolate base. Stir until combined; discard what's left in the strainer.
-- Stir in the vanilla from `4 -> Finish`.
+- Stir in the vanilla from `6 -> Finish`.
 
 **Chill**
 

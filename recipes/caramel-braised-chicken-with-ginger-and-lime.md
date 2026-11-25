@@ -16,7 +16,7 @@ ingredients:
   - measure: 1/2 cup + 1 TBLS
     item: Coconut Water
     prep: 1 TBLS for the caramel, 1/2 cup for the braise
-    group: 1 -> Caramel (then 2 -> Braise)
+    group: 1 -> Caramel (then 3 -> Coconut water)
     qty: 9
     unit: TBLS
     section: Beverages, Beer & Wine
@@ -29,43 +29,43 @@ ingredients:
   - measure: 3 TBLS
     item: Fish Sauce
     prep: Measured out before you start the caramel
-    group: 2 -> Braise
+    group: 2 -> Fish sauce
     qty: 3
     unit: TBLS
   - measure: 2 medium (1/2 cup)
     item: Shallot
     prep: Peeled, halved and thinly sliced
-    group: 2 -> Braise
+    group: 4 -> Shallots and ginger
     qty: 2
     unit: each
   - measure: 2-inch piece (1/3 cup)
     item: Ginger
     prep: Peeled, cut into 1/8-inch matchsticks
-    group: 2 -> Braise
+    group: 4 -> Shallots and ginger
     qty: 0.333
     unit: cup
   - measure: 2 lb
     item: Chicken Thighs, boneless skinless
     prep: Trimmed, cut into 1 1/2-inch chunks
-    group: 3 -> Chicken
+    group: 5 -> Chicken
     qty: 2
     unit: lb
   - measure: 1/4 cup
     item: Cilantro
     prep: Chopped; half stirred in, half on top
-    group: 4 -> Finish
+    group: 6 -> Finish (then 7 -> Serve)
     qty: 0.25
     unit: cup
   - measure: 1 small
     item: Jalapeño
     prep: Stemmed, sliced into thin rings
-    group: 4 -> Finish
+    group: 6 -> Finish
     qty: 1
     unit: each
   - measure: 2
     item: Lime
     prep: 1 TBLS grated zest and 1 TBLS juice, plus wedges to serve
-    group: 4 -> Finish
+    group: 6 -> Finish (then 7 -> Serve)
     qty: 2
     unit: each
     nutrition: {oz: 0.6, note: 1 TBLS juice plus zest; the wedges are for squeezing}

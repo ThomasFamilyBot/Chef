@@ -13,75 +13,75 @@ times:
 tags: [seafood, main, asian]
 drive_doc_id: 1JeedgZIZ9U2LO4rr6gZFStk7qpP_PXjk7SDTs2kOIgE
 ingredients:
+  - measure: 3 TBLS
+    item: Unsalted Butter
+    group: 1 -> Butter
+    qty: 3
+    unit: TBLS
   - measure: 7 cloves
     item: Garlic
     prep: 6 smashed for the broth, 1 grated for the mayo
-    group: 1 -> Broth (then 4 -> Garlic-ginger mayo)
+    group: 2 -> Aromatics (then 6 -> Garlic-ginger mayo)
     qty: 7
     unit: clove
   - measure: 1 heart
     item: Celery
     prep: Thinly sliced crosswise (about 1 1/4 cups); 1/4 cup plus the leaves saved for serving
-    group: 1 -> Broth (then 5 -> Serve)
+    group: 2 -> Aromatics (then 7 -> Serve)
     qty: 4
     unit: stalk
   - measure: 1 (3-inch) piece
     item: Ginger
     prep: Peeled; thinly sliced, with a 1/2-inch nub saved for the mayo
-    group: 1 -> Broth (then 4 -> Garlic-ginger mayo)
-    qty: 3
-    unit: TBLS
-  - measure: 3 TBLS
-    item: Unsalted Butter
-    group: 1 -> Broth
+    group: 2 -> Aromatics (then 6 -> Garlic-ginger mayo)
     qty: 3
     unit: TBLS
   - measure: 1/2 cup
     item: Mirin
     prep: Sweet Japanese rice wine
-    group: 1 -> Broth
+    group: 3 -> Broth
     qty: 0.5
     unit: cup
     section: International
   - measure: 1/3 cup
     item: Sambal Oelek
-    group: 1 -> Broth
+    group: 3 -> Broth
     qty: 0.333
     unit: cup
     section: International
   - measure: 1/4 cup + 1 TBLS
     item: Soy Sauce, low sodium
     prep: 1/4 cup for the broth, 1 TBLS for the mayo
-    group: 1 -> Broth (then 4 -> Garlic-ginger mayo)
+    group: 3 -> Broth (then 6 -> Garlic-ginger mayo)
     qty: 5
     unit: TBLS
   - measure: 1 (28 oz) can
     item: Whole Peeled Tomatoes, 28 oz can
     prep: Crushed by hand as they go in
-    group: 2 -> Tomatoes
+    group: 4 -> Tomatoes
     qty: 1
     unit: can
   - measure: To taste
     item: Kosher Salt
-    group: 2 -> Tomatoes
+    group: 4 -> Tomatoes
     qty: 1
     unit: to taste
   - measure: 4 lb
     item: Mussels
     prep: Rinsed, debearded; discard any open ones that don't close when tapped
-    group: 3 -> Mussels
+    group: 5 -> Mussels
     qty: 4
     unit: lb
     section: Meat & Seafood
   - measure: 1/2 cup
     item: Mayonnaise
-    group: 4 -> Garlic-ginger mayo
+    group: 6 -> Garlic-ginger mayo
     qty: 0.5
     unit: cup
   - measure: 1/2
     item: Baguette
     prep: Halved lengthwise
-    group: 5 -> Serve
+    group: 7 -> Serve
     qty: 0.5
     unit: each
 nutrition:

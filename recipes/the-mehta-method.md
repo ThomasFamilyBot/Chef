@@ -23,58 +23,58 @@ ingredients:
   - measure: 1 cup
     item: Coconut Milk
     prep: Full-fat, canned; shake the can well
-    group: 2 -> Vanilla coconut custard
+    group: 2 -> Coconut milk base
     qty: 1
     unit: cup
     section: International
   - measure: 2/3 cup
     item: Granulated Sugar
-    group: 2 -> Vanilla coconut custard
+    group: 2 -> Coconut milk base
     qty: 0.667
     unit: cup
   - measure: 1/4 tsp
     item: Kosher Salt
-    group: 2 -> Vanilla coconut custard
+    group: 2 -> Coconut milk base
     qty: 0.25
     unit: tsp
   - measure: 4
     item: Egg Yolks
-    group: 2 -> Vanilla coconut custard
+    group: 3 -> Yolks
     qty: 4
     unit: each
   - measure: 2 cups
     item: Heavy Cream
     prep: Cold
-    group: 2 -> Vanilla coconut custard
+    group: 4 -> Cream and vanilla
     qty: 2
     unit: cup
   - measure: 1 TBLS
     item: Vanilla Extract
-    group: 2 -> Vanilla coconut custard
+    group: 4 -> Cream and vanilla
     qty: 1
     unit: TBLS
   - measure: 4 oz
     item: Bittersweet Chocolate
     prep: Chopped
-    group: 3 -> Chocolate shards
+    group: 5 -> Chocolate shards
     qty: 4
     unit: oz
   - measure: 1 TBLS
     item: Coconut Oil
-    group: 3 -> Chocolate shards
+    group: 5 -> Chocolate shards
     qty: 1
     unit: TBLS
   - measure: 1/2 cup
     item: Dulce de Leche
     prep: Or a thick jarred caramel sauce
-    group: 4 -> Caramel ribbon
+    group: 6 -> Caramel ribbon
     qty: 0.5
     unit: cup
     section: Baking
   - measure: 1/4 tsp
     item: Flaky Sea Salt
     prep: Optional
-    group: 4 -> Caramel ribbon
+    group: 6 -> Caramel ribbon
     qty: 0.25
     unit: tsp
 nutrition:
@@ -180,16 +180,16 @@ nutrition:
 
 **Make the vanilla coconut custard**
 
-- In a saucepan, combine the coconut milk, sugar and salt from `2 -> Vanilla coconut custard`. Warm over medium heat (pan surface 300-350°F), stirring, until the sugar dissolves and it steams. Do not let it bubble.
-- Whisk the egg yolks in a separate bowl. Drizzle in 1/2 cup of the warm coconut milk, whisking, to temper them.
+- In a saucepan, combine the coconut milk, sugar and salt from `2 -> Coconut milk base`. Warm over medium heat (pan surface 300-350°F), stirring, until the sugar dissolves and it steams. Do not let it bubble.
+- Whisk the egg yolks from `3 -> Yolks` in a separate bowl. Drizzle in 1/2 cup of the warm coconut milk, whisking, to temper them.
 - Pour the yolk mixture back into the pan. Cook over medium-low, stirring constantly, until it reaches 170-175°F and lightly coats a spatula. Don't go past 180°F or the eggs scramble.
-- Pour the cold cream into a large bowl and set a fine mesh strainer over it. Strain the custard into the cream. Stir in the vanilla.
+- Pour the cold cream from `4 -> Cream and vanilla` into a large bowl and set a fine mesh strainer over it. Strain the custard into the cream. Stir in the vanilla.
 - Chill until completely cold: 4 hours minimum, overnight preferred.
 - Put the tub the ice cream will live in into the freezer.
 
 **Melt the chocolate** (just before churning)
 
-- Melt the chocolate and coconut oil from `3 -> Chocolate shards` together, in the microwave in 20-second bursts or over a pan of hot water. Stir until smooth.
+- Melt the chocolate and coconut oil from `5 -> Chocolate shards` together, in the microwave in 20-second bursts or over a pan of hot water. Stir until smooth.
 - Let it cool until barely warm but still pourable.
 
 **Churn**
@@ -201,7 +201,7 @@ nutrition:
 **The Mehta Method: layer in the caramel**
 
 - If the dulce de leche is too stiff to drizzle, warm it for 10 seconds. It should be loose, not hot.
-- Spread one third of the ice cream in the cold tub. Drizzle on one third of the caramel from `4 -> Caramel ribbon` and add a tiny pinch of flaky salt.
+- Spread one third of the ice cream in the cold tub. Drizzle on one third of the caramel from `6 -> Caramel ribbon` and add a tiny pinch of flaky salt.
 - Do that two more times, ending with caramel on top.
 - Drag a butter knife through once to pull the caramel into ribbons. Don't stir.
 

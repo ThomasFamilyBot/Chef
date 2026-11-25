@@ -54,14 +54,50 @@ Columns: Measure | Ingredient | Prep | Mise Grouping. Keep it to one printed pag
 
 - `item` is the **shopping name**: Title Case, no prep words, no quantity words. `Yellow Onion` not `chopped yellow onion`. Match names already used in other recipes (grep `recipes/` for the word first) so the shopping list merges them.
 - `prep` holds the knife work and notes: `Peeled & minced`, `Removed from casing`.
-- `group` is the mise grouping and is **always filled in**. Groups are bowls on the counter: numbered **1..N consecutively in order of first use, no gaps**, each named after the direction step or component it feeds: `1 -> Batter`, `2 -> Honey butter`. A step that adds no new ingredients (baking, resting) gets no bowl. An ingredient used in two steps gets `2 -> Stew (then 4 -> Finish)`. Sub-recipes (sauce, rub, dough) are their own bowls. `scripts/renumber_groups.py` fixes numbering; the validator rejects gaps and dangling references.
+- `group` is the mise grouping and is **always filled in**. See "Mise groups" below: it has its own rule and its own check.
 - `qty`/`unit` must reflect the measure so shopping lists add correctly. Count-type things (`1 Baguette`, `3 heads Bibb Lettuce`) use `each` or a descriptive counter.
 - `section`: set it when the keyword fallback in `data/store_sections.yaml` would get it wrong. Valid sections are listed in that file.
 - `shop: false` for Water, and for "for serving" extras the family said not to shop.
 
+### Mise groups: one bowl, one moment
+
+A mise group is a bowl on the counter. **Everything in a bowl goes into the pot, pan, mixer or dish at the same moment.** The cook sets the bowls out before starting and tips each one in whole, so a bowl that holds two moments makes them add something too early.
+
+**The test.** At the point the directions first call for anything in the bowl, could the cook tip in the whole bowl without changing the recipe? If not, split it.
+
+**Anything that happens between two additions splits the bowl:** heat, time, or a change the directions wait for ("bring to a simmer", "cook until soft", "until the sugar dissolves", "until nearly evaporated", "whisk until emulsified", "off the heat"), or simply "then". Where it comes up most:
+
+- The fat that heats in the pan before anything else goes in: its own bowl.
+- Aromatics added in stages: onion, then garlic, then tomato paste are three bowls.
+- The liquid that deglazes (wine) and the liquid that follows it (stock) are two bowls. Stock and the gelatin bloomed in it are one.
+- Butter, flour and milk for a roux or béchamel: three bowls. Cheese or seasoning stirred in at the end: another.
+- Wet and dry for a batter. Each station of a dredge (flour, egg, crumbs).
+- Oil streamed into a dressing or marinade after the rest is whisked.
+- Sugar for a caramel, and the cream or liquid that stops it.
+- Yolks that get tempered. A slurry. A finishing herb, cheese or acid.
+- Meat and a rub that is mixed first: the rub is a bowl, the meat is a bowl. Salt and pepper put straight on the meat go with the meat.
+
+**What can share a bowl:** things mixed together before they are cooked (a rub, a marinade, a brine, the dry ingredients, a sauce whisked in one go); things the directions add in one breath with nothing in between ("add the tomatoes, sugar and salt"); salt and pepper with the food they season at that moment; and things set out together at the table, which share one `Serve` bowl.
+
+**Writing them:**
+
+- Numbered **1..N consecutively in order of first use, no gaps.** A bowl of one ingredient is normal. A step that adds nothing new (baking, resting) gets no bowl.
+- Name the bowl for the moment or for what is in it: `5 -> Deglaze`, `6 -> Stock`, `7 -> Herbs`. Never name it for a whole step that has several additions (`3 -> Braise`, `2 -> Sauce`); that is how wrong bowls get made.
+- An ingredient used at two moments is listed once with both: `2 -> Onion (then 6 -> Finish)`, and `prep` says how it is divided.
+- Keep the table in bowl order.
+- `scripts/renumber_groups.py` fixes numbering; the validator rejects gaps and dangling references. Neither can tell whether a bowl is right. That is the check below.
+
+**Check every recipe before saving it** (new recipes, Google Doc syncs, event versions, and any edit that changes the order of the directions):
+
+1. Read the directions from the top. At every "add", "stir in", "pour in", "whisk in", "sprinkle", "return", list what goes in at that moment.
+2. Each of those lists is exactly one bowl: nothing in the bowl is missing from the list, and nothing on the list sits in another bowl.
+3. If a direction would have to say "everything from `N -> ...` except" or "the rest of", the bowl is wrong. Split it; don't write around it.
+
+Why: the short ribs for Thanksgiving 2026 had wine, stock, gelatin, thyme and bay in one `3 -> Braise` bowl, though the wine goes in alone and comes to a simmer first. Until then bowls had been grouped by step. All 168 recipes were regrouped on 2026-11-25.
+
 ## 5. Directions
 
-Markdown. Bold step headings as paragraphs, **named, not numbered** (`**Sweat the onion**`, `**Make the sauce**`; multi-day recipes can use `**Day 1**` above them) and bullets inside each step. The bowl numbers live in the ingredient table; directions refer to bowls by their full label ("Combine everything from `1 -> Ginger Scallion Sauce`"), so the two never drift apart. Keep temperatures, times and doneness cues.
+Markdown. Bold step headings as paragraphs, **named, not numbered** (`**Sweat the onion**`, `**Make the sauce**`; multi-day recipes can use `**Day 1**` above them) and bullets inside each step. The bowl numbers live in the ingredient table; directions refer to bowls by their full label at the moment the bowl goes in ("Add the wine from `5 -> Deglaze`", "Combine everything from `1 -> Ginger Scallion Sauce`"), so the two never drift apart. Keep temperatures, times and doneness cues.
 
 **Temperatures for techniques.** The family cooks with infrared and probe thermometers, so vague heat words get a number on first use: "over medium-high heat (pan surface 375-425°F)", "sweat (200-250°F, no color)", "a bare simmer (180-190°F)", "fry at 325°F", "braise at 300°F until 200°F internal". Use `data/techniques.yaml` for the house targets; the site and the Google Doc also append a "Technique temperatures" box automatically for any glossary term that appears. When you can fetch a reputable technique page (Serious Eats, ThermoWorks, King Arthur, AmazingRibs, USDA FSIS), link it in the direction text; if you can't fetch, don't invent a URL.
 

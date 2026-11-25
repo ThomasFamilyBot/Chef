@@ -15,120 +15,120 @@ drive_doc_id: 1gvcw5sOz4JL5Nbox8fxWfStvAtLdRGHVZXyY3UnjC9Y
 ingredients:
   - measure: 2 TBLS
     item: Ghee
-    group: 1 -> Curry
+    group: 1 -> Ghee
     qty: 2
     unit: TBLS
     section: Dairy & Eggs
   - measure: 1 large
     item: Yellow Onion
     prep: Finely diced
-    group: 1 -> Curry
+    group: 2 -> Onion
     qty: 1
     unit: each
   - measure: 2 lb
     item: Chicken Thighs, boneless skinless
     prep: Halved, patted dry
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 2
     unit: lb
   - measure: 1 cup
     item: Tomato Puree
     prep: Canned
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 1
     unit: cup
     section: Canned & Jarred
   - measure: 1/2 cup
     item: Water
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 0.5
     unit: cup
     shop: false
   - measure: 1 TBLS
     item: Ginger
     prep: Freshly grated
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Garlic
     prep: Minced
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 3
     unit: clove
   - measure: 2 tsp
     item: Kashmiri Chili Powder
     prep: Or another mild red chile powder
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 2
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 2 tsp
     item: Kosher Salt
     prep: For the curry
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 2
     unit: tsp
   - measure: 1 tsp
     item: Garam Masala
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1/2 tsp
     item: Ground Turmeric
-    group: 1 -> Curry
+    group: 3 -> Curry
     qty: 0.5
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 cup
     item: Basmati Rice
-    group: 2 -> Rice
+    group: 4 -> Rice
     qty: 1
     unit: cup
     section: Pasta, Rice & Grains
   - measure: 1 1/2 cups
     item: Water
     prep: For the rice
-    group: 2 -> Rice
+    group: 4 -> Rice
     qty: 1.5
     unit: cup
     shop: false
   - measure: 1 tsp
     item: Kosher Salt
     prep: For the rice
-    group: 2 -> Rice
+    group: 4 -> Rice
     qty: 1
     unit: tsp
   - measure: 1/2 cup
     item: Coconut Cream
     prep: Canned, unsweetened (or the cream from a chilled can of full-fat coconut milk)
-    group: 3 -> Finish
+    group: 5 -> Finish
     qty: 0.5
     unit: cup
     section: International
   - measure: 2 TBLS
     item: Tomato Paste
-    group: 3 -> Finish
+    group: 5 -> Finish
     qty: 2
     unit: TBLS
   - measure: 2 TBLS
     item: Dried Fenugreek Leaves
     prep: Kasuri methi
-    group: 3 -> Finish
+    group: 5 -> Finish
     qty: 2
     unit: TBLS
     section: Spices & Dried Herbs
   - measure: 2 tsp
     item: Granulated Sugar
     prep: Optional
-    group: 3 -> Finish
+    group: 5 -> Finish
     qty: 2
     unit: tsp
   - measure: 1/2 cup
     item: Cilantro
     prep: Chopped
-    group: 3 -> Finish
+    group: 6 -> Serve
     qty: 0.5
     unit: cup
 nutrition:

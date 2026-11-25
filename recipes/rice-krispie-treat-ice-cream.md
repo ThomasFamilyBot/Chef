@@ -16,20 +16,20 @@ ingredients:
   - measure: 4 TBLS (2 oz)
     item: Unsalted Butter
     prep: For the treats
-    group: 1 -> Rice Krispie treats
+    group: 1 -> Treat butter
     qty: 4
     unit: TBLS
     nutrition: {fraction: 0.5, note: only half the pan of treats goes into the ice cream}
   - measure: 1 (10 oz) package
     item: Mini Marshmallows
-    group: 1 -> Rice Krispie treats
+    group: 2 -> Marshmallows
     qty: 1
     unit: package
     section: Baking
     nutrition: {fraction: 0.5, note: only half the pan of treats goes into the ice cream}
   - measure: 6 cups (6 oz)
     item: Rice Krispies
-    group: 1 -> Rice Krispie treats
+    group: 3 -> Rice Krispies
     qty: 6
     unit: oz
     section: Pasta, Rice & Grains
@@ -37,51 +37,51 @@ ingredients:
   - measure: 4 large
     item: Eggs
     prep: Separated; yolks for the custard, 3 whites for the fluff
-    group: 2 -> Yolks
+    group: 4 -> Yolks (then 9 -> Marshmallow fluff)
     qty: 4
     unit: each
     nutrition: {fraction: 0.9, note: 4 yolks and 3 whites used; one white is left over}
   - measure: 1/2 cup (100 g)
     item: Granulated Sugar
     prep: Divided; 1/4 cup with the yolks, 1/4 cup in the pot
-    group: 2 -> Yolks (then 3 -> Custard)
+    group: 4 -> Yolks (then 7 -> Milk)
     qty: 0.5
     unit: cup
   - measure: 4 TBLS (2 oz)
     item: Unsalted Butter
     prep: For the custard
-    group: 3 -> Custard
+    group: 5 -> Custard butter
     qty: 4
     unit: TBLS
   - measure: 1 1/2 cups
     item: Heavy Cream
-    group: 3 -> Custard
+    group: 6 -> Cream
     qty: 1.5
     unit: cup
   - measure: 1 1/2 cups
     item: Whole Milk
-    group: 3 -> Custard
+    group: 7 -> Milk
     qty: 1.5
     unit: cup
   - measure: 1/4 tsp
     item: Kosher Salt
-    group: 3 -> Custard
+    group: 7 -> Milk
     qty: 0.25
     unit: tsp
   - measure: 2 tsp
     item: Vanilla Extract
-    group: 3 -> Custard
+    group: 8 -> Vanilla
     qty: 2
     unit: tsp
   - measure: 3/4 cup (150 g)
     item: Granulated Sugar
     prep: For the fluff
-    group: 4 -> Marshmallow fluff
+    group: 9 -> Marshmallow fluff
     qty: 0.75
     unit: cup
   - measure: 1/4 tsp
     item: Cream of Tartar
-    group: 4 -> Marshmallow fluff
+    group: 10 -> Cream of tartar
     qty: 0.25
     unit: tsp
     section: Baking

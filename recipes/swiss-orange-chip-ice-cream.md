@@ -17,60 +17,60 @@ ingredients:
   - measure: 2 cups (1 pint)
     item: Heavy Cream
     prep: Divided (1 & 1)
-    group: 1 -> Chocolate base
+    group: 1 -> Cream and cocoa (then 3 -> Remaining cream)
     qty: 2
     unit: cup
   - measure: 3 TBLS
     item: Cocoa Powder
     prep: Unsweetened Dutch-process
-    group: 1 -> Chocolate base
+    group: 1 -> Cream and cocoa
     qty: 3
     unit: TBLS
   - measure: 10 oz
     item: Bittersweet Chocolate
     prep: Chopped, divided (5 & 5). Guittard 72% cacao
-    group: 1 -> Chocolate base (then 3 -> Chill and churn)
+    group: 2 -> Melting chocolate (then 7 -> Chocolate chips)
     qty: 10
     unit: oz
   - measure: 1 cup
     item: Whole Milk
-    group: 2 -> Custard
+    group: 4 -> Custard
     qty: 1
     unit: cup
   - measure: 3/4 cup
     item: Granulated Sugar
-    group: 2 -> Custard
+    group: 4 -> Custard
     qty: 0.75
     unit: cup
   - measure: Pinch
     item: Kosher Salt
-    group: 2 -> Custard
+    group: 4 -> Custard
     qty: 1
     unit: pinch
-  - measure: 5 large
-    item: Egg Yolks
-    group: 2 -> Custard
-    qty: 5
-    unit: each
   - measure: 2 large
     item: Orange
     prep: Zest grated
-    group: 2 -> Custard
+    group: 4 -> Custard
     qty: 2
+    unit: each
+  - measure: 5 large
+    item: Egg Yolks
+    group: 5 -> Yolks
+    qty: 5
     unit: each
   - measure: 1/2 tsp
     item: Vanilla Extract
-    group: 2 -> Custard
+    group: 6 -> Flavorings
     qty: 0.5
     unit: tsp
   - measure: 1/2 tsp
     item: Orange Extract
-    group: 2 -> Custard
+    group: 6 -> Flavorings
     qty: 0.5
     unit: tsp
   - measure: 2 TBLS
     item: Grand Marnier
-    group: 2 -> Custard
+    group: 6 -> Flavorings
     qty: 2
     unit: TBLS
     section: Beverages, Beer & Wine

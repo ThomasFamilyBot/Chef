@@ -82,14 +82,14 @@ ingredients:
   - measure: 1 gallon
     item: Water
     prep: Ice-cold
-    group: 1 -> Brine
+    group: 2 -> Ice-cold water
     qty: 1
     unit: gallon
     shop: false
   - measure: 12 (the directions say 12.5 lb)
     item: Cucumbers
     prep: Washed, cut into 4-6 wedges
-    group: 2 -> Cut the cucumbers
+    group: 3 -> Cut the cucumbers
     qty: 12
     unit: each
 nutrition:
@@ -191,7 +191,7 @@ nutrition:
 ---
 **Brine**
 
-- Bring all `1 -> Brine` ingredients except the water to a boil, then add the 1 gallon of ice-cold water.
+- Bring all `1 -> Brine` ingredients to a boil, then add the 1 gallon of ice-cold water from `2 -> Ice-cold water`.
 
 **Cut the cucumbers**
 

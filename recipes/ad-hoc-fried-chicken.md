@@ -30,85 +30,6 @@ ingredients:
     nutrition:
       fraction: 0.1
       note: deep-frying oil; ~10% assumed absorbed by the chicken, rest discarded
-  - measure: 1 quart
-    item: Buttermilk
-    group: 4 -> Mix the dredge
-    qty: 1
-    unit: quart
-  - measure: To taste
-    item: Kosher Salt
-    prep: For seasoning the buttermilk
-    group: 4 -> Mix the dredge
-    qty: 1
-    unit: to taste
-  - measure: To taste
-    item: Black Pepper
-    prep: For seasoning the buttermilk
-    group: 4 -> Mix the dredge
-    qty: 1
-    unit: to taste
-  - measure: 6 cups (1.6 lb)
-    item: All-Purpose Flour
-    group: 4 -> Mix the dredge
-    qty: 6
-    unit: cup
-    nutrition:
-      fraction: 0.3
-      note: dredge; ~30% of the flour mix assumed to stick
-  - measure: 1/4 cup
-    item: Garlic Powder
-    group: 4 -> Mix the dredge
-    qty: 0.25
-    unit: cup
-    nutrition:
-      fraction: 0.3
-      note: part of the dredge; ~30% assumed to stick
-  - measure: 1/4 cup
-    item: Onion Powder
-    group: 4 -> Mix the dredge
-    qty: 0.25
-    unit: cup
-    nutrition:
-      fraction: 0.3
-      note: part of the dredge; ~30% assumed to stick
-  - measure: 1 TBLS + 1 tsp
-    item: Paprika
-    group: 4 -> Mix the dredge
-    qty: 4
-    unit: tsp
-  - measure: 1 TBLS + 1 tsp
-    item: Cayenne
-    group: 4 -> Mix the dredge
-    qty: 4
-    unit: tsp
-  - measure: 1 TBLS + 1 tsp
-    item: Kosher Salt
-    group: 4 -> Mix the dredge
-    qty: 4
-    unit: tsp
-  - measure: 1 tsp
-    item: Black Pepper
-    group: 4 -> Mix the dredge
-    qty: 1
-    unit: tsp
-  - measure: To taste
-    item: Flaky Sea Salt
-    prep: Fleur de sel or fine sea salt, for finishing
-    group: 5 -> Cook
-    qty: 1
-    unit: to taste
-  - measure: 1 bunch
-    item: Fresh Rosemary
-    prep: For frying the sprigs
-    group: 5 -> Cook
-    qty: 1
-    unit: bunch
-  - measure: 1 bunch
-    item: Fresh Thyme
-    prep: For frying the sprigs
-    group: 5 -> Cook
-    qty: 1
-    unit: bunch
   - measure: 1 roll
     item: Parchment Paper
     group: 3 -> Set up the pans
@@ -116,10 +37,89 @@ ingredients:
     unit: each
     section: Household
     nutrition: exclude
+  - measure: 6 cups (1.6 lb)
+    item: All-Purpose Flour
+    group: 4 -> Dredge
+    qty: 6
+    unit: cup
+    nutrition:
+      fraction: 0.3
+      note: dredge; ~30% of the flour mix assumed to stick
+  - measure: 1/4 cup
+    item: Garlic Powder
+    group: 4 -> Dredge
+    qty: 0.25
+    unit: cup
+    nutrition:
+      fraction: 0.3
+      note: part of the dredge; ~30% assumed to stick
+  - measure: 1/4 cup
+    item: Onion Powder
+    group: 4 -> Dredge
+    qty: 0.25
+    unit: cup
+    nutrition:
+      fraction: 0.3
+      note: part of the dredge; ~30% assumed to stick
+  - measure: 1 TBLS + 1 tsp
+    item: Paprika
+    group: 4 -> Dredge
+    qty: 4
+    unit: tsp
+  - measure: 1 TBLS + 1 tsp
+    item: Cayenne
+    group: 4 -> Dredge
+    qty: 4
+    unit: tsp
+  - measure: 1 TBLS + 1 tsp
+    item: Kosher Salt
+    group: 4 -> Dredge
+    qty: 4
+    unit: tsp
+  - measure: 1 tsp
+    item: Black Pepper
+    group: 4 -> Dredge
+    qty: 1
+    unit: tsp
+  - measure: 1 quart
+    item: Buttermilk
+    group: 5 -> Buttermilk
+    qty: 1
+    unit: quart
+  - measure: To taste
+    item: Kosher Salt
+    prep: For seasoning the buttermilk
+    group: 5 -> Buttermilk
+    qty: 1
+    unit: to taste
+  - measure: To taste
+    item: Black Pepper
+    prep: For seasoning the buttermilk
+    group: 5 -> Buttermilk
+    qty: 1
+    unit: to taste
+  - measure: To taste
+    item: Flaky Sea Salt
+    prep: Fleur de sel or fine sea salt, for finishing
+    group: 6 -> Finishing salt
+    qty: 1
+    unit: to taste
+  - measure: 1 bunch
+    item: Fresh Rosemary
+    prep: For frying the sprigs
+    group: 7 -> Herb sprigs
+    qty: 1
+    unit: bunch
+  - measure: 1 bunch
+    item: Fresh Thyme
+    prep: For frying the sprigs
+    group: 7 -> Herb sprigs
+    qty: 1
+    unit: bunch
   - measure: 2 bottles
     item: BBQ Sauce
     prep: For serving
-    group: 6 -> Serve
+    group: 8 -> Serve
     qty: 2
     unit: bottle
     nutrition:
@@ -128,7 +128,7 @@ ingredients:
   - measure: 2 bottles
     item: Ranch Dressing
     prep: For serving
-    group: 6 -> Serve
+    group: 8 -> Serve
     qty: 2
     unit: bottle
     nutrition:
@@ -137,7 +137,7 @@ ingredients:
   - measure: 2 bottles
     item: Honey
     prep: For serving
-    group: 6 -> Serve
+    group: 8 -> Serve
     qty: 2
     unit: bottle
     nutrition:
@@ -309,9 +309,9 @@ nutrition:
 
 **Mix the dredge**
 
-- Flour, garlic, onion, paprika, cayenne, kosher salt, black pepper (`4 -> Mix the dredge`; will be divided b/w bowl 1 and bowl 3).
+- Flour, garlic, onion, paprika, cayenne, kosher salt, black pepper (`4 -> Dredge`; will be divided b/w bowl 1 and bowl 3).
 - Bowl 1: Initial coating -> half the mixture.
-- Bowl 2: Dredge -> buttermilk seasoned w/ salt and pepper.
+- Bowl 2: Dredge -> buttermilk seasoned w/ salt and pepper (`5 -> Buttermilk`).
 - Bowl 3: 2nd coating -> half the mixture.
 
 **Cook** at 320°F

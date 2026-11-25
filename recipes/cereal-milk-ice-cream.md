@@ -15,14 +15,21 @@ drive_doc_id: 1QTYz8UHkCFNUFVj5jrJrTt_0m0D68Z4IoJlwx4SlAm8
 ingredients:
   - measure: 10 oz
     item: Cornflakes
-    group: 1 -> Caramelized cornflakes
+    group: 1 -> Cornflakes
     qty: 10
     unit: oz
     section: Pasta, Rice & Grains
     nutrition: {fraction: 0.3, note: makes ~18 oz; 4 oz are served, 14 oz steep in the milk and are discarded. ~30% counted for the served flakes plus what leaches into the milk}
+  - measure: 6 1/2 oz (about 1 1/2 sticks)
+    item: Unsalted Butter
+    prep: Melted
+    group: 2 -> Melted butter
+    qty: 6.5
+    unit: oz
+    nutrition: {fraction: 0.3, note: see Cornflakes}
   - measure: 2 oz
     item: Nonfat Dry Milk Powder
-    group: 1 -> Caramelized cornflakes
+    group: 3 -> Sugar mixture
     qty: 2
     unit: oz
     section: Baking
@@ -30,54 +37,47 @@ ingredients:
   - measure: 1/4 cup
     item: Granulated Sugar
     prep: For the cornflakes
-    group: 1 -> Caramelized cornflakes
+    group: 3 -> Sugar mixture
     qty: 0.25
     unit: cup
     nutrition: {fraction: 0.3, note: see Cornflakes}
   - measure: 1/2 tsp
     item: Kosher Salt
     prep: For the cornflakes
-    group: 1 -> Caramelized cornflakes
+    group: 3 -> Sugar mixture
     qty: 0.5
     unit: tsp
-  - measure: 6 1/2 oz (about 1 1/2 sticks)
-    item: Unsalted Butter
-    prep: Melted
-    group: 1 -> Caramelized cornflakes
-    qty: 6.5
-    unit: oz
-    nutrition: {fraction: 0.3, note: see Cornflakes}
   - measure: 4 cups
     item: Whole Milk
-    group: 2 -> Cereal milk
+    group: 4 -> Cereal milk
     qty: 4
     unit: cup
     nutrition: {fraction: 0.25, note: the cornflakes absorb most of it; about 1 cup of cereal milk comes out}
   - measure: 1 cup
     item: Heavy Cream
-    group: 3 -> Custard
+    group: 5 -> Cream
     qty: 1
     unit: cup
   - measure: 1/2 cup
     item: Granulated Sugar
     prep: For the custard
-    group: 3 -> Custard
+    group: 6 -> Custard
     qty: 0.5
     unit: cup
   - measure: 1/4 tsp
     item: Kosher Salt
     prep: For the custard
-    group: 3 -> Custard
+    group: 6 -> Custard
     qty: 0.25
     unit: tsp
   - measure: 1 tsp
     item: Vanilla Extract
-    group: 3 -> Custard
+    group: 6 -> Custard
     qty: 1
     unit: tsp
   - measure: 4 large
     item: Egg Yolks
-    group: 3 -> Custard
+    group: 7 -> Yolks
     qty: 4
     unit: each
 nutrition:

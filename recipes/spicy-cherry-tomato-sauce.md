@@ -15,60 +15,60 @@ drive_doc_id: 1EyAgiFZCX36lxpoGBxlUyw2VuZcltipyzagyLI_n8XU
 ingredients:
   - measure: 1/4 cup + 1 TBLS
     item: Olive Oil
-    group: 1 -> Fry the garlic
+    group: 1 -> Oil
     qty: 5
     unit: TBLS
   - measure: 2 cloves
     item: Garlic
     prep: Thin slice
-    group: 1 -> Fry the garlic
+    group: 2 -> Fry the garlic
     qty: 2
     unit: clove
   - measure: 1 lb 2 oz
     item: Cherry Tomatoes
     prep: Halved
-    group: 2 -> Cook the tomatoes
+    group: 3 -> Cook the tomatoes
     qty: 18
     unit: oz
   - measure: 1/2 tsp
     item: Granulated Sugar
-    group: 2 -> Cook the tomatoes
+    group: 3 -> Cook the tomatoes
     qty: 0.5
     unit: tsp
   - measure: 1
     item: Dried Ancho Chile
     prep: Torn apart. Can sub 1/4 tsp of smoked paprika for ancho
-    group: 2 -> Cook the tomatoes
+    group: 3 -> Cook the tomatoes
     qty: 1
     unit: each
     section: Spices & Dried Herbs
   - measure: 1/2 tsp
     item: Kosher Salt
-    group: 2 -> Cook the tomatoes
+    group: 3 -> Cook the tomatoes
     qty: 0.5
     unit: tsp
   - measure: ~1/2 cup
     item: Water
     prep: Doc doesn't give an amount; enough to get the tomatoes bubbling
-    group: 2 -> Cook the tomatoes
+    group: 3 -> Cook the tomatoes
     qty: 0.5
     unit: cup
     shop: false
   - measure: 1 cup (0.7 oz)
     item: Basil
     prep: Leaves
-    group: 3 -> Finish with basil and pasta
+    group: 4 -> Basil
     qty: 1
     unit: cup
   - measure: 14 oz
     item: Fettuccine
     prep: Or spaghetti
-    group: 3 -> Finish with basil and pasta
+    group: 5 -> Pasta
     qty: 14
     unit: oz
   - measure: 1 1/4 oz
     item: Parmesan
-    group: 3 -> Finish with basil and pasta
+    group: 6 -> Serve
     qty: 1.25
     unit: oz
 nutrition:

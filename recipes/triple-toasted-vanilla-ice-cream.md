@@ -30,7 +30,7 @@ ingredients:
   - measure: 90 g (about 7 TBLS)
     item: Granulated Sugar
     prep: "Split: 40 g for the yolk blend, 50 g for the caramel"
-    group: 3 -> Yolk blend (then 4 -> Caramel)
+    group: 3 -> Yolk blend (then 4 -> Caramel sugar)
     qty: 90
     unit: g
   - measure: 1 1/3 cups (325 g)
@@ -64,7 +64,7 @@ ingredients:
     section: Baking
   - measure: 1 1/2 cups (350 g)
     item: Heavy Cream
-    group: 4 -> Caramel
+    group: 5 -> Cream
     qty: 1.5
     unit: cup
 nutrition:
@@ -161,8 +161,8 @@ nutrition:
 
 **Caramel and custard**
 
-- In a saucepan of at least 3 quarts over medium heat (pan surface 300-350°F), spread the remaining 50 g sugar in an even layer. Don't stir; once it starts melting at the edges, gently push the liquid sugar toward the center until it's all melted and golden brown, graham-cracker color (about 340°F).
-- Slowly drizzle in the cream to stop the caramel; it sputters and steams. Bring to a simmer and stir to dissolve; any shards melt as it cooks.
+- In a saucepan of at least 3 quarts over medium heat (pan surface 300-350°F), spread the remaining 50 g sugar (`4 -> Caramel sugar`) in an even layer. Don't stir; once it starts melting at the edges, gently push the liquid sugar toward the center until it's all melted and golden brown, graham-cracker color (about 340°F).
+- Slowly drizzle in the cream from `5 -> Cream` to stop the caramel; it sputters and steams. Bring to a simmer and stir to dissolve; any shards melt as it cooks.
 - Add the yolk blend and the vanilla pod. Cook over medium heat, stirring often, until the custard reaches 180°F or coats the back of a spoon.
 - Off the heat, cover and steep 20 minutes.
 - Cool the base in an ice bath, then cover and refrigerate overnight, at least 8 hours.

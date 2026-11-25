@@ -23,44 +23,44 @@ ingredients:
   - measure: 1/2 cup
     item: Cornmeal
     prep: Not stone ground
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 0.5
     unit: cup
   - measure: 1/2 cup
     item: All-Purpose Flour
     prep: Plus a little for dusting if the batter won't stick
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 0.5
     unit: cup
   - measure: 2 tsp
     item: Baking Powder
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 2
     unit: tsp
   - measure: 1/2 tsp
     item: Kosher Salt
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 0.5
     unit: tsp
   - measure: 2/3 cup
     item: Whole Milk
-    group: 2 -> Batter
+    group: 3 -> Batter wet
     qty: 0.67
     unit: cup
   - measure: 1 large
     item: Eggs
-    group: 2 -> Batter
+    group: 3 -> Batter wet
     qty: 1
     unit: each
   - measure: 2 TBLS
     item: Honey
-    group: 2 -> Batter
+    group: 3 -> Batter wet
     qty: 2
     unit: TBLS
   - measure: 1 quart
     item: Neutral Oil
     prep: Vegetable oil, for frying
-    group: 3 -> Fry
+    group: 4 -> Fry
     qty: 1
     unit: quart
     nutrition: {fraction: 0.1, note: deep-frying oil; ~10% absorbed}

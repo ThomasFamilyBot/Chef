@@ -15,36 +15,36 @@ drive_doc_id: 1R4ChFoZBjw8ylYikW4t4O3ElTbcael-N9InIO42w9B8
 ingredients:
   - measure: 1 TBLS
     item: Olive Oil
-    group: 1 -> Chicken
+    group: 1 -> Oil
     qty: 1
     unit: TBLS
   - measure: 8
     item: Chicken Thighs, bone-in skin-on
-    group: 1 -> Chicken
+    group: 2 -> Chicken
     qty: 8
     unit: each
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Chicken
+    group: 2 -> Chicken
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Chicken
+    group: 2 -> Chicken
     qty: 1
     unit: to taste
   - measure: Rind of 1/2
     item: Preserved Lemon
     prep: Rind only, finely chopped
-    group: 2 -> Finish
+    group: 3 -> Preserved lemon
     qty: 0.5
     unit: each
     section: International
   - measure: For serving
     item: Lemon
     prep: Wedges
-    group: 2 -> Finish
+    group: 4 -> Serve
     qty: 1
     unit: each
     nutrition: exclude

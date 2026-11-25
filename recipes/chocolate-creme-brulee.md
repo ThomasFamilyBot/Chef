@@ -13,102 +13,102 @@ times:
 tags: [dessert, chocolate, baking, vegetarian, make-ahead, project]
 drive_doc_id: 1MdeiADxc-bv4n6lE2y_wB-MfZx9IJfLnlgHl9EemIrY
 ingredients:
-  - measure: 1 cup
-    item: Blueberries
-    group: 1 -> Macerated blueberries
-    qty: 1
-    unit: cup
   - measure: 1/2 cup
     item: Granulated Sugar
     prep: For the syrup
-    group: 1 -> Macerated blueberries
+    group: 1 -> Syrup
     qty: 0.5
     unit: cup
     nutrition: {fraction: 0.25, note: macerating syrup is strained off; ~25% clings to the berries}
   - measure: 1/2 cup
     item: Water
-    group: 1 -> Macerated blueberries
+    group: 1 -> Syrup
     qty: 0.5
     unit: cup
     shop: false
   - measure: 5
     item: Star Anise
-    group: 1 -> Macerated blueberries
+    group: 1 -> Syrup
     qty: 5
     unit: each
     nutrition: exclude
   - measure: 1 cup
     item: Lemon Verbena
     prep: Leaves
-    group: 1 -> Macerated blueberries
+    group: 1 -> Syrup
     qty: 1
     unit: cup
     section: Produce
     nutrition: exclude
+  - measure: 1 cup
+    item: Blueberries
+    group: 2 -> Blueberries
+    qty: 1
+    unit: cup
   - measure: 2 cups
     item: Heavy Cream
-    group: 2 -> Crème brûlée
+    group: 3 -> Chocolate cream
     qty: 2
     unit: cup
   - measure: 2 cups
     item: Half and Half
-    group: 2 -> Crème brûlée
+    group: 3 -> Chocolate cream
     qty: 2
     unit: cup
     section: Dairy & Eggs
   - measure: 8 oz
     item: Bittersweet Chocolate
     prep: Dark; chopped
-    group: 2 -> Crème brûlée
+    group: 3 -> Chocolate cream
     qty: 8
     unit: oz
   - measure: 8
     item: Egg Yolks
-    group: 2 -> Crème brûlée
+    group: 4 -> Yolks
     qty: 8
     unit: each
   - measure: 1/3 cup, plus about 8 tsp for the tops
     item: Granulated Sugar
-    group: 2 -> Crème brûlée (then 4 -> Assembly)
+    group: 4 -> Yolks (then 7 -> Assembly)
     qty: 0.5
     unit: cup
-  - measure: 1 cup + 2 TBLS
-    item: All-Purpose Flour
-    group: 3 -> Biscotti
-    qty: 18
-    unit: TBLS
-  - measure: 2 TBLS
-    item: Cocoa Powder
-    group: 3 -> Biscotti
-    qty: 2
-    unit: TBLS
-  - measure: 1/2 tsp
-    item: Baking Soda
-    group: 3 -> Biscotti
-    qty: 0.5
-    unit: tsp
-  - measure: 1/2 tsp
-    item: Kosher Salt
-    group: 3 -> Biscotti
-    qty: 0.5
-    unit: tsp
-  - measure: 6 oz
-    item: Semisweet Chocolate Chips
-    group: 3 -> Biscotti
-    qty: 6
-    unit: oz
-    section: Baking
   - measure: 2
     item: Eggs
-    group: 3 -> Biscotti
+    group: 5 -> Biscotti eggs and sugar
     qty: 2
     unit: each
   - measure: 3/4 cup
     item: Granulated Sugar
     prep: For the biscotti
-    group: 3 -> Biscotti
+    group: 5 -> Biscotti eggs and sugar
     qty: 0.75
     unit: cup
+  - measure: 1 cup + 2 TBLS
+    item: All-Purpose Flour
+    group: 6 -> Biscotti dry
+    qty: 18
+    unit: TBLS
+  - measure: 2 TBLS
+    item: Cocoa Powder
+    group: 6 -> Biscotti dry
+    qty: 2
+    unit: TBLS
+  - measure: 1/2 tsp
+    item: Baking Soda
+    group: 6 -> Biscotti dry
+    qty: 0.5
+    unit: tsp
+  - measure: 1/2 tsp
+    item: Kosher Salt
+    group: 6 -> Biscotti dry
+    qty: 0.5
+    unit: tsp
+  - measure: 6 oz
+    item: Semisweet Chocolate Chips
+    group: 6 -> Biscotti dry
+    qty: 6
+    unit: oz
+    section: Baking
 nutrition:
   computed: '2026-11-07'
   basis: whole recipe, ingredients as listed, raw weights; see line notes

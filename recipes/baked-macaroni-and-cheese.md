@@ -21,70 +21,70 @@ ingredients:
     section: Pasta, Rice & Grains
   - measure: 3 TBLS
     item: Unsalted Butter
-    group: 2 -> Sauce
+    group: 2 -> Butter
     qty: 3
     unit: TBLS
   - measure: 3 TBLS
     item: All-Purpose Flour
-    group: 2 -> Sauce
+    group: 3 -> Flour and mustard
     qty: 3
     unit: TBLS
   - measure: 1 TBLS
     item: Dry Mustard Powder
-    group: 2 -> Sauce
+    group: 3 -> Flour and mustard
     qty: 1
     unit: TBLS
   - measure: 3 cups
     item: Whole Milk
-    group: 2 -> Sauce
+    group: 4 -> Milk
     qty: 3
     unit: cup
   - measure: 1/2 cup
     item: Yellow Onion
     prep: Finely diced
-    group: 2 -> Sauce
+    group: 4 -> Milk
     qty: 0.5
     unit: cup
   - measure: 1
     item: Bay Leaves
-    group: 2 -> Sauce
+    group: 4 -> Milk
     qty: 1
     unit: each
   - measure: 1/2 tsp
     item: Paprika
-    group: 2 -> Sauce
+    group: 4 -> Milk
     qty: 0.5
     unit: tsp
   - measure: 1 large
     item: Eggs
-    group: 3 -> Finish the sauce
+    group: 5 -> Egg
     qty: 1
     unit: each
   - measure: 12 oz
     item: Cheddar Cheese
     prep: Sharp; shredded. 3/4 into the sauce, 1/4 on top
-    group: 3 -> Finish the sauce (then 4 -> Topping)
+    group: 6 -> Cheese (then 7 -> Cheese for the top)
     qty: 12
     unit: oz
   - measure: 1 tsp
     item: Kosher Salt
-    group: 3 -> Finish the sauce
+    group: 6 -> Cheese
     qty: 1
     unit: tsp
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 3 -> Finish the sauce
+    group: 6 -> Cheese
     qty: 1
     unit: to taste
   - measure: 3 TBLS
     item: Unsalted Butter
-    group: 4 -> Topping
+    group: 8 -> Topping butter
     qty: 3
     unit: TBLS
   - measure: 1 cup
     item: Panko Bread Crumbs
-    group: 4 -> Topping
+    group: 9 -> Panko
     qty: 1
     unit: cup
     section: Baking

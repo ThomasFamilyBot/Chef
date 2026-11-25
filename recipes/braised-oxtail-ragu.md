@@ -14,130 +14,130 @@ tags: [beef, italian, main]
 source_doc: https://docs.google.com/document/d/1HTX9ZGbcNJARR5Gpxw-yCNphYSjYfkjMmSyuo0VmdeY/edit
 drive_doc_id: 1PhTPyin6DG0v9FMvtnigowPhENrG4FI4Z9YFxxmPtlY
 ingredients:
+  - measure: 1/4 cup + 3 TBLS
+    item: Olive Oil
+    prep: 1/4 cup for the Oxtail Sear, 3 TBLS for the Sauce Base
+    group: 1 -> Sear oil (then 6 -> Sauce Base oil)
+    qty: 7
+    unit: TBLS
   - measure: 3-4 lb
     item: Oxtail
-    group: 1 -> Oxtail Sear
+    group: 2 -> Oxtail
     qty: 4
     unit: lb
     section: Meat & Seafood
   - measure: To taste
     item: Kosher Salt
     prep: For the sear, and probably more at the end
-    group: 1 -> Oxtail Sear (then 5 -> Finish the braise)
+    group: 2 -> Oxtail (then 10 -> Finish the braise)
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
   - measure: To taste
     item: Black Pepper
     prep: For the sear, and probably more at the end
-    group: 1 -> Oxtail Sear (then 5 -> Finish the braise)
+    group: 2 -> Oxtail (then 10 -> Finish the braise)
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
-  - measure: 1/4 cup + 3 TBLS
-    item: Olive Oil
-    prep: 1/4 cup for the Oxtail Sear, 3 TBLS for the Sauce Base
-    group: 1 -> Oxtail Sear (then 4 -> Sauce Base)
-    qty: 7
-    unit: TBLS
   - measure: 1 small
     item: Yellow Onion
     prep: Chopped
-    group: 2 -> Oxtail Base
-    qty: 1
-    unit: each
-  - measure: 1 small
-    item: Yellow Onion
-    prep: Food processor (small as possible)
-    group: 4 -> Sauce Base
+    group: 3 -> Oxtail Base
     qty: 1
     unit: each
   - measure: 4 whole
     item: Carrots
     prep: Peeled, chopped
-    group: 2 -> Oxtail Base
+    group: 3 -> Oxtail Base
     qty: 4
-    unit: each
-  - measure: 2 whole
-    item: Carrots
-    prep: Peeled, food processor (small as possible)
-    group: 4 -> Sauce Base
-    qty: 2
     unit: each
   - measure: 4 whole
     item: Celery
     prep: Chopped
-    group: 2 -> Oxtail Base
+    group: 3 -> Oxtail Base
     qty: 4
-    unit: stalk
-  - measure: 2 whole
-    item: Celery
-    prep: Food processor (small as possible)
-    group: 4 -> Sauce Base
-    qty: 2
     unit: stalk
   - measure: 2 TBLS
     item: Tomato Paste
     prep: Double concentrate. 1 TBLS for the braise, 1 TBLS for the sauce base
-    group: 3 -> Braise the oxtail (then 4 -> Sauce Base)
+    group: 4 -> Braise tomato paste (then 8 -> Stock and tomato paste)
     qty: 2
     unit: TBLS
     section: Canned & Jarred
   - measure: 1 head
     item: Garlic
     prep: Sliced horizontally
-    group: 3 -> Braise the oxtail
+    group: 5 -> Braise the oxtail
     qty: 1
     unit: head
   - measure: 1 bottle
     item: Dry Red Wine
-    group: 3 -> Braise the oxtail
+    group: 5 -> Braise the oxtail
     qty: 1
     unit: bottle
     section: Beverages, Beer & Wine
-  - measure: 35 oz (1 can)
-    item: San Marzano Tomatoes, 35 oz can
-    group: 4 -> Sauce Base
-    qty: 1
-    unit: can
+  - measure: 1-2 cups
+    item: Beef Stock
+    prep: Doc says water, "try beef stock". Tops up the braise + 3/4 cup in the sauce base
+    group: 5 -> Braise the oxtail (then 8 -> Stock and tomato paste)
+    qty: 2
+    unit: cup
     section: Canned & Jarred
+  - measure: 1 small
+    item: Yellow Onion
+    prep: Food processor (small as possible)
+    group: 7 -> Sauce Base
+    qty: 1
+    unit: each
+  - measure: 2 whole
+    item: Carrots
+    prep: Peeled, food processor (small as possible)
+    group: 7 -> Sauce Base
+    qty: 2
+    unit: each
+  - measure: 2 whole
+    item: Celery
+    prep: Food processor (small as possible)
+    group: 7 -> Sauce Base
+    qty: 2
+    unit: stalk
   - measure: 2 sprigs
     item: Fresh Thyme
     prep: Or rosemary, OR savory. Stripped from stem (if you wouldn't eat the stem), food processor (small as possible)
-    group: 4 -> Sauce Base
+    group: 7 -> Sauce Base
     qty: 2
     unit: sprig
   - measure: 1/2 bunch
     item: Flat-Leaf Parsley
     prep: Food processor (small as possible)
-    group: 4 -> Sauce Base
+    group: 7 -> Sauce Base
     qty: 0.5
     unit: bunch
   - measure: "1"
     item: Bay Leaves
     prep: Whole
-    group: 4 -> Sauce Base
+    group: 7 -> Sauce Base
     qty: 1
     unit: each
     section: Spices & Dried Herbs
-  - measure: 1-2 cups
-    item: Beef Stock
-    prep: Doc says water, "try beef stock". Tops up the braise + 3/4 cup in the sauce base
-    group: 3 -> Braise the oxtail (then 4 -> Sauce Base)
-    qty: 2
-    unit: cup
+  - measure: 35 oz (1 can)
+    item: San Marzano Tomatoes, 35 oz can
+    group: 9 -> San Marzano tomatoes
+    qty: 1
+    unit: can
     section: Canned & Jarred
   - measure: Dashes
     item: Wondra Flour
     prep: To thicken at the end, if needed
-    group: 5 -> Finish the braise
+    group: 10 -> Finish the braise
     qty: 1
     unit: dash
     section: Baking
   - measure: 1 lb (est.)
     item: Pasta
     prep: Amount not in the doc; whatever you're serving it on
-    group: 5 -> Finish the braise
+    group: 11 -> Pasta
     qty: 1
     unit: lb
     section: Pasta, Rice & Grains
@@ -309,7 +309,7 @@ nutrition:
 **Braise the oxtail**
 
 - Heat to medium (pan surface 300-350°F).
-- Put in `2 -> Oxtail Base`. Let brown/wilt. 2-3 minutes.
+- Put in `3 -> Oxtail Base`. Let brown/wilt. 2-3 minutes.
 - Add 1 TBLS of tomato paste, cook for 5-6 min.
 - Add Oxtail, garlic halves, bottle of wine. Bring to boil.
     - If wine doesn't cover meat, use water (may want to try beef stock).
@@ -319,7 +319,7 @@ nutrition:
 **Sauce Base**
 
 - New dutch oven on med-low (pan surface 250-300°F). 3 TBLS of olive oil.
-- `4 -> Sauce Base` into dutch oven, saute until onions are translucent (7-8 min).
+- `7 -> Sauce Base` into dutch oven, saute until onions are translucent (7-8 min).
 - Add 3/4 cup water (or beef stock) & 1 TBLS of tomato paste.
 - Let cook until veggies are basically dissolved (liquid should reduce).
 - Add San Marzano tomatoes (break up with fork or masher).

@@ -25,7 +25,7 @@ ingredients:
   - measure: 1 cup + 1 TBLS               # display string, exactly as printed on the page
     item: Kosher Salt                     # canonical shopping name, Title Case, no prep words
     prep: 1 cup separate from TBLS        # optional
-    group: 1 -> Brine the pork             # mise grouping (bowl number -> step/component); bowls run 1..N with no gaps
+    group: 1 -> Brine salt                 # mise grouping: one bowl holds only what goes in at the same moment; bowls run 1..N with no gaps
     qty: 17                               # numeric amount in `unit` (used for shopping-list merging)
     unit: TBLS                            # one of the unit vocabulary below
     section: Spices & Dried Herbs         # optional; falls back to data/store_sections.yaml keywords
@@ -43,6 +43,10 @@ Brine Pork
 
 `title`, `reference.text`, `serves`, `times` (keys may be null), `ingredients` (each with `measure`, `item`, `qty`, `unit`).
 Directions body must be non-empty.
+
+## Mise groups (the `group` field)
+
+One bowl, one moment: everything in a bowl goes into the pot at the same time, so anything the directions add separately (the pan fat, the wine that simmers before the stock, the tomato paste, a finishing herb) is its own bowl. The full rule and the check to run before saving are in `.claude/skills/recipe-intake/SKILL.md` under "Mise groups".
 
 ## Unit vocabulary (the `unit` field)
 

@@ -16,41 +16,41 @@ ingredients:
   - measure: 1 cup
     item: Whole Milk
     prep: Cold
-    group: 1 -> Sweet cream base
+    group: 1 -> Milk and sugar
     qty: 1
     unit: cup
   - measure: 1/2 cup
     item: Granulated Sugar
-    group: 1 -> Sweet cream base
+    group: 1 -> Milk and sugar
     qty: 0.5
     unit: cup
   - measure: 1/8 tsp
     item: Kosher Salt
-    group: 1 -> Sweet cream base
+    group: 1 -> Milk and sugar
     qty: 0.125
     unit: tsp
   - measure: 2 cups
     item: Heavy Cream
     prep: Cold
-    group: 1 -> Sweet cream base
+    group: 2 -> Cream and vanilla
     qty: 2
     unit: cup
   - measure: 2 tsp
     item: Vanilla Extract
-    group: 1 -> Sweet cream base
+    group: 2 -> Cream and vanilla
     qty: 2
     unit: tsp
   - measure: 6
     item: Double Stuf Oreos
     prep: Crushed to crumbs, then frozen
-    group: 2 -> Dark swirls
+    group: 3 -> Dark swirls
     qty: 6
     unit: each
     section: Nuts, Snacks & Dried Fruit
   - measure: 14
     item: Double Stuf Oreos
     prep: 8 broken into 2 or 3 giant pieces each, 6 chopped tiny; all frozen
-    group: 3 -> Chunks
+    group: 4 -> Chunks
     qty: 14
     unit: each
     section: Nuts, Snacks & Dried Fruit
@@ -123,14 +123,14 @@ nutrition:
 
 **Make the sweet cream base**
 
-- Whisk the milk, sugar and salt from `1 -> Sweet cream base` in a big bowl until the sugar is dissolved, 1 to 2 minutes. You shouldn't feel grit on the bottom of the bowl.
-- Stir in the cream and vanilla. Cover and chill at least 1 hour. Colder is better, and overnight is fine.
+- Whisk the milk, sugar and salt from `1 -> Milk and sugar` in a big bowl until the sugar is dissolved, 1 to 2 minutes. You shouldn't feel grit on the bottom of the bowl.
+- Stir in the cream and vanilla from `2 -> Cream and vanilla`. Cover and chill at least 1 hour. Colder is better, and overnight is fine.
 - There are no eggs and nothing to cook. That keeps the ice cream white, the way Annika wants it.
 
 **Get the cookies ready**
 
-- Dark swirls: put the 6 cookies from `2 -> Dark swirls` in a zip bag and roll over them with a rolling pin until they are crumbs.
-- Giant chunks: break 8 of the cookies from `3 -> Chunks` into 2 or 3 pieces each.
+- Dark swirls: put the 6 cookies from `3 -> Dark swirls` in a zip bag and roll over them with a rolling pin until they are crumbs.
+- Giant chunks: break 8 of the cookies from `4 -> Chunks` into 2 or 3 pieces each.
 - Tiny chunks: chop the other 6 into little pieces, about the size of a pea.
 - Freeze the crumbs and the chunks in separate containers while the base chills. Frozen cookies don't melt the ice cream when they go in, and they stay crunchier.
 - Put the two quart-size containers the ice cream will live in, and the bowl for folding in the chunks, into the freezer too.

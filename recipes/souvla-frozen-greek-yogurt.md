@@ -16,36 +16,36 @@ ingredients:
   - measure: 1 cup
     item: Whole Milk
     prep: Or low-fat
-    group: 1 -> Base
+    group: 1 -> Milk and sugar
     qty: 1
     unit: cup
   - measure: 1/4 cup
     item: Granulated Sugar
-    group: 1 -> Base
+    group: 1 -> Milk and sugar
     qty: 0.25
     unit: cup
   - measure: 2 cups
     item: Greek Yogurt
     prep: Whole milk
-    group: 1 -> Base
+    group: 2 -> Yogurt
     qty: 2
     unit: cup
     section: Dairy & Eggs
   - measure: Drizzle (about 1 TBLS)
     item: Extra-Virgin Olive Oil
     prep: Meyer lemon olive oil if you have it
-    group: 2 -> Toppings
+    group: 3 -> Toppings
     qty: 1
     unit: TBLS
   - measure: Pinch
     item: Flaky Sea Salt
-    group: 2 -> Toppings
+    group: 3 -> Toppings
     qty: 1
     unit: pinch
   - measure: Handful (about 1/4 cup)
     item: Pomegranate Seeds
     prep: Fresh
-    group: 2 -> Toppings
+    group: 3 -> Toppings
     qty: 0.25
     unit: cup
     section: Produce

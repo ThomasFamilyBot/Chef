@@ -16,65 +16,65 @@ ingredients:
   - measure: 3 TBLS
     item: Extra-Virgin Olive Oil
     prep: Divided; 2 TBLS to start, 1 TBLS at the end
-    group: 1 -> Onion & garlic (then 4 -> Finish)
+    group: 1 -> Oil (then 6 -> Finish)
     qty: 3
     unit: TBLS
   - measure: 1/2 cup
     item: Yellow Onion
     prep: Grated on the large holes of a box grater
-    group: 1 -> Onion & garlic
+    group: 2 -> Onion
     qty: 0.5
     unit: cup
   - measure: 1 TBLS
     item: Fresh Oregano
     prep: Minced; or 1 tsp dried
-    group: 1 -> Onion & garlic
+    group: 2 -> Onion
     qty: 1
     unit: TBLS
     section: Produce
   - measure: 1/2 tsp + to taste
     item: Kosher Salt
-    group: 1 -> Onion & garlic (then 4 -> Finish)
+    group: 2 -> Onion (then 6 -> Finish)
     qty: 0.5
     unit: tsp
   - measure: 2 cloves
     item: Garlic
     prep: Minced
-    group: 1 -> Onion & garlic
+    group: 3 -> Garlic
     qty: 2
     unit: clove
   - measure: 1 cup
     item: Dry Red Wine
     prep: Côtes du Rhône, Cabernet or Zinfandel; added in two halves
-    group: 2 -> Wine
+    group: 4 -> Wine
     qty: 1
     unit: cup
   - measure: 2 (28 oz) cans
     item: Crushed Tomatoes, 28 oz can
-    group: 3 -> Tomatoes
+    group: 5 -> Tomatoes
     qty: 2
     unit: can
   - measure: 1 TBLS
     item: Honey
-    group: 3 -> Tomatoes
+    group: 5 -> Tomatoes
     qty: 1
     unit: TBLS
   - measure: 2 TBLS
     item: Basil
     prep: Chopped, plus more to taste
-    group: 4 -> Finish
+    group: 6 -> Finish
     qty: 2
     unit: TBLS
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 4 -> Finish
+    group: 6 -> Finish
     qty: 1
     unit: to taste
   - measure: 1-2 lb
     item: Whole-Wheat Pasta
     prep: Spaghetti or penne; 1 lb serves 4, 1 1/2-2 lb serves 6-8
-    group: 5 -> Serve
+    group: 7 -> Serve
     qty: 2
     unit: lb
     section: Pasta, Rice & Grains

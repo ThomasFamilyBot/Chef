@@ -29,33 +29,33 @@ ingredients:
   - measure: 3 TBLS + 1 tsp
     item: Kosher Salt
     prep: 2 TBLS for the chicken toss, 4 tsp (1 TBLS + 1 tsp) for the flour
-    group: 1 -> Brine (then 2 -> Dredge)
+    group: 1 -> Brine (then 3 -> Flour)
     qty: 10
     unit: tsp
     section: Spices & Dried Herbs
   - measure: '4'
     item: Eggs
-    group: 2 -> Dredge
+    group: 2 -> Egg wash
     qty: 4
     unit: each
   - measure: 2 cups
     item: Buttermilk
     prep: Or whole milk
-    group: 2 -> Dredge
+    group: 2 -> Egg wash
     qty: 2
     unit: cup
     section: Dairy & Eggs
   - measure: 2 TBLS
     item: Hot Sauce
     prep: Vinegar hot sauce (Tabasco or Texas Pete)
-    group: 2 -> Dredge
+    group: 2 -> Egg wash
     qty: 2
     unit: TBLS
     section: Oils, Vinegars & Condiments
   - measure: 4 cups (est.)
     item: All-Purpose Flour
     prep: For dredging. Not in the doc's table, but it's in the directions
-    group: 2 -> Dredge
+    group: 3 -> Flour
     qty: 4
     unit: cup
     section: Baking
@@ -65,7 +65,7 @@ ingredients:
   - measure: 10 cups
     item: Neutral Oil
     prep: For frying (veggie oil)
-    group: 2 -> Dredge (then 3 -> Fry)
+    group: 4 -> Frying oil (then 5 -> Hot oil)
     qty: 10
     unit: cup
     section: Oils, Vinegars & Condiments
@@ -74,52 +74,52 @@ ingredients:
       note: deep-frying oil; ~10% assumed absorbed by the chicken, rest discarded
   - measure: 6 TBLS
     item: Cayenne
-    group: 4 -> Hot oil
+    group: 5 -> Hot oil
     qty: 6
     unit: TBLS
     section: Spices & Dried Herbs
   - measure: 2 tsp
     item: Dry Mustard Powder
-    group: 4 -> Hot oil
+    group: 5 -> Hot oil
     qty: 2
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 2 TBLS
     item: Brown Sugar
     prep: Dark
-    group: 4 -> Hot oil
+    group: 5 -> Hot oil
     qty: 2
     unit: TBLS
     section: Baking
   - measure: 1 tsp
     item: Chili Powder
-    group: 4 -> Hot oil
+    group: 5 -> Hot oil
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 tsp
     item: Garlic Powder
-    group: 4 -> Hot oil
+    group: 5 -> Hot oil
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 tsp
     item: Paprika
-    group: 4 -> Hot oil
+    group: 5 -> Hot oil
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 loaf
     item: White Bread
     prep: For serving
-    group: 5 -> Serve
+    group: 6 -> Serve
     qty: 1
     unit: loaf
     section: Bakery & Bread
   - measure: 1 jar
     item: Pickles
     prep: For serving
-    group: 5 -> Serve
+    group: 6 -> Serve
     qty: 1
     unit: jar
     section: Canned & Jarred

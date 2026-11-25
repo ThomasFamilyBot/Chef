@@ -37,7 +37,7 @@ ingredients:
     unit: TBLS
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Roasted onion (then 2 -> Herb sauce, 3 -> Eggs)
+    group: 1 -> Roasted onion (then 2 -> Herb sauce, 4 -> Eggs)
     qty: 1
     unit: to taste
   - measure: 1/4 cup
@@ -54,26 +54,26 @@ ingredients:
     unit: TBLS
   - measure: 1 TBLS
     item: Unsalted Butter
-    group: 3 -> Eggs
+    group: 3 -> Butter
     qty: 1
     unit: TBLS
   - measure: 4 large
     item: Eggs
     prep: Lightly beaten
-    group: 3 -> Eggs
+    group: 4 -> Eggs
     qty: 4
     unit: each
   - measure: 2
     item: English Muffins
     prep: Whole-grain; split and toasted
-    group: 4 -> Assemble
+    group: 5 -> Assemble
     qty: 2
     unit: each
     section: Bakery & Bread
   - measure: 2 oz
     item: Cheddar Cheese
     prep: Sharp; sliced
-    group: 4 -> Assemble
+    group: 5 -> Assemble
     qty: 2
     unit: oz
 nutrition:

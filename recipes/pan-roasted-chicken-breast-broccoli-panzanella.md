@@ -22,7 +22,7 @@ ingredients:
   - measure: 7 TBLS
     item: Olive Oil
     prep: 2 TBLS for the broccoli, 2 TBLS for the chicken, 3 TBLS for the dressing
-    group: 1 -> Broccoli (then 2 -> Chicken, 3 -> Panzanella)
+    group: 1 -> Broccoli (then 3 -> Oil for the pan, 5 -> Dressing oil)
     qty: 7
     unit: TBLS
   - measure: To taste
@@ -45,47 +45,47 @@ ingredients:
   - measure: 1/2
     item: Lemon
     prep: Juice and zest
-    group: 3 -> Panzanella
+    group: 4 -> Dressing
     qty: 0.5
     unit: each
   - measure: 1/2 tsp
     item: Anchovy Paste
-    group: 3 -> Panzanella
+    group: 4 -> Dressing
     qty: 0.5
     unit: tsp
     section: Canned & Jarred
   - measure: 1 small clove
     item: Garlic
     prep: Mashed to a paste
-    group: 3 -> Panzanella
+    group: 4 -> Dressing
     qty: 1
     unit: clove
   - measure: Pinch
     item: Red Pepper Flakes
-    group: 3 -> Panzanella
+    group: 6 -> Panzanella
     qty: 1
     unit: pinch
   - measure: 3 large leaves
     item: Basil
-    group: 3 -> Panzanella
+    group: 6 -> Panzanella
     qty: 3
     unit: leaf
   - measure: 2 TBLS
     item: Red Onion
     prep: Diced
-    group: 3 -> Panzanella
+    group: 6 -> Panzanella
     qty: 2
     unit: TBLS
   - measure: 1 1/2 cups, loosely packed
     item: Crusty Italian Bread
     prep: Stale French bread, cubed
-    group: 3 -> Panzanella
+    group: 6 -> Panzanella
     qty: 2
     unit: oz
   - measure: To finish
     item: Parmesan
     prep: Freshly grated
-    group: 4 -> Serve
+    group: 7 -> Serve
     qty: 2
     unit: TBLS
 nutrition:

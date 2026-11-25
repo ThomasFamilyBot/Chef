@@ -15,106 +15,106 @@ drive_doc_id: 19CeYHaY2TJ210um4UAZTHReu0FIkDL2LkY_7R8dw6NM
 ingredients:
   - measure: 2 TBLS
     item: Extra-Virgin Olive Oil
-    group: 1 -> Soffritto
+    group: 1 -> Oil
     qty: 2
     unit: TBLS
   - measure: 1 medium
     item: Yellow Onion
     prep: Diced
-    group: 1 -> Soffritto
+    group: 2 -> Soffritto
     qty: 1
     unit: each
   - measure: 2 medium
     item: Carrots
     prep: Chopped
-    group: 1 -> Soffritto
+    group: 2 -> Soffritto
     qty: 2
     unit: each
   - measure: 2 ribs
     item: Celery
     prep: Thinly sliced
-    group: 1 -> Soffritto
+    group: 2 -> Soffritto
     qty: 2
     unit: stalk
   - measure: 1 tsp, plus more to taste
     item: Sea Salt
-    group: 1 -> Soffritto (then 4 -> Finish)
+    group: 2 -> Soffritto (then 5 -> Finish)
     qty: 1
     unit: tsp
   - measure: Several grinds
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Soffritto
+    group: 2 -> Soffritto
     qty: 1
     unit: to taste
   - measure: 3 cloves
     item: Garlic
     prep: Grated
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 3
     unit: clove
   - measure: 1 (28 oz) can
     item: Diced Tomatoes, 28 oz can
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 1
     unit: can
   - measure: 1 1/2 cups
     item: White Beans, canned
     prep: Or kidney beans; drained & rinsed (one 15 oz can)
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 1.5
     unit: cup
     section: Canned & Jarred
   - measure: 1 cup
     item: Green Beans
     prep: Chopped
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 1
     unit: cup
     section: Produce
   - measure: 4 cups
     item: Vegetable Broth
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 4
     unit: cup
     section: Canned & Jarred
   - measure: 2
     item: Bay Leaves
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 2
     unit: each
   - measure: 1 1/2 tsp
     item: Dried Oregano
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 1.5
     unit: tsp
   - measure: 1 tsp
     item: Dried Thyme
-    group: 2 -> Simmer
+    group: 3 -> Simmer
     qty: 1
     unit: tsp
   - measure: 3/4 cup
     item: Small Pasta
     prep: Elbows, shells or orecchiette
-    group: 3 -> Pasta
+    group: 4 -> Pasta
     qty: 0.75
     unit: cup
     section: Pasta, Rice & Grains
   - measure: 1/2 cup
     item: Flat-Leaf Parsley
     prep: Chopped
-    group: 4 -> Finish
+    group: 5 -> Finish
     qty: 0.5
     unit: cup
   - measure: To taste
     item: Red Pepper Flakes
-    group: 4 -> Finish
+    group: 5 -> Finish
     qty: 1
     unit: to taste
   - measure: For serving
     item: Parmesan
     prep: Grated; optional
-    group: 4 -> Finish
+    group: 5 -> Finish
     qty: 0.25
     unit: cup
 nutrition:

@@ -16,95 +16,95 @@ ingredients:
   - measure: 4
     item: Guajillo Chiles
     prep: Dried; stems and seeds removed (or 1 1/2 TBLS ancho chile powder)
-    group: 1 -> Marinade
+    group: 1 -> Toast the chiles
     qty: 4
     unit: each
     section: International
   - measure: 2.5 oz (about 2 TBLS)
     item: Achiote Paste
     prep: The paste sold in blocks (substitute in Notes)
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 2.5
     unit: oz
     section: International
   - measure: 1-2
     item: Chipotle Peppers in Adobo
     prep: From a can
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 1.5
     unit: each
     section: International
   - measure: 1/2
     item: Yellow Onion
     prep: Peeled
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 0.5
     unit: each
   - measure: 1/3 cup
     item: Pineapple Juice
     prep: CANNED only (fresh juice turns the chicken mushy)
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 0.333
     unit: cup
     section: Canned & Jarred
   - measure: 1/3 cup
     item: Orange Juice
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 0.333
     unit: cup
   - measure: 3 TBLS
     item: Cider Vinegar
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 3
     unit: TBLS
   - measure: 3 TBLS
     item: Olive Oil
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 3
     unit: TBLS
   - measure: 6 cloves
     item: Garlic
     prep: Peeled
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 6
     unit: clove
   - measure: 1 TBLS
     item: Ground Cumin
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Dried Oregano
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Brown Sugar
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 1
     unit: TBLS
   - measure: 1 tsp
     item: Kosher Salt
-    group: 1 -> Marinade
+    group: 2 -> Marinade
     qty: 1
     unit: tsp
   - measure: 3 lb
     item: Chicken Thighs, boneless skinless
     prep: Cut in half
-    group: 2 -> Marinate the chicken
+    group: 3 -> Marinate the chicken
     qty: 3
     unit: lb
   - measure: 1 ripe
     item: Pineapple
     prep: Peeled, sliced into 1-inch-thick rings, then halved
-    group: 3 -> Skewer
+    group: 4 -> Skewer
     qty: 1
     unit: each
     section: Produce
   - measure: 6
     item: Metal Skewers
     prep: 2 per kabob
-    group: 3 -> Skewer
+    group: 4 -> Skewer
     qty: 6
     unit: each
     shop: false
@@ -112,20 +112,20 @@ ingredients:
   - measure: For the grates
     item: Neutral Oil
     prep: Vegetable oil
-    group: 4 -> Grill
+    group: 5 -> Grill
     qty: 1
     unit: TBLS
     nutrition: exclude
   - measure: For serving
     item: Corn Tortillas
-    group: 5 -> Tacos
+    group: 6 -> Tacos
     qty: 24
     unit: each
     section: Bakery & Bread
     nutrition: exclude
   - measure: For serving
     item: Pico de Gallo
-    group: 5 -> Tacos
+    group: 6 -> Tacos
     qty: 1
     unit: cup
     section: Cheese & Deli
@@ -133,20 +133,20 @@ ingredients:
   - measure: For serving
     item: Guacamole
     prep: Highly recommended
-    group: 5 -> Tacos
+    group: 6 -> Tacos
     qty: 1
     unit: cup
     section: Cheese & Deli
     nutrition: exclude
   - measure: For serving
     item: Sour Cream
-    group: 5 -> Tacos
+    group: 6 -> Tacos
     qty: 0.5
     unit: cup
     nutrition: exclude
   - measure: For serving
     item: Cotija
-    group: 5 -> Tacos
+    group: 6 -> Tacos
     qty: 4
     unit: oz
     section: Cheese & Deli
@@ -154,7 +154,7 @@ ingredients:
   - measure: For serving
     item: Lime
     prep: Wedges
-    group: 5 -> Tacos
+    group: 6 -> Tacos
     qty: 2
     unit: each
     nutrition: exclude
@@ -292,7 +292,7 @@ nutrition:
 
 - Heat a dry skillet over medium-high heat (pan surface 375-425°F). Toast the guajillo chiles, turning now and then, until blistered in spots and fragrant, about 3 minutes.
 - Add enough water to cover and simmer 5 minutes, until softened.
-- Move the chiles to a blender with everything else in `1 -> Marinade` and blend until smooth. Set aside 1/3 cup in a separate container for basting ("reserved basting sauce").
+- Move the chiles to a blender with everything in `2 -> Marinade` and blend until smooth. Set aside 1/3 cup in a separate container for basting ("reserved basting sauce").
 
 **Marinate the chicken**
 

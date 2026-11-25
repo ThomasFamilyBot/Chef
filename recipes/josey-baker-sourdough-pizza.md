@@ -63,59 +63,59 @@ ingredients:
   - measure: 22 g (1 heaping TBLS)
     item: Kosher Salt
     prep: Added after the 30 min autolyse
-    group: 2 -> Final dough (Saturday morning)
+    group: 3 -> Salt and water (after the autolyse)
     qty: 22
     unit: g
   - measure: 40 g (just under 1/3 cup)
     item: Water
     prep: That little extra bit, added with the salt
-    group: 2 -> Final dough (Saturday morning)
+    group: 3 -> Salt and water (after the autolyse)
     qty: 40
     unit: g
     shop: false
   - measure: Optional
     item: Seeds or Spices
     prep: Any yummy additions, added with the salt
-    group: 2 -> Final dough (Saturday morning)
+    group: 3 -> Salt and water (after the autolyse)
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
     shop: false
-  - measure: As needed
-    item: Pizza Sauce
-    prep: Make sure your sauce is all caramel-y, roasted and blended
-    group: 3 -> Mise en place
-    qty: 1
-    unit: to taste
-    section: Canned & Jarred
   - measure: A few cloves
     item: Garlic
     prep: For the garlic oil
-    group: 3 -> Mise en place
+    group: 4 -> Garlic oil
     qty: 3
     unit: clove
   - measure: As needed
     item: Olive Oil
     prep: For the garlic oil, and for oiling pans
-    group: 3 -> Mise en place (then 4 -> Time to bake!)
-    qty: 1
-    unit: to taste
-  - measure: As needed
-    item: Flaky Sea Salt
-    prep: Maldon, for finishing
-    group: 3 -> Mise en place (then 4 -> Time to bake!)
+    group: 4 -> Garlic oil
     qty: 1
     unit: to taste
   - measure: As needed
     item: Polenta
     prep: Table flour (GF) for stretching. Rice flour or potato starch also work
-    group: 3 -> Mise en place
+    group: 5 -> Table flour
+    qty: 1
+    unit: to taste
+  - measure: As needed
+    item: Pizza Sauce
+    prep: Make sure your sauce is all caramel-y, roasted and blended
+    group: 6 -> Toppings
+    qty: 1
+    unit: to taste
+    section: Canned & Jarred
+  - measure: As needed
+    item: Flaky Sea Salt
+    prep: Maldon, for finishing
+    group: 6 -> Toppings
     qty: 1
     unit: to taste
   - measure: Your choice
     item: Pizza Toppings
     prep: Prepare all your topping ingredients
-    group: 3 -> Mise en place (then 4 -> Time to bake!)
+    group: 6 -> Toppings
     qty: 1
     unit: to taste
     shop: false
@@ -257,7 +257,7 @@ The Josey Baker Bread method of making sourdough pizza. www.joseybakerbread.com,
 
 - Mix the bread flour, whole wheat flour, 600 g water and the preferment from `2 -> Final dough (Saturday morning)`.
 - AUTOLYSE (aka wait 30 min before adding the salt and that little extra bit of water).
-- Add the salt and the 40 g water, PLUS ANY YUMMY ADDITIONS like seeds or spices!
+- Add the salt and the 40 g water, PLUS ANY YUMMY ADDITIONS like seeds or spices! These wait in their own bowl, `3 -> Salt and water (after the autolyse)`.
 - Do some squishy FOLDING! Pulling up the sides of the dough like you saw in class.
 - Rest 30 min in a warm spot (75-80°F), wet hands and:
     - Fold 1 -> Rest 45 min

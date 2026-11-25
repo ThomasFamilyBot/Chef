@@ -18,84 +18,84 @@ ingredients:
   - measure: 1
     item: Leg of Lamb
     prep: Remove shank & aitchbone. Remove fat cap & silver skin
-    group: 1 -> Lamb
+    group: 1 -> Dry brine
     qty: 1
     unit: each
+  - measure: 1/2 tsp per lb
+    item: Coarse Sea Salt
+    group: 1 -> Dry brine
+    qty: 1
+    unit: TBLS
   - measure: 8 cloves
     item: Garlic
     prep: Thinly sliced
-    group: 1 -> Lamb
+    group: 2 -> Garlic and rosemary
     qty: 8
     unit: clove
   - measure: 4 sprigs
     item: Fresh Rosemary
     prep: Broken into small pieces
-    group: 1 -> Lamb
+    group: 2 -> Garlic and rosemary
     qty: 4
     unit: sprig
-  - measure: 1/2 tsp per lb
-    item: Coarse Sea Salt
-    group: 1 -> Lamb
-    qty: 1
-    unit: TBLS
   - measure: To taste
     item: Black Pepper
     prep: Fresh ground
-    group: 1 -> Lamb
+    group: 3 -> Oil and pepper
     qty: 1
     unit: to taste
   - measure: For brushing
     item: Olive Oil
-    group: 1 -> Lamb
+    group: 3 -> Oil and pepper
     qty: 2
     unit: TBLS
   - measure: 1 lb
     item: Merguez Sausage
     prep: Or other lamb sausage
-    group: 2 -> Sides
+    group: 4 -> Sausages
     qty: 1
     unit: lb
   - measure: 3 lb
     item: Delicata Squash
-    group: 2 -> Sides
+    group: 5 -> Squash
     qty: 3
     unit: lb
   - measure: 4
     item: Red Bell Pepper
-    group: 2 -> Sides
+    group: 6 -> Bell peppers
     qty: 4
     unit: each
   - measure: 1 cup + 2 TBLS
     item: Olive Oil
-    group: 3 -> Board Sauce
+    group: 7 -> Board Sauce
     qty: 18
     unit: TBLS
   - measure: 15 leaves
     item: Fresh Sage
-    group: 3 -> Board Sauce
+    group: 7 -> Board Sauce
     qty: 15
     unit: leaf
   - measure: 6 TBLS
     item: Fresh Thyme
     prep: Leaves stripped from stem
-    group: 3 -> Board Sauce
+    group: 7 -> Board Sauce
     qty: 6
     unit: TBLS
   - measure: 3 cloves
     item: Garlic
-    group: 3 -> Board Sauce
+    group: 7 -> Board Sauce
     qty: 3
     unit: clove
   - measure: 1 1/2
     item: Red Jalapeño
     prep: Fresh; or green jalapeños or Fresno chiles, same amount
-    group: 3 -> Board Sauce
+    group: 7 -> Board Sauce
     qty: 2
     unit: each
   - measure: 3/4 tsp
     item: Black Pepper
     prep: Ground
-    group: 3 -> Board Sauce
+    group: 7 -> Board Sauce
     qty: 0.75
     unit: tsp
 nutrition:

@@ -16,52 +16,52 @@ ingredients:
   - measure: 7-8 oz
     item: Paneer
     prep: Packaged (or fresh, well chilled); sliced 1/4-1/2 inch thick, then into 1-inch pieces
-    group: 1 -> Spiced oil
+    group: 1 -> Paneer
     qty: 7.5
     unit: oz
     section: Cheese & Deli
   - measure: 2 1/2 TBLS
     item: Olive Oil
     prep: 1 TBLS for the spiced oil, 1 1/2 TBLS for the pan
-    group: 1 -> Spiced oil (then 2 -> Cook the paneer)
+    group: 2 -> Spiced oil (then 3 -> Cook the paneer)
     qty: 2.5
     unit: TBLS
   - measure: 1/4 tsp
     item: Ground Turmeric
-    group: 1 -> Spiced oil
+    group: 2 -> Spiced oil
     qty: 0.25
     unit: tsp
   - measure: 1/2 tsp
     item: Ground Coriander
-    group: 1 -> Spiced oil
+    group: 2 -> Spiced oil
     qty: 0.5
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1/2 tsp
     item: Ground Cumin
-    group: 1 -> Spiced oil
+    group: 2 -> Spiced oil
     qty: 0.5
     unit: tsp
   - measure: 1/2 tsp, plus more for dusting
     item: Paprika
-    group: 1 -> Spiced oil (then 3 -> Serve)
+    group: 2 -> Spiced oil (then 4 -> Serve)
     qty: 0.5
     unit: tsp
   - measure: 3/4 tsp
     item: Kosher Salt
-    group: 1 -> Spiced oil
+    group: 2 -> Spiced oil
     qty: 0.75
     unit: tsp
   - measure: Optional, to garnish
     item: Chives
     prep: Chopped
-    group: 3 -> Serve
+    group: 4 -> Serve
     qty: 1
     unit: TBLS
     nutrition: exclude
   - measure: Optional, a small pinch
     item: Flaky Sea Salt
-    group: 3 -> Serve
+    group: 4 -> Serve
     qty: 1
     unit: to taste
 nutrition:

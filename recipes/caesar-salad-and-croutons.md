@@ -40,60 +40,60 @@ ingredients:
     unit: TBLS
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Croutons (then 2 -> Dressing)
+    group: 1 -> Croutons (then 4 -> Finish the dressing)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Croutons (then 2 -> Dressing)
+    group: 1 -> Croutons (then 4 -> Finish the dressing)
     qty: 1
     unit: to taste
   - measure: 4 fillets
     item: Anchovy Fillets
-    group: 2 -> Dressing
+    group: 2 -> Dressing base
     qty: 4
     unit: fillet
     section: Canned & Jarred
   - measure: 1 clove
     item: Garlic
     prep: Smashed
-    group: 2 -> Dressing
+    group: 2 -> Dressing base
     qty: 1
     unit: clove
   - measure: 2
     item: Lemon
     prep: Juiced
-    group: 2 -> Dressing
+    group: 2 -> Dressing base
     qty: 2
     unit: each
   - measure: 1 TBLS
     item: Water
-    group: 2 -> Dressing
+    group: 2 -> Dressing base
     qty: 1
     unit: TBLS
     shop: false
   - measure: 1/2 cup
     item: Extra-Virgin Olive Oil
-    group: 2 -> Dressing
+    group: 3 -> Dressing oil
     qty: 0.5
     unit: cup
   - measure: 1/2 cup
     item: Parmesan
     prep: Freshly grated
-    group: 2 -> Dressing
+    group: 4 -> Finish the dressing
     qty: 0.5
     unit: cup
   - measure: 2 heads
     item: Romaine Lettuce
     prep: Torn
-    group: 3 -> Assemble the salad
+    group: 5 -> Lettuce
     qty: 2
     unit: head
   - measure: Extra
     item: Parmesan
     prep: Freshly grated, for garnish
-    group: 3 -> Assemble the salad
+    group: 6 -> Garnish
     qty: 0.25
     unit: cup
 nutrition:

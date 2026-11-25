@@ -23,25 +23,25 @@ ingredients:
   - measure: 2 TBLS + 2 TBLS
     item: Coconut Aminos
     prep: 2 TBLS marinade, 2 TBLS sauce
-    group: 1 -> Marinate the beef (then 4 -> Sauce combo)
+    group: 1 -> Marinate the beef (then 5 -> Sauce combo)
     qty: 4
     unit: TBLS
   - measure: 1/2 tsp, plus a pinch
     item: Coarse Sea Salt
     prep: 1/2 tsp marinade, pinch with the aromatics
-    group: 1 -> Marinate the beef (then 3 -> Aromatics)
+    group: 1 -> Marinate the beef (then 4 -> Aromatics)
     qty: 0.5
     unit: tsp
   - measure: 1 TBLS + 2 tsp
     item: Toasted Sesame Oil
     prep: 1 TBLS marinade, 2 tsp sauce
-    group: 1 -> Marinate the beef (then 4 -> Sauce combo)
+    group: 1 -> Marinate the beef (then 5 -> Sauce combo)
     qty: 5
     unit: tsp
   - measure: 1/4 tsp + 1/4 tsp
     item: Black Pepper
     prep: 1/4 tsp marinade, 1/4 tsp sauce
-    group: 1 -> Marinate the beef (then 4 -> Sauce combo)
+    group: 1 -> Marinate the beef (then 5 -> Sauce combo)
     qty: 0.5
     unit: tsp
   - measure: 1 tsp
@@ -71,26 +71,26 @@ ingredients:
   - measure: 1 1/2 TBLS
     item: Ghee
     prep: Or cooking fat of your choice
-    group: 3 -> Aromatics
+    group: 3 -> Ghee
     qty: 1.5
     unit: TBLS
     section: Oils, Vinegars & Condiments
   - measure: 2 cloves
     item: Garlic
     prep: Minced
-    group: 3 -> Aromatics
+    group: 4 -> Aromatics
     qty: 2
     unit: clove
   - measure: 2 thin slices
     item: Ginger
     prep: Finely chopped
-    group: 3 -> Aromatics
+    group: 4 -> Aromatics
     qty: 2
     unit: slice
   - measure: 1 TBLS
     item: Fish Sauce
     prep: Red Boat
-    group: 4 -> Sauce combo
+    group: 5 -> Sauce combo
     qty: 1
     unit: TBLS
 nutrition:

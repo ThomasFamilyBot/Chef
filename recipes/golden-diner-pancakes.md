@@ -15,95 +15,95 @@ drive_doc_id: 1FNR8RAjvKkMWA0iTeQ9-yUx5rVUjwaLJ4LL34XQHjok
 ingredients:
   - measure: 2 1/4 tsp (7 g; one packet)
     item: Active Dry Yeast
-    group: 1 -> Pre-ferment
+    group: 1 -> Yeast and flour
     qty: 2.25
     unit: tsp
     section: Baking
   - measure: 2 cups (260 g)
     item: All-Purpose Flour
     prep: 1 cup for the pre-ferment, 1 cup for the batter
-    group: 1 -> Pre-ferment (then 5 -> Batter)
+    group: 1 -> Yeast and flour (then 7 -> Batter dry)
     qty: 260
     unit: g
   - measure: 1 1/4 cups (300 g)
     item: Buttermilk
-    group: 1 -> Pre-ferment
+    group: 2 -> Buttermilk
     qty: 1.25
     unit: cup
   - measure: 1/4 cup + 1 1/2 TBLS
     item: Water
     prep: 1/4 cup for the pre-ferment, 1 1/2 TBLS for the syrup
-    group: 1 -> Pre-ferment (then 3 -> Maple-honey syrup)
+    group: 2 -> Buttermilk (then 5 -> Syrup water)
     qty: 5.5
     unit: TBLS
     shop: false
   - measure: 1/2 cup + 1/2 cup (226 g)
     item: Unsalted Butter
     prep: 1/2 cup softened for the butter, 1/2 cup for the syrup
-    group: 2 -> Maple-honey butter (then 3 -> Maple-honey syrup)
+    group: 3 -> Maple-honey butter (then 4 -> Maple-honey syrup)
     qty: 226
     unit: g
   - measure: 3 TBLS + 1/3 cup (100 g)
     item: Honey
     prep: 3 TBLS for the butter, 1/3 cup for the syrup
-    group: 2 -> Maple-honey butter (then 3 -> Maple-honey syrup)
+    group: 3 -> Maple-honey butter (then 4 -> Maple-honey syrup)
     qty: 8.33
     unit: TBLS
   - measure: 2 TBLS + 1 1/2 TBLS
     item: Maple Syrup
     prep: Pure; 2 TBLS for the butter, 1 1/2 TBLS for the syrup
-    group: 2 -> Maple-honey butter (then 3 -> Maple-honey syrup)
+    group: 3 -> Maple-honey butter (then 4 -> Maple-honey syrup)
     qty: 3.5
     unit: TBLS
   - measure: 3/4 tsp + 1/2 tsp + 1/2 tsp
     item: Sea Salt
     prep: 3/4 tsp butter, 1/2 tsp syrup, 1/2 tsp batter
-    group: 2 -> Maple-honey butter (then 3 -> Maple-honey syrup, 5 -> Batter)
+    group: 3 -> Maple-honey butter (then 4 -> Maple-honey syrup, 7 -> Batter dry)
     qty: 1.75
     unit: tsp
   - measure: 1 tsp
     item: Soy Sauce
-    group: 3 -> Maple-honey syrup
+    group: 4 -> Maple-honey syrup
     qty: 1
     unit: tsp
   - measure: 14 oz (400 g)
     item: Mixed Berries
     prep: Blueberries, raspberries and stemmed strawberries, cut to blueberry size
-    group: 4 -> Berry compote
+    group: 6 -> Berry compote
     qty: 14
     unit: oz
     section: Produce
   - measure: 1/3 cup (67 g) + 2 TBLS
     item: Granulated Sugar
     prep: 1/3 cup for the compote, 2 TBLS for the batter
-    group: 4 -> Berry compote (then 5 -> Batter)
+    group: 6 -> Berry compote (then 7 -> Batter dry)
     qty: 92
     unit: g
   - measure: 1 1/2 tsp
     item: Cornstarch
-    group: 4 -> Berry compote
+    group: 6 -> Berry compote
     qty: 1.5
     unit: tsp
   - measure: 3/4 tsp
     item: Baking Soda
-    group: 5 -> Batter
+    group: 7 -> Batter dry
     qty: 0.75
     unit: tsp
   - measure: 2 large
     item: Eggs
-    group: 5 -> Batter
+    group: 8 -> Batter wet
     qty: 2
     unit: each
   - measure: 1/4 cup (60 g)
     item: Neutral Oil
     prep: Canola
-    group: 5 -> Batter
+    group: 8 -> Batter wet
     qty: 0.25
     unit: cup
   - measure: 1
     item: Lemon
     prep: For zesting over the top
-    group: 6 -> Serve
+    group: 9 -> Serve
     qty: 1
     unit: each
     nutrition: {fraction: 0.1, note: zest only}

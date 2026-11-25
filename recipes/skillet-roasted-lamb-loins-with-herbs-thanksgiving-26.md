@@ -72,7 +72,7 @@ ingredients:
   - measure: 2 TBLS
     item: Extra-Virgin Olive Oil
     prep: Only if it storms; 1 TBLS for the herb paste, 1 TBLS for the skillet
-    group: 4 -> Skillet fallback
+    group: 4 -> Skillet fallback (then 5 -> Skillet fallback oil)
     qty: 2
     unit: TBLS
     nutrition: exclude

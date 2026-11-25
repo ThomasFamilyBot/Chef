@@ -16,56 +16,56 @@ ingredients:
   - measure: 5 TBLS
     item: Unsalted Butter
     prep: Melted and cooled
-    group: 1 -> Melt the butter (then 2 -> Batter)
+    group: 1 -> Melted butter
     qty: 5
     unit: TBLS
   - measure: 2
     item: Egg Whites
-    group: 2 -> Batter
+    group: 2 -> Egg whites and cream
     qty: 2
     unit: each
   - measure: 1/4 cup
     item: Heavy Cream
-    group: 2 -> Batter
+    group: 2 -> Egg whites and cream
     qty: 0.25
     unit: cup
   - measure: 1/2 cup
     item: Granulated Sugar
-    group: 2 -> Batter
+    group: 3 -> Sugar and flavorings
     qty: 0.5
     unit: cup
   - measure: 1/4 tsp
     item: Ground Cinnamon
-    group: 2 -> Batter
+    group: 3 -> Sugar and flavorings
     qty: 0.25
     unit: tsp
   - measure: 1/4 tsp
     item: Sea Salt
-    group: 2 -> Batter
+    group: 3 -> Sugar and flavorings
     qty: 0.25
     unit: tsp
   - measure: 1 tsp
     item: Vanilla Bean Paste
-    group: 2 -> Batter
+    group: 3 -> Sugar and flavorings
     qty: 1
     unit: tsp
     section: Baking
   - measure: 1 tsp
     item: Almond Extract
     prep: Pure
-    group: 2 -> Batter
+    group: 3 -> Sugar and flavorings
     qty: 1
     unit: tsp
     section: Baking
   - measure: 2/3 cup
     item: All-Purpose Flour
-    group: 2 -> Batter
+    group: 4 -> Flour
     qty: 0.667
     unit: cup
   - measure: As needed
     item: Nonstick Cooking Spray
     prep: For the waffle cone maker
-    group: 3 -> Cook the cones
+    group: 5 -> Cook the cones
     qty: 1
     unit: each
     section: Baking

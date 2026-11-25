@@ -13,94 +13,94 @@ times:
 tags: [side, main, asian, chinese, pork, eggs]
 drive_doc_id: 1J0iMQ9y-xRWBuI2r7kA78JS3bVawepzgkROO4VszsCs
 ingredients:
-  - measure: 1 small head (or 1 lb riced)
-    item: Cauliflower
-    prep: Florets, pulsed to rice; or frozen riced cauliflower, straight from the freezer
-    group: 1 -> Rice the cauliflower (then 5 -> Ginger & cauliflower)
-    qty: 1
-    unit: lb
   - measure: 3 slices
     item: Bacon
     prep: Small dice; sugar-free for Whole30
-    group: 2 -> Bacon
+    group: 1 -> Bacon
     qty: 3
     unit: slice
   - measure: 2 large
     item: Eggs
     prep: Whisked
-    group: 3 -> Omelet
+    group: 2 -> Omelet
     qty: 2
     unit: each
   - measure: To taste
     item: Kosher Salt
-    group: 3 -> Omelet (then 4 -> Onion & mushrooms, 5 -> Ginger & cauliflower)
+    group: 2 -> Omelet (then 3 -> Onion, 4 -> Mushrooms, 6 -> Cauliflower)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 3 -> Omelet (then 4 -> Onion & mushrooms, 5 -> Ginger & cauliflower)
+    group: 2 -> Omelet (then 3 -> Onion, 4 -> Mushrooms, 6 -> Cauliflower)
     qty: 1
     unit: to taste
   - measure: 1 small
     item: Yellow Onion
     prep: Minced
-    group: 4 -> Onion & mushrooms
+    group: 3 -> Onion
     qty: 1
     unit: each
   - measure: 4 oz
     item: Cremini Mushrooms
     prep: Stemmed & thinly sliced
-    group: 4 -> Onion & mushrooms
+    group: 4 -> Mushrooms
     qty: 4
     unit: oz
     section: Produce
   - measure: 1-inch knob (about 1 TBLS grated)
     item: Ginger
     prep: Peeled & microplaned
-    group: 5 -> Ginger & cauliflower
+    group: 5 -> Ginger
     qty: 1
     unit: TBLS
+  - measure: 1 small head (or 1 lb riced)
+    item: Cauliflower
+    prep: Florets, pulsed to rice; or frozen riced cauliflower, straight from the freezer
+    group: 6 -> Cauliflower
+    qty: 1
+    unit: lb
   - measure: 2 TBLS
     item: Coconut Aminos
-    group: 6 -> Finish
+    group: 7 -> Finish
     qty: 2
     unit: TBLS
     section: International
   - measure: 2
     item: Scallions
     prep: Thinly sliced
-    group: 6 -> Finish
+    group: 7 -> Finish
     qty: 2
     unit: each
   - measure: 2 TBLS
     item: Cilantro
     prep: Leaves, chopped
-    group: 6 -> Finish
+    group: 7 -> Finish
     qty: 2
     unit: TBLS
   - measure: 2 TBLS
     item: Basil
     prep: Chopped
-    group: 6 -> Finish
+    group: 7 -> Finish
     qty: 2
     unit: TBLS
   - measure: 1 TBLS
     item: Mint
     prep: Chopped
-    group: 6 -> Finish
+    group: 7 -> Finish
     qty: 1
     unit: TBLS
   - measure: Splash
     item: Rice Vinegar, unseasoned
     prep: Or coconut vinegar; optional
-    group: 6 -> Finish
+    group: 7 -> Finish
     qty: 1
     unit: tsp
   - measure: Splash
     item: Fish Sauce
     prep: Red Boat; not optional
-    group: 6 -> Finish
+    group: 7 -> Finish
     qty: 1
     unit: tsp
 nutrition:
@@ -233,7 +233,7 @@ nutrition:
 
 **Make the omelet**
 
-- While the bacon cooks, whisk the eggs with salt and pepper (`3 -> Omelet`).
+- While the bacon cooks, whisk the eggs with salt and pepper (`2 -> Omelet`).
 - Pour the eggs into the hot bacon fat and cook a thin omelet, about 2 minutes on the first side and 30 seconds on the second.
 - Move to a cutting board, slice thinly, and set aside.
 
@@ -250,7 +250,7 @@ nutrition:
 
 **Finish**
 
-- Stir in the coconut aminos, herbs, sliced omelet, and a splash of vinegar if you like (`6 -> Finish`). Splash on the fish sauce.
+- Stir in the coconut aminos, herbs, sliced omelet, and a splash of vinegar if you like (`7 -> Finish`). Splash on the fish sauce.
 - Taste and adjust the seasoning. Scatter the crispy bacon over the top and serve.
 
 **Notes**

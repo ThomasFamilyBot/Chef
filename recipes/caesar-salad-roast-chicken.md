@@ -34,7 +34,7 @@ ingredients:
     unit: TBLS
   - measure: 1 TBLS, plus more for serving
     item: Dijon Mustard
-    group: 1 -> Anchovy mayo
+    group: 1 -> Anchovy mayo (then 6 -> Serve)
     qty: 1
     unit: TBLS
   - measure: 2 TBLS
@@ -46,7 +46,7 @@ ingredients:
   - measure: 1 1/2 tsp, plus more
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Anchovy mayo (then 2 -> Chicken)
+    group: 1 -> Anchovy mayo (then 2 -> Chicken, 3 -> Dressing)
     qty: 1.5
     unit: tsp
   - measure: 1 (3 1/2-4 lb), or 4 chicken legs (about 3 lb)
@@ -68,7 +68,7 @@ ingredients:
   - measure: 2
     item: Lemon
     prep: 1 zested and juiced for the dressing, 1 in wedges to serve
-    group: 3 -> Dressing (then 5 -> Serve)
+    group: 3 -> Dressing (then 6 -> Serve)
     qty: 2
     unit: each
   - measure: 1 oz
@@ -86,7 +86,7 @@ ingredients:
   - measure: 2 hearts
     item: Romaine Lettuce
     prep: Leaves separated and torn
-    group: 4 -> Croutons
+    group: 5 -> Romaine
     qty: 2
     unit: head
 nutrition:

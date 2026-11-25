@@ -29,7 +29,7 @@ ingredients:
   - measure: 1/2 tsp, plus more for serving
     item: Maple Syrup
     prep: Or honey
-    group: 1 -> Oat base (then 2 -> Toppings)
+    group: 1 -> Oat base (then 3 -> Toppings)
     qty: 2
     unit: tsp
   - measure: Pinch
@@ -46,13 +46,13 @@ ingredients:
   - measure: 2/3 cup
     item: Almond Milk
     prep: Unsweetened; or any milk (dairy, oat, coconut)
-    group: 1 -> Oat base
+    group: 2 -> Milk
     qty: 0.667
     unit: cup
   - measure: As you like
     item: Toppings
     prep: Fresh fruit, nuts, granola, nut butter, chia jam (see the variations)
-    group: 2 -> Toppings
+    group: 3 -> Toppings
     qty: 1
     unit: each
     shop: false

@@ -13,18 +13,6 @@ tags: [dessert, ice-cream, chocolate]
 source_doc: https://docs.google.com/document/d/164mIZ5uahu7OQh9mgrjMxpx4iWifss3NgGJPXQcGiRs/edit
 drive_doc_id: 1-WYyFdOsruVbuvgInxIi4i-_BCwZq3TcMzud217rczY
 ingredients:
-  - measure: 4 oz
-    item: Dark Chocolate (62%)
-    prep: Chopped
-    group: 3 -> Melt the chocolate
-    qty: 4
-    unit: oz
-  - measure: 2 oz
-    item: Milk Chocolate
-    prep: Chopped
-    group: 3 -> Melt the chocolate
-    qty: 2
-    unit: oz
   - measure: 2 cups
     item: Whole Milk
     group: 1 -> Make the base
@@ -52,20 +40,32 @@ ingredients:
     group: 1 -> Make the base
     qty: 3
     unit: TBLS
+  - measure: 10 (divided 5 & 5)
+    item: Peeps
+    prep: 3.5 oz marshmallow. 5 chopped, 5 whole
+    group: 1 -> Make the base (then 4 -> Chopped Peeps)
+    qty: 10
+    unit: each
   - measure: 3
     item: Egg Yolks
     group: 2 -> Temper the yolks
     qty: 3
     unit: each
-  - measure: 10 (divided 5 & 5)
-    item: Peeps
-    prep: 3.5 oz marshmallow. 5 chopped, 5 whole
-    group: 1 -> Make the base (then 4 -> Churn)
-    qty: 10
-    unit: each
+  - measure: 4 oz
+    item: Dark Chocolate (62%)
+    prep: Chopped
+    group: 3 -> Melt the chocolate
+    qty: 4
+    unit: oz
+  - measure: 2 oz
+    item: Milk Chocolate
+    prep: Chopped
+    group: 3 -> Melt the chocolate
+    qty: 2
+    unit: oz
   - measure: 1 bottle
     item: Decorative Sugar Crystals
-    group: 4 -> Churn
+    group: 5 -> Sugar crystals
     qty: 1
     unit: bottle
     section: Baking

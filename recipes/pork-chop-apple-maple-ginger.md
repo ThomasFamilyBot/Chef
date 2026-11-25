@@ -68,105 +68,105 @@ ingredients:
     shop: false
   - measure: 4 (1 1/4 in thick)
     item: Pork Loin Chops, bone-in
-    group: 1 -> Brine (then 10 -> Pork Chop)
+    group: 2 -> Pork Chop
     qty: 4
     unit: each
   - measure: 1 TBLS
     item: Coriander Seeds
     prep: Seeds or ground
-    group: 2 -> Infused Oil - 1
+    group: 3 -> Infused Oil - 1
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Black Peppercorns
     prep: Whole or ground. 1 2/3 TBLS total in recipe
-    group: 2 -> Infused Oil - 1
+    group: 3 -> Infused Oil - 1
     qty: 1
     unit: TBLS
   - measure: 1
     item: Bay Leaves
     prep: 6 total in recipe
-    group: 2 -> Infused Oil - 1
+    group: 3 -> Infused Oil - 1
     qty: 1
     unit: each
   - measure: 2 TBLS
     item: Shallot
     prep: Minced. 6 TBLS total in recipe
-    group: 3 -> Infused Oil - 2
+    group: 4 -> Infused Oil - 2
     qty: 2
     unit: TBLS
   - measure: 1 tsp
     item: Fresh Thyme
     prep: Minced
-    group: 3 -> Infused Oil - 2
+    group: 4 -> Infused Oil - 2
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Fresh Rosemary
     prep: Minced
-    group: 3 -> Infused Oil - 2
+    group: 4 -> Infused Oil - 2
     qty: 1
     unit: tsp
   - measure: 1/2 cup
     item: Neutral Oil
-    group: 3 -> Infused Oil - 2
+    group: 4 -> Infused Oil - 2
     qty: 0.5
     unit: cup
   - measure: 2 TBLS
     item: Unsalted Butter
-    group: 4 -> Sauce - 1
+    group: 5 -> Sauce - 1
     qty: 2
     unit: TBLS
   - measure: 1/4 cup
     item: Shallot
     prep: Minced. 6 TBLS total in recipe
-    group: 5 -> Sauce - 2
+    group: 6 -> Sauce - 2
     qty: 0.25
     unit: cup
   - measure: 1 TBLS
     item: Garlic
     prep: Minced. 4 TBLS total in recipe
-    group: 6 -> Sauce - 3
+    group: 7 -> Sauce - 3
     qty: 1
     unit: TBLS
   - measure: 2 cups
     item: Apple Juice
-    group: 7 -> Sauce - 4
+    group: 8 -> Sauce - 4
     qty: 2
     unit: cup
     section: Beverages, Beer & Wine
   - measure: 1/2 cup
     item: Chicken Stock
-    group: 7 -> Sauce - 4
+    group: 8 -> Sauce - 4
     qty: 0.5
     unit: cup
     section: Canned & Jarred
   - measure: 3
     item: Star Anise
-    group: 7 -> Sauce - 4
+    group: 8 -> Sauce - 4
     qty: 3
     unit: each
   - measure: 2 TBLS
     item: Ginger
     prep: Minced. 5 TBLS total in recipe
-    group: 7 -> Sauce - 4
+    group: 8 -> Sauce - 4
     qty: 2
     unit: TBLS
   - measure: 1/2 cup
     item: Maple Syrup
     prep: 3/4 cup total in recipe
-    group: 8 -> Sauce - 5
+    group: 9 -> Sauce - 5
     qty: 0.5
     unit: cup
   - measure: 1/2
     item: Vanilla Bean
     prep: Seeds scraped out, need skin and seeds
-    group: 8 -> Sauce - 5
+    group: 9 -> Sauce - 5
     qty: 0.5
     unit: each
   - measure: 1 TBLS
     item: Agar
-    group: 9 -> Sauce - 6
+    group: 10 -> Sauce - 6
     qty: 1
     unit: TBLS
     section: International
@@ -384,8 +384,8 @@ nutrition:
 
 **Make Infused Oil (8+ hours ahead)**
 
-- Grind coriander, peppercorn, bay leaf together from `2 -> Infused Oil - 1` (or crumble bay leaf if other stuff is ground).
-- Combine remaining ingredients from `3 -> Infused Oil - 2` into bowl.
+- Grind coriander, peppercorn, bay leaf together from `3 -> Infused Oil - 1` (or crumble bay leaf if other stuff is ground).
+- Combine remaining ingredients from `4 -> Infused Oil - 2` into bowl.
 
 **Light Charcoal**
 

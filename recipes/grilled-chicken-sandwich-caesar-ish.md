@@ -32,80 +32,80 @@ ingredients:
   - measure: 2 TBLS + 2 tsp
     item: Lemon
     prep: Juiced; 2 TBLS for the marinade, 2 tsp for the fennel salad
-    group: 1 -> Marinade (then 5 -> Fennel salad)
+    group: 1 -> Marinade (then 6 -> Fennel salad)
     qty: 1
     unit: each
     nutrition: {oz: 1.4, note: 2 TBLS + 2 tsp juice (~40 g)}
   - measure: 2 tsp, plus more
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Marinade (then 5 -> Fennel salad)
+    group: 1 -> Marinade (then 6 -> Fennel salad)
     qty: 2
     unit: tsp
   - measure: 1/3 cup + 2 tsp, plus more for the grill
     item: Extra-Virgin Olive Oil
     prep: 1/3 cup for the marinade, 2 tsp for the salad
-    group: 1 -> Marinade (then 5 -> Fennel salad)
+    group: 2 -> Marinade oil (then 6 -> Fennel salad)
     qty: 6
     unit: TBLS
   - measure: 6 TBLS
     item: Mayonnaise
-    group: 2 -> Special sauce
+    group: 3 -> Special sauce
     qty: 6
     unit: TBLS
   - measure: 1/4 cup (about 9)
     item: Cornichons
     prep: Chopped
-    group: 2 -> Special sauce
+    group: 3 -> Special sauce
     qty: 0.25
     unit: cup
     section: Canned & Jarred
   - measure: To taste
     item: Kosher Salt
-    group: 2 -> Special sauce (then 3 -> Chicken, 5 -> Fennel salad)
+    group: 3 -> Special sauce (then 4 -> Chicken, 6 -> Fennel salad)
     qty: 1
     unit: to taste
   - measure: 4 large or 6 small (about 1 1/2 lb)
     item: Chicken Thighs, boneless skinless
-    group: 3 -> Chicken
+    group: 4 -> Chicken
     qty: 1.5
     unit: lb
   - measure: 4
     item: Brioche Buns
     prep: Split
-    group: 4 -> Buns
+    group: 5 -> Buns
     qty: 4
     unit: each
     section: Bakery & Bread
   - measure: 1 medium bulb
     item: Fennel
     prep: Thinly sliced crosswise; fronds saved and chopped
-    group: 5 -> Fennel salad
+    group: 6 -> Fennel salad
     qty: 1
     unit: each
     section: Produce
   - measure: 1 cup
     item: Basil
     prep: Leaves
-    group: 5 -> Fennel salad
+    group: 6 -> Fennel salad
     qty: 1
     unit: cup
   - measure: 1/4 tsp
     item: Red Pepper Flakes
     prep: Optional
-    group: 5 -> Fennel salad
+    group: 6 -> Fennel salad
     qty: 0.25
     unit: tsp
   - measure: 1 small head
     item: Little Gem Lettuce
-    group: 6 -> Assemble
+    group: 7 -> Assemble
     qty: 1
     unit: head
     section: Produce
   - measure: 1 medium
     item: Tomatoes
     prep: Sliced 1/4 inch thick
-    group: 6 -> Assemble
+    group: 7 -> Assemble
     qty: 1
     unit: each
 nutrition:

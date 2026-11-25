@@ -23,13 +23,13 @@ ingredients:
   - measure: 1 tsp
     item: Black Pepper
     prep: Ground; 1/2 tsp for the marinade, 1/2 tsp for the dipping sauce
-    group: 1 -> Marinate the beef (then 4 -> Lime dipping sauce)
+    group: 1 -> Marinate the beef (then 6 -> Lime dipping sauce)
     qty: 1
     unit: tsp
   - measure: 1/2 cup + 1 TBLS
     item: Neutral Oil
     prep: Canola; 1 TBLS for the marinade, 1/4 cup per batch for the wok
-    group: 1 -> Marinate the beef (then 3 -> Stir-fry)
+    group: 1 -> Marinate the beef (then 3 -> Wok oil)
     qty: 9
     unit: TBLS
     nutrition: {fraction: 0.5, note: wok oil; about half stays in the pan}
@@ -63,42 +63,42 @@ ingredients:
   - measure: 1 cup
     item: Red Onion
     prep: Thinly sliced; spring onions if you can get them
-    group: 3 -> Stir-fry
+    group: 4 -> Onions
     qty: 1
     unit: cup
   - measure: 3 stalks
     item: Scallions
     prep: Trimmed, cut in 1-inch lengths
-    group: 3 -> Stir-fry
+    group: 4 -> Onions
     qty: 3
     unit: each
   - measure: 1 TBLS
     item: Garlic
     prep: Chopped
-    group: 3 -> Stir-fry
+    group: 4 -> Onions
     qty: 3
     unit: clove
   - measure: 2 TBLS
     item: Unsalted Butter
-    group: 3 -> Stir-fry
+    group: 5 -> Butter
     qty: 2
     unit: TBLS
   - measure: 1 tsp
     item: Kosher Salt
-    group: 4 -> Lime dipping sauce
+    group: 6 -> Lime dipping sauce
     qty: 1
     unit: tsp
   - measure: 1/4 cup juice (about 2)
     item: Lime
     prep: Freshly squeezed
-    group: 4 -> Lime dipping sauce
+    group: 6 -> Lime dipping sauce
     qty: 2
     unit: each
     nutrition: {oz: 2.1, note: 1/4 cup juice (~60 g), not the whole limes}
   - measure: 1 bunch
     item: Watercress
     prep: Washed
-    group: 5 -> Serve
+    group: 7 -> Serve
     qty: 1
     unit: bunch
     section: Produce

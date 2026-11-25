@@ -23,70 +23,70 @@ ingredients:
     nutrition: {oz: 64, note: 'trimmed weight assumed: 5 lb as bought less ~20% skin and fat cap removed'}
   - measure: 2-3 TBLS
     item: Olive Oil
-    group: 2 -> Rub
+    group: 2 -> Oil
     qty: 3
     unit: TBLS
   - measure: 1/4 cup
     item: Brown Sugar
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 0.25
     unit: cup
   - measure: 2 TBLS
     item: Kosher Salt
     prep: Coarse
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 2
     unit: TBLS
   - measure: 1 TBLS
     item: Black Pepper
     prep: Freshly ground
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Paprika
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 1
     unit: TBLS
   - measure: 1 tsp
     item: Chili Powder
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 1
     unit: tsp
   - measure: 1/2 tsp
     item: Garlic Powder
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 0.5
     unit: tsp
   - measure: 1/2 tsp
     item: Onion Powder
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 0.5
     unit: tsp
   - measure: 1/4 tsp
     item: Cayenne
-    group: 2 -> Rub
+    group: 3 -> Rub
     qty: 0.25
     unit: tsp
   - measure: 1/2-1 cup
     item: BBQ Sauce
-    group: 3 -> Sauce
+    group: 4 -> Sauce
     qty: 1
     unit: cup
   - measure: 1/4 cup (4 TBLS)
     item: Salted Butter
-    group: 3 -> Sauce
+    group: 4 -> Sauce
     qty: 4
     unit: TBLS
     section: Dairy & Eggs
   - measure: 1/3 cup
     item: Honey
-    group: 3 -> Sauce
+    group: 4 -> Sauce
     qty: 0.33
     unit: cup
   - measure: 1
     item: Disposable Aluminum Pan
-    group: 3 -> Sauce
+    group: 4 -> Sauce
     qty: 1
     unit: each
     section: Household
@@ -205,7 +205,7 @@ nutrition:
 
 **Rub**
 
-- Drizzle the cubes with the olive oil. Mix the remaining `2 -> Rub` ingredients and sprinkle generously over the pork, rubbing it into every piece.
+- Drizzle the cubes with the olive oil from `2 -> Oil`. Mix the `3 -> Rub` ingredients and sprinkle generously over the pork, rubbing it into every piece.
 
 **Smoke**
 

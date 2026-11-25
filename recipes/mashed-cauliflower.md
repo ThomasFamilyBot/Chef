@@ -63,7 +63,7 @@ ingredients:
   - measure: For garnish
     item: Chives
     prep: Snipped; optional
-    group: 3 -> Puree
+    group: 4 -> Garnish
     qty: 1
     unit: bunch
     section: Produce

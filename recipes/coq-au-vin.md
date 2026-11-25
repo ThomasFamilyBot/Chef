@@ -16,7 +16,7 @@ ingredients:
   - measure: 1 bottle + 1 cup
     item: Dry Red Wine
     prep: Pinot. 1 bottle in the marinade, 1 cup for the pearl onion pan
-    group: 1 -> Large bowl (then 7 -> Prep Pearl Onions)
+    group: 1 -> Large bowl (then 10 -> Wine reduction)
     qty: 2
     unit: bottle
     section: Beverages, Beer & Wine
@@ -90,13 +90,13 @@ ingredients:
     section: Meat & Seafood
   - measure: To taste
     item: Kosher Salt
-    group: 2 -> Remove f/ Marinade (then 7 -> Prep Pearl Onions, 8 -> Strain)
+    group: 2 -> Remove f/ Marinade (then 9 -> Prep Pearl Onions, 10 -> Wine reduction)
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
   - measure: To taste
     item: Black Pepper
-    group: 2 -> Remove f/ Marinade (then 7 -> Prep Pearl Onions)
+    group: 2 -> Remove f/ Marinade (then 10 -> Wine reduction)
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
@@ -108,83 +108,83 @@ ingredients:
   - measure: 6 TBLS
     item: Unsalted Butter
     prep: Softened. 2 TBLS for the sear, 2 TBLS for pearl onions, the rest for the flour paste
-    group: 3 -> Dutch Oven (then 7 -> Prep Pearl Onions, 8 -> Strain)
+    group: 3 -> Dutch Oven (then 9 -> Prep Pearl Onions, 11 -> Butter-flour paste)
     qty: 6
     unit: TBLS
+  - measure: 1/4 cup
+    item: All-Purpose Flour
+    prep: Doc says 4 TBLS. 1 TBLS over the veggies, the rest for the butter paste
+    group: 4 -> Flour for the veggies (then 11 -> Butter-flour paste)
+    qty: 0.25
+    unit: cup
+    section: Baking
   - measure: 1 TBLS
     item: Tomato Paste
-    group: 4 -> Cook veggies
+    group: 5 -> Tomato paste
     qty: 1
     unit: TBLS
     section: Canned & Jarred
   - measure: 3 cups
     item: Chicken Stock
-    group: 5 -> Cook chicken
+    group: 6 -> Cook chicken
     qty: 3
     unit: cup
     section: Canned & Jarred
-  - measure: 1/4 cup
-    item: All-Purpose Flour
-    prep: Doc says 4 TBLS. 1 TBLS over the veggies, the rest for the butter paste
-    group: 4 -> Cook veggies (then 8 -> Strain)
-    qty: 0.25
-    unit: cup
-    section: Baking
   - measure: 4 oz
     item: Bacon
     prep: Cut into lardons 1/4" x 1"
-    group: 6 -> Cook Bacon
+    group: 7 -> Bacon
     qty: 4
     unit: oz
     section: Meat & Seafood
   - measure: 12 oz (nets out to 8 oz when prepped)
     item: White Button Mushrooms
     prep: Stems removed, halved or quartered
-    group: 6 -> Cook Bacon
+    group: 8 -> Mushrooms
     qty: 12
     unit: oz
   - measure: "24"
     item: Pearl Onions
     prep: Peeled
-    group: 7 -> Prep Pearl Onions
+    group: 9 -> Prep Pearl Onions
     qty: 24
     unit: each
   - measure: Pinch
     item: Granulated Sugar
     prep: For the pearl onions
-    group: 7 -> Prep Pearl Onions
+    group: 9 -> Prep Pearl Onions
     qty: 1
     unit: pinch
     section: Baking
   - measure: 3 TBLS
     item: Flat-Leaf Parsley
     prep: Leaves, chopped, for serving
-    group: 9 -> Serve
+    group: 12 -> Serve
     qty: 3
     unit: TBLS
   - measure: 1 cup
     item: Cornmeal
-    group: 10 -> Polenta (optional side)
+    group: 13 -> Polenta (optional side)
     qty: 1
     unit: cup
     section: Baking
   - measure: 4 cups (+ or -)
     item: Water
     prep: Or stock or milk or combo
-    group: 10 -> Polenta (optional side)
+    group: 13 -> Polenta (optional side)
     qty: 4
     unit: cup
     shop: false
   - measure: 1 tsp
     item: Kosher Salt
-    group: 10 -> Polenta (optional side)
+    group: 13 -> Polenta (optional side)
     qty: 1
     unit: tsp
     section: Spices & Dried Herbs
   - measure: 1 "knob" (optional)
     item: Unsalted Butter
     prep: Optional
-    group: 10 -> Polenta (optional side)
+    group: 13 -> Polenta (optional side)
     qty: 1
     unit: TBLS
 nutrition:

@@ -28,19 +28,19 @@ ingredients:
     shop: false
   - measure: 3/4 cup
     item: Granulated Sugar
-    group: 2 -> Sweeten
+    group: 2 -> Sugar
     qty: 0.75
     unit: cup
   - measure: 1 tsp, more or less to taste
     item: Lime
     prep: Juiced (1 tsp juice)
-    group: 2 -> Sweeten
+    group: 3 -> Lime and salt
     qty: 1
     unit: each
     nutrition: {oz: 0.18, note: 1 tsp juice (~5 g), not the whole lime}
   - measure: 1/2 tsp, more or less to taste
     item: Kosher Salt
-    group: 2 -> Sweeten
+    group: 3 -> Lime and salt
     qty: 0.5
     unit: tsp
 nutrition:

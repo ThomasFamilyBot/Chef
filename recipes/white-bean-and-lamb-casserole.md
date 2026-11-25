@@ -37,13 +37,13 @@ ingredients:
   - measure: "3"
     item: Yellow Onion
     prep: 2 finely chopped. 1 peeled & halved w/ root end intact, 1 clove stuck into each half
-    group: 2 -> Beans, step 2 (then 4 -> Make the liquid base)
+    group: 2 -> Beans, step 2 (then 6 -> Onion and garlic)
     qty: 3
     unit: each
   - measure: 20 cloves
     item: Garlic
     prep: 15 minced (~7 TBLS), 5 whole
-    group: 2 -> Beans, step 2 (then 4 -> Make the liquid base)
+    group: 2 -> Beans, step 2 (then 6 -> Onion and garlic)
     qty: 20
     unit: clove
   - measure: 1 small
@@ -64,12 +64,6 @@ ingredients:
     group: 2 -> Beans, step 2
     qty: 1
     unit: sprig
-  - measure: 1 TBLS
-    item: Fresh Thyme
-    prep: Chopped, for the liquid base
-    group: 4 -> Make the liquid base
-    qty: 1
-    unit: TBLS
   - measure: "1"
     item: Bay Leaves
     group: 2 -> Beans, step 2
@@ -83,63 +77,69 @@ ingredients:
     qty: 3
     unit: oz
     section: Meat & Seafood
+  - measure: To taste
+    item: Kosher Salt
+    prep: Non measured. 2 TBLS go into the beans near the end
+    group: 3 -> Salt the beans (then 5 -> Brown the lamb)
+    qty: 1
+    unit: to taste
+    section: Spices & Dried Herbs
   - measure: 1/2 cup (8 TBLS = 4 fl oz)
     item: Extra-Virgin Olive Oil
     prep: 4 TBLS to brown the lamb, 1 TBLS in the dish, 3 TBLS drizzled on top
-    group: 3 -> Brown the lamb (then 5 -> Casserole, step 1)
+    group: 4 -> Oil for the lamb (then 9 -> Casserole, step 1)
     qty: 0.5
     unit: cup
   - measure: 1 1/2 lb (boneless)
     item: Lamb Shoulder, boneless
     prep: Or blade/flat-bone/round-bone. 1" cubes
-    group: 3 -> Brown the lamb
+    group: 5 -> Brown the lamb
     qty: 1.5
     unit: lb
     section: Meat & Seafood
   - measure: 1 cup
     item: Dry White Wine
     prep: Not sweet
-    group: 4 -> Make the liquid base
+    group: 7 -> Wine
     qty: 1
     unit: cup
     section: Beverages, Beer & Wine
+  - measure: 1 TBLS
+    item: Fresh Thyme
+    prep: Chopped, for the liquid base
+    group: 8 -> Tomatoes and herbs
+    qty: 1
+    unit: TBLS
   - measure: 15 oz (1 can)
     item: Whole Peeled Tomatoes, 15 oz can
     prep: Drained and chopped
-    group: 4 -> Make the liquid base
+    group: 8 -> Tomatoes and herbs
     qty: 1
     unit: can
     section: Canned & Jarred
   - measure: 2 TBLS
     item: Flat-Leaf Parsley
     prep: Finely chopped
-    group: 4 -> Make the liquid base
+    group: 8 -> Tomatoes and herbs
     qty: 2
     unit: TBLS
-  - measure: 2/3 cup
-    item: Dried Bread Crumbs
-    group: 5 -> Casserole, step 1
-    qty: 0.67
-    unit: cup
-    section: Pasta, Rice & Grains
-  - measure: To taste
-    item: Kosher Salt
-    prep: Non measured. 2 TBLS go into the beans near the end
-    group: 2 -> Beans, step 2 (then 3 -> Brown the lamb)
-    qty: 1
-    unit: to taste
-    section: Spices & Dried Herbs
   - measure: To taste
     item: Black Pepper
     prep: Non measured
-    group: 4 -> Make the liquid base
+    group: 8 -> Tomatoes and herbs
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs
+  - measure: 2/3 cup
+    item: Dried Bread Crumbs
+    group: 9 -> Casserole, step 1
+    qty: 0.67
+    unit: cup
+    section: Pasta, Rice & Grains
   - measure: For topping
     item: Truffle Salt
     prep: For topping
-    group: 6 -> Casserole, step 2
+    group: 10 -> Casserole, step 2
     qty: 1
     unit: to taste
     section: Spices & Dried Herbs

@@ -15,46 +15,46 @@ drive_doc_id: 1G9pStC6XQxMxad-J6hTWuvSsrUUy9EGZfwhSbsYY1po
 ingredients:
   - measure: 1/2 cup
     item: Olive Oil
-    group: 1 -> Achiote garlic oil
+    group: 1 -> Oil
     qty: 0.5
     unit: cup
     nutrition: {fraction: 0.25, note: marinade; 1/4 cup reserved for basting plus what clings; the rest is discarded}
   - measure: 6 cloves
     item: Garlic
     prep: Minced
-    group: 1 -> Achiote garlic oil
+    group: 2 -> Achiote garlic
     qty: 6
     unit: clove
     nutrition: {fraction: 0.25, note: marinade; 1/4 cup reserved for basting plus what clings; the rest is discarded}
   - measure: 2 tsp
     item: Ground Cumin
-    group: 1 -> Achiote garlic oil
+    group: 2 -> Achiote garlic
     qty: 2
     unit: tsp
     nutrition: {fraction: 0.25, note: marinade; 1/4 cup reserved for basting plus what clings; the rest is discarded}
   - measure: 2 tsp
     item: Kosher Salt
-    group: 1 -> Achiote garlic oil
+    group: 2 -> Achiote garlic
     qty: 2
     unit: tsp
   - measure: 2 tsp
     item: Black Pepper
     prep: Ground
-    group: 1 -> Achiote garlic oil
+    group: 2 -> Achiote garlic
     qty: 2
     unit: tsp
     nutrition: {fraction: 0.25, note: marinade; 1/4 cup reserved for basting plus what clings; the rest is discarded}
   - measure: 2 tsp
     item: Dried Oregano
     prep: Mexican
-    group: 1 -> Achiote garlic oil
+    group: 2 -> Achiote garlic
     qty: 2
     unit: tsp
     nutrition: {fraction: 0.25, note: marinade; 1/4 cup reserved for basting plus what clings; the rest is discarded}
   - measure: 2 oz
     item: Achiote Paste
     prep: Optional; half of a 4 oz block, broken up
-    group: 1 -> Achiote garlic oil
+    group: 2 -> Achiote garlic
     qty: 2
     unit: oz
     section: International
@@ -62,21 +62,21 @@ ingredients:
   - measure: 1/2 cup
     item: Orange Juice
     prep: Fresh
-    group: 2 -> Marinade
+    group: 3 -> Citrus juice
     qty: 0.5
     unit: cup
     nutrition: {fraction: 0.25, note: marinade; 1/4 cup reserved for basting plus what clings; the rest is discarded}
   - measure: 1/2 cup
     item: Lime Juice
     prep: Fresh (about 4 limes)
-    group: 2 -> Marinade
+    group: 3 -> Citrus juice
     qty: 0.5
     unit: cup
     nutrition: {fraction: 0.25, note: marinade; 1/4 cup reserved for basting plus what clings; the rest is discarded}
   - measure: 1 (5 lb)
     item: Whole Chicken
     prep: Cut into 8 pieces
-    group: 3 -> Marinate the chicken
+    group: 4 -> Marinate the chicken
     qty: 5
     unit: lb
 nutrition:

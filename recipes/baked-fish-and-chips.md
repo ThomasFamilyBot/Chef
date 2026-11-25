@@ -52,68 +52,68 @@ ingredients:
   - measure: 1 tsp, plus more as needed
     item: Black Pepper
     prep: Divided across the sauce, crumbs, fish and potatoes
-    group: 1 -> Horseradish tartar sauce (then 2 -> Panko, 4 -> Fish, 5 -> Chips)
+    group: 1 -> Horseradish tartar sauce (then 3 -> Panko, 6 -> Fish, 7 -> Chips)
     qty: 1
     unit: tsp
   - measure: 6 TBLS, more as needed
     item: Extra-Virgin Olive Oil
     prep: 2 TBLS for the crumbs, 4 TBLS for the potatoes
-    group: 2 -> Panko (then 5 -> Chips)
+    group: 2 -> Oil for the crumbs (then 7 -> Chips)
     qty: 6
     unit: TBLS
   - measure: 1 1/3 cups
     item: Panko Bread Crumbs
-    group: 2 -> Panko
+    group: 3 -> Panko
     qty: 1.333
     unit: cup
     section: Baking
   - measure: 1 1/2 tsp
     item: Fresh Thyme
     prep: Minced
-    group: 2 -> Panko
+    group: 3 -> Panko
     qty: 1.5
     unit: tsp
   - measure: 1 large clove
     item: Garlic
     prep: Grated or minced
-    group: 2 -> Panko
+    group: 3 -> Panko
     qty: 1
     unit: clove
   - measure: 1/4 cup
     item: Dijon Mustard
-    group: 3 -> Egg wash
+    group: 4 -> Egg wash
     qty: 0.25
     unit: cup
   - measure: 2 large
     item: Eggs
-    group: 3 -> Egg wash
+    group: 4 -> Egg wash
     qty: 2
     unit: each
     nutrition: {fraction: 0.5, note: egg wash; about half coats the fish}
   - measure: 1 1/4 cups
     item: All-Purpose Flour
     prep: For dredging
-    group: 4 -> Fish
+    group: 5 -> Flour
     qty: 1.25
     unit: cup
     nutrition: {fraction: 0.3, note: dredge flour; ~30% sticks}
   - measure: 1 1/4 lb
     item: White Fish Fillets
     prep: Skinless hake, cod or similar; cut into 1-inch-thick strips
-    group: 4 -> Fish
+    group: 6 -> Fish
     qty: 1.25
     unit: lb
     section: Meat & Seafood
   - measure: 1 1/2 tsp, more as needed
     item: Kosher Salt
     prep: 1 tsp for the fish, 1/2 tsp for the potatoes
-    group: 4 -> Fish (then 5 -> Chips)
+    group: 6 -> Fish (then 7 -> Chips)
     qty: 1.5
     unit: tsp
   - measure: 1 1/2 lb (about 3 large)
     item: Russet Potatoes
     prep: Cut into 1/4-inch sticks
-    group: 5 -> Chips
+    group: 7 -> Chips
     qty: 1.5
     unit: lb
 nutrition:

@@ -15,88 +15,88 @@ tags: [vegetarian, eggs, main, breakfast, sous-vide]
 source_doc: https://docs.google.com/document/d/1esyCBDUJ7Gi3mZKSiWBNexOD3nGqILRbW6BZkpH8fXw/edit
 drive_doc_id: 1-n8OWYvuwB9ygAaqI254orxBzYv5I-bCwjakSWHAJ1I
 ingredients:
-  - measure: 6 TBLS (~1/2 cup)
-    item: Olive Oil
-    group: 4 -> Cook
-    qty: 6
-    unit: TBLS
-  - measure: 2 large
-    item: Yellow Onion
-    prep: Thinly sliced
-    group: 2 -> Prep
-    qty: 2
-    unit: each
-  - measure: 6 cloves
-    item: Garlic
-    prep: Thinly sliced
-    group: 2 -> Prep
-    qty: 6
-    unit: clove
-  - measure: 2 large
-    item: Bell Pepper
-    prep: Seeded, thinly sliced
-    group: 2 -> Prep
-    qty: 2
-    unit: each
-  - measure: 1 bunch
-    item: Cilantro
-    prep: Rough chop of leaves, for serving
-    group: 4 -> Cook
-    qty: 1
-    unit: bunch
-  - measure: 2 (28 oz each)
-    item: Whole Plum Tomatoes, fire roasted, 28 oz can
-    prep: Chopped, with juices (or just buy 'em chopped)
-    group: 4 -> Cook
-    qty: 2
-    unit: can
-  - measure: 2 TBLS
-    item: Ground Cumin
-    group: 3 -> Spice mix
-    qty: 2
-    unit: TBLS
-  - measure: 2 tsp
-    item: Smoked Paprika
-    group: 3 -> Spice mix
-    qty: 2
-    unit: tsp
-  - measure: 1/4 tsp
-    item: Cayenne
-    group: 3 -> Spice mix
-    qty: 0.25
-    unit: tsp
-  - measure: 1 1/2 tsp
-    item: Harissa
-    group: 3 -> Spice mix
-    qty: 1.5
-    unit: tsp
-  - measure: 1 g
-    item: Saffron
-    prep: Spanish is cheaper. Use legit saffron and cut the amount
-    group: 3 -> Spice mix
-    qty: 1
-    unit: g
-  - measure: 1 1/2 tsp
-    item: Kosher Salt
-    group: 4 -> Cook
-    qty: 1.5
-    unit: tsp
-  - measure: 1/2 tsp
-    item: Black Pepper
-    group: 4 -> Cook
-    qty: 0.5
-    unit: tsp
   - measure: 10
     item: Eggs
     group: 1 -> Sous vide eggs
     qty: 10
     unit: each
+  - measure: 6 TBLS (~1/2 cup)
+    item: Olive Oil
+    group: 2 -> Oil
+    qty: 6
+    unit: TBLS
+  - measure: 2 large
+    item: Yellow Onion
+    prep: Thinly sliced
+    group: 3 -> Onion and pepper
+    qty: 2
+    unit: each
+  - measure: 2 large
+    item: Bell Pepper
+    prep: Seeded, thinly sliced
+    group: 3 -> Onion and pepper
+    qty: 2
+    unit: each
+  - measure: 6 cloves
+    item: Garlic
+    prep: Thinly sliced
+    group: 4 -> Garlic
+    qty: 6
+    unit: clove
+  - measure: 2 TBLS
+    item: Ground Cumin
+    group: 5 -> Spice mix
+    qty: 2
+    unit: TBLS
+  - measure: 2 tsp
+    item: Smoked Paprika
+    group: 5 -> Spice mix
+    qty: 2
+    unit: tsp
+  - measure: 1/4 tsp
+    item: Cayenne
+    group: 5 -> Spice mix
+    qty: 0.25
+    unit: tsp
+  - measure: 1 1/2 tsp
+    item: Harissa
+    group: 5 -> Spice mix
+    qty: 1.5
+    unit: tsp
+  - measure: 1 g
+    item: Saffron
+    prep: Spanish is cheaper. Use legit saffron and cut the amount
+    group: 5 -> Spice mix
+    qty: 1
+    unit: g
+  - measure: 2 (28 oz each)
+    item: Whole Plum Tomatoes, fire roasted, 28 oz can
+    prep: Chopped, with juices (or just buy 'em chopped)
+    group: 6 -> Tomatoes
+    qty: 2
+    unit: can
+  - measure: 1 1/2 tsp
+    item: Kosher Salt
+    group: 6 -> Tomatoes
+    qty: 1.5
+    unit: tsp
+  - measure: 1/2 tsp
+    item: Black Pepper
+    group: 6 -> Tomatoes
+    qty: 0.5
+    unit: tsp
   - measure: 10 oz (trying 12 oz)
     item: Feta
     prep: Crumbled
-    group: 4 -> Cook
+    group: 7 -> Feta
     qty: 12
     unit: oz
+  - measure: 1 bunch
+    item: Cilantro
+    prep: Rough chop of leaves, for serving
+    group: 8 -> Serve
+    qty: 1
+    unit: bunch
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes
@@ -227,7 +227,7 @@ nutrition:
 
 - Prep onion & bell pepper (can go in same bowl).
 - Prep garlic.
-- Prep spice mix (`3 -> Spice mix`): cumin, paprika, cayenne, saffron, harissa (can go in one bowl).
+- Prep spice mix (`5 -> Spice mix`): cumin, paprika, cayenne, saffron, harissa (can go in one bowl).
 
 **Cook** (30 min)
 

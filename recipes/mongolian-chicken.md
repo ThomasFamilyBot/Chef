@@ -16,20 +16,20 @@ ingredients:
   - measure: 12 oz
     item: Chicken Thighs, boneless skinless
     prep: Or breast; patted dry, sliced 1/4 inch thick
-    group: 1 -> Dredge the chicken
+    group: 1 -> Chicken
     qty: 12
     unit: oz
   - measure: 1 TBLS + 1/3 cup
     item: Neutral Oil
     prep: Vegetable oil; 1 TBLS on the chicken, 1/3 cup for frying
-    group: 1 -> Dredge the chicken (then 2 -> Fry)
+    group: 1 -> Chicken (then 3 -> Frying oil)
     qty: 6.333
     unit: TBLS
     nutrition: {fraction: 0.3, note: shallow-frying oil; most is poured off}
   - measure: 1/4 cup + 2 TBLS
     item: Cornstarch
     prep: 1/4 cup to dredge, 2 TBLS for the slurry
-    group: 1 -> Dredge the chicken (then 4 -> Thicken)
+    group: 2 -> Dredge (then 7 -> Slurry)
     qty: 6
     unit: TBLS
     section: Baking
@@ -37,41 +37,41 @@ ingredients:
   - measure: 1 tsp
     item: Ginger
     prep: Julienned or minced
-    group: 3 -> Sauce
+    group: 4 -> Ginger
     qty: 1
     unit: tsp
   - measure: 5
     item: Chiles de Árbol
     prep: Dried red chiles; optional
-    group: 3 -> Sauce
+    group: 5 -> Aromatics
     qty: 5
     unit: each
   - measure: 2 cloves
     item: Garlic
     prep: Chopped
-    group: 3 -> Sauce
+    group: 5 -> Aromatics
     qty: 2
     unit: clove
   - measure: 3
     item: Scallions
     prep: Cut diagonally in 1-2 inch pieces; whites and greens separated
-    group: 3 -> Sauce
+    group: 5 -> Aromatics (then 8 -> Scallion greens)
     qty: 3
     unit: each
   - measure: 2 1/2 TBLS
     item: Soy Sauce
-    group: 3 -> Sauce
+    group: 6 -> Sauce
     qty: 2.5
     unit: TBLS
   - measure: 2 TBLS
     item: Brown Sugar
-    group: 3 -> Sauce
+    group: 6 -> Sauce
     qty: 2
     unit: TBLS
   - measure: 1/4 cup
     item: Water
     prep: Hot; or low-sodium chicken stock
-    group: 3 -> Sauce (then 4 -> Thicken)
+    group: 6 -> Sauce (then 7 -> Slurry)
     qty: 0.25
     unit: cup
     shop: false

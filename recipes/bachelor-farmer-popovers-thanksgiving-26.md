@@ -16,48 +16,48 @@ times:
 tags: [bread, side, baking, thanksgiving-26]
 drive_doc_id: 1mnHv-kuwDCco55aT_j8aNciCX7zUgVzAT-m0wEjjujI
 ingredients:
-  - measure: 900 g (about 7 1/4 cups)
-    item: All-Purpose Flour
-    group: 1 -> Batter
-    qty: 7.2
-    unit: cup
   - measure: 1.76 kg (about 7 1/4 cups)
     item: Whole Milk
     prep: Room temperature
-    group: 1 -> Batter
+    group: 1 -> Egg mixture
     qty: 7.2
     unit: cup
   - measure: 14 large (about 700 g)
     item: Eggs
     prep: Room temperature
-    group: 1 -> Batter
+    group: 1 -> Egg mixture
     qty: 14
     unit: each
   - measure: 2 TBLS + 1 tsp
     item: Kosher Salt
-    group: 1 -> Batter
+    group: 1 -> Egg mixture
     qty: 7
     unit: tsp
+  - measure: 900 g (about 7 1/4 cups)
+    item: All-Purpose Flour
+    group: 2 -> Flour
+    qty: 7.2
+    unit: cup
   - measure: 14 oz (3 1/2 sticks)
     item: Unsalted Butter
     prep: Melted / clarified, cooled a bit
-    group: 1 -> Batter
+    group: 3 -> Melted butter
     qty: 14
     unit: oz
   - measure: 5 oz (1 1/4 sticks)
     item: Unsalted Butter
     prep: Softened
-    group: 2 -> Honey butter
+    group: 4 -> Honey butter
     qty: 5
     unit: oz
   - measure: ~2 1/2 tsp
     item: Honey
-    group: 2 -> Honey butter
+    group: 4 -> Honey butter
     qty: 2.5
     unit: tsp
   - measure: Pinch
     item: Kosher Salt
-    group: 2 -> Honey butter
+    group: 4 -> Honey butter
     qty: 1
     unit: pinch
 nutrition:

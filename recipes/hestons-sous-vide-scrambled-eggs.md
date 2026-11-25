@@ -28,12 +28,6 @@ ingredients:
     group: 1 -> Egg mixture
     qty: 2
     unit: TBLS
-  - measure: 2 TBLS + 2 TBLS
-    item: Unsalted Butter
-    prep: 2 TBLS melted and kept warm for the eggs; 2 TBLS softened for the brown butter
-    group: 1 -> Egg mixture (then 2 -> Brown butter)
-    qty: 4
-    unit: TBLS
   - measure: To taste
     item: Kosher Salt
     group: 1 -> Egg mixture
@@ -45,6 +39,12 @@ ingredients:
     group: 1 -> Egg mixture
     qty: 1
     unit: to taste
+  - measure: 2 TBLS + 2 TBLS
+    item: Unsalted Butter
+    prep: 2 TBLS melted and kept warm for the eggs; 2 TBLS softened for the brown butter
+    group: 2 -> Melted butter (then 3 -> Brown butter)
+    qty: 4
+    unit: TBLS
 nutrition:
   computed: '2026-11-07'
   basis: whole recipe, ingredients as listed, raw weights; see line notes

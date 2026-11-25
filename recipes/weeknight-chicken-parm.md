@@ -15,49 +15,49 @@ drive_doc_id: 14NI187froW9mLzaQDYqY9zscublSOhpUBp4rqIiK5zg
 ingredients:
   - measure: 2 TBLS
     item: Olive Oil
-    group: 1 -> Sauce
+    group: 1 -> Sauce oil
     qty: 2
     unit: TBLS
   - measure: 1
     item: Yellow Onion
     prep: Diced
-    group: 1 -> Sauce
+    group: 2 -> Onion
     qty: 1
     unit: each
   - measure: 2 cloves
     item: Garlic
     prep: Minced
-    group: 1 -> Sauce
+    group: 3 -> Garlic
     qty: 2
     unit: clove
   - measure: 1 (28 oz) can
     item: Crushed Tomatoes, 28 oz can
     prep: Or puréed; San Marzano if you can
-    group: 1 -> Sauce
+    group: 4 -> Tomatoes
     qty: 1
     unit: can
   - measure: 2 tsp, plus more
     item: Kosher Salt
     prep: 1 tsp in the sauce, 1 tsp in the breading
-    group: 1 -> Sauce (then 2 -> Breading)
+    group: 4 -> Tomatoes (then 6 -> Panko)
     qty: 2
     unit: tsp
   - measure: 1 tsp, plus more
     item: Black Pepper
     prep: 1/2 tsp in the sauce, 1/2 tsp in the breading
-    group: 1 -> Sauce (then 2 -> Breading)
+    group: 4 -> Tomatoes (then 6 -> Panko)
     qty: 1
     unit: tsp
   - measure: 2 large
     item: Eggs
     prep: Lightly beaten
-    group: 2 -> Breading
+    group: 5 -> Egg
     qty: 2
     unit: each
     nutrition: {fraction: 0.5, note: egg wash; about half coats the chicken}
   - measure: 1 cup
     item: Panko Bread Crumbs
-    group: 2 -> Breading
+    group: 6 -> Panko
     qty: 1
     unit: cup
     section: Baking
@@ -65,26 +65,26 @@ ingredients:
   - measure: 3 TBLS + 4 TBLS
     item: Parmesan
     prep: Finely grated; 3 TBLS in the breading, 4 TBLS with the mozzarella
-    group: 2 -> Breading (then 3 -> Cheese)
+    group: 6 -> Panko (then 8 -> Cheese)
     qty: 7
     unit: TBLS
   - measure: 2 (4 cutlets, about 5 oz each)
     item: Chicken Breasts, boneless skinless
     prep: Halved horizontally, pounded 1/2 inch thick
-    group: 2 -> Breading
+    group: 7 -> Cutlets
     qty: 1.25
     unit: lb
   - measure: 1/2 cup
     item: Mozzarella, low-moisture
     prep: Whole milk; grated
-    group: 3 -> Cheese
+    group: 8 -> Cheese
     qty: 0.5
     unit: cup
     section: Cheese & Deli
   - measure: 2 TBLS
     item: Avocado Oil
     prep: Or another high-heat neutral oil
-    group: 4 -> Broil
+    group: 9 -> Broil
     qty: 2
     unit: TBLS
     section: Oils, Vinegars & Condiments

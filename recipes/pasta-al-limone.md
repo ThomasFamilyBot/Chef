@@ -13,37 +13,37 @@ tags: [pasta, italian, vegetarian, main, pasta-sauce]
 source_doc: https://docs.google.com/document/d/1vy1ObsfFTD3cLKVD8CVMqQNR7JjMJCCieeIGnMZ8TI4/edit
 drive_doc_id: 1UONkiYsfRz_wRXYsma5yO70lkZgvYAIwFvN3gwriDGE
 ingredients:
-  - measure: 4 oz (1 stick)
-    item: Unsalted Butter
-    group: 2 -> Make the sauce
-    qty: 4
-    unit: oz
-  - measure: 1 1/2 cups
-    item: Heavy Cream
-    group: 2 -> Make the sauce
-    qty: 1.5
-    unit: cup
-  - measure: 2
-    item: Lemon
-    prep: Juiced
-    group: 2 -> Make the sauce
-    qty: 2
-    unit: each
-  - measure: to taste
-    item: Kosher Salt
-    group: 2 -> Make the sauce
-    qty: 1
-    unit: to taste
-  - measure: to taste
-    item: Nutmeg
-    group: 2 -> Make the sauce
-    qty: 1
-    unit: to taste
   - measure: 1 lb
     item: Fettuccine
     group: 1 -> Cook the fettuccine
     qty: 1
     unit: lb
+  - measure: 4 oz (1 stick)
+    item: Unsalted Butter
+    group: 2 -> Butter
+    qty: 4
+    unit: oz
+  - measure: 1 1/2 cups
+    item: Heavy Cream
+    group: 3 -> Cream
+    qty: 1.5
+    unit: cup
+  - measure: 2
+    item: Lemon
+    prep: Juiced
+    group: 4 -> Lemon juice
+    qty: 2
+    unit: each
+  - measure: to taste
+    item: Kosher Salt
+    group: 5 -> Season
+    qty: 1
+    unit: to taste
+  - measure: to taste
+    item: Nutmeg
+    group: 5 -> Season
+    qty: 1
+    unit: to taste
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes

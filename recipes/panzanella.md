@@ -22,7 +22,7 @@ ingredients:
   - measure: 6 TBLS, more to taste
     item: Extra-Virgin Olive Oil
     prep: 2 TBLS for the bread, 4 TBLS for the dressing
-    group: 1 -> Toast the bread (then 3 -> Dressing)
+    group: 1 -> Toast the bread (then 4 -> Dressing oil)
     qty: 6
     unit: TBLS
   - measure: 3/4 tsp, more to taste
@@ -89,25 +89,25 @@ ingredients:
   - measure: 1/2 cup (about 1 small)
     item: Cucumbers
     prep: Persian or Kirby; thinly sliced
-    group: 3 -> Dressing
+    group: 5 -> Cucumber and herbs
     qty: 0.5
     unit: cup
   - measure: 1/2 cup
     item: Basil
     prep: Leaves, torn
-    group: 3 -> Dressing
+    group: 5 -> Cucumber and herbs
     qty: 0.5
     unit: cup
   - measure: 1/4 cup
     item: Flat-Leaf Parsley
     prep: Leaves, roughly chopped
-    group: 3 -> Dressing
+    group: 5 -> Cucumber and herbs
     qty: 0.25
     unit: cup
   - measure: 1 TBLS
     item: Capers
     prep: Drained
-    group: 4 -> Assemble
+    group: 6 -> Assemble
     qty: 1
     unit: TBLS
 nutrition:

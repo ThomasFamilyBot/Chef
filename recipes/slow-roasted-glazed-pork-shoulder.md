@@ -27,7 +27,7 @@ ingredients:
     unit: tsp
   - measure: 1/4 cup, plus more
     item: Kosher Salt
-    group: 1 -> Rub (then 4 -> Finish the glaze, 5 -> Salad)
+    group: 1 -> Rub (then 5 -> Finish the glaze, 6 -> Salad)
     qty: 0.25
     unit: cup
     nutrition: {fraction: 0.1, note: rub is brushed off before roasting}
@@ -40,56 +40,56 @@ ingredients:
   - measure: 1 (7-8 lb)
     item: Pork Butt, bone-in
     prep: Skinless bone-in pork shoulder (Boston butt or picnic)
-    group: 1 -> Rub
+    group: 2 -> Pork
     qty: 8
     unit: lb
   - measure: 1 cup
     item: Water
     prep: Boiling
-    group: 2 -> Roast
+    group: 3 -> Roast
     qty: 1
     unit: cup
     shop: false
   - measure: 1/4 cup + 1 TBLS
     item: Cider Vinegar
     prep: 1/4 cup for the glaze, 1 TBLS for the salad
-    group: 3 -> Glaze (then 5 -> Salad)
+    group: 4 -> Glaze (then 6 -> Salad)
     qty: 5
     unit: TBLS
   - measure: 1/4 cup, packed
     item: Brown Sugar
     prep: Light
-    group: 3 -> Glaze
+    group: 4 -> Glaze
     qty: 0.25
     unit: cup
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 4 -> Finish the glaze (then 5 -> Salad)
+    group: 5 -> Finish the glaze (then 6 -> Salad)
     qty: 1
     unit: to taste
   - measure: 1 large
     item: Carrots
     prep: Peeled into thin ribbons
-    group: 5 -> Salad
+    group: 6 -> Salad
     qty: 1
     unit: each
   - measure: 1
     item: Apples
     prep: Granny Smith or Fuji; cored, quartered, thinly sliced
-    group: 5 -> Salad
+    group: 6 -> Salad
     qty: 1
     unit: each
   - measure: 4 cups
     item: Mustard Greens
     prep: Stemmed
-    group: 5 -> Salad
+    group: 6 -> Salad
     qty: 4
     unit: cup
     section: Produce
   - measure: 1 TBLS
     item: Olive Oil
-    group: 5 -> Salad
+    group: 6 -> Salad
     qty: 1
     unit: TBLS
 nutrition:

@@ -21,65 +21,65 @@ ingredients:
   - measure: 4 TBLS
     item: Unsalted Butter
     prep: 2 TBLS to start, 2 TBLS to finish
-    group: 2 -> Scampi (then 3 -> Finish)
+    group: 2 -> Butter and oil (then 6 -> Finishing butter and oil)
     qty: 4
     unit: TBLS
   - measure: 4 TBLS, plus more for drizzling
     item: Extra-Virgin Olive Oil
     prep: 2 TBLS to start, 2 TBLS to finish
-    group: 2 -> Scampi (then 3 -> Finish)
+    group: 2 -> Butter and oil (then 6 -> Finishing butter and oil)
     qty: 5
     unit: TBLS
   - measure: 2
     item: Shallot
     prep: Finely diced
-    group: 2 -> Scampi
+    group: 3 -> Aromatics
     qty: 2
     unit: each
   - measure: 2 cloves
     item: Garlic
     prep: Minced
-    group: 2 -> Scampi
+    group: 3 -> Aromatics
     qty: 2
     unit: clove
   - measure: Pinch
     item: Red Pepper Flakes
     prep: Optional
-    group: 2 -> Scampi
+    group: 3 -> Aromatics
     qty: 1
     unit: pinch
   - measure: 1 lb
     item: Shrimp, peeled & deveined
-    group: 2 -> Scampi
+    group: 4 -> Shrimp
     qty: 1
     unit: lb
     section: Meat & Seafood
   - measure: To taste
     item: Kosher Salt
-    group: 2 -> Scampi (then 3 -> Finish)
+    group: 4 -> Shrimp (then 7 -> Parsley)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 2 -> Scampi (then 3 -> Finish)
+    group: 4 -> Shrimp (then 7 -> Parsley)
     qty: 1
     unit: to taste
   - measure: 1/2 cup
     item: Dry White Wine
-    group: 3 -> Finish
+    group: 5 -> Wine and lemon
     qty: 0.5
     unit: cup
   - measure: Juice of 1
     item: Lemon
-    group: 3 -> Finish
+    group: 5 -> Wine and lemon
     qty: 1
     unit: each
     nutrition: {oz: 1.6, note: juice only (~45 g)}
   - measure: 1/4 cup
     item: Flat-Leaf Parsley
     prep: Leaves, finely chopped
-    group: 3 -> Finish
+    group: 7 -> Parsley
     qty: 0.25
     unit: cup
 nutrition:

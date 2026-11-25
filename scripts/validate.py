@@ -104,6 +104,11 @@ def check(path, sections):
         for num, name in tok.findall(r.get("body_md") or ""):
             if int(num) not in groups:
                 errs.append(f"directions refer to `{num} -> {name.strip()}` but no ingredient has group {num}")
+    # a bowl holds one moment: a direction that takes only part of a bowl means the bowl is wrong
+    for ln in (r.get("body_md") or "").split("\n"):
+        if re.search(r"everything else (in|from) `\d+\s*->|`\d+\s*->[^`]*`[^.;]*\bexcept\b", ln, re.I):
+            warns.append("a direction uses part of a bowl (\"except\" / \"everything else\"): a mise bowl holds only what goes in "
+                         f"at the same moment, so split it (recipe-intake skill, Mise groups): {ln.strip()[:90]}")
     if re.search(r"^\*\*\d+\.\s", r.get("body_md") or "", re.M):
         warns.append("direction headings are numbered; house style is bold names only, bowls carry the numbers")
     n = r.get("nutrition")

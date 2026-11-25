@@ -34,22 +34,6 @@ ingredients:
     group: 2 -> Simmer the sauce
     qty: 1
     unit: can
-  - measure: 1/2 cup
-    item: Heavy Cream
-    group: 4 -> Finish
-    qty: 0.5
-    unit: cup
-  - measure: 1/2 cup
-    item: Swiss Cheese
-    prep: Grated
-    group: 4 -> Finish
-    qty: 0.5
-    unit: cup
-  - measure: 1-1 1/2 lb
-    item: Penne
-    group: 3 -> Cook the penne
-    qty: 1.5
-    unit: lb
   - measure: to taste
     item: Kosher Salt
     prep: For seasoning
@@ -62,6 +46,22 @@ ingredients:
     group: 2 -> Simmer the sauce
     qty: 1
     unit: to taste
+  - measure: 1-1 1/2 lb
+    item: Penne
+    group: 3 -> Cook the penne
+    qty: 1.5
+    unit: lb
+  - measure: 1/2 cup
+    item: Heavy Cream
+    group: 4 -> Cream
+    qty: 0.5
+    unit: cup
+  - measure: 1/2 cup
+    item: Swiss Cheese
+    prep: Grated
+    group: 5 -> Swiss cheese
+    qty: 0.5
+    unit: cup
 nutrition:
   computed: '2026-11-02'
   basis: whole recipe, ingredients as listed, raw weights; see line notes

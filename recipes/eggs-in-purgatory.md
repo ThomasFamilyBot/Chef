@@ -15,70 +15,70 @@ drive_doc_id: 1krifKLmBMz-EsNPyMPnMmRulWmW0cAykhbALuEDPWyY
 ingredients:
   - measure: 1/4 cup, plus about 2 TBLS for drizzling
     item: Olive Oil
-    group: 1 -> Tomato sauce (then 3 -> Toasts, 4 -> Salad)
+    group: 1 -> Oil (then 5 -> Toasts, 6 -> Salad)
     qty: 6
     unit: TBLS
   - measure: 5 cloves
     item: Garlic
     prep: Smashed
-    group: 1 -> Tomato sauce
+    group: 2 -> Garlic
     qty: 5
     unit: clove
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Tomato sauce (then 2 -> Eggs, 4 -> Salad)
+    group: 2 -> Garlic (then 4 -> Eggs, 6 -> Salad)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground
-    group: 1 -> Tomato sauce (then 2 -> Eggs, 4 -> Salad)
+    group: 2 -> Garlic (then 4 -> Eggs, 6 -> Salad)
     qty: 1
     unit: to taste
   - measure: 1/2 tsp
     item: Red Pepper Flakes
-    group: 1 -> Tomato sauce
+    group: 3 -> Tomatoes
     qty: 0.5
     unit: tsp
   - measure: 20 oz
     item: Cherry Tomatoes
-    group: 1 -> Tomato sauce
+    group: 3 -> Tomatoes
     qty: 20
     unit: oz
   - measure: 6 large
     item: Eggs
-    group: 2 -> Eggs
+    group: 4 -> Eggs
     qty: 6
     unit: each
   - measure: 4 thin slices (about 4 oz)
     item: Crusty Italian Bread
     prep: Country-style
-    group: 3 -> Toasts
+    group: 5 -> Toasts
     qty: 4
     unit: oz
   - measure: 1
     item: Lemon
     prep: Whole, for rubbing the toasts; then about 2 TBLS juice for the salad
-    group: 3 -> Toasts (then 4 -> Salad)
+    group: 5 -> Toasts (then 6 -> Salad)
     qty: 1
     unit: each
   - measure: To finish
     item: Flaky Sea Salt
     prep: Or kosher salt
-    group: 3 -> Toasts
+    group: 5 -> Toasts
     qty: 1
     unit: to taste
   - measure: 1 bunch
     item: Swiss Chard
     prep: Rainbow if you can; leaves stripped and torn, stems saved for another day
-    group: 4 -> Salad
+    group: 6 -> Salad
     qty: 1
     unit: bunch
     section: Produce
   - measure: Handful
     item: Basil
     prep: Leaves
-    group: 4 -> Salad
+    group: 6 -> Salad
     qty: 0.5
     unit: cup
 nutrition:

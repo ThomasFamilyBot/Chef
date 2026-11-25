@@ -16,7 +16,7 @@ ingredients:
   - measure: 1 head
     item: Green Cabbage
     prep: Julienned
-    group: 1 -> Fermented cabbage
+    group: 1 -> Salt the cabbage
     qty: 1
     unit: head
     section: Produce
@@ -24,26 +24,19 @@ ingredients:
   - measure: To cover, then 5% of the cabbage weight
     item: Kosher Salt
     prep: Plus 3 TBLS for the brine and 1 1/2 TBLS for the pickles
-    group: 1 -> Fermented cabbage (then 2 -> Chicken brine, 3 -> Pickles, 5 -> Aioli)
+    group: 1 -> Salt the cabbage (then 2 -> Ferment, 3 -> Chicken brine, 6 -> Pickle brine, 9 -> Aioli base)
     qty: 5
     unit: TBLS
   - measure: 6% of the cabbage weight, plus 2 quarts + 3/4 cup + 1 cup
     item: Water
     prep: For the ferment, the brine, the pickles and the slurry
-    group: 1 -> Fermented cabbage (then 2 -> Chicken brine, 3 -> Pickles, 6 -> Dredge & fry)
+    group: 2 -> Ferment (then 3 -> Chicken brine, 6 -> Pickle brine, 15 -> Slurry)
     qty: 12
     unit: cup
     shop: false
-  - measure: 5 lb
-    item: Chicken Thighs, boneless skin-on
-    prep: Cartilage removed
-    group: 2 -> Chicken brine
-    qty: 5
-    unit: lb
-    section: Meat & Seafood
   - measure: 1 1/2 TBLS
     item: Palm Sugar
-    group: 2 -> Chicken brine
+    group: 3 -> Chicken brine
     qty: 1.5
     unit: TBLS
     section: International
@@ -51,92 +44,99 @@ ingredients:
   - measure: 3 cloves
     item: Garlic
     prep: Smashed, for the brine; plus 3 minced for the aioli
-    group: 2 -> Chicken brine (then 5 -> Aioli)
+    group: 4 -> Brine aromatics (then 9 -> Aioli base)
     qty: 6
     unit: clove
   - measure: 1/2 sprig
     item: Fresh Rosemary
-    group: 2 -> Chicken brine
+    group: 4 -> Brine aromatics
     qty: 1
     unit: sprig
     nutrition: exclude
-  - measure: 2
-    item: Cucumbers
-    prep: Sliced into thin rounds on a mandoline
-    group: 3 -> Pickles
-    qty: 2
-    unit: each
-    nutrition: {fraction: 0.7, note: 7 slices per sandwich}
+  - measure: 5 lb
+    item: Chicken Thighs, boneless skin-on
+    prep: Cartilage removed
+    group: 5 -> Chicken
+    qty: 5
+    unit: lb
+    section: Meat & Seafood
   - measure: 1 1/2 cups
     item: White Wine Vinegar
-    group: 3 -> Pickles
+    group: 6 -> Pickle brine
     qty: 1.5
     unit: cup
     nutrition: {fraction: 0.1, note: pickling brine; ~10% absorbed}
   - measure: 3/4 cup
     item: Granulated Sugar
-    group: 3 -> Pickles
+    group: 6 -> Pickle brine
     qty: 0.75
     unit: cup
     nutrition: {fraction: 0.1, note: pickling brine; ~10% absorbed}
+  - measure: 2
+    item: Cucumbers
+    prep: Sliced into thin rounds on a mandoline
+    group: 7 -> Cucumbers
+    qty: 2
+    unit: each
+    nutrition: {fraction: 0.7, note: 7 slices per sandwich}
   - measure: 1 pint
     item: Hot Sauce
     prep: Frank's RedHot
-    group: 4 -> Buffalo sauce
+    group: 8 -> Buffalo sauce
     qty: 1
     unit: pint
     nutrition: {fraction: 0.5, note: a liberal coat per thigh; about half the batch is used}
   - measure: 6 oz
     item: Unsalted Butter
     prep: Cold, cubed
-    group: 4 -> Buffalo sauce
+    group: 8 -> Buffalo sauce
     qty: 6
     unit: oz
     nutrition: {fraction: 0.5, note: see Hot Sauce}
   - measure: 6
     item: Egg Yolks
-    group: 5 -> Aioli
+    group: 9 -> Aioli base
     qty: 6
     unit: each
     nutrition: {fraction: 0.33, note: aioli makes ~3 1/2 cups; 3 TBLS per sandwich is about a third}
   - measure: 3 TBLS
     item: Lemon
     prep: Juiced (about 1 lemon)
-    group: 5 -> Aioli
+    group: 9 -> Aioli base (then 11 -> Loosen the aioli)
     qty: 1
     unit: each
     nutrition: {oz: 0.5, note: 3 TBLS juice, a third used}
   - measure: 3 1/4 cups
     item: Grapeseed Oil
-    group: 5 -> Aioli
+    group: 10 -> Aioli oil
     qty: 3.25
     unit: cup
     nutrition: {fraction: 0.33, note: see Egg Yolks}
   - measure: 3 tsp
     item: Espelette Pepper
     prep: Mild Basque chile
-    group: 5 -> Aioli
+    group: 12 -> Espelette
     qty: 3
     unit: tsp
     section: Spices & Dried Herbs
+  - measure: For frying (about 2 quarts)
+    item: Neutral Oil
+    group: 13 -> Frying oil
+    qty: 2
+    unit: quart
+    nutrition: {fraction: 0.1, note: frying oil; ~10% absorbed}
   - measure: 1 cup
     item: Cornstarch
     prep: Half for the dry dredge, half for the slurry
-    group: 6 -> Dredge & fry
+    group: 14 -> Dry dredge (then 15 -> Slurry)
     qty: 1
     unit: cup
     section: Baking
     nutrition: {fraction: 0.5, note: dredge; about half sticks}
-  - measure: For frying (about 2 quarts)
-    item: Neutral Oil
-    group: 6 -> Dredge & fry
-    qty: 2
-    unit: quart
-    nutrition: {fraction: 0.1, note: frying oil; ~10% absorbed}
   - measure: 6
     item: Brioche Buns
     prep: Burger size
-    group: 7 -> Assemble
+    group: 16 -> Assemble
     qty: 6
     unit: each
     section: Bakery & Bread

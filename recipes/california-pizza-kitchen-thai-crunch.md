@@ -77,44 +77,44 @@ ingredients:
   - measure: 2 TBLS + 1/2 cup
     item: Cilantro
     prep: 2 TBLS leaves for the dressing; 1/2 cup loosely packed, chopped, for the salad
-    group: 1 -> Make the dressing (then 2 -> Combine the veggies)
+    group: 2 -> Dressing cilantro (then 3 -> Combine the veggies)
     qty: 10
     unit: TBLS
   - measure: 4 cups
     item: Napa Cabbage
     prep: Chopped (or a bag of shredded coleslaw mix)
-    group: 2 -> Combine the veggies
+    group: 3 -> Combine the veggies
     qty: 4
     unit: cup
   - measure: 1 cup
     item: Carrots
     prep: Shredded (pre-shredded bag is fine)
-    group: 2 -> Combine the veggies
+    group: 3 -> Combine the veggies
     qty: 1
     unit: cup
   - measure: 1
     item: Red Bell Pepper
     prep: Thinly sliced into bite-sized pieces
-    group: 2 -> Combine the veggies
+    group: 3 -> Combine the veggies
     qty: 1
     unit: each
   - measure: 1 small
     item: English Cucumber
     prep: Halved lengthwise, seeded, thinly sliced
-    group: 2 -> Combine the veggies
+    group: 3 -> Combine the veggies
     qty: 1
     unit: each
   - measure: 1 cup
     item: Edamame, shelled
     prep: Cooked (from frozen)
-    group: 2 -> Combine the veggies
+    group: 3 -> Combine the veggies
     qty: 1
     unit: cup
     section: Frozen
   - measure: 2 medium
     item: Scallions
     prep: White & green parts, thinly sliced
-    group: 2 -> Combine the veggies
+    group: 3 -> Combine the veggies
     qty: 2
     unit: each
 nutrition:
@@ -263,13 +263,13 @@ Inspired by California Pizza Kitchen's Thai Crunch salad. Make it a dinner by ad
 **Make the dressing**
 
 - Chop the garlic and ginger first so the dressing blends smooth, not gritty.
-- Blend everything in `1 -> Make the dressing` except the cilantro until completely smooth.
-- Add the 2 TBLS cilantro and pulse a few seconds, just until finely chopped (added last so the dressing stays creamy-colored, not muddy green).
+- Blend everything in `1 -> Make the dressing` until completely smooth.
+- Add the 2 TBLS cilantro from `2 -> Dressing cilantro` and pulse a few seconds, just until finely chopped (added last so the dressing stays creamy-colored, not muddy green).
 - Refrigerate until ready to serve. Keeps up to 1 week; stir or whisk before using, it thickens in the fridge.
 
 **Combine the veggies**
 
-- In a large bowl, toss the cabbage, carrots, bell pepper, cucumber, edamame, scallions and 1/2 cup chopped cilantro (`2 -> Combine the veggies`).
+- In a large bowl, toss the cabbage, carrots, bell pepper, cucumber, edamame, scallions and 1/2 cup chopped cilantro (`3 -> Combine the veggies`).
 - Seed the cucumber: it keeps the salad crisp and stops water from thinning the dressing.
 - The chopped veggies keep up to 2 days in an airtight container, undressed.
 

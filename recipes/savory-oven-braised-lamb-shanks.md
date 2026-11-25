@@ -16,91 +16,91 @@ ingredients:
   - measure: 3 TBLS
     item: Olive Oil
     prep: 1 TBLS for the vegetables, 2 TBLS for searing
-    group: 1 -> Vegetables (then 2 -> Sear the shanks)
+    group: 1 -> Oil and butter (then 4 -> Searing oil)
     qty: 3
     unit: TBLS
   - measure: 1 TBLS
     item: Unsalted Butter
-    group: 1 -> Vegetables
+    group: 1 -> Oil and butter
     qty: 1
     unit: TBLS
   - measure: 1 large
     item: Yellow Onion
     prep: Coarsely chopped
-    group: 1 -> Vegetables
+    group: 2 -> Vegetables
     qty: 1
     unit: each
   - measure: 1 stalk
     item: Celery
     prep: Coarsely chopped
-    group: 1 -> Vegetables
+    group: 2 -> Vegetables
     qty: 1
     unit: stalk
   - measure: 1 medium
     item: Carrots
     prep: Coarsely chopped
-    group: 1 -> Vegetables
+    group: 2 -> Vegetables
     qty: 1
     unit: each
   - measure: 4 cloves
     item: Garlic
     prep: Sliced
-    group: 1 -> Vegetables
+    group: 3 -> Garlic
     qty: 4
     unit: clove
   - measure: 4 (about 4 lb)
     item: Lamb Shanks
     prep: Bone-in
-    group: 2 -> Sear the shanks
+    group: 5 -> Shanks
     qty: 4
     unit: lb
     section: Meat & Seafood
   - measure: Dash
     item: Kosher Salt
-    group: 2 -> Sear the shanks
+    group: 5 -> Shanks
     qty: 1
     unit: to taste
   - measure: Dash
     item: Black Pepper
     prep: Freshly ground
-    group: 2 -> Sear the shanks
+    group: 5 -> Shanks
     qty: 1
     unit: to taste
   - measure: 1 cup
     item: Dry Red Wine
-    group: 3 -> Braising liquid
+    group: 6 -> Deglaze
     qty: 1
     unit: cup
   - measure: 3 TBLS
     item: Tomato Paste
-    group: 3 -> Braising liquid
+    group: 7 -> Braising liquid
     qty: 3
     unit: TBLS
   - measure: 2 cups
     item: Chicken Stock
     prep: Or broth
-    group: 3 -> Braising liquid
+    group: 7 -> Braising liquid
     qty: 2
     unit: cup
   - measure: 1 cup
     item: Beef Stock
     prep: Or broth
-    group: 3 -> Braising liquid
+    group: 7 -> Braising liquid
     qty: 1
     unit: cup
   - measure: 1/4 cup
     item: Cider Vinegar
-    group: 3 -> Braising liquid
+    group: 7 -> Braising liquid
     qty: 0.25
     unit: cup
   - measure: 4 sprigs
     item: Fresh Thyme
-    group: 4 -> Braise
+    group: 8 -> Herbs
     qty: 4
     unit: sprig
   - measure: 1
     item: Bay Leaves
-    group: 4 -> Braise
+    group: 8 -> Herbs
     qty: 1
     unit: each
     nutrition: exclude

@@ -23,43 +23,43 @@ ingredients:
   - measure: 1 cup
     item: Cornmeal
     prep: Fine
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 1
     unit: cup
   - measure: 3/4 cup
     item: All-Purpose Flour
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 0.75
     unit: cup
   - measure: 1 TBLS
     item: Granulated Sugar
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 1
     unit: TBLS
   - measure: 1 tsp, more for seasoning
     item: Kosher Salt
-    group: 2 -> Batter (then 3 -> Fry)
+    group: 2 -> Batter dry (then 4 -> Fry)
     qty: 1
     unit: tsp
   - measure: 1/2 tsp
     item: Baking Powder
-    group: 2 -> Batter
+    group: 2 -> Batter dry
     qty: 0.5
     unit: tsp
   - measure: 1 cup
     item: Whole Milk
-    group: 2 -> Batter
+    group: 3 -> Batter wet
     qty: 1
     unit: cup
   - measure: 1 large
     item: Eggs
-    group: 2 -> Batter
+    group: 3 -> Batter wet
     qty: 1
     unit: each
   - measure: 8
     item: Hot Dogs
     prep: Cut into 1/2-inch pieces
-    group: 3 -> Fry
+    group: 4 -> Fry
     qty: 8
     unit: each
     section: Meat & Seafood

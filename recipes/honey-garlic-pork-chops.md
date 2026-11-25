@@ -16,58 +16,58 @@ ingredients:
   - measure: 1 TBLS
     item: Neutral Oil
     prep: Vegetable or olive oil
-    group: 1 -> Sear
+    group: 1 -> Oil
     qty: 1
     unit: TBLS
   - measure: 2 thick bone-in or 4 thin (about 1 1/2 lb)
     item: Pork Loin Chops, bone-in
     prep: Or boneless
-    group: 1 -> Sear
+    group: 2 -> Chops
     qty: 1.5
     unit: lb
   - measure: To taste
     item: Kosher Salt
-    group: 1 -> Sear
+    group: 2 -> Chops
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
-    group: 1 -> Sear
+    group: 2 -> Chops
     qty: 1
     unit: to taste
   - measure: 2 TBLS
     item: Unsalted Butter
     prep: Salted works too
-    group: 2 -> Sauce
+    group: 3 -> Butter and garlic
     qty: 2
     unit: TBLS
   - measure: 2 TBLS (6 cloves)
     item: Garlic
     prep: Minced
-    group: 2 -> Sauce
+    group: 3 -> Butter and garlic
     qty: 6
     unit: clove
   - measure: 1/4 cup
     item: Honey
-    group: 2 -> Sauce
+    group: 4 -> Sauce
     qty: 0.25
     unit: cup
   - measure: 1/4 cup
     item: Water
-    group: 2 -> Sauce
+    group: 4 -> Sauce
     qty: 0.25
     unit: cup
     shop: false
   - measure: 2 TBLS
     item: White Vinegar
     prep: Or cider or rice vinegar
-    group: 2 -> Sauce
+    group: 4 -> Sauce
     qty: 2
     unit: TBLS
   - measure: 1/2 tsp
     item: Red Pepper Flakes
     prep: Optional, plus more to garnish
-    group: 2 -> Sauce
+    group: 4 -> Sauce
     qty: 0.5
     unit: tsp
 nutrition:

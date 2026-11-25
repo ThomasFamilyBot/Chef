@@ -16,43 +16,43 @@ drive_doc_id: 15uhaVay43UfhNgIBJSbo77vLlJLVnpcLRmpiqb8H2gs
 ingredients:
   - measure: 3 TBLS
     item: Olive Oil
-    group: 1 -> Sweat the onion
+    group: 1 -> Warm the oil
     qty: 3
     unit: TBLS
   - measure: 1 medium (6 oz)
     item: Yellow Onion
     prep: Sliced thin
-    group: 1 -> Sweat the onion
+    group: 2 -> Sweat the onion
     qty: 1
     unit: each
   - measure: 1 head (about 1 1/2 lb)
     item: Cauliflower
     prep: Very fresh; broken into florets
-    group: 2 -> Stew the cauliflower
+    group: 3 -> Stew the cauliflower
     qty: 1
     unit: head
   - measure: To taste
     item: Kosher Salt
-    group: 2 -> Stew the cauliflower
+    group: 3 -> Stew the cauliflower
     qty: 1
     unit: to taste
   - measure: 5 1/2 cups
     item: Water
     prep: Hot; used in three parts (1/2 cup, 4 1/2 cups, 1/2 cup)
-    group: 2 -> Stew the cauliflower (then 3 -> Finish)
+    group: 3 -> Stew the cauliflower (then 4 -> Simmer, 5 -> Thin the soup)
     qty: 5.5
     unit: cup
     shop: false
   - measure: To taste
     item: Extra-Virgin Olive Oil
     prep: For drizzling at the table
-    group: 3 -> Finish
+    group: 6 -> Serve
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly ground, for serving
-    group: 3 -> Finish
+    group: 6 -> Serve
     qty: 1
     unit: to taste
 nutrition:

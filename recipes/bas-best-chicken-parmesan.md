@@ -16,134 +16,134 @@ ingredients:
   - measure: 1/2 cup
     item: Extra-Virgin Olive Oil
     prep: For the sauce
-    group: 1 -> Tomato sauce
+    group: 1 -> Sauce oil
     qty: 0.5
     unit: cup
   - measure: 1 medium
     item: Yellow Onion
     prep: Finely chopped
-    group: 1 -> Tomato sauce
+    group: 2 -> Onion and garlic
     qty: 1
     unit: each
   - measure: 8 cloves
     item: Garlic
     prep: Crushed
-    group: 1 -> Tomato sauce
+    group: 2 -> Onion and garlic
     qty: 8
     unit: clove
   - measure: 2 TBLS
     item: Tomato Paste
     prep: Double-concentrated
-    group: 1 -> Tomato sauce
+    group: 3 -> Tomato paste
     qty: 2
     unit: TBLS
   - measure: 3/4 tsp
     item: Red Pepper Flakes
-    group: 1 -> Tomato sauce
+    group: 3 -> Tomato paste
     qty: 0.75
     unit: tsp
   - measure: 2 (28 oz) cans
     item: Tomato Puree, 28 oz can
-    group: 1 -> Tomato sauce
+    group: 4 -> Tomato purée
     qty: 2
     unit: can
     section: Canned & Jarred
   - measure: 2 tsp Diamond Crystal (1 1/4 tsp Morton)
     item: Kosher Salt
     prep: For the sauce
-    group: 1 -> Tomato sauce
+    group: 4 -> Tomato purée
     qty: 2
     unit: tsp
   - measure: 1 1/2 tsp
     item: Granulated Sugar
-    group: 1 -> Tomato sauce
+    group: 4 -> Tomato purée
     qty: 1.5
     unit: tsp
-  - measure: 4 (about 3 lb)
-    item: Chicken Breasts, boneless skinless
-    prep: Butterflied and pounded to 1/3 inch
-    group: 2 -> Cutlets & marinade
-    qty: 3
-    unit: lb
   - measure: 5 cloves
     item: Garlic
     prep: Finely grated, for the marinade
-    group: 2 -> Cutlets & marinade
+    group: 5 -> Marinade
     qty: 5
     unit: clove
   - measure: 1/3 cup
     item: Lemon
     prep: Juiced (about 2 lemons)
-    group: 2 -> Cutlets & marinade
+    group: 5 -> Marinade
     qty: 2
     unit: each
     nutrition: {oz: 2.8, note: 1/3 cup juice (~80 g)}
   - measure: 1/4 cup
     item: Extra-Virgin Olive Oil
     prep: For the marinade
-    group: 2 -> Cutlets & marinade
+    group: 5 -> Marinade
     qty: 0.25
     unit: cup
     nutrition: {fraction: 0.5, note: marinade; about half clings to the cutlets}
+  - measure: 4 (about 3 lb)
+    item: Chicken Breasts, boneless skinless
+    prep: Butterflied and pounded to 1/3 inch
+    group: 6 -> Cutlets
+    qty: 3
+    unit: lb
   - measure: 1 1/2 tsp Diamond Crystal (1 tsp Morton), plus more
     item: Kosher Salt
     prep: 3/4 tsp per cutlet, 1/2 tsp in the egg wash, 1 tsp in the flour
-    group: 2 -> Cutlets & marinade (then 3 -> Dredge)
+    group: 6 -> Cutlets (then 7 -> Flour, 8 -> Egg wash)
     qty: 1.5
     unit: tsp
+  - measure: 2 cups
+    item: All-Purpose Flour
+    group: 7 -> Flour
+    qty: 2
+    unit: cup
+    nutrition: {fraction: 0.3, note: dredge flour; ~30% sticks}
   - measure: 4 large
     item: Eggs
-    group: 3 -> Dredge
+    group: 8 -> Egg wash
     qty: 4
     unit: each
     nutrition: {fraction: 0.5, note: egg wash; about half coats the cutlets}
   - measure: 1 TBLS
     item: Garlic Powder
-    group: 3 -> Dredge
+    group: 8 -> Egg wash
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Onion Powder
-    group: 3 -> Dredge
+    group: 8 -> Egg wash
     qty: 1
     unit: TBLS
   - measure: 4 cups
     item: Panko Bread Crumbs
-    group: 3 -> Dredge
+    group: 9 -> Panko
     qty: 4
     unit: cup
     section: Baking
     nutrition: {fraction: 0.75, note: breading; ~25% left in the bowl}
-  - measure: 2 cups
-    item: All-Purpose Flour
-    group: 3 -> Dredge
-    qty: 2
-    unit: cup
-    nutrition: {fraction: 0.3, note: dredge flour; ~30% sticks}
   - measure: 12 oz
     item: Mozzarella, low-moisture
     prep: Grated on the large holes
-    group: 4 -> Cheese
+    group: 10 -> Cheese
     qty: 12
     unit: oz
     section: Cheese & Deli
   - measure: 8 oz
     item: Parmesan
     prep: Pre-grated
-    group: 4 -> Cheese
+    group: 10 -> Cheese
     qty: 8
     unit: oz
   - measure: 3-4 cups
     item: Neutral Oil
     prep: Vegetable oil, for frying (1 inch deep)
-    group: 5 -> Fry
+    group: 11 -> Fry
     qty: 4
     unit: cup
     nutrition: {fraction: 0.1, note: frying oil; ~10% absorbed}
   - measure: 2 TBLS
     item: Flat-Leaf Parsley
     prep: Finely chopped
-    group: 6 -> Broil
+    group: 12 -> Garnish
     qty: 2
     unit: TBLS
 nutrition:

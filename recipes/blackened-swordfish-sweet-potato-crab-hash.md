@@ -16,73 +16,73 @@ ingredients:
   - measure: 1/2 lb
     item: Unsalted Butter
     prep: For the BBQ sauce
-    group: 1 -> BBQ sauce
+    group: 1 -> BBQ sauce sweat
     qty: 0.5
     unit: lb
     nutrition: {fraction: 0.025, note: the BBQ sauce makes ~6 quarts; 2 cups go into the Voodoo sauce, of which about 7 oz reach the plate}
   - measure: 3 large
     item: Yellow Onion
     prep: Chopped
-    group: 1 -> BBQ sauce
+    group: 1 -> BBQ sauce sweat
     qty: 3
     unit: each
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1 cup
     item: Garlic
     prep: Finely chopped
-    group: 1 -> BBQ sauce
+    group: 1 -> BBQ sauce sweat
     qty: 1
     unit: cup
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 16 fl oz
     item: White Wine Vinegar
-    group: 1 -> BBQ sauce
+    group: 2 -> BBQ sauce blend
     qty: 16
     unit: fl oz
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1 jar (about 12 oz)
     item: Apricot Jam
-    group: 1 -> BBQ sauce
+    group: 2 -> BBQ sauce blend
     qty: 1
     unit: jar
     section: Canned & Jarred
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1/4 cup
     item: Dry Mustard Powder
-    group: 1 -> BBQ sauce
+    group: 2 -> BBQ sauce blend
     qty: 4
     unit: TBLS
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1/2 box (about 8 oz)
     item: Brown Sugar
-    group: 1 -> BBQ sauce
+    group: 2 -> BBQ sauce blend
     qty: 8
     unit: oz
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 3/4 cup
     item: Dijon Mustard
-    group: 1 -> BBQ sauce
+    group: 2 -> BBQ sauce blend
     qty: 0.75
     unit: cup
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: "13 cups (1 #10 can)"
     item: Chili Sauce
     prep: Heinz-style
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 13
     unit: cup
     section: Oils, Vinegars & Condiments
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1 quart
     item: Apple Juice
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 1
     unit: quart
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1/2 cup
     item: Cornichons
     prep: Finely chopped
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 0.5
     unit: cup
     section: Canned & Jarred
@@ -90,32 +90,32 @@ ingredients:
   - measure: 2 TBLS
     item: Hot Sauce
     prep: Red pepper sauce
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 2
     unit: TBLS
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 3/4 TBLS
     item: Cayenne
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 2.25
     unit: tsp
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1/2 cup
     item: Worcestershire Sauce
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 0.5
     unit: cup
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1/4 cup
     item: Ground Turmeric
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 0.25
     unit: cup
     section: Spices & Dried Herbs
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1/4 cup
     item: Ground Celery Seed
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 0.25
     unit: cup
     section: Spices & Dried Herbs
@@ -123,80 +123,80 @@ ingredients:
   - measure: 1 1/4 cups
     item: Apples
     prep: Peeled, cored, diced
-    group: 1 -> BBQ sauce
+    group: 3 -> BBQ sauce simmer
     qty: 1.25
     unit: cup
     nutrition: {fraction: 0.025, note: see Unsalted Butter}
   - measure: 1 cup
     item: Heavy Cream
-    group: 2 -> Voodoo sauce
+    group: 4 -> Voodoo cream
     qty: 1
     unit: cup
     nutrition: {fraction: 0.3, note: Voodoo sauce makes ~3 cups; about 7 oz is used (4 oz plated, 3 oz in the hash)}
   - measure: 2 TBLS
     item: Unsalted Butter
     prep: For the Voodoo sauce
-    group: 2 -> Voodoo sauce
+    group: 5 -> Voodoo butter
     qty: 2
     unit: TBLS
     nutrition: {fraction: 0.3, note: see Heavy Cream}
   - measure: 1 tsp
     item: Kosher Salt
     prep: For the Voodoo sauce, plus more for the hash
-    group: 2 -> Voodoo sauce (then 3 -> Sweet potato crab hash)
+    group: 6 -> Voodoo seasoning (then 9 -> Hash sauce)
     qty: 1
     unit: tsp
   - measure: 1 tsp, plus more
     item: Black Pepper
     prep: Freshly ground
-    group: 2 -> Voodoo sauce (then 3 -> Sweet potato crab hash)
+    group: 6 -> Voodoo seasoning (then 9 -> Hash sauce)
     qty: 1
     unit: tsp
   - measure: To coat the pan
     item: Olive Oil
-    group: 3 -> Sweet potato crab hash
+    group: 7 -> Hash oil
     qty: 1
     unit: TBLS
   - measure: 1/2 lb
     item: Sweet Potatoes
     prep: Roasted until tender, cut in 1/2-inch pieces
-    group: 3 -> Sweet potato crab hash
+    group: 8 -> Hash vegetables
     qty: 0.5
     unit: lb
   - measure: 1
     item: Shallot
     prep: Thinly sliced
-    group: 3 -> Sweet potato crab hash
+    group: 8 -> Hash vegetables
     qty: 1
     unit: each
   - measure: 1
     item: Poblano Pepper
     prep: Stemmed, seeded, julienned
-    group: 3 -> Sweet potato crab hash
+    group: 8 -> Hash vegetables
     qty: 1
     unit: each
     section: Produce
   - measure: 2 TBLS
     item: Worcestershire Sauce
     prep: For the hash
-    group: 3 -> Sweet potato crab hash
+    group: 9 -> Hash sauce
     qty: 2
     unit: TBLS
   - measure: 1/2 cup
     item: Jumbo Lump Crabmeat
-    group: 3 -> Sweet potato crab hash
+    group: 10 -> Crab
     qty: 0.5
     unit: cup
     section: Meat & Seafood
   - measure: 1 (9 oz)
     item: Swordfish Steak
-    group: 4 -> Swordfish
+    group: 11 -> Swordfish
     qty: 9
     unit: oz
     section: Meat & Seafood
   - measure: 1/2 cup
     item: Blackening Spice
-    group: 4 -> Swordfish
+    group: 11 -> Swordfish
     qty: 0.5
     unit: cup
     section: Spices & Dried Herbs
@@ -204,13 +204,13 @@ ingredients:
   - measure: 1 oz
     item: Tomatoes
     prep: Concassé (peeled, seeded, diced)
-    group: 5 -> Garnish
+    group: 12 -> Garnish
     qty: 1
     unit: oz
   - measure: 1 oz
     item: Scallions
     prep: Chopped
-    group: 5 -> Garnish
+    group: 12 -> Garnish
     qty: 1
     unit: oz
 nutrition:
@@ -468,7 +468,7 @@ nutrition:
 
 - In a large pot, sweat the butter, onion and garlic (200-250°F, no color) until translucent.
 - In a large bowl, blend the vinegar, apricot jam, dry mustard, brown sugar and Dijon until smooth.
-- Add to the pot with everything else in `1 -> BBQ sauce`. Bring to a simmer (185-205°F) and cook 1 hour. Freeze what you don't use.
+- Add to the pot with everything in `3 -> BBQ sauce simmer`. Bring to a simmer (185-205°F) and cook 1 hour. Freeze what you don't use.
 
 **Voodoo sauce** (makes about 3 cups)
 

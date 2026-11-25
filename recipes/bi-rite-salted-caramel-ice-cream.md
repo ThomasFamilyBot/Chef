@@ -16,30 +16,30 @@ ingredients:
   - measure: 3/4 cup
     item: Granulated Sugar
     prep: Divided; 1/2 cup for the caramel, 1/4 cup with the yolks
-    group: 1 -> Caramel (then 3 -> Yolks)
+    group: 1 -> Caramel sugar (then 4 -> Yolks)
     qty: 0.75
     unit: cup
   - measure: 1 3/4 cups
     item: Heavy Cream
     prep: At room temperature
-    group: 1 -> Caramel
+    group: 2 -> Cream
     qty: 1.75
     unit: cup
   - measure: 3/4 cup
     item: Low-Fat Milk
     prep: 1% or 2%
-    group: 2 -> Base
+    group: 3 -> Milk and salt
     qty: 0.75
     unit: cup
     section: Dairy & Eggs
   - measure: 1 tsp
     item: Kosher Salt
-    group: 2 -> Base
+    group: 3 -> Milk and salt
     qty: 1
     unit: tsp
   - measure: 5 large
     item: Egg Yolks
-    group: 3 -> Yolks
+    group: 4 -> Yolks
     qty: 5
     unit: each
 nutrition:

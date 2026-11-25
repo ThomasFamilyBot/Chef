@@ -48,39 +48,39 @@ ingredients:
   - measure: 2 TBLS + 1 tsp
     item: Kosher Salt
     prep: 2 TBLS in the marinade, 1 tsp in the flour
-    group: 1 -> Marinade (then 3 -> Dredge)
+    group: 1 -> Marinade (then 4 -> Dredge)
     qty: 7
     unit: tsp
   - measure: 8 (about 3 lb)
     item: Chicken Thighs, boneless skinless
-    group: 1 -> Marinade
+    group: 2 -> Chicken
     qty: 3
     unit: lb
   - measure: About 1 inch in the skillet (4 cups)
     item: Neutral Oil
     prep: Canola, for frying
-    group: 2 -> Fry
+    group: 3 -> Frying oil
     qty: 4
     unit: cup
     nutrition: {fraction: 0.1, note: frying oil; ~10% absorbed}
   - measure: 4 cups
     item: All-Purpose Flour
     prep: Unbleached
-    group: 3 -> Dredge
+    group: 4 -> Dredge
     qty: 4
     unit: cup
     nutrition: {fraction: 0.3, note: dredge flour; ~30% sticks}
   - measure: 2 TBLS
     item: Coconut Oil
     prep: Melted
-    group: 4 -> Finish
+    group: 5 -> Coconut oil
     qty: 2
     unit: TBLS
     section: Oils, Vinegars & Condiments
   - measure: 2 stems
     item: Curry Leaves
     prep: Fresh, for garnish
-    group: 4 -> Finish
+    group: 6 -> Curry leaves
     qty: 2
     unit: sprig
     section: Produce

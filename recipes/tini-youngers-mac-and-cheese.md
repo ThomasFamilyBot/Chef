@@ -23,7 +23,7 @@ ingredients:
   - measure: 3/4 tsp, plus more for the pasta water
     item: Kosher Salt
     prep: Diamond Crystal
-    group: 1 -> Pasta (then 3 -> Sauce)
+    group: 1 -> Pasta (then 4 -> Spices)
     qty: 0.75
     unit: tsp
   - measure: 1 lb
@@ -48,51 +48,51 @@ ingredients:
   - measure: 3 TBLS
     item: Unsalted Butter
     prep: Plus more for greasing the dish
-    group: 3 -> Sauce
+    group: 3 -> Butter
     qty: 3
     unit: TBLS
   - measure: 1 tsp
     item: Smoked Paprika
-    group: 3 -> Sauce
+    group: 4 -> Spices
     qty: 1
     unit: tsp
   - measure: 1/2 tsp
     item: Garlic Powder
-    group: 3 -> Sauce
+    group: 4 -> Spices
     qty: 0.5
     unit: tsp
   - measure: 1/2 tsp
     item: Black Pepper
     prep: Freshly ground
-    group: 3 -> Sauce
+    group: 4 -> Spices
     qty: 0.5
     unit: tsp
   - measure: 3 TBLS
     item: All-Purpose Flour
-    group: 3 -> Sauce
+    group: 5 -> Flour
     qty: 3
     unit: TBLS
   - measure: 1 can (12 fl oz)
     item: Evaporated Milk
     prep: Unsweetened; not sweetened condensed milk. Or 1 1/2 cups half and half
-    group: 3 -> Sauce
+    group: 6 -> Evaporated milk
     qty: 1
     unit: can
     section: Baking
   - measure: 2 cups
     item: Heavy Cream
-    group: 3 -> Sauce
+    group: 7 -> Cream and mustard
     qty: 2
     unit: cup
   - measure: 1 TBLS
     item: Dijon Mustard
-    group: 3 -> Sauce
+    group: 7 -> Cream and mustard
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Chives
     prep: Chopped; optional
-    group: 4 -> Finish
+    group: 8 -> Finish
     qty: 1
     unit: TBLS
 nutrition:
@@ -222,9 +222,9 @@ nutrition:
 
 **Make the cheese sauce**
 
-- In a large skillet over medium heat (pan surface 300-350°F), melt the butter. Add the smoked paprika, salt, garlic powder and black pepper and stir until fragrant, about 30 seconds.
-- Add the flour and keep stirring until it becomes a thick paste, 3 to 5 minutes.
-- Slowly whisk in the evaporated milk, a little at a time, and keep whisking until it thickens, about 5 minutes. Whisk in the heavy cream and mustard.
+- In a large skillet over medium heat (pan surface 300-350°F), melt the butter from `3 -> Butter`. Add the smoked paprika, salt, garlic powder and black pepper from `4 -> Spices` and stir until fragrant, about 30 seconds.
+- Add the flour from `5 -> Flour` and keep stirring until it becomes a thick paste, 3 to 5 minutes.
+- Slowly whisk in the evaporated milk from `6 -> Evaporated milk`, a little at a time, and keep whisking until it thickens, about 5 minutes. Whisk in the heavy cream and mustard from `7 -> Cream and mustard`.
 - Turn the heat to low. Slowly whisk in 2 1/2 cups of the grated cheese and let it melt, then whisk in another 2 1/2 cups. About 5 cups stay in the bowl.
 - Be patient here. If the heat is too high the sauce breaks and turns grainy. Keep whisking until creamy and smooth.
 - Stir in the cooked pasta until it is completely coated.

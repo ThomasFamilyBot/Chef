@@ -15,45 +15,45 @@ drive_doc_id: 13_Rfj0Q4FIs0xS1X7oUDqW7uWIyaYl9IjoN4JSRWUOo
 ingredients:
   - measure: 1/4 cup
     item: Olive Oil
-    group: 1 -> Brown the pancetta
+    group: 1 -> Heat the oil
     qty: 0.25
     unit: cup
   - measure: 4 oz
     item: Pancetta
     prep: Diced
-    group: 1 -> Brown the pancetta
+    group: 2 -> Brown the pancetta
     qty: 4
     unit: oz
   - measure: 1 medium
     item: Yellow Onion
     prep: Finely chopped
-    group: 2 -> Cook the onion
+    group: 3 -> Cook the onion
     qty: 1
     unit: each
   - measure: 15 oz can
     item: Crushed Tomatoes, 15 oz can
-    group: 3 -> Simmer the sauce
+    group: 4 -> Simmer the sauce
     qty: 1
     unit: can
   - measure: 2 tsp
     item: Tomato Paste
-    group: 3 -> Simmer the sauce
+    group: 4 -> Simmer the sauce
     qty: 2
     unit: tsp
   - measure: to taste
     item: Kosher Salt
-    group: 3 -> Simmer the sauce
+    group: 4 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: to taste
     item: Black Pepper
-    group: 3 -> Simmer the sauce
+    group: 4 -> Simmer the sauce
     qty: 1
     unit: to taste
   - measure: 1-1 1/2 lb
     item: Spaghetti
     prep: Or rotini
-    group: 4 -> Cook the pasta
+    group: 5 -> Cook the pasta
     qty: 1.5
     unit: lb
 nutrition:

@@ -16,55 +16,55 @@ ingredients:
   - measure: 1/4 cup
     item: Unsalted Butter
     prep: 4 TBLS (1/2 stick)
-    group: 1 -> Garlic sauce
+    group: 1 -> Butter
     qty: 0.25
     unit: cup
   - measure: 20 cloves
     item: Garlic
     prep: Medium; minced or smashed in a mortar & pestle
-    group: 1 -> Garlic sauce
+    group: 2 -> Garlic
     qty: 20
     unit: clove
   - measure: 1 TBLS + 1 tsp
     item: Oyster Sauce
-    group: 1 -> Garlic sauce
+    group: 3 -> Garlic sauce
     qty: 4
     unit: tsp
   - measure: 2 tsp
     item: Light Soy Sauce
     prep: Or shoyu
-    group: 1 -> Garlic sauce
+    group: 3 -> Garlic sauce
     qty: 2
     unit: tsp
   - measure: 2 tsp
     item: Fish Sauce
-    group: 1 -> Garlic sauce
+    group: 3 -> Garlic sauce
     qty: 2
     unit: tsp
-  - measure: 1 lb
-    item: Spaghetti
-    prep: Dry
-    group: 2 -> Cook the pasta
-    qty: 1
-    unit: lb
   - measure: 1 1/2 inches in the pan
     item: Water
     prep: For cooking the pasta; reserve it
-    group: 2 -> Cook the pasta
+    group: 4 -> Pasta water
     qty: 1
     unit: each
     shop: false
     nutrition: exclude
+  - measure: 1 lb
+    item: Spaghetti
+    prep: Dry
+    group: 5 -> Pasta
+    qty: 1
+    unit: lb
   - measure: 1 oz
     item: Parmesan
     prep: Grated (heaping 1/4 cup); or Pecorino Romano
-    group: 3 -> Finish
+    group: 6 -> Cheese
     qty: 1
     unit: oz
   - measure: Small handful
     item: Scallions
     prep: Thinly sliced; optional
-    group: 3 -> Finish
+    group: 7 -> Scallions
     qty: 2
     unit: each
 nutrition:
@@ -143,7 +143,7 @@ nutrition:
 
 - Melt the butter in a wok or saucepan over medium heat (pan surface about 300-350°F).
 - Add the garlic and cook, stirring, until fragrant but not browned, about 2 minutes.
-- Add the oyster sauce, soy sauce and fish sauce from `1 -> Garlic sauce` and stir to combine. Remove from the heat.
+- Add the oyster sauce, soy sauce and fish sauce from `3 -> Garlic sauce` and stir to combine. Remove from the heat.
 
 **Cook the pasta**
 

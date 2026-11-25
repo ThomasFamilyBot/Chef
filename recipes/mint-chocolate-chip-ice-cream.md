@@ -16,30 +16,30 @@ ingredients:
   - measure: 1 cup
     item: Whole Milk
     prep: Well chilled
-    group: 1 -> Base
+    group: 1 -> Milk and sugar
     qty: 1
     unit: cup
   - measure: 3/4 cup
     item: Granulated Sugar
-    group: 1 -> Base
+    group: 1 -> Milk and sugar
     qty: 0.75
     unit: cup
   - measure: 2 cups
     item: Heavy Cream
     prep: Well chilled
-    group: 1 -> Base
+    group: 2 -> Cream and peppermint
     qty: 2
     unit: cup
   - measure: 1 1/2-2 tsp, to taste
     item: Peppermint Extract
-    group: 1 -> Base
+    group: 2 -> Cream and peppermint
     qty: 2
     unit: tsp
     section: Baking
   - measure: 4 oz
     item: Semisweet Chocolate
     prep: Bar, chopped into tiny pieces
-    group: 2 -> Chips
+    group: 3 -> Chips
     qty: 4
     unit: oz
     section: Baking

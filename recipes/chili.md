@@ -16,113 +16,113 @@ ingredients:
   - measure: 2 TBLS (up to 4)
     item: Olive Oil
     prep: Enough to coat the pot
-    group: 1 -> Sauté and brown
+    group: 1 -> Heat the oil
     qty: 4
     unit: TBLS
   - measure: 1 1/2 cups (1 large)
     item: Yellow Onion
     prep: Chopped
-    group: 1 -> Sauté and brown
+    group: 2 -> Onion and garlic
     qty: 1
     unit: each
   - measure: 8 cloves
     item: Garlic
     prep: Chopped
-    group: 1 -> Sauté and brown
+    group: 2 -> Onion and garlic
     qty: 8
     unit: clove
+  - measure: 1/2 lb
+    item: Bacon
+    prep: For serving
+    group: 3 -> Bacon (then 8 -> Serve)
+    qty: 0.5
+    unit: lb
   - measure: 1 1/2 lb
     item: Ground Turkey Breast
-    group: 1 -> Sauté and brown
+    group: 4 -> Brown the meat
     qty: 1.5
     unit: lb
   - measure: 1 1/2 lb
     item: Sweet Italian Sausage
     prep: Removed from casing
-    group: 1 -> Sauté and brown
+    group: 4 -> Brown the meat
     qty: 1.5
     unit: lb
   - measure: 5 TBLS
     item: Chili Powder
     prep: Whole Foods "blend" is strong; 4 TBLS if you want milder
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 5
     unit: TBLS
   - measure: 1 TBLS
     item: Ground Cumin
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 1
     unit: TBLS
   - measure: 1 TBLS
     item: Cocoa Powder
     prep: Chocolate or hot cocoa mix
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 1
     unit: TBLS
   - measure: 1 tsp
     item: Dried Basil
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 1
     unit: tsp
   - measure: 1 tsp
     item: Cayenne
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 1
     unit: tsp
   - measure: 1/2 tsp
     item: Dried Oregano
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 0.5
     unit: tsp
   - measure: 1/2 tsp
     item: Dried Thyme
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 0.5
     unit: tsp
   - measure: 1/3 cup
     item: Brown Sugar
-    group: 2 -> Season and simmer
+    group: 5 -> Spices
     qty: 0.333
     unit: cup
   - measure: 28 oz
     item: Crushed Tomatoes, 28 oz can
     prep: With puree
-    group: 2 -> Season and simmer
+    group: 6 -> Tomatoes and liquids
     qty: 1
     unit: can
   - measure: 14.5 fl oz
     item: Chicken Broth, low sodium
-    group: 2 -> Season and simmer
+    group: 6 -> Tomatoes and liquids
     qty: 1
     unit: can
     section: Canned & Jarred
   - measure: 12 fl oz
     item: Beer
     prep: Ale/Stout/Porter. Best ever was an aged Anchor Celebration; Anchor is good
-    group: 2 -> Season and simmer
+    group: 6 -> Tomatoes and liquids
     qty: 1
     unit: bottle
   - measure: 6 oz
     item: Tomato Paste
-    group: 2 -> Season and simmer
+    group: 6 -> Tomatoes and liquids
     qty: 1
     unit: can
   - measure: 30-32 oz
     item: Prepared Chili Beans
-    group: 3 -> Finish and serve
+    group: 7 -> Beans
     qty: 2
     unit: can
     section: Canned & Jarred
-  - measure: 1/2 lb
-    item: Bacon
-    prep: For serving
-    group: 1 -> Sauté and brown (then 3 -> Finish and serve)
-    qty: 0.5
-    unit: lb
   - measure: 1 block
     item: Cheddar Cheese
     prep: For serving
-    group: 3 -> Finish and serve
+    group: 8 -> Serve
     qty: 1
     unit: each
     nutrition:
@@ -131,7 +131,7 @@ ingredients:
   - measure: 1 container
     item: Sour Cream
     prep: For serving
-    group: 3 -> Finish and serve
+    group: 8 -> Serve
     qty: 1
     unit: container
     nutrition:
@@ -139,7 +139,7 @@ ingredients:
       note: for serving; half the container assumed used
   - measure: 1
     item: Baguette
-    group: 3 -> Finish and serve
+    group: 8 -> Serve
     qty: 1
     unit: each
 nutrition:

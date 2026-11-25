@@ -42,19 +42,19 @@ ingredients:
     unit: tsp
   - measure: 3 cups
     item: Heavy Cream
-    group: 2 -> Custard
+    group: 2 -> Cream
     qty: 3
     unit: cup
   - measure: 3 oz (85 g)
     item: Cream Cheese
     prep: Cubed, at room temperature
-    group: 2 -> Custard
+    group: 3 -> Cream cheese
     qty: 3
     unit: oz
     section: Dairy & Eggs
   - measure: 1/3 cup
     item: Whole Milk
-    group: 3 -> Soft serve
+    group: 4 -> Soft serve
     qty: 0.333
     unit: cup
 nutrition:

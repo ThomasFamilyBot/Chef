@@ -56,27 +56,27 @@ ingredients:
     unit: tsp
   - measure: 2 (8 oz each)
     item: Chicken Breasts, boneless skin-on
-    group: 1 -> Brine
+    group: 2 -> Chicken
     qty: 1
     unit: lb
     section: Meat & Seafood
   - measure: 1 TBLS + 1 tsp
     item: Grapeseed Oil
     prep: Or canola; 1 TBLS for the chicken, 1 tsp for the sauce
-    group: 2 -> Sear & roast (then 3 -> Sauce)
+    group: 3 -> Sear & roast (then 4 -> Sauce)
     qty: 4
     unit: tsp
   - measure: 1 TBLS
     item: Turbinado Sugar
     prep: Sugar in the raw
-    group: 4 -> Brûlée
+    group: 5 -> Brûlée
     qty: 1
     unit: TBLS
     section: Baking
   - measure: 1/4 cup
     item: Cilantro
     prep: Chopped
-    group: 5 -> Serve
+    group: 6 -> Serve
     qty: 0.25
     unit: cup
 nutrition:

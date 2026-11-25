@@ -43,61 +43,61 @@ ingredients:
   - measure: 6-8 TBLS
     item: Olive Oil
     prep: Mild-tasting; divided
-    group: 2 -> Toast the bread (then 3 -> Vinaigrette, 4 -> Garlic & scallions)
+    group: 2 -> Toast the bread (then 4 -> Vinaigrette, 5 -> Skillet oil)
     qty: 8
     unit: TBLS
   - measure: 2 tsp
     item: Pine Nuts
     prep: Toasted (recommended)
-    group: 2 -> Toast the bread
+    group: 3 -> Pine nuts
     qty: 2
     unit: tsp
     section: Nuts, Snacks & Dried Fruit
   - measure: 1 1/2 TBLS
     item: Champagne Vinegar
     prep: Or white wine vinegar
-    group: 3 -> Vinaigrette
+    group: 4 -> Vinaigrette
     qty: 1.5
     unit: TBLS
   - measure: To taste
     item: Kosher Salt
-    group: 3 -> Vinaigrette (then 5 -> Finish)
+    group: 4 -> Vinaigrette (then 8 -> Finish)
     qty: 1
     unit: to taste
   - measure: To taste
     item: Black Pepper
     prep: Freshly cracked
-    group: 3 -> Vinaigrette (then 5 -> Finish)
+    group: 4 -> Vinaigrette (then 8 -> Finish)
     qty: 1
     unit: to taste
   - measure: 2-3 cloves
     item: Garlic
     prep: Slivered
-    group: 4 -> Garlic & scallions
+    group: 6 -> Garlic & scallions
     qty: 3
     unit: clove
   - measure: 1/4 cup (about 4)
     item: Scallions
     prep: Slivered, with a little of the green
-    group: 4 -> Garlic & scallions
+    group: 6 -> Garlic & scallions
     qty: 4
     unit: each
   - measure: 2 TBLS
     item: Chicken Stock
     prep: Lightly salted; or lightly salted water
-    group: 4 -> Garlic & scallions
+    group: 7 -> Chicken stock
     qty: 2
     unit: TBLS
   - measure: 1 (3-4 lb)
     item: Whole Chicken
     prep: Roasted, with its pan juices (Zuni or Barbara Kafka's simplest roast chicken)
-    group: 5 -> Finish
+    group: 8 -> Finish
     qty: 4
     unit: lb
   - measure: 3 handfuls (about 3 oz)
     item: Arugula
     prep: Or frisée or red mustard greens; washed & dried
-    group: 5 -> Finish
+    group: 8 -> Finish
     qty: 3
     unit: oz
 nutrition:
@@ -227,7 +227,7 @@ nutrition:
 
 **Dress the bread**
 
-- Whisk about 1/4 cup of the olive oil with the Champagne vinegar, salt and pepper (`3 -> Vinaigrette`).
+- Whisk about 1/4 cup of the olive oil with the Champagne vinegar, salt and pepper (`4 -> Vinaigrette`).
 - In a wide salad bowl, toss the warm bread with about 1/4 cup of the vinaigrette; it will be unevenly dressed.
 - Taste one of the more saturated pieces. If bland, add salt and pepper and toss again.
 
