@@ -15,8 +15,8 @@ times:
   rest: null
   total: 295
 tags: [beef, main, braise, french, make-ahead, holiday, project, thanksgiving-26]
-techniques_skip: [medium heat, high heat]
-drive_doc_id: 11s9p0CNqOw-lEZp64eWw2wAH59a1JfiFtENeM1gDsa8
+techniques_skip: [medium heat, high heat, boil]
+drive_doc_id: 1-DzNiSGbOogkBcQRaolQe5LJBPJOe9P_A5CbIQfNdE4
 ingredients:
   - measure: 2 lb
     item: Beef Short Ribs, bone-in
@@ -85,6 +85,7 @@ ingredients:
     unit: TBLS
   - measure: 1 bottle (25.4 fl oz)
     item: Dry Red Wine
+    prep: A standard 750 mL bottle
     group: 3 -> Braise
     qty: 1
     unit: bottle
@@ -115,7 +116,7 @@ ingredients:
     nutrition: exclude
   - measure: 1 bottle (25.4 fl oz)
     item: Ruby Port
-    prep: An inexpensive one
+    prep: An inexpensive one; a standard 750 mL bottle
     group: 4 -> Port syrup
     qty: 1
     unit: bottle
@@ -275,7 +276,9 @@ nutrition:
 
 **Make the port syrup**
 
-- While the ribs braise, bring the port to a very gentle simmer in a large saucepan. Reduce, uncovered, until syrupy, about 1 hour. You want about 1/2 cup.
+- While the ribs braise, bring the port to a very gentle simmer in a large saucepan: 180-190°F, with a small bubble breaking the surface every second or two and steady steam. Reduce, uncovered, until syrupy, about 1 hour. You want about 1/2 cup.
+- Don't let it boil hard; that dulls the port and makes it easy to scorch. If it is barely moving after 20 minutes, nudge it up to 195-200°F.
+- Turn the burner down as it thickens. The last 10 to 15 minutes are when it can burn. It thickens more as it cools.
 
 **Reduce the sauce**
 
@@ -294,4 +297,5 @@ nutrition:
 - Thanksgiving 26 version. What changed from the original: 2 lb bone-in English-cut ribs plus 2 lb boneless chuck short ribs stand in for 5 lb of bone-in ribs. That is about the same amount of meat, so every liquid is as written.
 - Both cuts came from the freezer, so they are left off the shopping list. Trim any dry, pale freezer-burned spots before searing.
 - Make it Monday to Wednesday. The ribs keep in their finished sauce, in an airtight container in the fridge, for up to 5 days. Rewarm gently on the stove on Thursday; the oven stays free.
-- Readers on the recipe page suggest making the port syrup a day ahead and adding it to taste, since the full amount can be sweet.
+- Readers on the recipe page suggest making the port syrup a day ahead and adding it to taste, since the full amount can be sweet. It keeps in a jar in the fridge, and the reduction can be stopped and restarted without harm.
+- The 180-190°F target for the port is ours; the source says only "a very gentle simmer".

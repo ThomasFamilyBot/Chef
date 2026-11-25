@@ -11,8 +11,8 @@ times:
   rest: null
   total: 295
 tags: [beef, main, braise, french, make-ahead, holiday, project]
-techniques_skip: [medium heat, high heat]
-drive_doc_id: 1sK5M2EQA9QtxR2ojMtoKSU28YKGi8-lz_B7jSBRYDBc
+techniques_skip: [medium heat, high heat, boil]
+drive_doc_id: 19xRmKD6yYwhQzDbKw6XL9smndIBRzYDQ4cGBJjJoyxY
 ingredients:
   - measure: 5 lb
     item: Beef Short Ribs, bone-in
@@ -72,6 +72,7 @@ ingredients:
     unit: TBLS
   - measure: 1 bottle (25.4 fl oz)
     item: Dry Red Wine
+    prep: A standard 750 mL bottle
     group: 3 -> Braise
     qty: 1
     unit: bottle
@@ -102,7 +103,7 @@ ingredients:
     nutrition: exclude
   - measure: 1 bottle (25.4 fl oz)
     item: Ruby Port
-    prep: An inexpensive one
+    prep: An inexpensive one; a standard 750 mL bottle
     group: 4 -> Port syrup
     qty: 1
     unit: bottle
@@ -255,7 +256,9 @@ nutrition:
 
 **Make the port syrup**
 
-- While the ribs braise, bring the port to a very gentle simmer in a large saucepan. Reduce, uncovered, until syrupy, about 1 hour. You want about 1/2 cup.
+- While the ribs braise, bring the port to a very gentle simmer in a large saucepan: 180-190°F, with a small bubble breaking the surface every second or two and steady steam. Reduce, uncovered, until syrupy, about 1 hour. You want about 1/2 cup.
+- Don't let it boil hard; that dulls the port and makes it easy to scorch. If it is barely moving after 20 minutes, nudge it up to 195-200°F.
+- Turn the burner down as it thickens. The last 10 to 15 minutes are when it can burn. It thickens more as it cools.
 
 **Reduce the sauce**
 
@@ -274,4 +277,5 @@ nutrition:
 - Make ahead: the ribs keep in their finished sauce, in an airtight container in the fridge, for up to 5 days. Reheat gently.
 - Flanken-cut ribs also work if each slab is about 2 inches thick; cut between the bones into portions.
 - Serve with mashed potatoes, polenta or crusty bread. Off the bone and shredded into the sauce, it also dresses fresh tagliatelle or pappardelle.
-- Readers on the recipe page suggest making the port syrup a day ahead and adding it to taste, since the full amount can be sweet.
+- Readers on the recipe page suggest making the port syrup a day ahead and adding it to taste, since the full amount can be sweet. It keeps in a jar in the fridge, and the reduction can be stopped and restarted without harm.
+- The 180-190°F target for the port is ours; the source says only "a very gentle simmer".
