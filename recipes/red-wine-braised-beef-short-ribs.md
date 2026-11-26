@@ -12,7 +12,7 @@ times:
   total: 295
 tags: [beef, main, braise, french, make-ahead, holiday, project]
 techniques_skip: [medium heat, high heat, boil]
-drive_doc_id: 19xRmKD6yYwhQzDbKw6XL9smndIBRzYDQ4cGBJjJoyxY
+drive_doc_id: 1Qqo66_Zp2beS9uZUR0PF061cIUmoMy-OeIb3ydNv9AQ
 ingredients:
   - measure: 5 lb
     item: Beef Short Ribs, bone-in
@@ -253,6 +253,7 @@ nutrition:
 - If using store-bought stock, pour it into a bowl and sprinkle the gelatin over the top until it blooms (`6 -> Stock`). Add the stock to the pot.
 - Return the ribs and their juices, nestling them into the liquid. Add the thyme and bay leaves from `7 -> Herbs`.
 - Cover partially and braise in the oven until fork-tender, 2 to 3 hours.
+- Fork-tender: a fork slides into the thickest part like soft butter, and on bone-in pieces the bone wiggles or starts to slide loose. About 200-205°F inside.
 
 **Make the port syrup**
 

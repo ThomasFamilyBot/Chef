@@ -335,3 +335,5 @@ Rule: never trash a doc before its replacement exists; log the old id, the new i
 | 2026-11-25 | skillet-roasted-lamb-loins-with-herbs-thanksgiving-26 | 18DCKxSWzE1pXG8Lm5IZ0sBbkWMijqC4Bp4MWq8meYko | 1i5qDTgDhmSBPkePZ3-ts4XmbYnYl0OIOV2Z37m_0OoA | mise groups redone: one bowl, one moment; old doc trashed 2026-11-25 |
 | 2026-11-25 | triple-toasted-vanilla-ice-cream | 1P8olxVmNiOyaeRzsWTnKjmkFjxXhY8gxb2-6_OjtNzU | 133if7bdO0r1KwEa74djnZkKJQMgWPg6YND2LAbn8sIY | mise groups redone: one bowl, one moment; old doc trashed 2026-11-25 |
 | 2026-11-25 | annika-cookies-n-creme | 1piQ7qWH9eztYoIvxWx2tHTOxLsfaVrAHTchdNZBuY50 | 1himUjKtDoZWecV7U6B5WcOOG3rYXD_HVpf_oRn0Z8UY | mise groups redone: one bowl, one moment; old doc trashed 2026-11-25 |
+| 2026-11-25 | red-wine-braised-beef-short-ribs-thanksgiving-26 | 1zBXvMzfIZxzyskqNm6l3bmTAO7caIZyEAUIhAI0MBL8 | 1xm7553iTcSDm3x_CrH05oM_-I58yvZ9HbZV61IC2HT4 | fork-tender test and 200-205°F added; old doc trashed 2026-11-25 |
+| 2026-11-25 | red-wine-braised-beef-short-ribs | 19xRmKD6yYwhQzDbKw6XL9smndIBRzYDQ4cGBJjJoyxY | 1Qqo66_Zp2beS9uZUR0PF061cIUmoMy-OeIb3ydNv9AQ | fork-tender test and 200-205°F added; old doc trashed 2026-11-25 |
