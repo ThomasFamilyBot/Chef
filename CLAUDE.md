@@ -28,6 +28,7 @@ Everything lives in this repo. A static site is built from it and deployed to Gi
 - `scripts/validate.py` — checks every recipe against the format. Run it before committing.
 - `scripts/build.py` — builds the site into `dist/`.
 - `scripts/export_gdoc_html.py` — renders a recipe as HTML in the family's Google Doc template layout, for writing back to Drive.
+- `scripts/push_docs.py` — rewrites recipes' Google Docs in place from the recipe files (`--stale`, `--all`, or slugs); needs `docs_api` (`docs/DOCS_API.md`). `scripts/gdoc_table_requests.py` is the fallback for one Doc's table without it.
 - `scripts/nutrition.py` — computes a recipe's nutrition from the canonical table (`--check`, `--write <slug>`, `--all`).
 - `scripts/nutrition_check.py` — sanity checks on the table and on computed recipes (ranges, Atwater consistency, portion weights, per-serving plausibility). Run after any nutrition change.
 - `scripts/usda_fetch.sh` + `scripts/usda_lookup.py` — local copy of USDA SR Legacy; `search`, `show`, and `row` (emits a ready canonical CSV row with FDC id, URL and portion weights).
@@ -96,9 +97,24 @@ Tapping an item with a small picture marker (photo) or a small "i" (notes only) 
 - Use `--alias` so a template name like "Dried Mango (organic)" and the recipe name "Dried Mango" open the same card. Read the converted photo back to check it is upright.
 - Then build, commit, push, wait for the deploy, and tell the person which item now has a card.
 
-## When asked to put a recipe in Google Drive
+## When asked to put a recipe in Google Drive, or after a recipe changes
 
-Follow `.claude/skills/drive-export/SKILL.md`.
+Follow `.claude/skills/drive-export/SKILL.md`. A recipe's Google Doc is updated **in place**, so its link never changes: when `docs_api` is set in `data/site.yaml`, `python3 scripts/push_docs.py --stale` does every Doc that is out of date in one command, on the computer. Replacing a Doc (new link, old one to the trash) is the last resort.
+
+## Library-wide changes (a new rule, a rename, a format change: anything that touches many recipes)
+
+Do them in this order. The aim is that nothing recipe-sized ever passes through the conversation.
+
+1. **Write the rule first,** here and in the skill that owns it, with the reason and the date. New recipes then follow it while the old ones are being fixed.
+2. **Fix the one recipe the person is looking at** and push it, before starting on the rest. They are often cooking from it.
+3. **Read, then change by script.** For judgement calls, print a compact view of each recipe (table plus directions, no nutrition block) and read it in batches of about a dozen. Apply each decision through a small helper that takes a short spec per recipe and refuses to write when something does not add up (an ingredient unassigned, a label the directions cite that no longer exists). Never hand-edit 100 files, and keep the helper in `scripts/` if the job could come back.
+4. **Prove nothing else moved.** Compare every changed recipe with `git show HEAD:<file>` after parsing: only the fields the change is about may differ, and the directions keep their line count unless the change is to the directions. Then `validate.py`, `build.py`, `nutrition_check.py`.
+5. **One commit, one push** for the library; wait for the deploy and check one live page.
+6. **Google Docs: `python3 scripts/push_docs.py --stale`.** One command, links kept. If `docs_api` is not set up, say how many Docs are now out of date and offer the five-minute setup in `docs/DOCS_API.md`; do not re-create Docs one by one through the session (about 8 KB each, and every link changes).
+7. **Add a check** to `validate.py` for whatever can be checked by machine, and say plainly what it cannot check.
+8. **Report** how many recipes changed, how many were already right, and anything skipped.
+
+Why: on 2026-11-25 all 168 recipes were regrouped ("one bowl, one moment"). The recipe files took one scripted pass, but the Docs could only be replaced one at a time through the conversation, so only 7 of 103 were done and each got a new link. `push_docs.py` exists so that never happens again.
 
 ## Google identities
 
@@ -111,5 +127,6 @@ Follow `.claude/skills/drive-export/SKILL.md`.
 - **Start every task with `git pull --rebase origin main`.** Several Claude sessions and people share this repo; a stale checkout makes comparisons and exports wrong (e.g. a Docs refresh that "matches" an old version).
 - Run `python3 scripts/validate.py` after editing any recipe; fix what it reports.
 - Run `python3 scripts/build.py` to confirm the site builds.
+- After a pushed change to any recipe, if `docs_api` is set in `data/site.yaml`: `python3 scripts/push_docs.py --stale`, then commit `docs/DOC_SYNC.json`. It only touches Docs whose page changed.
 - Commit with a clear message and push to `main`. The site redeploys automatically; wait for `gh run list --limit 1` to show the run completed before sending anyone a site link (Pages takes a minute or two).
 - Units: `g`, `tsp`, `TBLS`, `cup`, `oz` (weight), `fl oz` (volume), `lb`. Nothing else without asking.

@@ -28,6 +28,8 @@ lists:
   - Andrea
 # lists_api: the Apps Script web-app URL (see docs/SHARED_LISTS.md); empty = each phone keeps its own lists.
 lists_api: "https://script.google.com/macros/s/AKfycbz-DRGBlGvj0H4haTfkUzh6SPKe4QmTaOqRwAliWKnQq9NhA4dQMWV43GsVkGP6widwAw/exec"
+# docs_api: the Apps Script web-app URL that rewrites recipe Google Docs in place (see docs/DOCS_API.md); empty = use the drive-export skill's slower routes.
+docs_api: ""
 
 # --- Ask ChefBot: the Ask page opens a new Claude session with the question typed in (the recommend skill answers it)
 ask:
